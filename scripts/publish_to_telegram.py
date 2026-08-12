@@ -11,7 +11,6 @@ TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
 QWEN_API_KEY = os.getenv('QWEN_API_KEY', '')
 PEXELS_API_KEY = os.getenv('PEXELS_API_KEY', '')
 
-# Ваш канал
 CHANNEL_USERNAME = "@allnewsin"
 CHANNEL_LINK = f"https://t.me/{CHANNEL_USERNAME.replace('@', '')}"
 
@@ -19,8 +18,8 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 }
 
-# Источники с водяными знаками на фото
-WATERMARK_SOURCES = ['mash', 'baza', '112', 'lifeshot', 'шторм', 'readovka', 'барыня', 'mash money', 'просто пшик']
+# Источники с водяными знаками — их фото и видео НЕ берём
+WATERMARK_SOURCES = ['mash', 'baza', '112', 'lifeshot', 'шторм', 'readovka', 'барыня']
 
 AD_MARKERS = [
     'подпишись', 'подписывайся', 'подписывайтесь', 'подписаться на',
@@ -70,27 +69,18 @@ def is_ad(title, description):
     return hits >= 2
 
 def validate_article(article):
-    """Строгий фильтр: пропускаем только посты с нормальным текстом и заголовком"""
     title = (article.get('title', '') or '').strip()
     description = article.get('description', '') or article.get('summary', '') or ''
     text = remove_links(html_to_paragraphs(description))
     
-    # Реклама — пропускаем
     if is_ad(title, description):
         return False, "реклама"
-    
-    # Мало текста — пост-фото или бессмыслица, фото нельзя проверить → не публикуем
     if len(text) < 80:
         return False, "мало текста"
-    
-    # Заголовок — голая ссылка
     if re.match(r'^https?://', title) and len(text) < 150:
         return False, "заголовок-ссылка"
-    
-    # Пустой заголовок при коротком тексте
     if len(title) < 10 and len(text) < 150:
         return False, "пустой заголовок"
-    
     return True, ""
 
 def limit_text(text, limit=1500):
@@ -147,7 +137,7 @@ def clean_title(title):
     cleaned = title.strip()
     while cleaned:
         new_cleaned = emoji_pattern.sub('', cleaned, count=1).strip()
-        new_cleaned = re.sub(r'^[🔥🎬🎥💥]+\s*', '', new_cleaned).strip()
+        new_cleaned = re.sub(r'^[🔥🎥💥]+\s*', '', new_cleaned).strip()
         if new_cleaned == cleaned:
             break
         cleaned = new_cleaned
@@ -295,12 +285,30 @@ def is_watermarked_source(article):
     source = article.get('source', '').lower()
     return any(wm in source for wm in WATERMARK_SOURCES)
 
+def score_article(title):
+    """Qwen оценивает интересность новости от 1 до 10"""
+    if not QWEN_API_KEY:
+        return 5
+    try:
+        client = get_qwen_client()
+        response = client.chat.completions.create(
+            model="qwen-turbo",
+            messages=[{"role": "user", "content":
+                f"Оцени от 1 до 10, насколько эта новость интересна и резонансна для широкой аудитории (актуальность, эмоциональность, необычность). Ответь одним числом.\n\nНовость: {title}"}],
+            max_tokens=5,
+            temperature=0.3
+        )
+        m = re.search(r'\d+', response.choices[0].message.content)
+        score = int(m.group()) if m else 5
+        return max(1, min(10, score))
+    except Exception:
+        return 5
+
 def rewrite_with_qwen(title, text):
     if not QWEN_API_KEY:
         print("  ⚠️ QWEN_API_KEY не задан")
         return ""
     source_text = limit_text(text, 1500)
-    # Страховка от галлюцинаций: не переписываем пустоту
     if len(source_text) < 80:
         return ""
     prompt = f"""Ты — ироничный новостной блогер в стиле Telegram-каналов «Топор» и «Лентач».
@@ -353,7 +361,7 @@ def generate_hashtags(article):
         'происшествия': ['авари', 'убийств', 'пожар', 'суд', 'арест', 'нож', 'дрон', 'взрыв', 'метамфетамин', 'задержали', 'затопило', 'поток', 'колони', 'иск'],
         'политика': ['путин', 'президент', 'трамп', 'иран', 'саммит', 'дума', 'закон', 'депутат', 'милонов', 'мчс'],
         'общество': ['москв', 'росси', 'школ', 'больниц', 'подмосков', 'курильск', 'демографи', 'ростов', 'казан', 'саратов'],
-        'наука': ['учен', 'космос', 'лун', 'станци', 'амёба', 'юпитер', 'сияние', 'наббл', 'хаббл'],
+        'наука': ['учен', 'космос', 'лун', 'станци', 'амёба', 'юпитер', 'сияние', 'хаббл'],
         'спорт': ['спорт', 'матч', 'футбол', 'хоккей', 'чемпион'],
         'шоубиз': ['актер', 'фильм', 'пев', 'сериал', 'кино', 'крипипаст', 'джефф', 'паук'],
         'вмире': ['сша', 'кита', 'украин', 'европ', 'герман', 'великобритан', 'иран', 'япон'],
@@ -433,6 +441,7 @@ def send_video(message, video_url):
 
 def format_article(article):
     is_tg = article.get('source', '').startswith('TG:')
+    dirty = is_watermarked_source(article)
     
     # 1. Текст и медиа из RSS
     description = article.get('description', '') or article.get('summary', '')
@@ -457,26 +466,26 @@ def format_article(article):
         image = rss_image or tr_image
         video = rss_video or tr_video
     
-    # 2. Заголовок
+    # 2. ВОДЯНЫЕ ЗНАКИ: у грязных источников НЕ берём ни фото, ни видео
+    if dirty:
+        video = ""
+        image = ""
+        print("  🚫 Источник с водяными знаками: медиа не берём")
+    
+    # 3. Заголовок
     title = clean_title(article.get('title_ru', article.get('title', '')))
     title = remove_links(title)
     if not title or len(title) < 10:
         first = re.split(r'[.!?\n]', text, 1)[0].strip()
         title = first[:100] if first else 'Новости дня'
     
-    # 3. ФОТО: водяные знаки НЕ публикуем
-    if is_watermarked_source(article):
-        # Пытаемся заменить на сток; нет стока — публикуем БЕЗ фото
+    # 4. Если нет ни фото ни видео — сток через Pexels
+    if not image and not video:
         stock = get_stock_image(title)
-        image = stock if stock else ""
-        if not stock:
-            print("  🚫 Водяной знак: публикуем без фото")
-    elif not image:
-        # Нет фото вообще — пробуем сток, нет и его — текст без фото
-        stock = get_stock_image(title)
-        image = stock if stock else ""
+        if stock:
+            image = stock
     
-    # 4. Переписываем через Qwen
+    # 5. Переписываем через Qwen
     rewritten = rewrite_with_qwen(title, text)
     final_text = rewritten if rewritten else limit_text(text, 900)
     
@@ -536,7 +545,7 @@ def main():
     new_articles = [a for a in articles if a['link'] not in published]
     print(f"🆕 Новых статей: {len(new_articles)}")
     
-    # СТРОГИЙ ФИЛЬТР
+    # Фильтр рекламы и бессмыслицы
     clean_articles = []
     for a in new_articles:
         ok, reason = validate_article(a)
@@ -544,10 +553,27 @@ def main():
             clean_articles.append(a)
         else:
             print(f"  🚫 Пропускаем ({reason}): {a.get('title', '')[:60]}")
-    
     print(f"✅ После фильтра: {len(clean_articles)} статей")
     
-    articles_to_publish = clean_articles[:5]
+    # ПРИОРИТЕТЫ: Топор с медиа → Топор → остальные по популярности
+    candidates = clean_articles[:20]
+    scored = []
+    for a in candidates:
+        source = a.get('source', '').lower()
+        is_topor = 'топор' in source
+        description = a.get('description', '') or ''
+        has_image, has_video = extract_media_from_html(description)
+        has_clean_media = (has_image or has_video) and not is_watermarked_source(a)
+        
+        score = score_article(a.get('title', ''))
+        bonus = (3 if is_topor else 0) + (2 if has_clean_media else 0)
+        total = score + bonus
+        scored.append((total, a))
+        print(f"  ⭐ {a.get('title', '')[:40]}... → {score} + бонус {bonus} = {total}")
+    
+    scored.sort(key=lambda x: x[0], reverse=True)
+    articles_to_publish = [a for _, a in scored[:5]]
+    
     if not articles_to_publish:
         print("✅ Нет новых статей для публикации")
         return
