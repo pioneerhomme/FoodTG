@@ -10,6 +10,10 @@ TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
 QWEN_API_KEY = os.getenv('QWEN_API_KEY', '')
 
+# 👇 ЗАМЕНИТЕ на username вашего канала (например, @my_news_channel)
+CHANNEL_USERNAME = "@allnewsin"
+CHANNEL_LINK = f"https://t.me/{CHANNEL_USERNAME.replace('@', '')}"
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 }
@@ -74,9 +78,31 @@ def clean_text(text):
     return '\n\n'.join(clean)
 
 def clean_title(title):
-    """Убирает эмодзи-префиксы от RSSHub из заголовка"""
-    title = re.sub(r'^[\s🖼🎬📷📹🔥]+', '', title).strip()
-    return title
+    """Убирает эмодзи-префиксы (🖼, 🎬, 📷, 🔥, 📹, 🎥) и лишние пробелы из заголовка"""
+    if not title:
+        return title
+    # Удаляем любые эмодзи в начале строки (Unicode emoji regex)
+    emoji_pattern = re.compile(
+        "["
+        "\U0001F300-\U0001F9FF"  # Misc Symbols, Emoticons, etc.
+        "\U00002600-\U000027BF"  # Misc symbols
+        "\U0001FA00-\U0001FA6F"  # Chess Symbols
+        "\U0001FA70-\U0001FAFF"  # Symbols Extended-A
+        "\U00002702-\U000027B0"
+        "]+",
+        flags=re.UNICODE
+    )
+    # Чистим последовательно в начале строки
+    cleaned = title.strip()
+    while cleaned:
+        # Убираем эмодзи в начале
+        new_cleaned = emoji_pattern.sub('', cleaned, count=1).strip()
+        # Убираем символы вроде 🔥 🖼 🎬 📷
+        new_cleaned = re.sub(r'^[🔥🖼🎬📷📹🎥⚡💥]+\s*', '', new_cleaned).strip()
+        if new_cleaned == cleaned:
+            break
+        cleaned = new_cleaned
+    return cleaned
 
 def extract_media_from_html(html_text):
     html_text = html_text or ""
@@ -146,7 +172,6 @@ def extract_og_fallback(link):
         return "", "", ""
 
 def download_media(url):
-    """Скачивает медиафайл в память, возвращает (content, filename)"""
     if not url:
         return None, None
     try:
@@ -154,7 +179,6 @@ def download_media(url):
         if resp.status_code != 200:
             return None, None
         content_type = resp.headers.get('content-type', '')
-        # Определяем расширение
         if 'video' in content_type:
             ext = 'mp4'
         elif 'jpeg' in content_type or 'jpg' in content_type:
@@ -164,7 +188,6 @@ def download_media(url):
         elif 'gif' in content_type:
             ext = 'gif'
         else:
-            # Определяем по URL
             if '.mp4' in url:
                 ext = 'mp4'
             elif '.jpg' in url or '.jpeg' in url:
@@ -262,10 +285,8 @@ def send_message(message):
         return False
 
 def send_photo(message, image_url):
-    """Отправляет фото: сначала через URL, потом через загрузку файла"""
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
     
-    # Попытка 1: отправить по URL (быстро)
     data = {"chat_id": TELEGRAM_CHANNEL_ID, "photo": image_url, "caption": message, "parse_mode": "HTML"}
     try:
         result = requests.post(url, data=data).json()
@@ -276,7 +297,6 @@ def send_photo(message, image_url):
     except Exception as e:
         print(f"  ⚠️ Photo URL error: {e}")
     
-    # Попытка 2: скачать и отправить как файл (надёжно)
     content, filename = download_media(image_url)
     if content:
         try:
@@ -294,10 +314,8 @@ def send_photo(message, image_url):
     return False
 
 def send_video(message, video_url):
-    """Отправляет видео: сначала URL, потом через загрузку"""
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendVideo"
     
-    # Попытка 1: URL
     data = {"chat_id": TELEGRAM_CHANNEL_ID, "video": video_url, "caption": message, "parse_mode": "HTML"}
     try:
         result = requests.post(url, data=data).json()
@@ -308,10 +326,8 @@ def send_video(message, video_url):
     except Exception as e:
         print(f"  ⚠️ Video URL error: {e}")
     
-    # Попытка 2: скачать и отправить
     content, filename = download_media(video_url)
     if content:
-        # Telegram лимит для загрузки: 50MB
         if len(content) > 50 * 1024 * 1024:
             print(f"  ⚠️ Видео слишком большое ({len(content)//1024//1024}MB)")
             return False
@@ -331,7 +347,7 @@ def send_video(message, video_url):
 
 def format_article(article):
     title = article.get('title_ru', article.get('title', 'Без заголовка'))
-    title = clean_title(title)  # Убираем эмодзи-префиксы RSSHub
+    title = clean_title(title)
     
     # 1. Медиа и текст из RSS
     description = article.get('description', '') or article.get('summary', '')
@@ -354,7 +370,7 @@ def format_article(article):
     # 4. Выбираем лучший текст
     text = tr_text if len(tr_text) > len(rss_text) else rss_text
     
-    # 5. Медиа: приоритет RSS (для TG-каналов)
+    # 5. Медиа
     image = rss_image or tr_image
     video = rss_video or tr_video
     
@@ -366,18 +382,23 @@ def format_article(article):
     safe_title = html_lib.escape(title)
     safe_text = html_lib.escape(final_text)
     
+    # Кнопка «Подписаться» со встроенной ссылкой на канал
+    subscribe_link = f'<a href="{CHANNEL_LINK}"><b>🔔 Подписаться</b></a>'
+    
     message = f"""🔥 <b>{safe_title}</b>
 
 {safe_text}
 
+{subscribe_link}
 {hashtags}"""
     
     if (image or video) and len(message) > 1024:
-        safe_text = html_lib.escape(limit_text(final_text, max(200, 1000 - len(title) - len(hashtags))))
+        safe_text = html_lib.escape(limit_text(final_text, max(200, 1000 - len(title) - len(hashtags) - 50)))
         message = f"""🔥 <b>{safe_title}</b>
 
 {safe_text}
 
+{subscribe_link}
 {hashtags}"""
     
     return message, image, video
