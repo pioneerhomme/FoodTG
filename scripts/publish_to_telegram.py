@@ -22,6 +22,16 @@ HEADERS = {
 # Источники с водяными знаками на фото — им подставляем сток
 WATERMARK_SOURCES = ['mash', 'baza', '112', 'lifeshot', 'шторм', 'readovka', 'барыня']
 
+# Маркеры рекламы
+AD_MARKERS = [
+    'подпишись', 'подписывайся', 'подписывайтесь', 'подписаться на',
+    'наш канал', 'канал про', 'мой канал', 'этот канал', 'наши каналы',
+    'реклама', 'партнер', 'партнёр', 'коллаб', 'пиар', 'промокод',
+    'скидка', 'акция', 'розыгрыш', 'жми', 'переходи', 'по ссылке',
+    'приватный чат', 'приватным чатом', 'наш чат', 'в наш чат',
+    't.me/', 'te.me/', 'tele.click', 'vk.com/', 'youtube.com/',
+]
+
 JUNK_PATTERNS = [
     'Эксклюзивы', 'Статьи Фото', 'Спецпроекты', 'Исследования', 'Мини-игры',
     'Архив', 'Лента добра', 'Хочешь видеть', 'Вернуться в обычную',
@@ -42,6 +52,45 @@ def html_to_paragraphs(html_text):
     text = html_lib.unescape(text)
     lines = [line.strip() for line in text.split('\n')]
     return '\n\n'.join(l for l in lines if l).strip()
+
+def remove_links(text):
+    """Удаляет ВСЕ ссылки и упоминания из текста"""
+    if not text:
+        return ""
+    text = re.sub(r'https?://\S+', '', text)          # http/https ссылки
+    text = re.sub(r'www\.\S+', '', text)              # www ссылки
+    text = re.sub(r't\.me/\S+', '', text)             # t.me ссылки
+    text = re.sub(r'@[a-zA-Z_][a-zA-Z0-9_]{3,}', '', text)  # @username
+    text = re.sub(r'[ \t]+\n', '\n', text)
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    text = re.sub(r'\s{2,}', ' ', text)
+    return text.strip()
+
+def is_ad(title, description):
+    """Проверяет, является ли пост рекламой"""
+    combined = (title + ' ' + description).lower()
+    hits = sum(1 for m in AD_MARKERS if m in combined)
+    return hits >= 2
+
+def validate_article(article):
+    """Проверяет, можно ли публиковать пост. Возвращает (ok, reason)"""
+    title = article.get('title', '') or ''
+    description = article.get('description', '') or article.get('summary', '') or ''
+    text = html_to_paragraphs(description)
+    
+    # Реклама — пропускаем
+    if is_ad(title, description):
+        return False, "реклама"
+    
+    # Заголовок-ссылка и нет нормального текста — пропускаем
+    if re.match(r'^https?://', title.strip()) and len(text) < 80:
+        return False, "бессмыслица"
+    
+    # Слишком мало текста — пропускаем
+    if len(text) < 50 and len(title) < 20:
+        return False, "пустой пост"
+    
+    return True, ""
 
 def limit_text(text, limit=1500):
     text = text.strip()
@@ -97,7 +146,7 @@ def clean_title(title):
     cleaned = title.strip()
     while cleaned:
         new_cleaned = emoji_pattern.sub('', cleaned, count=1).strip()
-        new_cleaned = re.sub(r'^[🔥🎬📷🎥💥]+\s*', '', new_cleaned).strip()
+        new_cleaned = re.sub(r'^[🔥🎬🎥💥]+\s*', '', new_cleaned).strip()
         if new_cleaned == cleaned:
             break
         cleaned = new_cleaned
@@ -221,7 +270,6 @@ def get_stock_keywords(title):
         return ""
 
 def get_stock_image(title):
-    """Стоковая картинка через Pexels (без заглушек)"""
     if not PEXELS_API_KEY:
         return ""
     keywords = get_stock_keywords(title)
@@ -266,6 +314,7 @@ def rewrite_with_qwen(title, text):
 - Живой разговорный язык, лёгкая ирония над ситуациями и чиновниками, но не над людьми
 - Никаких канцеляризмов, «стало известно», «появилась информация»
 - Сохрани все факты, цифры, имена
+- НЕ добавляй никакие ссылки, адреса сайтов, @username
 - Без хэштегов и эмодзи в тексте
 - Не добавляй кавычки вокруг ответа
 
@@ -280,7 +329,7 @@ def rewrite_with_qwen(title, text):
         response = client.chat.completions.create(
             model="qwen-plus",
             messages=[
-                {"role": "system", "content": "Ты ироничный, но добрый русский новостной блогер. Над трагедиями не шутишь."},
+                {"role": "system", "content": "Ты ироничный, но добрый русский новостной блогер. Над трагедиями не шутишь. Ссылки не добавляешь."},
                 {"role": "user", "content": prompt}
             ],
             max_tokens=300,
@@ -289,6 +338,8 @@ def rewrite_with_qwen(title, text):
         rewritten = response.choices[0].message.content.strip()
         if rewritten.startswith('"') and rewritten.endswith('"'):
             rewritten = rewritten[1:-1]
+        # Страховка: вычищаем любые ссылки из ответа Qwen
+        rewritten = remove_links(rewritten)
         print(f"  🤖 Qwen переписал: {len(rewritten)} символов")
         return rewritten
     except Exception as e:
@@ -299,10 +350,10 @@ def generate_hashtags(article):
     text = (article.get('title', '') + ' ' + article.get('description', '')).lower()
     categories = {
         'технологии': ['смартфон', 'iphone', 'android', 'гаджет', 'робот', 'нейросет', 'хакер'],
-        'экономика': ['рубл', 'доллар', 'экономик', 'банк', 'рынок', 'бизнес', 'крипт', 'брикс'],
-        'происшествия': ['авари', 'убийств', 'пожар', 'суд', 'арест', 'нож', 'дрон', 'взрыв', 'метамфетамин', 'задержали', 'затопило'],
-        'политика': ['путин', 'президент', 'трамп', 'иран', 'саммит', 'дума', 'закон', 'депутат', 'милонов'],
-        'общество': ['москв', 'росси', 'школ', 'больниц', 'подмосков', 'курильск', 'демографи', 'ростов'],
+        'экономика': ['рубл', 'доллар', 'экономик', 'банк', 'рынок', 'бизнес', 'крипт', 'брикс', 'взятк'],
+        'происшествия': ['авари', 'убийств', 'пожар', 'суд', 'арест', 'нож', 'дрон', 'взрыв', 'метамфетамин', 'задержали', 'затопило', 'поток', 'колони'],
+        'политика': ['путин', 'президент', 'трамп', 'иран', 'саммит', 'дума', 'закон', 'депутат', 'милонов', 'мчс'],
+        'общество': ['москв', 'росси', 'школ', 'больниц', 'подмосков', 'курильск', 'демографи', 'ростов', 'казан'],
         'наука': ['учен', 'космос', 'лун', 'станци', 'амёба'],
         'спорт': ['спорт', 'матч', 'футбол', 'хоккей', 'чемпион'],
         'шоубиз': ['актер', 'фильм', 'пев', 'сериал', 'кино', 'крипипаст', 'джефф', 'паук'],
@@ -390,13 +441,10 @@ def format_article(article):
     rss_image, rss_video = extract_media_from_html(description)
     
     if is_tg:
-        # Для TG-постов НЕ ходим на t.me — берём только содержимое поста,
-        # иначе подтягиваются чужие превью и картинки путаются
         text = rss_text
         image = rss_image
         video = rss_video
     else:
-        # Для сайтов — полный текст со страницы
         tr_text, tr_image, tr_video = extract_main_content(article['link'])
         if len(tr_text) < 200:
             og_text, og_image, og_video = extract_og_fallback(article['link'])
@@ -410,20 +458,24 @@ def format_article(article):
         image = rss_image or tr_image
         video = rss_video or tr_video
     
-    # Заголовок: чистим, а если пустой — берём первое предложение
+    # 2. ЗАПРЕТ ССЫЛОК: вычищаем из текста
+    text = remove_links(text)
+    
+    # 3. Заголовок: чистим эмодзи и ссылки
     title = clean_title(article.get('title_ru', article.get('title', '')))
+    title = remove_links(title)
+    # Если заголовок пустой или был ссылкой — берём первое предложение текста
     if not title or len(title) < 10:
-        first = re.split(r'[.!?\n]', text or description, 1)[0].strip()
+        first = re.split(r'[.!?\n]', text, 1)[0].strip()
         title = first[:100] if first else 'Новости дня'
     
-    # Сток: только если нет фото или водяной знак, и только через Pexels
+    # 4. Сток вместо водяных знаков / при отсутствии фото
     if needs_stock_image(article, image):
         stock = get_stock_image(title)
         if stock:
             image = stock
-        # Если стока нет — остаёмся с оригиналом или без фото (без заглушек)
     
-    # Переписываем через Qwen
+    # 5. Переписываем через Qwen
     rewritten = rewrite_with_qwen(title, text)
     final_text = rewritten if rewritten else limit_text(text, 900)
     
@@ -483,7 +535,18 @@ def main():
     new_articles = [a for a in articles if a['link'] not in published]
     print(f"🆕 Новых статей: {len(new_articles)}")
     
-    articles_to_publish = new_articles[:5]
+    # ФИЛЬТР: убираем рекламу и бессмыслицу ДО публикации
+    clean_articles = []
+    for a in new_articles:
+        ok, reason = validate_article(a)
+        if ok:
+            clean_articles.append(a)
+        else:
+            print(f"  🚫 Пропускаем ({reason}): {a.get('title', '')[:60]}")
+    
+    print(f"✅ После фильтра: {len(clean_articles)} статей")
+    
+    articles_to_publish = clean_articles[:5]
     if not articles_to_publish:
         print("✅ Нет новых статей для публикации")
         return
