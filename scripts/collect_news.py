@@ -4,74 +4,92 @@ import json
 import os
 from datetime import datetime
 
-def collect_from_rss():
-    """Собирает новости из RSS лент"""
+def collect_from_russian_rss():
+    """Собирает новости из русскоязычных RSS лент"""
     
-    # Список RSS лент для сбора новостей
+    # Русскоязычные RSS ленты
     feeds = [
-        "https://techcrunch.com/feed/",           # TechCrunch - технологии
-        "https://www.theverge.com/rss/index.xml", # The Verge - новости технологий
-        "https://feeds.feedburner.com/TechCrunch/" # Ещё одна лента TechCrunch
+        # Крупные новостные сайты
+        {"url": "https://lenta.ru/rss", "name": "Лента.ру"},
+        {"url": "https://rssexport.rbc.ru/rbcnews/news/30/full.rss", "name": "РБК"},
+        {"url": "https://tass.ru/rss/v2.xml", "name": "ТАСС"},
+        {"url": "https://ria.ru/export/rss2/archive/index.xml", "name": "РИА Новости"},
+        {"url": "https://www.kommersant.ru/RSS/news.xml", "name": "Коммерсантъ"},
+        
+        # Технологические и развлекательные
+        {"url": "https://habr.com/ru/rss/news/", "name": "Хабр"},
+        {"url": "https://dtf.ru/rss", "name": "DTF"},
+        {"url": "https://tjournal.ru/rss", "name": "TJ"},
+        {"url": "https://vc.ru/rss", "name": "VC.ru"},
+        {"url": "https://pikabu.ru/xmlfeeds.php?cmd=rss", "name": "Пикабу"},
+        
+        # Научные и образовательные
+        {"url": "https://nplus1.ru/rss", "name": "N+1"},
+        {"url": "https://indicator.ru/rss.xml", "name": "Indicator"},
+        
+        # Бизнес и финансы
+        {"url": "https://www.vedomosti.ru/rss/news", "name": "Ведомости"},
+        {"url": "https://www.forbes.ru/newrss.xml", "name": "Forbes Россия"},
     ]
     
     articles = []
     
-    # Проходим по каждой RSS ленте
-    for feed_url in feeds:
+    for feed_info in feeds:
         try:
-            feed = feedparser.parse(feed_url)
+            print(f"  📰 Собираем из {feed_info['name']}...")
+            feed = feedparser.parse(feed_info['url'])
             
-            # Берём только 5 последних статей из каждой ленты
+            # Берём 5 последних статей из каждой ленты
             for entry in feed.entries[:5]:
                 articles.append({
                     "title": entry.title,
                     "link": entry.link,
                     "published": entry.published if hasattr(entry, 'published') else "",
-                    "source": feed.feed.title if hasattr(feed, 'feed') else "Unknown",
-                    "language": "en"
+                    "source": feed_info['name'],
+                    "language": "ru"
                 })
                 
         except Exception as e:
-            print(f"Ошибка при обработке {feed_url}: {e}")
+            print(f"  ⚠️ Ошибка при обработке {feed_info['name']}: {e}")
     
     return articles
 
-def collect_from_hackernews():
-    """Собирает новости из Hacker News"""
+def collect_from_telegram_channels():
+    """
+    Собирает новости из Telegram каналов через RSS-мосты
     
-    try:
-        # Получаем список топ-новостей
-        response = requests.get("https://hacker-news.firebaseio.com/v0/topstories.json")
-        story_ids = response.json()[:10]  # Берём только топ-10
-        
-        articles = []
-        
-        # Для каждой новости получаем детали
-        for story_id in story_ids:
-            try:
-                story_response = requests.get(
-                    f"https://hacker-news.firebaseio.com/v0/item/{story_id}.json"
-                )
-                story = story_response.json()
+    Для Telegram каналов используем сервисы-мосты:
+    - https://rss.app (бесплатно до 3 каналов)
+    - https://telegramposts.com (бесплатно)
+    - https://rsshub.app (бесплатный open-source)
+    """
+    
+    # Список Telegram каналов для мониторинга
+    # Для каждого нужно создать RSS-ссылку через rss.app или подобный сервис
+    telegram_channels = [
+        # {"url": "https://rss.app/r/feed/QwpECECOcc6JtXji.xml", "name": "Топор"},
+    ]
+    
+    articles = []
+    
+    for channel in telegram_channels:
+        try:
+            print(f"  📱 Собираем из Telegram: {channel['name']}...")
+            feed = feedparser.parse(channel['url'])
+            
+            for entry in feed.entries[:5]:
+                articles.append({
+                    "title": entry.title,
+                    "link": entry.link,
+                    "published": entry.published if hasattr(entry, 'published') else "",
+                    "source": f"TG: {channel['name']}",
+                    "language": "ru"
+                })
                 
-                # Добавляем только если есть ссылка на статью
-                if story.get('url'):
-                    articles.append({
-                        "title": story.get('title', ''),
-                        "link": story.get('url', ''),
-                        "published": datetime.fromtimestamp(story.get('time', 0)).isoformat(),
-                        "source": "Hacker News",
-                        "language": "en"
-                    })
-                    
-            except Exception as e:
-                print(f"Ошибка при обработке истории {story_id}: {e}")
-        
-        return articles
-        
-    except Exception as e:
-        print(f"Ошибка при получении Hacker News: {e}")
-        return []
+        except Exception as e:
+            print(f"  ⚠️ Ошибка при обработке {channel['name']}: {e}")
+    
+    return articles
 
 def remove_duplicates(articles):
     """Убирает дубликаты по ссылке"""
@@ -89,19 +107,20 @@ def remove_duplicates(articles):
 def main():
     """Главная функция"""
     
-    print("🚀 Начинаем сбор новостей...")
+    print("🚀 Начинаем сбор новостей с русскоязычных источников...")
     
-    # Собираем из всех источников
     all_articles = []
     
-    print("📰 Собираем из RSS лент...")
-    all_articles.extend(collect_from_rss())
+    # Собираем из русских RSS лент
+    print("\n📰 Собираем из новостных сайтов:")
+    all_articles.extend(collect_from_russian_rss())
     
-    print("🔥 Собираем из Hacker News...")
-    all_articles.extend(collect_from_hackernews())
+    # Собираем из Telegram каналов (если настроены)
+    print("\n📱 Собираем из Telegram каналов:")
+    all_articles.extend(collect_from_telegram_channels())
     
     # Убираем дубликаты
-    print("🔍 Убираем дубликаты...")
+    print("\n🔍 Убираем дубликаты...")
     unique_articles = remove_duplicates(all_articles)
     
     # Создаём папку если её нет
@@ -112,7 +131,7 @@ def main():
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(unique_articles, f, ensure_ascii=False, indent=2)
     
-    print(f"✅ Собрано {len(unique_articles)} уникальных статей")
+    print(f"\n✅ Собрано {len(unique_articles)} уникальных статей")
     print(f"📁 Сохранено в {output_file}")
 
 # Запуск скрипта
