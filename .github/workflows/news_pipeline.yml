@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install feedparser requests deep-translator trafilatura
+        pip install feedparser requests deep-translator trafilatura beautifulsoup4 lxml openai openai
     
     - name: Collect news
       run: python scripts/collect_news.py
