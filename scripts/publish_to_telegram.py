@@ -2,26 +2,62 @@ import json
 import requests
 import os
 import re
-from datetime import datetime
 
 # Получаем настройки из переменных окружения (из секретов GitHub)
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
 
-def clean_html(html_text):
-    """Убирает HTML теги из текста"""
+def clean_html(html_text, max_length=250):
+    """Убирает HTML теги из текста и обрезает до нужной длины"""
     if not html_text:
         return ""
     # Убираем HTML теги
     clean = re.sub('<[^<]+?>', '', html_text)
     # Убираем HTML entities
     clean = re.sub(r'&[a-zA-Z]+;', ' ', clean)
+    clean = re.sub(r'&\w+;', ' ', clean)
     # Убираем лишние пробелы и переносы строк
     clean = re.sub(r'\s+', ' ', clean).strip()
-    # Обрезаем до 300 символов
-    if len(clean) > 300:
-        clean = clean[:300] + "..."
+    # Обрезаем до нужной длины по границе слова
+    if len(clean) > max_length:
+        clean = clean[:max_length]
+        clean = clean.rsplit(' ', 1)[0] + "..."
     return clean
+
+def generate_hashtags(article):
+    """Генерирует хэштеги по содержанию новости"""
+    
+    text = (article.get('title', '') + ' ' + 
+            article.get('description', '') + ' ' + 
+            article.get('summary', '')).lower()
+    
+    hashtags = []
+    
+    # Категории и ключевые слова
+    categories = {
+        'технологии': ['смартфон', 'телефон', 'android', 'iphone', 'компьютер', 'ии', 'интернет', 'гаджет', 'приложени', 'технолог', 'робот', 'нейросет', 'хакер'],
+        'экономика': ['рубл', 'доллар', 'евро', 'экономик', 'банк', 'цен', 'рынок', 'бизнес', 'финанс', 'инфляц', 'ипотек', 'крипт'],
+        'происшествия': ['авари', 'преступ', 'выстрел', 'напал', 'погиб', 'пожар', 'ракетн', 'опасност', 'ранени', 'полици', 'суд', 'арест'],
+        'политика': ['путин', 'президент', 'правительств', 'дума', 'министр', 'закон', 'депутат', 'кремл', 'сенат'],
+        'общество': ['москв', 'росси', 'россиян', 'школ', 'больниц', 'город', 'жител', 'врач', 'учител'],
+        'наука': ['учен', 'исследован', 'открыти', 'космос', 'эксперимент', 'наук'],
+        'спорт': ['спорт', 'матч', 'футбол', 'побед', 'атлет', 'олимп', 'хоккей'],
+        'шоубиз': ['актер', 'фильм', 'пев', 'певиц', 'звезд', 'концерт', 'сериал', 'кино'],
+        'авто': ['автомобил', 'дтп', 'водител', 'машин', 'дорог'],
+        'вмире': ['европ', 'сша', 'кита', 'украин', 'мир', 'стран'],
+    }
+    
+    for category, keywords in categories.items():
+        for keyword in keywords:
+            if keyword in text:
+                hashtags.append('#' + category)
+                break
+    
+    # Общие хэштеги для охвата
+    hashtags.extend(['#новости', '#топ'])
+    
+    # Максимум 5 хэштегов
+    return ' '.join(hashtags[:5])
 
 def send_to_telegram(message):
     """Отправляет сообщение в Telegram канал"""
@@ -32,7 +68,7 @@ def send_to_telegram(message):
         "chat_id": TELEGRAM_CHANNEL_ID,
         "text": message,
         "parse_mode": "HTML",
-        "disable_web_page_preview": False
+        "disable_web_page_preview": True  # Без превью, ссылок всё равно нет
     }
     
     try:
@@ -50,26 +86,27 @@ def send_to_telegram(message):
         return False
 
 def format_article(article):
-    """Форматирует статью для публикации в неформальном стиле"""
+    """Форматирует статью: заголовок + пересказ + хэштеги, без ссылок"""
     
     title = article.get('title_ru', article.get('title', 'Без заголовка'))
     
-    # Получаем описание статьи
+    # Краткий пересказ
     description = article.get('description', '') or article.get('summary', '')
     clean_desc = clean_html(description)
     
-    # Если нет описания, используем только заголовок
-    if not clean_desc:
-        message = f"""🔥 {title}
-
-👉 {article['link']}"""
-    else:
-        # Формируем неформальное сообщение без упоминания источника и AI
+    # Хэштеги
+    hashtags = generate_hashtags(article)
+    
+    if clean_desc:
         message = f"""🔥 {title}
 
 {clean_desc}
 
-👉 {article['link']}"""
+{hashtags}"""
+    else:
+        message = f"""🔥 {title}
+
+{hashtags}"""
     
     return message
 
@@ -97,23 +134,18 @@ def main():
     
     print("🚀 Начинаем публикацию в Telegram...")
     
-    # Проверяем настройки
     if not TELEGRAM_BOT_TOKEN:
         print("❌ Ошибка: TELEGRAM_BOT_TOKEN не задан!")
-        print("   Добавьте секрет в GitHub: Settings → Secrets → Actions")
         return
     
     if not TELEGRAM_CHANNEL_ID:
         print("❌ Ошибка: TELEGRAM_CHANNEL_ID не задан!")
-        print("   Добавьте секрет в GitHub: Settings → Secrets → Actions")
         return
     
-    # Читаем переведённые новости
     input_file = 'src/content/news_translated.json'
     
     if not os.path.exists(input_file):
         print("❌ Файл news_translated.json не найден.")
-        print("   Сначала запустите collect_news.py и translate_news.py")
         return
     
     with open(input_file, 'r', encoding='utf-8') as f:
@@ -121,22 +153,18 @@ def main():
     
     print(f"📚 Загружено {len(articles)} статей")
     
-    # Загружаем список уже опубликованных
     published = load_published()
     print(f"📝 Уже опубликовано: {len(published)} статей")
     
-    # Фильтруем новые статьи
     new_articles = [a for a in articles if a['link'] not in published]
     print(f"🆕 Новых статей: {len(new_articles)}")
     
-    # Публикуем только первые 5 новых статей
     articles_to_publish = new_articles[:5]
     
     if not articles_to_publish:
         print("✅ Нет новых статей для публикации")
         return
     
-    # Публикуем статьи
     success_count = 0
     
     for i, article in enumerate(articles_to_publish, 1):
@@ -151,12 +179,10 @@ def main():
         else:
             print(f"  ❌ Не удалось опубликовать")
     
-    # Сохраняем обновлённый список опубликованных
     save_published(published)
     
     print(f"\n✅ Успешно опубликовано: {success_count} статей")
     print(f"📊 Всего в канале: {len(published)} статей")
 
-# Запуск скрипта
 if __name__ == "__main__":
     main()
