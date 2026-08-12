@@ -9,14 +9,18 @@ from bs4 import BeautifulSoup
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
 QWEN_API_KEY = os.getenv('QWEN_API_KEY', '')
+PEXELS_API_KEY = os.getenv('PEXELS_API_KEY', '')
 
-# 👇 ЗАМЕНИТЕ на username вашего канала (например, @my_news_channel)
+# 👇 ЗАМЕНИТЕ на username вашего публичного канала
 CHANNEL_USERNAME = "@allnewsin"
 CHANNEL_LINK = f"https://t.me/{CHANNEL_USERNAME.replace('@', '')}"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 }
+
+# Источники, у которых на фото водяные знаки — им подставляем сток
+WATERMARK_SOURCES = ['mash', 'baza', '112', 'lifeshot', 'шторм', 'readovka', 'барыня']
 
 JUNK_PATTERNS = [
     'Эксклюзивы', 'Статьи Фото', 'Спецпроекты', 'Исследования', 'Мини-игры',
@@ -78,27 +82,22 @@ def clean_text(text):
     return '\n\n'.join(clean)
 
 def clean_title(title):
-    """Убирает эмодзи-префиксы (🖼, 🎬, 📷, 🔥, 📹, 🎥) и лишние пробелы из заголовка"""
     if not title:
         return title
-    # Удаляем любые эмодзи в начале строки (Unicode emoji regex)
     emoji_pattern = re.compile(
         "["
-        "\U0001F300-\U0001F9FF"  # Misc Symbols, Emoticons, etc.
-        "\U00002600-\U000027BF"  # Misc symbols
-        "\U0001FA00-\U0001FA6F"  # Chess Symbols
-        "\U0001FA70-\U0001FAFF"  # Symbols Extended-A
+        "\U0001F300-\U0001F9FF"
+        "\U00002600-\U000027BF"
+        "\U0001FA00-\U0001FA6F"
+        "\U0001FA70-\U0001FAFF"
         "\U00002702-\U000027B0"
         "]+",
         flags=re.UNICODE
     )
-    # Чистим последовательно в начале строки
     cleaned = title.strip()
     while cleaned:
-        # Убираем эмодзи в начале
         new_cleaned = emoji_pattern.sub('', cleaned, count=1).strip()
-        # Убираем символы вроде 🔥 🖼 🎬 📷
-        new_cleaned = re.sub(r'^[🔥🖼🎬📷📹🎥⚡💥]+\s*', '', new_cleaned).strip()
+        new_cleaned = re.sub(r'^[🔥🎬📷📹🎥⚡💥]+\s*', '', new_cleaned).strip()
         if new_cleaned == cleaned:
             break
         cleaned = new_cleaned
@@ -106,7 +105,6 @@ def clean_title(title):
 
 def extract_media_from_html(html_text):
     html_text = html_text or ""
-    
     video = ""
     m = re.search(r'<video[^>]+src="([^"]+)"', html_text)
     if m:
@@ -115,7 +113,6 @@ def extract_media_from_html(html_text):
         m = re.search(r'<source[^>]+src="([^"]+)"', html_text)
         if m:
             video = m.group(1)
-    
     image = ""
     m = re.search(r'<img[^>]+src="([^"]+)"', html_text)
     if m:
@@ -124,7 +121,6 @@ def extract_media_from_html(html_text):
         m = re.search(r'poster="([^"]+)"', html_text)
         if m:
             image = m.group(1)
-    
     return image, video
 
 def extract_main_content(link):
@@ -132,13 +128,11 @@ def extract_main_content(link):
         resp = requests.get(link, headers=HEADERS, timeout=20)
         if resp.status_code != 200:
             return "", "", ""
-        
         soup = BeautifulSoup(resp.text, 'lxml')
         og_img = soup.find('meta', property='og:image')
         og_vid = soup.find('meta', property='og:video')
         image = og_img['content'] if og_img and og_img.get('content') else ""
         video = og_vid['content'] if og_vid and og_vid.get('content') else ""
-        
         text = trafilatura.extract(
             resp.text,
             include_comments=False,
@@ -146,7 +140,6 @@ def extract_main_content(link):
             no_fallback=False,
             favor_recall=False,
         )
-        
         if text:
             text = clean_text(text)
             print(f"  🎯 Trafilatura: текст {len(text)} символов, картинка: {'да' if image else 'нет'}")
@@ -201,13 +194,83 @@ def download_media(url):
         print(f"  ⚠️ Не удалось скачать медиа: {e}")
         return None, None
 
+def get_qwen_client():
+    from openai import OpenAI
+    return OpenAI(
+        api_key=QWEN_API_KEY,
+        base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+    )
+
+def get_stock_keywords(title):
+    """Qwen генерирует английский запрос для стока"""
+    if not QWEN_API_KEY:
+        return ""
+    try:
+        client = get_qwen_client()
+        response = client.chat.completions.create(
+            model="qwen-turbo",
+            messages=[{"role": "user", "content":
+                f"Write 2-3 English words describing this news as a photo search query for a stock photo. Reply with words only, nothing else.\n\nNews: {title}"}],
+            max_tokens=30,
+            temperature=0.5
+        )
+        keywords = response.choices[0].message.content.strip()
+        keywords = re.sub(r'[^a-zA-Z\s]', '', keywords).strip()
+        return keywords
+    except Exception as e:
+        print(f"  ⚠️ Qwen keywords ошибка: {e}")
+        return ""
+
+def get_stock_image(title):
+    """Подбирает стоковую картинку по теме новости"""
+    keywords = get_stock_keywords(title)
+    if not keywords:
+        return ""
+    
+    # Вариант 1: Pexels (качественный сток)
+    if PEXELS_API_KEY:
+        try:
+            resp = requests.get(
+                "https://api.pexels.com/v1/search",
+                headers={"Authorization": PEXELS_API_KEY},
+                params={"query": keywords, "per_page": 1, "orientation": "landscape"},
+                timeout=15
+            )
+            photos = resp.json().get('photos', [])
+            if photos:
+                print(f"  🎨 Сток Pexels: {keywords}")
+                return photos[0]['src']['large']
+        except Exception as e:
+            print(f"  ⚠️ Pexels ошибка: {e}")
+    
+    # Вариант 2: LoremFlickr (без ключа)
+    try:
+        q = keywords.replace(' ', ',')
+        url = f"https://loremflickr.com/1200/800/{q}"
+        r = requests.head(url, timeout=10, allow_redirects=True)
+        if r.status_code == 200:
+            print(f"  🎨 Сток LoremFlickr: {keywords}")
+            return url
+    except Exception:
+        pass
+    
+    return ""
+
+def needs_stock_image(article, image):
+    """Проверяет, нужно ли подставить сток вместо оригинала"""
+    if not image:
+        return True
+    source = article.get('source', '').lower()
+    for wm in WATERMARK_SOURCES:
+        if wm in source:
+            return True
+    return False
+
 def rewrite_with_qwen(title, text):
     if not QWEN_API_KEY:
         print("  ⚠️ QWEN_API_KEY не задан")
         return ""
-    
     source_text = limit_text(text, 1500)
-    
     prompt = f"""Ты — дерзкий новостной блогер в стиле Telegram-каналов «Топор», «Лентач», «Кровавая Барыня».
 Передай суть новости своими словами, с эмоциями, сарказмом, лёгким сленгом.
 
@@ -227,13 +290,8 @@ def rewrite_with_qwen(title, text):
 {source_text}
 
 Переписанный текст:"""
-    
     try:
-        from openai import OpenAI
-        client = OpenAI(
-            api_key=QWEN_API_KEY,
-            base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
-        )
+        client = get_qwen_client()
         response = client.chat.completions.create(
             model="qwen-plus",
             messages=[
@@ -278,15 +336,13 @@ def send_message(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     data = {"chat_id": TELEGRAM_CHANNEL_ID, "text": message, "parse_mode": "HTML"}
     try:
-        result = requests.post(url, data=data).json()
-        return result.get('ok', False)
+        return requests.post(url, data=data).json().get('ok', False)
     except Exception as e:
         print(f"  ❌ Ошибка: {e}")
         return False
 
 def send_photo(message, image_url):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
-    
     data = {"chat_id": TELEGRAM_CHANNEL_ID, "photo": image_url, "caption": message, "parse_mode": "HTML"}
     try:
         result = requests.post(url, data=data).json()
@@ -296,7 +352,6 @@ def send_photo(message, image_url):
             print(f"  ⚠️ Photo URL rejected: {result.get('description', '')[:80]}")
     except Exception as e:
         print(f"  ⚠️ Photo URL error: {e}")
-    
     content, filename = download_media(image_url)
     if content:
         try:
@@ -304,18 +359,16 @@ def send_photo(message, image_url):
             data = {"chat_id": TELEGRAM_CHANNEL_ID, "caption": message, "parse_mode": "HTML"}
             result = requests.post(url, data=data, files=files).json()
             if result.get('ok'):
-                print(f"  📤 Фото отправчено через загрузку ({len(content)//1024}KB)")
+                print(f"  📤 Фото отправлено через загрузку ({len(content)//1024}KB)")
                 return True
             else:
                 print(f"  ❌ Photo upload failed: {result.get('description', '')[:80]}")
         except Exception as e:
             print(f"  ❌ Photo upload error: {e}")
-    
     return False
 
 def send_video(message, video_url):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendVideo"
-    
     data = {"chat_id": TELEGRAM_CHANNEL_ID, "video": video_url, "caption": message, "parse_mode": "HTML"}
     try:
         result = requests.post(url, data=data).json()
@@ -325,7 +378,6 @@ def send_video(message, video_url):
             print(f"  ⚠️ Video URL rejected: {result.get('description', '')[:80]}")
     except Exception as e:
         print(f"  ⚠️ Video URL error: {e}")
-    
     content, filename = download_media(video_url)
     if content:
         if len(content) > 50 * 1024 * 1024:
@@ -342,7 +394,6 @@ def send_video(message, video_url):
                 print(f"  ❌ Video upload failed: {result.get('description', '')[:80]}")
         except Exception as e:
             print(f"  ❌ Video upload error: {e}")
-    
     return False
 
 def format_article(article):
@@ -370,11 +421,17 @@ def format_article(article):
     # 4. Выбираем лучший текст
     text = tr_text if len(tr_text) > len(rss_text) else rss_text
     
-    # 5. Медиа
-    image = rss_image or tr_image
+    # 5. Видео: приоритет RSS
     video = rss_video or tr_video
     
-    # 6. Переписываем через Qwen
+    # 6. Картинка: если водяной знак или нет фото — берём сток
+    image = rss_image or tr_image
+    if needs_stock_image(article, image):
+        stock = get_stock_image(title)
+        if stock:
+            image = stock
+    
+    # 7. Переписываем через Qwen
     rewritten = rewrite_with_qwen(title, text)
     final_text = rewritten if rewritten else limit_text(text, 900)
     
@@ -382,7 +439,6 @@ def format_article(article):
     safe_title = html_lib.escape(title)
     safe_text = html_lib.escape(final_text)
     
-    # Кнопка «Подписаться» со встроенной ссылкой на канал
     subscribe_link = f'<a href="{CHANNEL_LINK}"><b>🔔 Подписаться</b></a>'
     
     message = f"""🔥 <b>{safe_title}</b>
