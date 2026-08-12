@@ -38,6 +38,7 @@ jobs:
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
       run: python scripts/publish_to_telegram.py
     
     - name: Commit and push changes

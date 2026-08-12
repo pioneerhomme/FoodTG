@@ -3,16 +3,30 @@ import requests
 import os
 import re
 import html as html_lib
+import trafilatura
+from bs4 import BeautifulSoup
 
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
+QWEN_API_KEY = os.getenv('QWEN_API_KEY', '')
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 }
 
+# Мусорные строки
+JUNK_PATTERNS = [
+    'Эксклюзивы', 'Статьи Фото', 'Спецпроекты', 'Исследования', 'Мини-игры',
+    'Архив', 'Лента добра', 'Хочешь видеть', 'Вернуться в обычную',
+    'Войти', 'Регистрация', 'Реклама', 'ООО «', 'erid:', 'VK Видео', 'VK - ВК',
+    'Силовые структуры', 'ВсеСледствие', 'Криминал', 'Полиция',
+    'Редактор отдела', 'редактор отдела', 'Читайте также', 'Новости партнеров',
+    'Подписывайтесь', 'ВсеПолитика', 'ВсеНаука', 'ВсеОбщество', 'Мир Все',
+    'Россия Все', 'Фото:', 'Фото :', 'Из жизни', 'Наука и техника',
+    'ТАСС собрал', 'Сайт ТАСС', 'Редакция сайта',
+]
+
 def html_to_paragraphs(html_text):
-    """Превращает HTML в текст с абзацами"""
     if not html_text:
         return ""
     text = re.sub(r'(?i)<br\s*/?>', '\n', html_text)
@@ -22,8 +36,7 @@ def html_to_paragraphs(html_text):
     lines = [line.strip() for line in text.split('\n')]
     return '\n\n'.join(l for l in lines if l).strip()
 
-def limit_text(text, limit=800):
-    """Обрезает текст по границе абзаца или предложения"""
+def limit_text(text, limit=1500):
     text = text.strip()
     if len(text) <= limit:
         return text
@@ -34,75 +47,151 @@ def limit_text(text, limit=800):
         cut = cut[:cut.rfind('. ') + 1]
     return cut.strip() + "..."
 
-def clean_markdown(md):
-    """Чистит markdown до обычного текста с абзацами"""
-    text = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', md)          # убрать картинки
-    text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)    # ссылки → текст
-    text = re.sub(r'^#{1,6}\s*', '', text, flags=re.M)      # убрать #
-    text = re.sub(r'[*_`>|]', '', text)                     # убрать форматирование
-    text = html_lib.unescape(text)
-    # одиночные переносы → пробел, тройные → двойные
-    text = re.sub(r'(?<!\n)\n(?!\n)', ' ', text)
-    text = re.sub(r'\n{3,}', '\n\n', text)
-    # убрать служебные строки Jina
-    lines = [l for l in text.split('\n')
-             if l.strip() and not l.strip().startswith(('Title:', 'URL Source:', 'Markdown Content:', 'Published Time:'))]
-    return '\n\n'.join(lines).strip()
+def is_junk(line):
+    line = line.strip()
+    if not line:
+        return True
+    if len(line) < 25:
+        return True
+    # Дата вида "15:52, 12 августа 2026"
+    if re.match(r'^\d{1,2}:\d{2},', line):
+        return True
+    # Имя-фамилия редактора
+    if re.match(r'^[А-Я][а-я]+\s+[А-Я][а-я]+(\s*\([^)]*\))?$', line):
+        return True
+    for pattern in JUNK_PATTERNS:
+        if pattern in line:
+            return True
+    return False
 
-def fetch_via_jina(link):
-    """Получает статью через Jina Reader (обходит блокировки)"""
+def clean_text(text):
+    if not text:
+        return ""
+    paragraphs = text.split('\n\n')
+    clean = []
+    for p in paragraphs:
+        lines = [l for l in p.split('\n') if not is_junk(l)]
+        p = '\n'.join(lines).strip()
+        if p and len(p) > 20:
+            clean.append(p)
+    return '\n\n'.join(clean)
+
+def extract_main_content(link):
+    """Основной метод: trafilatura + жёсткая очистка"""
     try:
-        resp = requests.get(f"https://r.jina.ai/{link}",
-                            headers={"Accept": "text/plain"}, timeout=30)
-        print(f"  🔎 Jina: статус {resp.status_code}")
-        if resp.status_code == 200:
-            md = resp.text
-            images = re.findall(r'!\[[^\]]*\]\((https?://[^)\s]+)', md)
-            image = images[0] if images else ""
-            text = clean_markdown(md)
-            print(f"  🔎 Jina: текст {len(text)} символов, картинка: {'да' if image else 'нет'}")
+        resp = requests.get(link, headers=HEADERS, timeout=20)
+        if resp.status_code != 200:
+            return "", ""
+        
+        # Картинка из og:image
+        soup = BeautifulSoup(resp.text, 'lxml')
+        og_img = soup.find('meta', property='og:image')
+        image = og_img['content'] if og_img and og_img.get('content') else ""
+        
+        # Текст через trafilatura (специализирован для отделения контента от мусора)
+        text = trafilatura.extract(
+            resp.text,
+            include_comments=False,
+            include_tables=False,
+            no_fallback=False,
+            favor_recall=False,
+        )
+        
+        if text:
+            text = clean_text(text)
+            print(f"  🎯 Trafilatura: текст {len(text)} символов, картинка: {'да' if image else 'нет'}")
             return text, image
     except Exception as e:
-        print(f"  ⚠️ Jina ошибка: {e}")
+        print(f"  ⚠️ Trafilatura ошибка: {e}")
     return "", ""
 
-def fetch_direct(link):
-    """Запасной вариант: прямое получение og-тегов"""
+def extract_og_fallback(link):
+    """Фолбэк: только og:description + og:image (всегда чистый лид)"""
     try:
         resp = requests.get(link, headers=HEADERS, timeout=15)
-        print(f"  🔎 Прямой запрос: статус {resp.status_code}")
-        html = resp.text
-        image_m = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]*)"', html, re.IGNORECASE)
-        desc_m = re.search(r'<meta[^>]+property="og:description"[^>]+content="([^"]*)"', html, re.IGNORECASE)
-        image = html_lib.unescape(image_m.group(1)) if image_m else ""
-        text = html_lib.unescape(desc_m.group(1)) if desc_m else ""
+        soup = BeautifulSoup(resp.text, 'lxml')
+        desc = soup.find('meta', property='og:description')
+        img = soup.find('meta', property='og:image')
+        text = desc['content'] if desc and desc.get('content') else ""
+        image = img['content'] if img and img.get('content') else ""
+        if text:
+            print(f"  ℹ️ OG-фолбэк: текст {len(text)} символов")
         return text, image
-    except Exception as e:
-        print(f"  ⚠️ Прямой запрос ошибка: {e}")
+    except Exception:
         return "", ""
 
 def extract_image_from_html(html_text):
     m = re.search(r'<img[^>]+src="([^"]+)"', html_text or "")
     return m.group(1) if m else ""
 
+def rewrite_with_qwen(title, text):
+    if not QWEN_API_KEY:
+        print("  ⚠️ QWEN_API_KEY не задан")
+        return ""
+    
+    source_text = limit_text(text, 1500)
+    
+    prompt = f"""Ты — дерзкий новостной блогер в стиле Telegram-каналов «Топор», «Лентач», «Кровавая Барыня».
+Передай суть новости своими словами, с эмоциями, сарказмом, лёгким сленгом.
+
+Правила:
+- НЕ повторяй заголовок в тексте
+- 2-4 предложения, не больше
+- Пиши живо, как будто рассказываешь другу
+- Разговорный русский язык
+- Никаких канцеляризмов, «стало известно», «появилась информация»
+- Сохрани все факты, цифры, имена
+- Без хэштегов и эмодзи в тексте
+- Не добавляй кавычки вокруг ответа
+
+Заголовок: {title}
+
+Текст:
+{source_text}
+
+Переписанный текст:"""
+    
+    try:
+        from openai import OpenAI
+        client = OpenAI(
+            api_key=QWEN_API_KEY,
+            base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+        )
+        response = client.chat.completions.create(
+            model="qwen-plus",
+            messages=[
+                {"role": "system", "content": "Ты дерзкий русский новостной блогер."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=300,
+            temperature=0.9
+        )
+        rewritten = response.choices[0].message.content.strip()
+        if rewritten.startswith('"') and rewritten.endswith('"'):
+            rewritten = rewritten[1:-1]
+        print(f"  🤖 Qwen переписал: {len(rewritten)} символов")
+        return rewritten
+    except Exception as e:
+        print(f"  ⚠️ Qwen ошибка: {e}")
+        return ""
+
 def generate_hashtags(article):
-    """Генерирует хэштеги по содержанию"""
     text = (article.get('title', '') + ' ' + article.get('description', '')).lower()
-    hashtags = []
     categories = {
-        'технологии': ['смартфон', 'телефон', 'android', 'iphone', 'компьютер', 'интернет', 'гаджет', 'приложени', 'технолог', 'робот', 'нейросет', 'хакер', 'геймер'],
-        'экономика': ['рубл', 'доллар', 'евро', 'экономик', 'банк', 'цен', 'рынок', 'бизнес', 'финанс', 'инфляц', 'крипт', 'брикс', 'миллиардер', 'яхт'],
-        'происшествия': ['авари', 'преступ', 'выстрел', 'напал', 'погиб', 'пожар', 'ракетн', 'опасност', 'ранени', 'полици', 'суд', 'арест', 'вор', 'убийств', 'фсин', 'розыск', 'шаурм', 'отравл'],
-        'политика': ['путин', 'президент', 'правительств', 'дума', 'министр', 'закон', 'депутат', 'кремл', 'чиновник', 'переговор', 'украин'],
-        'общество': ['москв', 'росси', 'россиян', 'школ', 'больниц', 'город', 'жител', 'врач', 'квартир', 'подросток'],
-        'наука': ['учен', 'исследован', 'открыти', 'космос', 'эксперимент', 'наук'],
-        'спорт': ['спорт', 'матч', 'футбол', 'побед', 'атлет', 'олимп', 'хоккей', 'сборн', 'теннис', 'чемпион'],
-        'шоубиз': ['актер', 'фильм', 'пев', 'певиц', 'звезд', 'концерт', 'сериал', 'кино', 'модел'],
-        'вмире': ['европ', 'сша', 'кита', 'украин', 'нью-йорк', 'мир', 'запад'],
+        'технологии': ['смартфон', 'iphone', 'android', 'гаджет', 'робот', 'нейросет', 'хакер'],
+        'экономика': ['рубл', 'доллар', 'экономик', 'банк', 'рынок', 'бизнес', 'крипт', 'брикс'],
+        'происшествия': ['авари', 'убийств', 'пожар', 'суд', 'арест', 'нож', 'дрон', 'взрыв'],
+        'политика': ['путин', 'президент', 'трамп', 'иран', 'саммит', 'дума', 'закон'],
+        'общество': ['москв', 'росси', 'школ', 'больниц', 'подмосков', 'курильск'],
+        'наука': ['учен', 'космос', 'лун', 'станци'],
+        'спорт': ['спорт', 'матч', 'футбол', 'хоккей', 'чемпион'],
+        'шоубиз': ['актер', 'фильм', 'пев', 'сериал', 'кино'],
+        'вмире': ['сша', 'кита', 'украин', 'европ', 'герман', 'великобритан', 'иран', 'япон'],
     }
+    hashtags = []
     for category, keywords in categories.items():
-        for keyword in keywords:
-            if keyword in text:
+        for kw in keywords:
+            if kw in text:
                 hashtags.append('#' + category)
                 break
     hashtags.extend(['#новости', '#топ'])
@@ -119,12 +208,7 @@ def send_message(message):
 
 def send_photo(message, image_url):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
-    data = {
-        "chat_id": TELEGRAM_CHANNEL_ID,
-        "photo": image_url,
-        "caption": message,
-        "parse_mode": "HTML"
-    }
+    data = {"chat_id": TELEGRAM_CHANNEL_ID, "photo": image_url, "caption": message, "parse_mode": "HTML"}
     try:
         return requests.post(url, data=data).json().get('ok', False)
     except Exception as e:
@@ -132,47 +216,50 @@ def send_photo(message, image_url):
         return False
 
 def format_article(article):
-    """Собирает пост: картинка + жирный заголовок + текст абзацами"""
     title = article.get('title_ru', article.get('title', 'Без заголовка'))
     
-    # 1. Текст и картинка из RSS (если есть)
+    # 1. Текст из RSS (всегда чистый лид)
     description = article.get('description', '') or article.get('summary', '')
-    text = html_to_paragraphs(description)
-    image = extract_image_from_html(description)
+    rss_text = html_to_paragraphs(description)
+    rss_image = extract_image_from_html(description)
     
-    # 2. Если мало текста или нет картинки — Jina Reader
-    if len(text) < 100 or not image:
-        jina_text, jina_image = fetch_via_jina(article['link'])
-        if len(text) < 100 and jina_text:
-            text = jina_text
-        if not image and jina_image:
-            image = jina_image
+    # 2. Полный текст через trafilatura
+    tr_text, tr_image = extract_main_content(article['link'])
     
-    # 3. Запасной вариант — прямой запрос
-    if len(text) < 100 or not image:
-        direct_text, direct_image = fetch_direct(article['link'])
-        if len(text) < 100 and direct_text:
-            text = direct_text
-        if not image and direct_image:
-            image = direct_image
+    # 3. Если trafilatura не дал достаточно — фолбэк на og:description
+    if len(tr_text) < 200:
+        og_text, og_image = extract_og_fallback(article['link'])
+        if og_text:
+            tr_text = og_text
+        if og_image:
+            tr_image = og_image
     
-    text = limit_text(text, 800)
+    # 4. Выбираем лучший текст
+    text = tr_text if len(tr_text) > len(rss_text) else rss_text
+    image = tr_image or rss_image
+    if not image:
+        _, og_image = extract_og_fallback(article['link'])
+        image = og_image
+    
+    # 5. Переписываем через Qwen
+    rewritten = rewrite_with_qwen(title, text)
+    final_text = rewritten if rewritten else limit_text(text, 900)
+    
     hashtags = generate_hashtags(article)
+    safe_title = html_lib.escape(title)
+    safe_text = html_lib.escape(final_text)
     
-    message = f"""🔥 <b>{title}</b>
+    message = f"""🔥 <b>{safe_title}</b>
 
-{text}
-
-{hashtags}""" if text else f"""🔥 <b>{title}</b>
+{safe_text}
 
 {hashtags}"""
     
-    # Страховка от лимита Telegram 1024 символа для подписи к фото
     if image and len(message) > 1024:
-        text = limit_text(text, max(200, 1000 - len(title) - len(hashtags)))
-        message = f"""🔥 <b>{title}</b>
+        safe_text = html_lib.escape(limit_text(final_text, max(200, 1000 - len(title) - len(hashtags))))
+        message = f"""🔥 <b>{safe_title}</b>
 
-{text}
+{safe_text}
 
 {hashtags}"""
     
@@ -194,7 +281,7 @@ def main():
     print("🚀 Начинаем публикацию в Telegram...")
     
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
-        print("❌ Ошибка: секреты не настроены!")
+        print("❌ Telegram секреты не настроены!")
         return
     
     input_file = 'src/content/news_translated.json'
@@ -206,29 +293,24 @@ def main():
         articles = json.load(f)
     
     print(f"📚 Загружено {len(articles)} статей")
-    
     published = load_published()
     new_articles = [a for a in articles if a['link'] not in published]
     print(f"🆕 Новых статей: {len(new_articles)}")
     
     articles_to_publish = new_articles[:5]
-    
     if not articles_to_publish:
         print("✅ Нет новых статей для публикации")
         return
     
     success_count = 0
-    
     for i, article in enumerate(articles_to_publish, 1):
-        print(f"\n📤 Публикуем {i}/{len(articles_to_publish)}...")
-        
+        print(f"\n📤 Публикуем {i}/{len(articles_to_publish)}: {article.get('title', '')[:60]}...")
         message, image = format_article(article)
         
         ok = False
         if image:
             print("  🖼 Отправляем с картинкой...")
             ok = send_photo(message, image)
-        
         if not ok:
             ok = send_message(message)
         
