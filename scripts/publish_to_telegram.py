@@ -11,7 +11,7 @@ TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
 QWEN_API_KEY = os.getenv('QWEN_API_KEY', '')
 PEXELS_API_KEY = os.getenv('PEXELS_API_KEY', '')
 
-# 👇 ЗАМЕНИТЕ на username вашего публичного канала
+# Ваш канал
 CHANNEL_USERNAME = "@allnewsin"
 CHANNEL_LINK = f"https://t.me/{CHANNEL_USERNAME.replace('@', '')}"
 
@@ -19,7 +19,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 }
 
-# Источники, у которых на фото водяные знаки — им подставляем сток
+# Источники с водяными знаками на фото — им подставляем сток
 WATERMARK_SOURCES = ['mash', 'baza', '112', 'lifeshot', 'шторм', 'readovka', 'барыня']
 
 JUNK_PATTERNS = [
@@ -97,7 +97,7 @@ def clean_title(title):
     cleaned = title.strip()
     while cleaned:
         new_cleaned = emoji_pattern.sub('', cleaned, count=1).strip()
-        new_cleaned = re.sub(r'^[🔥🎬📷📹🎥⚡💥]+\s*', '', new_cleaned).strip()
+        new_cleaned = re.sub(r'^[🔥🎬📷🎥💥]+\s*', '', new_cleaned).strip()
         if new_cleaned == cleaned:
             break
         cleaned = new_cleaned
@@ -202,7 +202,6 @@ def get_qwen_client():
     )
 
 def get_stock_keywords(title):
-    """Qwen генерирует английский запрос для стока"""
     if not QWEN_API_KEY:
         return ""
     try:
@@ -222,42 +221,28 @@ def get_stock_keywords(title):
         return ""
 
 def get_stock_image(title):
-    """Подбирает стоковую картинку по теме новости"""
+    """Стоковая картинка через Pexels (без заглушек)"""
+    if not PEXELS_API_KEY:
+        return ""
     keywords = get_stock_keywords(title)
     if not keywords:
         return ""
-    
-    # Вариант 1: Pexels (качественный сток)
-    if PEXELS_API_KEY:
-        try:
-            resp = requests.get(
-                "https://api.pexels.com/v1/search",
-                headers={"Authorization": PEXELS_API_KEY},
-                params={"query": keywords, "per_page": 1, "orientation": "landscape"},
-                timeout=15
-            )
-            photos = resp.json().get('photos', [])
-            if photos:
-                print(f"  🎨 Сток Pexels: {keywords}")
-                return photos[0]['src']['large']
-        except Exception as e:
-            print(f"  ⚠️ Pexels ошибка: {e}")
-    
-    # Вариант 2: LoremFlickr (без ключа)
     try:
-        q = keywords.replace(' ', ',')
-        url = f"https://loremflickr.com/1200/800/{q}"
-        r = requests.head(url, timeout=10, allow_redirects=True)
-        if r.status_code == 200:
-            print(f"  🎨 Сток LoremFlickr: {keywords}")
-            return url
-    except Exception:
-        pass
-    
+        resp = requests.get(
+            "https://api.pexels.com/v1/search",
+            headers={"Authorization": PEXELS_API_KEY},
+            params={"query": keywords, "per_page": 1, "orientation": "landscape"},
+            timeout=15
+        )
+        photos = resp.json().get('photos', [])
+        if photos:
+            print(f"  🎨 Сток Pexels: {keywords}")
+            return photos[0]['src']['large']
+    except Exception as e:
+        print(f"  ⚠️ Pexels ошибка: {e}")
     return ""
 
 def needs_stock_image(article, image):
-    """Проверяет, нужно ли подставить сток вместо оригинала"""
     if not image:
         return True
     source = article.get('source', '').lower()
@@ -271,14 +256,14 @@ def rewrite_with_qwen(title, text):
         print("  ⚠️ QWEN_API_KEY не задан")
         return ""
     source_text = limit_text(text, 1500)
-    prompt = f"""Ты — дерзкий новостной блогер в стиле Telegram-каналов «Топор», «Лентач», «Кровавая Барыня».
-Передай суть новости своими словами, с эмоциями, сарказмом, лёгким сленгом.
+    prompt = f"""Ты — ироничный новостной блогер в стиле Telegram-каналов «Топор» и «Лентач».
+Передай суть новости своими словами с ЛЁГКИМ сарказмом и доброй иронией — но БЕЗ грубости и цинизма.
 
 Правила:
+- Если новость о смерти, трагедии, преступлении с жертвами, катастрофе или болезни — пиши СДЕРЖАННО и без сарказма
 - НЕ повторяй заголовок в тексте
 - 2-4 предложения, не больше
-- Пиши живо, как будто рассказываешь другу
-- Разговорный русский язык
+- Живой разговорный язык, лёгкая ирония над ситуациями и чиновниками, но не над людьми
 - Никаких канцеляризмов, «стало известно», «появилась информация»
 - Сохрани все факты, цифры, имена
 - Без хэштегов и эмодзи в тексте
@@ -295,11 +280,11 @@ def rewrite_with_qwen(title, text):
         response = client.chat.completions.create(
             model="qwen-plus",
             messages=[
-                {"role": "system", "content": "Ты дерзкий русский новостной блогер."},
+                {"role": "system", "content": "Ты ироничный, но добрый русский новостной блогер. Над трагедиями не шутишь."},
                 {"role": "user", "content": prompt}
             ],
             max_tokens=300,
-            temperature=0.9
+            temperature=0.85
         )
         rewritten = response.choices[0].message.content.strip()
         if rewritten.startswith('"') and rewritten.endswith('"'):
@@ -315,9 +300,9 @@ def generate_hashtags(article):
     categories = {
         'технологии': ['смартфон', 'iphone', 'android', 'гаджет', 'робот', 'нейросет', 'хакер'],
         'экономика': ['рубл', 'доллар', 'экономик', 'банк', 'рынок', 'бизнес', 'крипт', 'брикс'],
-        'происшествия': ['авари', 'убийств', 'пожар', 'суд', 'арест', 'нож', 'дрон', 'взрыв', 'метамфетамин', 'задержали'],
-        'политика': ['путин', 'президент', 'трамп', 'иран', 'саммит', 'дума', 'закон'],
-        'общество': ['москв', 'росси', 'школ', 'больниц', 'подмосков', 'курильск', 'демографи'],
+        'происшествия': ['авари', 'убийств', 'пожар', 'суд', 'арест', 'нож', 'дрон', 'взрыв', 'метамфетамин', 'задержали', 'затопило'],
+        'политика': ['путин', 'президент', 'трамп', 'иран', 'саммит', 'дума', 'закон', 'депутат', 'милонов'],
+        'общество': ['москв', 'росси', 'школ', 'больниц', 'подмосков', 'курильск', 'демографи', 'ростов'],
         'наука': ['учен', 'космос', 'лун', 'станци', 'амёба'],
         'спорт': ['спорт', 'матч', 'футбол', 'хоккей', 'чемпион'],
         'шоубиз': ['актер', 'фильм', 'пев', 'сериал', 'кино', 'крипипаст', 'джефф', 'паук'],
@@ -397,41 +382,48 @@ def send_video(message, video_url):
     return False
 
 def format_article(article):
-    title = article.get('title_ru', article.get('title', 'Без заголовка'))
-    title = clean_title(title)
+    is_tg = article.get('source', '').startswith('TG:')
     
-    # 1. Медиа и текст из RSS
+    # 1. Текст и медиа из RSS
     description = article.get('description', '') or article.get('summary', '')
     rss_text = html_to_paragraphs(description)
     rss_image, rss_video = extract_media_from_html(description)
     
-    # 2. Полный текст со страницы
-    tr_text, tr_image, tr_video = extract_main_content(article['link'])
+    if is_tg:
+        # Для TG-постов НЕ ходим на t.me — берём только содержимое поста,
+        # иначе подтягиваются чужие превью и картинки путаются
+        text = rss_text
+        image = rss_image
+        video = rss_video
+    else:
+        # Для сайтов — полный текст со страницы
+        tr_text, tr_image, tr_video = extract_main_content(article['link'])
+        if len(tr_text) < 200:
+            og_text, og_image, og_video = extract_og_fallback(article['link'])
+            if og_text:
+                tr_text = og_text
+            if og_image:
+                tr_image = og_image
+            if og_video:
+                tr_video = og_video
+        text = tr_text if len(tr_text) > len(rss_text) else rss_text
+        image = rss_image or tr_image
+        video = rss_video or tr_video
     
-    # 3. Фолбэк на og-теги
-    if len(tr_text) < 200:
-        og_text, og_image, og_video = extract_og_fallback(article['link'])
-        if og_text:
-            tr_text = og_text
-        if og_image:
-            tr_image = og_image
-        if og_video:
-            tr_video = og_video
+    # Заголовок: чистим, а если пустой — берём первое предложение
+    title = clean_title(article.get('title_ru', article.get('title', '')))
+    if not title or len(title) < 10:
+        first = re.split(r'[.!?\n]', text or description, 1)[0].strip()
+        title = first[:100] if first else 'Новости дня'
     
-    # 4. Выбираем лучший текст
-    text = tr_text if len(tr_text) > len(rss_text) else rss_text
-    
-    # 5. Видео: приоритет RSS
-    video = rss_video or tr_video
-    
-    # 6. Картинка: если водяной знак или нет фото — берём сток
-    image = rss_image or tr_image
+    # Сток: только если нет фото или водяной знак, и только через Pexels
     if needs_stock_image(article, image):
         stock = get_stock_image(title)
         if stock:
             image = stock
+        # Если стока нет — остаёмся с оригиналом или без фото (без заглушек)
     
-    # 7. Переписываем через Qwen
+    # Переписываем через Qwen
     rewritten = rewrite_with_qwen(title, text)
     final_text = rewritten if rewritten else limit_text(text, 900)
     
