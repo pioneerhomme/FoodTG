@@ -3,7 +3,6 @@ import requests
 import os
 import re
 import html as html_lib
-import trafilatura
 
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
@@ -21,8 +20,7 @@ def html_to_paragraphs(html_text):
     text = re.sub('<[^<]+?>', '', text)
     text = html_lib.unescape(text)
     lines = [line.strip() for line in text.split('\n')]
-    text = '\n'.join(l for l in lines if l)
-    return text.strip()
+    return '\n\n'.join(l for l in lines if l).strip()
 
 def limit_text(text, limit=800):
     """Обрезает текст по границе абзаца или предложения"""
@@ -36,65 +34,78 @@ def limit_text(text, limit=800):
         cut = cut[:cut.rfind('. ') + 1]
     return cut.strip() + "..."
 
-def extract_og(html, prop):
-    """Достаёт og:description / og:image из HTML страницы"""
-    patterns = [
-        f'<meta[^>]+property="og:{prop}"[^>]+content="([^"]*)"',
-        f'<meta[^>]+content="([^"]*)"[^>]+property="og:{prop}"',
-    ]
-    for p in patterns:
-        m = re.search(p, html, re.IGNORECASE)
-        if m:
-            return html_lib.unescape(m.group(1))
-    return ""
+def clean_markdown(md):
+    """Чистит markdown до обычного текста с абзацами"""
+    text = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', md)          # убрать картинки
+    text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)    # ссылки → текст
+    text = re.sub(r'^#{1,6}\s*', '', text, flags=re.M)      # убрать #
+    text = re.sub(r'[*_`>|]', '', text)                     # убрать форматирование
+    text = html_lib.unescape(text)
+    # одиночные переносы → пробел, тройные → двойные
+    text = re.sub(r'(?<!\n)\n(?!\n)', ' ', text)
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    # убрать служебные строки Jina
+    lines = [l for l in text.split('\n')
+             if l.strip() and not l.strip().startswith(('Title:', 'URL Source:', 'Markdown Content:', 'Published Time:'))]
+    return '\n\n'.join(lines).strip()
+
+def fetch_via_jina(link):
+    """Получает статью через Jina Reader (обходит блокировки)"""
+    try:
+        resp = requests.get(f"https://r.jina.ai/{link}",
+                            headers={"Accept": "text/plain"}, timeout=30)
+        print(f"  🔎 Jina: статус {resp.status_code}")
+        if resp.status_code == 200:
+            md = resp.text
+            images = re.findall(r'!\[[^\]]*\]\((https?://[^)\s]+)', md)
+            image = images[0] if images else ""
+            text = clean_markdown(md)
+            print(f"  🔎 Jina: текст {len(text)} символов, картинка: {'да' if image else 'нет'}")
+            return text, image
+    except Exception as e:
+        print(f"  ⚠️ Jina ошибка: {e}")
+    return "", ""
+
+def fetch_direct(link):
+    """Запасной вариант: прямое получение og-тегов"""
+    try:
+        resp = requests.get(link, headers=HEADERS, timeout=15)
+        print(f"  🔎 Прямой запрос: статус {resp.status_code}")
+        html = resp.text
+        image_m = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]*)"', html, re.IGNORECASE)
+        desc_m = re.search(r'<meta[^>]+property="og:description"[^>]+content="([^"]*)"', html, re.IGNORECASE)
+        image = html_lib.unescape(image_m.group(1)) if image_m else ""
+        text = html_lib.unescape(desc_m.group(1)) if desc_m else ""
+        return text, image
+    except Exception as e:
+        print(f"  ⚠️ Прямой запрос ошибка: {e}")
+        return "", ""
 
 def extract_image_from_html(html_text):
     m = re.search(r'<img[^>]+src="([^"]+)"', html_text or "")
     return m.group(1) if m else ""
 
-def fetch_article(link):
-    """Качает страницу статьи и достаёт полный текст и картинку"""
-    try:
-        resp = requests.get(link, headers=HEADERS, timeout=20)
-        html = resp.text
-        image = extract_og(html, 'image')
-        # Полный текст статьи через trafilatura
-        text = trafilatura.extract(html, include_comments=False, favor_recall=True)
-        if not text:
-            text = extract_og(html, 'description')
-        return (text or ""), image
-    except Exception as e:
-        print(f"  ⚠️ Не удалось получить страницу: {e}")
-        return "", ""
-
 def generate_hashtags(article):
     """Генерирует хэштеги по содержанию"""
-    
-    text = (article.get('title', '') + ' ' +
-            article.get('description', '')).lower()
-    
+    text = (article.get('title', '') + ' ' + article.get('description', '')).lower()
     hashtags = []
-    
     categories = {
         'технологии': ['смартфон', 'телефон', 'android', 'iphone', 'компьютер', 'интернет', 'гаджет', 'приложени', 'технолог', 'робот', 'нейросет', 'хакер', 'геймер'],
-        'экономика': ['рубл', 'доллар', 'евро', 'экономик', 'банк', 'цен', 'рынок', 'бизнес', 'финанс', 'инфляц', 'крипт', 'брикс', 'миллиардер'],
-        'происшествия': ['авари', 'преступ', 'выстрел', 'напал', 'погиб', 'пожар', 'ракетн', 'опасност', 'ранени', 'полици', 'суд', 'арест', 'вор', 'убийств', 'фсин', 'розыск'],
-        'политика': ['путин', 'президент', 'правительств', 'дума', 'министр', 'закон', 'депутат', 'кремл', 'чиновник'],
-        'общество': ['москв', 'росси', 'россиян', 'школ', 'больниц', 'город', 'жител', 'врач', 'квартир', 'кузбасс'],
+        'экономика': ['рубл', 'доллар', 'евро', 'экономик', 'банк', 'цен', 'рынок', 'бизнес', 'финанс', 'инфляц', 'крипт', 'брикс', 'миллиардер', 'яхт'],
+        'происшествия': ['авари', 'преступ', 'выстрел', 'напал', 'погиб', 'пожар', 'ракетн', 'опасност', 'ранени', 'полици', 'суд', 'арест', 'вор', 'убийств', 'фсин', 'розыск', 'шаурм', 'отравл'],
+        'политика': ['путин', 'президент', 'правительств', 'дума', 'министр', 'закон', 'депутат', 'кремл', 'чиновник', 'переговор', 'украин'],
+        'общество': ['москв', 'росси', 'россиян', 'школ', 'больниц', 'город', 'жител', 'врач', 'квартир', 'подросток'],
         'наука': ['учен', 'исследован', 'открыти', 'космос', 'эксперимент', 'наук'],
-        'спорт': ['спорт', 'матч', 'футбол', 'побед', 'атлет', 'олимп', 'хоккей', 'сборн', 'теннис', 'чемпион', 'федерер'],
+        'спорт': ['спорт', 'матч', 'футбол', 'побед', 'атлет', 'олимп', 'хоккей', 'сборн', 'теннис', 'чемпион'],
         'шоубиз': ['актер', 'фильм', 'пев', 'певиц', 'звезд', 'концерт', 'сериал', 'кино', 'модел'],
-        'вмире': ['европ', 'сша', 'кита', 'украин', 'нью-йорк', 'мир'],
+        'вмире': ['европ', 'сша', 'кита', 'украин', 'нью-йорк', 'мир', 'запад'],
     }
-    
     for category, keywords in categories.items():
         for keyword in keywords:
             if keyword in text:
                 hashtags.append('#' + category)
                 break
-    
     hashtags.extend(['#новости', '#топ'])
-    
     return ' '.join(hashtags[:4])
 
 def send_message(message):
@@ -121,40 +132,44 @@ def send_photo(message, image_url):
         return False
 
 def format_article(article):
-    """Собирает пост как у Топора: картинка + жирный заголовок + текст абзацами"""
-    
+    """Собирает пост: картинка + жирный заголовок + текст абзацами"""
     title = article.get('title_ru', article.get('title', 'Без заголовка'))
     
-    # Текст и картинка из RSS (если есть)
+    # 1. Текст и картинка из RSS (если есть)
     description = article.get('description', '') or article.get('summary', '')
     text = html_to_paragraphs(description)
     image = extract_image_from_html(description)
     
-    # Если текста или картинки нет — качаем страницу статьи
+    # 2. Если мало текста или нет картинки — Jina Reader
     if len(text) < 100 or not image:
-        page_text, page_image = fetch_article(article['link'])
-        if len(text) < 100 and page_text:
-            text = page_text
-        if not image and page_image:
-            image = page_image
+        jina_text, jina_image = fetch_via_jina(article['link'])
+        if len(text) < 100 and jina_text:
+            text = jina_text
+        if not image and jina_image:
+            image = jina_image
+    
+    # 3. Запасной вариант — прямой запрос
+    if len(text) < 100 or not image:
+        direct_text, direct_image = fetch_direct(article['link'])
+        if len(text) < 100 and direct_text:
+            text = direct_text
+        if not image and direct_image:
+            image = direct_image
     
     text = limit_text(text, 800)
     hashtags = generate_hashtags(article)
     
-    if text:
-        message = f"""🔥 <b>{title}</b>
+    message = f"""🔥 <b>{title}</b>
 
 {text}
 
-{hashtags}"""
-    else:
-        message = f"""🔥 <b>{title}</b>
+{hashtags}""" if text else f"""🔥 <b>{title}</b>
 
 {hashtags}"""
     
-    # Страховка от лимита Telegram в 1024 символа для подписи к фото
+    # Страховка от лимита Telegram 1024 символа для подписи к фото
     if image and len(message) > 1024:
-        text = limit_text(text, 1024 - len(title) - len(hashtags) - 20)
+        text = limit_text(text, max(200, 1000 - len(title) - len(hashtags)))
         message = f"""🔥 <b>{title}</b>
 
 {text}
