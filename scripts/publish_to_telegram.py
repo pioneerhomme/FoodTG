@@ -142,7 +142,7 @@ def clean_title(title):
     cleaned = title.strip()
     while cleaned:
         new_cleaned = emoji_pattern.sub('', cleaned, count=1).strip()
-        new_cleaned = re.sub(r'^[🔥🎥💥]+\s*', '', new_cleaned).strip()
+        new_cleaned = re.sub(r'^[🔥💥]+\s*', '', new_cleaned).strip()
         if new_cleaned == cleaned:
             break
         cleaned = new_cleaned
@@ -245,6 +245,28 @@ def get_qwen_client():
         api_key=QWEN_API_KEY,
         base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
     )
+
+def generate_short_title(title, text):
+    """ИИ сжимает заголовок до сути: 3-7 слов"""
+    if not QWEN_API_KEY:
+        return ""
+    try:
+        client = get_qwen_client()
+        response = client.chat.completions.create(
+            model="qwen-turbo",
+            messages=[{"role": "user", "content":
+                f"Сожми заголовок новости до 3-7 слов, передав главную суть. Без кавычек, эмодзи и точек.\n\nЗаголовок: {title}\nТекст: {text[:500]}"}],
+            max_tokens=30,
+            temperature=0.7
+        )
+        t = response.choices[0].message.content.strip().strip('"«».')
+        t = remove_links(t)
+        if 8 <= len(t) <= 80:
+            print(f"  ✂️ Короткий заголовок: {t}")
+            return t
+    except Exception as e:
+        print(f"  ⚠️ Qwen заголовок ошибка: {e}")
+    return ""
 
 def get_stock_keywords(title):
     if not QWEN_API_KEY:
@@ -483,13 +505,17 @@ def format_article(article):
         first = re.split(r'[.!?\n]', text, 1)[0].strip()
         title = first[:100] if first else 'Новости дня'
     
+    # КОРОТКИЙ ЗАГОЛОВОК от ИИ
+    short = generate_short_title(title, text)
+    if short:
+        title = short
+    
     if not image and not video:
         stock = get_stock_image(title)
         if stock:
             image = stock
     
     rewritten = rewrite_with_qwen(title, text)
-    # Короткий текст: 2-3 предложения
     final_text = rewritten if rewritten else limit_text(text, 450)
     
     hashtags = generate_hashtags(article)
@@ -611,7 +637,6 @@ def main():
         if ok:
             published.add(article['link'])
             success_count += 1
-            # Добавляем в ленту для сайта
             site_feed.insert(0, {
                 "title": html_lib.escape(clean_title(article.get('title', ''))),
                 "text": html_lib.escape(final_text),
@@ -623,7 +648,6 @@ def main():
         else:
             print(f"  ❌ Не удалось опубликовать")
     
-    # Храним последние 60 постов для сайта
     site_feed = site_feed[:60]
     save_site_feed(site_feed)
     save_published(published)
