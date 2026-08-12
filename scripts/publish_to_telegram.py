@@ -5,6 +5,7 @@ import re
 import html as html_lib
 import trafilatura
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
@@ -68,24 +69,20 @@ def is_ad(title, description):
     return hits >= 2
 
 def validate_article(article):
-    """Фильтр: для TG нужен текст поста, для сайтов достаточно заголовка"""
     title = (article.get('title', '') or '').strip()
     description = article.get('description', '') or article.get('summary', '') or ''
     text = remove_links(html_to_paragraphs(description))
     is_tg = article.get('source', '').startswith('TG:')
     
-    # Реклама — всегда пропускаем
     if is_ad(title, description):
         return False, "реклама"
     
     if is_tg:
-        # TG-пост: текст живёт в самом посте
         if len(text) < 80:
             return False, "мало текста"
         if re.match(r'^https?://', title) and len(text) < 150:
             return False, "заголовок-ссылка"
     else:
-        # Сайт: полный текст достанем со страницы, тут важен заголовок
         if len(title) < 10:
             return False, "пустой заголовок"
     
@@ -315,20 +312,20 @@ def rewrite_with_qwen(title, text):
     if not QWEN_API_KEY:
         print("  ⚠️ QWEN_API_KEY не задан")
         return ""
-    source_text = limit_text(text, 1500)
+    source_text = limit_text(text, 1200)
     if len(source_text) < 80:
         return ""
     prompt = f"""Ты — ироничный новостной блогер в стиле Telegram-каналов «Топор» и «Лентач».
 Передай суть новости своими словами с ЛЁГКИМ сарказмом и доброй иронией — но БЕЗ грубости и цинизма.
 
 Правила:
+- РОВНО 2-3 предложения, коротко и ёмко
 - Если новость о смерти, трагедии, преступлении с жертвами, катастрофе или болезни — пиши СДЕРЖАННО и без сарказма
 - Пиши ТОЛЬКО о фактах из текста, не выдумывай и не обобщай
 - НЕ повторяй заголовок в тексте
-- 2-4 предложения, не больше
 - Живой разговорный язык, лёгкая ирония над ситуациями и чиновниками, но не над людьми
 - Никаких канцеляризмов, «стало известно», «появилась информация»
-- Сохрани все факты, цифры, имена
+- Сохрани главные факты, цифры, имена
 - НЕ добавляй никакие ссылки, адреса сайтов, @username
 - Без хэштегов и эмодзи в тексте
 - Не добавляй кавычки вокруг ответа
@@ -344,10 +341,10 @@ def rewrite_with_qwen(title, text):
         response = client.chat.completions.create(
             model="qwen-plus",
             messages=[
-                {"role": "system", "content": "Ты ироничный, но добрый русский новостной блогер. Над трагедиями не шутишь. Ссылки не добавляешь. Пишешь только о фактах из текста."},
+                {"role": "system", "content": "Ты ироничный, но добрый русский новостной блогер. Над трагедиями не шутишь. Ссылки не добавляешь. Пишешь КОРОТКО: 2-3 предложения."},
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=300,
+            max_tokens=200,
             temperature=0.85
         )
         rewritten = response.choices[0].message.content.strip()
@@ -404,10 +401,7 @@ def send_photo(message, image_url):
         print(f"  ⚠️ Photo URL error: {e}")
     content, filename = download_media(image_url)
     if content:
-        # Проверка, что скачалась именно картинка, а не HTML-заглушка
-        if content[:4] == b'\xff\xd8\xff\xe0' or content[:8].startswith(b'\x89PNG') or content[:3] == b'\xff\xd8\xff':
-            pass
-        elif b'<html' in content[:200].lower():
+        if b'<html' in content[:200].lower():
             print("  ⚠️ Скачалась HTML-страница вместо фото")
             return False
         try:
@@ -478,7 +472,6 @@ def format_article(article):
         image = rss_image or tr_image
         video = rss_video or tr_video
     
-    # Водяные знаки: медиа не берём
     if dirty:
         video = ""
         image = ""
@@ -496,7 +489,8 @@ def format_article(article):
             image = stock
     
     rewritten = rewrite_with_qwen(title, text)
-    final_text = rewritten if rewritten else limit_text(text, 900)
+    # Короткий текст: 2-3 предложения
+    final_text = rewritten if rewritten else limit_text(text, 450)
     
     hashtags = generate_hashtags(article)
     safe_title = html_lib.escape(title)
@@ -511,16 +505,7 @@ def format_article(article):
 {subscribe_link}
 {hashtags}"""
     
-    if (image or video) and len(message) > 1024:
-        safe_text = html_lib.escape(limit_text(final_text, max(200, 1000 - len(title) - len(hashtags) - 50)))
-        message = f"""🔥 <b>{safe_title}</b>
-
-{safe_text}
-
-{subscribe_link}
-{hashtags}"""
-    
-    return message, image, video
+    return message, image, video, final_text, hashtags
 
 def load_published():
     published_file = 'src/content/published.json'
@@ -533,6 +518,21 @@ def save_published(published):
     published_file = 'src/content/published.json'
     with open(published_file, 'w', encoding='utf-8') as f:
         json.dump(list(published), f, ensure_ascii=False, indent=2)
+
+def load_site_feed():
+    feed_file = 'src/content/site_feed.json'
+    if os.path.exists(feed_file):
+        try:
+            with open(feed_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            return []
+    return []
+
+def save_site_feed(feed):
+    feed_file = 'src/content/site_feed.json'
+    with open(feed_file, 'w', encoding='utf-8') as f:
+        json.dump(feed, f, ensure_ascii=False, indent=2)
 
 def main():
     print("🚀 Начинаем публикацию в Telegram...")
@@ -563,7 +563,6 @@ def main():
             print(f"  🚫 Пропускаем ({reason}): {a.get('title', '')[:60]}")
     print(f"✅ После фильтра: {len(clean_articles)} статей")
     
-    # Приоритеты: Топор с медиа → Топор → остальные по популярности
     candidates = clean_articles[:20]
     scored = []
     for a in candidates:
@@ -586,10 +585,12 @@ def main():
         print("✅ Нет новых статей для публикации")
         return
     
+    site_feed = load_site_feed()
     success_count = 0
+    
     for i, article in enumerate(articles_to_publish, 1):
         print(f"\n📤 Публикуем {i}/{len(articles_to_publish)}: {article.get('title', '')[:60]}...")
-        message, image, video = format_article(article)
+        message, image, video, final_text, hashtags = format_article(article)
         
         ok = False
         if video:
@@ -599,23 +600,35 @@ def main():
             print("  🖼 Отправляем с картинкой...")
             ok = send_photo(message, image)
         if not ok and not video:
-            # Фото не отправилось — пробуем сток
             stock = get_stock_image(article.get('title', ''))
             if stock:
                 print("  🎨 Пробуем сток вместо битого фото...")
                 ok = send_photo(message, stock)
+                image = stock
         if not ok:
             ok = send_message(message)
         
         if ok:
             published.add(article['link'])
             success_count += 1
+            # Добавляем в ленту для сайта
+            site_feed.insert(0, {
+                "title": html_lib.escape(clean_title(article.get('title', ''))),
+                "text": html_lib.escape(final_text),
+                "image": image or "",
+                "hashtags": hashtags,
+                "time": datetime.now().isoformat()
+            })
             print(f"  ✅ Опубликовано")
         else:
             print(f"  ❌ Не удалось опубликовать")
     
+    # Храним последние 60 постов для сайта
+    site_feed = site_feed[:60]
+    save_site_feed(site_feed)
     save_published(published)
     print(f"\n✅ Успешно опубликовано: {success_count}")
+    print(f"🌐 Лента сайта: {len(site_feed)} постов")
 
 if __name__ == "__main__":
     main()

@@ -14,19 +14,19 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
     
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install feedparser requests deep-translator trafilatura beautifulsoup4 lxml openai openai
+        pip install feedparser requests deep-translator trafilatura beautifulsoup4 lxml openai
     
     - name: Collect news
       run: python scripts/collect_news.py
@@ -39,12 +39,19 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
         QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+        PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       run: python scripts/publish_to_telegram.py
+    
+    - name: Copy feed for site
+      run: |
+        if [ -f src/content/site_feed.json ]; then
+          cp src/content/site_feed.json docs/news.json
+        fi
     
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add src/content/
+        git add src/content/ docs/news.json
         git diff --staged --quiet || git commit -m "Update news [skip ci]"
         git push
