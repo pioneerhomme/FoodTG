@@ -8,13 +8,13 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        background: #eef1f5;
+        background: #f6f7f9;
         color: #14141a;
         min-height: 100vh;
     }
     header {
         background: #fff;
-        border-bottom: 1px solid #e2e6ec;
+        border-bottom: 1px solid #e8ebf0;
         padding: 14px 24px;
         display: flex;
         align-items: center;
@@ -26,121 +26,77 @@
     .logo { font-size: 1.4em; font-weight: 900; letter-spacing: 1px; }
     .logo em { font-style: normal; color: #ff4d00; }
     .subscribe {
-        background: #14141a;
+        background: #ff4d00;
         color: #fff;
         text-decoration: none;
         font-weight: 700;
         font-size: 0.92em;
-        padding: 10px 20px;
+        padding: 10px 22px;
         border-radius: 24px;
+        box-shadow: 0 4px 14px rgba(255,77,0,.3);
         transition: transform .15s;
     }
     .subscribe:hover { transform: scale(1.05); }
-    main { max-width: 1200px; margin: 0 auto; padding: 32px 20px 60px; }
-    h1 { font-size: 1.7em; font-weight: 800; margin-bottom: 24px; }
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        grid-auto-flow: dense;
-    }
+    main { max-width: 860px; margin: 0 auto; padding: 36px 18px 60px; }
+    h1 { font-size: 1.6em; font-weight: 800; margin-bottom: 24px; }
     .card {
-        position: relative;
-        border-radius: 18px;
-        overflow: hidden;
-        background: #14141a;
-        min-height: 340px;
         display: flex;
-        align-items: flex-end;
-        box-shadow: 0 6px 20px rgba(20,20,30,.12);
-        transition: transform .2s, box-shadow .2s;
+        gap: 22px;
+        background: #fff;
+        border: 1px solid #e8ebf0;
+        border-radius: 16px;
+        padding: 22px;
+        margin-bottom: 16px;
+        box-shadow: 0 1px 3px rgba(20,20,30,.05);
+        transition: box-shadow .2s, transform .2s;
     }
     .card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 12px 30px rgba(20,20,30,.2);
+        box-shadow: 0 8px 24px rgba(20,20,30,.09);
+        transform: translateY(-2px);
     }
-    .card.featured { grid-column: 1 / -1; min-height: 440px; }
-    .card.wide { grid-column: span 2; }
-    .card img {
-        position: absolute;
-        inset: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        filter: brightness(.6) saturate(.9);
+    .content { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+    .meta { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; }
+    .chip {
+        font-size: 0.76em;
+        font-weight: 700;
+        padding: 4px 12px;
+        border-radius: 12px;
     }
-    /* Фоны для карточек без фото — никаких чёрных дыр */
-    .card.noimg { background: linear-gradient(135deg, #3d1d10 0%, #1c1410 55%, #14141a 100%); }
-    .card.noimg::after {
-        content: "🔥";
-        position: absolute;
-        top: 56px;
-        right: 18px;
-        font-size: 5em;
-        opacity: .14;
-        z-index: 0;
-    }
-    .badges {
-        position: absolute;
-        top: 16px;
-        left: 16px;
-        display: flex;
-        gap: 8px;
-        z-index: 2;
-    }
-    .badge { font-size: 0.78em; font-weight: 700; padding: 6px 14px; border-radius: 16px; }
-    .badge.fresh { background: #2ee6a8; color: #0c2b20; }
-    .badge.fresh::before { content: "● "; font-size: 0.8em; }
-    .badge.cat { background: rgba(20,20,26,.8); color: #fff; backdrop-filter: blur(4px); }
-    .overlay {
-        position: relative;
-        z-index: 1;
-        width: 100%;
-        padding: 110px 22px 20px;
-        background: linear-gradient(to top,
-            rgba(8,8,12,.98) 25%,
-            rgba(8,8,12,.88) 55%,
-            rgba(8,8,12,.45) 85%,
-            transparent 100%);
-        color: #fff;
-    }
-    .overlay h3 {
-        font-size: 1.2em;
+    .time { color: #9aa3b2; font-size: 0.8em; }
+    .card h3 {
+        font-size: 1.25em;
         font-weight: 800;
         line-height: 1.35;
         margin-bottom: 8px;
-        text-shadow: 0 1px 4px rgba(0,0,0,.8);
     }
-    .card.featured .overlay h3 { font-size: 1.7em; }
-    .card.wide .overlay h3 { font-size: 1.4em; }
-    .overlay p {
-        font-size: 0.93em;
-        line-height: 1.5;
-        color: rgba(255,255,255,.92);
-        text-shadow: 0 1px 3px rgba(0,0,0,.7);
-        display: -webkit-box;
-        -webkit-line-clamp: 4;
-        line-clamp: 4;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+    .card p {
+        color: #5c6675;
+        line-height: 1.6;
+        font-size: 0.97em;
     }
+    .thumb {
+        width: 280px;
+        height: 190px;
+        object-fit: cover;
+        border-radius: 12px;
+        flex-shrink: 0;
+    }
+    .card.featured { padding: 28px; }
+    .card.featured h3 { font-size: 1.7em; }
+    .card.featured p { font-size: 1.05em; }
+    .card.featured .thumb { width: 380px; height: 260px; }
     .loading, .empty {
-        grid-column: 1 / -1;
         text-align: center;
         color: #8a93a3;
         padding: 80px 0;
         font-size: 1.1em;
     }
     footer { text-align: center; color: #9aa3b2; font-size: 0.85em; padding: 24px; }
-    @media (max-width: 900px) {
-        .grid { grid-template-columns: repeat(2, 1fr); }
-        .card.featured { min-height: 360px; }
-    }
-    @media (max-width: 600px) {
-        .grid { grid-template-columns: 1fr; }
-        .card.wide { grid-column: auto; }
-        h1 { font-size: 1.35em; }
-        .overlay { padding-top: 80px; }
+    @media (max-width: 700px) {
+        .card { flex-direction: column-reverse; }
+        .thumb, .card.featured .thumb { width: 100%; height: 210px; }
+        .card.featured h3 { font-size: 1.35em; }
+        h1 { font-size: 1.3em; }
     }
 </style>
 </head>
@@ -151,28 +107,42 @@
 </header>
 <main>
     <h1>Для тех, кто хочет знать первым</h1>
-    <div class="grid" id="feed"><div class="loading">Загрузка новостей...</div></div>
+    <div id="feed"><div class="loading">Загрузка новостей...</div></div>
 </main>
 <footer>IGNIS • свежие новости каждый день</footer>
 <script>
+const CAT_COLORS = {
+    'технологии': '#2563eb',
+    'экономика': '#059669',
+    'происшествия': '#dc2626',
+    'политика': '#7c3aed',
+    'общество': '#ea580c',
+    'наука': '#0891b2',
+    'спорт': '#16a34a',
+    'шоубиз': '#db2777',
+    'вмире': '#4f46e5',
+};
+
+function chipStyle(tag) {
+    const c = CAT_COLORS[tag.replace('#', '')] || '#64748b';
+    return `background:${c}1a;color:${c}`;
+}
+
 function cardHTML(p, featured) {
-    const img = p.image ? `<img src="${p.image}" alt="" loading="lazy" onerror="this.remove()">` : '';
-    const cat = (p.hashtags || '').split(' ')[0] || '#новости';
-    const text = p.text || '';
-    // Длинная новость → широкая карточка (2 колонки), короткая → 1 колонка
-    const wide = !featured && ((p.title || '').length + text.length) > 190;
-    const noimg = !p.image ? ' noimg' : '';
+    const img = p.image ? `<img class="thumb" src="${p.image}" alt="" loading="lazy" onerror="this.remove()">` : '';
+    const tag = (p.hashtags || '').split(' ')[0] || '#новости';
+    const time = p.time ? new Date(p.time).toLocaleString('ru-RU', {day:'numeric', month:'long', hour:'2-digit', minute:'2-digit'}) : '';
     return `
-    <article class="card${featured ? ' featured' : ''}${wide ? ' wide' : ''}${noimg}">
-        ${img}
-        <div class="badges">
-            <span class="badge fresh">Свежее</span>
-            <span class="badge cat">${cat}</span>
-        </div>
-        <div class="overlay">
+    <article class="card${featured ? ' featured' : ''}">
+        <div class="content">
+            <div class="meta">
+                <span class="chip" style="${chipStyle(tag)}">${tag}</span>
+                <span class="time">${time}</span>
+            </div>
             <h3>${p.title}</h3>
-            <p>${text}</p>
+            <p>${p.text}</p>
         </div>
+        ${img}
     </article>`;
 }
 
@@ -188,7 +158,7 @@ async function loadFeed() {
         }
         feed.innerHTML =
             cardHTML(posts[0], true) +
-            posts.slice(1, 13).map(p => cardHTML(p, false)).join('');
+            posts.slice(1, 15).map(p => cardHTML(p, false)).join('');
     } catch (e) {
         feed.innerHTML = '<div class="empty">Лента ещё наполняется. Загляните чуть позже 🙂</div>';
     }
