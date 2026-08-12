@@ -12,7 +12,7 @@ TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
 QWEN_API_KEY = os.getenv('QWEN_API_KEY', '')
 PEXELS_API_KEY = os.getenv('PEXELS_API_KEY', '')
 
-CHANNEL_USERNAME = "@allnewsin"
+CHANNEL_USERNAME = "@ignisnovosti"
 CHANNEL_LINK = f"https://t.me/{CHANNEL_USERNAME.replace('@', '')}"
 
 HEADERS = {

@@ -3,123 +3,195 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🔥 AI News Office — новости с иронией</title>
+<title>IGNIS — горячие новости</title>
 <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        background: #0f0f14;
-        color: #e8e8ec;
+        background: #eef1f5;
+        color: #14141a;
         min-height: 100vh;
     }
     header {
-        position: sticky;
-        top: 0;
-        z-index: 10;
-        background: rgba(15,15,20,0.92);
-        backdrop-filter: blur(10px);
-        border-bottom: 1px solid #26262e;
-        padding: 16px 20px;
+        background: #fff;
+        border-bottom: 1px solid #e2e6ec;
+        padding: 14px 24px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 12px;
+        position: sticky;
+        top: 0;
+        z-index: 20;
     }
-    .logo { font-size: 1.25em; font-weight: 800; }
-    .logo span { color: #ff7a00; }
+    .logo {
+        font-size: 1.4em;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+    .logo em { font-style: normal; color: #ff4d00; }
     .subscribe {
-        background: linear-gradient(135deg, #ff7a00, #ff3d00);
+        background: #14141a;
         color: #fff;
         text-decoration: none;
         font-weight: 700;
-        padding: 10px 18px;
+        font-size: 0.92em;
+        padding: 10px 20px;
         border-radius: 24px;
-        white-space: nowrap;
         transition: transform .15s;
     }
     .subscribe:hover { transform: scale(1.05); }
-    main {
-        max-width: 640px;
-        margin: 0 auto;
-        padding: 20px 14px 60px;
+    main { max-width: 1200px; margin: 0 auto; padding: 32px 20px 60px; }
+    h1 {
+        font-size: 1.7em;
+        font-weight: 800;
+        margin-bottom: 24px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
     }
     .card {
-        background: #1a1a22;
-        border: 1px solid #26262e;
-        border-radius: 16px;
+        position: relative;
+        border-radius: 18px;
         overflow: hidden;
-        margin-bottom: 18px;
+        background: linear-gradient(135deg, #23232e, #14141a);
+        min-height: 320px;
+        display: flex;
+        align-items: flex-end;
+        box-shadow: 0 6px 20px rgba(20,20,30,.12);
+        transition: transform .2s, box-shadow .2s;
+    }
+    .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 30px rgba(20,20,30,.2);
+    }
+    .card.featured {
+        grid-column: 1 / -1;
+        min-height: 420px;
     }
     .card img {
+        position: absolute;
+        inset: 0;
         width: 100%;
-        max-height: 360px;
+        height: 100%;
         object-fit: cover;
-        display: block;
     }
-    .card-body { padding: 16px 18px 14px; }
-    .card h3 {
-        font-size: 1.1em;
-        line-height: 1.35;
-        margin-bottom: 10px;
+    .badges {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        display: flex;
+        gap: 8px;
+        z-index: 2;
     }
-    .card p {
-        color: #b9b9c4;
-        line-height: 1.5;
-        font-size: 0.97em;
-        margin-bottom: 12px;
+    .badge {
+        font-size: 0.78em;
+        font-weight: 700;
+        padding: 6px 14px;
+        border-radius: 16px;
     }
-    .tags { color: #6f8cff; font-size: 0.88em; }
-    .time { color: #63636e; font-size: 0.8em; margin-top: 8px; }
+    .badge.fresh {
+        background: #2ee6a8;
+        color: #0c2b20;
+    }
+    .badge.fresh::before { content: "● "; font-size: 0.8em; }
+    .badge.cat {
+        background: rgba(20,20,26,.75);
+        color: #fff;
+        backdrop-filter: blur(4px);
+    }
+    .overlay {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        padding: 60px 22px 20px;
+        background: linear-gradient(to top, rgba(10,10,14,.92) 0%, rgba(10,10,14,.55) 60%, transparent 100%);
+        color: #fff;
+    }
+    .overlay h3 {
+        font-size: 1.25em;
+        font-weight: 800;
+        line-height: 1.3;
+        margin-bottom: 8px;
+    }
+    .card.featured .overlay h3 { font-size: 1.8em; }
+    .overlay p {
+        font-size: 0.93em;
+        line-height: 1.45;
+        color: rgba(255,255,255,.88);
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
     .loading, .empty {
+        grid-column: 1 / -1;
         text-align: center;
-        color: #63636e;
-        padding: 60px 0;
+        color: #8a93a3;
+        padding: 80px 0;
         font-size: 1.1em;
     }
     footer {
         text-align: center;
-        color: #4a4a55;
+        color: #9aa3b2;
         font-size: 0.85em;
-        padding: 20px;
+        padding: 24px;
+    }
+    @media (max-width: 900px) {
+        .grid { grid-template-columns: repeat(2, 1fr); }
+        .card.featured { min-height: 340px; }
+    }
+    @media (max-width: 600px) {
+        .grid { grid-template-columns: 1fr; }
+        h1 { font-size: 1.35em; }
     }
 </style>
 </head>
 <body>
 <header>
-    <div class="logo">🔥 AI News <span>Office</span></div>
-    <a class="subscribe" href="https://t.me/allnewsin" target="_blank">🔔 Подписаться</a>
+    <div class="logo">🔥 IG<em>NIS</em></div>
+    <a class="subscribe" href="https://t.me/ignisnovosti" target="_blank">🔔 Подписаться</a>
 </header>
 <main>
-    <div id="feed"><div class="loading">Загрузка новостей...</div></div>
+    <h1>Для тех, кто хочет знать первым</h1>
+    <div class="grid" id="feed"><div class="loading">Загрузка новостей...</div></div>
 </main>
-<footer>Новости собирает и переписывает ИИ • обновляется каждые 4 часа</footer>
+<footer>IGNIS • свежие новости каждый день</footer>
 <script>
+function cardHTML(p, featured) {
+    const img = p.image ? `<img src="${p.image}" alt="" loading="lazy" onerror="this.remove()">` : '';
+    const cat = (p.hashtags || '').split(' ')[0] || '#новости';
+    const text = p.text || '';
+    return `
+    <article class="card${featured ? ' featured' : ''}">
+        ${img}
+        <div class="badges">
+            <span class="badge fresh">Свежее</span>
+            <span class="badge cat">${cat}</span>
+        </div>
+        <div class="overlay">
+            <h3>${p.title}</h3>
+            <p>${text}</p>
+        </div>
+    </article>`;
+}
+
 async function loadFeed() {
-    const feedDiv = document.getElementById('feed');
+    const feed = document.getElementById('feed');
     try {
         const resp = await fetch('news.json?ts=' + Date.now());
-        if (!resp.ok) throw new Error('нет файла');
+        if (!resp.ok) throw new Error();
         const posts = await resp.json();
         if (!posts.length) {
-            feedDiv.innerHTML = '<div class="empty">Пока нет новостей — загляните позже</div>';
+            feed.innerHTML = '<div class="empty">Новости уже в пути — загляните через пару минут</div>';
             return;
         }
-        feedDiv.innerHTML = posts.map(p => {
-            const img = p.image ? `<img src="${p.image}" alt="" loading="lazy" onerror="this.style.display='none'">` : '';
-            const time = p.time ? new Date(p.time).toLocaleString('ru-RU', {day:'numeric', month:'long', hour:'2-digit', minute:'2-digit'}) : '';
-            return `
-            <div class="card">
-                ${img}
-                <div class="card-body">
-                    <h3>🔥 ${p.title}</h3>
-                    <p>${p.text}</p>
-                    <div class="tags">${p.hashtags}</div>
-                    <div class="time">${time}</div>
-                </div>
-            </div>`;
-        }).join('');
+        feed.innerHTML =
+            cardHTML(posts[0], true) +
+            posts.slice(1, 13).map(p => cardHTML(p, false)).join('');
     } catch (e) {
-        feedDiv.innerHTML = '<div class="empty">Новости ещё собираются. Загляните через пару минут 🙂</div>';
+        feed.innerHTML = '<div class="empty">Лента ещё наполняется. Загляните чуть позже 🙂</div>';
     }
 }
 loadFeed();
