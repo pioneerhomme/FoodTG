@@ -1,48 +1,75 @@
 [
   {
-    "title": "Грузия продала в Россию почти всю голубику",
-    "link": "https://lenta.ru/news/2026/08/12/gruziya-prodala-v-rossiyu-pochti-vsyu-svoyu-golubiku/",
-    "published": "Wed, 12 Aug 2026 16:17:45 +0300",
+    "title": "Ученые выявили ранний признак развития рака легких",
+    "link": "https://lenta.ru/news/2026/08/12/uchenye-vyyavili-ranniy-priznak-razvitiya-raka-legkih/",
+    "published": "Wed, 12 Aug 2026 16:25:17 +0300",
     "source": "Лента.ру",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "Названы причины невозможности вступления Украины в НАТО",
-    "link": "https://lenta.ru/news/2026/08/12/nazvany-prichiny-nevozmozhnosti-vstupleniya-ukrainy-v-nato/",
-    "published": "Wed, 12 Aug 2026 16:16:11 +0300",
+    "title": "Возможность России задерживать европейские суда оценили",
+    "link": "https://lenta.ru/news/2026/08/12/vozmozhnost-rossii-zaderzhivat-suda-evropeyskie-suda-otsenili/",
+    "published": "Wed, 12 Aug 2026 16:24:21 +0300",
     "source": "Лента.ру",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "Раскрыта личность насильника девушки в московском отеле",
-    "link": "https://lenta.ru/news/2026/08/12/raskryta-lichnost-nasilnika-devushki-v-moskovskom-otele/",
-    "published": "Wed, 12 Aug 2026 16:13:00 +0300",
+    "title": "Раскрыта реакция Джоли на срыв Питта после семи лет трезвости",
+    "link": "https://lenta.ru/news/2026/08/12/raskryta-reaktsiya-dzholi-na-sryv-pitta-posle-semi-let-trezvosti/",
+    "published": "Wed, 12 Aug 2026 16:24:03 +0300",
     "source": "Лента.ру",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "Для обитателей единственного в России сельского зоопарка устроят праздничный обед",
-    "link": "https://lenta.ru/news/2026/08/12/dlya-obitateley-edinstvennogo-v-rossii-selskogo-zooparka-ustroyat-prazdnichnyy-obed/",
-    "published": "Wed, 12 Aug 2026 16:13:00 +0300",
+    "title": "В НАТО сделали заявление о нарушении воздушного пространства Польши и Румынии",
+    "link": "https://lenta.ru/news/2026/08/12/v-nato-sdelali-zayavlenie-o-narushenii-vozdushnogo-prostranstva-polshi-i-rumynii/",
+    "published": "Wed, 12 Aug 2026 16:23:57 +0300",
     "source": "Лента.ру",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "Российский биатлонист-призер ОИ заявил о потере надежды на возвращение на мировые старты",
-    "link": "https://lenta.ru/news/2026/08/12/rossiyskiy-biatlonist-prizer-oi-zayavil-o-potere-nadezhdy-na-vozvraschenie-na-mirovye-starty/",
-    "published": "Wed, 12 Aug 2026 16:10:00 +0300",
+    "title": "Туристка не выжила при столкновении катера со скалой в Дагестане",
+    "link": "https://lenta.ru/news/2026/08/12/turistka-ne-vyzhila-pri-stolknovenii-katera-so-skaloy-v-dagestane/",
+    "published": "Wed, 12 Aug 2026 16:22:45 +0300",
     "source": "Лента.ру",
     "language": "ru",
     "description": "",
     "summary": ""
+  },
+  {
+    "title": "В Орловской области обломки БПЛА упали рядом с многоквартирным домом",
+    "link": "https://www.rbc.ru/rbcfreenews/6a7c43f19a79475c0021d2c4",
+    "published": "Wed, 12 Aug 2026 16:24:42 +0300",
+    "source": "РБК",
+    "language": "ru",
+    "description": "Минувшей ночью в одном из муниципалитетов Орловской области обломки уничтоженного беспилотника упали рядом с многоквартирным домом.",
+    "summary": "Минувшей ночью в одном из муниципалитетов Орловской области обломки уничтоженного беспилотника упали рядом с многоквартирным домом."
+  },
+  {
+    "title": "Эксперт рассказал, что делать после удаления «Яндекс Пэй» и Ozon Банка",
+    "link": "https://www.rbc.ru/rbcfreenews/6a7150119a79477b0239ceee",
+    "published": "Wed, 12 Aug 2026 16:23:29 +0300",
+    "source": "РБК",
+    "language": "ru",
+    "description": "После удаления приложений &laquo;Яндекс Пэй&raquo; из App Store и Ozon Банка из Google Play функции сервисов останутся доступны в веб-версиях, рассказал в эфире Радио РБК ведущий аналитик Mobile Research Group Эльдар Муртазин.",
+    "summary": "После удаления приложений &laquo;Яндекс Пэй&raquo; из App Store и Ozon Банка из Google Play функции сервисов останутся доступны в веб-версиях, рассказал в эфире Радио РБК ведущий аналитик Mobile Research Group Эльдар Муртазин."
+  },
+  {
+    "title": "Экс-посол Украины Стефанишина не внесла за себя залог в 6 млн гривен",
+    "link": "https://www.rbc.ru/politics/05/08/2026/6a7321219a79475be15f94a7",
+    "published": "Wed, 12 Aug 2026 16:20:00 +0300",
+    "source": "РБК",
+    "language": "ru",
+    "description": "Стефанишину освободили от должности посла Украины в США 3 августа. Спустя несколько дней ей было предъявлено обвинение в незаконном обогащении. В качестве меры пресечения был избран залог в размере 6 млн гривен",
+    "summary": "Стефанишину освободили от должности посла Украины в США 3 августа. Спустя несколько дней ей было предъявлено обвинение в незаконном обогащении. В качестве меры пресечения был избран залог в размере 6 млн гривен"
   },
   {
     "title": "«Яндекс» разделит доставку по классам: робот будет дешевле курьера",
@@ -63,166 +90,139 @@
     "summary": "«Яндекс» намерен выпускать 1,5 тыс. роверов на собственном заводе и распределять их по городам-миллионникам для запуска рободоставки. Также компания рассматривает опцию сделать градацию по стоимости доставки по аналогии с такси"
   },
   {
-    "title": "Лантратова сообщила о списке из 224 украинцев для обмена",
-    "link": "https://www.rbc.ru/rbcfreenews/6a7c6d3f9a79471e1b61185d",
-    "published": "Wed, 12 Aug 2026 16:01:25 +0300",
-    "source": "РБК",
-    "language": "ru",
-    "description": "Россия согласовала список на обмен из 224 украинцев, осужденных за преступления на российской территории, заявила уполномоченный по правам человека Яна Лантратова.",
-    "summary": "Россия согласовала список на обмен из 224 украинцев, осужденных за преступления на российской территории, заявила уполномоченный по правам человека Яна Лантратова."
-  },
-  {
-    "title": "Директор центра коммуникаций «Сколково» посоветовала книгу для лидеров",
-    "link": "https://www.rbc.ru/rbcfreenews/6a455d2c9a794706010b0adb",
-    "published": "Wed, 12 Aug 2026 15:57:18 +0300",
-    "source": "РБК",
-    "language": "ru",
-    "description": "Директор Центра коммуникаций и цифровых решений Школы управления &laquo;Сколково&raquo; Ксения Трифонова посоветовала слушателям Радио РБК книгу американского психолога Дэниела Гоулмана &laquo;Эмоциональный интеллект.",
-    "summary": "Директор Центра коммуникаций и цифровых решений Школы управления &laquo;Сколково&raquo; Ксения Трифонова посоветовала слушателям Радио РБК книгу американского психолога Дэниела Гоулмана &laquo;Эмоциональный интеллект."
-  },
-  {
-    "title": "В Турции потерпел крушение истребитель F-16. Видео",
-    "link": "https://www.rbc.ru/rbcfreenews/6a7c6b9f9a7947e9e0fbe1d8",
-    "published": "Wed, 12 Aug 2026 15:50:53 +0300",
-    "source": "РБК",
-    "language": "ru",
-    "description": "В Турции в Ялове во время учебного полета разбился истребитель F-16, сообщило Минобороны.",
-    "summary": "В Турции в Ялове во время учебного полета разбился истребитель F-16, сообщило Минобороны."
-  },
-  {
-    "title": "Bloomberg: занимающиеся ИИ компании из США не отчитываются о выбросах парниковых газов",
-    "link": "https://tass.ru/ekonomika/28006461",
-    "published": "Wed, 12 Aug 2026 16:17:04 +0300",
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "По данным агентства, несколько лет назад корпорации были обязаны раскрывать информацию о выбросах",
-    "summary": "По данным агентства, несколько лет назад корпорации были обязаны раскрывать информацию о выбросах"
-  },
-  {
-    "title": "ТАСС: Рижский рынок в Москве продолжает работу",
-    "link": "https://tass.ru/obschestvo/28006431",
-    "published": "Wed, 12 Aug 2026 16:17:02 +0300",
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Продавцы готовятся к 1 сентября",
-    "summary": "Продавцы готовятся к 1 сентября"
-  },
-  {
-    "title": "Захарова: РФ продолжит удары по инфраструктуре ВСУ до устранения угроз",
-    "link": "https://tass.ru/politika/28006457",
-    "published": "Wed, 12 Aug 2026 16:16:21 +0300",
+    "title": "В Нижегородской области сбили 11 БПЛА",
+    "link": "https://tass.ru/proisshestviya/28006489",
+    "published": "Wed, 12 Aug 2026 16:23:26 +0300",
     "source": "ТАСС",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "В Дагестане завели дело после гибели женщины при опрокидывании катера",
-    "link": "https://tass.ru/proisshestviya/28006455",
-    "published": "Wed, 12 Aug 2026 16:16:09 +0300",
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Происшествие произошло в акватории Чиркейского водохранилища",
-    "summary": "Происшествие произошло в акватории Чиркейского водохранилища"
-  },
-  {
-    "title": "В Казахстане назвали фейком выставленные на продажу якобы украденные данные",
-    "link": "https://tass.ru/mezhdunarodnaya-panorama/28006453",
-    "published": "Wed, 12 Aug 2026 16:15:53 +0300",
+    "title": "Шойгу: героизация пособников нацистов нужна для существования проекта \"Украина\"",
+    "link": "https://tass.ru/politika/28006485",
+    "published": "Wed, 12 Aug 2026 16:21:46 +0300",
     "source": "ТАСС",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "Путин присвоил звание \"Мать-героиня\" жительнице Приморского края",
-    "link": "https://ria.ru/20260812/zvanie-2110490344.html",
-    "published": "Wed, 12 Aug 2026 16:18:34 +0300",
+    "title": "Додон: Санду втягивает Молдавию в конфликт на Украине",
+    "link": "https://tass.ru/mezhdunarodnaya-panorama/28006459",
+    "published": "Wed, 12 Aug 2026 16:21:20 +0300",
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Экс-президент считает, что производство беспилотников на молдавской территории создаст риски для безопасности страны",
+    "summary": "Экс-президент считает, что производство беспилотников на молдавской территории создаст риски для безопасности страны"
+  },
+  {
+    "title": "Обвиняемая в коррупции экс-посол Украины Стефанишина не внесла залог",
+    "link": "https://tass.ru/mezhdunarodnaya-panorama/28006473",
+    "published": "Wed, 12 Aug 2026 16:21:08 +0300",
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Теперь Специализированная антикоррупционная прокуратура может обратиться в суд с ходатайством об изменении меры пресечения",
+    "summary": "Теперь Специализированная антикоррупционная прокуратура может обратиться в суд с ходатайством об изменении меры пресечения"
+  },
+  {
+    "title": "Лантратова: РФ готова обменять более 220 осужденных в России украинцев",
+    "link": "https://tass.ru/obschestvo/28006465",
+    "published": "Wed, 12 Aug 2026 16:20:53 +0300",
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "По словам омбудсмена, Киев отказывается забирать своих граждан",
+    "summary": "По словам омбудсмена, Киев отказывается забирать своих граждан"
+  },
+  {
+    "title": "Шойгу высказался о нынешних последователях бандеровцев",
+    "link": "https://ria.ru/20260812/shoygu-2110492126.html",
+    "published": "Wed, 12 Aug 2026 16:25:52 +0300",
     "source": "РИА Новости",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "МИД рассказал о последствиях ударов ВСУ по судам",
-    "link": "https://ria.ru/20260812/mid-2110490071.html",
-    "published": "Wed, 12 Aug 2026 16:16:27 +0300",
+    "title": "Идеология киевского режима ведет Украину к гибели, заявил Шойгу",
+    "link": "https://ria.ru/20260812/shoygu-2110492008.html",
+    "published": "Wed, 12 Aug 2026 16:24:02 +0300",
     "source": "РИА Новости",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "Атаки Киева на суда усиливают рост цен на продукты в мире, заявил МИД",
-    "link": "https://ria.ru/20260812/mid-2110490167.html",
-    "published": "Wed, 12 Aug 2026 16:16:20 +0300",
+    "title": "Шойгу прокомментировал эксгумацию останков Коновальца",
+    "link": "https://ria.ru/20260812/shoygu-2110491895.html",
+    "published": "Wed, 12 Aug 2026 16:23:29 +0300",
     "source": "РИА Новости",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "ВС России продолжат работу по устранению угроз в Черном море, заявили в МИД",
-    "link": "https://ria.ru/20260812/mid-2110489976.html",
-    "published": "Wed, 12 Aug 2026 16:15:43 +0300",
+    "title": "\"Яблоко\" намерено подать апелляционную жалобу на решение ВС 14 августа",
+    "link": "https://ria.ru/20260812/jabloko-2110491739.html",
+    "published": "Wed, 12 Aug 2026 16:23:23 +0300",
     "source": "РИА Новости",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "МИД: атаки Киева на суда с агропродукцией обслуживают интересы Запада",
-    "link": "https://ria.ru/20260812/mid-2110489878.html",
-    "published": "Wed, 12 Aug 2026 16:14:42 +0300",
+    "title": "Киев закрепляет русофобские установки на всех уровнях, заявил Шойгу",
+    "link": "https://ria.ru/20260812/shoygu-2110491590.html",
+    "published": "Wed, 12 Aug 2026 16:22:25 +0300",
     "source": "РИА Новости",
     "language": "ru",
     "description": "",
     "summary": ""
   },
   {
-    "title": "Антитеррористическое учение впервые проведут в российских детсадах",
-    "link": "https://www.kommersant.ru/doc/8878105",
-    "published": "Wed, 12 Aug 2026 16:08:15 +0300",
+    "title": "Митрошина рассказала про версии юристок, укравших у нее 41 млн рублей",
+    "link": "https://www.kommersant.ru/doc/8878130",
+    "published": "Wed, 12 Aug 2026 16:24:51 +0300",
     "source": "Коммерсантъ",
     "language": "ru",
-    "description": "Всероссийское антитеррористическое учение пройдет 18-19 августа в школах и детских садах. Дошкольные образовательные учреждения участвуют в нем впервые, сообщил заместитель министра просвещения Александр Бугаев на заседании правительственной комиссии по предупреждению и ликвидации чрезвычайных ситуаций и обеспечению пожарной безопасности.",
-    "summary": "Всероссийское антитеррористическое учение пройдет 18-19 августа в школах и детских садах. Дошкольные образовательные учреждения участвуют в нем впервые, сообщил заместитель министра просвещения Александр Бугаев на заседании правительственной комиссии по предупреждению и ликвидации чрезвычайных ситуаций и обеспечению пожарной безопасности."
+    "description": "Адвокат Алиса Волхова и налоговый юрист Ольга Гольцева, обманувшие на 41 млн руб. известного блогера Александру Митрошину (Матерь Бложья), утверждали, что пустили часть ее денег на благотворительность. Об этом потерпевшая рассказала «Ъ», комментируя приговор Савеловского суда Москвы, который назначил юристам по четыре года колонии каждой за мошенничество.",
+    "summary": "Адвокат Алиса Волхова и налоговый юрист Ольга Гольцева, обманувшие на 41 млн руб. известного блогера Александру Митрошину (Матерь Бложья), утверждали, что пустили часть ее денег на благотворительность. Об этом потерпевшая рассказала «Ъ», комментируя приговор Савеловского суда Москвы, который назначил юристам по четыре года колонии каждой за мошенничество."
   },
   {
-    "title": "Средняя ставка по вкладам в топ-10 банков РФ выросла в четвертый раз подряд",
-    "link": "https://www.kommersant.ru/doc/8878132",
-    "published": "Wed, 12 Aug 2026 16:07:41 +0300",
+    "title": "Мужчина погиб при ударе дрона в Курской области",
+    "link": "https://www.kommersant.ru/doc/8878139",
+    "published": "Wed, 12 Aug 2026 16:24:25 +0300",
     "source": "Коммерсантъ",
     "language": "ru",
-    "description": "Средняя максимальная ставка по вкладам в десяти крупнейших российских банках по итогам первой декады августа выросла на 0,04 п.п. и достигла 12,89% годовых, следует из материалов ЦБ. Этот показатель растет в четвертый раз подряд, суммарно за три предыдущие декады ставка увеличилась на 0,09 п.п.",
-    "summary": "Средняя максимальная ставка по вкладам в десяти крупнейших российских банках по итогам первой декады августа выросла на 0,04 п.п. и достигла 12,89% годовых, следует из материалов ЦБ. Этот показатель растет в четвертый раз подряд, суммарно за три предыдущие декады ставка увеличилась на 0,09 п.п."
+    "description": "Дрон ВСУ ударил по припаркованному автомобилю в Кореневском районе Курской области. Погиб мужчина.",
+    "summary": "Дрон ВСУ ударил по припаркованному автомобилю в Кореневском районе Курской области. Погиб мужчина."
   },
   {
-    "title": "Лантратова: Украина за последний месяц отклонила три списка на обмен пленными",
-    "link": "https://www.kommersant.ru/doc/8878118",
-    "published": "Wed, 12 Aug 2026 15:59:00 +0300",
+    "title": "В Польше закрыли дело о превышении полномочий Навроцким на посту директора музея",
+    "link": "https://www.kommersant.ru/doc/8878133",
+    "published": "Wed, 12 Aug 2026 16:21:22 +0300",
     "source": "Коммерсантъ",
     "language": "ru",
-    "description": "За последний месяц Россия передала Украине три списка военнопленных и осужденных военнослужащих ВСУ для обмена, сообщила уполномоченный по правам человека в РФ Яна Лантратова. По ее словам, украинская сторона отказалась забирать своих граждан.",
-    "summary": "За последний месяц Россия передала Украине три списка военнопленных и осужденных военнослужащих ВСУ для обмена, сообщила уполномоченный по правам человека в РФ Яна Лантратова. По ее словам, украинская сторона отказалась забирать своих граждан."
+    "description": "В Польше прекращено расследование дела о возможном превышении служебных полномочий в отношении президента страны Кароля Навроцкого. Речь шла о периоде, когда он работал директором Музея Второй мировой войны в Гданьске.",
+    "summary": "В Польше прекращено расследование дела о возможном превышении служебных полномочий в отношении президента страны Кароля Навроцкого. Речь шла о периоде, когда он работал директором Музея Второй мировой войны в Гданьске."
   },
   {
-    "title": "До 44 выросло число погибших при крушении парома на озере в Зимбабве",
-    "link": "https://www.kommersant.ru/doc/8878101",
-    "published": "Wed, 12 Aug 2026 15:57:27 +0300",
+    "title": "Правительство ФРГ поддержало полный запрет алкоголя для подростков до 16 лет",
+    "link": "https://www.kommersant.ru/doc/8878122",
+    "published": "Wed, 12 Aug 2026 16:17:17 +0300",
     "source": "Коммерсантъ",
     "language": "ru",
-    "description": "Как минимум 44 человека погибли, когда паром Rida перевернулся на озере Кариба в Зимбабве. Об этом сообщила полиция страны в соцсети X.",
-    "summary": "Как минимум 44 человека погибли, когда паром Rida перевернулся на озере Кариба в Зимбабве. Об этом сообщила полиция страны в соцсети X."
+    "description": "Правительство Германии высказалось в поддержку запрета употребления алкоголя для подростков 14–15 лет даже в присутствии родителей. Об этом написали СМИ, включая Der Spiegel и Tagesschau.",
+    "summary": "Правительство Германии высказалось в поддержку запрета употребления алкоголя для подростков 14–15 лет даже в присутствии родителей. Об этом написали СМИ, включая Der Spiegel и Tagesschau."
   },
   {
-    "title": "Путин рассказал, что делать с нарушителями морского права",
-    "link": "https://www.kommersant.ru/doc/8878117",
-    "published": "Wed, 12 Aug 2026 15:55:39 +0300",
+    "title": "«Яблоко» получило мотивированное решение Верховного суда о снятии с выборов",
+    "link": "https://www.kommersant.ru/doc/8878129",
+    "published": "Wed, 12 Aug 2026 16:16:29 +0300",
     "source": "Коммерсантъ",
     "language": "ru",
-    "description": "Владимир Путин, как известно, из Новосибирска перелетел в Южно-Сахалинск, где произошли события не чета Совету по образованию и науке. Это были для начала военные учения, максимально, по всем признакам приближенные к боевым, да не просто флота, а Тихоокеанского.",
-    "summary": "Владимир Путин, как известно, из Новосибирска перелетел в Южно-Сахалинск, где произошли события не чета Совету по образованию и науке. Это были для начала военные учения, максимально, по всем признакам приближенные к боевым, да не просто флота, а Тихоокеанского."
+    "description": "Представители партии «Яблоко» получили мотивированное решение Верховного суда об отмене регистрации списка на выборах в Госдуму по иску «Родины». Об этом пишет ТАСС со ссылкой на участника процесса.",
+    "summary": "Представители партии «Яблоко» получили мотивированное решение Верховного суда об отмене регистрации списка на выборах в Госдуму по иску «Родины». Об этом пишет ТАСС со ссылкой на участника процесса."
   },
   {
     "title": "Приложение «Ozon Банка» удалили из Google Play",
@@ -333,6 +333,15 @@
     "summary": "Весной 2026 года компания уволила около 30 тысяч сотрудников.\n                                                    <img alt=\"alt\" height=\"708\" src=\"https://leonardo.osnova.io/b0cd9c87-26ea-506d-92df-92e097d40f1a/-/resize/1300/\" width=\"1280\" />"
   },
   {
+    "title": "Nebius Аркадия Воложа отчиталась за второй квартал: выручка выросла на 454% год к году, до $582,3 млн",
+    "link": "https://vc.ru/money/3075317-nebius-otchitalas-o-roste-vyruchki-i-uspehakh-v-oblachnom-biznese?from=rss",
+    "published": "Wed, 12 Aug 2026 16:16:14 +0300",
+    "source": "VC.ru",
+    "language": "ru",
+    "description": "Акции на премаркете растут почти на 17%.\n                                                    <img alt=\"alt\" height=\"767\" src=\"https://leonardo.osnova.io/8cc13efd-bf56-50e8-8ee4-b14327bcbdae/-/resize/1300/\" width=\"1280\" />",
+    "summary": "Акции на премаркете растут почти на 17%.\n                                                    <img alt=\"alt\" height=\"767\" src=\"https://leonardo.osnova.io/8cc13efd-bf56-50e8-8ee4-b14327bcbdae/-/resize/1300/\" width=\"1280\" />"
+  },
+  {
     "title": "«VK Видео» изменит правила подключения к монетизации — нужны 1000 подписчиков и 500 часов просмотра за 90 дней",
     "link": "https://vc.ru/services/3074858-vk-video-izmenenie-pravil-monetizatsii?from=rss",
     "published": "Wed, 12 Aug 2026 12:42:32 +0300",
@@ -351,22 +360,13 @@
     "summary": "Оно продолжает работать как раньше, но обновить его «пока не получится»."
   },
   {
-    "title": "Исследовательское подразделение BMW показало прототип электромобиля Luminetta, вдохновлённого формой «рыбы-кузовка»",
-    "link": "https://vc.ru/transport/3073353-prototip-elektromobilya-luminetta-ot-bmw?from=rss",
-    "published": "Tue, 11 Aug 2026 17:15:41 +0300",
-    "source": "VC.ru",
-    "language": "ru",
-    "description": "Его представят на выставке CES 2027.\n                                                    <img alt=\"alt\" height=\"720\" src=\"https://leonardo.osnova.io/7ccd28f4-e71d-53c4-85f1-55382610efd2/-/resize/1300/\" width=\"1280\" />",
-    "summary": "Его представят на выставке CES 2027.\n                                                    <img alt=\"alt\" height=\"720\" src=\"https://leonardo.osnova.io/7ccd28f4-e71d-53c4-85f1-55382610efd2/-/resize/1300/\" width=\"1280\" />"
-  },
-  {
-    "title": "Конь с подвохом",
-    "link": "https://pikabu.ru/story/kon_s_podvokhom_14235541",
-    "published": "Wed, 12 Aug 2026 10:21:41 +0300",
+    "title": "Факты - это &quot;москальская лженаука&quot;",
+    "link": "https://pikabu.ru/story/faktyi__yeto_moskalskaya_lzhenauka_14236390",
+    "published": "Wed, 12 Aug 2026 14:57:28 +0300",
     "source": "Пикабу",
     "language": "ru",
-    "description": "<p><img alt=\"\" src=\"https://cs16.pikabu.ru/s/2026/08/12/10/bfjh2v3b.jpg\" /></p>",
-    "summary": "<p><img alt=\"\" src=\"https://cs16.pikabu.ru/s/2026/08/12/10/bfjh2v3b.jpg\" /></p>"
+    "description": "<p><p>Интернет-фейкометы такие смешные и глупые&#x1f923;</p></p><p><img alt=\"\" src=\"https://cs16.pikabu.ru/s/2026/08/12/14/6hjh3vrt.jpg\" /></p>",
+    "summary": "<p><p>Интернет-фейкометы такие смешные и глупые&#x1f923;</p></p><p><img alt=\"\" src=\"https://cs16.pikabu.ru/s/2026/08/12/14/6hjh3vrt.jpg\" /></p>"
   },
   {
     "title": "Финская полиция не церемонится при задержании питбайкеров",
@@ -378,6 +378,15 @@
     "summary": ""
   },
   {
+    "title": "Конь с подвохом",
+    "link": "https://pikabu.ru/story/kon_s_podvokhom_14235541",
+    "published": "Wed, 12 Aug 2026 10:21:41 +0300",
+    "source": "Пикабу",
+    "language": "ru",
+    "description": "<p><img alt=\"\" src=\"https://cs16.pikabu.ru/s/2026/08/12/10/bfjh2v3b.jpg\" /></p>",
+    "summary": "<p><img alt=\"\" src=\"https://cs16.pikabu.ru/s/2026/08/12/10/bfjh2v3b.jpg\" /></p>"
+  },
+  {
     "title": "Ну что за милота",
     "link": "https://pikabu.ru/story/nu_chto_za_milota_14236431",
     "published": "Wed, 12 Aug 2026 15:10:00 +0300",
@@ -385,15 +394,6 @@
     "language": "ru",
     "description": "<p><img alt=\"\" src=\"https://cs20.pikabu.ru/s/2026/08/12/15/xqfsog66.jpg\" /></p><p><p><a href=\"https://pikabu.ru/story/nemnogo_o_nas_14217856\" target=\"_blank\">Немного о нас</a></p></p>",
     "summary": "<p><img alt=\"\" src=\"https://cs20.pikabu.ru/s/2026/08/12/15/xqfsog66.jpg\" /></p><p><p><a href=\"https://pikabu.ru/story/nemnogo_o_nas_14217856\" target=\"_blank\">Немного о нас</a></p></p>"
-  },
-  {
-    "title": "Факты - это &quot;москальская лженаука&quot;",
-    "link": "https://pikabu.ru/story/faktyi__yeto_moskalskaya_lzhenauka_14236390",
-    "published": "Wed, 12 Aug 2026 14:57:28 +0300",
-    "source": "Пикабу",
-    "language": "ru",
-    "description": "<p><p>Интернет-фейкометы такие смешные и глупые&#x1f923;</p></p><p><img alt=\"\" src=\"https://cs16.pikabu.ru/s/2026/08/12/14/6hjh3vrt.jpg\" /></p>",
-    "summary": "<p><p>Интернет-фейкометы такие смешные и глупые&#x1f923;</p></p><p><img alt=\"\" src=\"https://cs16.pikabu.ru/s/2026/08/12/14/6hjh3vrt.jpg\" /></p>"
   },
   {
     "title": "Ответ alexmix в «Какая советская актриса самая симпатичная, на ваш вкус? (в 70-80-е годы)»",
@@ -450,6 +450,24 @@
     "summary": "Число подтвержденных жертв лихорадки Эбола в Конго превысило две тысячи"
   },
   {
+    "title": "Потребительские цены в США выросли на 3,4% год к году",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/12/1220664-tseni-v-ssha",
+    "published": "Wed, 12 Aug 2026 16:22:13 +0300",
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": ""
+  },
+  {
+    "title": "Уровень воды в Рейне упал до новых минимумов",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/12/1220662-uroven-v-reine",
+    "published": "Wed, 12 Aug 2026 16:16:43 +0300",
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": ""
+  },
+  {
     "title": "МВД: мошенники начали рассылать фейковые объявления о топливных картах",
     "link": "https://www.vedomosti.ru/society/news/2026/08/12/1220655-feikovie-obyavleniya",
     "published": "Wed, 12 Aug 2026 16:01:06 +0300",
@@ -471,24 +489,6 @@
     "title": "В Госдуму внесли проект об ужесточении наказания за дипфейки",
     "link": "https://www.vedomosti.ru/technology/news/2026/08/12/1220651-nakazaniya-za-dipfeiki",
     "published": "Wed, 12 Aug 2026 15:52:00 +0300",
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": ""
-  },
-  {
-    "title": "Защита Лерчек указала на отсутствие состава преступления",
-    "link": "https://www.vedomosti.ru/society/news/2026/08/12/1220652-otsutstvie-sostava",
-    "published": "Wed, 12 Aug 2026 15:47:40 +0300",
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": ""
-  },
-  {
-    "title": "В Адыгее отменили фестиваль сыра из-за соображений безопасности",
-    "link": "https://www.vedomosti.ru/society/news/2026/08/12/1220649-otmenili-festival",
-    "published": "Wed, 12 Aug 2026 15:39:24 +0300",
     "source": "Ведомости",
     "language": "ru",
     "description": "",
@@ -554,8 +554,8 @@
     "published": "Fri, 01 Jul 2016 05:07:20 GMT",
     "source": "Лентач",
     "language": "ru",
-    "description": "<img height=\"599\" src=\"https://cdn1.telesco.pe/file/E2W3xlGBtLytOhjt3q20mxpwGz1jvTatVGDzVyxi-UdmG9eqPLOZt-mDpIqj-_XAtdDtA1ixC6qyfJJHA45A0i8kF3PpIgPSChprdA_h9VQnFB-K9IV4i5ADntEOWo96KHosWU8JlYihiU2d8CB3khsJVumkB5nxRp0ePn3ysbKE3dHajDIPIA9RFU8g-BjDMALCqfg5ZbkDUbTi00p2QBJ9W5PEJiZItaTAMrAQ1pZt9BGt_9BgE4KMT2t282DP4jg76E-bkJtP6hD5Debxpc3C7qy_r8Lz8hMJvA65ZPTALkt8yvYqjJ4OLtXEVzhBWkk7QIDPNZYf6VnFpXyxkg.jpg\" width=\"800\" />",
-    "summary": "<img height=\"599\" src=\"https://cdn1.telesco.pe/file/E2W3xlGBtLytOhjt3q20mxpwGz1jvTatVGDzVyxi-UdmG9eqPLOZt-mDpIqj-_XAtdDtA1ixC6qyfJJHA45A0i8kF3PpIgPSChprdA_h9VQnFB-K9IV4i5ADntEOWo96KHosWU8JlYihiU2d8CB3khsJVumkB5nxRp0ePn3ysbKE3dHajDIPIA9RFU8g-BjDMALCqfg5ZbkDUbTi00p2QBJ9W5PEJiZItaTAMrAQ1pZt9BGt_9BgE4KMT2t282DP4jg76E-bkJtP6hD5Debxpc3C7qy_r8Lz8hMJvA65ZPTALkt8yvYqjJ4OLtXEVzhBWkk7QIDPNZYf6VnFpXyxkg.jpg\" width=\"800\" />"
+    "description": "<img src=\"https://cdn1.telesco.pe/file/E2W3xlGBtLytOhjt3q20mxpwGz1jvTatVGDzVyxi-UdmG9eqPLOZt-mDpIqj-_XAtdDtA1ixC6qyfJJHA45A0i8kF3PpIgPSChprdA_h9VQnFB-K9IV4i5ADntEOWo96KHosWU8JlYihiU2d8CB3khsJVumkB5nxRp0ePn3ysbKE3dHajDIPIA9RFU8g-BjDMALCqfg5ZbkDUbTi00p2QBJ9W5PEJiZItaTAMrAQ1pZt9BGt_9BgE4KMT2t282DP4jg76E-bkJtP6hD5Debxpc3C7qy_r8Lz8hMJvA65ZPTALkt8yvYqjJ4OLtXEVzhBWkk7QIDPNZYf6VnFpXyxkg.jpg\" />",
+    "summary": "<img src=\"https://cdn1.telesco.pe/file/E2W3xlGBtLytOhjt3q20mxpwGz1jvTatVGDzVyxi-UdmG9eqPLOZt-mDpIqj-_XAtdDtA1ixC6qyfJJHA45A0i8kF3PpIgPSChprdA_h9VQnFB-K9IV4i5ADntEOWo96KHosWU8JlYihiU2d8CB3khsJVumkB5nxRp0ePn3ysbKE3dHajDIPIA9RFU8g-BjDMALCqfg5ZbkDUbTi00p2QBJ9W5PEJiZItaTAMrAQ1pZt9BGt_9BgE4KMT2t282DP4jg76E-bkJtP6hD5Debxpc3C7qy_r8Lz8hMJvA65ZPTALkt8yvYqjJ4OLtXEVzhBWkk7QIDPNZYf6VnFpXyxkg.jpg\" />"
   },
   {
     "title": "🖼",
@@ -563,8 +563,8 @@
     "published": "Fri, 01 Jul 2016 05:07:20 GMT",
     "source": "Лентач",
     "language": "ru",
-    "description": "<img height=\"516\" src=\"https://cdn1.telesco.pe/file/ISf2Iiw2JxGTD-8i3ZNhmbhBqlsLhEMht9aT40INkAVlRRaXlU5lChaDTyTRQN6rpa8OxLH4PdfN2IEPFWZ_1JNAa4FbyNfW2E2zZ_67MzWunopXkDVryv80H3T0OTHr8zvXxaXxrK7b3hw-bBBGumPf-YbOa7b7liAsHtL3qzXhqhg4zHw4IoB-AoHsOE1DzxAtZR-A2asxbROXIjQr-9Qemjq7N7lGo381X_5NnO4ar2JQLhSIXvpNQPjq30aQIlleSM-nyezaHMjdHf2PEsrl5NxwNhapQYG45MGN5sWzLDCT0oLFthwxEHyan2PSYEGmJ2uXSjBBcG1FCfn2pA.jpg\" width=\"800\" />",
-    "summary": "<img height=\"516\" src=\"https://cdn1.telesco.pe/file/ISf2Iiw2JxGTD-8i3ZNhmbhBqlsLhEMht9aT40INkAVlRRaXlU5lChaDTyTRQN6rpa8OxLH4PdfN2IEPFWZ_1JNAa4FbyNfW2E2zZ_67MzWunopXkDVryv80H3T0OTHr8zvXxaXxrK7b3hw-bBBGumPf-YbOa7b7liAsHtL3qzXhqhg4zHw4IoB-AoHsOE1DzxAtZR-A2asxbROXIjQr-9Qemjq7N7lGo381X_5NnO4ar2JQLhSIXvpNQPjq30aQIlleSM-nyezaHMjdHf2PEsrl5NxwNhapQYG45MGN5sWzLDCT0oLFthwxEHyan2PSYEGmJ2uXSjBBcG1FCfn2pA.jpg\" width=\"800\" />"
+    "description": "<img src=\"https://cdn1.telesco.pe/file/ISf2Iiw2JxGTD-8i3ZNhmbhBqlsLhEMht9aT40INkAVlRRaXlU5lChaDTyTRQN6rpa8OxLH4PdfN2IEPFWZ_1JNAa4FbyNfW2E2zZ_67MzWunopXkDVryv80H3T0OTHr8zvXxaXxrK7b3hw-bBBGumPf-YbOa7b7liAsHtL3qzXhqhg4zHw4IoB-AoHsOE1DzxAtZR-A2asxbROXIjQr-9Qemjq7N7lGo381X_5NnO4ar2JQLhSIXvpNQPjq30aQIlleSM-nyezaHMjdHf2PEsrl5NxwNhapQYG45MGN5sWzLDCT0oLFthwxEHyan2PSYEGmJ2uXSjBBcG1FCfn2pA.jpg\" />",
+    "summary": "<img src=\"https://cdn1.telesco.pe/file/ISf2Iiw2JxGTD-8i3ZNhmbhBqlsLhEMht9aT40INkAVlRRaXlU5lChaDTyTRQN6rpa8OxLH4PdfN2IEPFWZ_1JNAa4FbyNfW2E2zZ_67MzWunopXkDVryv80H3T0OTHr8zvXxaXxrK7b3hw-bBBGumPf-YbOa7b7liAsHtL3qzXhqhg4zHw4IoB-AoHsOE1DzxAtZR-A2asxbROXIjQr-9Qemjq7N7lGo381X_5NnO4ar2JQLhSIXvpNQPjq30aQIlleSM-nyezaHMjdHf2PEsrl5NxwNhapQYG45MGN5sWzLDCT0oLFthwxEHyan2PSYEGmJ2uXSjBBcG1FCfn2pA.jpg\" />"
   },
   {
     "title": "В Ростове вчера творился настоящий ад. Город затопило, много машин унесло течение...",
@@ -581,7 +581,7 @@
     "published": "Fri, 01 Jul 2016 05:01:03 GMT",
     "source": "Лентач",
     "language": "ru",
-    "description": "<p>Вкусная еда<br />Об очень вкусной и полезной пище <span class=\"emoji\">😍</span><br /><span class=\"emoji\">👉</span> <a href=\"http://telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw\" rel=\"noopener\" target=\"_blank\">telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw</a> <span class=\"emoji\">👌</span><br />При канале работает приватный чат <span class=\"emoji\">😜</span></p><img height=\"533\" src=\"https://cdn4.telesco.pe/file/kICet_gGgCThtoBmXLk2LK9FbLKm6O13gs9kI8B5QNYISBiVqxoO0XbFWqemESkWxqKnMohR9qgDtDFzZLDngPFPRh_CLPUBhJt_38aXuyO7a_cS2K707HhixhfvUaUY6u6RVVCK23DVuIDp-pFX-wvHClMhemRQtIvoa8a_syHkSgA62Jkp8ChiHTgqW087zO1EtKX-X13O5nsugWTkz2QjSoFhIxJAp4QNNuRwJYzcOu55F-TuO_La2f_w0zWJXZdqr5FbjKHyVMF0wYriAs-JuDQuYy6yvMWF1BIt3qdO1NR_aWwvHP_1yOCmU1wkc7yFlikhCL0JhBf5EJhSCw.jpg\" width=\"800\" />",
-    "summary": "<p>Вкусная еда<br />Об очень вкусной и полезной пище <span class=\"emoji\">😍</span><br /><span class=\"emoji\">👉</span> <a href=\"http://telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw\" rel=\"noopener\" target=\"_blank\">telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw</a> <span class=\"emoji\">👌</span><br />При канале работает приватный чат <span class=\"emoji\">😜</span></p><img height=\"533\" src=\"https://cdn4.telesco.pe/file/kICet_gGgCThtoBmXLk2LK9FbLKm6O13gs9kI8B5QNYISBiVqxoO0XbFWqemESkWxqKnMohR9qgDtDFzZLDngPFPRh_CLPUBhJt_38aXuyO7a_cS2K707HhixhfvUaUY6u6RVVCK23DVuIDp-pFX-wvHClMhemRQtIvoa8a_syHkSgA62Jkp8ChiHTgqW087zO1EtKX-X13O5nsugWTkz2QjSoFhIxJAp4QNNuRwJYzcOu55F-TuO_La2f_w0zWJXZdqr5FbjKHyVMF0wYriAs-JuDQuYy6yvMWF1BIt3qdO1NR_aWwvHP_1yOCmU1wkc7yFlikhCL0JhBf5EJhSCw.jpg\" width=\"800\" />"
+    "description": "<p>Вкусная еда<br />Об очень вкусной и полезной пище <span class=\"emoji\">😍</span><br /><span class=\"emoji\">👉</span> <a href=\"http://telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw\" rel=\"noopener\" target=\"_blank\">telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw</a> <span class=\"emoji\">👌</span><br />При канале работает приватный чат <span class=\"emoji\">😜</span></p><img src=\"https://cdn4.telesco.pe/file/kICet_gGgCThtoBmXLk2LK9FbLKm6O13gs9kI8B5QNYISBiVqxoO0XbFWqemESkWxqKnMohR9qgDtDFzZLDngPFPRh_CLPUBhJt_38aXuyO7a_cS2K707HhixhfvUaUY6u6RVVCK23DVuIDp-pFX-wvHClMhemRQtIvoa8a_syHkSgA62Jkp8ChiHTgqW087zO1EtKX-X13O5nsugWTkz2QjSoFhIxJAp4QNNuRwJYzcOu55F-TuO_La2f_w0zWJXZdqr5FbjKHyVMF0wYriAs-JuDQuYy6yvMWF1BIt3qdO1NR_aWwvHP_1yOCmU1wkc7yFlikhCL0JhBf5EJhSCw.jpg\" />",
+    "summary": "<p>Вкусная еда<br />Об очень вкусной и полезной пище <span class=\"emoji\">😍</span><br /><span class=\"emoji\">👉</span> <a href=\"http://telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw\" rel=\"noopener\" target=\"_blank\">telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw</a> <span class=\"emoji\">👌</span><br />При канале работает приватный чат <span class=\"emoji\">😜</span></p><img src=\"https://cdn4.telesco.pe/file/kICet_gGgCThtoBmXLk2LK9FbLKm6O13gs9kI8B5QNYISBiVqxoO0XbFWqemESkWxqKnMohR9qgDtDFzZLDngPFPRh_CLPUBhJt_38aXuyO7a_cS2K707HhixhfvUaUY6u6RVVCK23DVuIDp-pFX-wvHClMhemRQtIvoa8a_syHkSgA62Jkp8ChiHTgqW087zO1EtKX-X13O5nsugWTkz2QjSoFhIxJAp4QNNuRwJYzcOu55F-TuO_La2f_w0zWJXZdqr5FbjKHyVMF0wYriAs-JuDQuYy6yvMWF1BIt3qdO1NR_aWwvHP_1yOCmU1wkc7yFlikhCL0JhBf5EJhSCw.jpg\" />"
   }
 ]
