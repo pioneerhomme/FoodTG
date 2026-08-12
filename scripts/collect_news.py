@@ -46,7 +46,9 @@ def collect_from_russian_rss():
                     "link": entry.link,
                     "published": entry.published if hasattr(entry, 'published') else "",
                     "source": feed_info['name'],
-                    "language": "ru"
+                    "language": "ru",
+                    "description": entry.description if hasattr(entry, 'description') else "",
+                    "summary": entry.summary if hasattr(entry, 'summary') else ""
                 })
                 
         except Exception as e:
@@ -57,17 +59,12 @@ def collect_from_russian_rss():
 def collect_from_telegram_channels():
     """
     Собирает новости из Telegram каналов через RSS-мосты
-    
-    Для Telegram каналов используем сервисы-мосты:
-    - https://rss.app (бесплатно до 3 каналов)
-    - https://telegramposts.com (бесплатно)
-    - https://rsshub.app (бесплатный open-source)
     """
     
     # Список Telegram каналов для мониторинга
-    # Для каждого нужно создать RSS-ссылку через rss.app или подобный сервис
     telegram_channels = [
-        # {"url": "https://rss.app/r/feed/QwpECECOcc6JtXji.xml", "name": "Топор"},
+        # Пример: добавьте свои RSS ссылки от rss.app
+        # {"url": "https://rss.app/feeds/xxxxxx.xml", "name": "Топор"},
     ]
     
     articles = []
@@ -83,7 +80,9 @@ def collect_from_telegram_channels():
                     "link": entry.link,
                     "published": entry.published if hasattr(entry, 'published') else "",
                     "source": f"TG: {channel['name']}",
-                    "language": "ru"
+                    "language": "ru",
+                    "description": entry.description if hasattr(entry, 'description') else "",
+                    "summary": entry.summary if hasattr(entry, 'summary') else ""
                 })
                 
         except Exception as e:

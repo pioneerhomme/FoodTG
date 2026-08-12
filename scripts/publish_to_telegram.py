@@ -1,11 +1,27 @@
 import json
 import requests
 import os
+import re
 from datetime import datetime
 
 # Получаем настройки из переменных окружения (из секретов GitHub)
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
+
+def clean_html(html_text):
+    """Убирает HTML теги из текста"""
+    if not html_text:
+        return ""
+    # Убираем HTML теги
+    clean = re.sub('<[^<]+?>', '', html_text)
+    # Убираем HTML entities
+    clean = re.sub(r'&[a-zA-Z]+;', ' ', clean)
+    # Убираем лишние пробелы и переносы строк
+    clean = re.sub(r'\s+', ' ', clean).strip()
+    # Обрезаем до 300 символов
+    if len(clean) > 300:
+        clean = clean[:300] + "..."
+    return clean
 
 def send_to_telegram(message):
     """Отправляет сообщение в Telegram канал"""
@@ -16,7 +32,7 @@ def send_to_telegram(message):
         "chat_id": TELEGRAM_CHANNEL_ID,
         "text": message,
         "parse_mode": "HTML",
-        "disable_web_page_preview": False  # Показывать превью ссылок
+        "disable_web_page_preview": False
     }
     
     try:
@@ -34,20 +50,26 @@ def send_to_telegram(message):
         return False
 
 def format_article(article):
-    """Форматирует статью для публикации"""
+    """Форматирует статью для публикации в неформальном стиле"""
     
-    # Используем переведённый заголовок если есть, иначе оригинальный
     title = article.get('title_ru', article.get('title', 'Без заголовка'))
     
-    # Формируем сообщение
-    message = f"""📰 <b>{title}</b>
+    # Получаем описание статьи
+    description = article.get('description', '') or article.get('summary', '')
+    clean_desc = clean_html(description)
+    
+    # Если нет описания, используем только заголовок
+    if not clean_desc:
+        message = f"""🔥 {title}
 
-🔗 <a href="{article['link']}">Читать оригинал</a>
+👉 {article['link']}"""
+    else:
+        # Формируем неформальное сообщение без упоминания источника и AI
+        message = f"""🔥 {title}
 
-📍 Источник: {article.get('source', 'Неизвестен')}
-🕐 {article.get('published', '')[:16] if article.get('published') else ''}
+{clean_desc}
 
-#новости #ai"""
+👉 {article['link']}"""
     
     return message
 
@@ -107,7 +129,7 @@ def main():
     new_articles = [a for a in articles if a['link'] not in published]
     print(f"🆕 Новых статей: {len(new_articles)}")
     
-    # Публикуем только первые 5 новых статей (чтобы не спамить)
+    # Публикуем только первые 5 новых статей
     articles_to_publish = new_articles[:5]
     
     if not articles_to_publish:
