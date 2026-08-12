@@ -2,49 +2,75 @@ import json
 import requests
 import os
 import re
+import html as html_lib
 
-# Получаем настройки из переменных окружения (из секретов GitHub)
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
 
-def clean_html(html_text, max_length=250):
-    """Убирает HTML теги из текста и обрезает до нужной длины"""
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+}
+
+def clean_html(html_text, max_length=400):
+    """Removes HTML tags and truncates to the specified length"""
     if not html_text:
         return ""
-    # Убираем HTML теги
     clean = re.sub('<[^<]+?>', '', html_text)
-    # Убираем HTML entities
-    clean = re.sub(r'&[a-zA-Z]+;', ' ', clean)
-    clean = re.sub(r'&\w+;', ' ', clean)
-    # Убираем лишние пробелы и переносы строк
+    clean = html_lib.unescape(clean)
     clean = re.sub(r'\s+', ' ', clean).strip()
-    # Обрезаем до нужной длины по границе слова
     if len(clean) > max_length:
         clean = clean[:max_length]
         clean = clean.rsplit(' ', 1)[0] + "..."
     return clean
 
+def extract_og(html, prop):
+    """Extracts og:description / og:image from the page's HTML"""
+    patterns = [
+        f'<meta[^>]+property="og:{prop}"[^>]+content="([^"]*)"',
+        f'<meta[^>]+content="([^"]*)"[^>]+property="og:{prop}"',
+        f'<meta[^>]+name="twitter:{prop}"[^>]+content="([^"]*)"',
+    ]
+    for p in patterns:
+        m = re.search(p, html, re.IGNORECASE)
+        if m:
+            return html_lib.unescape(m.group(1))
+    return ""
+
+def fetch_article_meta(link):
+    """Fetches the article page and returns (text, image)"""
+    try:
+        resp = requests.get(link, headers=HEADERS, timeout=15)
+        text = extract_og(resp.text, 'description')
+        image = extract_og(resp.text, 'image')
+        return text, image
+    except Exception as e:
+        print(f"  ⚠️ Failed to fetch page: {e}")
+        return "", ""
+
+def extract_image_from_html(html_text):
+    """Extracts the first image from HTML"""
+    m = re.search(r'<img[^>]+src="([^"]+)"', html_text or "")
+    return m.group(1) if m else ""
+
 def generate_hashtags(article):
-    """Генерирует хэштеги по содержанию новости"""
+    """Generates hashtags based on the content of the news"""
     
-    text = (article.get('title', '') + ' ' + 
-            article.get('description', '') + ' ' + 
-            article.get('summary', '')).lower()
+    text = (article.get('title', '') + ' ' +
+            article.get('description', '')).lower()
     
     hashtags = []
     
-    # Категории и ключевые слова
     categories = {
-        'технологии': ['смартфон', 'телефон', 'android', 'iphone', 'компьютер', 'ии', 'интернет', 'гаджет', 'приложени', 'технолог', 'робот', 'нейросет', 'хакер'],
-        'экономика': ['рубл', 'доллар', 'евро', 'экономик', 'банк', 'цен', 'рынок', 'бизнес', 'финанс', 'инфляц', 'ипотек', 'крипт'],
-        'происшествия': ['авари', 'преступ', 'выстрел', 'напал', 'погиб', 'пожар', 'ракетн', 'опасност', 'ранени', 'полици', 'суд', 'арест'],
-        'политика': ['путин', 'президент', 'правительств', 'дума', 'министр', 'закон', 'депутат', 'кремл', 'сенат'],
-        'общество': ['москв', 'росси', 'россиян', 'школ', 'больниц', 'город', 'жител', 'врач', 'учител'],
+        'технологии': ['смартфон', 'телефон', 'android', 'iphone', 'компьютер', 'интернет', 'гаджет', 'приложени', 'технолог', 'робот', 'нейросет', 'хакер'],
+        'экономика': ['рубл', 'доллар', 'евро', 'экономик', 'банк', 'цен', 'рынок', 'бизнес', 'финанс', 'инфляц', 'ипотек', 'крипт', 'брикс'],
+        'происшествия': ['авари', 'преступ', 'выстрел', 'напал', 'погиб', 'пожар', 'ракетн', 'опасност', 'ранени', 'полици', 'суд', 'арест', 'вор', 'насильник', 'чс'],
+        'политика': ['путин', 'президент', 'правительств', 'дума', 'министр', 'закон', 'депутат', 'кремл', 'сенат', 'иран', 'страна'],
+        'общество': ['москв', 'росси', 'россиян', 'школ', 'больниц', 'город', 'жител', 'врач', 'учител', 'квартир', 'отел'],
         'наука': ['учен', 'исследован', 'открыти', 'космос', 'эксперимент', 'наук'],
         'спорт': ['спорт', 'матч', 'футбол', 'побед', 'атлет', 'олимп', 'хоккей'],
-        'шоубиз': ['актер', 'фильм', 'пев', 'певиц', 'звезд', 'концерт', 'сериал', 'кино'],
+        'шоубиз': ['актер', 'фильм', 'пев', 'певиц', 'звезд', 'концерт', 'сериал', 'кино', 'модель'],
         'авто': ['автомобил', 'дтп', 'водител', 'машин', 'дорог'],
-        'вмире': ['европ', 'сша', 'кита', 'украин', 'мир', 'стран'],
+        'вмире': ['европ', 'сша', 'кита', 'украин', 'нью-йорк', 'мир'],
     }
     
     for category, keywords in categories.items():
@@ -53,48 +79,59 @@ def generate_hashtags(article):
                 hashtags.append('#' + category)
                 break
     
-    # Общие хэштеги для охвата
     hashtags.extend(['#новости', '#топ'])
     
-    # Максимум 5 хэштегов
     return ' '.join(hashtags[:5])
 
-def send_to_telegram(message):
-    """Отправляет сообщение в Telegram канал"""
-    
+def send_message(message):
+    """Sends a text message"""
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    
     data = {
         "chat_id": TELEGRAM_CHANNEL_ID,
         "text": message,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True  # Без превью, ссылок всё равно нет
+        "parse_mode": "HTML"
     }
-    
     try:
         response = requests.post(url, data=data)
-        result = response.json()
-        
-        if result.get('ok'):
-            return True
-        else:
-            print(f"  ❌ Ошибка Telegram: {result.get('description', 'Неизвестная ошибка')}")
-            return False
-            
+        return response.json().get('ok', False)
     except Exception as e:
-        print(f"  ❌ Ошибка при отправке: {e}")
+        print(f"  ❌ Error: {e}")
+        return False
+
+def send_photo(message, image_url):
+    """Sends a photo with caption"""
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+    data = {
+        "chat_id": TELEGRAM_CHANNEL_ID,
+        "photo": image_url,
+        "caption": message,
+        "parse_mode": "HTML"
+    }
+    try:
+        response = requests.post(url, data=data)
+        return response.json().get('ok', False)
+    except Exception as e:
+        print(f"  ❌ Error sending photo: {e}")
         return False
 
 def format_article(article):
-    """Форматирует статью: заголовок + пересказ + хэштеги, без ссылок"""
+    """Assembles the post: title + text + hashtags, and an image if available"""
     
     title = article.get('title_ru', article.get('title', 'Без заголовка'))
     
-    # Краткий пересказ
+    # Text and image from RSS (if available)
     description = article.get('description', '') or article.get('summary', '')
     clean_desc = clean_html(description)
+    image = extract_image_from_html(description)
     
-    # Хэштеги
+    # If there's no text or image, fetch them from the article page
+    if not clean_desc or not image:
+        page_text, page_image = fetch_article_meta(article['link'])
+        if not clean_desc:
+            clean_desc = clean_html(page_text)
+        if not image:
+            image = page_image
+    
     hashtags = generate_hashtags(article)
     
     if clean_desc:
@@ -108,81 +145,72 @@ def format_article(article):
 
 {hashtags}"""
     
-    return message
+    return message, image
 
 def load_published():
-    """Загружает список уже опубликованных статей"""
-    
     published_file = 'src/content/published.json'
-    
     if os.path.exists(published_file):
         with open(published_file, 'r', encoding='utf-8') as f:
             return set(json.load(f))
-    
     return set()
 
 def save_published(published):
-    """Сохраняет список опубликованных статей"""
-    
     published_file = 'src/content/published.json'
-    
     with open(published_file, 'w', encoding='utf-8') as f:
         json.dump(list(published), f, ensure_ascii=False, indent=2)
 
 def main():
-    """Главная функция"""
+    print("🚀 Starting publication to Telegram...")
     
-    print("🚀 Начинаем публикацию в Telegram...")
-    
-    if not TELEGRAM_BOT_TOKEN:
-        print("❌ Ошибка: TELEGRAM_BOT_TOKEN не задан!")
-        return
-    
-    if not TELEGRAM_CHANNEL_ID:
-        print("❌ Ошибка: TELEGRAM_CHANNEL_ID не задан!")
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
+        print("❌ Error: secrets are not configured!")
         return
     
     input_file = 'src/content/news_translated.json'
-    
     if not os.path.exists(input_file):
-        print("❌ Файл news_translated.json не найден.")
+        print("❌ File news_translated.json not found.")
         return
     
     with open(input_file, 'r', encoding='utf-8') as f:
         articles = json.load(f)
     
-    print(f"📚 Загружено {len(articles)} статей")
+    print(f"📚 Loaded {len(articles)} articles")
     
     published = load_published()
-    print(f"📝 Уже опубликовано: {len(published)} статей")
-    
     new_articles = [a for a in articles if a['link'] not in published]
-    print(f"🆕 Новых статей: {len(new_articles)}")
+    print(f"🆕 New articles: {len(new_articles)}")
     
     articles_to_publish = new_articles[:5]
     
     if not articles_to_publish:
-        print("✅ Нет новых статей для публикации")
+        print("✅ No new articles to publish")
         return
     
     success_count = 0
     
     for i, article in enumerate(articles_to_publish, 1):
-        print(f"\n📤 Публикуем статью {i}/{len(articles_to_publish)}...")
+        print(f"\n📤 Publishing article {i}/{len(articles_to_publish)}...")
         
-        message = format_article(article)
+        message, image = format_article(article)
         
-        if send_to_telegram(message):
+        ok = False
+        if image:
+            ok = send_photo(message, image)
+            print(f"  🖼 Sending with image...")
+        
+        if not ok:
+            ok = send_message(message)
+        
+        if ok:
             published.add(article['link'])
             success_count += 1
-            print(f"  ✅ Опубликовано: {article.get('title_ru', article['title'])[:50]}...")
+            print(f"  ✅ Published: {article.get('title_ru', article['title'])[:50]}...")
         else:
-            print(f"  ❌ Не удалось опубликовать")
+            print(f"  ❌ Failed to publish")
     
     save_published(published)
     
-    print(f"\n✅ Успешно опубликовано: {success_count} статей")
-    print(f"📊 Всего в канале: {len(published)} статей")
+    print(f"\n✅ Successfully published: {success_count} articles")
 
 if __name__ == "__main__":
     main()
