@@ -73,11 +73,14 @@ def clean_text(text):
             clean.append(p)
     return '\n\n'.join(clean)
 
+def clean_title(title):
+    """Убирает эмодзи-префиксы от RSSHub из заголовка"""
+    title = re.sub(r'^[\s🖼🎬📷📹🔥]+', '', title).strip()
+    return title
+
 def extract_media_from_html(html_text):
-    """Достаёт картинку И видео из HTML (RSS description)"""
     html_text = html_text or ""
     
-    # Видео: <video src="..."> или <source src="...">
     video = ""
     m = re.search(r'<video[^>]+src="([^"]+)"', html_text)
     if m:
@@ -87,7 +90,6 @@ def extract_media_from_html(html_text):
         if m:
             video = m.group(1)
     
-    # Картинка: <img src="..."> или poster у видео
     image = ""
     m = re.search(r'<img[^>]+src="([^"]+)"', html_text)
     if m:
@@ -100,11 +102,10 @@ def extract_media_from_html(html_text):
     return image, video
 
 def extract_main_content(link):
-    """Trafilatura: основной текст + картинка со страницы"""
     try:
         resp = requests.get(link, headers=HEADERS, timeout=20)
         if resp.status_code != 200:
-            return "", ""
+            return "", "", ""
         
         soup = BeautifulSoup(resp.text, 'lxml')
         og_img = soup.find('meta', property='og:image')
@@ -129,7 +130,6 @@ def extract_main_content(link):
     return "", "", ""
 
 def extract_og_fallback(link):
-    """Фолбэк: og:description + og:image + og:video"""
     try:
         resp = requests.get(link, headers=HEADERS, timeout=15)
         soup = BeautifulSoup(resp.text, 'lxml')
@@ -144,6 +144,39 @@ def extract_og_fallback(link):
         return text, image, video
     except Exception:
         return "", "", ""
+
+def download_media(url):
+    """Скачивает медиафайл в память, возвращает (content, filename)"""
+    if not url:
+        return None, None
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=30, stream=True)
+        if resp.status_code != 200:
+            return None, None
+        content_type = resp.headers.get('content-type', '')
+        # Определяем расширение
+        if 'video' in content_type:
+            ext = 'mp4'
+        elif 'jpeg' in content_type or 'jpg' in content_type:
+            ext = 'jpg'
+        elif 'png' in content_type:
+            ext = 'png'
+        elif 'gif' in content_type:
+            ext = 'gif'
+        else:
+            # Определяем по URL
+            if '.mp4' in url:
+                ext = 'mp4'
+            elif '.jpg' in url or '.jpeg' in url:
+                ext = 'jpg'
+            elif '.png' in url:
+                ext = 'png'
+            else:
+                ext = 'jpg'
+        return resp.content, f"media.{ext}"
+    except Exception as e:
+        print(f"  ⚠️ Не удалось скачать медиа: {e}")
+        return None, None
 
 def rewrite_with_qwen(title, text):
     if not QWEN_API_KEY:
@@ -222,42 +255,93 @@ def send_message(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     data = {"chat_id": TELEGRAM_CHANNEL_ID, "text": message, "parse_mode": "HTML"}
     try:
-        return requests.post(url, data=data).json().get('ok', False)
+        result = requests.post(url, data=data).json()
+        return result.get('ok', False)
     except Exception as e:
         print(f"  ❌ Ошибка: {e}")
         return False
 
 def send_photo(message, image_url):
+    """Отправляет фото: сначала через URL, потом через загрузку файла"""
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+    
+    # Попытка 1: отправить по URL (быстро)
     data = {"chat_id": TELEGRAM_CHANNEL_ID, "photo": image_url, "caption": message, "parse_mode": "HTML"}
     try:
-        return requests.post(url, data=data).json().get('ok', False)
+        result = requests.post(url, data=data).json()
+        if result.get('ok'):
+            return True
+        else:
+            print(f"  ⚠️ Photo URL rejected: {result.get('description', '')[:80]}")
     except Exception as e:
-        print(f"  ❌ Ошибка фото: {e}")
-        return False
+        print(f"  ⚠️ Photo URL error: {e}")
+    
+    # Попытка 2: скачать и отправить как файл (надёжно)
+    content, filename = download_media(image_url)
+    if content:
+        try:
+            files = {'photo': (filename, content, 'image/jpeg')}
+            data = {"chat_id": TELEGRAM_CHANNEL_ID, "caption": message, "parse_mode": "HTML"}
+            result = requests.post(url, data=data, files=files).json()
+            if result.get('ok'):
+                print(f"  📤 Фото отправчено через загрузку ({len(content)//1024}KB)")
+                return True
+            else:
+                print(f"  ❌ Photo upload failed: {result.get('description', '')[:80]}")
+        except Exception as e:
+            print(f"  ❌ Photo upload error: {e}")
+    
+    return False
 
 def send_video(message, video_url):
-    """Отправляет видео с подписью"""
+    """Отправляет видео: сначала URL, потом через загрузку"""
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendVideo"
+    
+    # Попытка 1: URL
     data = {"chat_id": TELEGRAM_CHANNEL_ID, "video": video_url, "caption": message, "parse_mode": "HTML"}
     try:
-        return requests.post(url, data=data).json().get('ok', False)
+        result = requests.post(url, data=data).json()
+        if result.get('ok'):
+            return True
+        else:
+            print(f"  ⚠️ Video URL rejected: {result.get('description', '')[:80]}")
     except Exception as e:
-        print(f"  ❌ Ошибка видео: {e}")
-        return False
+        print(f"  ⚠️ Video URL error: {e}")
+    
+    # Попытка 2: скачать и отправить
+    content, filename = download_media(video_url)
+    if content:
+        # Telegram лимит для загрузки: 50MB
+        if len(content) > 50 * 1024 * 1024:
+            print(f"  ⚠️ Видео слишком большое ({len(content)//1024//1024}MB)")
+            return False
+        try:
+            files = {'video': (filename, content, 'video/mp4')}
+            data = {"chat_id": TELEGRAM_CHANNEL_ID, "caption": message, "parse_mode": "HTML"}
+            result = requests.post(url, data=data, files=files).json()
+            if result.get('ok'):
+                print(f"  📤 Видео отправлено через загрузку ({len(content)//1024}KB)")
+                return True
+            else:
+                print(f"  ❌ Video upload failed: {result.get('description', '')[:80]}")
+        except Exception as e:
+            print(f"  ❌ Video upload error: {e}")
+    
+    return False
 
 def format_article(article):
     title = article.get('title_ru', article.get('title', 'Без заголовка'))
+    title = clean_title(title)  # Убираем эмодзи-префиксы RSSHub
     
-    # 1. Медиа и текст из RSS (для TG-постов тут уже всё есть)
+    # 1. Медиа и текст из RSS
     description = article.get('description', '') or article.get('summary', '')
     rss_text = html_to_paragraphs(description)
     rss_image, rss_video = extract_media_from_html(description)
     
-    # 2. Полный текст со страницы через trafilatura
+    # 2. Полный текст со страницы
     tr_text, tr_image, tr_video = extract_main_content(article['link'])
     
-    # 3. Фолбэк на og-теги если текста мало
+    # 3. Фолбэк на og-теги
     if len(tr_text) < 200:
         og_text, og_image, og_video = extract_og_fallback(article['link'])
         if og_text:
@@ -270,7 +354,7 @@ def format_article(article):
     # 4. Выбираем лучший текст
     text = tr_text if len(tr_text) > len(rss_text) else rss_text
     
-    # 5. Медиа: приоритет у того, что нашли в RSS (для TG-каналов)
+    # 5. Медиа: приоритет RSS (для TG-каналов)
     image = rss_image or tr_image
     video = rss_video or tr_video
     
@@ -341,7 +425,6 @@ def main():
         message, image, video = format_article(article)
         
         ok = False
-        # Приоритет: видео → картинка → текст
         if video:
             print("  🎬 Отправляем с видео...")
             ok = send_video(message, video)
