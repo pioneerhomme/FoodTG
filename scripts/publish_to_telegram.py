@@ -18,7 +18,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 }
 
-# Источники с водяными знаками — их фото и видео НЕ берём
 WATERMARK_SOURCES = ['mash', 'baza', '112', 'lifeshot', 'шторм', 'readovka', 'барыня']
 
 AD_MARKERS = [
@@ -69,18 +68,27 @@ def is_ad(title, description):
     return hits >= 2
 
 def validate_article(article):
+    """Фильтр: для TG нужен текст поста, для сайтов достаточно заголовка"""
     title = (article.get('title', '') or '').strip()
     description = article.get('description', '') or article.get('summary', '') or ''
     text = remove_links(html_to_paragraphs(description))
+    is_tg = article.get('source', '').startswith('TG:')
     
+    # Реклама — всегда пропускаем
     if is_ad(title, description):
         return False, "реклама"
-    if len(text) < 80:
-        return False, "мало текста"
-    if re.match(r'^https?://', title) and len(text) < 150:
-        return False, "заголовок-ссылка"
-    if len(title) < 10 and len(text) < 150:
-        return False, "пустой заголовок"
+    
+    if is_tg:
+        # TG-пост: текст живёт в самом посте
+        if len(text) < 80:
+            return False, "мало текста"
+        if re.match(r'^https?://', title) and len(text) < 150:
+            return False, "заголовок-ссылка"
+    else:
+        # Сайт: полный текст достанем со страницы, тут важен заголовок
+        if len(title) < 10:
+            return False, "пустой заголовок"
+    
     return True, ""
 
 def limit_text(text, limit=1500):
@@ -286,7 +294,6 @@ def is_watermarked_source(article):
     return any(wm in source for wm in WATERMARK_SOURCES)
 
 def score_article(title):
-    """Qwen оценивает интересность новости от 1 до 10"""
     if not QWEN_API_KEY:
         return 5
     try:
@@ -356,15 +363,15 @@ def rewrite_with_qwen(title, text):
 def generate_hashtags(article):
     text = (article.get('title', '') + ' ' + article.get('description', '')).lower()
     categories = {
-        'технологии': ['смартфон', 'iphone', 'android', 'гаджет', 'робот', 'нейросет', 'хакер', 'телескоп', 'хаббл'],
-        'экономика': ['рубл', 'доллар', 'экономик', 'банк', 'рынок', 'бизнес', 'крипт', 'брикс', 'взятк', 'прибыл', 'выручк'],
-        'происшествия': ['авари', 'убийств', 'пожар', 'суд', 'арест', 'нож', 'дрон', 'взрыв', 'метамфетамин', 'задержали', 'затопило', 'поток', 'колони', 'иск'],
-        'политика': ['путин', 'президент', 'трамп', 'иран', 'саммит', 'дума', 'закон', 'депутат', 'милонов', 'мчс'],
-        'общество': ['москв', 'росси', 'школ', 'больниц', 'подмосков', 'курильск', 'демографи', 'ростов', 'казан', 'саратов'],
-        'наука': ['учен', 'космос', 'лун', 'станци', 'амёба', 'юпитер', 'сияние', 'хаббл'],
-        'спорт': ['спорт', 'матч', 'футбол', 'хоккей', 'чемпион'],
-        'шоубиз': ['актер', 'фильм', 'пев', 'сериал', 'кино', 'крипипаст', 'джефф', 'паук'],
-        'вмире': ['сша', 'кита', 'украин', 'европ', 'герман', 'великобритан', 'иран', 'япон'],
+        'технологии': ['смартфон', 'iphone', 'android', 'гаджет', 'робот', 'нейросет', 'хакер', 'телескоп', 'хаббл', 'xbox', 'playstation', 'genshin'],
+        'экономика': ['рубл', 'доллар', 'экономик', 'банк', 'рынок', 'бизнес', 'крипт', 'брикс', 'взятк', 'прибыл', 'выручк', 'акци', 'облигац', 'курс'],
+        'происшествия': ['авари', 'убийств', 'пожар', 'суд', 'арест', 'нож', 'дрон', 'взрыв', 'метамфетамин', 'задержали', 'затопило', 'поток', 'колони', 'иск', 'землетрясени'],
+        'политика': ['путин', 'президент', 'трамп', 'иран', 'саммит', 'дума', 'закон', 'депутат', 'милонов', 'мчс', 'мид'],
+        'общество': ['москв', 'росси', 'школ', 'больниц', 'подмосков', 'курильск', 'демографи', 'ростов', 'казан', 'саратов', 'коммуналк'],
+        'наука': ['учен', 'космос', 'лун', 'станци', 'амёба', 'юпитер', 'сияние', 'хаббл', 'черная дыра', 'геном'],
+        'спорт': ['спорт', 'матч', 'футбол', 'хоккей', 'чемпион', 'махаев', 'бой'],
+        'шоубиз': ['актер', 'фильм', 'пев', 'сериал', 'кино', 'крипипаст', 'джефф', 'паук', 'альбом', 'группа'],
+        'вмире': ['сша', 'кита', 'украин', 'европ', 'герман', 'великобритан', 'иран', 'япон', 'литва', 'польша', 'марокко', 'саудов'],
     }
     hashtags = []
     for category, keywords in categories.items():
@@ -397,6 +404,12 @@ def send_photo(message, image_url):
         print(f"  ⚠️ Photo URL error: {e}")
     content, filename = download_media(image_url)
     if content:
+        # Проверка, что скачалась именно картинка, а не HTML-заглушка
+        if content[:4] == b'\xff\xd8\xff\xe0' or content[:8].startswith(b'\x89PNG') or content[:3] == b'\xff\xd8\xff':
+            pass
+        elif b'<html' in content[:200].lower():
+            print("  ⚠️ Скачалась HTML-страница вместо фото")
+            return False
         try:
             files = {'photo': (filename, content, 'image/jpeg')}
             data = {"chat_id": TELEGRAM_CHANNEL_ID, "caption": message, "parse_mode": "HTML"}
@@ -443,7 +456,6 @@ def format_article(article):
     is_tg = article.get('source', '').startswith('TG:')
     dirty = is_watermarked_source(article)
     
-    # 1. Текст и медиа из RSS
     description = article.get('description', '') or article.get('summary', '')
     rss_text = remove_links(html_to_paragraphs(description))
     rss_image, rss_video = extract_media_from_html(description)
@@ -466,26 +478,23 @@ def format_article(article):
         image = rss_image or tr_image
         video = rss_video or tr_video
     
-    # 2. ВОДЯНЫЕ ЗНАКИ: у грязных источников НЕ берём ни фото, ни видео
+    # Водяные знаки: медиа не берём
     if dirty:
         video = ""
         image = ""
         print("  🚫 Источник с водяными знаками: медиа не берём")
     
-    # 3. Заголовок
     title = clean_title(article.get('title_ru', article.get('title', '')))
     title = remove_links(title)
     if not title or len(title) < 10:
         first = re.split(r'[.!?\n]', text, 1)[0].strip()
         title = first[:100] if first else 'Новости дня'
     
-    # 4. Если нет ни фото ни видео — сток через Pexels
     if not image and not video:
         stock = get_stock_image(title)
         if stock:
             image = stock
     
-    # 5. Переписываем через Qwen
     rewritten = rewrite_with_qwen(title, text)
     final_text = rewritten if rewritten else limit_text(text, 900)
     
@@ -545,7 +554,6 @@ def main():
     new_articles = [a for a in articles if a['link'] not in published]
     print(f"🆕 Новых статей: {len(new_articles)}")
     
-    # Фильтр рекламы и бессмыслицы
     clean_articles = []
     for a in new_articles:
         ok, reason = validate_article(a)
@@ -555,7 +563,7 @@ def main():
             print(f"  🚫 Пропускаем ({reason}): {a.get('title', '')[:60]}")
     print(f"✅ После фильтра: {len(clean_articles)} статей")
     
-    # ПРИОРИТЕТЫ: Топор с медиа → Топор → остальные по популярности
+    # Приоритеты: Топор с медиа → Топор → остальные по популярности
     candidates = clean_articles[:20]
     scored = []
     for a in candidates:
@@ -590,6 +598,12 @@ def main():
         if not ok and image:
             print("  🖼 Отправляем с картинкой...")
             ok = send_photo(message, image)
+        if not ok and not video:
+            # Фото не отправилось — пробуем сток
+            stock = get_stock_image(article.get('title', ''))
+            if stock:
+                print("  🎨 Пробуем сток вместо битого фото...")
+                ok = send_photo(message, stock)
         if not ok:
             ok = send_message(message)
         
