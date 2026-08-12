@@ -1,8 +1,8 @@
-name: AI News Pipeline
+name: Ignis News Pipeline
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -42,10 +42,16 @@ jobs:
         PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       run: python scripts/publish_to_telegram.py
     
-    - name: Copy feed for site
+    - name: Copy feed for site (every 2 hours)
       run: |
-        if [ -f src/content/site_feed.json ]; then
-          cp src/content/site_feed.json docs/news.json
+        HOUR=$(date -u +%H)
+        if [ $((10#$H % 2)) -eq 0 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ -f src/content/site_feed.json ]; then
+            cp src/content/site_feed.json docs/news.json
+            echo "🌐 Site feed updated"
+          fi
+        else
+          echo "⏭️ Site update skipped this hour (next: even hour)"
         fi
     
     - name: Commit and push changes
