@@ -55,8 +55,8 @@
         position: relative;
         border-radius: 18px;
         overflow: hidden;
-        background: linear-gradient(135deg, #23232e, #14141a);
-        min-height: 320px;
+        background: #14141a;
+        min-height: 340px;
         display: flex;
         align-items: flex-end;
         box-shadow: 0 6px 20px rgba(20,20,30,.12);
@@ -68,7 +68,7 @@
     }
     .card.featured {
         grid-column: 1 / -1;
-        min-height: 420px;
+        min-height: 440px;
     }
     .card img {
         position: absolute;
@@ -76,6 +76,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        filter: brightness(.6) saturate(.9);
     }
     .badges {
         position: absolute;
@@ -97,7 +98,7 @@
     }
     .badge.fresh::before { content: "● "; font-size: 0.8em; }
     .badge.cat {
-        background: rgba(20,20,26,.75);
+        background: rgba(20,20,26,.8);
         color: #fff;
         backdrop-filter: blur(4px);
     }
@@ -105,21 +106,27 @@
         position: relative;
         z-index: 1;
         width: 100%;
-        padding: 60px 22px 20px;
-        background: linear-gradient(to top, rgba(10,10,14,.92) 0%, rgba(10,10,14,.55) 60%, transparent 100%);
+        padding: 110px 22px 20px;
+        background: linear-gradient(to top,
+            rgba(8,8,12,.98) 25%,
+            rgba(8,8,12,.88) 55%,
+            rgba(8,8,12,.45) 85%,
+            transparent 100%);
         color: #fff;
     }
     .overlay h3 {
-        font-size: 1.25em;
+        font-size: 1.2em;
         font-weight: 800;
-        line-height: 1.3;
+        line-height: 1.35;
         margin-bottom: 8px;
+        text-shadow: 0 1px 4px rgba(0,0,0,.8);
     }
-    .card.featured .overlay h3 { font-size: 1.8em; }
+    .card.featured .overlay h3 { font-size: 1.7em; }
     .overlay p {
         font-size: 0.93em;
-        line-height: 1.45;
-        color: rgba(255,255,255,.88);
+        line-height: 1.5;
+        color: rgba(255,255,255,.92);
+        text-shadow: 0 1px 3px rgba(0,0,0,.7);
         display: -webkit-box;
         -webkit-line-clamp: 3;
         line-clamp: 3;
@@ -141,11 +148,12 @@
     }
     @media (max-width: 900px) {
         .grid { grid-template-columns: repeat(2, 1fr); }
-        .card.featured { min-height: 340px; }
+        .card.featured { min-height: 360px; }
     }
     @media (max-width: 600px) {
         .grid { grid-template-columns: 1fr; }
         h1 { font-size: 1.35em; }
+        .overlay { padding-top: 80px; }
     }
 </style>
 </head>
