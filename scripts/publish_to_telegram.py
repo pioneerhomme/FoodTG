@@ -14,7 +14,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 }
 
-# Мусорные строки
 JUNK_PATTERNS = [
     'Эксклюзивы', 'Статьи Фото', 'Спецпроекты', 'Исследования', 'Мини-игры',
     'Архив', 'Лента добра', 'Хочешь видеть', 'Вернуться в обычную',
@@ -53,10 +52,8 @@ def is_junk(line):
         return True
     if len(line) < 25:
         return True
-    # Дата вида "15:52, 12 августа 2026"
     if re.match(r'^\d{1,2}:\d{2},', line):
         return True
-    # Имя-фамилия редактора
     if re.match(r'^[А-Я][а-я]+\s+[А-Я][а-я]+(\s*\([^)]*\))?$', line):
         return True
     for pattern in JUNK_PATTERNS:
@@ -76,19 +73,45 @@ def clean_text(text):
             clean.append(p)
     return '\n\n'.join(clean)
 
+def extract_media_from_html(html_text):
+    """Достаёт картинку И видео из HTML (RSS description)"""
+    html_text = html_text or ""
+    
+    # Видео: <video src="..."> или <source src="...">
+    video = ""
+    m = re.search(r'<video[^>]+src="([^"]+)"', html_text)
+    if m:
+        video = m.group(1)
+    else:
+        m = re.search(r'<source[^>]+src="([^"]+)"', html_text)
+        if m:
+            video = m.group(1)
+    
+    # Картинка: <img src="..."> или poster у видео
+    image = ""
+    m = re.search(r'<img[^>]+src="([^"]+)"', html_text)
+    if m:
+        image = m.group(1)
+    else:
+        m = re.search(r'poster="([^"]+)"', html_text)
+        if m:
+            image = m.group(1)
+    
+    return image, video
+
 def extract_main_content(link):
-    """Основной метод: trafilatura + жёсткая очистка"""
+    """Trafilatura: основной текст + картинка со страницы"""
     try:
         resp = requests.get(link, headers=HEADERS, timeout=20)
         if resp.status_code != 200:
             return "", ""
         
-        # Картинка из og:image
         soup = BeautifulSoup(resp.text, 'lxml')
         og_img = soup.find('meta', property='og:image')
+        og_vid = soup.find('meta', property='og:video')
         image = og_img['content'] if og_img and og_img.get('content') else ""
+        video = og_vid['content'] if og_vid and og_vid.get('content') else ""
         
-        # Текст через trafilatura (специализирован для отделения контента от мусора)
         text = trafilatura.extract(
             resp.text,
             include_comments=False,
@@ -100,29 +123,27 @@ def extract_main_content(link):
         if text:
             text = clean_text(text)
             print(f"  🎯 Trafilatura: текст {len(text)} символов, картинка: {'да' if image else 'нет'}")
-            return text, image
+            return text, image, video
     except Exception as e:
         print(f"  ⚠️ Trafilatura ошибка: {e}")
-    return "", ""
+    return "", "", ""
 
 def extract_og_fallback(link):
-    """Фолбэк: только og:description + og:image (всегда чистый лид)"""
+    """Фолбэк: og:description + og:image + og:video"""
     try:
         resp = requests.get(link, headers=HEADERS, timeout=15)
         soup = BeautifulSoup(resp.text, 'lxml')
         desc = soup.find('meta', property='og:description')
         img = soup.find('meta', property='og:image')
+        vid = soup.find('meta', property='og:video')
         text = desc['content'] if desc and desc.get('content') else ""
         image = img['content'] if img and img.get('content') else ""
+        video = vid['content'] if vid and vid.get('content') else ""
         if text:
             print(f"  ℹ️ OG-фолбэк: текст {len(text)} символов")
-        return text, image
+        return text, image, video
     except Exception:
-        return "", ""
-
-def extract_image_from_html(html_text):
-    m = re.search(r'<img[^>]+src="([^"]+)"', html_text or "")
-    return m.group(1) if m else ""
+        return "", "", ""
 
 def rewrite_with_qwen(title, text):
     if not QWEN_API_KEY:
@@ -180,12 +201,12 @@ def generate_hashtags(article):
     categories = {
         'технологии': ['смартфон', 'iphone', 'android', 'гаджет', 'робот', 'нейросет', 'хакер'],
         'экономика': ['рубл', 'доллар', 'экономик', 'банк', 'рынок', 'бизнес', 'крипт', 'брикс'],
-        'происшествия': ['авари', 'убийств', 'пожар', 'суд', 'арест', 'нож', 'дрон', 'взрыв'],
+        'происшествия': ['авари', 'убийств', 'пожар', 'суд', 'арест', 'нож', 'дрон', 'взрыв', 'метамфетамин', 'задержали'],
         'политика': ['путин', 'президент', 'трамп', 'иран', 'саммит', 'дума', 'закон'],
-        'общество': ['москв', 'росси', 'школ', 'больниц', 'подмосков', 'курильск'],
-        'наука': ['учен', 'космос', 'лун', 'станци'],
+        'общество': ['москв', 'росси', 'школ', 'больниц', 'подмосков', 'курильск', 'демографи'],
+        'наука': ['учен', 'космос', 'лун', 'станци', 'амёба'],
         'спорт': ['спорт', 'матч', 'футбол', 'хоккей', 'чемпион'],
-        'шоубиз': ['актер', 'фильм', 'пев', 'сериал', 'кино'],
+        'шоубиз': ['актер', 'фильм', 'пев', 'сериал', 'кино', 'крипипаст', 'джефф', 'паук'],
         'вмире': ['сша', 'кита', 'украин', 'европ', 'герман', 'великобритан', 'иран', 'япон'],
     }
     hashtags = []
@@ -215,33 +236,45 @@ def send_photo(message, image_url):
         print(f"  ❌ Ошибка фото: {e}")
         return False
 
+def send_video(message, video_url):
+    """Отправляет видео с подписью"""
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendVideo"
+    data = {"chat_id": TELEGRAM_CHANNEL_ID, "video": video_url, "caption": message, "parse_mode": "HTML"}
+    try:
+        return requests.post(url, data=data).json().get('ok', False)
+    except Exception as e:
+        print(f"  ❌ Ошибка видео: {e}")
+        return False
+
 def format_article(article):
     title = article.get('title_ru', article.get('title', 'Без заголовка'))
     
-    # 1. Текст из RSS (всегда чистый лид)
+    # 1. Медиа и текст из RSS (для TG-постов тут уже всё есть)
     description = article.get('description', '') or article.get('summary', '')
     rss_text = html_to_paragraphs(description)
-    rss_image = extract_image_from_html(description)
+    rss_image, rss_video = extract_media_from_html(description)
     
-    # 2. Полный текст через trafilatura
-    tr_text, tr_image = extract_main_content(article['link'])
+    # 2. Полный текст со страницы через trafilatura
+    tr_text, tr_image, tr_video = extract_main_content(article['link'])
     
-    # 3. Если trafilatura не дал достаточно — фолбэк на og:description
+    # 3. Фолбэк на og-теги если текста мало
     if len(tr_text) < 200:
-        og_text, og_image = extract_og_fallback(article['link'])
+        og_text, og_image, og_video = extract_og_fallback(article['link'])
         if og_text:
             tr_text = og_text
         if og_image:
             tr_image = og_image
+        if og_video:
+            tr_video = og_video
     
     # 4. Выбираем лучший текст
     text = tr_text if len(tr_text) > len(rss_text) else rss_text
-    image = tr_image or rss_image
-    if not image:
-        _, og_image = extract_og_fallback(article['link'])
-        image = og_image
     
-    # 5. Переписываем через Qwen
+    # 5. Медиа: приоритет у того, что нашли в RSS (для TG-каналов)
+    image = rss_image or tr_image
+    video = rss_video or tr_video
+    
+    # 6. Переписываем через Qwen
     rewritten = rewrite_with_qwen(title, text)
     final_text = rewritten if rewritten else limit_text(text, 900)
     
@@ -255,7 +288,7 @@ def format_article(article):
 
 {hashtags}"""
     
-    if image and len(message) > 1024:
+    if (image or video) and len(message) > 1024:
         safe_text = html_lib.escape(limit_text(final_text, max(200, 1000 - len(title) - len(hashtags))))
         message = f"""🔥 <b>{safe_title}</b>
 
@@ -263,7 +296,7 @@ def format_article(article):
 
 {hashtags}"""
     
-    return message, image
+    return message, image, video
 
 def load_published():
     published_file = 'src/content/published.json'
@@ -305,10 +338,14 @@ def main():
     success_count = 0
     for i, article in enumerate(articles_to_publish, 1):
         print(f"\n📤 Публикуем {i}/{len(articles_to_publish)}: {article.get('title', '')[:60]}...")
-        message, image = format_article(article)
+        message, image, video = format_article(article)
         
         ok = False
-        if image:
+        # Приоритет: видео → картинка → текст
+        if video:
+            print("  🎬 Отправляем с видео...")
+            ok = send_video(message, video)
+        if not ok and image:
             print("  🖼 Отправляем с картинкой...")
             ok = send_photo(message, image)
         if not ok:
