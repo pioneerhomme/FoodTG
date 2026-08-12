@@ -2,47 +2,44 @@ name: AI News Pipeline
 
 on:
   schedule:
-    # Запуск каждые 4 часа (минута 0, каждый 4-й час, каждый день)
     - cron: '0 */4 * * *'
-  workflow_dispatch:  # Возможность ручного запуска
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   collect-translate-publish:
     runs-on: ubuntu-latest
     
     steps:
-    # Шаг 1: Клонирование репозитория
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
     
-    # Шаг 2: Установка Python
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
     
-    # Шаг 3: Установка зависимостей
     - name: Install dependencies
       run: |
         pip install --upgrade pip
         pip install feedparser requests deep-translator
     
-    # Шаг 4: Сбор новостей
     - name: Collect news
       run: python scripts/collect_news.py
     
-    # Шаг 5: Перевод новостей
     - name: Translate news
       run: python scripts/translate_news.py
     
-    # Шаг 6: Публикация в Telegram
     - name: Publish to Telegram
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
       run: python scripts/publish_to_telegram.py
     
-    # Шаг 7: Сохранение изменений в репозиторий
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
