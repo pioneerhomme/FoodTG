@@ -23,11 +23,7 @@
         top: 0;
         z-index: 20;
     }
-    .logo {
-        font-size: 1.4em;
-        font-weight: 900;
-        letter-spacing: 1px;
-    }
+    .logo { font-size: 1.4em; font-weight: 900; letter-spacing: 1px; }
     .logo em { font-style: normal; color: #ff4d00; }
     .subscribe {
         background: #14141a;
@@ -41,15 +37,12 @@
     }
     .subscribe:hover { transform: scale(1.05); }
     main { max-width: 1200px; margin: 0 auto; padding: 32px 20px 60px; }
-    h1 {
-        font-size: 1.7em;
-        font-weight: 800;
-        margin-bottom: 24px;
-    }
+    h1 { font-size: 1.7em; font-weight: 800; margin-bottom: 24px; }
     .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
+        grid-auto-flow: dense;
     }
     .card {
         position: relative;
@@ -66,10 +59,8 @@
         transform: translateY(-4px);
         box-shadow: 0 12px 30px rgba(20,20,30,.2);
     }
-    .card.featured {
-        grid-column: 1 / -1;
-        min-height: 440px;
-    }
+    .card.featured { grid-column: 1 / -1; min-height: 440px; }
+    .card.wide { grid-column: span 2; }
     .card img {
         position: absolute;
         inset: 0;
@@ -77,6 +68,17 @@
         height: 100%;
         object-fit: cover;
         filter: brightness(.6) saturate(.9);
+    }
+    /* Фоны для карточек без фото — никаких чёрных дыр */
+    .card.noimg { background: linear-gradient(135deg, #3d1d10 0%, #1c1410 55%, #14141a 100%); }
+    .card.noimg::after {
+        content: "🔥";
+        position: absolute;
+        top: 56px;
+        right: 18px;
+        font-size: 5em;
+        opacity: .14;
+        z-index: 0;
     }
     .badges {
         position: absolute;
@@ -86,22 +88,10 @@
         gap: 8px;
         z-index: 2;
     }
-    .badge {
-        font-size: 0.78em;
-        font-weight: 700;
-        padding: 6px 14px;
-        border-radius: 16px;
-    }
-    .badge.fresh {
-        background: #2ee6a8;
-        color: #0c2b20;
-    }
+    .badge { font-size: 0.78em; font-weight: 700; padding: 6px 14px; border-radius: 16px; }
+    .badge.fresh { background: #2ee6a8; color: #0c2b20; }
     .badge.fresh::before { content: "● "; font-size: 0.8em; }
-    .badge.cat {
-        background: rgba(20,20,26,.8);
-        color: #fff;
-        backdrop-filter: blur(4px);
-    }
+    .badge.cat { background: rgba(20,20,26,.8); color: #fff; backdrop-filter: blur(4px); }
     .overlay {
         position: relative;
         z-index: 1;
@@ -122,14 +112,15 @@
         text-shadow: 0 1px 4px rgba(0,0,0,.8);
     }
     .card.featured .overlay h3 { font-size: 1.7em; }
+    .card.wide .overlay h3 { font-size: 1.4em; }
     .overlay p {
         font-size: 0.93em;
         line-height: 1.5;
         color: rgba(255,255,255,.92);
         text-shadow: 0 1px 3px rgba(0,0,0,.7);
         display: -webkit-box;
-        -webkit-line-clamp: 3;
-        line-clamp: 3;
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
@@ -140,18 +131,14 @@
         padding: 80px 0;
         font-size: 1.1em;
     }
-    footer {
-        text-align: center;
-        color: #9aa3b2;
-        font-size: 0.85em;
-        padding: 24px;
-    }
+    footer { text-align: center; color: #9aa3b2; font-size: 0.85em; padding: 24px; }
     @media (max-width: 900px) {
         .grid { grid-template-columns: repeat(2, 1fr); }
         .card.featured { min-height: 360px; }
     }
     @media (max-width: 600px) {
         .grid { grid-template-columns: 1fr; }
+        .card.wide { grid-column: auto; }
         h1 { font-size: 1.35em; }
         .overlay { padding-top: 80px; }
     }
@@ -172,8 +159,11 @@ function cardHTML(p, featured) {
     const img = p.image ? `<img src="${p.image}" alt="" loading="lazy" onerror="this.remove()">` : '';
     const cat = (p.hashtags || '').split(' ')[0] || '#новости';
     const text = p.text || '';
+    // Длинная новость → широкая карточка (2 колонки), короткая → 1 колонка
+    const wide = !featured && ((p.title || '').length + text.length) > 190;
+    const noimg = !p.image ? ' noimg' : '';
     return `
-    <article class="card${featured ? ' featured' : ''}">
+    <article class="card${featured ? ' featured' : ''}${wide ? ' wide' : ''}${noimg}">
         ${img}
         <div class="badges">
             <span class="badge fresh">Свежее</span>
