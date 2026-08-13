@@ -5,12 +5,14 @@ import re
 import html as html_lib
 import trafilatura
 from bs4 import BeautifulSoup
-from datetime import datetime
 
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
 QWEN_API_KEY = os.getenv('QWEN_API_KEY', '')
 PEXELS_API_KEY = os.getenv('PEXELS_API_KEY', '')
+
+# Сколько постов публиковать за один запуск (максимум для бесплатных лимитов: 5)
+POSTS_PER_RUN = 15
 
 CHANNEL_USERNAME = "@ignisnovosti"
 CHANNEL_LINK = f"https://t.me/{CHANNEL_USERNAME.replace('@', '')}"
@@ -247,7 +249,6 @@ def get_qwen_client():
     )
 
 def generate_short_title(title, text):
-    """ИИ сжимает заголовок до сути: 3-7 слов"""
     if not QWEN_API_KEY:
         return ""
     try:
@@ -505,7 +506,6 @@ def format_article(article):
         first = re.split(r'[.!?\n]', text, 1)[0].strip()
         title = first[:100] if first else 'Новости дня'
     
-    # КОРОТКИЙ ЗАГОЛОВОК от ИИ
     short = generate_short_title(title, text)
     if short:
         title = short
@@ -531,7 +531,7 @@ def format_article(article):
 {subscribe_link}
 {hashtags}"""
     
-    return message, image, video, final_text, hashtags
+    return message, image, video
 
 def load_published():
     published_file = 'src/content/published.json'
@@ -544,21 +544,6 @@ def save_published(published):
     published_file = 'src/content/published.json'
     with open(published_file, 'w', encoding='utf-8') as f:
         json.dump(list(published), f, ensure_ascii=False, indent=2)
-
-def load_site_feed():
-    feed_file = 'src/content/site_feed.json'
-    if os.path.exists(feed_file):
-        try:
-            with open(feed_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception:
-            return []
-    return []
-
-def save_site_feed(feed):
-    feed_file = 'src/content/site_feed.json'
-    with open(feed_file, 'w', encoding='utf-8') as f:
-        json.dump(feed, f, ensure_ascii=False, indent=2)
 
 def main():
     print("🚀 Начинаем публикацию в Telegram...")
@@ -605,18 +590,16 @@ def main():
         print(f"  ⭐ {a.get('title', '')[:40]}... → {score} + бонус {bonus} = {total}")
     
     scored.sort(key=lambda x: x[0], reverse=True)
-    articles_to_publish = [a for _, a in scored[:5]]
+    articles_to_publish = [a for _, a in scored[:POSTS_PER_RUN]]
     
     if not articles_to_publish:
         print("✅ Нет новых статей для публикации")
         return
     
-    site_feed = load_site_feed()
     success_count = 0
-    
     for i, article in enumerate(articles_to_publish, 1):
         print(f"\n📤 Публикуем {i}/{len(articles_to_publish)}: {article.get('title', '')[:60]}...")
-        message, image, video, final_text, hashtags = format_article(article)
+        message, image, video = format_article(article)
         
         ok = False
         if video:
@@ -630,29 +613,18 @@ def main():
             if stock:
                 print("  🎨 Пробуем сток вместо битого фото...")
                 ok = send_photo(message, stock)
-                image = stock
         if not ok:
             ok = send_message(message)
         
         if ok:
             published.add(article['link'])
             success_count += 1
-            site_feed.insert(0, {
-                "title": html_lib.escape(clean_title(article.get('title', ''))),
-                "text": html_lib.escape(final_text),
-                "image": image or "",
-                "hashtags": hashtags,
-                "time": datetime.now().isoformat()
-            })
             print(f"  ✅ Опубликовано")
         else:
             print(f"  ❌ Не удалось опубликовать")
     
-    site_feed = site_feed[:60]
-    save_site_feed(site_feed)
     save_published(published)
     print(f"\n✅ Успешно опубликовано: {success_count}")
-    print(f"🌐 Лента сайта: {len(site_feed)} постов")
 
 if __name__ == "__main__":
     main()
