@@ -1,156 +1,244 @@
 [
   {
-    "title": "Bloomberg узнал о сдерживающем цены на нефть «темном флоте»",
-    "link": "https://www.rbc.ru/rbcfreenews/6a7ea5e39a7947bf06fc5674",
-    "published": "Sun, 16 Aug 2026 23:18:51 +0300",
-    "timestamp": 1786911531.0,
+    "title": "AP: США перебрасывают последний авианосец из Азии на Ближний Восток",
+    "link": "https://www.kommersant.ru/doc/8890876",
+    "published": "Mon, 17 Aug 2026 01:18:49 +0300",
+    "timestamp": 1786918729.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "США направляют авианосец USS George Washington из западной части Тихого океана на Ближний Восток. Это был последний американский авианосец в Азии, сообщает Associated Press (AP).",
+    "summary": "США направляют авианосец USS George Washington из западной части Тихого океана на Ближний Восток. Это был последний американский авианосец в Азии, сообщает Associated Press (AP).",
+    "image": ""
+  },
+  {
+    "title": "В аэропорту Волгограда ввели ограничения на полеты",
+    "link": "https://ria.ru/20260817/ogranicheniya-2111259530.html",
+    "published": "Mon, 17 Aug 2026 01:18:34 +0300",
+    "timestamp": 1786918714.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/07e6/0a/12/1824857595_0:206:3153:1980_650x0_80_0_0_2bce33d68f59bf8953e158e3e77c7aa7.jpg"
+  },
+  {
+    "title": "СМИ: экспортеры скрытно перевозят нефть через Ормузский пролив",
+    "link": "https://ria.ru/20260817/neft-2111259339.html",
+    "published": "Mon, 17 Aug 2026 01:16:19 +0300",
+    "timestamp": 1786918579.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Foreign Policy рассказал, как ИИ изменил подход к военной этике",
+    "link": "https://www.rbc.ru/rbcfreenews/6a7a090d9a7947336bf13a07",
+    "published": "Mon, 17 Aug 2026 01:16:13 +0300",
+    "timestamp": 1786918573.0,
     "source": "РБК",
     "language": "ru",
-    "description": "Страны Персидского залива тайно перевозят нефть через Ормузский пролив на судах без транспондеров, пишет Bloomberg. По данным источников агентства, объем «темных» перевозок превышает 4 млн баррелей в сутки",
-    "summary": "Страны Персидского залива тайно перевозят нефть через Ормузский пролив на судах без транспондеров, пишет Bloomberg. По данным источников агентства, объем «темных» перевозок превышает 4 млн баррелей в сутки",
+    "description": "Мир встал перед вопросом, смогут ли алгоритмы соблюдать этику боя, пишет Foreign Policy. Развитие ИИ и автономных систем подрывает основы этой этики, размывая ответственность и ставя под удар правила справедливой войны",
+    "summary": "Мир встал перед вопросом, смогут ли алгоритмы соблюдать этику боя, пишет Foreign Policy. Развитие ИИ и автономных систем подрывает основы этой этики, размывая ответственность и ставя под удар правила справедливой войны",
     "image": ""
-  },
-  {
-    "title": "В Киеве прошло шествие с требованием вернуть Федорова",
-    "link": "https://tass.ru/mezhdunarodnaya-panorama/28017227",
-    "published": "Sun, 16 Aug 2026 23:16:39 +0300",
-    "timestamp": 1786911399.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Данные украинских СМИ о числе протестующих разнятся - от нескольких сотен до нескольких тысяч",
-    "summary": "Данные украинских СМИ о числе протестующих разнятся - от нескольких сотен до нескольких тысяч",
-    "image": ""
-  },
-  {
-    "title": "В Альянсе турагентств предположили судьбу похищенных на Филиппинах россиянок",
-    "link": "https://lenta.ru/news/2026/08/16/philippines-pokhischeniye/",
-    "published": "Sun, 16 Aug 2026 23:16:13 +0300",
-    "timestamp": 1786911373.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png"
-  },
-  {
-    "title": "В Сумах произошел взрыв",
-    "link": "https://tass.ru/proisshestviya/28017223",
-    "published": "Sun, 16 Aug 2026 23:15:02 +0300",
-    "timestamp": 1786911302.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "По всей области объявили воздушную тревогу",
-    "summary": "По всей области объявили воздушную тревогу",
-    "image": ""
-  },
-  {
-    "title": "В Сумах прогремели взрывы",
-    "link": "https://ria.ru/20260816/vzryvy-2111252942.html",
-    "published": "Sun, 16 Aug 2026 23:09:06 +0300",
-    "timestamp": 1786910946.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "В Севастополе объявили воздушную тревогу",
-    "link": "https://ria.ru/20260816/sevastopol-2111252794.html",
-    "published": "Sun, 16 Aug 2026 23:08:54 +0300",
-    "timestamp": 1786910934.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/150518/24/1505182463_0:78:1500:922_650x0_80_0_0_1ddb9ac2689d55f0fc26e290ea497096.jpg"
   },
   {
     "title": "Умерла театральный журналист Сусанна Бенцианова",
-    "link": "https://ria.ru/20260816/bentsianova-2111252622.html",
-    "published": "Sun, 16 Aug 2026 23:06:42 +0300",
-    "timestamp": 1786910802.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "При ударе ВСУ по автомобилю погибли супруги",
-    "link": "https://lenta.ru/news/2026/08/16/pri-udare-vsu-po-avtomobilyu-pogibli-suprugi/",
-    "published": "Sun, 16 Aug 2026 23:05:00 +0300",
-    "timestamp": 1786910700.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/16/23/20260816230800581/pic_08791025d1a25ddbe2df124987efda8d.jpg"
-  },
-  {
-    "title": "Мощность АЭС \"Пакш\" могут снова сократить, заявил Мадьяр",
-    "link": "https://ria.ru/20260816/ekonomika-2111252423.html",
-    "published": "Sun, 16 Aug 2026 23:04:57 +0300",
-    "timestamp": 1786910697.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "«Боже, храни короля». Украина впервые использовала британские БПЛА для ударов вглубь России. Что известно о дроне Nyan?",
-    "link": "https://lenta.ru/news/2026/08/16/long-bozhe-hrani-korolya-ukraina-vpervye-ispolzovala-britanskie-drony-dlya-udarov-vglub-rossii-chto-izvestno-o-drone-nyan/",
-    "published": "Sun, 16 Aug 2026 23:04:00 +0300",
-    "timestamp": 1786910640.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/16/21/20260816215333657/pic_e18cb287ca643360be1f8ef5c06fcb2d.jpg"
-  },
-  {
-    "title": "ХАМАС призвал заставить Израиль принять второй этап плана по Газе",
-    "link": "https://tass.ru/mezhdunarodnaya-panorama/28017217",
-    "published": "Sun, 16 Aug 2026 23:03:01 +0300",
-    "timestamp": 1786910581.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Радикальное палестинское движение обратилось к посредникам и Совету мира",
-    "summary": "Радикальное палестинское движение обратилось к посредникам и Совету мира",
-    "image": ""
-  },
-  {
-    "title": "В украинском городе пропал свет",
-    "link": "https://lenta.ru/news/2026/08/16/v-ukrainskom-gorode-propal-svet/",
-    "published": "Sun, 16 Aug 2026 23:02:00 +0300",
-    "timestamp": 1786910520.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/16/23/20260816230245643/pic_05bca6a0fcdee17395f96625ad73d8d5.jpg"
-  },
-  {
-    "title": "Как число «квазиработников» увеличилось вдвое за четыре года. Инфографика",
-    "link": "https://www.rbc.ru/rbcfreenews/6a3bb5ff9a79475f7a4fde3e",
-    "published": "Sun, 16 Aug 2026 23:01:04 +0300",
-    "timestamp": 1786910464.0,
+    "link": "https://www.rbc.ru/rbcfreenews/6a80e0709a7947484dc27268",
+    "published": "Mon, 17 Aug 2026 01:11:18 +0300",
+    "timestamp": 1786918278.0,
     "source": "РБК",
     "language": "ru",
-    "description": "В мае 2026 года число сотрудников, которые наняты на основе договоров гражданско-правового характера (ГПХ) составило 1,8 млн человек, сообщил Росстат.",
-    "summary": "В мае 2026 года число сотрудников, которые наняты на основе договоров гражданско-правового характера (ГПХ) составило 1,8 млн человек, сообщил Росстат.",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/5/69/347866267367695.jpeg"
+    "description": "На 94-м году жизни скончалась театральный журналист и заслуженный работник культуры Сусанна Бенцианова, более 60 лет участвовавшая в выпуске газеты Большого театра &laquo;Советский артист&raquo;, сообщила пресс-служба театра.",
+    "summary": "На 94-м году жизни скончалась театральный журналист и заслуженный работник культуры Сусанна Бенцианова, более 60 лет участвовавшая в выпуске газеты Большого театра &laquo;Советский артист&raquo;, сообщила пресс-служба театра.",
+    "image": ""
   },
   {
-    "title": "Российские пловцы проведут сбор в США перед Олимпиадой-2028",
-    "link": "https://tass.ru/sport/28017215",
-    "published": "Sun, 16 Aug 2026 23:00:52 +0300",
-    "timestamp": 1786910452.0,
-    "source": "ТАСС",
+    "title": "Синоптик рассказал, какая погода ждет москвичей в сентябре",
+    "link": "https://ria.ru/20260817/moskva-2111259210.html",
+    "published": "Mon, 17 Aug 2026 01:06:39 +0300",
+    "timestamp": 1786917999.0,
+    "source": "РИА Новости",
     "language": "ru",
-    "description": "Осталось выбрать один из двух вариантов места проведения сбора",
-    "summary": "Осталось выбрать один из двух вариантов места проведения сбора",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/07e7/08/13/1890972504_0:87:3072:1815_650x0_80_0_0_f8b83084a3b51ffb51ae9bb8cbc31c99.jpg"
+  },
+  {
+    "title": "Названы регионы России с самыми высокими зарплатами",
+    "link": "https://lenta.ru/news/2026/08/17/nazvany-regiony-rossii-s-samymi-vysokimi-zarplatami/",
+    "published": "Mon, 17 Aug 2026 01:06:07 +0300",
+    "timestamp": 1786917967.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/17/01/20260817010442644/pic_c994501859ed735d0a10fa2d1f9ee2fe.jpg"
+  },
+  {
+    "title": "Раскрыто число сбитых с начала года беспилотников ВСУ",
+    "link": "https://lenta.ru/news/2026/08/17/raskryto-chislo-sbityh-s-nachala-goda-bespilotnikov-vsu/",
+    "published": "Mon, 17 Aug 2026 01:05:57 +0300",
+    "timestamp": 1786917957.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/17/01/20260817010606269/pic_082bdf436648003af69dcf6353965143.jpg"
+  },
+  {
+    "title": "Грузовик столкнулся с легковушкой и протаранил семь машин у АЗС в Адыгее",
+    "link": "https://ria.ru/20260817/dtp-2111258598.html",
+    "published": "Mon, 17 Aug 2026 01:01:21 +0300",
+    "timestamp": 1786917681.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Кайли Дженнер в приспущенных бриджах снялась для бренда",
+    "link": "https://lenta.ru/news/2026/08/17/kayli-dzhenner-v-prispuschennyh-bridzhah-snyalas-dlya-brenda/",
+    "published": "Mon, 17 Aug 2026 01:01:03 +0300",
+    "timestamp": 1786917663.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/14/15/20260814155925105/pic_4cfa6b6c8fa0ccf402080a838001dc44.jpg"
+  },
+  {
+    "title": "Врач назвал предупреждающие о приближении болезни Паркинсона ночные симптомы",
+    "link": "https://lenta.ru/news/2026/08/14/vrach-nazval-preduprezhdayuschie-o-priblizhenii-bolezni-parkinsona-nochnye-simptomy/",
+    "published": "Mon, 17 Aug 2026 01:01:01 +0300",
+    "timestamp": 1786917661.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/12/12/20260812123133788/pic_c4e9cc716797e1ca49896cb4b60e6fb3.jpg"
+  },
+  {
+    "title": "Стало известно имя победительницы конкурса «Миссис Россия — 2026»",
+    "link": "https://lenta.ru/news/2026/08/17/stalo-izvestno-imya-pobeditelnitsy-konkursa-missis-rossiya-2026/",
+    "published": "Mon, 17 Aug 2026 01:00:00 +0300",
+    "timestamp": 1786917600.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/17/00/20260817005929685/pic_078a3027505db4d7f4dd0dce866329f7.jpg"
+  },
+  {
+    "title": "Верховный суд назвал дату рассмотрения жалобы «Яблока» по выборам",
+    "link": "https://www.rbc.ru/rbcfreenews/6a7c887b9a79471e1b6118fb",
+    "published": "Mon, 17 Aug 2026 00:51:50 +0300",
+    "timestamp": 1786917110.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Верховный суд в понедельник, 17 августа, рассмотрит апелляционную жалобу партии &laquo;Яблоко&raquo; на решение об отмене регистрации федерального списка ее кандидатов на выборах в Госдуму, говорится&nbsp;в карточке на сайте суда.",
+    "summary": "Верховный суд в понедельник, 17 августа, рассмотрит апелляционную жалобу партии &laquo;Яблоко&raquo; на решение об отмене регистрации федерального списка ее кандидатов на выборах в Госдуму, говорится&nbsp;в карточке на сайте суда.",
+    "image": ""
+  },
+  {
+    "title": "Иран назначил награду за головы американских военных",
+    "link": "https://www.kommersant.ru/doc/8890877",
+    "published": "Mon, 17 Aug 2026 00:48:56 +0300",
+    "timestamp": 1786916936.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Иран будет выплачивать своим гражданам по $30 тыс. за каждого убитого или плененного военнослужащего США, заявил главнокомандующий армией страны генерал-майор Амир Хатами. Женщинам за это будет полагаться двойное вознаграждение, сказал он.",
+    "summary": "Иран будет выплачивать своим гражданам по $30 тыс. за каждого убитого или плененного военнослужащего США, заявил главнокомандующий армией страны генерал-майор Амир Хатами. Женщинам за это будет полагаться двойное вознаграждение, сказал он.",
+    "image": ""
+  },
+  {
+    "title": "Соболенко вышла в третий круг турнира WTA 1000 в Цинциннати",
+    "link": "https://ria.ru/20260817/turnir-2111257609.html",
+    "published": "Mon, 17 Aug 2026 00:30:34 +0300",
+    "timestamp": 1786915834.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "«Хамас» потребовал заставить Израиль принять второй этап плана по Газе",
+    "link": "https://www.kommersant.ru/doc/8890865",
+    "published": "Mon, 17 Aug 2026 00:21:04 +0300",
+    "timestamp": 1786915264.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Посредники и Совет мира должны убедить Израиль прекратить огонь в секторе Газа и перейти ко второй фазе мирного плана, заявили в движении «Хамас». В начале августа Израиль отверг этот план.",
+    "summary": "Посредники и Совет мира должны убедить Израиль прекратить огонь в секторе Газа и перейти ко второй фазе мирного плана, заявили в движении «Хамас». В начале августа Израиль отверг этот план.",
+    "image": ""
+  },
+  {
+    "title": "Трамп приказал сократить учения с Сеулом из-за отношений с Ким Чен Ыном",
+    "link": "https://www.rbc.ru/politics/17/08/2026/6a8228079a7947a97ff37796",
+    "published": "Mon, 17 Aug 2026 00:18:19 +0300",
+    "timestamp": 1786915099.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Президент США Дональд Трамп заявил, что поручил главе Пентагона Питу Хегсету уменьшить масштаб совместных военных учений США и Южной Кореи.",
+    "summary": "Президент США Дональд Трамп заявил, что поручил главе Пентагона Питу Хегсету уменьшить масштаб совместных военных учений США и Южной Кореи.",
+    "image": ""
+  },
+  {
+    "title": "Мосбиржа активизирует подготовку российских разработчиков видеоигр к IPO",
+    "link": "https://www.rbc.ru/finances/17/08/2026/6a81b6c39a7947b1cebbfd1b",
+    "published": "Mon, 17 Aug 2026 00:02:42 +0300",
+    "timestamp": 1786914162.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Московская биржа планирует привлечь разработчиков игр к размещению их акций на публичном рынке, рассказала директор департамента по работе с эмитентами торговой площадки Наталья Логинова на конференции &laquo;Медиадни&raquo;.",
+    "summary": "Московская биржа планирует привлечь разработчиков игр к размещению их акций на публичном рынке, рассказала директор департамента по работе с эмитентами торговой площадки Наталья Логинова на конференции &laquo;Медиадни&raquo;.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/0/05/347868863069050.jpeg"
+  },
+  {
+    "title": "ПСЖ с Сафоновым в составе проиграл «Лансу» в матче за Суперкубок Франции",
+    "link": "https://www.kommersant.ru/doc/8890864",
+    "published": "Sun, 16 Aug 2026 23:57:18 +0300",
+    "timestamp": 1786913838.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Французский клуб «Пари Сен-Жермен» (ПСЖ) с российским вратарем Матвеем Сафоновым в составе уступил «Лансу» в поединке за Суперкубок Франции. Встреча завершилась со счетом 0:1.",
+    "summary": "Французский клуб «Пари Сен-Жермен» (ПСЖ) с российским вратарем Матвеем Сафоновым в составе уступил «Лансу» в поединке за Суперкубок Франции. Встреча завершилась со счетом 0:1.",
+    "image": ""
+  },
+  {
+    "title": "Bloomberg: экспортеры наладили тайный вывоз нефти через Ормузский пролив",
+    "link": "https://www.kommersant.ru/doc/8890863",
+    "published": "Sun, 16 Aug 2026 23:34:15 +0300",
+    "timestamp": 1786912455.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Ближневосточные экспортеры нефти наладили скрытную схему «челночной» транспортировки сырья через Ормузский пролив, сообщило Bloomberg со ссылкой на источники. Танкеры проходят морской коридор с отключенными транспондерами, после чего переваливают нефть на крупные суда в Оманском заливе.",
+    "summary": "Ближневосточные экспортеры нефти наладили скрытную схему «челночной» транспортировки сырья через Ормузский пролив, сообщило Bloomberg со ссылкой на источники. Танкеры проходят морской коридор с отключенными транспондерами, после чего переваливают нефть на крупные суда в Оманском заливе.",
+    "image": ""
+  },
+  {
+    "title": "🎬 Один мужчина погиб, ещё два человека пострадали в Краснодарском крае — среди ни...",
+    "link": "https://t.me/bazabazon/48318",
+    "published": "Sun, 16 Aug 2026 20:21:45 GMT",
+    "timestamp": 1786911705.0,
+    "source": "TG: Baza",
+    "language": "ru",
+    "description": "<p>Один мужчина погиб, ещё два человека пострадали в Краснодарском крае — среди них 15-летний ребенок.<br /><br />По данным «Базы», около 40 минут назад фура на большой скорости въехала в очередь из машин на АЗС на трассе Усть-Лабинск — Белореченск в Красногвардейском районе. Грузовик протаранил два автомобиля.<br /><br />Погиб мужчина, находившийся в одной из машин. 18-летнего парня и 15-летнюю девушку госпитализировали. На месте работают полицейские и медики.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/A4NMZnKERWErOjB9_PH5PoHGZS3SSmGA_3XSc2bIsCDTHDjRSD4ORq46TeIVhe-edfjo1sTxS77iwEK2PY0M_ZnYzI_u9xtih1u5ST6Midrdh2fMnjvl4gK70DEzqW133dwWurhs5lWv9byGmAVeaAf95Tj9tWtgUi1IyE_GR7w-772ZZkSDNYoeXw2PEk4p7HqrOuI1tlR4hvN6D4VHocuV5cSph25bgqlnfCLAV9IWqO_RJW4LO0_sljJCPrixPUGJGoDv1kU-arEJ1PqIWlrmjyAJKfSDXegdMZ-J7bJGbDQZ4NO0LokUBoA3Kal5HRcteN6YQ3-2FeeVE4K9fw\" src=\"https://cdn4.telesco.pe/file/8960f95528.mp4?token=k0Z-L7jBIemoDEhUEhK3yR0TzVpLRrqMyaMX6gNDIqZMd9MIEVVPvSG0-iKlhhO1v8gkbEAQdM5T10BHR56csTQsnqRvfCzpkuE7YCdzM0ax7H_vgVhfjsjP6qv_3k6Ia2v-xUSZVVWYHvPvUeLXk7pxsLyZEYMxxcu8zkigp8blFQ74pPAI05Ib4X_JGT8UMFIHEpMs_xGZyj36NDCkc7fg8MNl6JazfvXbtsC015Cj9dEHxf3dnoA9PEtRUboqBzJslSmulmwR_5Fd11i0RWAzfIW8a8c9XrtS5F0pFe7N1bcBXgWEZ6IYbqZ-Ln4rr_84iO5hQvVAsoQD3P-yww\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Один мужчина погиб, ещё два человека пострадали в Краснодарском крае — среди них 15-летний ребенок.<br /><br />По данным «Базы», около 40 минут назад фура на большой скорости въехала в очередь из машин на АЗС на трассе Усть-Лабинск — Белореченск в Красногвардейском районе. Грузовик протаранил два автомобиля.<br /><br />Погиб мужчина, находившийся в одной из машин. 18-летнего парня и 15-летнюю девушку госпитализировали. На месте работают полицейские и медики.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/A4NMZnKERWErOjB9_PH5PoHGZS3SSmGA_3XSc2bIsCDTHDjRSD4ORq46TeIVhe-edfjo1sTxS77iwEK2PY0M_ZnYzI_u9xtih1u5ST6Midrdh2fMnjvl4gK70DEzqW133dwWurhs5lWv9byGmAVeaAf95Tj9tWtgUi1IyE_GR7w-772ZZkSDNYoeXw2PEk4p7HqrOuI1tlR4hvN6D4VHocuV5cSph25bgqlnfCLAV9IWqO_RJW4LO0_sljJCPrixPUGJGoDv1kU-arEJ1PqIWlrmjyAJKfSDXegdMZ-J7bJGbDQZ4NO0LokUBoA3Kal5HRcteN6YQ3-2FeeVE4K9fw\" src=\"https://cdn4.telesco.pe/file/8960f95528.mp4?token=k0Z-L7jBIemoDEhUEhK3yR0TzVpLRrqMyaMX6gNDIqZMd9MIEVVPvSG0-iKlhhO1v8gkbEAQdM5T10BHR56csTQsnqRvfCzpkuE7YCdzM0ax7H_vgVhfjsjP6qv_3k6Ia2v-xUSZVVWYHvPvUeLXk7pxsLyZEYMxxcu8zkigp8blFQ74pPAI05Ib4X_JGT8UMFIHEpMs_xGZyj36NDCkc7fg8MNl6JazfvXbtsC015Cj9dEHxf3dnoA9PEtRUboqBzJslSmulmwR_5Fd11i0RWAzfIW8a8c9XrtS5F0pFe7N1bcBXgWEZ6IYbqZ-Ln4rr_84iO5hQvVAsoQD3P-yww\" style=\"width: 100%;\"></video>",
+    "image": ""
+  },
+  {
+    "title": "🎬 Фура на большой скорости влетела в очередь из машин на АЗС в Краснодарском крае...",
+    "link": "https://t.me/mash/77001",
+    "published": "Sun, 16 Aug 2026 20:21:40 GMT",
+    "timestamp": 1786911700.0,
+    "source": "TG: Mash",
+    "language": "ru",
+    "description": "<p>Фура на большой скорости влетела в очередь из машин на АЗС в Краснодарском крае.<br /><br />Авария произошла на трассе Усть-Лабинск—Белореченск, возле Хатукая. Грузовик врезался в автомобили, которые стояли в очереди на заправку \"Роснефть.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Rp8_x1alLEIwIH-D6ebAqxfhwEUSfigG8iZagXi9SEGmlZyipgqbqsqQvRrCASjmeK19kZFA1ggZVb8WHKHdguMoIQIAlSCTFww5nGMK5xRHxX4tq4BF1Uh0excxGsD5RVnqrNW5TLRl4BIPLzzXth9n_giXX3w_nXB9X9c3bS5nQJxaEfebG2XHP5APN1KHTm_UQcqUhVD7up_tCQsEbI7bjtXpbryzIuoP4MVkHAeR88RUCWoevlLzimx7ZfqbQoyGYr7RkckB9TFklnAT_Z9jDM3G9XofTOD4bw_XY3KWbRaslJbAcT_ojRBSMDdmua4uQaAUitxMOzNoiKTtEA\" src=\"https://cdn4.telesco.pe/file/885ee61ad6.mp4?token=HrMWIS_QeRR_fw1cKdTKlE9jxvrguZiBO2GeYqhHOCl4Z6w23BuT_M7T2fA4iXqfQ1Wjco347UosKo5UlYA6bC2jQzwG1w7izu6Ay3hltGpLNzoof_WITotE4dgePVwICnNf2auOzkpgO23qGtk_OsWW9xSLN7YFGS8rXnGjXPSkqh3_d-YwOWTTF34QUF_cCdK8W9FKPtPthJkkWEFjOCbnjajEzEeXg86HzsilUgaqGYY2p3vkVpiSeUQmtS8cM9fKOgflsM3mRqmP9CO-GZB5k1xf3biHv6Lxt8kldXUCby6wACsT5vf7n9rZ_4siJ8ob4cr_vtFX6sIo5ZzhFw\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Фура на большой скорости влетела в очередь из машин на АЗС в Краснодарском крае.<br /><br />Авария произошла на трассе Усть-Лабинск—Белореченск, возле Хатукая. Грузовик врезался в автомобили, которые стояли в очереди на заправку \"Роснефть.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Rp8_x1alLEIwIH-D6ebAqxfhwEUSfigG8iZagXi9SEGmlZyipgqbqsqQvRrCASjmeK19kZFA1ggZVb8WHKHdguMoIQIAlSCTFww5nGMK5xRHxX4tq4BF1Uh0excxGsD5RVnqrNW5TLRl4BIPLzzXth9n_giXX3w_nXB9X9c3bS5nQJxaEfebG2XHP5APN1KHTm_UQcqUhVD7up_tCQsEbI7bjtXpbryzIuoP4MVkHAeR88RUCWoevlLzimx7ZfqbQoyGYr7RkckB9TFklnAT_Z9jDM3G9XofTOD4bw_XY3KWbRaslJbAcT_ojRBSMDdmua4uQaAUitxMOzNoiKTtEA\" src=\"https://cdn4.telesco.pe/file/885ee61ad6.mp4?token=HrMWIS_QeRR_fw1cKdTKlE9jxvrguZiBO2GeYqhHOCl4Z6w23BuT_M7T2fA4iXqfQ1Wjco347UosKo5UlYA6bC2jQzwG1w7izu6Ay3hltGpLNzoof_WITotE4dgePVwICnNf2auOzkpgO23qGtk_OsWW9xSLN7YFGS8rXnGjXPSkqh3_d-YwOWTTF34QUF_cCdK8W9FKPtPthJkkWEFjOCbnjajEzEeXg86HzsilUgaqGYY2p3vkVpiSeUQmtS8cM9fKOgflsM3mRqmP9CO-GZB5k1xf3biHv6Lxt8kldXUCby6wACsT5vf7n9rZ_4siJ8ob4cr_vtFX6sIo5ZzhFw\" style=\"width: 100%;\"></video>",
     "image": ""
   },
   {
@@ -165,94 +253,6 @@
     "image": ""
   },
   {
-    "title": "Под Симферополем потушили ландшафтный пожар",
-    "link": "https://ria.ru/20260816/pozhar-2111252093.html",
-    "published": "Sun, 16 Aug 2026 22:58:30 +0300",
-    "timestamp": 1786910310.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/96754/53/967545303_615:0:3000:1341_650x0_80_0_0_99a0039915851e4947a9c3b178ae159d.jpg"
-  },
-  {
-    "title": "Экс-глава Пентагона сделал необычное заявление о России",
-    "link": "https://lenta.ru/news/2026/08/16/eks-glava-pentagona-sdelal-neobychnoe-zayavlenie-o-rossii/",
-    "published": "Sun, 16 Aug 2026 22:54:32 +0300",
-    "timestamp": 1786910072.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/16/22/20260816225122582/pic_5348c8635891d874b5f4851bd90941d7.jpg"
-  },
-  {
-    "title": "Три жителя пострадали в Белгородской области в результате атак ВСУ",
-    "link": "https://www.kommersant.ru/doc/8890861",
-    "published": "Sun, 16 Aug 2026 22:52:14 +0300",
-    "timestamp": 1786909934.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "В Белгородской области три мирных жителя пострадали в результате атак Вооруженных сил Украины (ВСУ). Об этом сообщает оперштаб региона в Telegram-канале.",
-    "summary": "В Белгородской области три мирных жителя пострадали в результате атак Вооруженных сил Украины (ВСУ). Об этом сообщает оперштаб региона в Telegram-канале.",
-    "image": ""
-  },
-  {
-    "title": "Фесиков считает, что у пловца Колесникова случился регресс на ЧЕ",
-    "link": "https://tass.ru/sport/28017211",
-    "published": "Sun, 16 Aug 2026 22:49:37 +0300",
-    "timestamp": 1786909777.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Колесников стал вторым на дистанции 50 м на спине и не вышел в полуфинал на 100 м на спине",
-    "summary": "Колесников стал вторым на дистанции 50 м на спине и не вышел в полуфинал на 100 м на спине",
-    "image": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20260816/9303697.jpg"
-  },
-  {
-    "title": "В Бразилии нашли картины Матисса, украденные в прошлом году",
-    "link": "https://www.rbc.ru/rbcfreenews/6a67d7fa9a794715740152a3",
-    "published": "Sun, 16 Aug 2026 22:38:35 +0300",
-    "timestamp": 1786909115.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Полиция штата Сан-Паулу в Бразилии нашла украденные работы французского художника Анри Матисса&nbsp;&mdash; восемь из 13 произведений искусства, похищенных из местной библиотеки в конце 2025 года, сообщило AFP.",
-    "summary": "Полиция штата Сан-Паулу в Бразилии нашла украденные работы французского художника Анри Матисса&nbsp;&mdash; восемь из 13 произведений искусства, похищенных из местной библиотеки в конце 2025 года, сообщило AFP.",
-    "image": ""
-  },
-  {
-    "title": "США вывели последний авианосец из Азии ради переброски на Ближний Восток",
-    "link": "https://www.rbc.ru/rbcfreenews/6a8118a69a794767384d217e",
-    "published": "Sun, 16 Aug 2026 22:22:14 +0300",
-    "timestamp": 1786908134.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Авианосец USS George Washington уходит из Тихого океана, чтобы заменить измотанный USS Abraham Lincoln на Ближнем Востоке. Ротация создает вакуум в регионе, вызывая тревогу союзников на фоне активности Китая",
-    "summary": "Авианосец USS George Washington уходит из Тихого океана, чтобы заменить измотанный USS Abraham Lincoln на Ближнем Востоке. Ротация создает вакуум в регионе, вызывая тревогу союзников на фоне активности Китая",
-    "image": ""
-  },
-  {
-    "title": "В США более 280 тыс. жителей остались без света из-за непогоды",
-    "link": "https://www.kommersant.ru/doc/8890858",
-    "published": "Sun, 16 Aug 2026 22:21:00 +0300",
-    "timestamp": 1786908060.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "В американских штатах Гавайи и Индиана более 280 тыс. граждан оказались обесточены из-за непогоды. Об этом свидетельствуют данные сайта Poweroutage.",
-    "summary": "В американских штатах Гавайи и Индиана более 280 тыс. граждан оказались обесточены из-за непогоды. Об этом свидетельствуют данные сайта Poweroutage.",
-    "image": ""
-  },
-  {
-    "title": "Три человека пострадали при ударах ВСУ по Белгородской области",
-    "link": "https://www.rbc.ru/rbcfreenews/6a81f63b9a79478a4e2f5749",
-    "published": "Sun, 16 Aug 2026 22:03:54 +0300",
-    "timestamp": 1786907034.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "В Белгородской области при ударах украинских беспилотников пострадали три человека, сообщил региональный оперштаб.",
-    "summary": "В Белгородской области при ударах украинских беспилотников пострадали три человека, сообщил региональный оперштаб.",
-    "image": ""
-  },
-  {
     "title": "Премьер Франции созовет кризисное совещание из-за кибератаки на налоговую службу",
     "link": "https://www.vedomosti.ru/politics/news/2026/08/16/1221487-premer-frantsii-soveschanie",
     "published": "Sun, 16 Aug 2026 21:58:54 +0300",
@@ -261,17 +261,6 @@
     "language": "ru",
     "description": "",
     "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Российские пловцы взяли золото чемпионата Европы в комбинированной эстафете",
-    "link": "https://www.kommersant.ru/doc/8890856",
-    "published": "Sun, 16 Aug 2026 21:44:42 +0300",
-    "timestamp": 1786905882.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Российские спортсмены выиграли золото чемпионата Европы по водным видам спорта в комбинированной эстафете 4х100 м. Турнир завершился в столице Франции.",
-    "summary": "Российские спортсмены выиграли золото чемпионата Европы по водным видам спорта в комбинированной эстафете 4х100 м. Турнир завершился в столице Франции.",
     "image": ""
   },
   {
@@ -295,17 +284,6 @@
     "description": "",
     "summary": "",
     "image": "https://cdn.vdmsti.ru/image/2026/6c/1a51qy/normal-1nsq.jpg"
-  },
-  {
-    "title": "Крупнейший в истории Бельгии лесной пожар движется к границе с Германией",
-    "link": "https://www.kommersant.ru/doc/8890855",
-    "published": "Sun, 16 Aug 2026 21:30:16 +0300",
-    "timestamp": 1786905016.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Крупнейший в истории Бельгии лесной пожар, который уже уничтожил 3 тыс. га, движется в сторону границы с Германией, сообщает Reuters со ссылкой на местные власти. Пожар в национальном природном заповеднике От-Фань на востоке страны бушует с пятницы, к его тушению привлечены пожарные со всей Бельгии, а также их коллеги из Германии и Люксембурга.",
-    "summary": "Крупнейший в истории Бельгии лесной пожар, который уже уничтожил 3 тыс. га, движется в сторону границы с Германией, сообщает Reuters со ссылкой на местные власти. Пожар в национальном природном заповеднике От-Фань на востоке страны бушует с пятницы, к его тушению привлечены пожарные со всей Бельгии, а также их коллеги из Германии и Люксембурга.",
-    "image": ""
   },
   {
     "title": "Экс‑инженер Microsoft разрабатывает DayFrame — модульный конкурент Outlook",
@@ -338,17 +316,6 @@
     "language": "ru",
     "description": "",
     "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Силы ПВО уничтожили 72 беспилотника над регионами России за 12 часов",
-    "link": "https://www.kommersant.ru/doc/8890854",
-    "published": "Sun, 16 Aug 2026 21:12:55 +0300",
-    "timestamp": 1786903975.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Силы противовоздушной обороны (ПВО) в воскресенье сбили 72 беспилотника ВСУ над регионами РФ. Об этом сообщает Министерство обороны России в своем Telegram-канале.",
-    "summary": "Силы противовоздушной обороны (ПВО) в воскресенье сбили 72 беспилотника ВСУ над регионами РФ. Об этом сообщает Министерство обороны России в своем Telegram-канале.",
     "image": ""
   },
   {
@@ -825,17 +792,6 @@
     "image": "https://cdn4.telesco.pe/file/obdBS5Mot3ghCcenNJNhCuADMVKSmcMH7hKcbyHthf2WZqVldHfsn2_4TMRxYLsSyxE-luLxMHXebwZQEzBSyUlVRYKRzawxW3G4-6qudVWLwxFABEVBlWFZq89GK_EGGheliKWEQTQrOVCSfKtX4QPhjwBKF2AhTMi5MxTDLd3jxHwt_CTJBWuix97ZqAKzBNznbYHFAZ7yAzCL5G6v5hfL96N8JNkYI-YkHqvmgCpzJpK4-sRZ5Ti_ZihYKzczY1MT7bXyFSDyo9em827X1-Rd0-5NODQPPs_BVaL2GdzvkJc4Lhm6l21BlfrJgp4jJLISV6m3rtsyyVrYb2SIFA.jpg"
   },
   {
-    "title": "↩️ Три человека пострадали в результате одной из самых массированных атак беспил...",
-    "link": "https://t.me/bazabazon/48306",
-    "published": "Sun, 16 Aug 2026 05:21:48 GMT",
-    "timestamp": 1786857708.0,
-    "source": "TG: Baza",
-    "language": "ru",
-    "description": "<div class=\"rsshub-quote\"><blockquote>\n                                    <p><a href=\"https://t.me/bazabazon/48304\"><b>Baza</b>:</a></p>\n                                    \n                                    <p>Три человека пострадали при атаке беспилотников в районе МКАД, сообщил мэр Москвы Сергей Собянин.  Всего на подлёте к Москве сбили уже более 120 украинских БПЛА. Жители Домодедова, Чехова, Ступина и Подольска сообщают о взрывах и работе ПВО.  Из-за атаки временно…</p>\n                                </blockquote></div><p>Три человека пострадали в результате одной из самых массированных атак беспилотников на Московскую область.<br /><br />Всего за ночь силы ПВО и РЭБ сбили и подавили 187 дронов. В Подольске один человек получил осколочные ранения, ещё двое пострадали из-за падения БПЛА. Всем оказывают медицинскую помощь.<br /><br />В Домодедове загорелся склад с медикаментами. Повреждения также зафиксировали в Кашире и Воскресенске, сообщил губернатор Московской области Андрей Воробьёв.<br /><br />UPD: В результате атаки погиб 83-летний мужчина. Беспилотник упал на территорию частного дома в Раменском округе.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p>",
-    "summary": "<div class=\"rsshub-quote\"><blockquote>\n                                    <p><a href=\"https://t.me/bazabazon/48304\"><b>Baza</b>:</a></p>\n                                    \n                                    <p>Три человека пострадали при атаке беспилотников в районе МКАД, сообщил мэр Москвы Сергей Собянин.  Всего на подлёте к Москве сбили уже более 120 украинских БПЛА. Жители Домодедова, Чехова, Ступина и Подольска сообщают о взрывах и работе ПВО.  Из-за атаки временно…</p>\n                                </blockquote></div><p>Три человека пострадали в результате одной из самых массированных атак беспилотников на Московскую область.<br /><br />Всего за ночь силы ПВО и РЭБ сбили и подавили 187 дронов. В Подольске один человек получил осколочные ранения, ещё двое пострадали из-за падения БПЛА. Всем оказывают медицинскую помощь.<br /><br />В Домодедове загорелся склад с медикаментами. Повреждения также зафиксировали в Кашире и Воскресенске, сообщил губернатор Московской области Андрей Воробьёв.<br /><br />UPD: В результате атаки погиб 83-летний мужчина. Беспилотник упал на территорию частного дома в Раменском округе.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p>",
-    "image": ""
-  },
-  {
     "title": "Одна из самых массированных атак всушными БПЛА на Московскую область — в небе над ...",
     "link": "https://t.me/mash/76989",
     "published": "Sun, 16 Aug 2026 05:16:51 GMT",
@@ -845,17 +801,6 @@
     "description": "<p>Одна из самых массированных атак всушными БПЛА на Московскую область — в небе над регионом наша ПВО сбила и уничтожила 187 вражеских дронов.<br /><br />Силы ПВО и средства РЭБ сбили и подавили БПЛА в Домодедове, Подольске, Ступине, Одинцове, Наро-Фоминске, Раменском, Чехове, Коломне, Кашире и Егорьевске.<br /><br />В Подольске помощь понадобилась трём людям. Один получил осколочные ранения в СНТ \"Лесной\", ещё двое пострадали из-за падения дронов возле трассы М-2 и в посёлке Железнодорожный. Всем оказывают помощь.<br /><br />Там же загорелся склад на территории индустриального парка \"Коледино\". Во время атаки сотрудников успели вывести в укрытие, никто из них не пострадал. В Домодедове загорелся склад с медикаментами, предварительно, без пострадавших.<br /><br />Повреждения также есть в Кашире — пострадало новое здание отдела полиции, и в Воскресенске — там повреждены отдельные сооружения промышленного объекта. Об этом сообщил губернатор Андрей Воробьёв.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p>",
     "summary": "<p>Одна из самых массированных атак всушными БПЛА на Московскую область — в небе над регионом наша ПВО сбила и уничтожила 187 вражеских дронов.<br /><br />Силы ПВО и средства РЭБ сбили и подавили БПЛА в Домодедове, Подольске, Ступине, Одинцове, Наро-Фоминске, Раменском, Чехове, Коломне, Кашире и Егорьевске.<br /><br />В Подольске помощь понадобилась трём людям. Один получил осколочные ранения в СНТ \"Лесной\", ещё двое пострадали из-за падения дронов возле трассы М-2 и в посёлке Железнодорожный. Всем оказывают помощь.<br /><br />Там же загорелся склад на территории индустриального парка \"Коледино\". Во время атаки сотрудников успели вывести в укрытие, никто из них не пострадал. В Домодедове загорелся склад с медикаментами, предварительно, без пострадавших.<br /><br />Повреждения также есть в Кашире — пострадало новое здание отдела полиции, и в Воскресенске — там повреждены отдельные сооружения промышленного объекта. Об этом сообщил губернатор Андрей Воробьёв.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p>",
     "image": ""
-  },
-  {
-    "title": "🎬🖼 ВС РФ атаковали стратегические и военные цели Украины в Кременчуге, Киеве и в...",
-    "link": "https://t.me/mash/76987",
-    "published": "Sun, 16 Aug 2026 03:22:39 GMT",
-    "timestamp": 1786850559.0,
-    "source": "TG: Mash",
-    "language": "ru",
-    "description": "<p>ВС РФ атаковали стратегические и военные цели Украины в Кременчуге, Киеве и в Кривом Роге — под удар попали нефтеперерабатывающий завод, транспортный узел, склады и объекты логистики.<br /><br />Удары зафиксированы в окрестностях Кременчуга Полтавской области. Там атаковали Кременчугский нефтеперерабатывающий завод на Свиштовской улице — крупнейшее предприятие по производству нефтепродуктов в Украине.<br /><br />В Киеве ракетные удары пришлись по Голосеевскому и Оболонскому районам. В районе станции метро \"Почайна\" находятся железнодорожный узел, промышленные предприятия, склады и объекты логистики. Среди них — Киевский экспериментальный завод, завод \"Генератор\", завод реактивов и Киевский судостроительный судоремонтный завод.<br /><br />В Кривом Роге сообщили об ударах по двум промышленным предприятиям. На Акционерной улице в Долгинцевском районе, где были прилёты, находятся Криворожский цементный завод и складские помещения. Там же расположены авиабаза \"Долгинцево\" и железнодорожная станция \"Кривой Рог-Главный\". Били баллистическими ракетами и ударными БПЛА, после взрывов поднялись столбы дыма.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Yn-umYJvEk62nHYHncv579ntgGZSG0BkftTQLAWFdAbej8xNwCiNsIo7bv9kGkYA4HKw7q2GFBwNhI8Ib3gBtrdwzvrky-8KNySmqwmpaVQ9J4c702LOa2LJ4Qck4X1bjpKMNOIDC4lcuq4dPrWK2CA_encachYuacUM66fg4tQLVSPLbi7FdmU4sR7PQCzftw1ZtjFhYP5gC1l2kw60xy4U1UIKXxVKC7CI_AkISHMizc6dXu5bTyuVNkaisqYo-ZraYSP_E6fjAJfRBHhWpSzsjMwa2RKt6pFsmYbU_N1whh5b5SpfDULctqemu-Pm5S2nNy4aal_sm07nd3tjeg\" src=\"https://cdn4.telesco.pe/file/3407bb4dba.mp4?token=p2uKYQPIz_mHgR9iEyN1d0Bzk2IYrAriY1jJoJnqAKzB55Gf3aU2zRdgrNbfORaKc2SX5HgFu7fYAdMAnZTyjWiP_OizHMlZDS15IC3iLnwmenFbl8aWhXv4rHwXQTMlgRPhxOIr8QS3oJSTw4hoV8JnZdHJLZAeTRAlYz0s4fT4RC4DHhxdRGFqKPubJWc-NHNjCt5pVB79oVnAzm_X3MrzQ6-9EUD2gox-3ohWJkOTHM212pkiZdYLMBRrqsB2yWTadyJFQSfhKqJxhhrf7jY8TJ3HHevV7fCzTwy9AJEW7HxuORvQXKNJN_6Tx83YMxR_U5wifW3tcv8xv5HekA\" style=\"width: 100%;\"></video><img height=\"162\" src=\"https://cdn4.telesco.pe/file/SyhIXTCJoeZqtMP42yCbCtZ8cvpjJMrRWY9j9UzYqOqv7uXOBjl_Q2y33Q8Y_QI2LmB5O0PHST0ijkNwZscAq-NkgB5H-ihy4J5dRyJ3LV4jZ6Dtz_YCJnm529dYIEaJATkKTb7n68HgwwmeUu4DCfCdxSbAjW6NWUI9-LYSffMfQ9QVS0VUKOajo04q3v03doi5hEa4lTVOjyWp4IXJIpY2rZki7zbYhcpPWN5NM7z7THwJh5JeV6_Ow6P9dcuCxujhrn2MWyUJoulaLrmnwTrdVyGwvPaLWC3XSO1CZyghe6jt3_A8IEBITSIWJKE1RxZq7zo_uu6io47PfuCN5A.jpg\" width=\"289\" />",
-    "summary": "<p>ВС РФ атаковали стратегические и военные цели Украины в Кременчуге, Киеве и в Кривом Роге — под удар попали нефтеперерабатывающий завод, транспортный узел, склады и объекты логистики.<br /><br />Удары зафиксированы в окрестностях Кременчуга Полтавской области. Там атаковали Кременчугский нефтеперерабатывающий завод на Свиштовской улице — крупнейшее предприятие по производству нефтепродуктов в Украине.<br /><br />В Киеве ракетные удары пришлись по Голосеевскому и Оболонскому районам. В районе станции метро \"Почайна\" находятся железнодорожный узел, промышленные предприятия, склады и объекты логистики. Среди них — Киевский экспериментальный завод, завод \"Генератор\", завод реактивов и Киевский судостроительный судоремонтный завод.<br /><br />В Кривом Роге сообщили об ударах по двум промышленным предприятиям. На Акционерной улице в Долгинцевском районе, где были прилёты, находятся Криворожский цементный завод и складские помещения. Там же расположены авиабаза \"Долгинцево\" и железнодорожная станция \"Кривой Рог-Главный\". Били баллистическими ракетами и ударными БПЛА, после взрывов поднялись столбы дыма.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Yn-umYJvEk62nHYHncv579ntgGZSG0BkftTQLAWFdAbej8xNwCiNsIo7bv9kGkYA4HKw7q2GFBwNhI8Ib3gBtrdwzvrky-8KNySmqwmpaVQ9J4c702LOa2LJ4Qck4X1bjpKMNOIDC4lcuq4dPrWK2CA_encachYuacUM66fg4tQLVSPLbi7FdmU4sR7PQCzftw1ZtjFhYP5gC1l2kw60xy4U1UIKXxVKC7CI_AkISHMizc6dXu5bTyuVNkaisqYo-ZraYSP_E6fjAJfRBHhWpSzsjMwa2RKt6pFsmYbU_N1whh5b5SpfDULctqemu-Pm5S2nNy4aal_sm07nd3tjeg\" src=\"https://cdn4.telesco.pe/file/3407bb4dba.mp4?token=p2uKYQPIz_mHgR9iEyN1d0Bzk2IYrAriY1jJoJnqAKzB55Gf3aU2zRdgrNbfORaKc2SX5HgFu7fYAdMAnZTyjWiP_OizHMlZDS15IC3iLnwmenFbl8aWhXv4rHwXQTMlgRPhxOIr8QS3oJSTw4hoV8JnZdHJLZAeTRAlYz0s4fT4RC4DHhxdRGFqKPubJWc-NHNjCt5pVB79oVnAzm_X3MrzQ6-9EUD2gox-3ohWJkOTHM212pkiZdYLMBRrqsB2yWTadyJFQSfhKqJxhhrf7jY8TJ3HHevV7fCzTwy9AJEW7HxuORvQXKNJN_6Tx83YMxR_U5wifW3tcv8xv5HekA\" style=\"width: 100%;\"></video><img height=\"162\" src=\"https://cdn4.telesco.pe/file/SyhIXTCJoeZqtMP42yCbCtZ8cvpjJMrRWY9j9UzYqOqv7uXOBjl_Q2y33Q8Y_QI2LmB5O0PHST0ijkNwZscAq-NkgB5H-ihy4J5dRyJ3LV4jZ6Dtz_YCJnm529dYIEaJATkKTb7n68HgwwmeUu4DCfCdxSbAjW6NWUI9-LYSffMfQ9QVS0VUKOajo04q3v03doi5hEa4lTVOjyWp4IXJIpY2rZki7zbYhcpPWN5NM7z7THwJh5JeV6_Ow6P9dcuCxujhrn2MWyUJoulaLrmnwTrdVyGwvPaLWC3XSO1CZyghe6jt3_A8IEBITSIWJKE1RxZq7zo_uu6io47PfuCN5A.jpg\" width=\"289\" />",
-    "image": "https://cdn4.telesco.pe/file/SyhIXTCJoeZqtMP42yCbCtZ8cvpjJMrRWY9j9UzYqOqv7uXOBjl_Q2y33Q8Y_QI2LmB5O0PHST0ijkNwZscAq-NkgB5H-ihy4J5dRyJ3LV4jZ6Dtz_YCJnm529dYIEaJATkKTb7n68HgwwmeUu4DCfCdxSbAjW6NWUI9-LYSffMfQ9QVS0VUKOajo04q3v03doi5hEa4lTVOjyWp4IXJIpY2rZki7zbYhcpPWN5NM7z7THwJh5JeV6_Ow6P9dcuCxujhrn2MWyUJoulaLrmnwTrdVyGwvPaLWC3XSO1CZyghe6jt3_A8IEBITSIWJKE1RxZq7zo_uu6io47PfuCN5A.jpg"
   },
   {
     "title": "🖼 Власти хотят усилить контроль за поездками россиян по стране и за рубеж, сообща...",
@@ -1007,9 +952,9 @@
     "timestamp": 1670324999.0,
     "source": "TG: Life Shot",
     "language": "ru",
-    "description": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/OTiitSPvKAWaJiv-j-S4CBh1GVHmhP_NRbzcnHtnooPaYFUPQ-0qShmTtYLiS8PXHw6Ulzf3l0EUpJ1Sk1JopL9Tv2ttS4wClnq2K6aCPGXzpgLqex4XdupGVJDAO5UASdOOLKzLnmEGCNOrLEY5BMmTsnqnknS3JjvhDiXqqkIP5J7-7RrjOtpW-OujycMjz3riaX0Ir2MHKIFhSoNyL-HbraLhta3_KILxgyHz_2PkwnLBsChiOdJpyR6rb1x3GClcRf1SpR421uy5VcPys_xz65TNCSfAxJyGGldWxRyi-Z6ovwWAhooQwd_t_cI1AabsdRBxtlnK5bEocLbG9w.jpg\" /></blockquote>",
-    "summary": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/OTiitSPvKAWaJiv-j-S4CBh1GVHmhP_NRbzcnHtnooPaYFUPQ-0qShmTtYLiS8PXHw6Ulzf3l0EUpJ1Sk1JopL9Tv2ttS4wClnq2K6aCPGXzpgLqex4XdupGVJDAO5UASdOOLKzLnmEGCNOrLEY5BMmTsnqnknS3JjvhDiXqqkIP5J7-7RrjOtpW-OujycMjz3riaX0Ir2MHKIFhSoNyL-HbraLhta3_KILxgyHz_2PkwnLBsChiOdJpyR6rb1x3GClcRf1SpR421uy5VcPys_xz65TNCSfAxJyGGldWxRyi-Z6ovwWAhooQwd_t_cI1AabsdRBxtlnK5bEocLbG9w.jpg\" /></blockquote>",
-    "image": "https://cdn4.telesco.pe/file/OTiitSPvKAWaJiv-j-S4CBh1GVHmhP_NRbzcnHtnooPaYFUPQ-0qShmTtYLiS8PXHw6Ulzf3l0EUpJ1Sk1JopL9Tv2ttS4wClnq2K6aCPGXzpgLqex4XdupGVJDAO5UASdOOLKzLnmEGCNOrLEY5BMmTsnqnknS3JjvhDiXqqkIP5J7-7RrjOtpW-OujycMjz3riaX0Ir2MHKIFhSoNyL-HbraLhta3_KILxgyHz_2PkwnLBsChiOdJpyR6rb1x3GClcRf1SpR421uy5VcPys_xz65TNCSfAxJyGGldWxRyi-Z6ovwWAhooQwd_t_cI1AabsdRBxtlnK5bEocLbG9w.jpg"
+    "description": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/ef-GCbmBzkGmszEsLRAdl-8Mk1s0VAUMQA_gGReaWPmSLBMEuixfl82Zcf-BjPXzb7h6NZNm0-lKth_evDsp9whK_luFB7-X1aP8DA4gfmjY0AK9-aYG3o1GtGxJHp1C_iE-l31r-Ie_th5ciToT2biIpl2mIPjqKy851Tli1BYPGBPaKL_MPAd5JzRe_tHALNtoxniyZ040Y2Z9EPO2G14NjXia009WjNn77MaOEiAs8sSRdLZjqJSWZQIz1_lcASzmHQ0PLTu37_kCK8lnUSJAXcHSK-8jFw7kmPndxWuofsl90KXZoP9w9KCXw-dBwfKqDOv1u-6OraUs6ELEmQ.jpg\" /></blockquote>",
+    "summary": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/ef-GCbmBzkGmszEsLRAdl-8Mk1s0VAUMQA_gGReaWPmSLBMEuixfl82Zcf-BjPXzb7h6NZNm0-lKth_evDsp9whK_luFB7-X1aP8DA4gfmjY0AK9-aYG3o1GtGxJHp1C_iE-l31r-Ie_th5ciToT2biIpl2mIPjqKy851Tli1BYPGBPaKL_MPAd5JzRe_tHALNtoxniyZ040Y2Z9EPO2G14NjXia009WjNn77MaOEiAs8sSRdLZjqJSWZQIz1_lcASzmHQ0PLTu37_kCK8lnUSJAXcHSK-8jFw7kmPndxWuofsl90KXZoP9w9KCXw-dBwfKqDOv1u-6OraUs6ELEmQ.jpg\" /></blockquote>",
+    "image": "https://cdn4.telesco.pe/file/ef-GCbmBzkGmszEsLRAdl-8Mk1s0VAUMQA_gGReaWPmSLBMEuixfl82Zcf-BjPXzb7h6NZNm0-lKth_evDsp9whK_luFB7-X1aP8DA4gfmjY0AK9-aYG3o1GtGxJHp1C_iE-l31r-Ie_th5ciToT2biIpl2mIPjqKy851Tli1BYPGBPaKL_MPAd5JzRe_tHALNtoxniyZ040Y2Z9EPO2G14NjXia009WjNn77MaOEiAs8sSRdLZjqJSWZQIz1_lcASzmHQ0PLTu37_kCK8lnUSJAXcHSK-8jFw7kmPndxWuofsl90KXZoP9w9KCXw-dBwfKqDOv1u-6OraUs6ELEmQ.jpg"
   },
   {
     "title": "🔧 Channel created",
