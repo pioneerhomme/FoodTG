@@ -1,31 +1,86 @@
 [
   {
-    "title": "Иран задержал танкер из ОАЭ при прохождении Ормузского пролива",
-    "link": "https://www.kommersant.ru/doc/8891613",
-    "published": "Mon, 17 Aug 2026 21:33:17 +0300",
-    "timestamp": 1786991597.0,
+    "title": "В США объяснили причину отказа Зеленского от условий России по завершению конфликта",
+    "link": "https://lenta.ru/news/2026/08/17/v-ssha-ob-yasnili-prichinu-otkaza-zelenskogo-ot-usloviy-rossii-po-zaversheniyu-konflikta/",
+    "published": "Mon, 17 Aug 2026 23:22:23 +0300",
+    "timestamp": 1786998143.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png"
+  },
+  {
+    "title": "СМИ: юристы конгресса США столкнулись с ошибочными законопроектами от ИИ",
+    "link": "https://ria.ru/20260817/usa-2111458944.html",
+    "published": "Mon, 17 Aug 2026 23:19:57 +0300",
+    "timestamp": 1786997997.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "ТАСС: Фидан обсудил с Арагчи открытие Ормузского пролива",
+    "link": "https://www.kommersant.ru/doc/8891639",
+    "published": "Mon, 17 Aug 2026 23:17:31 +0300",
+    "timestamp": 1786997851.0,
     "source": "Коммерсантъ",
     "language": "ru",
-    "description": "Иран задержал принадлежащий Объединенным Арабским Эмиратам (ОАЭ) танкер в районе острова Кешм в Ормузском проливе. Об этом сообщает иранское агентство Fars.",
-    "summary": "Иран задержал принадлежащий Объединенным Арабским Эмиратам (ОАЭ) танкер в районе острова Кешм в Ормузском проливе. Об этом сообщает иранское агентство Fars.",
+    "description": "Глава МИД Турции Хакан Фидан обсудил во время телефонного звонка с иранским коллегой Аббасом Арагчи переговоры по открытию Ормузского пролива. Об этом сообщает ТАСС со ссылкой на источник в турецком МИДе.",
+    "summary": "Глава МИД Турции Хакан Фидан обсудил во время телефонного звонка с иранским коллегой Аббасом Арагчи переговоры по открытию Ормузского пролива. Об этом сообщает ТАСС со ссылкой на источник в турецком МИДе.",
     "image": ""
   },
   {
-    "title": "Цена на нефть Brent поднялась выше $91 за баррель впервые с конца июля",
-    "link": "https://www.rbc.ru/quote/17/08/2026/6a834f669a79471015767e21",
-    "published": "Mon, 17 Aug 2026 21:32:52 +0300",
-    "timestamp": 1786991572.0,
-    "source": "РБК",
+    "title": "Кушнер назвал условия для сделки США и Ирана",
+    "link": "https://tass.ru/mezhdunarodnaya-panorama/28020189",
+    "published": "Mon, 17 Aug 2026 23:16:12 +0300",
+    "timestamp": 1786997772.0,
+    "source": "ТАСС",
     "language": "ru",
-    "description": "Стоимость октябрьского фьючерса на Brent на максимуме достигла $91,21 за баррель. Цена этой марки нефти не поднималась выше такого уровня с 31 июля",
-    "summary": "Стоимость октябрьского фьючерса на Brent на максимуме достигла $91,21 за баррель. Цена этой марки нефти не поднималась выше такого уровня с 31 июля",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/0/27/347869908716270.jpeg"
+    "description": "Зять президента США отметил, что Дональд Трамп согласится на договор, если Тегеран откажется от ядерной программы",
+    "summary": "Зять президента США отметил, что Дональд Трамп согласится на договор, если Тегеран откажется от ядерной программы",
+    "image": ""
   },
   {
-    "title": "Трамп назвал идею объявить Ормузский пролив территорией США отличной",
-    "link": "https://ria.ru/20260817/tramp-2111450490.html",
-    "published": "Mon, 17 Aug 2026 21:32:49 +0300",
-    "timestamp": 1786991569.0,
+    "title": "Axios: США хотят, чтобы Израиль проверил готовность ХАМАС к разоружению в Газе",
+    "link": "https://tass.ru/mezhdunarodnaya-panorama/28020185",
+    "published": "Mon, 17 Aug 2026 23:14:14 +0300",
+    "timestamp": 1786997654.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Зять американского президента Джаред Кушнер высказал соответствующее предложение Вашингтона на консультациях с израильским премьер-министром Биньямином Нетаньяху",
+    "summary": "Зять американского президента Джаред Кушнер высказал соответствующее предложение Вашингтона на консультациях с израильским премьер-министром Биньямином Нетаньяху",
+    "image": ""
+  },
+  {
+    "title": "Заслуженного тренера РФ по футболу Тарханова внесли в базу \"Миротворца\"",
+    "link": "https://tass.ru/sport/28020187",
+    "published": "Mon, 17 Aug 2026 23:13:10 +0300",
+    "timestamp": 1786997590.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Ему вменяется покушение на суверенитет и территориальную целостность Украины, а также поддержка в проведении специальной военной операции",
+    "summary": "Ему вменяется покушение на суверенитет и территориальную целостность Украины, а также поддержка в проведении специальной военной операции",
+    "image": ""
+  },
+  {
+    "title": "На Эльбрусе начались поиски восьми пропавших альпинистов",
+    "link": "https://www.rbc.ru/rbcfreenews/6a670c469a7947c4c78db551",
+    "published": "Mon, 17 Aug 2026 23:13:08 +0300",
+    "timestamp": 1786997588.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Группа альпинистов пропала при восхождении на Эльбрус, организованы поисково-спасательные работы.",
+    "summary": "Группа альпинистов пропала при восхождении на Эльбрус, организованы поисково-спасательные работы.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/6/20/347869970417206.jpeg"
+  },
+  {
+    "title": "Стубб рассказал, какие страны могут сыграть роль в диалоге России и Европы",
+    "link": "https://ria.ru/20260817/stubb-2111458707.html",
+    "published": "Mon, 17 Aug 2026 23:11:38 +0300",
+    "timestamp": 1786997498.0,
     "source": "РИА Новости",
     "language": "ru",
     "description": "",
@@ -33,26 +88,290 @@
     "image": ""
   },
   {
-    "title": "FT узнала о планах совладельцев «Челси» продать свои доли в клубе",
-    "link": "https://www.rbc.ru/sport/11/07/2026/6a48fffd9a79470bd5103622",
-    "published": "Mon, 17 Aug 2026 21:32:10 +0300",
-    "timestamp": 1786991530.0,
-    "source": "РБК",
+    "title": "Кличко заявил о подготовке к сложной зиме в Киеве",
+    "link": "https://tass.ru/ekonomika/28020183",
+    "published": "Mon, 17 Aug 2026 23:11:24 +0300",
+    "timestamp": 1786997484.0,
+    "source": "ТАСС",
     "language": "ru",
-    "description": "Тодд Боэли и Марк Уолтер хотят продать свои доли мажоритарному акционеру клуба. Уолтер ранее продал клуб НБА «Лос-Анджелес Лейкерс». Если сделка состоится, стоимость клуба будет оценена более чем в £5 млрд",
-    "summary": "Тодд Боэли и Марк Уолтер хотят продать свои доли мажоритарному акционеру клуба. Уолтер ранее продал клуб НБА «Лос-Анджелес Лейкерс». Если сделка состоится, стоимость клуба будет оценена более чем в £5 млрд",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/4/20/347869898249204.jpeg"
+    "description": "Из запланированного объема работ пока выполнили около 50%, сообщил мэр города",
+    "summary": "Из запланированного объема работ пока выполнили около 50%, сообщил мэр города",
+    "image": ""
   },
   {
-    "title": "В Калининграде трехлетний ребенок выпал из окна пятого этажа",
-    "link": "https://ria.ru/20260817/kaliningrad-2111450339.html",
-    "published": "Mon, 17 Aug 2026 21:31:45 +0300",
-    "timestamp": 1786991505.0,
+    "title": "Митрополит Нектарий ожидает восстановления общения православных Греции и России",
+    "link": "https://tass.ru/obschestvo/28020181",
+    "published": "Mon, 17 Aug 2026 23:10:31 +0300",
+    "timestamp": 1786997431.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Митрополит Элладской православной церкви выразил сожаление по поводу отсутствия возможности общения между православными греками и русскими",
+    "summary": "Митрополит Элладской православной церкви выразил сожаление по поводу отсутствия возможности общения между православными греками и русскими",
+    "image": ""
+  },
+  {
+    "title": "Беспилотник ВСУ атаковал Курск",
+    "link": "https://lenta.ru/news/2026/08/17/bespilotnik-vsu-atakoval-kursk/",
+    "published": "Mon, 17 Aug 2026 23:10:00 +0300",
+    "timestamp": 1786997400.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/17/23/20260817231103978/pic_1c0863eb483be71f4d34d8b10e981d5b.jpg"
+  },
+  {
+    "title": "Критиковавший Инфантино главный операционный директор ФИФА покинул пост",
+    "link": "https://www.rbc.ru/sport/13/08/2026/6a7da5b59a79472d2cf69a21",
+    "published": "Mon, 17 Aug 2026 23:09:54 +0300",
+    "timestamp": 1786997394.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Кевин Ламур покинул свой пост после того, как 31 июля публично раскритиковал президента Джанни Инфантино за план по продаже прав на чемпионат мира. В июле свой пост покинул старший советник Инфантино Карлос Кордейро",
+    "summary": "Кевин Ламур покинул свой пост после того, как 31 июля публично раскритиковал президента Джанни Инфантино за план по продаже прав на чемпионат мира. В июле свой пост покинул старший советник Инфантино Карлос Кордейро",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/0/76/347869964020760.jpeg"
+  },
+  {
+    "title": "Номера телефонов трех европейских политиков оказались в интернете",
+    "link": "https://lenta.ru/news/2026/08/17/nomera-telefonov-treh-britanskih-ministrov-okazalis-v-internete/",
+    "published": "Mon, 17 Aug 2026 23:07:00 +0300",
+    "timestamp": 1786997220.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/17/23/20260817231020602/pic_1f82e122193fe971c1fa8640f51ffc8f.jpg"
+  },
+  {
+    "title": "Преподаватели вузов объяснили снижение спроса у студентов на ординатуру",
+    "link": "https://www.rbc.ru/rbcfreenews/6a3a99d39a7947655f657dd3",
+    "published": "Mon, 17 Aug 2026 23:05:06 +0300",
+    "timestamp": 1786997106.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Недобор студентов медицинских вузов в ординатуру является &laquo;временным сбоем&raquo;, поскольку выпускники не до конца понимают, как будет работать новый алгоритм зачисления.",
+    "summary": "Недобор студентов медицинских вузов в ординатуру является &laquo;временным сбоем&raquo;, поскольку выпускники не до конца понимают, как будет работать новый алгоритм зачисления.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/9/65/347869957972659.jpeg"
+  },
+  {
+    "title": "Стубб не смог ответить на вопрос о сроках восстановления диалога с Россией",
+    "link": "https://ria.ru/20260817/stubb-2111458516.html",
+    "published": "Mon, 17 Aug 2026 23:04:51 +0300",
+    "timestamp": 1786997091.0,
     "source": "РИА Новости",
     "language": "ru",
     "description": "",
     "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/151201/60/1512016059_0:160:3072:1888_650x0_80_0_0_7bce031dfb376c977c49baf496de2b7c.jpg"
+    "image": ""
+  },
+  {
+    "title": "Боэли и Уолтер ведут переговоры о продаже своих долей в \"Челси\", пишут СМИ",
+    "link": "https://ria.ru/20260817/chelsi-2111458369.html",
+    "published": "Mon, 17 Aug 2026 23:01:21 +0300",
+    "timestamp": 1786996881.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "В МЧС рассказали о пропавших на Эльбрусе альпинистах",
+    "link": "https://ria.ru/20260817/elbrus-2111458212.html",
+    "published": "Mon, 17 Aug 2026 23:01:15 +0300",
+    "timestamp": 1786996875.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/75510/27/755102745_0:171:1824:1197_650x0_80_0_0_9540671036198e3d6cd43a09b49444cd.jpg"
+  },
+  {
+    "title": "На Украине назвали вероятную причину крушения Су-24М ВСУ",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/17/1221814-veroyatnuyu-prichinu-krusheniya",
+    "published": "Mon, 17 Aug 2026 22:59:46 +0300",
+    "timestamp": 1786996786.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdn.vdmsti.ru/image/2026/6d/1d7sqg/normal-1rs9.png"
+  },
+  {
+    "title": "Немецкий журналист посетил Москву и обратился к Европе с заявлением",
+    "link": "https://lenta.ru/news/2026/08/17/nemetskiy-zhurnalist-posetil-moskvu-i-obratilsya-k-evrope-s-zayavleniem/",
+    "published": "Mon, 17 Aug 2026 22:57:00 +0300",
+    "timestamp": 1786996620.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/17/22/20260817225812731/pic_0102e8ec0b6187e1cfe1cd08ae2b9406.jpg"
+  },
+  {
+    "title": "Трамп высказался о продлении меморандума о взаимопонимании с Ираном",
+    "link": "https://lenta.ru/news/2026/08/17/tramp-vyskazalsya-o-prodlenii-memoranduma-o-vzaimoponimanii-s-iranom/",
+    "published": "Mon, 17 Aug 2026 22:55:17 +0300",
+    "timestamp": 1786996517.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/17/22/20260817225514225/pic_3dae48a0349d69763346a328cbd052f3.jpg"
+  },
+  {
+    "title": "Бывший музыкант группы Стаса Намина «Цветы» Владислав Петровский погиб в ДТП",
+    "link": "https://www.kommersant.ru/doc/8891636",
+    "published": "Mon, 17 Aug 2026 22:53:41 +0300",
+    "timestamp": 1786996421.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Бывший клавишник группы Стаса Намина «Цветы» Владислав Петровский погиб в возрасте 74 лет. Об этом сообщила ТАСС вдова музыканта.",
+    "summary": "Бывший клавишник группы Стаса Намина «Цветы» Владислав Петровский погиб в возрасте 74 лет. Об этом сообщила ТАСС вдова музыканта.",
+    "image": ""
+  },
+  {
+    "title": "Россиянин Ильясов выиграл золото на первенстве мира среди борцов до 20 лет",
+    "link": "https://www.kommersant.ru/doc/8891638",
+    "published": "Mon, 17 Aug 2026 22:51:33 +0300",
+    "timestamp": 1786996293.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Российский борец греко-римского стиля Али Ильясов завоевал золотую медаль на первенстве мира среди спортсменов до 20 лет. В финальном поединке в весовой категории до 130 кг он победил венгра Коппани Ласло.",
+    "summary": "Российский борец греко-римского стиля Али Ильясов завоевал золотую медаль на первенстве мира среди спортсменов до 20 лет. В финальном поединке в весовой категории до 130 кг он победил венгра Коппани Ласло.",
+    "image": ""
+  },
+  {
+    "title": "Кушнер «без прорыва» обсудил с Нетаньяху судьбу плана Трампа по Газе",
+    "link": "https://www.rbc.ru/politics/31/07/2026/6a6cca2e9a794765a28a99cc",
+    "published": "Mon, 17 Aug 2026 22:46:44 +0300",
+    "timestamp": 1786996004.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Зять президента США Дональда Трампа и его посланник Джаред Кушнер встретился в Иерусалиме с премьер-министром Израиля Биньямином Нетаньяху для обсуждения реализации американского плана по Газе, сообщает Reuters со ссылкой на израильского чиновника.",
+    "summary": "Зять президента США Дональда Трампа и его посланник Джаред Кушнер встретился в Иерусалиме с премьер-министром Израиля Биньямином Нетаньяху для обсуждения реализации американского плана по Газе, сообщает Reuters со ссылкой на израильского чиновника.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/2/37/347869968025372.jpeg"
+  },
+  {
+    "title": "Skai: украинский БПЛА ударил по греческому танкеру в Черном море вблизи КТК",
+    "link": "https://www.kommersant.ru/doc/8891635",
+    "published": "Mon, 17 Aug 2026 22:46:13 +0300",
+    "timestamp": 1786995973.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Беспилотник ударил по греческому танкеру Skiros в Черном море после погрузки нефти на терминале Каспийского трубопроводного консорциума (КТК) под Новороссийском. На судне начался пожар.",
+    "summary": "Беспилотник ударил по греческому танкеру Skiros в Черном море после погрузки нефти на терминале Каспийского трубопроводного консорциума (КТК) под Новороссийском. На судне начался пожар.",
+    "image": ""
+  },
+  {
+    "title": "На Эльбрусе пропали восемь альпинистов",
+    "link": "https://www.kommersant.ru/doc/8891633",
+    "published": "Mon, 17 Aug 2026 22:38:11 +0300",
+    "timestamp": 1786995491.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Группа из восьми альпинистов перестала выходить на связь во время восхождения на гору Эльбрус в Кабардино-Балкарии. На место выдвинулись спасатели.",
+    "summary": "Группа из восьми альпинистов перестала выходить на связь во время восхождения на гору Эльбрус в Кабардино-Балкарии. На место выдвинулись спасатели.",
+    "image": ""
+  },
+  {
+    "title": "Германия пообещала продолжать поддерживать Украину и после угроз Лаврова",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/17/1221810-germaniya-poobeschala",
+    "published": "Mon, 17 Aug 2026 22:34:27 +0300",
+    "timestamp": 1786995267.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdn.vdmsti.ru/image/2026/6d/1c9llo/normal-1qjx.png"
+  },
+  {
+    "title": "«Автостат» сообщил о росте спроса на электрокары из-за проблем с бензином",
+    "link": "https://www.rbc.ru/rbcfreenews/6a5aaab29a79472f86d69d55",
+    "published": "Mon, 17 Aug 2026 22:31:53 +0300",
+    "timestamp": 1786995113.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Доля электромобилей в продажах новых легковых машин в России по итогам недели 10&ndash;16 августа впервые превысила 2%, спрос на электрокары растет на фоне проблем с топливом.",
+    "summary": "Доля электромобилей в продажах новых легковых машин в России по итогам недели 10&ndash;16 августа впервые превысила 2%, спрос на электрокары растет на фоне проблем с топливом.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/6/63/347869943339636.jpeg"
+  },
+  {
+    "title": "🎬 Девять человек, среди них несовершеннолетний, пропали в горах Эльбруса — на их ...",
+    "link": "https://t.me/bazabazon/48350",
+    "published": "Mon, 17 Aug 2026 19:20:38 GMT",
+    "timestamp": 1786994438.0,
+    "source": "TG: Baza",
+    "language": "ru",
+    "description": "<p>Девять человек, среди них несовершеннолетний, пропали в горах Эльбруса — на их поиски выдвинулись спасатели.<br /><br />По данным «Базы», группа альпинистов отправилась на штурм 15 августа около 22:00. Последний раз они выходили на связь ранним утром 16 августа, около 4:00, в районе Косой полки. К группе также присоединилась девушка из Москвы.<br /><br />UPD: По данным «Базы», группа не была зарегистрирована. <br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/vkY8RF5YjV_FLDJyt1EdO9O1K1fIr3aPiBiBmmIrhEdOAN4m-qjJXHy7B2AGilpmkR8UlEVl0RtDHmA04M4s3eUlGgwWVOrWNsO6ivu7Yl3lwgFEangjljfaIUjusu-TAThRdsk-sZZp_Kjb2xwFyKGSR1yOleM9vJic7FuAJtwuLc3dW1EJcjkcL6FFILZUZmD4x3oBwuYOHTs-BENMBR30AGpO_5vKasUDzQZnYGFU7ouC_XvlYq8xWR9ptpufFMgzacFvtM3-XdVJOlErbqYzjVlJfZRGg6cqnZKvGXKdNx6La7UfAEr7EMHf6ntYKzJ3qfE-adhahkwBJrs40A\" src=\"https://cdn4.telesco.pe/file/2770795e81.mp4?token=kNB_M2vOJLCZq9LZ2sD-Krj1RJKPqXdX29qyu4wwiAC6nqoDDIygY5ep9GdYj5HecJ_1_64phm0RsruFV3o5N59bildanQVjhcmWF0ootkM2ahodewYaUJbuBqSUYtuagLjhY46gtU0ys7FoA_sK-jcldxegp9fPlDAnPOTHjPW3vziPJU_KzYS_Dir5IQleoFLj7Dk-erG9l0Jua1prWtMgbW9jV2414JIK_RVpOuqydW5wc7fLrYnRsmeOYA0p71-Ck-iyGuCWEaic9KM0kUTIvXfTZf_KsTxcfESAl4m7tduOIHTCGKaLdQu6sFdi4mOnuXCtZkGcUblj2xOzAw\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Девять человек, среди них несовершеннолетний, пропали в горах Эльбруса — на их поиски выдвинулись спасатели.<br /><br />По данным «Базы», группа альпинистов отправилась на штурм 15 августа около 22:00. Последний раз они выходили на связь ранним утром 16 августа, около 4:00, в районе Косой полки. К группе также присоединилась девушка из Москвы.<br /><br />UPD: По данным «Базы», группа не была зарегистрирована. <br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/vkY8RF5YjV_FLDJyt1EdO9O1K1fIr3aPiBiBmmIrhEdOAN4m-qjJXHy7B2AGilpmkR8UlEVl0RtDHmA04M4s3eUlGgwWVOrWNsO6ivu7Yl3lwgFEangjljfaIUjusu-TAThRdsk-sZZp_Kjb2xwFyKGSR1yOleM9vJic7FuAJtwuLc3dW1EJcjkcL6FFILZUZmD4x3oBwuYOHTs-BENMBR30AGpO_5vKasUDzQZnYGFU7ouC_XvlYq8xWR9ptpufFMgzacFvtM3-XdVJOlErbqYzjVlJfZRGg6cqnZKvGXKdNx6La7UfAEr7EMHf6ntYKzJ3qfE-adhahkwBJrs40A\" src=\"https://cdn4.telesco.pe/file/2770795e81.mp4?token=kNB_M2vOJLCZq9LZ2sD-Krj1RJKPqXdX29qyu4wwiAC6nqoDDIygY5ep9GdYj5HecJ_1_64phm0RsruFV3o5N59bildanQVjhcmWF0ootkM2ahodewYaUJbuBqSUYtuagLjhY46gtU0ys7FoA_sK-jcldxegp9fPlDAnPOTHjPW3vziPJU_KzYS_Dir5IQleoFLj7Dk-erG9l0Jua1prWtMgbW9jV2414JIK_RVpOuqydW5wc7fLrYnRsmeOYA0p71-Ck-iyGuCWEaic9KM0kUTIvXfTZf_KsTxcfESAl4m7tduOIHTCGKaLdQu6sFdi4mOnuXCtZkGcUblj2xOzAw\" style=\"width: 100%;\"></video>",
+    "image": ""
+  },
+  {
+    "title": "🖼 9 туристов из Севастополя пропали на Эльбрусе. Среди них есть ребёнок.",
+    "link": "https://t.me/mash/77036",
+    "published": "Mon, 17 Aug 2026 19:18:40 GMT",
+    "timestamp": 1786994320.0,
+    "source": "TG: Mash",
+    "language": "ru",
+    "description": "<p>9 туристов из Севастополя пропали на Эльбрусе. Среди них есть ребёнок.<br /><br />По данным Mash, группа во главе Василия Ржанова вышла на маршрут два дня назад. Последняя связь с ними была сегодня в четыре утра, когда они были на Косой полке. С взрослыми шёл 14-летний подросток.<br /><br />Группа двигалась самостоятельно, нигде не регистрировалась. Предварительно, у них сели батарейки на всех рациях, из-за этого не могут выйти на связь. Спасатели начали поиск.<br /><br /><span class=\"emoji\">❗</span>&nbsp;<a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img height=\"534\" src=\"https://cdn4.telesco.pe/file/N3rsjFl89dY3yZqSI9HMMQBNxaOY8VVCxYU5RqR32XBf8PbbdxTFNoGhmwi4wC0-Kf9uIHXzbKN-vXl_6R9A6C4u6nf4G4ep2D09Kr10MgE0BK-7NvKoj19vexOKLPYct0K84sEwYUKE8bmOEr0yOP29MPy9_mrUOnJGo79zUAYYFipAi_c4RqEnjJ2qcczFFVaYlO7N2ebUAqCBnRXA9txIcRncDV1IsKciJuiNtiQkO2etiqfjrnouRBlG4vhxbn1b8rZACnjb_0t6srDirr0cBHyouwUot4SpXpzxIkUODT8iylA0FyJf5HI1eEmvQ6f4cvT1uaqm1LGvltTCkw.jpg\" width=\"800\" />",
+    "summary": "<p>9 туристов из Севастополя пропали на Эльбрусе. Среди них есть ребёнок.<br /><br />По данным Mash, группа во главе Василия Ржанова вышла на маршрут два дня назад. Последняя связь с ними была сегодня в четыре утра, когда они были на Косой полке. С взрослыми шёл 14-летний подросток.<br /><br />Группа двигалась самостоятельно, нигде не регистрировалась. Предварительно, у них сели батарейки на всех рациях, из-за этого не могут выйти на связь. Спасатели начали поиск.<br /><br /><span class=\"emoji\">❗</span>&nbsp;<a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img height=\"534\" src=\"https://cdn4.telesco.pe/file/N3rsjFl89dY3yZqSI9HMMQBNxaOY8VVCxYU5RqR32XBf8PbbdxTFNoGhmwi4wC0-Kf9uIHXzbKN-vXl_6R9A6C4u6nf4G4ep2D09Kr10MgE0BK-7NvKoj19vexOKLPYct0K84sEwYUKE8bmOEr0yOP29MPy9_mrUOnJGo79zUAYYFipAi_c4RqEnjJ2qcczFFVaYlO7N2ebUAqCBnRXA9txIcRncDV1IsKciJuiNtiQkO2etiqfjrnouRBlG4vhxbn1b8rZACnjb_0t6srDirr0cBHyouwUot4SpXpzxIkUODT8iylA0FyJf5HI1eEmvQ6f4cvT1uaqm1LGvltTCkw.jpg\" width=\"800\" />",
+    "image": "https://cdn4.telesco.pe/file/N3rsjFl89dY3yZqSI9HMMQBNxaOY8VVCxYU5RqR32XBf8PbbdxTFNoGhmwi4wC0-Kf9uIHXzbKN-vXl_6R9A6C4u6nf4G4ep2D09Kr10MgE0BK-7NvKoj19vexOKLPYct0K84sEwYUKE8bmOEr0yOP29MPy9_mrUOnJGo79zUAYYFipAi_c4RqEnjJ2qcczFFVaYlO7N2ebUAqCBnRXA9txIcRncDV1IsKciJuiNtiQkO2etiqfjrnouRBlG4vhxbn1b8rZACnjb_0t6srDirr0cBHyouwUot4SpXpzxIkUODT8iylA0FyJf5HI1eEmvQ6f4cvT1uaqm1LGvltTCkw.jpg"
+  },
+  {
+    "title": "Пирс Броснан вошёл в актёрский состав фильма «Тайлер Рейк: Операция по спасению 3»",
+    "link": "https://dtf.ru/cinema/5245879-pirs-brosnan-v-filme-tajler-rejk-operaciya-po-spaseniyu-3?from=rss",
+    "published": "Mon, 17 Aug 2026 22:12:18 +0300",
+    "timestamp": 1786993938.0,
+    "source": "DTF",
+    "language": "ru",
+    "description": "Съёмки боевика уже начались.\n                                                    <img alt=\"alt\" height=\"563\" src=\"https://leonardo.osnova.io/39a3ab35-f35b-541d-a912-a85c4307240f/-/resize/1300/\" width=\"1000\" />",
+    "summary": "Съёмки боевика уже начались.\n                                                    <img alt=\"alt\" height=\"563\" src=\"https://leonardo.osnova.io/39a3ab35-f35b-541d-a912-a85c4307240f/-/resize/1300/\" width=\"1000\" />",
+    "image": "https://leonardo.osnova.io/39a3ab35-f35b-541d-a912-a85c4307240f/"
+  },
+  {
+    "title": "🖼 В Зелёной Роще семейный срач закончился реанимацией.",
+    "link": "https://t.me/topor/51887",
+    "published": "Mon, 17 Aug 2026 19:04:24 GMT",
+    "timestamp": 1786993464.0,
+    "source": "TG: ТОПОР",
+    "language": "ru",
+    "description": "<p><b>В Зелёной Роще семейный срач закончился реанимацией.</b><br /><br />Несовершеннолетняя девушка схватила нож и накинулась на двух сестёр — 9 и 16 лет. После кровавой разборки она сбежала, а обеих пострадавших увезли прямо в реанимацию. Одна сейчас в тяжёлом состоянии.<br /><br />Далеко уйти не успела — силовики уже задержали. Что именно довело до ножа, пока выясняют.<br /><br />Как-то слишком рано пришло осеннее обострение.</p><img height=\"481\" src=\"https://cdn4.telesco.pe/file/YL4g2Bbc_4ATm4WtHWjQy2tk_jApx_ZY5xFKwNznEWfUThMn_jB7PRMRPTp2THPd7DvwZt7I5slVmQV2jSQYpH_ZFQyT2g9PlwUTvOD8W6UJmWu8TotnhWA4lIhTiYO6RF0PRSzLDeCZlhHQCU45mQcT6p2AO2IR3OsHyKSXVlYSydlxeHSzZzbe4ugbHCmd4CT1-xjILEJZWnOX92M-j6JkE48bHo8Z4BeLWlOxiVDjblh5PUa7m2_9v2hgLXNbGsu7UIceqMpxy1EIU17mR-G3zaTjSlVR02bAUAAMW21Q4kHcizIS0aQfZ7QD1BYP-o4IdAUhw-KrPk7o7-6CtQ.jpg\" width=\"673\" />",
+    "summary": "<p><b>В Зелёной Роще семейный срач закончился реанимацией.</b><br /><br />Несовершеннолетняя девушка схватила нож и накинулась на двух сестёр — 9 и 16 лет. После кровавой разборки она сбежала, а обеих пострадавших увезли прямо в реанимацию. Одна сейчас в тяжёлом состоянии.<br /><br />Далеко уйти не успела — силовики уже задержали. Что именно довело до ножа, пока выясняют.<br /><br />Как-то слишком рано пришло осеннее обострение.</p><img height=\"481\" src=\"https://cdn4.telesco.pe/file/YL4g2Bbc_4ATm4WtHWjQy2tk_jApx_ZY5xFKwNznEWfUThMn_jB7PRMRPTp2THPd7DvwZt7I5slVmQV2jSQYpH_ZFQyT2g9PlwUTvOD8W6UJmWu8TotnhWA4lIhTiYO6RF0PRSzLDeCZlhHQCU45mQcT6p2AO2IR3OsHyKSXVlYSydlxeHSzZzbe4ugbHCmd4CT1-xjILEJZWnOX92M-j6JkE48bHo8Z4BeLWlOxiVDjblh5PUa7m2_9v2hgLXNbGsu7UIceqMpxy1EIU17mR-G3zaTjSlVR02bAUAAMW21Q4kHcizIS0aQfZ7QD1BYP-o4IdAUhw-KrPk7o7-6CtQ.jpg\" width=\"673\" />",
+    "image": "https://cdn4.telesco.pe/file/YL4g2Bbc_4ATm4WtHWjQy2tk_jApx_ZY5xFKwNznEWfUThMn_jB7PRMRPTp2THPd7DvwZt7I5slVmQV2jSQYpH_ZFQyT2g9PlwUTvOD8W6UJmWu8TotnhWA4lIhTiYO6RF0PRSzLDeCZlhHQCU45mQcT6p2AO2IR3OsHyKSXVlYSydlxeHSzZzbe4ugbHCmd4CT1-xjILEJZWnOX92M-j6JkE48bHo8Z4BeLWlOxiVDjblh5PUa7m2_9v2hgLXNbGsu7UIceqMpxy1EIU17mR-G3zaTjSlVR02bAUAAMW21Q4kHcizIS0aQfZ7QD1BYP-o4IdAUhw-KrPk7o7-6CtQ.jpg"
+  },
+  {
+    "title": "Трамп заявил о положительном ответе КНДР на предложение о переговорах",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/17/1221802-tramp-o-polozhitelnom-otvete",
+    "published": "Mon, 17 Aug 2026 22:03:56 +0300",
+    "timestamp": 1786993436.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdn.vdmsti.ru/image/2026/6d/1b962t/normal-1p8r.png"
+  },
+  {
+    "title": "Reuters: США хотят заставить другие страны не сотрудничать с Китаем в сфере ИИ",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/17/1221781-ssha-hotyat-zastavit",
+    "published": "Mon, 17 Aug 2026 21:51:51 +0300",
+    "timestamp": 1786992711.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdn.vdmsti.ru/image/2026/6d/1apo7x/normal-1ojh.png"
+  },
+  {
+    "title": "Зак Снайдер представил тизер «Последней фотографии» — фильма о военном фотографе, помогающем агенту УБН в поиске осиротевших племянников",
+    "link": "https://dtf.ru/cinema/5245866-zak-snajder-tizer-poslednyaya-fotografiya?from=rss",
+    "published": "Mon, 17 Aug 2026 21:51:07 +0300",
+    "timestamp": 1786992667.0,
+    "source": "DTF",
+    "language": "ru",
+    "description": "Режиссёр вынашивал идею ленты с 2000-х.\n                                                    <img alt=\"alt\" height=\"720\" src=\"https://leonardo.osnova.io/2c885e66-3099-5dff-b71e-dc9a50fe9940/-/resize/1300/\" width=\"1280\" />",
+    "summary": "Режиссёр вынашивал идею ленты с 2000-х.\n                                                    <img alt=\"alt\" height=\"720\" src=\"https://leonardo.osnova.io/2c885e66-3099-5dff-b71e-dc9a50fe9940/-/resize/1300/\" width=\"1280\" />",
+    "image": "https://leonardo.osnova.io/2c885e66-3099-5dff-b71e-dc9a50fe9940/-/resize/1300/"
   },
   {
     "title": "🎬🖼 «Американские копы» из вирусного ролика оказались бывшими сотрудниками мос...",
@@ -66,204 +385,6 @@
     "image": "https://cdn4.telesco.pe/file/AbbMqqi53-iDckZo7rL1iPOZJ14AQjRAjQYCV2qm8FZNiz3myTSlGG9207XWiAbtyTebQQaEPqDtrWTysSBuEf37vDFF_Yam4LAlpmw_LBetG1IdjE_JpZWXyi19yGx9IgyhoQYTzRnmjid1Sxq965XDMCEtNBSHnOchA1SMja76AkJQov1eQombPHXL_CcTnVVfmMddyO9tI8g4XCQ1BBwcTtPtCtgqZkU2yi_Q0s1EFVcmMWExAisEtTVkZUCqs6WavgdQ1nLG9MSLZaC_43RN5z78Wm8rjoCqMYUkfEuXdI479k61s8vMxIK8tG4J8s89epFEhLvNekYpsYxpNA.jpg"
   },
   {
-    "title": "Ученый предупредил о приближении серьезной экологической катастрофы",
-    "link": "https://lenta.ru/news/2026/08/17/uchenyy-predupredil-o-priblizhenii-serieznoy-ekologicheskoy-katastrofy/",
-    "published": "Mon, 17 Aug 2026 21:31:24 +0300",
-    "timestamp": 1786991484.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/17/21/20260817213111657/pic_ad75fafb3be58b66baff8d67de423634.jpg"
-  },
-  {
-    "title": "Костромской \"Спартак\" продлил беспроигрышную серию в Первой лиге",
-    "link": "https://tass.ru/sport/28020081",
-    "published": "Mon, 17 Aug 2026 21:30:39 +0300",
-    "timestamp": 1786991439.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Амур Калмыков из \"Спартака\" упрочил лидерство в списке лучших бомбардиров Первой лиги - 9 голов",
-    "summary": "Амур Калмыков из \"Спартака\" упрочил лидерство в списке лучших бомбардиров Первой лиги - 9 голов",
-    "image": ""
-  },
-  {
-    "title": "Король Норвегии Харальд V попал в больницу",
-    "link": "https://www.kommersant.ru/doc/8891599",
-    "published": "Mon, 17 Aug 2026 21:30:38 +0300",
-    "timestamp": 1786991438.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Королевский двор Норвегии сообщил, что король страны Харальд V находится «в больничном отпуске». 89-летний норвежский король в настоящее время является старейшим действующим европейским монархом.",
-    "summary": "Королевский двор Норвегии сообщил, что король страны Харальд V находится «в больничном отпуске». 89-летний норвежский король в настоящее время является старейшим действующим европейским монархом.",
-    "image": ""
-  },
-  {
-    "title": "США до сих пор не подтвердили поездку спецпосланников Трампа в Киев",
-    "link": "https://lenta.ru/news/2026/08/17/ssha-do-sih-por-ne-podtverdili-poezdku-spetsposlannikov-trampa-v-kiev/",
-    "published": "Mon, 17 Aug 2026 21:30:21 +0300",
-    "timestamp": 1786991421.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/17/21/20260817213032466/pic_06993cf9037f9dc24a67ce4cd4bae966.jpg"
-  },
-  {
-    "title": "Цена нефти Brent превысила $91 впервые с конца июля",
-    "link": "https://www.kommersant.ru/doc/8891614",
-    "published": "Mon, 17 Aug 2026 21:29:48 +0300",
-    "timestamp": 1786991388.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Октябрьский фьючерс на нефть марки Brent подорожал на 3,04% и составил $91,21 за баррель, свидетельствуют данные торгов на бирже ICE в 20:56 мск. В последний раз Brent торговалась выше $91 за баррель 31 июля 2026 года.",
-    "summary": "Октябрьский фьючерс на нефть марки Brent подорожал на 3,04% и составил $91,21 за баррель, свидетельствуют данные торгов на бирже ICE в 20:56 мск. В последний раз Brent торговалась выше $91 за баррель 31 июля 2026 года.",
-    "image": ""
-  },
-  {
-    "title": "Россиянин Ильясов завоевал золото в греко-римской борьбе на первенстве мира",
-    "link": "https://ria.ru/20260817/ilyasov-2111450169.html",
-    "published": "Mon, 17 Aug 2026 21:29:06 +0300",
-    "timestamp": 1786991346.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/07e5/08/02/1743957950_0:169:1620:1080_650x0_80_0_0_baff8d51d03e514a3760c7605a9b34aa.jpg"
-  },
-  {
-    "title": "Немецкий журналист неожиданно высказался о России после визита в Москву",
-    "link": "https://ria.ru/20260817/germaniya-2111450007.html",
-    "published": "Mon, 17 Aug 2026 21:29:02 +0300",
-    "timestamp": 1786991342.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/154884/60/1548846090_0:22:3058:1742_650x0_80_0_0_b38196dedacb0dcf0ac0046223b34b5c.jpg"
-  },
-  {
-    "title": "Трамп не стремится к продлению меморандума о взаимопонимании с Ираном",
-    "link": "https://tass.ru/mezhdunarodnaya-panorama/28020079",
-    "published": "Mon, 17 Aug 2026 21:28:45 +0300",
-    "timestamp": 1786991325.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Пентагон начал проверку связей 30 вузов с организациями из России и КНР",
-    "link": "https://ria.ru/20260817/pentagon-2111449837.html",
-    "published": "Mon, 17 Aug 2026 21:28:39 +0300",
-    "timestamp": 1786991319.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Родри подтвердил, что перешел в испанскую \"Барселону\"",
-    "link": "https://tass.ru/sport/28020077",
-    "published": "Mon, 17 Aug 2026 21:27:33 +0300",
-    "timestamp": 1786991253.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Трамп недоволен действиями Омана",
-    "link": "https://tass.ru/mezhdunarodnaya-panorama/28020075",
-    "published": "Mon, 17 Aug 2026 21:25:17 +0300",
-    "timestamp": 1786991117.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Сальдо: борьба за безопасность трассы \"Новороссия\" ведется круглые сутки",
-    "link": "https://tass.ru/armiya-i-opk/28020073",
-    "published": "Mon, 17 Aug 2026 21:24:00 +0300",
-    "timestamp": 1786991040.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Глава региона подчеркнул, что ВСУ постоянно увеличивают количество БПЛА",
-    "summary": "Глава региона подчеркнул, что ВСУ постоянно увеличивают количество БПЛА",
-    "image": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20260218/8824347.jpg"
-  },
-  {
-    "title": "В работе сервисов Microsoft произошел массовый сбой",
-    "link": "https://www.rbc.ru/technology_and_media/17/08/2026/6a834cd79a7947b56e64a180",
-    "published": "Mon, 17 Aug 2026 21:21:41 +0300",
-    "timestamp": 1786990901.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Пользователи GitHub, Microsoft Copilot и Microsoft Teams&nbsp;по всему миру столкнулись с масштабным сбоем в работе сервисов.",
-    "summary": "Пользователи GitHub, Microsoft Copilot и Microsoft Teams&nbsp;по всему миру столкнулись с масштабным сбоем в работе сервисов.",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/3/37/347869905449373.jpeg"
-  },
-  {
-    "title": "Апелляционная коллегия ВС подтвердила решение о снятии партии «Яблоко» с выборов",
-    "link": "https://www.kommersant.ru/doc/8891611",
-    "published": "Mon, 17 Aug 2026 21:21:16 +0300",
-    "timestamp": 1786990876.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Заседание проходило при усиленных мерах безопасности: подход к зданию ВС был перекрыт, а напротив дежурили автозаки. По словам председателя «Яблока» Николая Рыбакова, как минимум 35 человек были задержаны на подходе к суду, в том числе кандидат в Госдуму от «Яблока», актер Виктор Балабанов, которого пригласили в качестве свидетеля.",
-    "summary": "Заседание проходило при усиленных мерах безопасности: подход к зданию ВС был перекрыт, а напротив дежурили автозаки. По словам председателя «Яблока» Николая Рыбакова, как минимум 35 человек были задержаны на подходе к суду, в том числе кандидат в Госдуму от «Яблока», актер Виктор Балабанов, которого пригласили в качестве свидетеля.",
-    "image": ""
-  },
-  {
-    "title": "Бублик объяснил, почему важно «страшно ныть» во время матчей",
-    "link": "https://www.rbc.ru/sport/24/07/2026/6a6371719a79475f6f4495b7",
-    "published": "Mon, 17 Aug 2026 21:20:30 +0300",
-    "timestamp": 1786990830.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Бублик заявил, что проявление эмоций на корте помогает добиваться побед",
-    "summary": "Бублик заявил, что проявление эмоций на корте помогает добиваться побед",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/1/47/347869903412471.jpeg"
-  },
-  {
-    "title": "МИД ФРГ принял к сведению слова Лаврова о жестком ответе союзникам Украины",
-    "link": "https://www.kommersant.ru/doc/8891608",
-    "published": "Mon, 17 Aug 2026 21:20:30 +0300",
-    "timestamp": 1786990830.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Министерство иностранных дел Германии отреагировало на заявление главы российского МИДа Сергея Лаврова об ужесточении мер Москвы против военных союзников Киева. В ведомстве приняли эти слова к сведению.",
-    "summary": "Министерство иностранных дел Германии отреагировало на заявление главы российского МИДа Сергея Лаврова об ужесточении мер Москвы против военных союзников Киева. В ведомстве приняли эти слова к сведению.",
-    "image": ""
-  },
-  {
-    "title": "Подросток на питбайке насмерть сбил экс-музыканта группы «Цветы»",
-    "link": "https://lenta.ru/news/2026/08/17/podrostok-na-pitbayke-nasmert-sbil-eks-muzykanta-gruppy-tsvety/",
-    "published": "Mon, 17 Aug 2026 21:18:53 +0300",
-    "timestamp": 1786990733.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/17/21/20260817211816512/pic_2e385de668fa37ed33b0bfed6052b050.jpg"
-  },
-  {
-    "title": "Названы даты визита Си Цзиньпина в США",
-    "link": "https://lenta.ru/news/2026/08/17/nazvany-daty-vizita-si-tszinpina-v-ssha/",
-    "published": "Mon, 17 Aug 2026 21:18:00 +0300",
-    "timestamp": 1786990680.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/17/21/20260817211823278/pic_937b4b0a94a8b4c67212af098b59e047.jpg"
-  },
-  {
     "title": "Cursor запустил Origin: конкурента GitHub для AI-агентов",
     "link": "https://habr.com/ru/news/1071418/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1071418",
     "published": "Mon, 17 Aug 2026 18:17:31 GMT",
@@ -275,26 +396,15 @@
     "image": ""
   },
   {
-    "title": "Неформалы в 2020-х: почему субкультуры снова привлекают подростков",
-    "link": "https://www.rbc.ru/radio/17/08/2026/6a834f709a7947643e9d00cb",
-    "published": "Mon, 17 Aug 2026 21:16:34 +0300",
-    "timestamp": 1786990594.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Почему подростки выбирают эстетику субкультур, какую роль в этом играют соцсети и маркетплейсы и когда родителям стоит тревожиться — в программе «Медиатренды» на Радио РБК",
-    "summary": "Почему подростки выбирают эстетику субкультур, какую роль в этом играют соцсети и маркетплейсы и когда родителям стоит тревожиться — в программе «Медиатренды» на Радио РБК",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/3/85/347869905441853.png"
-  },
-  {
-    "title": "Москвичей ожидает самый теплый день",
-    "link": "https://lenta.ru/news/2026/08/17/moskvichey-ozhidaet-samyy-teplyy-den/",
-    "published": "Mon, 17 Aug 2026 21:16:00 +0300",
-    "timestamp": 1786990560.0,
-    "source": "Лента.ру",
+    "title": "В федерации ХГ раскритиковали протест на оценку спортсменки Ильтеряковой",
+    "link": "https://www.vedomosti.ru/lifestyle/news/2026/08/17/1221777-raskritikovali-protest",
+    "published": "Mon, 17 Aug 2026 21:15:10 +0300",
+    "timestamp": 1786990510.0,
+    "source": "Ведомости",
     "language": "ru",
     "description": "",
     "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/17/19/20260817193836157/pic_b6bb604691dac11ba7c1b51547e136d7.jpg"
+    "image": "https://cdn.vdmsti.ru/image/2026/6d/19gor0/normal-1mx7.png"
   },
   {
     "title": "На Ставрополье готовят врачей будущего.",
@@ -319,17 +429,6 @@
     "image": "https://cdn4.telesco.pe/file/m1oZIKCsoBFVUAgjlWuau2ZKtWZ9ddUMWW96vd4266a8VBGyEAruJATH-jas74VAMCnAG2plTCbVUmLh1ElQOceRzzT8YAHzbyq9q7UVu_XUqHYOWN_eoh68wpudfXKwJv04FxNwvuWXaFfjf_0VkwHXNFuDSPUUkv40m8LImZd9JzfOa5q9FZiRT8_RzwiRUss8jpK1RGJmg4FQ7XlaissCoIai71fUqKVTzje2JqX5GlDvsY_nktHUiRy9NqXsyKFV4EmxPZwOVxmqYoSKe_EmYxuI9c3jcRFNz_nU0k338wDlynF_6mpzAHdZm5tgydQBMEvjwhsk_4gc1N7NVQ.jpg"
   },
   {
-    "title": "В Черном море был атакован греческий нефтяной танкер",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/17/1221776-grecheskii-neftyanoi-tanker",
-    "published": "Mon, 17 Aug 2026 20:46:34 +0300",
-    "timestamp": 1786988794.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdn.vdmsti.ru/image/2026/6d/18dvac/normal-1liw.png"
-  },
-  {
     "title": "🎬 Москвич вышел с палками к алкашам, которые постоянно орали под окнами.",
     "link": "https://t.me/topor/51886",
     "published": "Mon, 17 Aug 2026 17:44:01 GMT",
@@ -352,17 +451,6 @@
     "image": ""
   },
   {
-    "title": "Google зарегистрировала в России три товарных знака",
-    "link": "https://www.vedomosti.ru/technology/news/2026/08/17/1221774-google-zaregistrirovala",
-    "published": "Mon, 17 Aug 2026 20:20:47 +0300",
-    "timestamp": 1786987247.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdn.vdmsti.ru/image/2026/6d/17cmyx/normal-1k6n.png"
-  },
-  {
     "title": "🖼 Фулла не будет.",
     "link": "https://t.me/topor/51885",
     "published": "Mon, 17 Aug 2026 17:18:30 GMT",
@@ -374,28 +462,6 @@
     "image": "https://cdn4.telesco.pe/file/D5HX9-lsg1pekACpGuwTB0fu2qVAMhE6Kdy7xkpamlraOe79e789OLEbVKt8h2RKjdPTC0MGlAwaxdrmtu4pzne8_UHWY46BslHlIEBtUy3RiGOaeRVTHMB5Bo0y2JOAibtIbXDacubEJsoQa6W_UTHRFRQl1LEQGD-hHKtqdaZXF6Mclp3iOBP8jR9LemxayofYB7ggXYg-hXfF01-48NYTrBAHJkwRqmKtUqrcDLEGCp1jA7Ixi2lvUcEw4ix6FHdCmB4-7BZU2xZ-JKJp15KYKYlDWPT7obTnB5CWYtWIRcXMImjqSIyNaVfBaNP5eW-97wlP_VCboz5Q5M7U5g.jpg"
   },
   {
-    "title": "В Молдавии произошел пожар из-за падения беспилотника",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/17/1221775-v-proizoshel-pozhar",
-    "published": "Mon, 17 Aug 2026 20:14:42 +0300",
-    "timestamp": 1786986882.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdn.vdmsti.ru/image/2026/6d/179mnj/normal-1k2o.png"
-  },
-  {
-    "title": "Азербайджан объявил в международный розыск троих россиян",
-    "link": "https://www.vedomosti.ru/society/news/2026/08/17/1221773-azerbaidzhan-obyavil",
-    "published": "Mon, 17 Aug 2026 20:11:25 +0300",
-    "timestamp": 1786986685.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdn.vdmsti.ru/image/2026/6d/16r4hk/normal-1jeq.png"
-  },
-  {
     "title": "Британские роботы выходят из теплицы в бизнес: они сами ищут и собирают урожай",
     "link": "https://habr.com/ru/news/1071368/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1071368",
     "published": "Mon, 17 Aug 2026 17:10:18 GMT",
@@ -405,28 +471,6 @@
     "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/449/462/078/449462078980532ab4f5e8683ab72eb4.jpg\" /><p>Стартап Versatile RobotX, выросший из Университета Эссекса, получил более £1 млн на коммерциализацию сельскохозяйственных роботов. Но тут интереснее не очередной инвестиционный раунд, а то, что машины уже прошли полевые испытания у реальных британских производителей, включая Wilkin &amp; Sons и JEPCO. Об этом пишет <a href=\"https://www.eu-startups.com/2026/08/university-of-essex-spin-out-versatile-robotx-bags-over-e1-17-million-to-commercialise-its-agricultural-robots/\" rel=\"noopener noreferrer nofollow\">EU-Startups</a>.</p><p>У команды две основные платформы. Одна автономно перемещается по полю и собирает фрукты и овощи, другая предназначена для урожая в гидропонных хозяйствах. Задача, казалось бы, простая — увидел плод, схватил, положил. На практике это один из самых неприятных классов задач для робота: плоды разного размера, листья всё перекрывают, растения двигаются, а давить клубнику промышленным манипулятором всё-таки нежелательно.</p><p>Теперь деньги идут уже не на красивый лабораторный прототип, а на доведение платформ до коммерческой эксплуатации и увеличение производства. Я бы за такими роботами следил внимательнее, чем за половиной гуманоидов с выставок. У них нет человеческих ног и эффектного лица, зато есть понятная работа, дефицит работников и экономика, которую можно посчитать. Именно такие узкоспециализированные машины вполне могут прийти в реальный мир гораздо раньше универсального домашнего робота.</p> <a href=\"https://habr.com/ru/articles/1071368/#habracut\">Читать далее</a>",
     "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/449/462/078/449462078980532ab4f5e8683ab72eb4.jpg\" /><p>Стартап Versatile RobotX, выросший из Университета Эссекса, получил более £1 млн на коммерциализацию сельскохозяйственных роботов. Но тут интереснее не очередной инвестиционный раунд, а то, что машины уже прошли полевые испытания у реальных британских производителей, включая Wilkin &amp; Sons и JEPCO. Об этом пишет <a href=\"https://www.eu-startups.com/2026/08/university-of-essex-spin-out-versatile-robotx-bags-over-e1-17-million-to-commercialise-its-agricultural-robots/\" rel=\"noopener noreferrer nofollow\">EU-Startups</a>.</p><p>У команды две основные платформы. Одна автономно перемещается по полю и собирает фрукты и овощи, другая предназначена для урожая в гидропонных хозяйствах. Задача, казалось бы, простая — увидел плод, схватил, положил. На практике это один из самых неприятных классов задач для робота: плоды разного размера, листья всё перекрывают, растения двигаются, а давить клубнику промышленным манипулятором всё-таки нежелательно.</p><p>Теперь деньги идут уже не на красивый лабораторный прототип, а на доведение платформ до коммерческой эксплуатации и увеличение производства. Я бы за такими роботами следил внимательнее, чем за половиной гуманоидов с выставок. У них нет человеческих ног и эффектного лица, зато есть понятная работа, дефицит работников и экономика, которую можно посчитать. Именно такие узкоспециализированные машины вполне могут прийти в реальный мир гораздо раньше универсального домашнего робота.</p> <a href=\"https://habr.com/ru/articles/1071368/#habracut\">Читать далее</a>",
     "image": "https://habrastorage.org/getpro/habr/upload_files/449/462/078/449462078980532ab4f5e8683ab72eb4.jpg"
-  },
-  {
-    "title": "Devolver Digital представила HYPERDROP — «роглайт» про строительство патинко-автоматов",
-    "link": "https://dtf.ru/games/5245667-hyperdrop-ot-devolver-digital-roglayt-pro-stroitelstvo-patinko-avtomatov?from=rss",
-    "published": "Mon, 17 Aug 2026 20:05:14 +0300",
-    "timestamp": 1786986314.0,
-    "source": "DTF",
-    "language": "ru",
-    "description": "Выход игры состоится в 2027 году, но в Steam уже доступно демо.\n                                                    <img alt=\"alt\" height=\"658\" src=\"https://leonardo.osnova.io/bb5c9c38-ee31-5b3f-b884-e23acacf59ea/-/resize/1300/\" width=\"1170\" />",
-    "summary": "Выход игры состоится в 2027 году, но в Steam уже доступно демо.\n                                                    <img alt=\"alt\" height=\"658\" src=\"https://leonardo.osnova.io/bb5c9c38-ee31-5b3f-b884-e23acacf59ea/-/resize/1300/\" width=\"1170\" />",
-    "image": "https://leonardo.osnova.io/97a7faed-b400-5c3a-9dc4-14c0d4f4d63c/"
-  },
-  {
-    "title": "Больницы и поликлиники будут передавать в МВД данные об инфекциях иностранцев",
-    "link": "https://www.vedomosti.ru/society/news/2026/08/17/1221771-budut-peredavat-dannie",
-    "published": "Mon, 17 Aug 2026 20:05:10 +0300",
-    "timestamp": 1786986310.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdn.vdmsti.ru/image/2026/6d/16w2rl/normal-1jl5.png"
   },
   {
     "title": "Ликвидация портов вместо блокады становится все ближе",
@@ -515,17 +559,6 @@
     "description": "Используя геномные языковые модели Evo 1 и Evo 2, американские исследователи под руководством Брайана Хая (Brian L. Hie) из Института Arc сгенерировали полные геномы бактериофагов, похожих на хорошо изученный вирус ΦX174. При этом смесь сгенерированных фагов приспособилась заражать три линии Escherichia coli, устойчивые к ΦX174. Этих результатов уже достаточно для эффектного заголовка о вирусах, созданных искусственным интеллектом. Но за кликбейтом скрывается более интересный вопрос: что именно в этом эксперименте сделала модель — и насколько далеко генерация последовательностей уже продвинулась в сторону проектирования сложных функциональных биологических систем с заданными свойствами?",
     "summary": "Используя геномные языковые модели Evo 1 и Evo 2, американские исследователи под руководством Брайана Хая (Brian L. Hie) из Института Arc сгенерировали полные геномы бактериофагов, похожих на хорошо изученный вирус ΦX174. При этом смесь сгенерированных фагов приспособилась заражать три линии Escherichia coli, устойчивые к ΦX174. Этих результатов уже достаточно для эффектного заголовка о вирусах, созданных искусственным интеллектом. Но за кликбейтом скрывается более интересный вопрос: что именно в этом эксперименте сделала модель — и насколько далеко генерация последовательностей уже продвинулась в сторону проектирования сложных функциональных биологических систем с заданными свойствами?",
     "image": "https://minio.nplus1.ru/app-images/1129663/conversions/954a02860faf2f1288d879638ef10020-share.png"
-  },
-  {
-    "title": "«Времена, как сейчас, меняют людей»: финальный трейлер Star Wars Zero Company",
-    "link": "https://dtf.ru/games/5245580-finalnyj-trejler-star-wars-zero-company?from=rss",
-    "published": "Mon, 17 Aug 2026 18:49:24 +0300",
-    "timestamp": 1786981764.0,
-    "source": "DTF",
-    "language": "ru",
-    "description": "Релиз тактической игры состоится уже 27 августа.\n                                                    <img alt=\"alt\" height=\"720\" src=\"https://leonardo.osnova.io/fa5c9868-0b46-5ddd-a082-a5c393e92e19/-/resize/1300/\" width=\"1280\" />",
-    "summary": "Релиз тактической игры состоится уже 27 августа.\n                                                    <img alt=\"alt\" height=\"720\" src=\"https://leonardo.osnova.io/fa5c9868-0b46-5ddd-a082-a5c393e92e19/-/resize/1300/\" width=\"1280\" />",
-    "image": "https://leonardo.osnova.io/fa5c9868-0b46-5ddd-a082-a5c393e92e19/-/resize/1300/"
   },
   {
     "title": "🖼 Молодую учительницу физкульутры изуродовала «розочкой» медсестра в кировском...",
@@ -792,17 +825,6 @@
     "image": "https://cdn4.telesco.pe/file/NPr-BjU2fMP4kUmRJS0YXoa-CYBeoYSQ56TYFqkDlM5Ps22PWhnKUBqE4mRd7cPH7HIT9PLLsnyDo9myxHXSB44bCTjfSkdEQKQIm_HgcqGW4k_BkOHtaMOWd2VfUU5rpwLtpiJymDdQ2vi7astQkzMh2i1PxMc0nC4Q53oxAtx3D4J_0OVa3tGHr6cLtru-X5KIMeGt4kJMBkB38baODoLVwedthDdbGBRAY3JiNa-lH8REajl4UlVhjXZKGvA_RYnKjKVtGMNG_PV8gG5jNSFTGTIR_6KlEaSRvXFKxpOn_Op4C2tM32S0PygN_GgfecjdS36lO5tK2lFvpMia3g.jpg"
   },
   {
-    "title": "🖼 Канье Уэст даст два концерта в Петербурге 10 и 11 октября.",
-    "link": "https://t.me/bazabazon/48337",
-    "published": "Mon, 17 Aug 2026 11:09:34 GMT",
-    "timestamp": 1786964974.0,
-    "source": "TG: Baza",
-    "language": "ru",
-    "description": "<p>Канье Уэст даст два концерта в Петербурге 10 и 11 октября.<br /><br />Об этом сообщила компания «Сэй Эдженси». Американский рэпер приедет в Россию и выступит на «Газпром Арене». Билеты на концерт стоят от 9 до 160 тысяч рублей.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><img height=\"493\" src=\"https://cdn4.telesco.pe/file/VvSvk1kgkONFiRjc1UHkvskqNfxDz6oCsD5P8J9jgOLbMQcf05_YZuGJdrX-giloJxzLEGl8uWfrjwvAPU0bJ0Z_OopO-8f8IsPqyEGpwNutKGmX4ykXMiv19FBZibbG4tkrmxl54p-2dpe9J0tm_2qMLYyKKbgYbSA4iF0gNbtGZcc4fITBvwWzwgkD6ezHt3gvA4ApCmwOVz3EPgFUrrTcQS9EGQPlijgf3NMDp6sjmxsILHa1ZRsBAz_Ldgu7NPEfSa2CJVcQLnET75806enF1LIM1J_QJqAPHgTpwwr7Qm4Evk4RvyqfbREp8YtAViWoFOabRYE1ltiFfVQnDQ.jpg\" width=\"800\" />",
-    "summary": "<p>Канье Уэст даст два концерта в Петербурге 10 и 11 октября.<br /><br />Об этом сообщила компания «Сэй Эдженси». Американский рэпер приедет в Россию и выступит на «Газпром Арене». Билеты на концерт стоят от 9 до 160 тысяч рублей.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><img height=\"493\" src=\"https://cdn4.telesco.pe/file/VvSvk1kgkONFiRjc1UHkvskqNfxDz6oCsD5P8J9jgOLbMQcf05_YZuGJdrX-giloJxzLEGl8uWfrjwvAPU0bJ0Z_OopO-8f8IsPqyEGpwNutKGmX4ykXMiv19FBZibbG4tkrmxl54p-2dpe9J0tm_2qMLYyKKbgYbSA4iF0gNbtGZcc4fITBvwWzwgkD6ezHt3gvA4ApCmwOVz3EPgFUrrTcQS9EGQPlijgf3NMDp6sjmxsILHa1ZRsBAz_Ldgu7NPEfSa2CJVcQLnET75806enF1LIM1J_QJqAPHgTpwwr7Qm4Evk4RvyqfbREp8YtAViWoFOabRYE1ltiFfVQnDQ.jpg\" width=\"800\" />",
-    "image": "https://cdn4.telesco.pe/file/VvSvk1kgkONFiRjc1UHkvskqNfxDz6oCsD5P8J9jgOLbMQcf05_YZuGJdrX-giloJxzLEGl8uWfrjwvAPU0bJ0Z_OopO-8f8IsPqyEGpwNutKGmX4ykXMiv19FBZibbG4tkrmxl54p-2dpe9J0tm_2qMLYyKKbgYbSA4iF0gNbtGZcc4fITBvwWzwgkD6ezHt3gvA4ApCmwOVz3EPgFUrrTcQS9EGQPlijgf3NMDp6sjmxsILHa1ZRsBAz_Ldgu7NPEfSa2CJVcQLnET75806enF1LIM1J_QJqAPHgTpwwr7Qm4Evk4RvyqfbREp8YtAViWoFOabRYE1ltiFfVQnDQ.jpg"
-  },
-  {
     "title": "🖼 Не поверите, но Канье Уэст едет выступать в Россию. По данным Mash, концерты запла...",
     "link": "https://t.me/mash/77026",
     "published": "Mon, 17 Aug 2026 11:02:24 GMT",
@@ -856,17 +878,6 @@
     "description": "<p><img alt=\"\" src=\"https://cs6.pikabu.ru/s/2026/08/17/13/7evbozp2.jpg\" /></p>",
     "summary": "<p><img alt=\"\" src=\"https://cs6.pikabu.ru/s/2026/08/17/13/7evbozp2.jpg\" /></p>",
     "image": "https://cs6.pikabu.ru/s/2026/08/17/13/7evbozp2.jpg"
-  },
-  {
-    "title": "🎬 15 плазм на 1,5 млн рублей уничтожил мужчина в краснодарском магазине техники. На ...",
-    "link": "https://t.me/mash/77016",
-    "published": "Mon, 17 Aug 2026 09:41:30 GMT",
-    "timestamp": 1786959690.0,
-    "source": "TG: Mash",
-    "language": "ru",
-    "description": "<p>15 плазм на 1,5 млн рублей уничтожил мужчина в краснодарском магазине техники. На него завели уголовное дело по статье \"Умышленные уничтожение или повреждение имущества\".<br /><br />телепузики уже не те<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/FN4agiUZNXHdf9ktEDiD-sj_cjagRO5JO3QkN5Q6iNIaMDVS84s9UQOjHBn9E13FMtHKIDWvUuFHkbkj6CjGxgwMTZfib_jrHCiwcxkjDFoiLi-7tTfec-a9p0f6qKEaEFhOTKamySgp6jAxi8E3O_WPtkDrF7VyaQRXuCXePa6Aphaid_CzV7_bvsINTsL6yVaCZVLDoCH-kkDXp1rbVqAWoZscikrRUQ5xPzCBQR_lifztrv2kxSVADr-fczejIlQw5JlsjPra_pSc63hJk0VqCyHlATGT24mBukO7O6VV1vZuLBBihXzA5iMptNPq1Rz_YZD5wBQs-SRiyOtR1Q\" src=\"https://cdn4.telesco.pe/file/8414787441.mp4?token=aDLnkQxRhaxxd_jPOHiXSyaeAZ78eAtQeYkoAf071FpL0wcJMwaLO65jyY3UKzdBf8o4Oe2zLB7wT-uyBEB7rcjCcZwaJTuUdB6o4JHnjSOqMvJw_yA6Bsm64zp6QDLG42dXPHx0ahTt2vj7bT9ZItuPkm-DwrZUPbwrCnRv4mw5QfkRiIB4CgV0cQct02qHJBLWQf70t4zg6uG8PgqCJ5X84Lg1brFPoleKUioI9OoV-K8eyh3LBcQ5AerofmzayOYG1AWLuA7q420-iaPLEUCLh7Hf6Ip_zDUPCvE1Af1-qVdQO15EKk_vt1pQPtJ_3F4IAzzAV5fmzlZDmlfoXDzoLYYGMqknLXWitR9ENcuYlvuH2_duRcW1gSNrDutwJRiNb4oohoOr2QiJZhWoYyGpijaw_6z9cGAq5qraeb67jIHbQJRGf3qFSIx1nXYKlYBH2IGEFbmyeDQT784STQ5YPI-eEt4U2NpNTzs5qqOhyJVQlX8AwFaoOXyE8JMF1U5N6F2kgYRk9lSL-fG7i4rS94h3rQJ8XKuOf9GXGF6tJT-wZRWgCS1AQJnzDxJQ0sz9GR52DM9Ho7mOsVJxsH0JrprSkZ-jLGCuNWz4izHcr0djjMAgjRxHVogYUkwXcmv5R27x7EdgEMGthHOr_gJwSqXM3BRMKCcD7HrBjy0\" style=\"width: 100%;\"></video>",
-    "summary": "<p>15 плазм на 1,5 млн рублей уничтожил мужчина в краснодарском магазине техники. На него завели уголовное дело по статье \"Умышленные уничтожение или повреждение имущества\".<br /><br />телепузики уже не те<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/FN4agiUZNXHdf9ktEDiD-sj_cjagRO5JO3QkN5Q6iNIaMDVS84s9UQOjHBn9E13FMtHKIDWvUuFHkbkj6CjGxgwMTZfib_jrHCiwcxkjDFoiLi-7tTfec-a9p0f6qKEaEFhOTKamySgp6jAxi8E3O_WPtkDrF7VyaQRXuCXePa6Aphaid_CzV7_bvsINTsL6yVaCZVLDoCH-kkDXp1rbVqAWoZscikrRUQ5xPzCBQR_lifztrv2kxSVADr-fczejIlQw5JlsjPra_pSc63hJk0VqCyHlATGT24mBukO7O6VV1vZuLBBihXzA5iMptNPq1Rz_YZD5wBQs-SRiyOtR1Q\" src=\"https://cdn4.telesco.pe/file/8414787441.mp4?token=aDLnkQxRhaxxd_jPOHiXSyaeAZ78eAtQeYkoAf071FpL0wcJMwaLO65jyY3UKzdBf8o4Oe2zLB7wT-uyBEB7rcjCcZwaJTuUdB6o4JHnjSOqMvJw_yA6Bsm64zp6QDLG42dXPHx0ahTt2vj7bT9ZItuPkm-DwrZUPbwrCnRv4mw5QfkRiIB4CgV0cQct02qHJBLWQf70t4zg6uG8PgqCJ5X84Lg1brFPoleKUioI9OoV-K8eyh3LBcQ5AerofmzayOYG1AWLuA7q420-iaPLEUCLh7Hf6Ip_zDUPCvE1Af1-qVdQO15EKk_vt1pQPtJ_3F4IAzzAV5fmzlZDmlfoXDzoLYYGMqknLXWitR9ENcuYlvuH2_duRcW1gSNrDutwJRiNb4oohoOr2QiJZhWoYyGpijaw_6z9cGAq5qraeb67jIHbQJRGf3qFSIx1nXYKlYBH2IGEFbmyeDQT784STQ5YPI-eEt4U2NpNTzs5qqOhyJVQlX8AwFaoOXyE8JMF1U5N6F2kgYRk9lSL-fG7i4rS94h3rQJ8XKuOf9GXGF6tJT-wZRWgCS1AQJnzDxJQ0sz9GR52DM9Ho7mOsVJxsH0JrprSkZ-jLGCuNWz4izHcr0djjMAgjRxHVogYUkwXcmv5R27x7EdgEMGthHOr_gJwSqXM3BRMKCcD7HrBjy0\" style=\"width: 100%;\"></video>",
-    "image": ""
   },
   {
     "title": "🖼 Disney+ выкатил список фильмов, которые нужно посмотреть перед «Мстителями: Судны...",
@@ -941,8 +952,8 @@
     "timestamp": 1786910355.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p>Допустимый урон.</p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/H3iqmwSFmX0VHSX4srOBakvq6-XieVD2Z4EKZ5q-UWLO2EgvFaRhBFuM4yWVu7nTuiTytfXSqr49bQ6xPvS7F8dnHCnnVS3qcmlA3zRxCFyS0GLZ0H6xD0RhIqyze7ovSpncsGBLytmV8ikOgghBHaZWjuYG3p7hDfCdAWmlu40dlEPJDHOOszBFQ2yFqxuyDi0q8cymmZ4F0AkFi4_miqyIBFhprGIIgTR41bEPJbCWbwoXLwxy-C-HlNM7OtFzvqNCshXmkq_28_ivbyPs22s-QDC3UV2XWpqlgxxCjQX5Rud3aLgMUsOBKenu8gaL6zmPaO113QEWNBgXR6shFA\" src=\"https://cdn4.telesco.pe/file/b15d78c059.mp4?token=iOxDoGKUPnK2H89Cmi6Pufh1-7bD8QysCx5Bao9c3IjD0n7xzxtTEDbbWN3xpav5ijt41WG4LdjswrPk9XPfDOEr_6rbxXYE6pB0vstq7xCBVIT7QshukvMrSsBo2WSFnaMrKoEdxMBHu8rCnWACIxOcUahSluWbSLiapKGXAqKcMe99Bc-OdkJLtcoyEc83b6LGoP01GyeKgq6DgaAUQ8lDGWvGRuc5b7g6Kt3rkCv7DnnxQmSp4BP_6EHg3UiLjN-KaEVLyloLY2jfMNJFB61-aoy9pPxpklnDw0mtrPNlkJjaccw5ZA2fu9xkrfbrtOg07iK4drCdUtqq-EgrKQ\" style=\"width: 100%;\"></video>",
-    "summary": "<p>Допустимый урон.</p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/H3iqmwSFmX0VHSX4srOBakvq6-XieVD2Z4EKZ5q-UWLO2EgvFaRhBFuM4yWVu7nTuiTytfXSqr49bQ6xPvS7F8dnHCnnVS3qcmlA3zRxCFyS0GLZ0H6xD0RhIqyze7ovSpncsGBLytmV8ikOgghBHaZWjuYG3p7hDfCdAWmlu40dlEPJDHOOszBFQ2yFqxuyDi0q8cymmZ4F0AkFi4_miqyIBFhprGIIgTR41bEPJbCWbwoXLwxy-C-HlNM7OtFzvqNCshXmkq_28_ivbyPs22s-QDC3UV2XWpqlgxxCjQX5Rud3aLgMUsOBKenu8gaL6zmPaO113QEWNBgXR6shFA\" src=\"https://cdn4.telesco.pe/file/b15d78c059.mp4?token=iOxDoGKUPnK2H89Cmi6Pufh1-7bD8QysCx5Bao9c3IjD0n7xzxtTEDbbWN3xpav5ijt41WG4LdjswrPk9XPfDOEr_6rbxXYE6pB0vstq7xCBVIT7QshukvMrSsBo2WSFnaMrKoEdxMBHu8rCnWACIxOcUahSluWbSLiapKGXAqKcMe99Bc-OdkJLtcoyEc83b6LGoP01GyeKgq6DgaAUQ8lDGWvGRuc5b7g6Kt3rkCv7DnnxQmSp4BP_6EHg3UiLjN-KaEVLyloLY2jfMNJFB61-aoy9pPxpklnDw0mtrPNlkJjaccw5ZA2fu9xkrfbrtOg07iK4drCdUtqq-EgrKQ\" style=\"width: 100%;\"></video>",
+    "description": "<p>Допустимый урон.</p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/sEjUyyS9X7h7iYJ8D9Jqbet6VZbzaKfDDUyA1BG2__mxXWx5hGglvdsKa1Nu-dYEiYuVe1SaxZK2h4RHlJBFdK5LA3UmrdITvr9yZeQ5vLLGTsJ69iPPVu10wbY3R6hKsXv3-Q8XRxwqOQnokDSZP58-C6TlYJOo_dm2HaFa3K8lyMobAQ9Ee-_jP5vvv8tN_CWEXJkIDUoZG267FdKYFh5PiETJykC7SiQEsm0z3g-AqD4NKstGdOjrpYVaGWcY61Y3S849pJKtTLSikH5rZt58h-z5Tu0PhZPdRNWrilg3Yj_pLQdqj3W0KZ-1537nWM2emLr8a7uHcv5p2FIL2Q\" src=\"https://cdn4.telesco.pe/file/b15d78c059.mp4?token=AggrD2hUU17LjMv0Jr5EIWRu7Uf78l-SXGUyukG2DJ_uIsVFjSUMj6S4IyChhL46qH8P6J8XnhhFuYSBEXWvNkDlDMdFqvNG5qW_C-ojW96RrcmibAnZai_nYz9x0dGXvQu35HHk9_OK_b7cNxkXP1u3zOuxgXo2MddZIHgzgCnsq-tTk_hpdlaJXlDj3KH5kbM5NqV2eEfBdIzidW8M5BIcBYz-DP7v5aHfYj79jn2G4pm0U4rK0-vD2hbWO4PY2N2nIgiYZkHsLR4TSfNyPuHDlspwn9IoGFihjY1LOsOFpH5XYJV-c6ckG8ril4Rjg9GU2lneUkPYbin2Y1KMJg\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Допустимый урон.</p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/sEjUyyS9X7h7iYJ8D9Jqbet6VZbzaKfDDUyA1BG2__mxXWx5hGglvdsKa1Nu-dYEiYuVe1SaxZK2h4RHlJBFdK5LA3UmrdITvr9yZeQ5vLLGTsJ69iPPVu10wbY3R6hKsXv3-Q8XRxwqOQnokDSZP58-C6TlYJOo_dm2HaFa3K8lyMobAQ9Ee-_jP5vvv8tN_CWEXJkIDUoZG267FdKYFh5PiETJykC7SiQEsm0z3g-AqD4NKstGdOjrpYVaGWcY61Y3S849pJKtTLSikH5rZt58h-z5Tu0PhZPdRNWrilg3Yj_pLQdqj3W0KZ-1537nWM2emLr8a7uHcv5p2FIL2Q\" src=\"https://cdn4.telesco.pe/file/b15d78c059.mp4?token=AggrD2hUU17LjMv0Jr5EIWRu7Uf78l-SXGUyukG2DJ_uIsVFjSUMj6S4IyChhL46qH8P6J8XnhhFuYSBEXWvNkDlDMdFqvNG5qW_C-ojW96RrcmibAnZai_nYz9x0dGXvQu35HHk9_OK_b7cNxkXP1u3zOuxgXo2MddZIHgzgCnsq-tTk_hpdlaJXlDj3KH5kbM5NqV2eEfBdIzidW8M5BIcBYz-DP7v5aHfYj79jn2G4pm0U4rK0-vD2hbWO4PY2N2nIgiYZkHsLR4TSfNyPuHDlspwn9IoGFihjY1LOsOFpH5XYJV-c6ckG8ril4Rjg9GU2lneUkPYbin2Y1KMJg\" style=\"width: 100%;\"></video>",
     "image": ""
   },
   {
@@ -1007,9 +1018,9 @@
     "timestamp": 1670324999.0,
     "source": "TG: Life Shot",
     "language": "ru",
-    "description": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/bgrJnmPi70J9zhN45atAxpLjaHN7i_ksUi0z75Lz1G-tUaacFZq_nhRMDcUOMyrRaIUAqATsgvkCHWG4a6kG7W_SFDubpK1spLB2xhP-kqSM63S9vqA3Ovt1gHdt7NoZ0iZhFry_nkGu6uDzW02C-V1oyFCtHpk4bF6YWF5KISYfG3DFBOSgMlInbXRgFcIpZcPzkb7AvZ4awTnN-Gw-xhLeefdbIFIlmSKM8p1QuXFoa7_0a5C8O2BwDczcpwUbF_V0rRgWwWFyjV5spK-Lr_h5VR0JJfQRxkV9EHMC6kkx3-AU4mJS37Zwp9eQrglOT4o6oFZRfez89guivZ5HCw.jpg\" /></blockquote>",
-    "summary": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/bgrJnmPi70J9zhN45atAxpLjaHN7i_ksUi0z75Lz1G-tUaacFZq_nhRMDcUOMyrRaIUAqATsgvkCHWG4a6kG7W_SFDubpK1spLB2xhP-kqSM63S9vqA3Ovt1gHdt7NoZ0iZhFry_nkGu6uDzW02C-V1oyFCtHpk4bF6YWF5KISYfG3DFBOSgMlInbXRgFcIpZcPzkb7AvZ4awTnN-Gw-xhLeefdbIFIlmSKM8p1QuXFoa7_0a5C8O2BwDczcpwUbF_V0rRgWwWFyjV5spK-Lr_h5VR0JJfQRxkV9EHMC6kkx3-AU4mJS37Zwp9eQrglOT4o6oFZRfez89guivZ5HCw.jpg\" /></blockquote>",
-    "image": "https://cdn4.telesco.pe/file/bgrJnmPi70J9zhN45atAxpLjaHN7i_ksUi0z75Lz1G-tUaacFZq_nhRMDcUOMyrRaIUAqATsgvkCHWG4a6kG7W_SFDubpK1spLB2xhP-kqSM63S9vqA3Ovt1gHdt7NoZ0iZhFry_nkGu6uDzW02C-V1oyFCtHpk4bF6YWF5KISYfG3DFBOSgMlInbXRgFcIpZcPzkb7AvZ4awTnN-Gw-xhLeefdbIFIlmSKM8p1QuXFoa7_0a5C8O2BwDczcpwUbF_V0rRgWwWFyjV5spK-Lr_h5VR0JJfQRxkV9EHMC6kkx3-AU4mJS37Zwp9eQrglOT4o6oFZRfez89guivZ5HCw.jpg"
+    "description": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/M2TmRHUnBB8X0nIeuPOcMEqLmS4Akde-SFBWEdBs5HCJRLVWZOWAw_-H5SeaHaWOGkryxhBND9Z2rdJOyMVjy2_JxQ_eranlru3-IvjqFMegF5DgyYJghvxS-1ROAGnM3TBGrEK3yEjHp1_eJaVza0YOTEJtHeS-aN1cuB6fRjZGXBGMOZqkfCuSwTWBMWFpYDYWVfn4jmBIO2pQTd1KMq4_guaSJ4AZnOCwrs_koDFrz91U9BfS38JdQ6YZix2bcNOxM1kiqeMu5vv13O4WD62kWo8LoTxC1O2Am4tMCocDmdr_2tfpamGaA02OAxrpztzLwUSlWGY5W3jiITRQfA.jpg\" /></blockquote>",
+    "summary": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/M2TmRHUnBB8X0nIeuPOcMEqLmS4Akde-SFBWEdBs5HCJRLVWZOWAw_-H5SeaHaWOGkryxhBND9Z2rdJOyMVjy2_JxQ_eranlru3-IvjqFMegF5DgyYJghvxS-1ROAGnM3TBGrEK3yEjHp1_eJaVza0YOTEJtHeS-aN1cuB6fRjZGXBGMOZqkfCuSwTWBMWFpYDYWVfn4jmBIO2pQTd1KMq4_guaSJ4AZnOCwrs_koDFrz91U9BfS38JdQ6YZix2bcNOxM1kiqeMu5vv13O4WD62kWo8LoTxC1O2Am4tMCocDmdr_2tfpamGaA02OAxrpztzLwUSlWGY5W3jiITRQfA.jpg\" /></blockquote>",
+    "image": "https://cdn4.telesco.pe/file/M2TmRHUnBB8X0nIeuPOcMEqLmS4Akde-SFBWEdBs5HCJRLVWZOWAw_-H5SeaHaWOGkryxhBND9Z2rdJOyMVjy2_JxQ_eranlru3-IvjqFMegF5DgyYJghvxS-1ROAGnM3TBGrEK3yEjHp1_eJaVza0YOTEJtHeS-aN1cuB6fRjZGXBGMOZqkfCuSwTWBMWFpYDYWVfn4jmBIO2pQTd1KMq4_guaSJ4AZnOCwrs_koDFrz91U9BfS38JdQ6YZix2bcNOxM1kiqeMu5vv13O4WD62kWo8LoTxC1O2Am4tMCocDmdr_2tfpamGaA02OAxrpztzLwUSlWGY5W3jiITRQfA.jpg"
   },
   {
     "title": "🔧 Channel created",
