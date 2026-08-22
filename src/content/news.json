@@ -1,36 +1,256 @@
 [
   {
-    "title": "Замкомандира Гурьянов: дроны ВС РФ залетали в самые глубокие укрепления ВСУ",
-    "link": "https://tass.ru/armiya-i-opk/28033925",
-    "published": "Sat, 22 Aug 2026 04:02:30 +0300",
-    "timestamp": 1787360550.0,
+    "title": "В аэропорту Казани ввели ограничения на полеты",
+    "link": "https://ria.ru/20260822/ogranicheniya-2112415878.html",
+    "published": "Sat, 22 Aug 2026 05:51:13 +0300",
+    "timestamp": 1787367073.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/07e8/06/0a/1951876506_0:16:2937:1668_650x0_80_0_0_b1142ec9c337d1d09b9646b3d3b8b274.jpg"
+  },
+  {
+    "title": "В аэропорту Казани ввели ограничения",
+    "link": "https://tass.ru/ekonomika/28034025",
+    "published": "Sat, 22 Aug 2026 05:50:39 +0300",
+    "timestamp": 1787367039.0,
     "source": "ТАСС",
     "language": "ru",
-    "description": "Российские БПЛА уничтожали пункты противника в Водянском, сообщил военнослужащий",
-    "summary": "Российские БПЛА уничтожали пункты противника в Водянском, сообщил военнослужащий",
+    "description": "",
+    "summary": "",
     "image": ""
   },
   {
-    "title": "Марочко заявил, что ВС РФ проломили оборону ВСУ на ореховском участке Запорожья",
-    "link": "https://tass.ru/armiya-i-opk/28033923",
-    "published": "Sat, 22 Aug 2026 04:01:28 +0300",
-    "timestamp": 1787360488.0,
-    "source": "ТАСС",
+    "title": "В России оценили перспективы переговоров по Украине",
+    "link": "https://lenta.ru/news/2026/08/22/v-rossii-otsenili-perspektivy-peregovorov-po-ukraine/",
+    "published": "Sat, 22 Aug 2026 05:49:45 +0300",
+    "timestamp": 1787366985.0,
+    "source": "Лента.ру",
     "language": "ru",
-    "description": "Идет закрепление российских бойцов на новых рубежах и позициях, добавил военный эксперт",
-    "summary": "Идет закрепление российских бойцов на новых рубежах и позициях, добавил военный эксперт",
+    "description": ".",
+    "summary": ".",
+    "image": "https://icdn.lenta.ru/images/2026/08/22/05/20260822054907898/pic_af6f68064c0f6a175e6638bd35535242.jpg"
+  },
+  {
+    "title": "Порядка 14 тысяч иностранных наемников воюют в ВСУ",
+    "link": "https://ria.ru/20260822/naemniki-2112415731.html",
+    "published": "Sat, 22 Aug 2026 05:49:23 +0300",
+    "timestamp": 1787366963.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
     "image": ""
   },
   {
-    "title": "Трамп понизил «пошлину» в списке своих любимых слов",
-    "link": "https://lenta.ru/news/2026/08/22/tramp-ponizil-poshlinu-v-spiske-svoih-lyubimyh-slov/",
-    "published": "Sat, 22 Aug 2026 04:00:33 +0300",
-    "timestamp": 1787360433.0,
+    "title": "В аэропорту Чебоксар ввели ограничения",
+    "link": "https://tass.ru/ekonomika/28034021",
+    "published": "Sat, 22 Aug 2026 05:44:56 +0300",
+    "timestamp": 1787366696.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "WSJ: демократы при большинстве в Конгрессе проверят действия администрации США",
+    "link": "https://tass.ru/mezhdunarodnaya-panorama/28034019",
+    "published": "Sat, 22 Aug 2026 05:44:04 +0300",
+    "timestamp": 1787366644.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "МЧС предупредило о тумане в Москве",
+    "link": "https://ria.ru/20260822/tuman-2112415468.html",
+    "published": "Sat, 22 Aug 2026 05:43:51 +0300",
+    "timestamp": 1787366631.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/07ea/03/0a/2079734503_0:164:3059:1885_650x0_80_0_0_3e7b1b798261354ba61e76bfd4a4be17.jpg"
+  },
+  {
+    "title": "Вышло обновление диагностической утилиты CPU‑Z 3.01 с обновлённым онлайн-сервисом Validator V3",
+    "link": "https://habr.com/ru/news/1072886/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1072886",
+    "published": "Sat, 22 Aug 2026 02:43:01 GMT",
+    "timestamp": 1787366581.0,
+    "source": "Хабр",
+    "language": "ru",
+    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/70c/cd8/96b/70ccd896bba523f7adbb0dc56aba1ea0.png\" /><p>20&nbsp;августа 2026&nbsp;года <a href=\"https://www.cpuid.com/softwares/cpu-z.html#version-history\" rel=\"noopener noreferrer nofollow\">вышла</a> новая версия диагностической утилиты <a href=\"https://www.cpuid.com/softwares/cpu-z.html\" rel=\"noopener noreferrer nofollow\">CPU‑Z 3.01</a> для&nbsp;ПК на&nbsp;Windows. Решение CPU‑Z 2.0&nbsp;команда проекта <a href=\"https://habr.com/ru/news/654149/\" rel=\"noopener noreferrer nofollow\">опубликовала</a> в&nbsp;марте 2022&nbsp;года. Выпуск CPU‑Z 2.15&nbsp;<a href=\"https://habr.com/ru/news/891788/\" rel=\"noopener noreferrer nofollow\">произошёл</a> в&nbsp;марте 2025&nbsp;года. Сборку CPU‑Z 2.20&nbsp;<a href=\"https://habr.com/ru/news/1035430/\" rel=\"noopener noreferrer nofollow\">представили</a> в&nbsp;мае 2026&nbsp;года.</p> <a href=\"https://habr.com/ru/articles/1072886/#habracut\">Читать далее</a>",
+    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/70c/cd8/96b/70ccd896bba523f7adbb0dc56aba1ea0.png\" /><p>20&nbsp;августа 2026&nbsp;года <a href=\"https://www.cpuid.com/softwares/cpu-z.html#version-history\" rel=\"noopener noreferrer nofollow\">вышла</a> новая версия диагностической утилиты <a href=\"https://www.cpuid.com/softwares/cpu-z.html\" rel=\"noopener noreferrer nofollow\">CPU‑Z 3.01</a> для&nbsp;ПК на&nbsp;Windows. Решение CPU‑Z 2.0&nbsp;команда проекта <a href=\"https://habr.com/ru/news/654149/\" rel=\"noopener noreferrer nofollow\">опубликовала</a> в&nbsp;марте 2022&nbsp;года. Выпуск CPU‑Z 2.15&nbsp;<a href=\"https://habr.com/ru/news/891788/\" rel=\"noopener noreferrer nofollow\">произошёл</a> в&nbsp;марте 2025&nbsp;года. Сборку CPU‑Z 2.20&nbsp;<a href=\"https://habr.com/ru/news/1035430/\" rel=\"noopener noreferrer nofollow\">представили</a> в&nbsp;мае 2026&nbsp;года.</p> <a href=\"https://habr.com/ru/articles/1072886/#habracut\">Читать далее</a>",
+    "image": "https://habrastorage.org/getpro/habr/upload_files/70c/cd8/96b/70ccd896bba523f7adbb0dc56aba1ea0.png"
+  },
+  {
+    "title": "В аэропорту Чебоксар ввели временные ограничения на полеты",
+    "link": "https://ria.ru/20260822/ogranicheniya-2112415356.html",
+    "published": "Sat, 22 Aug 2026 05:41:19 +0300",
+    "timestamp": 1787366479.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/07e9/06/0b/2022336506_0:167:2440:1541_650x0_80_0_0_ea83c73601a5390fbf28069865dbde03.jpg"
+  },
+  {
+    "title": "В МИД допустили торги Зеленского с командой Федорова",
+    "link": "https://lenta.ru/news/2026/08/22/v-mid-dopustili-torgi-zelenskogo-s-komandoy-fedorova/",
+    "published": "Sat, 22 Aug 2026 05:41:05 +0300",
+    "timestamp": 1787366465.0,
     "source": "Лента.ру",
     "language": "ru",
     "description": "",
     "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/22/04/20260822040150510/pic_dd2a85ed2aca2ade90873076a49bef52.jpg"
+    "image": "https://icdn.lenta.ru/images/2026/08/22/05/20260822054023078/pic_67ebb5c5b38e3213a4ca1c69b398c865.jpg"
+  },
+  {
+    "title": "Экс-жительница Эстонии рассказала, что ее впечатлило в России",
+    "link": "https://ria.ru/20260822/rossiya-2112415179.html",
+    "published": "Sat, 22 Aug 2026 05:40:00 +0300",
+    "timestamp": 1787366400.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/07e6/07/1d/1805918747_0:15:3072:1743_650x0_80_0_0_f14ee57c444501c70c8ffc390347e96b.jpg"
+  },
+  {
+    "title": "ТАСС: Украине не хватает более $36 млрд финансирования",
+    "link": "https://tass.ru/ekonomika/28034015",
+    "published": "Sat, 22 Aug 2026 05:38:36 +0300",
+    "timestamp": 1787366316.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "В Киеве признают, что страна полностью исчерпала собственные ресурсы и изыскивать средства с каждым разом становится все сложнее",
+    "summary": "В Киеве признают, что страна полностью исчерпала собственные ресурсы и изыскивать средства с каждым разом становится все сложнее",
+    "image": ""
+  },
+  {
+    "title": "Психолог Самойличенко рассказал, как справиться с \"синдромом 1 сентября\"",
+    "link": "https://tass.ru/obschestvo/28034009",
+    "published": "Sat, 22 Aug 2026 05:35:20 +0300",
+    "timestamp": 1787366120.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Sprott сообщила о росте зависимости Европы от российского урана",
+    "link": "https://www.rbc.ru/economics/22/08/2026/6a8909dc9a794731b1697467",
+    "published": "Sat, 22 Aug 2026 05:33:18 +0300",
+    "timestamp": 1787365998.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Зависимость Европы от российского урана растет, несмотря на усилия по диверсификации поставок, следует из отчета компании Sprott Asset Management, пишет The Northern Miner.",
+    "summary": "Зависимость Европы от российского урана растет, несмотря на усилия по диверсификации поставок, следует из отчета компании Sprott Asset Management, пишет The Northern Miner.",
+    "image": ""
+  },
+  {
+    "title": "Трамп выразил желание побороться за третий президентский срок",
+    "link": "https://lenta.ru/news/2026/08/22/tramp-vyrazil-zhelanie-poborotsya-za-tretiy-prezidentskiy-srok/",
+    "published": "Sat, 22 Aug 2026 05:30:13 +0300",
+    "timestamp": 1787365813.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/22/05/20260822052923278/pic_82d00afd14c06ae6bbd4e3b050ee9f54.jpg"
+  },
+  {
+    "title": "Серия взрывов прогремела в портах Одессы и Черноморска",
+    "link": "https://lenta.ru/news/2026/08/22/seriya-vzryvov-progremela-v-portah-odessy-i-chernomorska/",
+    "published": "Sat, 22 Aug 2026 05:25:49 +0300",
+    "timestamp": 1787365549.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/22/05/20260822052624685/pic_73d5e87bb80e3db52ff36c408bc2ac18.jpg"
+  },
+  {
+    "title": "«Ударит бумерангом». В России отреагировали на позицию премьера Польши по подрыву «Северных потоков»",
+    "link": "https://lenta.ru/news/2026/08/22/long-udarit-bumerangom-v-rossii-otreagirovali-na-pozitsiyu-premiera-polshi-po-podryvu-severnyh-potokov/",
+    "published": "Sat, 22 Aug 2026 05:21:03 +0300",
+    "timestamp": 1787365263.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/22/00/20260822004738706/pic_7bea0410474733f4b763f2663423e68c.jpg"
+  },
+  {
+    "title": "В Эстонии россиянина с двойным гражданством приговорили к сроку за шпионаж",
+    "link": "https://www.kommersant.ru/doc/8906105",
+    "published": "Sat, 22 Aug 2026 05:19:48 +0300",
+    "timestamp": 1787365188.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "В Эстонии мужчину осудили на шесть лет по делу о разведывательной деятельности, направленной против страны. Речь идет об Эдгаре Муханове, который имеет гражданство Эстонии и России.",
+    "summary": "В Эстонии мужчину осудили на шесть лет по делу о разведывательной деятельности, направленной против страны. Речь идет об Эдгаре Муханове, который имеет гражданство Эстонии и России.",
+    "image": ""
+  },
+  {
+    "title": "Трамп допустил импичмент при проигрыше республиканцев на выборах",
+    "link": "https://www.rbc.ru/politics/07/04/2026/69d535299a7947d966144697",
+    "published": "Sat, 22 Aug 2026 05:15:29 +0300",
+    "timestamp": 1787364929.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Президент США Дональд Трамп заявил, что демократы могут начать процедуру импичмента против него, если республиканцы потеряют большинство в Конгрессе на промежуточных выборах 2026 года, сообщил The Hill.",
+    "summary": "Президент США Дональд Трамп заявил, что демократы могут начать процедуру импичмента против него, если республиканцы потеряют большинство в Конгрессе на промежуточных выборах 2026 года, сообщил The Hill.",
+    "image": ""
+  },
+  {
+    "title": "Вулкан Ключевской на Камчатке выбросил пепел на высоту 5,5 км",
+    "link": "https://www.kommersant.ru/doc/8906104",
+    "published": "Sat, 22 Aug 2026 04:47:23 +0300",
+    "timestamp": 1787363243.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Вулкан Ключевской на Камчатке выбросил новый столб пепла на высоту до 5,5 км. Высота самого вулкана составляет 4750 метров.",
+    "summary": "Вулкан Ключевской на Камчатке выбросил новый столб пепла на высоту до 5,5 км. Высота самого вулкана составляет 4750 метров.",
+    "image": ""
+  },
+  {
+    "title": "Средняя социальная пенсия в России выросла до 16,6 тыс. руб.",
+    "link": "https://www.rbc.ru/rbcfreenews/68bcd6dc9a7947ecd7b7e2f8",
+    "published": "Sat, 22 Aug 2026 04:43:01 +0300",
+    "timestamp": 1787362981.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Средний размер социальной пенсии в России на 1 июля 2026 года составил 16,6 тыс.",
+    "summary": "Средний размер социальной пенсии в России на 1 июля 2026 года составил 16,6 тыс.",
+    "image": ""
+  },
+  {
+    "title": "Основатель Bridgewater Далио предрек США долговой кризис в течение 3 лет",
+    "link": "https://www.rbc.ru/business/28/08/2018/5b83b27d9a794757aa789808",
+    "published": "Sat, 22 Aug 2026 04:39:49 +0300",
+    "timestamp": 1787362789.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Если бы правительство США было компанией, то расходы на обслуживание долга составили бы примерно $11 трлн — около 200% от годовой выручки, пояснил Рэй Далио",
+    "summary": "Если бы правительство США было компанией, то расходы на обслуживание долга составили бы примерно $11 трлн — около 200% от годовой выручки, пояснил Рэй Далио",
+    "image": ""
+  },
+  {
+    "title": "WSJ: министр армии США Дрисколл в ближайшие месяцы уйдет в отставку",
+    "link": "https://www.kommersant.ru/doc/8906101",
+    "published": "Sat, 22 Aug 2026 04:24:09 +0300",
+    "timestamp": 1787361849.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Министр армии США Дэн Дрисколл уйдет в отставку до конца 2026 года, пишет The Wall Street Journal (WSJ) со ссылкой на источники. По информации газеты, причиной стали напряженные отношения с главой Пентагона Питом Хегсетом.",
+    "summary": "Министр армии США Дэн Дрисколл уйдет в отставку до конца 2026 года, пишет The Wall Street Journal (WSJ) со ссылкой на источники. По информации газеты, причиной стали напряженные отношения с главой Пентагона Питом Хегсетом.",
+    "image": ""
   },
   {
     "title": "На складе оружия в Ливии произошел взрыв",
@@ -41,72 +261,6 @@
     "language": "ru",
     "description": "Мощный взрыв произошел на оружейном складе в городе Мисурата на северо-западе Ливии, сообщает Al-Wasat. По информации издания, из-за взрыва сдетонировали ракеты и боеприпасы.",
     "summary": "Мощный взрыв произошел на оружейном складе в городе Мисурата на северо-западе Ливии, сообщает Al-Wasat. По информации издания, из-за взрыва сдетонировали ракеты и боеприпасы.",
-    "image": ""
-  },
-  {
-    "title": "Мирошник сомневается, что Федоров сможет вернуться на пост главы МО Украины",
-    "link": "https://tass.ru/politika/28033917",
-    "published": "Sat, 22 Aug 2026 03:51:42 +0300",
-    "timestamp": 1787359902.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20260428/9010035.jpg"
-  },
-  {
-    "title": "Трамп предрек свой импичмент",
-    "link": "https://lenta.ru/news/2026/08/22/tramp-predrek-svoy-impichment/",
-    "published": "Sat, 22 Aug 2026 03:51:28 +0300",
-    "timestamp": 1787359888.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/22/03/20260822034959562/pic_ce9a12c51f5277b1868f1ae22b610707.jpg"
-  },
-  {
-    "title": "Хайнань распространил 30-дневный безвизовый режим уже на 61 страну",
-    "link": "https://tass.ru/ekonomika/28033919",
-    "published": "Sat, 22 Aug 2026 03:50:59 +0300",
-    "timestamp": 1787359859.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Биолог предупредил об агрессивных осах и шершнях в сентябре",
-    "link": "https://ria.ru/20260822/osa-2112412698.html",
-    "published": "Sat, 22 Aug 2026 03:50:56 +0300",
-    "timestamp": 1787359856.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "\"Я буду счастлив\". Трамп высказался о возможности переизбраться на третий срок",
-    "link": "https://tass.ru/mezhdunarodnaya-panorama/28033915",
-    "published": "Sat, 22 Aug 2026 03:50:27 +0300",
-    "timestamp": 1787359827.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "В Иране осудили новые американские санкции в отношении Тегерана",
-    "link": "https://ria.ru/20260822/santsii-2112412553.html",
-    "published": "Sat, 22 Aug 2026 03:50:08 +0300",
-    "timestamp": 1787359808.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
     "image": ""
   },
   {
@@ -121,50 +275,6 @@
     "image": ""
   },
   {
-    "title": "Трамп в шутку разозлился, что Левитт любит своих детей больше него",
-    "link": "https://ria.ru/20260822/tramp-2112412412.html",
-    "published": "Sat, 22 Aug 2026 03:44:35 +0300",
-    "timestamp": 1787359475.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "В Одессе прогремела серия взрывов",
-    "link": "https://ria.ru/20260822/vzryv-2112412277.html",
-    "published": "Sat, 22 Aug 2026 03:43:13 +0300",
-    "timestamp": 1787359393.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Эксперт назвал категории пенсионеров с правом на повышенную выплату",
-    "link": "https://lenta.ru/news/2026/08/22/ekspert-nazval-kategorii-pensionerov-s-pravom-na-povyshennuyu-vyplatu/",
-    "published": "Sat, 22 Aug 2026 03:37:21 +0300",
-    "timestamp": 1787359041.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/22/03/20260822033823678/pic_7a08113019cb4be5034ebe83b54f3c23.jpg"
-  },
-  {
-    "title": "В аэропорту Сочи сняли временные ограничения на полеты",
-    "link": "https://ria.ru/20260822/ogranicheniya-2112412164.html",
-    "published": "Sat, 22 Aug 2026 03:33:43 +0300",
-    "timestamp": 1787358823.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/07ea/07/01/2102206987_0:62:3418:1985_650x0_80_0_0_50bd71b1950663673f0472b779839354.jpg"
-  },
-  {
     "title": "Трамп назвал Ормузский пролив территорией США",
     "link": "https://www.kommersant.ru/doc/8906100",
     "published": "Sat, 22 Aug 2026 03:24:22 +0300",
@@ -173,105 +283,6 @@
     "language": "ru",
     "description": "Президент США Дональд Трамп заявил, что считает Ормузский пролив на Ближнем Востоке частью американской территории. Ранее он утверждал, что Соединенные Штаты полностью контролируют не только воды пролива, но и территорию суши вокруг него.",
     "summary": "Президент США Дональд Трамп заявил, что считает Ормузский пролив на Ближнем Востоке частью американской территории. Ранее он утверждал, что Соединенные Штаты полностью контролируют не только воды пролива, но и территорию суши вокруг него.",
-    "image": ""
-  },
-  {
-    "title": "Politico узнало о планах ФРГ создать новый арсенал дальнобойного оружия",
-    "link": "https://www.rbc.ru/politics/22/08/2026/6a88eb589a794767463eb05e",
-    "published": "Sat, 22 Aug 2026 03:23:53 +0300",
-    "timestamp": 1787358233.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Правительство Германии планирует создать совершенно новый арсенал дальнобойных вооружений стоимостью почти &euro;12 млрд с целью сдерживания России, пишут Bild и Politico со ссылкой на внутренние документы Минобороны.",
-    "summary": "Правительство Германии планирует создать совершенно новый арсенал дальнобойных вооружений стоимостью почти &euro;12 млрд с целью сдерживания России, пишут Bild и Politico со ссылкой на внутренние документы Минобороны.",
-    "image": ""
-  },
-  {
-    "title": "Социальные пенсии выросли на тысячу рублей",
-    "link": "https://lenta.ru/news/2026/08/22/sotsialnye-pensii-vyrosli-na-tysyachu-rubley/",
-    "published": "Sat, 22 Aug 2026 03:22:15 +0300",
-    "timestamp": 1787358135.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/22/03/20260822032015081/pic_7564e1f57ce784710f5f687ff2a2c165.jpg"
-  },
-  {
-    "title": "Несколько приятий загорелись в Киеве после ударов ВС России",
-    "link": "https://lenta.ru/news/2026/08/22/neskolko-priyatiy-zagorelis-v-kieve-posle-udarov-vs-rossii/",
-    "published": "Sat, 22 Aug 2026 03:16:46 +0300",
-    "timestamp": 1787357806.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/22/03/20260822031625611/pic_8b72053d79c22d7de24c9106963ca27b.jpg"
-  },
-  {
-    "title": "В Белоруссии россиянина обязали выплатить 4,5 млн руб. за добычу зубра",
-    "link": "https://www.rbc.ru/rbcfreenews/699370c29a7947d042118917",
-    "published": "Sat, 22 Aug 2026 03:03:29 +0300",
-    "timestamp": 1787357009.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "В Белоруссии суд взыскал с иностранного гражданина более 162 тыс.",
-    "summary": "В Белоруссии суд взыскал с иностранного гражданина более 162 тыс.",
-    "image": ""
-  },
-  {
-    "title": "Меган Маркл может вернуться к актерской карьере",
-    "link": "https://www.kommersant.ru/doc/8906099",
-    "published": "Sat, 22 Aug 2026 02:53:25 +0300",
-    "timestamp": 1787356405.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Герцогиня Сассекская Меган Маркл ведет переговоры о возможном участии в третьем сезоне сериала Гая Ричи «Джентльмены». В 2018 году, за месяц до свадьбы с принцем Гарри, герцогом Сассекским, она объявила о завершении актерской карьеры.",
-    "summary": "Герцогиня Сассекская Меган Маркл ведет переговоры о возможном участии в третьем сезоне сериала Гая Ричи «Джентльмены». В 2018 году, за месяц до свадьбы с принцем Гарри, герцогом Сассекским, она объявила о завершении актерской карьеры.",
-    "image": ""
-  },
-  {
-    "title": "TikTok выплатит $400 млн по делу о сборе данных детей без согласия",
-    "link": "https://www.rbc.ru/technology_and_media/05/03/2026/69a9ea0f9a79477276b3d3ad",
-    "published": "Sat, 22 Aug 2026 02:38:02 +0300",
-    "timestamp": 1787355482.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "TikTok и Министерство юстиции США достигли соглашения по делу о нарушении закона о защите конфиденциальности детей в интернете, компания и ее материнская структура ByteDance выплатят $400 млн, сообщило Axios.",
-    "summary": "TikTok и Министерство юстиции США достигли соглашения по делу о нарушении закона о защите конфиденциальности детей в интернете, компания и ее материнская структура ByteDance выплатят $400 млн, сообщило Axios.",
-    "image": ""
-  },
-  {
-    "title": "Верховный суд США разрешил продолжить строительство бального зала Белого дома",
-    "link": "https://www.kommersant.ru/doc/8906097",
-    "published": "Sat, 22 Aug 2026 02:30:58 +0300",
-    "timestamp": 1787355058.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Верховный суд США временно разрешил администрации президента продолжить строительство бального зала в Белом доме. Федеральный суд ранее обязал остановить все надземные строительные работы.",
-    "summary": "Верховный суд США временно разрешил администрации президента продолжить строительство бального зала в Белом доме. Федеральный суд ранее обязал остановить все надземные строительные работы.",
-    "image": ""
-  },
-  {
-    "title": "Politico описало следующий кошмар НАТО",
-    "link": "https://www.rbc.ru/politics/22/08/2026/6a88db9d9a7947a679858941",
-    "published": "Sat, 22 Aug 2026 02:16:08 +0300",
-    "timestamp": 1787354168.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Наибольшие опасения в случае ухода Франции вызывает будущее боевой группы в Румынии численностью 1200 человек под французским командованием и неформальное сотрудничество с НАТО в сфере ядерных вооружений, пишет Politico",
-    "summary": "Наибольшие опасения в случае ухода Франции вызывает будущее боевой группы в Румынии численностью 1200 человек под французским командованием и неформальное сотрудничество с НАТО в сфере ядерных вооружений, пишет Politico",
-    "image": ""
-  },
-  {
-    "title": "США и Мексика начали работать над новой торговой сделкой",
-    "link": "https://www.kommersant.ru/doc/8906096",
-    "published": "Sat, 22 Aug 2026 01:49:47 +0300",
-    "timestamp": 1787352587.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Президент США Дональд Трамп объявил о начале работы над новой торговой сделкой с Мексикой. Он добавил, что Соединенные Штаты также должны иметь возможность заключить новое торговое соглашение с Канадой.",
-    "summary": "Президент США Дональд Трамп объявил о начале работы над новой торговой сделкой с Мексикой. Он добавил, что Соединенные Штаты также должны иметь возможность заключить новое торговое соглашение с Канадой.",
     "image": ""
   },
   {
@@ -336,8 +347,8 @@
     "timestamp": 1787340849.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p><b>Дети поколения альфа и бета будут жить до 100 лет</b>, прогнозирует Минздрав России. <br /><br />Это станет возможным благодаря развитию генной инженерии.<br /><br />Миллениалы, что с лицом?</p><img height=\"418\" src=\"https://cdn4.telesco.pe/file/ZCF6CsG_x6fN9vTGyGwea1f01HDnZEMPUf2kQ85E9ABx1h3WD2hD_2KUxJDW1mz340aSQTsi-tTmAQsLnrjB38WuJVxdTLJFpkTdguI2L18x65cGvdVV0fJ0m0-I0UeJAgQNg2HTcmH95K8LTr7TuB2DldWUB7dhG2ArVag3JaVRsgTFXKq31f8jTpz1idOlcrRuTehdghOAKfr4HYJRm4Zn4-VV9GMO0iiJixWoc6bGCAw0z0nznLFkw8MXVar3YqsYez6OrBo3t7gk125KHGSPyi7CbSpmLc2Hdc4CD4HVKrR6NHRWkwxrsIWuzHC5o5VbJH1RLoXsYJF3gXVXbg.jpg\" width=\"800\" />",
-    "summary": "<p><b>Дети поколения альфа и бета будут жить до 100 лет</b>, прогнозирует Минздрав России. <br /><br />Это станет возможным благодаря развитию генной инженерии.<br /><br />Миллениалы, что с лицом?</p><img height=\"418\" src=\"https://cdn4.telesco.pe/file/ZCF6CsG_x6fN9vTGyGwea1f01HDnZEMPUf2kQ85E9ABx1h3WD2hD_2KUxJDW1mz340aSQTsi-tTmAQsLnrjB38WuJVxdTLJFpkTdguI2L18x65cGvdVV0fJ0m0-I0UeJAgQNg2HTcmH95K8LTr7TuB2DldWUB7dhG2ArVag3JaVRsgTFXKq31f8jTpz1idOlcrRuTehdghOAKfr4HYJRm4Zn4-VV9GMO0iiJixWoc6bGCAw0z0nznLFkw8MXVar3YqsYez6OrBo3t7gk125KHGSPyi7CbSpmLc2Hdc4CD4HVKrR6NHRWkwxrsIWuzHC5o5VbJH1RLoXsYJF3gXVXbg.jpg\" width=\"800\" />",
+    "description": "<p><b>Дети поколения альфа и бета будут жить до 100 лет</b>, прогнозирует Минздрав России. <br /><br />Это станет возможным благодаря развитию генной инженерии.<br /><br />Миллениалы, что с лицом?</p><img src=\"https://cdn4.telesco.pe/file/ZCF6CsG_x6fN9vTGyGwea1f01HDnZEMPUf2kQ85E9ABx1h3WD2hD_2KUxJDW1mz340aSQTsi-tTmAQsLnrjB38WuJVxdTLJFpkTdguI2L18x65cGvdVV0fJ0m0-I0UeJAgQNg2HTcmH95K8LTr7TuB2DldWUB7dhG2ArVag3JaVRsgTFXKq31f8jTpz1idOlcrRuTehdghOAKfr4HYJRm4Zn4-VV9GMO0iiJixWoc6bGCAw0z0nznLFkw8MXVar3YqsYez6OrBo3t7gk125KHGSPyi7CbSpmLc2Hdc4CD4HVKrR6NHRWkwxrsIWuzHC5o5VbJH1RLoXsYJF3gXVXbg.jpg\" />",
+    "summary": "<p><b>Дети поколения альфа и бета будут жить до 100 лет</b>, прогнозирует Минздрав России. <br /><br />Это станет возможным благодаря развитию генной инженерии.<br /><br />Миллениалы, что с лицом?</p><img src=\"https://cdn4.telesco.pe/file/ZCF6CsG_x6fN9vTGyGwea1f01HDnZEMPUf2kQ85E9ABx1h3WD2hD_2KUxJDW1mz340aSQTsi-tTmAQsLnrjB38WuJVxdTLJFpkTdguI2L18x65cGvdVV0fJ0m0-I0UeJAgQNg2HTcmH95K8LTr7TuB2DldWUB7dhG2ArVag3JaVRsgTFXKq31f8jTpz1idOlcrRuTehdghOAKfr4HYJRm4Zn4-VV9GMO0iiJixWoc6bGCAw0z0nznLFkw8MXVar3YqsYez6OrBo3t7gk125KHGSPyi7CbSpmLc2Hdc4CD4HVKrR6NHRWkwxrsIWuzHC5o5VbJH1RLoXsYJF3gXVXbg.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/ZCF6CsG_x6fN9vTGyGwea1f01HDnZEMPUf2kQ85E9ABx1h3WD2hD_2KUxJDW1mz340aSQTsi-tTmAQsLnrjB38WuJVxdTLJFpkTdguI2L18x65cGvdVV0fJ0m0-I0UeJAgQNg2HTcmH95K8LTr7TuB2DldWUB7dhG2ArVag3JaVRsgTFXKq31f8jTpz1idOlcrRuTehdghOAKfr4HYJRm4Zn4-VV9GMO0iiJixWoc6bGCAw0z0nznLFkw8MXVar3YqsYez6OrBo3t7gk125KHGSPyi7CbSpmLc2Hdc4CD4HVKrR6NHRWkwxrsIWuzHC5o5VbJH1RLoXsYJF3gXVXbg.jpg"
   },
   {
@@ -402,8 +413,8 @@
     "timestamp": 1787337181.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p><b>Россиян призвали ходить пешком, чтобы встретить вторую половинку.</b> <br /><br />В ЗАГСе Калуги заявили, что вместо ожидания очереди на АЗС стоит создавать семьи.</p><img height=\"714\" src=\"https://cdn4.telesco.pe/file/WLfGUDqKE5VhgFjwJdCUlQWb1HiUIncApXm4S8E49Q8ywUIE-pWNJtBuIboT8XcioDMj8WWmSsNSNoc-BPpnsFNXd5whLuquuD0T-pgSHzwbHU8H0TsFIDkRNKG0mXE0ZIIyq9ib0Bxh1P-HWGGkUXv5OLeM0LclXW5nOvAbf0lunjv5mA5VCavo5ynEriS6kk2_K2JMHc15BWhnmdWaN9VkSbCMD2H6vGqO2h4wO7ipca_5idYfL1Cu5yo0Nvp88OJ9LkddbBtKkWrZy7evKj8HY6FdDEJEE-YErdHTg5Fyf-X2StR0YaqxRU9BTVHTwXtcO_pTwN5q3baHeKmPjg.jpg\" width=\"720\" />",
-    "summary": "<p><b>Россиян призвали ходить пешком, чтобы встретить вторую половинку.</b> <br /><br />В ЗАГСе Калуги заявили, что вместо ожидания очереди на АЗС стоит создавать семьи.</p><img height=\"714\" src=\"https://cdn4.telesco.pe/file/WLfGUDqKE5VhgFjwJdCUlQWb1HiUIncApXm4S8E49Q8ywUIE-pWNJtBuIboT8XcioDMj8WWmSsNSNoc-BPpnsFNXd5whLuquuD0T-pgSHzwbHU8H0TsFIDkRNKG0mXE0ZIIyq9ib0Bxh1P-HWGGkUXv5OLeM0LclXW5nOvAbf0lunjv5mA5VCavo5ynEriS6kk2_K2JMHc15BWhnmdWaN9VkSbCMD2H6vGqO2h4wO7ipca_5idYfL1Cu5yo0Nvp88OJ9LkddbBtKkWrZy7evKj8HY6FdDEJEE-YErdHTg5Fyf-X2StR0YaqxRU9BTVHTwXtcO_pTwN5q3baHeKmPjg.jpg\" width=\"720\" />",
+    "description": "<p><b>Россиян призвали ходить пешком, чтобы встретить вторую половинку.</b> <br /><br />В ЗАГСе Калуги заявили, что вместо ожидания очереди на АЗС стоит создавать семьи.</p><img src=\"https://cdn4.telesco.pe/file/WLfGUDqKE5VhgFjwJdCUlQWb1HiUIncApXm4S8E49Q8ywUIE-pWNJtBuIboT8XcioDMj8WWmSsNSNoc-BPpnsFNXd5whLuquuD0T-pgSHzwbHU8H0TsFIDkRNKG0mXE0ZIIyq9ib0Bxh1P-HWGGkUXv5OLeM0LclXW5nOvAbf0lunjv5mA5VCavo5ynEriS6kk2_K2JMHc15BWhnmdWaN9VkSbCMD2H6vGqO2h4wO7ipca_5idYfL1Cu5yo0Nvp88OJ9LkddbBtKkWrZy7evKj8HY6FdDEJEE-YErdHTg5Fyf-X2StR0YaqxRU9BTVHTwXtcO_pTwN5q3baHeKmPjg.jpg\" />",
+    "summary": "<p><b>Россиян призвали ходить пешком, чтобы встретить вторую половинку.</b> <br /><br />В ЗАГСе Калуги заявили, что вместо ожидания очереди на АЗС стоит создавать семьи.</p><img src=\"https://cdn4.telesco.pe/file/WLfGUDqKE5VhgFjwJdCUlQWb1HiUIncApXm4S8E49Q8ywUIE-pWNJtBuIboT8XcioDMj8WWmSsNSNoc-BPpnsFNXd5whLuquuD0T-pgSHzwbHU8H0TsFIDkRNKG0mXE0ZIIyq9ib0Bxh1P-HWGGkUXv5OLeM0LclXW5nOvAbf0lunjv5mA5VCavo5ynEriS6kk2_K2JMHc15BWhnmdWaN9VkSbCMD2H6vGqO2h4wO7ipca_5idYfL1Cu5yo0Nvp88OJ9LkddbBtKkWrZy7evKj8HY6FdDEJEE-YErdHTg5Fyf-X2StR0YaqxRU9BTVHTwXtcO_pTwN5q3baHeKmPjg.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/WLfGUDqKE5VhgFjwJdCUlQWb1HiUIncApXm4S8E49Q8ywUIE-pWNJtBuIboT8XcioDMj8WWmSsNSNoc-BPpnsFNXd5whLuquuD0T-pgSHzwbHU8H0TsFIDkRNKG0mXE0ZIIyq9ib0Bxh1P-HWGGkUXv5OLeM0LclXW5nOvAbf0lunjv5mA5VCavo5ynEriS6kk2_K2JMHc15BWhnmdWaN9VkSbCMD2H6vGqO2h4wO7ipca_5idYfL1Cu5yo0Nvp88OJ9LkddbBtKkWrZy7evKj8HY6FdDEJEE-YErdHTg5Fyf-X2StR0YaqxRU9BTVHTwXtcO_pTwN5q3baHeKmPjg.jpg"
   },
   {
@@ -446,8 +457,8 @@
     "timestamp": 1787334241.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p>Кажется началось.</p><img height=\"445\" src=\"https://cdn4.telesco.pe/file/lZ53gL20Wo4NeoVLccP_LDP-UlfJmw4OMbxyPzTU4OI6rW8GdBqYPAQN4jrCbryQ1ME9VvZPQyAvVPIm-J7OQudWugsI7lCyD1e5MHTjaVgYnLyJ7Og6XoGsRXOGXvwMOVeAoh1Govm5PtPrzcgjFANICcS5i48znCwWaBZxuOCR-QtUAQe8xw04vNjNaA3wJDp90QbfPhwLmaZjUzxdVORoHXXwt-cx8Bo5FgHg3HHHj8ZMMyNfppT2YGwDNcfVQIyYeDyP72r2l9InPK0Wwk-ezKYRv3laCZII4Ql8VeHVhPAcuuU0UHABZ0vR6tMJ6fianRVyzv6bK1RaKVTehg.jpg\" width=\"800\" />",
-    "summary": "<p>Кажется началось.</p><img height=\"445\" src=\"https://cdn4.telesco.pe/file/lZ53gL20Wo4NeoVLccP_LDP-UlfJmw4OMbxyPzTU4OI6rW8GdBqYPAQN4jrCbryQ1ME9VvZPQyAvVPIm-J7OQudWugsI7lCyD1e5MHTjaVgYnLyJ7Og6XoGsRXOGXvwMOVeAoh1Govm5PtPrzcgjFANICcS5i48znCwWaBZxuOCR-QtUAQe8xw04vNjNaA3wJDp90QbfPhwLmaZjUzxdVORoHXXwt-cx8Bo5FgHg3HHHj8ZMMyNfppT2YGwDNcfVQIyYeDyP72r2l9InPK0Wwk-ezKYRv3laCZII4Ql8VeHVhPAcuuU0UHABZ0vR6tMJ6fianRVyzv6bK1RaKVTehg.jpg\" width=\"800\" />",
+    "description": "<p>Кажется началось.</p><img src=\"https://cdn4.telesco.pe/file/lZ53gL20Wo4NeoVLccP_LDP-UlfJmw4OMbxyPzTU4OI6rW8GdBqYPAQN4jrCbryQ1ME9VvZPQyAvVPIm-J7OQudWugsI7lCyD1e5MHTjaVgYnLyJ7Og6XoGsRXOGXvwMOVeAoh1Govm5PtPrzcgjFANICcS5i48znCwWaBZxuOCR-QtUAQe8xw04vNjNaA3wJDp90QbfPhwLmaZjUzxdVORoHXXwt-cx8Bo5FgHg3HHHj8ZMMyNfppT2YGwDNcfVQIyYeDyP72r2l9InPK0Wwk-ezKYRv3laCZII4Ql8VeHVhPAcuuU0UHABZ0vR6tMJ6fianRVyzv6bK1RaKVTehg.jpg\" />",
+    "summary": "<p>Кажется началось.</p><img src=\"https://cdn4.telesco.pe/file/lZ53gL20Wo4NeoVLccP_LDP-UlfJmw4OMbxyPzTU4OI6rW8GdBqYPAQN4jrCbryQ1ME9VvZPQyAvVPIm-J7OQudWugsI7lCyD1e5MHTjaVgYnLyJ7Og6XoGsRXOGXvwMOVeAoh1Govm5PtPrzcgjFANICcS5i48znCwWaBZxuOCR-QtUAQe8xw04vNjNaA3wJDp90QbfPhwLmaZjUzxdVORoHXXwt-cx8Bo5FgHg3HHHj8ZMMyNfppT2YGwDNcfVQIyYeDyP72r2l9InPK0Wwk-ezKYRv3laCZII4Ql8VeHVhPAcuuU0UHABZ0vR6tMJ6fianRVyzv6bK1RaKVTehg.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/lZ53gL20Wo4NeoVLccP_LDP-UlfJmw4OMbxyPzTU4OI6rW8GdBqYPAQN4jrCbryQ1ME9VvZPQyAvVPIm-J7OQudWugsI7lCyD1e5MHTjaVgYnLyJ7Og6XoGsRXOGXvwMOVeAoh1Govm5PtPrzcgjFANICcS5i48znCwWaBZxuOCR-QtUAQe8xw04vNjNaA3wJDp90QbfPhwLmaZjUzxdVORoHXXwt-cx8Bo5FgHg3HHHj8ZMMyNfppT2YGwDNcfVQIyYeDyP72r2l9InPK0Wwk-ezKYRv3laCZII4Ql8VeHVhPAcuuU0UHABZ0vR6tMJ6fianRVyzv6bK1RaKVTehg.jpg"
   },
   {
@@ -600,8 +611,8 @@
     "timestamp": 1787325061.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p><b>Китайцы массово сдают своих детей в платные трудовые лагеря, пишет SCMP. </b><br /><br />Школьников увозят в глухую сельскую местность и заставляют работать руками — копать картошку, чистить деревья, колоть дрова, ухаживать за свиньями. <br /><br />За плохую работу могут лишить части еды, за хорошую — разрешить поспать в лучших условиях. Месяц в таком лагере обходится родителям в 120 тысяч рублей, и на места даже есть очередь.<br /><br />А что так можно было что ли?</p><img height=\"800\" src=\"https://cdn4.telesco.pe/file/kQbsMB6GIAHy9Npeijd93-LJzZujR4iePOtgP4KsHtL8RQvlXlWLrB6L0WpI-m28sEZKxLK6G095q_3EytyxfAMxFsBnQV-gTYRURxGOWbKLNSYiBatQ6S0OmDqngA3iCiYWMGIPBk7-Onj8h3Q-nTozzgLvLgwM5-GmINbRQjRdyL-FPluckldUhhXFsowQlKRcnlckxT-2ReAKtzw6-Sc1DDIVbFo4YCHY3UCBEX6VoMF-dZPO85dutYQh0w6O3GWwffl4dhMfGV_zhQ4St8LrGEIRIj97JfQr-LQiiuiImF1ykfaDAmGgKyTlAQMm8TpOvZcFuUMp039-P-EBog.jpg\" width=\"608\" />",
-    "summary": "<p><b>Китайцы массово сдают своих детей в платные трудовые лагеря, пишет SCMP. </b><br /><br />Школьников увозят в глухую сельскую местность и заставляют работать руками — копать картошку, чистить деревья, колоть дрова, ухаживать за свиньями. <br /><br />За плохую работу могут лишить части еды, за хорошую — разрешить поспать в лучших условиях. Месяц в таком лагере обходится родителям в 120 тысяч рублей, и на места даже есть очередь.<br /><br />А что так можно было что ли?</p><img height=\"800\" src=\"https://cdn4.telesco.pe/file/kQbsMB6GIAHy9Npeijd93-LJzZujR4iePOtgP4KsHtL8RQvlXlWLrB6L0WpI-m28sEZKxLK6G095q_3EytyxfAMxFsBnQV-gTYRURxGOWbKLNSYiBatQ6S0OmDqngA3iCiYWMGIPBk7-Onj8h3Q-nTozzgLvLgwM5-GmINbRQjRdyL-FPluckldUhhXFsowQlKRcnlckxT-2ReAKtzw6-Sc1DDIVbFo4YCHY3UCBEX6VoMF-dZPO85dutYQh0w6O3GWwffl4dhMfGV_zhQ4St8LrGEIRIj97JfQr-LQiiuiImF1ykfaDAmGgKyTlAQMm8TpOvZcFuUMp039-P-EBog.jpg\" width=\"608\" />",
+    "description": "<p><b>Китайцы массово сдают своих детей в платные трудовые лагеря, пишет SCMP. </b><br /><br />Школьников увозят в глухую сельскую местность и заставляют работать руками — копать картошку, чистить деревья, колоть дрова, ухаживать за свиньями. <br /><br />За плохую работу могут лишить части еды, за хорошую — разрешить поспать в лучших условиях. Месяц в таком лагере обходится родителям в 120 тысяч рублей, и на места даже есть очередь.<br /><br />А что так можно было что ли?</p><img src=\"https://cdn4.telesco.pe/file/kQbsMB6GIAHy9Npeijd93-LJzZujR4iePOtgP4KsHtL8RQvlXlWLrB6L0WpI-m28sEZKxLK6G095q_3EytyxfAMxFsBnQV-gTYRURxGOWbKLNSYiBatQ6S0OmDqngA3iCiYWMGIPBk7-Onj8h3Q-nTozzgLvLgwM5-GmINbRQjRdyL-FPluckldUhhXFsowQlKRcnlckxT-2ReAKtzw6-Sc1DDIVbFo4YCHY3UCBEX6VoMF-dZPO85dutYQh0w6O3GWwffl4dhMfGV_zhQ4St8LrGEIRIj97JfQr-LQiiuiImF1ykfaDAmGgKyTlAQMm8TpOvZcFuUMp039-P-EBog.jpg\" />",
+    "summary": "<p><b>Китайцы массово сдают своих детей в платные трудовые лагеря, пишет SCMP. </b><br /><br />Школьников увозят в глухую сельскую местность и заставляют работать руками — копать картошку, чистить деревья, колоть дрова, ухаживать за свиньями. <br /><br />За плохую работу могут лишить части еды, за хорошую — разрешить поспать в лучших условиях. Месяц в таком лагере обходится родителям в 120 тысяч рублей, и на места даже есть очередь.<br /><br />А что так можно было что ли?</p><img src=\"https://cdn4.telesco.pe/file/kQbsMB6GIAHy9Npeijd93-LJzZujR4iePOtgP4KsHtL8RQvlXlWLrB6L0WpI-m28sEZKxLK6G095q_3EytyxfAMxFsBnQV-gTYRURxGOWbKLNSYiBatQ6S0OmDqngA3iCiYWMGIPBk7-Onj8h3Q-nTozzgLvLgwM5-GmINbRQjRdyL-FPluckldUhhXFsowQlKRcnlckxT-2ReAKtzw6-Sc1DDIVbFo4YCHY3UCBEX6VoMF-dZPO85dutYQh0w6O3GWwffl4dhMfGV_zhQ4St8LrGEIRIj97JfQr-LQiiuiImF1ykfaDAmGgKyTlAQMm8TpOvZcFuUMp039-P-EBog.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/kQbsMB6GIAHy9Npeijd93-LJzZujR4iePOtgP4KsHtL8RQvlXlWLrB6L0WpI-m28sEZKxLK6G095q_3EytyxfAMxFsBnQV-gTYRURxGOWbKLNSYiBatQ6S0OmDqngA3iCiYWMGIPBk7-Onj8h3Q-nTozzgLvLgwM5-GmINbRQjRdyL-FPluckldUhhXFsowQlKRcnlckxT-2ReAKtzw6-Sc1DDIVbFo4YCHY3UCBEX6VoMF-dZPO85dutYQh0w6O3GWwffl4dhMfGV_zhQ4St8LrGEIRIj97JfQr-LQiiuiImF1ykfaDAmGgKyTlAQMm8TpOvZcFuUMp039-P-EBog.jpg"
   },
   {
@@ -666,8 +677,8 @@
     "timestamp": 1787322000.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">В приложении Т-Банка появились подарочные карты Apple для российских аккаунтов<br /> <br />В банковском приложении в разделе «Платежи» стали <a href=\"https://rozetked.me/news/47870-v-mobil-nom-prilozhenii-t-banka-teper-mozhno-popolnit-schet-rossiyskogo-apple-id\" rel=\"noopener\" target=\"_blank\">доступны</a> карты Apple номиналом от 1 000 до 9 000 рублей. Ими можно пополнять баланс Apple ID, не меняя регион в настройках профиля, чтобы покупать подписки, приложения и оплачивать покупки внутри них.<br /> <br />Цены на карту в 1 000 рублей у крупных площадок такие: Т-Банк просит 1 600 рублей, Ozon — 2 295 рублей, а Яндекс — 2 343 рублей.</div><p></p><img height=\"604\" src=\"https://cdn4.telesco.pe/file/X6OSicLcCKlzq3pRDkwHpRRIsaR8G86sm142gwPFXcgXRa1QO3JJrlPV7a5Ew91InwSzAkBAKcarfupEADLwxX6jCMsjtu3AdVvTIwALecTkD7wQ9fEDWhU9-bhp1tsTBMHsGNKBj1sTYrTBIRtXwrM9aFJkmtDL8WkaVWcQV6xhQM4FmJeO-tKHtd8naMXA5lJdfSCNiespkgzouHrwSPZOaNPZNx3jQ_gOvcOOLTFXBlLpnhf8YkrdsnURDmKUPbkvDMuyCh_spbvivOhpGJXSSN_4PbTAD8IyxuYL0hUWA1SGUptBWieoz1ouASKPdyZetukSnZHY9neWT-6Gyw.jpg\" width=\"277\" /><img height=\"308\" src=\"https://cdn4.telesco.pe/file/MZR0q8qOkQ8BTXgcUrTf9pGQkID5qfqWUrcXm3uv-u8yCTpKuTKreJrGtNgKsYWh054QQlWgFn1mPnCFg91IO0HVZAa5z2HtucCHB6DQR2d4mlWQrAWFVI2uki0gqO9MUYLeCNkvjjr5LDfEtr0HVCOQ8HYyr_-cotrEXs71nJUR83gW5rZQyNaQX7kIEGoya3jphiWPTnrlaIDrHlINJUugeWxfCnDDOZWu2pqByAnS5GrJ-uoh6HXAE2aJe33M1Qll78lvRW22cqFqjYaraPEPhp4-7cxpw7GQ2C4V2XH9xwsMNvgllD_X2sqMQIxaPZzhhZNCtUnn8q8YxpUOkw.jpg\" width=\"141\" /><img height=\"294\" src=\"https://cdn4.telesco.pe/file/rbFwVwwlBuEm9UgAnVff6K75D-ERj1NDDGAI_FMYGVwpyi2BvHgyYZx30kdk6KIQAgLBWsAjms88Nco8fv0V51LcwloQ4QosuONAgMYdP7pP7XLS-82MAfLxd0ncSOTfNTnlzEIXaLF4Pel4E1jf78vWtPoJ1sYwv0xZ8IYRY28CT-h-C4UMINyWocqdZAghibwEVwogEL1MXgx2U6u6iUOr2ZS98uk4BKgGN20Oe3b_1QIlC-4Uiyc4mtqIukAexh7LYV_9z_2CxYNG1LnP_GyzAzt8aTmgxgm2tgB04xFRm16bB31YPURxEzoUwHjYhY1Wb2U8vz3FdQFXLhh8rA.jpg\" width=\"141\" />",
-    "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">В приложении Т-Банка появились подарочные карты Apple для российских аккаунтов<br /> <br />В банковском приложении в разделе «Платежи» стали <a href=\"https://rozetked.me/news/47870-v-mobil-nom-prilozhenii-t-banka-teper-mozhno-popolnit-schet-rossiyskogo-apple-id\" rel=\"noopener\" target=\"_blank\">доступны</a> карты Apple номиналом от 1 000 до 9 000 рублей. Ими можно пополнять баланс Apple ID, не меняя регион в настройках профиля, чтобы покупать подписки, приложения и оплачивать покупки внутри них.<br /> <br />Цены на карту в 1 000 рублей у крупных площадок такие: Т-Банк просит 1 600 рублей, Ozon — 2 295 рублей, а Яндекс — 2 343 рублей.</div><p></p><img height=\"604\" src=\"https://cdn4.telesco.pe/file/X6OSicLcCKlzq3pRDkwHpRRIsaR8G86sm142gwPFXcgXRa1QO3JJrlPV7a5Ew91InwSzAkBAKcarfupEADLwxX6jCMsjtu3AdVvTIwALecTkD7wQ9fEDWhU9-bhp1tsTBMHsGNKBj1sTYrTBIRtXwrM9aFJkmtDL8WkaVWcQV6xhQM4FmJeO-tKHtd8naMXA5lJdfSCNiespkgzouHrwSPZOaNPZNx3jQ_gOvcOOLTFXBlLpnhf8YkrdsnURDmKUPbkvDMuyCh_spbvivOhpGJXSSN_4PbTAD8IyxuYL0hUWA1SGUptBWieoz1ouASKPdyZetukSnZHY9neWT-6Gyw.jpg\" width=\"277\" /><img height=\"308\" src=\"https://cdn4.telesco.pe/file/MZR0q8qOkQ8BTXgcUrTf9pGQkID5qfqWUrcXm3uv-u8yCTpKuTKreJrGtNgKsYWh054QQlWgFn1mPnCFg91IO0HVZAa5z2HtucCHB6DQR2d4mlWQrAWFVI2uki0gqO9MUYLeCNkvjjr5LDfEtr0HVCOQ8HYyr_-cotrEXs71nJUR83gW5rZQyNaQX7kIEGoya3jphiWPTnrlaIDrHlINJUugeWxfCnDDOZWu2pqByAnS5GrJ-uoh6HXAE2aJe33M1Qll78lvRW22cqFqjYaraPEPhp4-7cxpw7GQ2C4V2XH9xwsMNvgllD_X2sqMQIxaPZzhhZNCtUnn8q8YxpUOkw.jpg\" width=\"141\" /><img height=\"294\" src=\"https://cdn4.telesco.pe/file/rbFwVwwlBuEm9UgAnVff6K75D-ERj1NDDGAI_FMYGVwpyi2BvHgyYZx30kdk6KIQAgLBWsAjms88Nco8fv0V51LcwloQ4QosuONAgMYdP7pP7XLS-82MAfLxd0ncSOTfNTnlzEIXaLF4Pel4E1jf78vWtPoJ1sYwv0xZ8IYRY28CT-h-C4UMINyWocqdZAghibwEVwogEL1MXgx2U6u6iUOr2ZS98uk4BKgGN20Oe3b_1QIlC-4Uiyc4mtqIukAexh7LYV_9z_2CxYNG1LnP_GyzAzt8aTmgxgm2tgB04xFRm16bB31YPURxEzoUwHjYhY1Wb2U8vz3FdQFXLhh8rA.jpg\" width=\"141\" />",
+    "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">В приложении Т-Банка появились подарочные карты Apple для российских аккаунтов<br /> <br />В банковском приложении в разделе «Платежи» стали <a href=\"https://rozetked.me/news/47870-v-mobil-nom-prilozhenii-t-banka-teper-mozhno-popolnit-schet-rossiyskogo-apple-id\" rel=\"noopener\" target=\"_blank\">доступны</a> карты Apple номиналом от 1 000 до 9 000 рублей. Ими можно пополнять баланс Apple ID, не меняя регион в настройках профиля, чтобы покупать подписки, приложения и оплачивать покупки внутри них.<br /> <br />Цены на карту в 1 000 рублей у крупных площадок такие: Т-Банк просит 1 600 рублей, Ozon — 2 295 рублей, а Яндекс — 2 343 рублей.</div><p></p><img src=\"https://cdn4.telesco.pe/file/X6OSicLcCKlzq3pRDkwHpRRIsaR8G86sm142gwPFXcgXRa1QO3JJrlPV7a5Ew91InwSzAkBAKcarfupEADLwxX6jCMsjtu3AdVvTIwALecTkD7wQ9fEDWhU9-bhp1tsTBMHsGNKBj1sTYrTBIRtXwrM9aFJkmtDL8WkaVWcQV6xhQM4FmJeO-tKHtd8naMXA5lJdfSCNiespkgzouHrwSPZOaNPZNx3jQ_gOvcOOLTFXBlLpnhf8YkrdsnURDmKUPbkvDMuyCh_spbvivOhpGJXSSN_4PbTAD8IyxuYL0hUWA1SGUptBWieoz1ouASKPdyZetukSnZHY9neWT-6Gyw.jpg\" /><img src=\"https://cdn4.telesco.pe/file/MZR0q8qOkQ8BTXgcUrTf9pGQkID5qfqWUrcXm3uv-u8yCTpKuTKreJrGtNgKsYWh054QQlWgFn1mPnCFg91IO0HVZAa5z2HtucCHB6DQR2d4mlWQrAWFVI2uki0gqO9MUYLeCNkvjjr5LDfEtr0HVCOQ8HYyr_-cotrEXs71nJUR83gW5rZQyNaQX7kIEGoya3jphiWPTnrlaIDrHlINJUugeWxfCnDDOZWu2pqByAnS5GrJ-uoh6HXAE2aJe33M1Qll78lvRW22cqFqjYaraPEPhp4-7cxpw7GQ2C4V2XH9xwsMNvgllD_X2sqMQIxaPZzhhZNCtUnn8q8YxpUOkw.jpg\" /><img src=\"https://cdn4.telesco.pe/file/rbFwVwwlBuEm9UgAnVff6K75D-ERj1NDDGAI_FMYGVwpyi2BvHgyYZx30kdk6KIQAgLBWsAjms88Nco8fv0V51LcwloQ4QosuONAgMYdP7pP7XLS-82MAfLxd0ncSOTfNTnlzEIXaLF4Pel4E1jf78vWtPoJ1sYwv0xZ8IYRY28CT-h-C4UMINyWocqdZAghibwEVwogEL1MXgx2U6u6iUOr2ZS98uk4BKgGN20Oe3b_1QIlC-4Uiyc4mtqIukAexh7LYV_9z_2CxYNG1LnP_GyzAzt8aTmgxgm2tgB04xFRm16bB31YPURxEzoUwHjYhY1Wb2U8vz3FdQFXLhh8rA.jpg\" />",
+    "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">В приложении Т-Банка появились подарочные карты Apple для российских аккаунтов<br /> <br />В банковском приложении в разделе «Платежи» стали <a href=\"https://rozetked.me/news/47870-v-mobil-nom-prilozhenii-t-banka-teper-mozhno-popolnit-schet-rossiyskogo-apple-id\" rel=\"noopener\" target=\"_blank\">доступны</a> карты Apple номиналом от 1 000 до 9 000 рублей. Ими можно пополнять баланс Apple ID, не меняя регион в настройках профиля, чтобы покупать подписки, приложения и оплачивать покупки внутри них.<br /> <br />Цены на карту в 1 000 рублей у крупных площадок такие: Т-Банк просит 1 600 рублей, Ozon — 2 295 рублей, а Яндекс — 2 343 рублей.</div><p></p><img src=\"https://cdn4.telesco.pe/file/X6OSicLcCKlzq3pRDkwHpRRIsaR8G86sm142gwPFXcgXRa1QO3JJrlPV7a5Ew91InwSzAkBAKcarfupEADLwxX6jCMsjtu3AdVvTIwALecTkD7wQ9fEDWhU9-bhp1tsTBMHsGNKBj1sTYrTBIRtXwrM9aFJkmtDL8WkaVWcQV6xhQM4FmJeO-tKHtd8naMXA5lJdfSCNiespkgzouHrwSPZOaNPZNx3jQ_gOvcOOLTFXBlLpnhf8YkrdsnURDmKUPbkvDMuyCh_spbvivOhpGJXSSN_4PbTAD8IyxuYL0hUWA1SGUptBWieoz1ouASKPdyZetukSnZHY9neWT-6Gyw.jpg\" /><img src=\"https://cdn4.telesco.pe/file/MZR0q8qOkQ8BTXgcUrTf9pGQkID5qfqWUrcXm3uv-u8yCTpKuTKreJrGtNgKsYWh054QQlWgFn1mPnCFg91IO0HVZAa5z2HtucCHB6DQR2d4mlWQrAWFVI2uki0gqO9MUYLeCNkvjjr5LDfEtr0HVCOQ8HYyr_-cotrEXs71nJUR83gW5rZQyNaQX7kIEGoya3jphiWPTnrlaIDrHlINJUugeWxfCnDDOZWu2pqByAnS5GrJ-uoh6HXAE2aJe33M1Qll78lvRW22cqFqjYaraPEPhp4-7cxpw7GQ2C4V2XH9xwsMNvgllD_X2sqMQIxaPZzhhZNCtUnn8q8YxpUOkw.jpg\" /><img src=\"https://cdn4.telesco.pe/file/rbFwVwwlBuEm9UgAnVff6K75D-ERj1NDDGAI_FMYGVwpyi2BvHgyYZx30kdk6KIQAgLBWsAjms88Nco8fv0V51LcwloQ4QosuONAgMYdP7pP7XLS-82MAfLxd0ncSOTfNTnlzEIXaLF4Pel4E1jf78vWtPoJ1sYwv0xZ8IYRY28CT-h-C4UMINyWocqdZAghibwEVwogEL1MXgx2U6u6iUOr2ZS98uk4BKgGN20Oe3b_1QIlC-4Uiyc4mtqIukAexh7LYV_9z_2CxYNG1LnP_GyzAzt8aTmgxgm2tgB04xFRm16bB31YPURxEzoUwHjYhY1Wb2U8vz3FdQFXLhh8rA.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/X6OSicLcCKlzq3pRDkwHpRRIsaR8G86sm142gwPFXcgXRa1QO3JJrlPV7a5Ew91InwSzAkBAKcarfupEADLwxX6jCMsjtu3AdVvTIwALecTkD7wQ9fEDWhU9-bhp1tsTBMHsGNKBj1sTYrTBIRtXwrM9aFJkmtDL8WkaVWcQV6xhQM4FmJeO-tKHtd8naMXA5lJdfSCNiespkgzouHrwSPZOaNPZNx3jQ_gOvcOOLTFXBlLpnhf8YkrdsnURDmKUPbkvDMuyCh_spbvivOhpGJXSSN_4PbTAD8IyxuYL0hUWA1SGUptBWieoz1ouASKPdyZetukSnZHY9neWT-6Gyw.jpg"
   },
   {
@@ -680,17 +691,6 @@
     "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/643/a56/21b/643a5621b371b90e60fee44a4f699dcc.jpg\" /><p>Немецкая Sennheiser <a href=\"https://newsroom.sennheiser.com/introducing-sennheiser-momentum-true-wireless-5-the-flagship-momentum-experience-in-your-pocket\" rel=\"noopener noreferrer nofollow\">презентовала</a> внутриканальные беспроводные наушники Momentum True Wireless 5. Сами наушники и их зарядный кейс получили заменяемые аккумуляторы. Замену батарей можно провести при&nbsp;помощи отвёртки.</p> <a href=\"https://habr.com/ru/articles/1073092/#habracut\">Читать далее</a>",
     "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/643/a56/21b/643a5621b371b90e60fee44a4f699dcc.jpg\" /><p>Немецкая Sennheiser <a href=\"https://newsroom.sennheiser.com/introducing-sennheiser-momentum-true-wireless-5-the-flagship-momentum-experience-in-your-pocket\" rel=\"noopener noreferrer nofollow\">презентовала</a> внутриканальные беспроводные наушники Momentum True Wireless 5. Сами наушники и их зарядный кейс получили заменяемые аккумуляторы. Замену батарей можно провести при&nbsp;помощи отвёртки.</p> <a href=\"https://habr.com/ru/articles/1073092/#habracut\">Читать далее</a>",
     "image": "https://habrastorage.org/getpro/habr/upload_files/643/a56/21b/643a5621b371b90e60fee44a4f699dcc.jpg"
-  },
-  {
-    "title": "Compulsion Games отделяется от XBOX",
-    "link": "https://habr.com/ru/news/1073060/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073060",
-    "published": "Fri, 21 Aug 2026 14:00:40 GMT",
-    "timestamp": 1787320840.0,
-    "source": "Хабр",
-    "language": "ru",
-    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/ceb/dac/b1c/cebdacb1c4f861d7bd6b942c53da966d.jpeg\" /><p>Генеральный директор Гийом Прово <a href=\"https://gamesbeat.com/compulsion-games-pulls-off-management-buyout-and-separates-from-xbox-exclusive/\" rel=\"noopener noreferrer nofollow\">подтвердил</a>, что компания выкупила долю XBOX, сохранила права на интеллектуальную собственность и сохраняет штат сотрудников.</p> <a href=\"https://habr.com/ru/articles/1073060/#habracut\">Читать полную новость</a>",
-    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/ceb/dac/b1c/cebdacb1c4f861d7bd6b942c53da966d.jpeg\" /><p>Генеральный директор Гийом Прово <a href=\"https://gamesbeat.com/compulsion-games-pulls-off-management-buyout-and-separates-from-xbox-exclusive/\" rel=\"noopener noreferrer nofollow\">подтвердил</a>, что компания выкупила долю XBOX, сохранила права на интеллектуальную собственность и сохраняет штат сотрудников.</p> <a href=\"https://habr.com/ru/articles/1073060/#habracut\">Читать полную новость</a>",
-    "image": "https://habrastorage.org/getpro/habr/upload_files/ceb/dac/b1c/cebdacb1c4f861d7bd6b942c53da966d.jpeg"
   },
   {
     "title": "🖼 VR-очки будут использовать для лечения бойцов СВО. Первая партия гаджетов для пс...",
@@ -710,8 +710,8 @@
     "timestamp": 1787318969.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p>Мем «6-7» (сикс-севен) <b>стал самым популярным в соцсетях</b> за первое полугодие 2026 — его упомянули более чем в 1,26 млн сообщений.</p><img height=\"519\" src=\"https://cdn4.telesco.pe/file/Fnha9XOPRX7Kkd7YCNN_BhCGegFaDjmUiKhQk8QBeoQnPdvp8cbRRz5LNxoaVA7HJSOXjkZ9fF-mQwkESV5TyV9JIQ3UTAe81cxARHMqXGgAIOCnmF5q7PEmo59dx6GMDfRH2qLclswFBOhTynd_9PUb-fwToGZgYFYtR8h9hJMMNXArSSJbWIYAerAnYHBe7HWWKK1oBWd8q6C84sSRyIVzZJKtEz4F_XsIZDKouZ3io8OzZso1Dr85rrPYbuFdgy6b3BTVee5--52sxvIHlC_fSdMIzK3krt1lhZgHzuEq22udNgiVAvWd5JJwA_37fED4fXnnMmlGwioELUDLNg.jpg\" width=\"519\" />",
-    "summary": "<p>Мем «6-7» (сикс-севен) <b>стал самым популярным в соцсетях</b> за первое полугодие 2026 — его упомянули более чем в 1,26 млн сообщений.</p><img height=\"519\" src=\"https://cdn4.telesco.pe/file/Fnha9XOPRX7Kkd7YCNN_BhCGegFaDjmUiKhQk8QBeoQnPdvp8cbRRz5LNxoaVA7HJSOXjkZ9fF-mQwkESV5TyV9JIQ3UTAe81cxARHMqXGgAIOCnmF5q7PEmo59dx6GMDfRH2qLclswFBOhTynd_9PUb-fwToGZgYFYtR8h9hJMMNXArSSJbWIYAerAnYHBe7HWWKK1oBWd8q6C84sSRyIVzZJKtEz4F_XsIZDKouZ3io8OzZso1Dr85rrPYbuFdgy6b3BTVee5--52sxvIHlC_fSdMIzK3krt1lhZgHzuEq22udNgiVAvWd5JJwA_37fED4fXnnMmlGwioELUDLNg.jpg\" width=\"519\" />",
+    "description": "<p>Мем «6-7» (сикс-севен) <b>стал самым популярным в соцсетях</b> за первое полугодие 2026 — его упомянули более чем в 1,26 млн сообщений.</p><img src=\"https://cdn4.telesco.pe/file/Fnha9XOPRX7Kkd7YCNN_BhCGegFaDjmUiKhQk8QBeoQnPdvp8cbRRz5LNxoaVA7HJSOXjkZ9fF-mQwkESV5TyV9JIQ3UTAe81cxARHMqXGgAIOCnmF5q7PEmo59dx6GMDfRH2qLclswFBOhTynd_9PUb-fwToGZgYFYtR8h9hJMMNXArSSJbWIYAerAnYHBe7HWWKK1oBWd8q6C84sSRyIVzZJKtEz4F_XsIZDKouZ3io8OzZso1Dr85rrPYbuFdgy6b3BTVee5--52sxvIHlC_fSdMIzK3krt1lhZgHzuEq22udNgiVAvWd5JJwA_37fED4fXnnMmlGwioELUDLNg.jpg\" />",
+    "summary": "<p>Мем «6-7» (сикс-севен) <b>стал самым популярным в соцсетях</b> за первое полугодие 2026 — его упомянули более чем в 1,26 млн сообщений.</p><img src=\"https://cdn4.telesco.pe/file/Fnha9XOPRX7Kkd7YCNN_BhCGegFaDjmUiKhQk8QBeoQnPdvp8cbRRz5LNxoaVA7HJSOXjkZ9fF-mQwkESV5TyV9JIQ3UTAe81cxARHMqXGgAIOCnmF5q7PEmo59dx6GMDfRH2qLclswFBOhTynd_9PUb-fwToGZgYFYtR8h9hJMMNXArSSJbWIYAerAnYHBe7HWWKK1oBWd8q6C84sSRyIVzZJKtEz4F_XsIZDKouZ3io8OzZso1Dr85rrPYbuFdgy6b3BTVee5--52sxvIHlC_fSdMIzK3krt1lhZgHzuEq22udNgiVAvWd5JJwA_37fED4fXnnMmlGwioELUDLNg.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/Fnha9XOPRX7Kkd7YCNN_BhCGegFaDjmUiKhQk8QBeoQnPdvp8cbRRz5LNxoaVA7HJSOXjkZ9fF-mQwkESV5TyV9JIQ3UTAe81cxARHMqXGgAIOCnmF5q7PEmo59dx6GMDfRH2qLclswFBOhTynd_9PUb-fwToGZgYFYtR8h9hJMMNXArSSJbWIYAerAnYHBe7HWWKK1oBWd8q6C84sSRyIVzZJKtEz4F_XsIZDKouZ3io8OzZso1Dr85rrPYbuFdgy6b3BTVee5--52sxvIHlC_fSdMIzK3krt1lhZgHzuEq22udNgiVAvWd5JJwA_37fED4fXnnMmlGwioELUDLNg.jpg"
   },
   {
@@ -732,8 +732,8 @@
     "timestamp": 1787316241.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p>С Днём Рождения, Ащьф ЛШТШФУМ!</p><img height=\"444\" src=\"https://cdn4.telesco.pe/file/MH7WYlNY5qjqhCR64L9hCpBZCW4BmHrDYkClRnWwBbdi0BIVUSAPIklyRN9myaDWVdFUN3E7OEvGLQPUuQTA6jp5A0NNXHWLlRuYkyt9jiQ0YXMgmXEkf6SqxVwArcz3oqFXzgI1c7ACX4_4BmsxYUyZ1Y4FIdVAENPc5f71CFPn3X9RboSZuWeBT4DFp4851zSoFKFxNdjSx-Gajk1t7_h6QYn_jflQ0e3y8rMJORcBTA0Cbz-LNFobiExPVqHctjUSZNSJo-77y3ukJXVuHbOuGYLCIe50fNFNPGh7BvjC2kEZdnkn3Ot5UirWYAjCgGmijBanM745cKWLTa3zEA.jpg\" width=\"800\" />",
-    "summary": "<p>С Днём Рождения, Ащьф ЛШТШФУМ!</p><img height=\"444\" src=\"https://cdn4.telesco.pe/file/MH7WYlNY5qjqhCR64L9hCpBZCW4BmHrDYkClRnWwBbdi0BIVUSAPIklyRN9myaDWVdFUN3E7OEvGLQPUuQTA6jp5A0NNXHWLlRuYkyt9jiQ0YXMgmXEkf6SqxVwArcz3oqFXzgI1c7ACX4_4BmsxYUyZ1Y4FIdVAENPc5f71CFPn3X9RboSZuWeBT4DFp4851zSoFKFxNdjSx-Gajk1t7_h6QYn_jflQ0e3y8rMJORcBTA0Cbz-LNFobiExPVqHctjUSZNSJo-77y3ukJXVuHbOuGYLCIe50fNFNPGh7BvjC2kEZdnkn3Ot5UirWYAjCgGmijBanM745cKWLTa3zEA.jpg\" width=\"800\" />",
+    "description": "<p>С Днём Рождения, Ащьф ЛШТШФУМ!</p><img src=\"https://cdn4.telesco.pe/file/MH7WYlNY5qjqhCR64L9hCpBZCW4BmHrDYkClRnWwBbdi0BIVUSAPIklyRN9myaDWVdFUN3E7OEvGLQPUuQTA6jp5A0NNXHWLlRuYkyt9jiQ0YXMgmXEkf6SqxVwArcz3oqFXzgI1c7ACX4_4BmsxYUyZ1Y4FIdVAENPc5f71CFPn3X9RboSZuWeBT4DFp4851zSoFKFxNdjSx-Gajk1t7_h6QYn_jflQ0e3y8rMJORcBTA0Cbz-LNFobiExPVqHctjUSZNSJo-77y3ukJXVuHbOuGYLCIe50fNFNPGh7BvjC2kEZdnkn3Ot5UirWYAjCgGmijBanM745cKWLTa3zEA.jpg\" />",
+    "summary": "<p>С Днём Рождения, Ащьф ЛШТШФУМ!</p><img src=\"https://cdn4.telesco.pe/file/MH7WYlNY5qjqhCR64L9hCpBZCW4BmHrDYkClRnWwBbdi0BIVUSAPIklyRN9myaDWVdFUN3E7OEvGLQPUuQTA6jp5A0NNXHWLlRuYkyt9jiQ0YXMgmXEkf6SqxVwArcz3oqFXzgI1c7ACX4_4BmsxYUyZ1Y4FIdVAENPc5f71CFPn3X9RboSZuWeBT4DFp4851zSoFKFxNdjSx-Gajk1t7_h6QYn_jflQ0e3y8rMJORcBTA0Cbz-LNFobiExPVqHctjUSZNSJo-77y3ukJXVuHbOuGYLCIe50fNFNPGh7BvjC2kEZdnkn3Ot5UirWYAjCgGmijBanM745cKWLTa3zEA.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/MH7WYlNY5qjqhCR64L9hCpBZCW4BmHrDYkClRnWwBbdi0BIVUSAPIklyRN9myaDWVdFUN3E7OEvGLQPUuQTA6jp5A0NNXHWLlRuYkyt9jiQ0YXMgmXEkf6SqxVwArcz3oqFXzgI1c7ACX4_4BmsxYUyZ1Y4FIdVAENPc5f71CFPn3X9RboSZuWeBT4DFp4851zSoFKFxNdjSx-Gajk1t7_h6QYn_jflQ0e3y8rMJORcBTA0Cbz-LNFobiExPVqHctjUSZNSJo-77y3ukJXVuHbOuGYLCIe50fNFNPGh7BvjC2kEZdnkn3Ot5UirWYAjCgGmijBanM745cKWLTa3zEA.jpg"
   },
   {
@@ -864,8 +864,8 @@
     "timestamp": 1787306941.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p><b>Мэр итальянского города Комо запретил кататься на велосипеде в центре после того, как его самого сбил велосипедист. </b><br /><br />«Меня обвиняют в принятии этой меры, потому что меня сбил электровелосипед — да, это правда», — прокомментировал он критику закона. <br /><br />После этого мэр назвал велосипедистов тварями и не поменял решения.<br /><br />0% осуждения.</p><img height=\"793\" src=\"https://cdn4.telesco.pe/file/tFf3Ox56gaygPELJpYtYIUxj_1F0GCbGQAVoSDyHTkE5GrXh14rLcFpYzga_e2k07UmrWOSjd7MNXdpgzR4ca9ajPX0UlEgKplfo3IdyTkYjLkdc3r3ca_zchLsFaxKoa-t3z6WK75AW-kBeKdKOBuUSVLc3sNRVyoZ4_oJZEMHmWW-LCcNwO_IcIg7QqeLRIyf-14OGZnwldsISFRPtXEfKDgw0g-ON2Qr7UFdEmPtRNmZCGNGV7whCMRzNwWJH5sQ0r2KVaMOwpKck3_HoZhR3w-8Z3Voa22ZauR9BMp5-l-9-1pyBe5E2RCweGzDJIEkQu17XFlb9KsRYY99kWQ.jpg\" width=\"800\" />",
-    "summary": "<p><b>Мэр итальянского города Комо запретил кататься на велосипеде в центре после того, как его самого сбил велосипедист. </b><br /><br />«Меня обвиняют в принятии этой меры, потому что меня сбил электровелосипед — да, это правда», — прокомментировал он критику закона. <br /><br />После этого мэр назвал велосипедистов тварями и не поменял решения.<br /><br />0% осуждения.</p><img height=\"793\" src=\"https://cdn4.telesco.pe/file/tFf3Ox56gaygPELJpYtYIUxj_1F0GCbGQAVoSDyHTkE5GrXh14rLcFpYzga_e2k07UmrWOSjd7MNXdpgzR4ca9ajPX0UlEgKplfo3IdyTkYjLkdc3r3ca_zchLsFaxKoa-t3z6WK75AW-kBeKdKOBuUSVLc3sNRVyoZ4_oJZEMHmWW-LCcNwO_IcIg7QqeLRIyf-14OGZnwldsISFRPtXEfKDgw0g-ON2Qr7UFdEmPtRNmZCGNGV7whCMRzNwWJH5sQ0r2KVaMOwpKck3_HoZhR3w-8Z3Voa22ZauR9BMp5-l-9-1pyBe5E2RCweGzDJIEkQu17XFlb9KsRYY99kWQ.jpg\" width=\"800\" />",
+    "description": "<p><b>Мэр итальянского города Комо запретил кататься на велосипеде в центре после того, как его самого сбил велосипедист. </b><br /><br />«Меня обвиняют в принятии этой меры, потому что меня сбил электровелосипед — да, это правда», — прокомментировал он критику закона. <br /><br />После этого мэр назвал велосипедистов тварями и не поменял решения.<br /><br />0% осуждения.</p><img src=\"https://cdn4.telesco.pe/file/tFf3Ox56gaygPELJpYtYIUxj_1F0GCbGQAVoSDyHTkE5GrXh14rLcFpYzga_e2k07UmrWOSjd7MNXdpgzR4ca9ajPX0UlEgKplfo3IdyTkYjLkdc3r3ca_zchLsFaxKoa-t3z6WK75AW-kBeKdKOBuUSVLc3sNRVyoZ4_oJZEMHmWW-LCcNwO_IcIg7QqeLRIyf-14OGZnwldsISFRPtXEfKDgw0g-ON2Qr7UFdEmPtRNmZCGNGV7whCMRzNwWJH5sQ0r2KVaMOwpKck3_HoZhR3w-8Z3Voa22ZauR9BMp5-l-9-1pyBe5E2RCweGzDJIEkQu17XFlb9KsRYY99kWQ.jpg\" />",
+    "summary": "<p><b>Мэр итальянского города Комо запретил кататься на велосипеде в центре после того, как его самого сбил велосипедист. </b><br /><br />«Меня обвиняют в принятии этой меры, потому что меня сбил электровелосипед — да, это правда», — прокомментировал он критику закона. <br /><br />После этого мэр назвал велосипедистов тварями и не поменял решения.<br /><br />0% осуждения.</p><img src=\"https://cdn4.telesco.pe/file/tFf3Ox56gaygPELJpYtYIUxj_1F0GCbGQAVoSDyHTkE5GrXh14rLcFpYzga_e2k07UmrWOSjd7MNXdpgzR4ca9ajPX0UlEgKplfo3IdyTkYjLkdc3r3ca_zchLsFaxKoa-t3z6WK75AW-kBeKdKOBuUSVLc3sNRVyoZ4_oJZEMHmWW-LCcNwO_IcIg7QqeLRIyf-14OGZnwldsISFRPtXEfKDgw0g-ON2Qr7UFdEmPtRNmZCGNGV7whCMRzNwWJH5sQ0r2KVaMOwpKck3_HoZhR3w-8Z3Voa22ZauR9BMp5-l-9-1pyBe5E2RCweGzDJIEkQu17XFlb9KsRYY99kWQ.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/tFf3Ox56gaygPELJpYtYIUxj_1F0GCbGQAVoSDyHTkE5GrXh14rLcFpYzga_e2k07UmrWOSjd7MNXdpgzR4ca9ajPX0UlEgKplfo3IdyTkYjLkdc3r3ca_zchLsFaxKoa-t3z6WK75AW-kBeKdKOBuUSVLc3sNRVyoZ4_oJZEMHmWW-LCcNwO_IcIg7QqeLRIyf-14OGZnwldsISFRPtXEfKDgw0g-ON2Qr7UFdEmPtRNmZCGNGV7whCMRzNwWJH5sQ0r2KVaMOwpKck3_HoZhR3w-8Z3Voa22ZauR9BMp5-l-9-1pyBe5E2RCweGzDJIEkQu17XFlb9KsRYY99kWQ.jpg"
   },
   {
@@ -897,8 +897,8 @@
     "timestamp": 1787302261.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p><b>Дэйв Батиста стал новым Кратосом </b>— он сыграет в сериале God of War, заменив Райана Хёрста, который порвал бицепс.<br /><br />Идеально.</p><img height=\"533\" src=\"https://cdn4.telesco.pe/file/JzYuPH58DZR2ptk1h9DRmhCuqzlCdrBYy8CplrOZ_V7NA7YY5BmVaUJ6q1o53Y6FGOOX13CP-jc7RUAQyuFHMUrRE7ruZ12RjVXETRpzTxKKB4BAiuyO0A_KCyUdCpxSnbjEvuWuuLv-BdsTyfJewyuKefYFEww6zDhEJz-xQUIqA9UL3KKikKYvKGonOytFt-XxHHnGXAKzIPOVR5dQLtqkuqZqvRBPbDycBbR8aE-aiB5Ooi3P2KvHjpm2qOWQ8tnpqkHDqsw8odTNi0BqX-bVwST2Kp1R3dUn5JT4BIP5KBmfdOCNZDS4S9cdhT3Ea4jn94tJB_OVXjFp-AedhA.jpg\" width=\"800\" />",
-    "summary": "<p><b>Дэйв Батиста стал новым Кратосом </b>— он сыграет в сериале God of War, заменив Райана Хёрста, который порвал бицепс.<br /><br />Идеально.</p><img height=\"533\" src=\"https://cdn4.telesco.pe/file/JzYuPH58DZR2ptk1h9DRmhCuqzlCdrBYy8CplrOZ_V7NA7YY5BmVaUJ6q1o53Y6FGOOX13CP-jc7RUAQyuFHMUrRE7ruZ12RjVXETRpzTxKKB4BAiuyO0A_KCyUdCpxSnbjEvuWuuLv-BdsTyfJewyuKefYFEww6zDhEJz-xQUIqA9UL3KKikKYvKGonOytFt-XxHHnGXAKzIPOVR5dQLtqkuqZqvRBPbDycBbR8aE-aiB5Ooi3P2KvHjpm2qOWQ8tnpqkHDqsw8odTNi0BqX-bVwST2Kp1R3dUn5JT4BIP5KBmfdOCNZDS4S9cdhT3Ea4jn94tJB_OVXjFp-AedhA.jpg\" width=\"800\" />",
+    "description": "<p><b>Дэйв Батиста стал новым Кратосом </b>— он сыграет в сериале God of War, заменив Райана Хёрста, который порвал бицепс.<br /><br />Идеально.</p><img src=\"https://cdn4.telesco.pe/file/JzYuPH58DZR2ptk1h9DRmhCuqzlCdrBYy8CplrOZ_V7NA7YY5BmVaUJ6q1o53Y6FGOOX13CP-jc7RUAQyuFHMUrRE7ruZ12RjVXETRpzTxKKB4BAiuyO0A_KCyUdCpxSnbjEvuWuuLv-BdsTyfJewyuKefYFEww6zDhEJz-xQUIqA9UL3KKikKYvKGonOytFt-XxHHnGXAKzIPOVR5dQLtqkuqZqvRBPbDycBbR8aE-aiB5Ooi3P2KvHjpm2qOWQ8tnpqkHDqsw8odTNi0BqX-bVwST2Kp1R3dUn5JT4BIP5KBmfdOCNZDS4S9cdhT3Ea4jn94tJB_OVXjFp-AedhA.jpg\" />",
+    "summary": "<p><b>Дэйв Батиста стал новым Кратосом </b>— он сыграет в сериале God of War, заменив Райана Хёрста, который порвал бицепс.<br /><br />Идеально.</p><img src=\"https://cdn4.telesco.pe/file/JzYuPH58DZR2ptk1h9DRmhCuqzlCdrBYy8CplrOZ_V7NA7YY5BmVaUJ6q1o53Y6FGOOX13CP-jc7RUAQyuFHMUrRE7ruZ12RjVXETRpzTxKKB4BAiuyO0A_KCyUdCpxSnbjEvuWuuLv-BdsTyfJewyuKefYFEww6zDhEJz-xQUIqA9UL3KKikKYvKGonOytFt-XxHHnGXAKzIPOVR5dQLtqkuqZqvRBPbDycBbR8aE-aiB5Ooi3P2KvHjpm2qOWQ8tnpqkHDqsw8odTNi0BqX-bVwST2Kp1R3dUn5JT4BIP5KBmfdOCNZDS4S9cdhT3Ea4jn94tJB_OVXjFp-AedhA.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/JzYuPH58DZR2ptk1h9DRmhCuqzlCdrBYy8CplrOZ_V7NA7YY5BmVaUJ6q1o53Y6FGOOX13CP-jc7RUAQyuFHMUrRE7ruZ12RjVXETRpzTxKKB4BAiuyO0A_KCyUdCpxSnbjEvuWuuLv-BdsTyfJewyuKefYFEww6zDhEJz-xQUIqA9UL3KKikKYvKGonOytFt-XxHHnGXAKzIPOVR5dQLtqkuqZqvRBPbDycBbR8aE-aiB5Ooi3P2KvHjpm2qOWQ8tnpqkHDqsw8odTNi0BqX-bVwST2Kp1R3dUn5JT4BIP5KBmfdOCNZDS4S9cdhT3Ea4jn94tJB_OVXjFp-AedhA.jpg"
   },
   {
@@ -941,8 +941,8 @@
     "timestamp": 1787292721.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p><b>В Пересвете пьяный мужик решил стать «царём <s>горы</s> памятника».</b><br /><br />36-летний житель поспорил с подростками, что сможет забраться на пьедестал памятника Александру Пересвету. Забрался. <br /><br />Теперь короля ждет бутылка правосудия.</p><img height=\"660\" src=\"https://cdn4.telesco.pe/file/pZ4z4x2sASjoD3OY55mOqE5xqGOSWkekpzKG82DHtGpQb-oK9gI5kJK4sK2XWtSLekHhxD7PkzxMOYuE756dDJhXn4jsY6LzK2O4MjX1TLRQhEDU3GmuEUNKuZphiuCQ8i9XDsaBTOYY8dRdOywy8F28Ww_LPSGYMa6KPecy8SVpTqiOmbd7PLwWWZHAOXX8L0SdLQBlgrkRW98zV0kkTX7wKn8wX0d6y48ACxVDZpPjog0Bxj9dV-mZjusAnPH4HcLtzF7mG-VJ3FXNJwfY_Pz0KcWbgMTwGH4ER4AIHdI0gzte_MLuJsHFDlmDsDD2TkGEJ-igmd9brG7iQF-jyQ.jpg\" width=\"495\" />",
-    "summary": "<p><b>В Пересвете пьяный мужик решил стать «царём <s>горы</s> памятника».</b><br /><br />36-летний житель поспорил с подростками, что сможет забраться на пьедестал памятника Александру Пересвету. Забрался. <br /><br />Теперь короля ждет бутылка правосудия.</p><img height=\"660\" src=\"https://cdn4.telesco.pe/file/pZ4z4x2sASjoD3OY55mOqE5xqGOSWkekpzKG82DHtGpQb-oK9gI5kJK4sK2XWtSLekHhxD7PkzxMOYuE756dDJhXn4jsY6LzK2O4MjX1TLRQhEDU3GmuEUNKuZphiuCQ8i9XDsaBTOYY8dRdOywy8F28Ww_LPSGYMa6KPecy8SVpTqiOmbd7PLwWWZHAOXX8L0SdLQBlgrkRW98zV0kkTX7wKn8wX0d6y48ACxVDZpPjog0Bxj9dV-mZjusAnPH4HcLtzF7mG-VJ3FXNJwfY_Pz0KcWbgMTwGH4ER4AIHdI0gzte_MLuJsHFDlmDsDD2TkGEJ-igmd9brG7iQF-jyQ.jpg\" width=\"495\" />",
+    "description": "<p><b>В Пересвете пьяный мужик решил стать «царём <s>горы</s> памятника».</b><br /><br />36-летний житель поспорил с подростками, что сможет забраться на пьедестал памятника Александру Пересвету. Забрался. <br /><br />Теперь короля ждет бутылка правосудия.</p><img src=\"https://cdn4.telesco.pe/file/pZ4z4x2sASjoD3OY55mOqE5xqGOSWkekpzKG82DHtGpQb-oK9gI5kJK4sK2XWtSLekHhxD7PkzxMOYuE756dDJhXn4jsY6LzK2O4MjX1TLRQhEDU3GmuEUNKuZphiuCQ8i9XDsaBTOYY8dRdOywy8F28Ww_LPSGYMa6KPecy8SVpTqiOmbd7PLwWWZHAOXX8L0SdLQBlgrkRW98zV0kkTX7wKn8wX0d6y48ACxVDZpPjog0Bxj9dV-mZjusAnPH4HcLtzF7mG-VJ3FXNJwfY_Pz0KcWbgMTwGH4ER4AIHdI0gzte_MLuJsHFDlmDsDD2TkGEJ-igmd9brG7iQF-jyQ.jpg\" />",
+    "summary": "<p><b>В Пересвете пьяный мужик решил стать «царём <s>горы</s> памятника».</b><br /><br />36-летний житель поспорил с подростками, что сможет забраться на пьедестал памятника Александру Пересвету. Забрался. <br /><br />Теперь короля ждет бутылка правосудия.</p><img src=\"https://cdn4.telesco.pe/file/pZ4z4x2sASjoD3OY55mOqE5xqGOSWkekpzKG82DHtGpQb-oK9gI5kJK4sK2XWtSLekHhxD7PkzxMOYuE756dDJhXn4jsY6LzK2O4MjX1TLRQhEDU3GmuEUNKuZphiuCQ8i9XDsaBTOYY8dRdOywy8F28Ww_LPSGYMa6KPecy8SVpTqiOmbd7PLwWWZHAOXX8L0SdLQBlgrkRW98zV0kkTX7wKn8wX0d6y48ACxVDZpPjog0Bxj9dV-mZjusAnPH4HcLtzF7mG-VJ3FXNJwfY_Pz0KcWbgMTwGH4ER4AIHdI0gzte_MLuJsHFDlmDsDD2TkGEJ-igmd9brG7iQF-jyQ.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/pZ4z4x2sASjoD3OY55mOqE5xqGOSWkekpzKG82DHtGpQb-oK9gI5kJK4sK2XWtSLekHhxD7PkzxMOYuE756dDJhXn4jsY6LzK2O4MjX1TLRQhEDU3GmuEUNKuZphiuCQ8i9XDsaBTOYY8dRdOywy8F28Ww_LPSGYMa6KPecy8SVpTqiOmbd7PLwWWZHAOXX8L0SdLQBlgrkRW98zV0kkTX7wKn8wX0d6y48ACxVDZpPjog0Bxj9dV-mZjusAnPH4HcLtzF7mG-VJ3FXNJwfY_Pz0KcWbgMTwGH4ER4AIHdI0gzte_MLuJsHFDlmDsDD2TkGEJ-igmd9brG7iQF-jyQ.jpg"
   },
   {
@@ -974,8 +974,8 @@
     "timestamp": 1787254412.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p>Это разборка… питерская</p><img height=\"375\" src=\"https://cdn4.telesco.pe/file/MTjWjdHilug_qesuJ6x6gAOMkp_jDrMvk8I4Whu1Jc722D44qboWHjvziE1gF-ifqql2PFiu2Wu3lxT6GKZRE_OqW9UgHwtuiAuYf017Bsvsjp4SWuFl3CpBHpYl15edSk8f8DFPJt05hVbIIkRPEqUdAhS1lqbD3BUjVWMNmwXj36r9OQE3aYcpEJMw28RB2rR4eSxX26Ir8fMmCWgUconOlz3_t9Ykd_XSd-7QepCSOqrsdQCAoZTuoXLfpLddsJuIi1kvvR13iBC8vzN4g-W9Eg5LH3-BNn0o3-e5tlvXgB_-VzfbWiP3rs_h-IoXVF8YZtKvri4J5m9ALj3FOw.jpg\" width=\"576\" />",
-    "summary": "<p>Это разборка… питерская</p><img height=\"375\" src=\"https://cdn4.telesco.pe/file/MTjWjdHilug_qesuJ6x6gAOMkp_jDrMvk8I4Whu1Jc722D44qboWHjvziE1gF-ifqql2PFiu2Wu3lxT6GKZRE_OqW9UgHwtuiAuYf017Bsvsjp4SWuFl3CpBHpYl15edSk8f8DFPJt05hVbIIkRPEqUdAhS1lqbD3BUjVWMNmwXj36r9OQE3aYcpEJMw28RB2rR4eSxX26Ir8fMmCWgUconOlz3_t9Ykd_XSd-7QepCSOqrsdQCAoZTuoXLfpLddsJuIi1kvvR13iBC8vzN4g-W9Eg5LH3-BNn0o3-e5tlvXgB_-VzfbWiP3rs_h-IoXVF8YZtKvri4J5m9ALj3FOw.jpg\" width=\"576\" />",
+    "description": "<p>Это разборка… питерская</p><img src=\"https://cdn4.telesco.pe/file/MTjWjdHilug_qesuJ6x6gAOMkp_jDrMvk8I4Whu1Jc722D44qboWHjvziE1gF-ifqql2PFiu2Wu3lxT6GKZRE_OqW9UgHwtuiAuYf017Bsvsjp4SWuFl3CpBHpYl15edSk8f8DFPJt05hVbIIkRPEqUdAhS1lqbD3BUjVWMNmwXj36r9OQE3aYcpEJMw28RB2rR4eSxX26Ir8fMmCWgUconOlz3_t9Ykd_XSd-7QepCSOqrsdQCAoZTuoXLfpLddsJuIi1kvvR13iBC8vzN4g-W9Eg5LH3-BNn0o3-e5tlvXgB_-VzfbWiP3rs_h-IoXVF8YZtKvri4J5m9ALj3FOw.jpg\" />",
+    "summary": "<p>Это разборка… питерская</p><img src=\"https://cdn4.telesco.pe/file/MTjWjdHilug_qesuJ6x6gAOMkp_jDrMvk8I4Whu1Jc722D44qboWHjvziE1gF-ifqql2PFiu2Wu3lxT6GKZRE_OqW9UgHwtuiAuYf017Bsvsjp4SWuFl3CpBHpYl15edSk8f8DFPJt05hVbIIkRPEqUdAhS1lqbD3BUjVWMNmwXj36r9OQE3aYcpEJMw28RB2rR4eSxX26Ir8fMmCWgUconOlz3_t9Ykd_XSd-7QepCSOqrsdQCAoZTuoXLfpLddsJuIi1kvvR13iBC8vzN4g-W9Eg5LH3-BNn0o3-e5tlvXgB_-VzfbWiP3rs_h-IoXVF8YZtKvri4J5m9ALj3FOw.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/MTjWjdHilug_qesuJ6x6gAOMkp_jDrMvk8I4Whu1Jc722D44qboWHjvziE1gF-ifqql2PFiu2Wu3lxT6GKZRE_OqW9UgHwtuiAuYf017Bsvsjp4SWuFl3CpBHpYl15edSk8f8DFPJt05hVbIIkRPEqUdAhS1lqbD3BUjVWMNmwXj36r9OQE3aYcpEJMw28RB2rR4eSxX26Ir8fMmCWgUconOlz3_t9Ykd_XSd-7QepCSOqrsdQCAoZTuoXLfpLddsJuIi1kvvR13iBC8vzN4g-W9Eg5LH3-BNn0o3-e5tlvXgB_-VzfbWiP3rs_h-IoXVF8YZtKvri4J5m9ALj3FOw.jpg"
   },
   {
