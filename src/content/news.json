@@ -1,9 +1,75 @@
 [
   {
-    "title": "Командир Сава сообщил об уничтожении скопления боевиков ВСУ в Сумской области",
-    "link": "https://tass.ru/armiya-i-opk/28036509",
-    "published": "Sun, 23 Aug 2026 07:32:49 +0300",
-    "timestamp": 1787459569.0,
+    "title": "С вулкана Толбачик на Камчатке вертолетами вывезли 99 человек",
+    "link": "https://tass.ru/obschestvo/28036669",
+    "published": "Sun, 23 Aug 2026 09:40:54 +0300",
+    "timestamp": 1787467254.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Еще 18 ждут последний рейс",
+    "summary": "Еще 18 ждут последний рейс",
+    "image": ""
+  },
+  {
+    "title": "Малком перешел в эмиратскую «Аль-Джазиру»",
+    "link": "https://lenta.ru/news/2026/08/23/malkom-pereshel-v-emiratskuyu-al-dzhaziru/",
+    "published": "Sun, 23 Aug 2026 09:40:39 +0300",
+    "timestamp": 1787467239.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png"
+  },
+  {
+    "title": "ВГА: контратаки на харьковском фронте заканчиваются для ВСУ огромными потерями",
+    "link": "https://tass.ru/armiya-i-opk/28036665",
+    "published": "Sun, 23 Aug 2026 09:40:20 +0300",
+    "timestamp": 1787467220.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Они носят локальный характер, уточнил замглавы военно-гражданской администрации Харьковской области по обороне и безопасности Евгений Лисняк",
+    "summary": "Они носят локальный характер, уточнил замглавы военно-гражданской администрации Харьковской области по обороне и безопасности Евгений Лисняк",
+    "image": ""
+  },
+  {
+    "title": "Минобороны отчиталось об ударах по объектам в украинском порту Южный",
+    "link": "https://www.kommersant.ru/doc/8906373",
+    "published": "Sun, 23 Aug 2026 09:39:41 +0300",
+    "timestamp": 1787467181.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Вооруженные силы России нанесли удары по резервуарам с горюче-смазочными материалами и объектам инфраструктуры в порту Южный в Одесской области. Об этом заявили в российском Минобороны.",
+    "summary": "Вооруженные силы России нанесли удары по резервуарам с горюче-смазочными материалами и объектам инфраструктуры в порту Южный в Одесской области. Об этом заявили в российском Минобороны.",
+    "image": ""
+  },
+  {
+    "title": "В МИД рассказали об обеспечении безопасности выборов в Госдуму за границей",
+    "link": "https://lenta.ru/news/2026/08/23/v-mid-rasskazali-ob-obespechenii-bezopasnosti-vyborov-v-gosdumu-za-granitsey/",
+    "published": "Sun, 23 Aug 2026 09:37:57 +0300",
+    "timestamp": 1787467077.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/09/20260823093017906/pic_43b6977102aa27d002b6ab86814004d5.jpg"
+  },
+  {
+    "title": "Линус Торвальдс использовал ИИ для отладки ошибки в драйвере графического процессора Intel",
+    "link": "https://habr.com/ru/news/1073386/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073386",
+    "published": "Sun, 23 Aug 2026 06:37:47 GMT",
+    "timestamp": 1787467067.0,
+    "source": "Хабр",
+    "language": "ru",
+    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/96d/602/1a1/96d6021a1d2afc15119c39d3fb3e8053.JPG\" /><p>Линус Торвальдс <a href=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\" rel=\"noopener noreferrer nofollow\">написал</a> и внёс изменения в&nbsp;драйвер графического ядра Intel Xe. Это произошло после того, как&nbsp;он столкнулся с «адской отладкой», но&nbsp;в&nbsp;итоге ему помог искусственный интеллект.</p> <a href=\"https://habr.com/ru/articles/1073386/#habracut\">Читать далее</a>",
+    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/96d/602/1a1/96d6021a1d2afc15119c39d3fb3e8053.JPG\" /><p>Линус Торвальдс <a href=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\" rel=\"noopener noreferrer nofollow\">написал</a> и внёс изменения в&nbsp;драйвер графического ядра Intel Xe. Это произошло после того, как&nbsp;он столкнулся с «адской отладкой», но&nbsp;в&nbsp;итоге ему помог искусственный интеллект.</p> <a href=\"https://habr.com/ru/articles/1073386/#habracut\">Читать далее</a>",
+    "image": "https://habrastorage.org/getpro/habr/upload_files/96d/602/1a1/96d6021a1d2afc15119c39d3fb3e8053.JPG"
+  },
+  {
+    "title": "ЦИК отправил коллегам из более чем 100 стран приглашение на наблюдение за выборами в ГД",
+    "link": "https://tass.ru/politika/28036667",
+    "published": "Sun, 23 Aug 2026 09:37:38 +0300",
+    "timestamp": 1787467058.0,
     "source": "ТАСС",
     "language": "ru",
     "description": "",
@@ -11,10 +77,21 @@
     "image": ""
   },
   {
-    "title": "В Госдуме заявили, что Туск войдет в историю как укрыватель террористов",
-    "link": "https://ria.ru/20260823/gosduma-2112594203.html",
-    "published": "Sun, 23 Aug 2026 07:32:39 +0300",
-    "timestamp": 1787459559.0,
+    "title": "ВСУ атаковали Оренбургскую область. Обломки БПЛА упали на логистический комплекс Ozon, возник пожар",
+    "link": "https://lenta.ru/news/2026/08/23/long-vsu-atakovali-orenburgskuyu-oblast-oblomki-bpla-upali-na-logisticheskiy-kompleks-ozon-voznik-pozhar/",
+    "published": "Sun, 23 Aug 2026 09:36:00 +0300",
+    "timestamp": 1787466960.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/08/20260823084933219/pic_d3b05acfc466ee4acf92dd38671a6822.jpg"
+  },
+  {
+    "title": "В Омске умер четвертый пострадавший при пожаре на стройплощадке",
+    "link": "https://ria.ru/20260823/omsk-2112605520.html",
+    "published": "Sun, 23 Aug 2026 09:35:56 +0300",
+    "timestamp": 1787466956.0,
     "source": "РИА Новости",
     "language": "ru",
     "description": "",
@@ -22,54 +99,142 @@
     "image": ""
   },
   {
-    "title": "Названы самые высокооплачиваемые рабочие специальности в России",
-    "link": "https://lenta.ru/news/2026/08/23/nazvany-samye-vysokooplachivaemye-rabochie-spetsialnosti-v-rossii/",
-    "published": "Sun, 23 Aug 2026 07:30:14 +0300",
-    "timestamp": 1787459414.0,
+    "title": "В Тамбове и Ярославле сняли ограничения на полеты",
+    "link": "https://ria.ru/20260823/tambov-2112605372.html",
+    "published": "Sun, 23 Aug 2026 09:35:40 +0300",
+    "timestamp": 1787466940.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "В аэропортах Ярославля и Тамбова сняли ограничения",
+    "link": "https://tass.ru/obschestvo/28036661",
+    "published": "Sun, 23 Aug 2026 09:34:56 +0300",
+    "timestamp": 1787466896.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Эту информацию сообщили в пресс-службе Росавиации",
+    "summary": "Эту информацию сообщили в пресс-службе Росавиации",
+    "image": ""
+  },
+  {
+    "title": "Ozon эвакуировал сотни сотрудников после атаки БПЛА",
+    "link": "https://lenta.ru/news/2026/08/23/ozon-evakuiroval-sotni-sotrudnikov-posle-ataki-bpla/",
+    "published": "Sun, 23 Aug 2026 09:34:23 +0300",
+    "timestamp": 1787466863.0,
     "source": "Лента.ру",
     "language": "ru",
     "description": "",
     "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/22/16/20260822165204260/pic_7792a2b61e54d63eeca413a9ab372f64.jpg"
+    "image": "https://icdn.lenta.ru/images/2026/08/23/08/20260823080303614/pic_5160dc32d0e43679f2178a54d8027d7e.jpg"
   },
   {
-    "title": "В Пекине стартовали вторые Всемирные игры гуманоидных роботов. Видео",
-    "link": "https://www.rbc.ru/technology_and_media/20/08/2026/6a841a8c9a7947402e5f1aef",
-    "published": "Sun, 23 Aug 2026 07:30:12 +0300",
-    "timestamp": 1787459412.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "В Пекине открылись 2-е Всемирные игры человекоподобных роботов (World Humanoid Robot Games), передает &laquo;Синьхуа&raquo;.",
-    "summary": "В Пекине открылись 2-е Всемирные игры человекоподобных роботов (World Humanoid Robot Games), передает &laquo;Синьхуа&raquo;.",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/3/07/347874236125073.png"
-  },
-  {
-    "title": "ABC: в Неваде произошел природный пожар",
-    "link": "https://tass.ru/proisshestviya/28036503",
-    "published": "Sun, 23 Aug 2026 07:28:01 +0300",
-    "timestamp": 1787459281.0,
+    "title": "Bloomberg узнал о совершении в июне Трампом более 1 тыс. сделок на бирже",
+    "link": "https://tass.ru/ekonomika/28036641",
+    "published": "Sun, 23 Aug 2026 09:34:19 +0300",
+    "timestamp": 1787466859.0,
     "source": "ТАСС",
     "language": "ru",
-    "description": "Пламя угрожает примерно 1 тыс. домов, в связи с чем объявили эвакуацию жителей некоторых районов, сообщил телеканал",
-    "summary": "Пламя угрожает примерно 1 тыс. домов, в связи с чем объявили эвакуацию жителей некоторых районов, сообщил телеканал",
+    "description": "Их сумма варьируется от $78,1 млн до $263,1 млн, уточнило агентство",
+    "summary": "Их сумма варьируется от $78,1 млн до $263,1 млн, уточнило агентство",
     "image": ""
   },
   {
-    "title": "Мирошник: основной шок от массированных атак на Донбасс и Новороссию миновал",
-    "link": "https://tass.ru/obschestvo/28036501",
-    "published": "Sun, 23 Aug 2026 07:26:27 +0300",
-    "timestamp": 1787459187.0,
-    "source": "ТАСС",
+    "title": "Нуньес перешел из \"Аль-Хиляля\" в \"Аль-Дирию\"",
+    "link": "https://ria.ru/20260823/nunesy-2112605207.html",
+    "published": "Sun, 23 Aug 2026 09:34:13 +0300",
+    "timestamp": 1787466853.0,
+    "source": "РИА Новости",
     "language": "ru",
     "description": "",
     "summary": "",
-    "image": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20260501/9019667.jpg"
+    "image": ""
   },
   {
-    "title": "Импорт арбузов из Грузии в Россию достиг рекордных $766 500",
-    "link": "https://www.vedomosti.ru/business/news/2026/08/23/1223037-import-arbuzov",
-    "published": "Sun, 23 Aug 2026 07:25:19 +0300",
-    "timestamp": 1787459119.0,
+    "title": "Футболист ЦСКА Баринов получил серьезную травму в матче с бывшим клубом",
+    "link": "https://lenta.ru/news/2026/08/23/futbolist-tsska-barinov-poluchil-serieznuyu-travmu-v-matche-s-byvshim-klubom/",
+    "published": "Sun, 23 Aug 2026 09:34:00 +0300",
+    "timestamp": 1787466840.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/09/20260823092534977/pic_e35308cf293d459ae5ed0691f79784b9.jpg"
+  },
+  {
+    "title": "В Москве стартовал Большой фестиваль бега",
+    "link": "https://ria.ru/20260823/moskva-2112605022.html",
+    "published": "Sun, 23 Aug 2026 09:33:42 +0300",
+    "timestamp": 1787466822.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "В Омске задержали подозреваемого по делу о пожаре на стройке",
+    "link": "https://www.rbc.ru/rbcfreenews/6a87e5799a79473e7cfe32d3",
+    "published": "Sun, 23 Aug 2026 09:32:29 +0300",
+    "timestamp": 1787466749.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Следователи задержали одного из подозреваемых по делу о пожаре в ЖК &laquo;Кварталы Драверта&raquo; в Омске&nbsp;&mdash; заместителя гендиректора подрядной организации, сообщил региональный следственный комитет (СК) в «Максе».",
+    "summary": "Следователи задержали одного из подозреваемых по делу о пожаре в ЖК &laquo;Кварталы Драверта&raquo; в Омске&nbsp;&mdash; заместителя гендиректора подрядной организации, сообщил региональный следственный комитет (СК) в «Максе».",
+    "image": ""
+  },
+  {
+    "title": "AP рассказало о «смертоносном наследии» из-за лесных пожаров в Европе",
+    "link": "https://www.rbc.ru/rbcfreenews/6a7daed99a79472d2cf69a4d",
+    "published": "Sun, 23 Aug 2026 09:31:41 +0300",
+    "timestamp": 1787466701.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Летние пожары в Европе обнажили смертельную угрозу — неразорвавшиеся бомбы и мины времен Первой и Второй мировых войн. Жара провоцирует их взрывы, создавая новые риски для пожарных и местных жителей, пишет AP",
+    "summary": "Летние пожары в Европе обнажили смертельную угрозу — неразорвавшиеся бомбы и мины времен Первой и Второй мировых войн. Жара провоцирует их взрывы, создавая новые риски для пожарных и местных жителей, пишет AP",
+    "image": ""
+  },
+  {
+    "title": "СКР задержал замглавы организации-подрядчика после пожара на стройке в Омске // Задержан подозреваемый по уголовному делу о пожаре на стройке в Омске",
+    "link": "https://www.kommersant.ru/doc/8906371",
+    "published": "Sun, 23 Aug 2026 09:30:26 +0300",
+    "timestamp": 1787466626.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Следователи задержали подозреваемого по уголовному делу о пожаре на стройке в Омске, при котором погибли три человека. Об этом сообщили в управлении СКР по Омской области.",
+    "summary": "Следователи задержали подозреваемого по уголовному делу о пожаре на стройке в Омске, при котором погибли три человека. Об этом сообщили в управлении СКР по Омской области.",
+    "image": ""
+  },
+  {
+    "title": "В Казахстане обнародовали первые данные о явке на выборах",
+    "link": "https://www.rbc.ru/rbcfreenews/6a79a09a9a79471e012151be",
+    "published": "Sun, 23 Aug 2026 09:28:49 +0300",
+    "timestamp": 1787466529.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "В Казахстане к 10 часам (08:00 мск) на выборах депутатов Курултая проголосовали 2&nbsp;264&nbsp;411 человек, или 17,96% избирателей из списков для голосования, сообщила Центральная избирательная комиссия (ЦИК) Казахстана.",
+    "summary": "В Казахстане к 10 часам (08:00 мск) на выборах депутатов Курултая проголосовали 2&nbsp;264&nbsp;411 человек, или 17,96% избирателей из списков для голосования, сообщила Центральная избирательная комиссия (ЦИК) Казахстана.",
+    "image": ""
+  },
+  {
+    "title": "В Катаре ближневосточный конфликт не повлиял на продажу продуктов из России",
+    "link": "https://ria.ru/20260823/katar-2112603951.html",
+    "published": "Sun, 23 Aug 2026 09:28:49 +0300",
+    "timestamp": 1787466529.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/07e9/02/13/2000261473_0:160:3072:1888_650x0_80_0_0_f977a9f3d9265304054749fbba98ff3d.jpg"
+  },
+  {
+    "title": "Число жертв пожара на стройке в Омске выросло до четырех",
+    "link": "https://www.vedomosti.ru/society/news/2026/08/23/1223047-chislo-zhertv-pozhara",
+    "published": "Sun, 23 Aug 2026 09:19:36 +0300",
+    "timestamp": 1787465976.0,
     "source": "Ведомости",
     "language": "ru",
     "description": "",
@@ -77,26 +242,169 @@
     "image": ""
   },
   {
-    "title": "Разработан новый метод восстановления нервных тканей",
-    "link": "https://tass.ru/nauka/28036497",
-    "published": "Sun, 23 Aug 2026 07:24:04 +0300",
-    "timestamp": 1787459044.0,
-    "source": "ТАСС",
+    "title": "🖼 Двух таджиков, пришедших на «Садовод» в женской одежде, депортируют из России.",
+    "link": "https://t.me/topor/51990",
+    "published": "Sun, 23 Aug 2026 06:17:25 GMT",
+    "timestamp": 1787465845.0,
+    "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "Для устранения дефектов нервов применяются биосинтетические материалы, заселенные клетками ткани, сообщил ректор КубГМУ профессор Сергей Алексеенко",
-    "summary": "Для устранения дефектов нервов применяются биосинтетические материалы, заселенные клетками ткани, сообщил ректор КубГМУ профессор Сергей Алексеенко",
+    "description": "<p><b>Двух таджиков, пришедших на «Садовод» в женской одежде, депортируют из России</b>. <br /><br />Торговцы явились в таком виде на рынок вечером 18 августа, их задержали через 10 минут. На мужчин составили протоколы о пропаганде ЛГБТ*, арестовали на 10 суток, а после отбытия ареста вышлют из страны. У одного из них есть ребёнок, у другого — четверо.<br /><br /><i>*Международное движение ЛГБТ признано экстремистским и запрещено на территории РФ.</i></p><img height=\"800\" src=\"https://cdn4.telesco.pe/file/u-exUe_AZHF1MDL49xXVGXal3LbqKlIXpOeSq2vOGNK78EsDkKFb7EmSwrsWwgXU95yy_7cHBoicZuYXuvvF_cJz6CkdYYpBmAq9PNbqYxbfAzBg3fYJB488wm39-TqIvDyPXocpKi1Cauf_Xk--9RJaSvjcPnfpVMfopX6pTnIFuhCBl9nGRqiBUvH9h9XftsUdPeP4OTEedWRjMchXymB550iWI1K1kQ-onjMOXqAsrwiDVzHSX2Wti2p16jy-uvwFhmu4I--1GchKtuDgdDA7UNH3TAZ0qI6VwIAGPVG19R6-K1ulmTpQUX00WS_k5l43oQ-FvltLHnXbHeMYfQ.jpg\" width=\"714\" />",
+    "summary": "<p><b>Двух таджиков, пришедших на «Садовод» в женской одежде, депортируют из России</b>. <br /><br />Торговцы явились в таком виде на рынок вечером 18 августа, их задержали через 10 минут. На мужчин составили протоколы о пропаганде ЛГБТ*, арестовали на 10 суток, а после отбытия ареста вышлют из страны. У одного из них есть ребёнок, у другого — четверо.<br /><br /><i>*Международное движение ЛГБТ признано экстремистским и запрещено на территории РФ.</i></p><img height=\"800\" src=\"https://cdn4.telesco.pe/file/u-exUe_AZHF1MDL49xXVGXal3LbqKlIXpOeSq2vOGNK78EsDkKFb7EmSwrsWwgXU95yy_7cHBoicZuYXuvvF_cJz6CkdYYpBmAq9PNbqYxbfAzBg3fYJB488wm39-TqIvDyPXocpKi1Cauf_Xk--9RJaSvjcPnfpVMfopX6pTnIFuhCBl9nGRqiBUvH9h9XftsUdPeP4OTEedWRjMchXymB550iWI1K1kQ-onjMOXqAsrwiDVzHSX2Wti2p16jy-uvwFhmu4I--1GchKtuDgdDA7UNH3TAZ0qI6VwIAGPVG19R6-K1ulmTpQUX00WS_k5l43oQ-FvltLHnXbHeMYfQ.jpg\" width=\"714\" />",
+    "image": "https://cdn4.telesco.pe/file/u-exUe_AZHF1MDL49xXVGXal3LbqKlIXpOeSq2vOGNK78EsDkKFb7EmSwrsWwgXU95yy_7cHBoicZuYXuvvF_cJz6CkdYYpBmAq9PNbqYxbfAzBg3fYJB488wm39-TqIvDyPXocpKi1Cauf_Xk--9RJaSvjcPnfpVMfopX6pTnIFuhCBl9nGRqiBUvH9h9XftsUdPeP4OTEedWRjMchXymB550iWI1K1kQ-onjMOXqAsrwiDVzHSX2Wti2p16jy-uvwFhmu4I--1GchKtuDgdDA7UNH3TAZ0qI6VwIAGPVG19R6-K1ulmTpQUX00WS_k5l43oQ-FvltLHnXbHeMYfQ.jpg"
+  },
+  {
+    "title": "В Anna's Archive призвали сканировать бумажные книги и загружать их в интернет",
+    "link": "https://habr.com/ru/news/1073380/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073380",
+    "published": "Sun, 23 Aug 2026 06:07:44 GMT",
+    "timestamp": 1787465264.0,
+    "source": "Хабр",
+    "language": "ru",
+    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/33c/bc8/b2a/33cbc8b2a832d09a98dd407fa566db32.JPG\" /><p>Члены пиратской библиотеки Anna's Archive <a href=\"https://annas-archive.pk/blog/physical-destruction.html\" rel=\"noopener noreferrer nofollow\">обратились</a> к&nbsp;волонтёрам со всего мира с&nbsp;просьбой сканировать и загружать книги в&nbsp;интернет, чтобы предотвратить их уничтожение компаниями, занимающимися искусственным интеллектом.&nbsp;</p> <a href=\"https://habr.com/ru/articles/1073380/#habracut\">Читать далее</a>",
+    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/33c/bc8/b2a/33cbc8b2a832d09a98dd407fa566db32.JPG\" /><p>Члены пиратской библиотеки Anna's Archive <a href=\"https://annas-archive.pk/blog/physical-destruction.html\" rel=\"noopener noreferrer nofollow\">обратились</a> к&nbsp;волонтёрам со всего мира с&nbsp;просьбой сканировать и загружать книги в&nbsp;интернет, чтобы предотвратить их уничтожение компаниями, занимающимися искусственным интеллектом.&nbsp;</p> <a href=\"https://habr.com/ru/articles/1073380/#habracut\">Читать далее</a>",
+    "image": "https://habrastorage.org/getpro/habr/upload_files/33c/bc8/b2a/33cbc8b2a832d09a98dd407fa566db32.JPG"
+  },
+  {
+    "title": "Ozon временно приостановил прием поставок на склад в Оренбургской области",
+    "link": "https://www.kommersant.ru/doc/8906369",
+    "published": "Sun, 23 Aug 2026 09:06:14 +0300",
+    "timestamp": 1787465174.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Маркетплейс Ozon временно приостановил работу склада в Оренбургской области, получившего повреждения при ударах беспилотников. Об этом сообщили в пресс-службе компании.",
+    "summary": "Маркетплейс Ozon временно приостановил работу склада в Оренбургской области, получившего повреждения при ударах беспилотников. Об этом сообщили в пресс-службе компании.",
     "image": ""
   },
   {
-    "title": "В \"Купибилет\" рассказали, куда москвичи планируют полететь на Новый год",
-    "link": "https://tass.ru/obschestvo/28036489",
-    "published": "Sun, 23 Aug 2026 07:23:47 +0300",
-    "timestamp": 1787459027.0,
-    "source": "ТАСС",
+    "title": "Зачем Токаеву новый курултай и какими будут выборы в него",
+    "link": "https://www.rbc.ru/rbcfreenews/6a7c262d9a794700ecba7776",
+    "published": "Sun, 23 Aug 2026 09:01:43 +0300",
+    "timestamp": 1787464903.0,
+    "source": "РБК",
     "language": "ru",
-    "description": "Это Таиланд и Калининград, говорится в исследовании",
-    "summary": "Это Таиланд и Калининград, говорится в исследовании",
+    "description": "В Казахстане проходят выборы в новый парламент, курултай, создаваемый в соответствии с новой Конституцией, принятой в марте. Почему важны эти выборы и как они связаны с транзитом президентской власти — в статье РБК",
+    "summary": "В Казахстане проходят выборы в новый парламент, курултай, создаваемый в соответствии с новой Конституцией, принятой в марте. Почему важны эти выборы и как они связаны с транзитом президентской власти — в статье РБК",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/5/89/347873142004895.jpeg"
+  },
+  {
+    "title": "Россияне заинтересовались судоку и «тренировками для мозга»",
+    "link": "https://www.rbc.ru/rbcfreenews/6a762f959a79470c421e8f97",
+    "published": "Sun, 23 Aug 2026 09:00:53 +0300",
+    "timestamp": 1787464853.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "В России растет спрос на товары для интеллектуального досуга и &laquo;тренировки мозга&raquo;, следует из данных книжных магазинов, издательств и маркетплейсов.",
+    "summary": "В России растет спрос на товары для интеллектуального досуга и &laquo;тренировки мозга&raquo;, следует из данных книжных магазинов, издательств и маркетплейсов.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/3/65/347872394927653.jpeg"
+  },
+  {
+    "title": "Проект Python официально начал публиковать документацию на русском языке",
+    "link": "https://habr.com/ru/news/1073382/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073382",
+    "published": "Sun, 23 Aug 2026 05:53:40 GMT",
+    "timestamp": 1787464420.0,
+    "source": "Хабр",
+    "language": "ru",
+    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/1c2/5e5/305/1c25e53056142adcb3c9a6b41935f37f.png\" /><p>В сообществе проекта Python <a href=\"https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/\" rel=\"noopener noreferrer nofollow\">сообщили</a> о переводе на русский язык <a href=\"https://docs.python.org/ru/\" rel=\"noopener noreferrer nofollow\">официальной документации</a> по популярному языку программирования. На русском языке стали доступны <a href=\"https://docs.python.org/ru/3/tutorial/index.html\" rel=\"noopener noreferrer nofollow\">руководство по Python</a>, а также <a href=\"https://docs.python.org/ru/3/reference/index.html\" rel=\"noopener noreferrer nofollow\">первые три главы</a> справочника по языку Python. </p> <a href=\"https://habr.com/ru/articles/1073382/#habracut\">Читать далее</a>",
+    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/1c2/5e5/305/1c25e53056142adcb3c9a6b41935f37f.png\" /><p>В сообществе проекта Python <a href=\"https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/\" rel=\"noopener noreferrer nofollow\">сообщили</a> о переводе на русский язык <a href=\"https://docs.python.org/ru/\" rel=\"noopener noreferrer nofollow\">официальной документации</a> по популярному языку программирования. На русском языке стали доступны <a href=\"https://docs.python.org/ru/3/tutorial/index.html\" rel=\"noopener noreferrer nofollow\">руководство по Python</a>, а также <a href=\"https://docs.python.org/ru/3/reference/index.html\" rel=\"noopener noreferrer nofollow\">первые три главы</a> справочника по языку Python. </p> <a href=\"https://habr.com/ru/articles/1073382/#habracut\">Читать далее</a>",
+    "image": "https://habrastorage.org/getpro/habr/upload_files/1c2/5e5/305/1c25e53056142adcb3c9a6b41935f37f.png"
+  },
+  {
+    "title": "Минобороны отчиталось об уничтожении за ночь 328 беспилотников",
+    "link": "https://www.kommersant.ru/doc/8906364",
+    "published": "Sun, 23 Aug 2026 08:48:11 +0300",
+    "timestamp": 1787464091.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Средства ПВО России с 20:00 до 8:00 мск уничтожили 328 беспилотников ВСУ над 18 регионами, а также Азовским и Черным морями. Об этом сообщила пресс-служба российского Минобороны.",
+    "summary": "Средства ПВО России с 20:00 до 8:00 мск уничтожили 328 беспилотников ВСУ над 18 регионами, а также Азовским и Черным морями. Об этом сообщила пресс-служба российского Минобороны.",
     "image": ""
+  },
+  {
+    "title": "Студенческая команда ракетостроителей из Университета Ватерлоо побила мировой рекорд",
+    "link": "https://habr.com/ru/news/1073378/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073378",
+    "published": "Sun, 23 Aug 2026 05:47:43 GMT",
+    "timestamp": 1787464063.0,
+    "source": "Хабр",
+    "language": "ru",
+    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/056/c3a/bd9/056c3abd97d8369730e3b71b3d3d2e31.JPG\" /><p>Команда ракетостроителей Университета Ватерлоо <a href=\"https://uwaterloo.ca/news/engineering/waterloos-student-rocketry-team-breaks-world-record\" rel=\"noopener noreferrer nofollow\">запустила</a> в&nbsp;Онтарио ракету Polaris на&nbsp;жидкостном двухкомпонентном топливе. В&nbsp;ходе соревнований Launch Canada Challenge 2026&nbsp;она поднялась на&nbsp;высоту 19,4&nbsp;км, побив предыдущий мировой рекорд в 17,2&nbsp;км.</p> <a href=\"https://habr.com/ru/articles/1073378/#habracut\">Читать далее</a>",
+    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/056/c3a/bd9/056c3abd97d8369730e3b71b3d3d2e31.JPG\" /><p>Команда ракетостроителей Университета Ватерлоо <a href=\"https://uwaterloo.ca/news/engineering/waterloos-student-rocketry-team-breaks-world-record\" rel=\"noopener noreferrer nofollow\">запустила</a> в&nbsp;Онтарио ракету Polaris на&nbsp;жидкостном двухкомпонентном топливе. В&nbsp;ходе соревнований Launch Canada Challenge 2026&nbsp;она поднялась на&nbsp;высоту 19,4&nbsp;км, побив предыдущий мировой рекорд в 17,2&nbsp;км.</p> <a href=\"https://habr.com/ru/articles/1073378/#habracut\">Читать далее</a>",
+    "image": "https://habrastorage.org/getpro/habr/upload_files/056/c3a/bd9/056c3abd97d8369730e3b71b3d3d2e31.JPG"
+  },
+  {
+    "title": "В Японии при землетрясении пострадали почти 40 человек",
+    "link": "https://www.kommersant.ru/doc/8906363",
+    "published": "Sun, 23 Aug 2026 08:43:07 +0300",
+    "timestamp": 1787463787.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "В пяти префектурах японского региона Канто, в том числе Токио, произошло землетрясение магнитудой 5,9. При происшествии 38 человек получили травмы.",
+    "summary": "В пяти префектурах японского региона Канто, в том числе Токио, произошло землетрясение магнитудой 5,9. При происшествии 38 человек получили травмы.",
+    "image": ""
+  },
+  {
+    "title": "Силы ПВО за ночь уничтожили 328 украинских беспилотников",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223045-sili-pvo",
+    "published": "Sun, 23 Aug 2026 08:32:28 +0300",
+    "timestamp": 1787463148.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Внешний долг Украины с 2013 г. вырос в 24 раза",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223044-vneshnii-dolg-ukraini",
+    "published": "Sun, 23 Aug 2026 08:25:10 +0300",
+    "timestamp": 1787462710.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "С 1 сентября вступят в силу новые правила для криптовалюты",
+    "link": "https://www.vedomosti.ru/society/news/2026/08/23/1223043-s-1-sentyabrya-vstupyat",
+    "published": "Sun, 23 Aug 2026 08:20:38 +0300",
+    "timestamp": 1787462438.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Ответ на пост «Соблюдайте ПДД!»",
+    "link": "https://pikabu.ru/story/otvet_na_post_soblyudayte_pdd_14266733",
+    "published": "Sun, 23 Aug 2026 08:11:53 +0300",
+    "timestamp": 1787461913.0,
+    "source": "Пикабу",
+    "language": "ru",
+    "description": "<p><p>У моей жены сестра примерно так же попала в аварию. </p></p><p><p>Ей тогда лет 17 было. Ехала вдоль дороги по правой стороне на велосипеде. Надо перебраться на другую сторону, впереди замаячил пешеходный перехеход. Эта умничка, не посмотрев по сторонам (пешеходник же, я ж главная!) резко ебанула налево не слезая с велика. Только колеса коснулись полосатого полотна - голова коснулась двери паралельноидущего авто. </p></p><p><p>Воодила как мог избегал столкновения, и в колы тормозил, и левее руля крутанул, но от такого резкого манера все равно не успел среагировать. Замято слегка крыло, колесом велика; нормально так дверь, особенно верхняя часть куда прилетела пустая голова девчонки (сотрясение получила, множество ссадин) </p></p><p><p>Приехали ГАИ, тёща (она же мать), я. </p></p><p><p>Говорю тёще, соглашайся с гаи, которые ей говорили, что девчонка не права. Уже и номерами обменялась с водилой, что б компенсацию за мятости отдать. Вроде все хорошо. На следующий день водила позвонил, говорит около 25тр за всё про всё и забываем друг про друга. Тёща - \"окей\", и бросает трубку. Подумала что дорого. </p></p><p><p>Нашла адвоката. Адвокатша заверила, что дочурка не виновата совсем и можно трясти с водятла такого кругленькую сумму. Тёща поверила и давай судиться. На слова гаи и мои - срать с высокой колокольни. </p></p><p><p>Итог: тёща проиграла, отдала около 90тр на всё про все, адвокатша не выходила больше на связь, дочурка ноет, что справедливость не восторжествовала, водила получил деньги. Конец истории. </p></p>",
+    "summary": "<p><p>У моей жены сестра примерно так же попала в аварию. </p></p><p><p>Ей тогда лет 17 было. Ехала вдоль дороги по правой стороне на велосипеде. Надо перебраться на другую сторону, впереди замаячил пешеходный перехеход. Эта умничка, не посмотрев по сторонам (пешеходник же, я ж главная!) резко ебанула налево не слезая с велика. Только колеса коснулись полосатого полотна - голова коснулась двери паралельноидущего авто. </p></p><p><p>Воодила как мог избегал столкновения, и в колы тормозил, и левее руля крутанул, но от такого резкого манера все равно не успел среагировать. Замято слегка крыло, колесом велика; нормально так дверь, особенно верхняя часть куда прилетела пустая голова девчонки (сотрясение получила, множество ссадин) </p></p><p><p>Приехали ГАИ, тёща (она же мать), я. </p></p><p><p>Говорю тёще, соглашайся с гаи, которые ей говорили, что девчонка не права. Уже и номерами обменялась с водилой, что б компенсацию за мятости отдать. Вроде все хорошо. На следующий день водила позвонил, говорит около 25тр за всё про всё и забываем друг про друга. Тёща - \"окей\", и бросает трубку. Подумала что дорого. </p></p><p><p>Нашла адвоката. Адвокатша заверила, что дочурка не виновата совсем и можно трясти с водятла такого кругленькую сумму. Тёща поверила и давай судиться. На слова гаи и мои - срать с высокой колокольни. </p></p><p><p>Итог: тёща проиграла, отдала около 90тр на всё про все, адвокатша не выходила больше на связь, дочурка ноет, что справедливость не восторжествовала, водила получил деньги. Конец истории. </p></p>",
+    "image": ""
+  },
+  {
+    "title": "В Казахстане стартовали первые выборы в однопалатный Курултай",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223042-kazahstane-startovali",
+    "published": "Sun, 23 Aug 2026 08:03:05 +0300",
+    "timestamp": 1787461385.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Случай на Рентгене!!!",
+    "link": "https://pikabu.ru/story/sluchay_na_rentgene_14266667",
+    "published": "Sun, 23 Aug 2026 07:26:22 +0300",
+    "timestamp": 1787459182.0,
+    "source": "Пикабу",
+    "language": "ru",
+    "description": "<p><img alt=\"\" src=\"https://cs20.pikabu.ru/s/2026/08/23/07/bfjcp5ho.jpg\" /></p>",
+    "summary": "<p><img alt=\"\" src=\"https://cs20.pikabu.ru/s/2026/08/23/07/bfjcp5ho.jpg\" /></p>",
+    "image": "https://cs20.pikabu.ru/s/2026/08/23/07/bfjcp5ho.jpg"
   },
   {
     "title": "🎬 Мощные ливни и ураган обрушились сразу на два региона — Иркутскую область и Бур...",
@@ -107,149 +415,6 @@
     "language": "ru",
     "description": "<p>Мощные ливни и ураган обрушились сразу на два региона — Иркутскую область и Бурятию. Машины тонут в воде, повалены деревья и затоплены подъезды.<br /><br />В Иркутске непогода бушует с ночи — несколько дорог полностью ушли под воду, машины приходилось вытаскивать очевидцам. Повреждены фасады домов и линии электропередачи, в некоторых районах отключилось электричество. За четыре часа выпало больше половины месячной нормы осадков.<br /><br />Из-за сильных дождей ливневки не справляются с потоком воды — улицы превращаются в реки, вода заходит во дворы и подъезды.<br /><br />В Бурятии из-за стихии произошёл взрыв на подстанции в районе Зеленхоза. Очевидцы сообщили о пожаре, после чего часть района могла остаться без электричества.<br /><br />Коммунальные и экстренные службы работают на местах и устраняют последствия непогоды.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/ENKQXcBTrkPOWxWoWXqTLSGf_MjCkRNgU9EZeLZ9-sw90sM-i31LKU1cXWccb769d7GW8XNx63lp4a9RKUqRTNoVKOfc2715SQFl3RPsTcrsZEil0lFm2tMEYNCw609Yn0Rzkavv1-0MaZJgDlvSrTNr_jxBEnKOyZMNuUgLdmp3YbytTqvLu6h1ZvX-YLNYDZkzGBLjRSNkU13ouyS9I5_OtSiVT_iaktN3StxnUJYWSqH9HAORLpbEIQyBKYQaNkktF9eo86Y3-mUG73XeNcNvOSy9cF-IGhK6d4Fdc20cKF0vEwXX5jP1BMXDvxdJCycZjzTbKx7d2gvF_4yfhA\" src=\"https://cdn4.telesco.pe/file/ad98e2eff3.mp4?token=mafF1ZjpGClLWSCPuDsuo2Jz8uiadv3scGWN-zhdV668LQDg31R-9TKYYFORgItpjlm3itVS2jANiV82TPq2eYG0AYg5QPBDBOjyps1p1FR6ayCnDgHa_lqYJVmD-4ptPTY4Yr53FCwMpxH8p6hDHQnc7H1yNAoEgyiDXR-sdQGvFPUUWGjFrDGqv36AFg3_NcPs_esa6dDS-tHVfjyPPPvIiXzgECylYeoBmyFXKartfm0xiRuKhDm9f2tya_cqZpRUl6GgvkSPFpx0fEPRbmUGsz35b2HJASuZp7pMBg2UjCNINJDtPYC8d_jNSoKRMxtVbhNOIZUqf5RP-4jC7g\" style=\"width: 100%;\"></video>",
     "summary": "<p>Мощные ливни и ураган обрушились сразу на два региона — Иркутскую область и Бурятию. Машины тонут в воде, повалены деревья и затоплены подъезды.<br /><br />В Иркутске непогода бушует с ночи — несколько дорог полностью ушли под воду, машины приходилось вытаскивать очевидцам. Повреждены фасады домов и линии электропередачи, в некоторых районах отключилось электричество. За четыре часа выпало больше половины месячной нормы осадков.<br /><br />Из-за сильных дождей ливневки не справляются с потоком воды — улицы превращаются в реки, вода заходит во дворы и подъезды.<br /><br />В Бурятии из-за стихии произошёл взрыв на подстанции в районе Зеленхоза. Очевидцы сообщили о пожаре, после чего часть района могла остаться без электричества.<br /><br />Коммунальные и экстренные службы работают на местах и устраняют последствия непогоды.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/ENKQXcBTrkPOWxWoWXqTLSGf_MjCkRNgU9EZeLZ9-sw90sM-i31LKU1cXWccb769d7GW8XNx63lp4a9RKUqRTNoVKOfc2715SQFl3RPsTcrsZEil0lFm2tMEYNCw609Yn0Rzkavv1-0MaZJgDlvSrTNr_jxBEnKOyZMNuUgLdmp3YbytTqvLu6h1ZvX-YLNYDZkzGBLjRSNkU13ouyS9I5_OtSiVT_iaktN3StxnUJYWSqH9HAORLpbEIQyBKYQaNkktF9eo86Y3-mUG73XeNcNvOSy9cF-IGhK6d4Fdc20cKF0vEwXX5jP1BMXDvxdJCycZjzTbKx7d2gvF_4yfhA\" src=\"https://cdn4.telesco.pe/file/ad98e2eff3.mp4?token=mafF1ZjpGClLWSCPuDsuo2Jz8uiadv3scGWN-zhdV668LQDg31R-9TKYYFORgItpjlm3itVS2jANiV82TPq2eYG0AYg5QPBDBOjyps1p1FR6ayCnDgHa_lqYJVmD-4ptPTY4Yr53FCwMpxH8p6hDHQnc7H1yNAoEgyiDXR-sdQGvFPUUWGjFrDGqv36AFg3_NcPs_esa6dDS-tHVfjyPPPvIiXzgECylYeoBmyFXKartfm0xiRuKhDm9f2tya_cqZpRUl6GgvkSPFpx0fEPRbmUGsz35b2HJASuZp7pMBg2UjCNINJDtPYC8d_jNSoKRMxtVbhNOIZUqf5RP-4jC7g\" style=\"width: 100%;\"></video>",
-    "image": ""
-  },
-  {
-    "title": "Раскрыто, насколько вырос внешний госдолг Украины после Майдана",
-    "link": "https://ria.ru/20260823/gosdolg-2112593959.html",
-    "published": "Sun, 23 Aug 2026 07:19:50 +0300",
-    "timestamp": 1787458790.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/07e9/0c/0c/2061679052_0:155:3071:1882_650x0_80_0_0_61f75bd0d30000e2edbdfaf6a3c6b6f7.jpg"
-  },
-  {
-    "title": "У спасателей возникли трудности с тушением пожара на складе в Петербурге",
-    "link": "https://ria.ru/20260823/pozhar-2112593832.html",
-    "published": "Sun, 23 Aug 2026 07:17:29 +0300",
-    "timestamp": 1787458649.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "МИД заявил о давлении стран Балтии на россиян перед выборами в Госдуму",
-    "link": "https://lenta.ru/news/2026/08/23/mid-zayavil-o-davlenii-stran-baltii-na-rossiyan-pered-vyborami-v-gosdumu/",
-    "published": "Sun, 23 Aug 2026 07:17:00 +0300",
-    "timestamp": 1787458620.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/23/06/20260823065500354/pic_64c295715ca2e876c603da98bc3e1388.jpg"
-  },
-  {
-    "title": "Площадь пожара на складе в Петербурге достигла 82 000 кв. м",
-    "link": "https://www.vedomosti.ru/society/news/2026/08/23/1223036-ploschad-pozhara",
-    "published": "Sun, 23 Aug 2026 07:16:46 +0300",
-    "timestamp": 1787458606.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Раскрыты детали обысков в популярном клубе в центре Москвы",
-    "link": "https://lenta.ru/news/2026/08/23/raskryty-detali-obyskov-v-populyarnom-klube-v-tsentre-moskvy/",
-    "published": "Sun, 23 Aug 2026 07:15:00 +0300",
-    "timestamp": 1787458500.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/23/07/20260823072218822/pic_5699244a491219659b1abe300e8e586d.jpg"
-  },
-  {
-    "title": "ПВО ночью уничтожила около 30 БПЛА в Ростовской области",
-    "link": "https://ria.ru/20260823/bpla-2112593697.html",
-    "published": "Sun, 23 Aug 2026 07:14:47 +0300",
-    "timestamp": 1787458487.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/07e8/01/17/1922897174_0:160:3072:1888_650x0_80_0_0_6e25737ac93d2f72f2f5740c9b110532.jpg"
-  },
-  {
-    "title": "Силы ПВО отразили атаку шести БПЛА, летевших на Москву",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223035-sili-pvo-otrazili",
-    "published": "Sun, 23 Aug 2026 07:11:00 +0300",
-    "timestamp": 1787458260.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "СМИ: почти 150 тысяч домохозяйств северо-востока Польши остались без света",
-    "link": "https://ria.ru/20260823/polsha-2112593545.html",
-    "published": "Sun, 23 Aug 2026 07:09:49 +0300",
-    "timestamp": 1787458189.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/150887/96/1508879674_0:403:2923:2048_650x0_80_0_0_13cb66d0682776ab97cb5af3066e3b19.jpg"
-  },
-  {
-    "title": "Главные новости к утру 23 августа",
-    "link": "https://www.kommersant.ru/doc/8906349",
-    "published": "Sun, 23 Aug 2026 07:00:35 +0300",
-    "timestamp": 1787457635.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "В Санкт-Петербурге загорелось складское здание в Пушкинском районе. Площадь пожара достигла 82 тыс. кв. метров.",
-    "summary": "В Санкт-Петербурге загорелось складское здание в Пушкинском районе. Площадь пожара достигла 82 тыс. кв. метров.",
-    "image": ""
-  },
-  {
-    "title": "Россиянам назвали условие возврата денег за нежеланные подписки",
-    "link": "https://lenta.ru/news/2026/08/22/rossiyanam-nazvali-uslovie-vozvrata-deneg-za-nezhelannye-podpiski/",
-    "published": "Sun, 23 Aug 2026 07:00:30 +0300",
-    "timestamp": 1787457630.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/21/18/20260821182151511/pic_4d690f436214bc7ce33d3c56ed1994bc.jpg"
-  },
-  {
-    "title": "В Санкт-Петербурге загорелся склад. Мощный пожар тушат уже более четырех часов",
-    "link": "https://lenta.ru/news/2026/08/23/long-v-sankt-peterburge-zagorelsya-sklad-moschnyy-pozhar-tushat-uzhe-bolee-chetyreh-chasov/",
-    "published": "Sun, 23 Aug 2026 06:59:00 +0300",
-    "timestamp": 1787457540.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/23/06/20260823064004899/pic_17ebcb35a4a005528be4c7cd7e8ec64e.jpg"
-  },
-  {
-    "title": "Минобороны России пообещало ответить на «открытый ящик Пандоры»",
-    "link": "https://www.kommersant.ru/doc/8906347",
-    "published": "Sun, 23 Aug 2026 06:42:33 +0300",
-    "timestamp": 1787456553.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Пресс-служба Минобороны РФ, комментируя информацию о вчерашних российских ударах по территории Украины, опубликовала в Telegram фотографию взлетающей ракеты. Снимок сопроводили двумя надписями: «Ответ будет всегда» и «Вы сами открыли \"ящик Пандоры\"».",
-    "summary": "Пресс-служба Минобороны РФ, комментируя информацию о вчерашних российских ударах по территории Украины, опубликовала в Telegram фотографию взлетающей ракеты. Снимок сопроводили двумя надписями: «Ответ будет всегда» и «Вы сами открыли \"ящик Пандоры\"».",
-    "image": ""
-  },
-  {
-    "title": "NYT узнала о попытке Paramount «спасти» сделку с Warner Bros.",
-    "link": "https://www.rbc.ru/technology_and_media/25/07/2026/6a6416a09a794791d7bb5b81",
-    "published": "Sun, 23 Aug 2026 06:31:09 +0300",
-    "timestamp": 1787455869.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Paramount и власти Калифорнии проведут переговоры для урегулирования иска против сделки по покупке Warner Bros. Discovery. Стороны пытаются найти компромисс, чтобы избежать суда и затяжного кризиса в индустрии.",
-    "summary": "Paramount и власти Калифорнии проведут переговоры для урегулирования иска против сделки по покупке Warner Bros. Discovery. Стороны пытаются найти компромисс, чтобы избежать суда и затяжного кризиса в индустрии.",
     "image": ""
   },
   {
@@ -275,80 +440,14 @@
     "image": "https://cs4.pikabu.ru/s/2026/08/23/06/fqr37p64.jpg"
   },
   {
-    "title": "В Казахстане начались выборы в новый однопалатный парламент",
-    "link": "https://www.kommersant.ru/doc/8906342",
-    "published": "Sun, 23 Aug 2026 06:10:17 +0300",
-    "timestamp": 1787454617.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "В Казахстане начались первые в истории страны выборы в Курултай. Это новый однопалатный парламент, который заменил прежнюю двухпалатную структуру после конституционной реформы.",
-    "summary": "В Казахстане начались первые в истории страны выборы в Курултай. Это новый однопалатный парламент, который заменил прежнюю двухпалатную структуру после конституционной реформы.",
-    "image": ""
-  },
-  {
-    "title": "В Казахстане стартовали выборы в новый однопалатный парламент",
-    "link": "https://www.rbc.ru/politics/19/08/2026/6a8599a79a79470e6e361095",
-    "published": "Sun, 23 Aug 2026 05:54:39 +0300",
-    "timestamp": 1787453679.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "В Казахстане 23 августа стартовали первые выборы в курултай&nbsp;&mdash; однопалатный парламент, учрежденный новой Конституцией республики.",
-    "summary": "В Казахстане 23 августа стартовали первые выборы в курултай&nbsp;&mdash; однопалатный парламент, учрежденный новой Конституцией республики.",
-    "image": ""
-  },
-  {
-    "title": "WSJ: Nvidia потратила $6 млрд на разработку конкурента ИИ-моделям из Китая",
-    "link": "https://www.kommersant.ru/doc/8906341",
-    "published": "Sun, 23 Aug 2026 05:35:17 +0300",
-    "timestamp": 1787452517.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Американская компания Nvidia планирует разработать конкурента китайским моделям искусственного интеллекта, сообщает газета The Wall Street Journal (WSJ) со ссылкой на источники. Для этого производитель чипов на этой неделе заключил сделку на сумму $6 млрд со стартапом Poolside, основанным в 2023 году.",
-    "summary": "Американская компания Nvidia планирует разработать конкурента китайским моделям искусственного интеллекта, сообщает газета The Wall Street Journal (WSJ) со ссылкой на источники. Для этого производитель чипов на этой неделе заключил сделку на сумму $6 млрд со стартапом Poolside, основанным в 2023 году.",
-    "image": ""
-  },
-  {
-    "title": "В США сотрудницу надзорного органа обвинили в сравнении полиции с ККК",
-    "link": "https://www.rbc.ru/sport/16/08/2026/6a81b4b69a79470725d6706a",
-    "published": "Sun, 23 Aug 2026 05:18:46 +0300",
-    "timestamp": 1787451526.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "В Нью-Йорке сотрудницу надзорной комиссии отстранили после того, как выяснилось, что она сравнивала полицию с ку-клукс-кланом. Профсоюз детективов потребовал «навести порядок», женщина отстранена от расследований на время проверки",
-    "summary": "В Нью-Йорке сотрудницу надзорной комиссии отстранили после того, как выяснилось, что она сравнивала полицию с ку-клукс-кланом. Профсоюз детективов потребовал «навести порядок», женщина отстранена от расследований на время проверки",
-    "image": ""
-  },
-  {
-    "title": "Площадь пожара на складе в Петербурге выросла до 82 тыс. кв. метров",
-    "link": "https://www.kommersant.ru/doc/8906340",
-    "published": "Sun, 23 Aug 2026 05:00:04 +0300",
-    "timestamp": 1787450404.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Пожар, который охватил складское здание в Пушкинском районе Санкт-Петербурга, распространился на площадь 82 тыс. кв. м, сообщили в МЧС. Около трех часов площадь возгорания оценивалась в 22 тыс. кв. м, затем выросла до 60 тыс., позже она превысила отметку в 80 тыс.",
-    "summary": "Пожар, который охватил складское здание в Пушкинском районе Санкт-Петербурга, распространился на площадь 82 тыс. кв. м, сообщили в МЧС. Около трех часов площадь возгорания оценивалась в 22 тыс. кв. м, затем выросла до 60 тыс., позже она превысила отметку в 80 тыс.",
-    "image": ""
-  },
-  {
-    "title": "Трамп снова опубликовал карту с Ормузским проливом в составе США",
-    "link": "https://www.rbc.ru/rbcfreenews/6a845f049a7947d0fcfe5d5f",
-    "published": "Sun, 23 Aug 2026 04:49:17 +0300",
-    "timestamp": 1787449757.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Американский лидер Дональд Трамп вновь опубликовал в Truth Social изображение, на котором Ормузский пролив указан как &laquo;новая территория США&raquo;.",
-    "summary": "Американский лидер Дональд Трамп вновь опубликовал в Truth Social изображение, на котором Ормузский пролив указан как &laquo;новая территория США&raquo;.",
-    "image": ""
-  },
-  {
     "title": "🎬 Пожар охватил 82 тысячи м² логистического центра в петербургском Колпино.",
     "link": "https://t.me/mash/77164",
     "published": "Sun, 23 Aug 2026 01:45:36 GMT",
     "timestamp": 1787449536.0,
     "source": "TG: Mash",
     "language": "ru",
-    "description": "<p>Пожар охватил 82 тысячи м² логистического центра в петербургском Колпино.<br /><br />За час площадь возгорания выросла с 60 до 82 тысяч м². В половине четвёртого пожару присвоили четвёртый ранг сложности, сейчас огонь тушат на четырёх боевых участках.<br /><br />К ликвидации привлекли 217 человек и 65 единиц техники, в том числе 132 сотрудника МЧС и 42 машины ведомства. К месту продолжают прибывать пожарные машины.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/Sg3uhPh4JXCv2UKfL1xsSGhma1b7oSaAiv1-I66ZY2kkj6YUObBIwSSAcf210Hj2SgcY9KZQU5YB2RFfDRk9hxDOEX7xRPTsz2LB4Iyz7V0VsC1H2512o-jpdUvPwO27cwFb5Afsv3Jvt6Q6lH0c740hGysoVpmXj92cwVFubtgqxsZ--Upv0hI0JrI-OYYvsbIW-UNeiOMuyyvmVdIeYlFSiz3WV-ltek-oSgDJMDnMxqiZEJgX2tHXZIriA_SDkrJxFwGR5n1LOl3EWJcRA5pEBOxBq314664xDMpWxbDj4ICQXgypdrjWs9IsV77UHl3Eaa4_FwTVos7c_fU5Kg\" src=\"https://cdn4.telesco.pe/file/addf9ecbef.mp4?token=JHE7ZM0a1257My7HbrtmdpOwyIFRLqFPHLdSAprcrp6B_SBVRUmFY5VM6wxt0mEMahdLHoi5qzdrxbtcidbXdW_YHqg8z2N1gnVz51p3kIX5MdaTcGegSpkhNftWW0Ph7lBoBHS6kvktRQQ2Q8fUYmLP5TawtrUfkJczFGY_XF5ScwvZFFmYgaO6N80ABwTWEGRTVwzcu5BaHvr6wYrwCHjVBqwtouLiQrxLA4zGpNjE3hjj3QDIUvnSQ1fyDdR6MICkMGBStpPyQ3dk-COc2MUOgIKDNYID4bsIB01A6QPYcBPHiRuframsA5xmsVbNNhVNeMC26GlVuolUxnN_mQ\" style=\"width: 100%;\"></video><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg\" /></blockquote>",
-    "summary": "<p>Пожар охватил 82 тысячи м² логистического центра в петербургском Колпино.<br /><br />За час площадь возгорания выросла с 60 до 82 тысяч м². В половине четвёртого пожару присвоили четвёртый ранг сложности, сейчас огонь тушат на четырёх боевых участках.<br /><br />К ликвидации привлекли 217 человек и 65 единиц техники, в том числе 132 сотрудника МЧС и 42 машины ведомства. К месту продолжают прибывать пожарные машины.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/Sg3uhPh4JXCv2UKfL1xsSGhma1b7oSaAiv1-I66ZY2kkj6YUObBIwSSAcf210Hj2SgcY9KZQU5YB2RFfDRk9hxDOEX7xRPTsz2LB4Iyz7V0VsC1H2512o-jpdUvPwO27cwFb5Afsv3Jvt6Q6lH0c740hGysoVpmXj92cwVFubtgqxsZ--Upv0hI0JrI-OYYvsbIW-UNeiOMuyyvmVdIeYlFSiz3WV-ltek-oSgDJMDnMxqiZEJgX2tHXZIriA_SDkrJxFwGR5n1LOl3EWJcRA5pEBOxBq314664xDMpWxbDj4ICQXgypdrjWs9IsV77UHl3Eaa4_FwTVos7c_fU5Kg\" src=\"https://cdn4.telesco.pe/file/addf9ecbef.mp4?token=JHE7ZM0a1257My7HbrtmdpOwyIFRLqFPHLdSAprcrp6B_SBVRUmFY5VM6wxt0mEMahdLHoi5qzdrxbtcidbXdW_YHqg8z2N1gnVz51p3kIX5MdaTcGegSpkhNftWW0Ph7lBoBHS6kvktRQQ2Q8fUYmLP5TawtrUfkJczFGY_XF5ScwvZFFmYgaO6N80ABwTWEGRTVwzcu5BaHvr6wYrwCHjVBqwtouLiQrxLA4zGpNjE3hjj3QDIUvnSQ1fyDdR6MICkMGBStpPyQ3dk-COc2MUOgIKDNYID4bsIB01A6QPYcBPHiRuframsA5xmsVbNNhVNeMC26GlVuolUxnN_mQ\" style=\"width: 100%;\"></video><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg\" /></blockquote>",
+    "description": "<p>Пожар охватил 82 тысячи м² логистического центра в петербургском Колпино.<br /><br />За час площадь возгорания выросла с 60 до 82 тысяч м². В половине четвёртого пожару присвоили четвёртый ранг сложности, сейчас огонь тушат на четырёх боевых участках.<br /><br />К ликвидации привлекли 217 человек и 65 единиц техники, в том числе 132 сотрудника МЧС и 42 машины ведомства. К месту продолжают прибывать пожарные машины.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Sg3uhPh4JXCv2UKfL1xsSGhma1b7oSaAiv1-I66ZY2kkj6YUObBIwSSAcf210Hj2SgcY9KZQU5YB2RFfDRk9hxDOEX7xRPTsz2LB4Iyz7V0VsC1H2512o-jpdUvPwO27cwFb5Afsv3Jvt6Q6lH0c740hGysoVpmXj92cwVFubtgqxsZ--Upv0hI0JrI-OYYvsbIW-UNeiOMuyyvmVdIeYlFSiz3WV-ltek-oSgDJMDnMxqiZEJgX2tHXZIriA_SDkrJxFwGR5n1LOl3EWJcRA5pEBOxBq314664xDMpWxbDj4ICQXgypdrjWs9IsV77UHl3Eaa4_FwTVos7c_fU5Kg\" src=\"https://cdn4.telesco.pe/file/addf9ecbef.mp4?token=JHE7ZM0a1257My7HbrtmdpOwyIFRLqFPHLdSAprcrp6B_SBVRUmFY5VM6wxt0mEMahdLHoi5qzdrxbtcidbXdW_YHqg8z2N1gnVz51p3kIX5MdaTcGegSpkhNftWW0Ph7lBoBHS6kvktRQQ2Q8fUYmLP5TawtrUfkJczFGY_XF5ScwvZFFmYgaO6N80ABwTWEGRTVwzcu5BaHvr6wYrwCHjVBqwtouLiQrxLA4zGpNjE3hjj3QDIUvnSQ1fyDdR6MICkMGBStpPyQ3dk-COc2MUOgIKDNYID4bsIB01A6QPYcBPHiRuframsA5xmsVbNNhVNeMC26GlVuolUxnN_mQ\" style=\"width: 100%;\"></video><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg\" /></blockquote>",
+    "summary": "<p>Пожар охватил 82 тысячи м² логистического центра в петербургском Колпино.<br /><br />За час площадь возгорания выросла с 60 до 82 тысяч м². В половине четвёртого пожару присвоили четвёртый ранг сложности, сейчас огонь тушат на четырёх боевых участках.<br /><br />К ликвидации привлекли 217 человек и 65 единиц техники, в том числе 132 сотрудника МЧС и 42 машины ведомства. К месту продолжают прибывать пожарные машины.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Sg3uhPh4JXCv2UKfL1xsSGhma1b7oSaAiv1-I66ZY2kkj6YUObBIwSSAcf210Hj2SgcY9KZQU5YB2RFfDRk9hxDOEX7xRPTsz2LB4Iyz7V0VsC1H2512o-jpdUvPwO27cwFb5Afsv3Jvt6Q6lH0c740hGysoVpmXj92cwVFubtgqxsZ--Upv0hI0JrI-OYYvsbIW-UNeiOMuyyvmVdIeYlFSiz3WV-ltek-oSgDJMDnMxqiZEJgX2tHXZIriA_SDkrJxFwGR5n1LOl3EWJcRA5pEBOxBq314664xDMpWxbDj4ICQXgypdrjWs9IsV77UHl3Eaa4_FwTVos7c_fU5Kg\" src=\"https://cdn4.telesco.pe/file/addf9ecbef.mp4?token=JHE7ZM0a1257My7HbrtmdpOwyIFRLqFPHLdSAprcrp6B_SBVRUmFY5VM6wxt0mEMahdLHoi5qzdrxbtcidbXdW_YHqg8z2N1gnVz51p3kIX5MdaTcGegSpkhNftWW0Ph7lBoBHS6kvktRQQ2Q8fUYmLP5TawtrUfkJczFGY_XF5ScwvZFFmYgaO6N80ABwTWEGRTVwzcu5BaHvr6wYrwCHjVBqwtouLiQrxLA4zGpNjE3hjj3QDIUvnSQ1fyDdR6MICkMGBStpPyQ3dk-COc2MUOgIKDNYID4bsIB01A6QPYcBPHiRuframsA5xmsVbNNhVNeMC26GlVuolUxnN_mQ\" style=\"width: 100%;\"></video><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg\" /></blockquote>",
     "image": "https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg"
   },
   {
@@ -363,17 +462,6 @@
     "image": "https://cs17.pikabu.ru/s/2026/08/23/04/2gcew6co.jpg"
   },
   {
-    "title": "Френдли фаер",
-    "link": "https://pikabu.ru/story/frendli_faer_14266537",
-    "published": "Sun, 23 Aug 2026 04:33:31 +0300",
-    "timestamp": 1787448811.0,
-    "source": "Пикабу",
-    "language": "ru",
-    "description": "<p><img alt=\"\" src=\"https://cs3.pikabu.ru/s/2026/08/23/04/af67aj6q.jpg\" /></p>",
-    "summary": "<p><img alt=\"\" src=\"https://cs3.pikabu.ru/s/2026/08/23/04/af67aj6q.jpg\" /></p>",
-    "image": "https://cs3.pikabu.ru/s/2026/08/23/04/af67aj6q.jpg"
-  },
-  {
     "title": "🖼 Мощный пожар в Ленинградской области — площадь возгорания превысила 60 тысяч кв...",
     "link": "https://t.me/bazabazon/48461",
     "published": "Sun, 23 Aug 2026 01:26:03 GMT",
@@ -383,17 +471,6 @@
     "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Мощный пожар в Ленинградской области — площадь возгорания превысила 60 тысяч квадратных метров.<br /><br />В Колпино загорелся склад на территории Ижорской промзоны. Размер здания — 680 на 120 метров. Очевидцы сообщают о густом чёрном дыме и запахе гари, который чувствуется за несколько километров.<br /><br />Пожару присвоен четвёртый ранг сложности. На месте работают спасатели и авиация, причины возгорания устанавливаются.<br /><br />Ранее по этому адресу находился логистический центр, где хранили и принимали товары.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"301\" src=\"https://cdn4.telesco.pe/file/VFoNONPaor0vAyBVukv8XsDfNXE2C8upn7Irwe1o-RjKvQym4vky3N1zVfPesKT8_iMGU8X7Dn_sW-9WVxQH3QnZGSyC1qWSjJvaog5EVXcPPnK5JErMSZI1C4zDvnfoTCvJIOL3q85oKMT1l05x3keRUeJiqFs79BQDvB_Zvkc__df3d-5OpMbWzbXa3DKNWjjh6YS-UOrcRjfLQZmRimQGGxmP-sbI7JRrNM2NQKmdsLW2Q8jHf2ZW_kTzka_Co9vEOt28A1BrnlIOQLQZ7Z00TVot7tAMchhODhF_xk2pb21fAf7KNjLLjhbzhLtEVafGQ6rPlxBraIdKRCeCWw.jpg\" width=\"226\" /><img height=\"301\" src=\"https://cdn4.telesco.pe/file/gjX4jHCtOacj2XM9DPstMMGgx6z5eQZ9e6yS1NTMuFqs4Qf71k88g2p90eBntz9OIlp_pS9Fi2uLZBr0UwqRfmZuOicluipg_rdG12Q7GJnU9evOSFH36gzwgVJhOwRIpG3hsjPZ3ss80_-u1bmBip5DMLo22X4w2i_xnxASe4WEis4Xi4R_YPKxoLS1LoPQPsry67cKECa-GWm_skE7qsyVX0NaOtrhFJn9OVzR3C8BGsuLFfeg5guJQfyKwB9WqGGds_ad7rO4Gfeaip0K1fc93GMgCC6puPxIGVs8rjHDd-VrvJRRVWwWruP8_ph0anI-WZ8h7wkFTkzToin2OQ.jpg\" width=\"225\" />",
     "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Мощный пожар в Ленинградской области — площадь возгорания превысила 60 тысяч квадратных метров.<br /><br />В Колпино загорелся склад на территории Ижорской промзоны. Размер здания — 680 на 120 метров. Очевидцы сообщают о густом чёрном дыме и запахе гари, который чувствуется за несколько километров.<br /><br />Пожару присвоен четвёртый ранг сложности. На месте работают спасатели и авиация, причины возгорания устанавливаются.<br /><br />Ранее по этому адресу находился логистический центр, где хранили и принимали товары.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"301\" src=\"https://cdn4.telesco.pe/file/VFoNONPaor0vAyBVukv8XsDfNXE2C8upn7Irwe1o-RjKvQym4vky3N1zVfPesKT8_iMGU8X7Dn_sW-9WVxQH3QnZGSyC1qWSjJvaog5EVXcPPnK5JErMSZI1C4zDvnfoTCvJIOL3q85oKMT1l05x3keRUeJiqFs79BQDvB_Zvkc__df3d-5OpMbWzbXa3DKNWjjh6YS-UOrcRjfLQZmRimQGGxmP-sbI7JRrNM2NQKmdsLW2Q8jHf2ZW_kTzka_Co9vEOt28A1BrnlIOQLQZ7Z00TVot7tAMchhODhF_xk2pb21fAf7KNjLLjhbzhLtEVafGQ6rPlxBraIdKRCeCWw.jpg\" width=\"226\" /><img height=\"301\" src=\"https://cdn4.telesco.pe/file/gjX4jHCtOacj2XM9DPstMMGgx6z5eQZ9e6yS1NTMuFqs4Qf71k88g2p90eBntz9OIlp_pS9Fi2uLZBr0UwqRfmZuOicluipg_rdG12Q7GJnU9evOSFH36gzwgVJhOwRIpG3hsjPZ3ss80_-u1bmBip5DMLo22X4w2i_xnxASe4WEis4Xi4R_YPKxoLS1LoPQPsry67cKECa-GWm_skE7qsyVX0NaOtrhFJn9OVzR3C8BGsuLFfeg5guJQfyKwB9WqGGds_ad7rO4Gfeaip0K1fc93GMgCC6puPxIGVs8rjHDd-VrvJRRVWwWruP8_ph0anI-WZ8h7wkFTkzToin2OQ.jpg\" width=\"225\" />",
     "image": "https://cdn4.telesco.pe/file/VFoNONPaor0vAyBVukv8XsDfNXE2C8upn7Irwe1o-RjKvQym4vky3N1zVfPesKT8_iMGU8X7Dn_sW-9WVxQH3QnZGSyC1qWSjJvaog5EVXcPPnK5JErMSZI1C4zDvnfoTCvJIOL3q85oKMT1l05x3keRUeJiqFs79BQDvB_Zvkc__df3d-5OpMbWzbXa3DKNWjjh6YS-UOrcRjfLQZmRimQGGxmP-sbI7JRrNM2NQKmdsLW2Q8jHf2ZW_kTzka_Co9vEOt28A1BrnlIOQLQZ7Z00TVot7tAMchhODhF_xk2pb21fAf7KNjLLjhbzhLtEVafGQ6rPlxBraIdKRCeCWw.jpg"
-  },
-  {
-    "title": "Лучший полнометражный мультфильм 80-х и 90-х. Плей-офф 1/16 финала",
-    "link": "https://pikabu.ru/story/luchshiy_polnometrazhnyiy_multfilm_80kh_i_90kh_pleyoff_116_finala_14266529",
-    "published": "Sun, 23 Aug 2026 04:20:48 +0300",
-    "timestamp": 1787448048.0,
-    "source": "Пикабу",
-    "language": "ru",
-    "description": "<p><h3>Без лишних слов выбираем самый зрелищный, крутой, атмосферный, милый сердцу, лучший мультфильм 80-х и 90-х с помощью простого голосования. У нас плей-офф - победитель раунда проходит дальше.</h3></p><p><p><b>Восьмой раунд плей-офф 1/16 финала:</b></p></p><p><p>\"<b>Призрак в доспехах\" </b>(Koukaku Kidoutai / 1995) - 2029 год. Благодаря значительным достижениям в кибернетике люди могут заменять свои конечности роботизированными частями. Майор Мотоко Кусанаги из 9-го отдела службы безопасности ведёт расследование, связанное с таинственным хакером, который называет себя Кукловод.</p></p><p><img alt=\"\" src=\"https://cs5.pikabu.ru/s/2026/08/22/06/2edyrcrr.jpg\" /></p><hr /><p><p>\"<b>Русалочка\"</b> (The Little Mermaid / 1989) - Дочь царя подводного мира Тритона русалочка Ариэль однажды влюбляется в прекрасного и мужественного принца. Ради любви Ариэль готова пойти на всё и у коварной ведьмы Урсулы меняет свой прекрасный голос на человеческие ноги и возможность находиться на суше.</p></p><p><img alt=\"\" src=\"https://cs6.pikabu.ru/s/2026/08/22/06/2idro5k5.jpg\" /></p><hr /><h2>Лучший мультфильм 80-х и 90-х 8 раунд 1/16 финала</h2><ul><li>Призрак в доспехах</li><li>Русалочка</li><li>Не хочу ничего решать / Не смотрел(а) ни один / Против всех / Я здесь просто чтобы узнать результаты</li></ul><p><p>Реакции, плюсы, и комментарии (ваши личные мысли-мнения) горячо приветствуются!</p></p><p><p><a href=\"https://pikabu.ru/story/luchshiy_polnometrazhnyiy_multfilm_80kh_i_90kh_pleyoff_116_finala_14263976?u=\" rel=\"nofollow noopener\" target=\"_blank\"><b>Здесь общий список</b></a></p></p>",
-    "summary": "<p><h3>Без лишних слов выбираем самый зрелищный, крутой, атмосферный, милый сердцу, лучший мультфильм 80-х и 90-х с помощью простого голосования. У нас плей-офф - победитель раунда проходит дальше.</h3></p><p><p><b>Восьмой раунд плей-офф 1/16 финала:</b></p></p><p><p>\"<b>Призрак в доспехах\" </b>(Koukaku Kidoutai / 1995) - 2029 год. Благодаря значительным достижениям в кибернетике люди могут заменять свои конечности роботизированными частями. Майор Мотоко Кусанаги из 9-го отдела службы безопасности ведёт расследование, связанное с таинственным хакером, который называет себя Кукловод.</p></p><p><img alt=\"\" src=\"https://cs5.pikabu.ru/s/2026/08/22/06/2edyrcrr.jpg\" /></p><hr /><p><p>\"<b>Русалочка\"</b> (The Little Mermaid / 1989) - Дочь царя подводного мира Тритона русалочка Ариэль однажды влюбляется в прекрасного и мужественного принца. Ради любви Ариэль готова пойти на всё и у коварной ведьмы Урсулы меняет свой прекрасный голос на человеческие ноги и возможность находиться на суше.</p></p><p><img alt=\"\" src=\"https://cs6.pikabu.ru/s/2026/08/22/06/2idro5k5.jpg\" /></p><hr /><h2>Лучший мультфильм 80-х и 90-х 8 раунд 1/16 финала</h2><ul><li>Призрак в доспехах</li><li>Русалочка</li><li>Не хочу ничего решать / Не смотрел(а) ни один / Против всех / Я здесь просто чтобы узнать результаты</li></ul><p><p>Реакции, плюсы, и комментарии (ваши личные мысли-мнения) горячо приветствуются!</p></p><p><p><a href=\"https://pikabu.ru/story/luchshiy_polnometrazhnyiy_multfilm_80kh_i_90kh_pleyoff_116_finala_14263976?u=\" rel=\"nofollow noopener\" target=\"_blank\"><b>Здесь общий список</b></a></p></p>",
-    "image": "https://cs5.pikabu.ru/s/2026/08/22/06/2edyrcrr.jpg"
   },
   {
     "title": "🎬 Силовики нагрянули в популярный московский клуб Simach на Тверском бульваре — веч...",
@@ -413,8 +490,8 @@
     "timestamp": 1787445871.0,
     "source": "TG: Mash",
     "language": "ru",
-    "description": "<p>Вечеринку в популярном московском клубе Simach прервали силовики — около половины второго они приехали на Тверской бульвар, зашли в заведение, выключили музыку и начали досматривать гостей.<br /><br />Как рассказал Mash очевидец, у входа стоят несколько служебных автомобилей и автозак, а в здание зашло много силовиков. Перед клубом за ограждением ждут люди — посетителей из заведения не выпускают, а к собравшимся снаружи силовики пока не подходят.<br /><br />Предварительно, гостей проверяют на запрещённые вещества. По словам находящегося внутри посетителя, обстановка в целом спокойная, однако сотрудники ОМОНа применили силу к нескольким людям, которые пытались выяснить причину происходящего.<br /><br />\"Simach в Недальнем\" открыли в 2020 году дизайнер Денис Симачёв и ресторатор Аркадий Новиков, объединив бар Simachev и ресторан \"Недальний Восток\".<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/FWWK8wMB-HCBqUAWqjGQBMOlwnxYAUGC3Qu720lIm2Knpxw8o8outVWo47FmXhVRg2sdHCGrDDworfYxnzjDavccnQO2OLrux_VP49yKSDKq-2TzaTp26KUFbZ9gBTB9SuS-gESfkA2iTV7CLUynuxX5lSPeXbos9n18cfxzuUBhjIZjdg_3Xs0Lhd1yGz-q1JHQpcX76rtu-NYUiLhFD04rMs7OYCq3sV0Zs7s9wyTy2xq8-QeYBNmLL36WIYqvudzkuqogpzuHPIBGKzf9Jk3v8FX7YuSbWS9Hl5s-jAGF9s3yf3fTtLgNHFqkIg4FzJ30FSm6an6YidPVugx-EA\" src=\"https://cdn4.telesco.pe/file/a1d3af6ef6.mp4?token=K180DqQGiJwR1pZ-9mFukE_oB0Be36Km-kn6wR6rMpdsbPm-ox5RNvh98hl2kZVRM4jlODJC2Zx5RydBg6U8c62N934ATQl6uaGkMf5WT284fzmHdrtQzZE-u9QklXXrEZPtH67eSzXZQqgjYat-89fGEtttI3pbdOrPAQehiZdxoxN2bLH5oB_UD2qAUuHzgtjHQSJkGI04C026FNRKaAZqbKJIHvm8d24bvia_RBPjmk34LJf9BLSmOrYqVoD9KYi6es8PEMV7C5RNl0Nxegm9yhHogL92Mzh8SV2DP4m7gbzeSFy93lUS-_dGabEcWp-89iUBinsAKGR4pkhCgw\" style=\"width: 100%;\"></video>",
-    "summary": "<p>Вечеринку в популярном московском клубе Simach прервали силовики — около половины второго они приехали на Тверской бульвар, зашли в заведение, выключили музыку и начали досматривать гостей.<br /><br />Как рассказал Mash очевидец, у входа стоят несколько служебных автомобилей и автозак, а в здание зашло много силовиков. Перед клубом за ограждением ждут люди — посетителей из заведения не выпускают, а к собравшимся снаружи силовики пока не подходят.<br /><br />Предварительно, гостей проверяют на запрещённые вещества. По словам находящегося внутри посетителя, обстановка в целом спокойная, однако сотрудники ОМОНа применили силу к нескольким людям, которые пытались выяснить причину происходящего.<br /><br />\"Simach в Недальнем\" открыли в 2020 году дизайнер Денис Симачёв и ресторатор Аркадий Новиков, объединив бар Simachev и ресторан \"Недальний Восток\".<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/FWWK8wMB-HCBqUAWqjGQBMOlwnxYAUGC3Qu720lIm2Knpxw8o8outVWo47FmXhVRg2sdHCGrDDworfYxnzjDavccnQO2OLrux_VP49yKSDKq-2TzaTp26KUFbZ9gBTB9SuS-gESfkA2iTV7CLUynuxX5lSPeXbos9n18cfxzuUBhjIZjdg_3Xs0Lhd1yGz-q1JHQpcX76rtu-NYUiLhFD04rMs7OYCq3sV0Zs7s9wyTy2xq8-QeYBNmLL36WIYqvudzkuqogpzuHPIBGKzf9Jk3v8FX7YuSbWS9Hl5s-jAGF9s3yf3fTtLgNHFqkIg4FzJ30FSm6an6YidPVugx-EA\" src=\"https://cdn4.telesco.pe/file/a1d3af6ef6.mp4?token=K180DqQGiJwR1pZ-9mFukE_oB0Be36Km-kn6wR6rMpdsbPm-ox5RNvh98hl2kZVRM4jlODJC2Zx5RydBg6U8c62N934ATQl6uaGkMf5WT284fzmHdrtQzZE-u9QklXXrEZPtH67eSzXZQqgjYat-89fGEtttI3pbdOrPAQehiZdxoxN2bLH5oB_UD2qAUuHzgtjHQSJkGI04C026FNRKaAZqbKJIHvm8d24bvia_RBPjmk34LJf9BLSmOrYqVoD9KYi6es8PEMV7C5RNl0Nxegm9yhHogL92Mzh8SV2DP4m7gbzeSFy93lUS-_dGabEcWp-89iUBinsAKGR4pkhCgw\" style=\"width: 100%;\"></video>",
+    "description": "<p>Вечеринку в популярном московском клубе Simach прервали силовики — около половины второго они приехали на Тверской бульвар, зашли в заведение, выключили музыку и начали досматривать гостей.<br /><br />Как рассказал Mash очевидец, у входа стоят несколько служебных автомобилей и автозак, а в здание зашло много силовиков. Перед клубом за ограждением ждут люди — посетителей из заведения не выпускают, а к собравшимся снаружи силовики пока не подходят.<br /><br />Предварительно, гостей проверяют на запрещённые вещества. По словам находящегося внутри посетителя, обстановка в целом спокойная, однако сотрудники ОМОНа применили силу к нескольким людям, которые пытались выяснить причину происходящего.<br /><br />\"Simach в Недальнем\" открыли в 2020 году дизайнер Денис Симачёв и ресторатор Аркадий Новиков, объединив бар Simachev и ресторан \"Недальний Восток\".<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/FWWK8wMB-HCBqUAWqjGQBMOlwnxYAUGC3Qu720lIm2Knpxw8o8outVWo47FmXhVRg2sdHCGrDDworfYxnzjDavccnQO2OLrux_VP49yKSDKq-2TzaTp26KUFbZ9gBTB9SuS-gESfkA2iTV7CLUynuxX5lSPeXbos9n18cfxzuUBhjIZjdg_3Xs0Lhd1yGz-q1JHQpcX76rtu-NYUiLhFD04rMs7OYCq3sV0Zs7s9wyTy2xq8-QeYBNmLL36WIYqvudzkuqogpzuHPIBGKzf9Jk3v8FX7YuSbWS9Hl5s-jAGF9s3yf3fTtLgNHFqkIg4FzJ30FSm6an6YidPVugx-EA\" src=\"https://cdn4.telesco.pe/file/a1d3af6ef6.mp4?token=K180DqQGiJwR1pZ-9mFukE_oB0Be36Km-kn6wR6rMpdsbPm-ox5RNvh98hl2kZVRM4jlODJC2Zx5RydBg6U8c62N934ATQl6uaGkMf5WT284fzmHdrtQzZE-u9QklXXrEZPtH67eSzXZQqgjYat-89fGEtttI3pbdOrPAQehiZdxoxN2bLH5oB_UD2qAUuHzgtjHQSJkGI04C026FNRKaAZqbKJIHvm8d24bvia_RBPjmk34LJf9BLSmOrYqVoD9KYi6es8PEMV7C5RNl0Nxegm9yhHogL92Mzh8SV2DP4m7gbzeSFy93lUS-_dGabEcWp-89iUBinsAKGR4pkhCgw\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Вечеринку в популярном московском клубе Simach прервали силовики — около половины второго они приехали на Тверской бульвар, зашли в заведение, выключили музыку и начали досматривать гостей.<br /><br />Как рассказал Mash очевидец, у входа стоят несколько служебных автомобилей и автозак, а в здание зашло много силовиков. Перед клубом за ограждением ждут люди — посетителей из заведения не выпускают, а к собравшимся снаружи силовики пока не подходят.<br /><br />Предварительно, гостей проверяют на запрещённые вещества. По словам находящегося внутри посетителя, обстановка в целом спокойная, однако сотрудники ОМОНа применили силу к нескольким людям, которые пытались выяснить причину происходящего.<br /><br />\"Simach в Недальнем\" открыли в 2020 году дизайнер Денис Симачёв и ресторатор Аркадий Новиков, объединив бар Simachev и ресторан \"Недальний Восток\".<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/FWWK8wMB-HCBqUAWqjGQBMOlwnxYAUGC3Qu720lIm2Knpxw8o8outVWo47FmXhVRg2sdHCGrDDworfYxnzjDavccnQO2OLrux_VP49yKSDKq-2TzaTp26KUFbZ9gBTB9SuS-gESfkA2iTV7CLUynuxX5lSPeXbos9n18cfxzuUBhjIZjdg_3Xs0Lhd1yGz-q1JHQpcX76rtu-NYUiLhFD04rMs7OYCq3sV0Zs7s9wyTy2xq8-QeYBNmLL36WIYqvudzkuqogpzuHPIBGKzf9Jk3v8FX7YuSbWS9Hl5s-jAGF9s3yf3fTtLgNHFqkIg4FzJ30FSm6an6YidPVugx-EA\" src=\"https://cdn4.telesco.pe/file/a1d3af6ef6.mp4?token=K180DqQGiJwR1pZ-9mFukE_oB0Be36Km-kn6wR6rMpdsbPm-ox5RNvh98hl2kZVRM4jlODJC2Zx5RydBg6U8c62N934ATQl6uaGkMf5WT284fzmHdrtQzZE-u9QklXXrEZPtH67eSzXZQqgjYat-89fGEtttI3pbdOrPAQehiZdxoxN2bLH5oB_UD2qAUuHzgtjHQSJkGI04C026FNRKaAZqbKJIHvm8d24bvia_RBPjmk34LJf9BLSmOrYqVoD9KYi6es8PEMV7C5RNl0Nxegm9yhHogL92Mzh8SV2DP4m7gbzeSFy93lUS-_dGabEcWp-89iUBinsAKGR4pkhCgw\" style=\"width: 100%;\"></video>",
     "image": ""
   },
   {
@@ -429,17 +506,6 @@
     "image": ""
   },
   {
-    "title": "Ozon сообщил о мерах поддержки продавцов после атаки БПЛА на склад под Самарой",
-    "link": "https://www.vedomosti.ru/business/news/2026/08/22/1223026-ozon-podderzhki-prodavtsov",
-    "published": "Sat, 22 Aug 2026 22:58:38 +0300",
-    "timestamp": 1787428718.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
     "title": "🖼 Пик финансовой грамотности",
     "link": "https://t.me/topor/51988",
     "published": "Sat, 22 Aug 2026 19:57:47 GMT",
@@ -451,37 +517,15 @@
     "image": "https://cdn4.telesco.pe/file/sEKAMcRGohB6bTdQjt5-bzqhK8DFKzoa7mXp_2pbTUc9do0StOPkRKmIANXQx4Uc8PJuR34m-IZRskBJpYfvgmqM5cvUwOrRHk11i5fSQS4MfE-ZZfDC5ArdASnU9IjEIWZ1LqwdRpDz_Ap34c8caec2fXe-HfpwEMblXBdkWEo08rRzl4BYZ_A4VxwVbx2nMLselnebNRb1kD96TWxeXVJxo4VJiehXnYAj-snw1qZQX6po8EQJD6TBhHGr4NaPMV3RvEalkVJqniD0LOX43vUdQSrne9Ds0QkmQ8MRctiqdb8YKijJGR-GSBiFyYCnpZ3gwLg43XqU6f5ZqR4XyA.jpg"
   },
   {
-    "title": "Дмитриев предложил Канаде стать 52-м американским штатом",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/22/1223025-dmitriev-52-m-shtatom",
-    "published": "Sat, 22 Aug 2026 22:42:38 +0300",
-    "timestamp": 1787427758.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
     "title": "🖼 Провожаем лето (осталось девять дней) и вспоминаем, что произошло за день — в на...",
     "link": "https://t.me/mash/77162",
     "published": "Sat, 22 Aug 2026 19:02:33 GMT",
     "timestamp": 1787425353.0,
     "source": "TG: Mash",
     "language": "ru",
-    "description": "<p>Провожаем лето (осталось девять дней) и вспоминаем, что произошло за день — в нашем дайджесте:<br /><br />— Страны Персидского залива усиливают защиту НПЗ от дронов на фоне напряжённости вокруг переговоров США и Ирана.<br /><br />— США возобновят выдачу виз гражданам 75 стран, включая россиян. Суд отменил запрет администрации Трампа.<br /><br />— Владимир Путин заявил, что Россия продолжит проводить выборы и сама определять своё будущее. Самое главное из съезда депутатов собрали <a href=\"https://t.me/mash/77151\" rel=\"noopener\" target=\"_blank\">тут</a>.<br /><br />— ВС РФ <a href=\"https://t.me/mash/77143\" rel=\"noopener\" target=\"_blank\">нанесли</a> массированный удар по объектам транспортной и логистической инфраструктуры Киева и области. Также <a href=\"https://t.me/mash/77149\" rel=\"noopener\" target=\"_blank\">поражены</a> логистический центр сети \"Аврора\" в Борисполе, связанной с поставками для ВСУ.<br /><br />— В результате атак украинских БПЛА в <a href=\"https://t.me/mash/77142\" rel=\"noopener\" target=\"_blank\">Самарской области</a>, Краснодарском крае и <a href=\"https://t.me/mash/77156\" rel=\"noopener\" target=\"_blank\">Севастополе</a> есть погибшие и раненые. Повреждены промышленные и жилые объекты.<br /><br />— Впервые в истории финал главного турнира по Dota 2 полностью российский. Четыре команды из РФ будут бороться завтра за 3,2 ляма долларов. <br /><br />— С 1 сентября россияне смогут переводить крипту за рубеж на свои кошельки и счета иностранных магазинов для оплаты товаров и услуг.<br /><br />— Россиянам без одной руки или ноги разрешили водить грузовики и общественный транспорт. В список противопоказаний добавили только отсутствие обеих конечностей или кистей.<br /><br />— Зритель силового шоу в Брянске <a href=\"https://t.me/mash/77152\" rel=\"noopener\" target=\"_blank\">порвал</a> надколенные связки, решив без страховки потянуть \"ладу гранту\". Больно. <br /><br />— Вице-президент США Вэнс на время стал барменом. В Цинциннати он разливал посетителям пиво и раздавал хот-доги с чили. Дзынь!<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img src=\"https://cdn4.telesco.pe/file/vEfvh4RzFEkumMQayhF05w2yBLpblECJfV8hKFs-BgYqqQLkavv_FtNoEVUhx-k_B1JO-5uTgfhw8uT3oUn8t66Q7WjXRSTiuDtGgJH5L-AtmSyWl0b4xX9-f2Frb4mIEhQa8PO-G48Bz6UVNPKmAGOv7xOn5s3WfpqkWtETsCL_o9_qSYJzjKmyj0xLmz3LfvxSExQgp3lvVAXqx7iKplElIINB2EjPLrSqhvribXHNqNbQHPp4fT0MOJo35_Ibmfqi3Dm99tEENjH-TC2KgAh1ONvUXkndpZuZz5YEwVtfgiQ0YzgtXyI6e-9MQ9aS2-FXIuH2xHTvoHfULRbQ6w.jpg\" />",
-    "summary": "<p>Провожаем лето (осталось девять дней) и вспоминаем, что произошло за день — в нашем дайджесте:<br /><br />— Страны Персидского залива усиливают защиту НПЗ от дронов на фоне напряжённости вокруг переговоров США и Ирана.<br /><br />— США возобновят выдачу виз гражданам 75 стран, включая россиян. Суд отменил запрет администрации Трампа.<br /><br />— Владимир Путин заявил, что Россия продолжит проводить выборы и сама определять своё будущее. Самое главное из съезда депутатов собрали <a href=\"https://t.me/mash/77151\" rel=\"noopener\" target=\"_blank\">тут</a>.<br /><br />— ВС РФ <a href=\"https://t.me/mash/77143\" rel=\"noopener\" target=\"_blank\">нанесли</a> массированный удар по объектам транспортной и логистической инфраструктуры Киева и области. Также <a href=\"https://t.me/mash/77149\" rel=\"noopener\" target=\"_blank\">поражены</a> логистический центр сети \"Аврора\" в Борисполе, связанной с поставками для ВСУ.<br /><br />— В результате атак украинских БПЛА в <a href=\"https://t.me/mash/77142\" rel=\"noopener\" target=\"_blank\">Самарской области</a>, Краснодарском крае и <a href=\"https://t.me/mash/77156\" rel=\"noopener\" target=\"_blank\">Севастополе</a> есть погибшие и раненые. Повреждены промышленные и жилые объекты.<br /><br />— Впервые в истории финал главного турнира по Dota 2 полностью российский. Четыре команды из РФ будут бороться завтра за 3,2 ляма долларов. <br /><br />— С 1 сентября россияне смогут переводить крипту за рубеж на свои кошельки и счета иностранных магазинов для оплаты товаров и услуг.<br /><br />— Россиянам без одной руки или ноги разрешили водить грузовики и общественный транспорт. В список противопоказаний добавили только отсутствие обеих конечностей или кистей.<br /><br />— Зритель силового шоу в Брянске <a href=\"https://t.me/mash/77152\" rel=\"noopener\" target=\"_blank\">порвал</a> надколенные связки, решив без страховки потянуть \"ладу гранту\". Больно. <br /><br />— Вице-президент США Вэнс на время стал барменом. В Цинциннати он разливал посетителям пиво и раздавал хот-доги с чили. Дзынь!<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img src=\"https://cdn4.telesco.pe/file/vEfvh4RzFEkumMQayhF05w2yBLpblECJfV8hKFs-BgYqqQLkavv_FtNoEVUhx-k_B1JO-5uTgfhw8uT3oUn8t66Q7WjXRSTiuDtGgJH5L-AtmSyWl0b4xX9-f2Frb4mIEhQa8PO-G48Bz6UVNPKmAGOv7xOn5s3WfpqkWtETsCL_o9_qSYJzjKmyj0xLmz3LfvxSExQgp3lvVAXqx7iKplElIINB2EjPLrSqhvribXHNqNbQHPp4fT0MOJo35_Ibmfqi3Dm99tEENjH-TC2KgAh1ONvUXkndpZuZz5YEwVtfgiQ0YzgtXyI6e-9MQ9aS2-FXIuH2xHTvoHfULRbQ6w.jpg\" />",
+    "description": "<p>Провожаем лето (осталось девять дней) и вспоминаем, что произошло за день — в нашем дайджесте:<br /><br />— Страны Персидского залива усиливают защиту НПЗ от дронов на фоне напряжённости вокруг переговоров США и Ирана.<br /><br />— США возобновят выдачу виз гражданам 75 стран, включая россиян. Суд отменил запрет администрации Трампа.<br /><br />— Владимир Путин заявил, что Россия продолжит проводить выборы и сама определять своё будущее. Самое главное из съезда депутатов собрали <a href=\"https://t.me/mash/77151\" rel=\"noopener\" target=\"_blank\">тут</a>.<br /><br />— ВС РФ <a href=\"https://t.me/mash/77143\" rel=\"noopener\" target=\"_blank\">нанесли</a> массированный удар по объектам транспортной и логистической инфраструктуры Киева и области. Также <a href=\"https://t.me/mash/77149\" rel=\"noopener\" target=\"_blank\">поражены</a> логистический центр сети \"Аврора\" в Борисполе, связанной с поставками для ВСУ.<br /><br />— В результате атак украинских БПЛА в <a href=\"https://t.me/mash/77142\" rel=\"noopener\" target=\"_blank\">Самарской области</a>, Краснодарском крае и <a href=\"https://t.me/mash/77156\" rel=\"noopener\" target=\"_blank\">Севастополе</a> есть погибшие и раненые. Повреждены промышленные и жилые объекты.<br /><br />— Впервые в истории финал главного турнира по Dota 2 полностью российский. Четыре команды из РФ будут бороться завтра за 3,2 ляма долларов. <br /><br />— С 1 сентября россияне смогут переводить крипту за рубеж на свои кошельки и счета иностранных магазинов для оплаты товаров и услуг.<br /><br />— Россиянам без одной руки или ноги разрешили водить грузовики и общественный транспорт. В список противопоказаний добавили только отсутствие обеих конечностей или кистей.<br /><br />— Зритель силового шоу в Брянске <a href=\"https://t.me/mash/77152\" rel=\"noopener\" target=\"_blank\">порвал</a> надколенные связки, решив без страховки потянуть \"ладу гранту\". Больно. <br /><br />— Вице-президент США Вэнс на время стал барменом. В Цинциннати он разливал посетителям пиво и раздавал хот-доги с чили. Дзынь!<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img height=\"446\" src=\"https://cdn4.telesco.pe/file/vEfvh4RzFEkumMQayhF05w2yBLpblECJfV8hKFs-BgYqqQLkavv_FtNoEVUhx-k_B1JO-5uTgfhw8uT3oUn8t66Q7WjXRSTiuDtGgJH5L-AtmSyWl0b4xX9-f2Frb4mIEhQa8PO-G48Bz6UVNPKmAGOv7xOn5s3WfpqkWtETsCL_o9_qSYJzjKmyj0xLmz3LfvxSExQgp3lvVAXqx7iKplElIINB2EjPLrSqhvribXHNqNbQHPp4fT0MOJo35_Ibmfqi3Dm99tEENjH-TC2KgAh1ONvUXkndpZuZz5YEwVtfgiQ0YzgtXyI6e-9MQ9aS2-FXIuH2xHTvoHfULRbQ6w.jpg\" width=\"800\" />",
+    "summary": "<p>Провожаем лето (осталось девять дней) и вспоминаем, что произошло за день — в нашем дайджесте:<br /><br />— Страны Персидского залива усиливают защиту НПЗ от дронов на фоне напряжённости вокруг переговоров США и Ирана.<br /><br />— США возобновят выдачу виз гражданам 75 стран, включая россиян. Суд отменил запрет администрации Трампа.<br /><br />— Владимир Путин заявил, что Россия продолжит проводить выборы и сама определять своё будущее. Самое главное из съезда депутатов собрали <a href=\"https://t.me/mash/77151\" rel=\"noopener\" target=\"_blank\">тут</a>.<br /><br />— ВС РФ <a href=\"https://t.me/mash/77143\" rel=\"noopener\" target=\"_blank\">нанесли</a> массированный удар по объектам транспортной и логистической инфраструктуры Киева и области. Также <a href=\"https://t.me/mash/77149\" rel=\"noopener\" target=\"_blank\">поражены</a> логистический центр сети \"Аврора\" в Борисполе, связанной с поставками для ВСУ.<br /><br />— В результате атак украинских БПЛА в <a href=\"https://t.me/mash/77142\" rel=\"noopener\" target=\"_blank\">Самарской области</a>, Краснодарском крае и <a href=\"https://t.me/mash/77156\" rel=\"noopener\" target=\"_blank\">Севастополе</a> есть погибшие и раненые. Повреждены промышленные и жилые объекты.<br /><br />— Впервые в истории финал главного турнира по Dota 2 полностью российский. Четыре команды из РФ будут бороться завтра за 3,2 ляма долларов. <br /><br />— С 1 сентября россияне смогут переводить крипту за рубеж на свои кошельки и счета иностранных магазинов для оплаты товаров и услуг.<br /><br />— Россиянам без одной руки или ноги разрешили водить грузовики и общественный транспорт. В список противопоказаний добавили только отсутствие обеих конечностей или кистей.<br /><br />— Зритель силового шоу в Брянске <a href=\"https://t.me/mash/77152\" rel=\"noopener\" target=\"_blank\">порвал</a> надколенные связки, решив без страховки потянуть \"ладу гранту\". Больно. <br /><br />— Вице-президент США Вэнс на время стал барменом. В Цинциннати он разливал посетителям пиво и раздавал хот-доги с чили. Дзынь!<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img height=\"446\" src=\"https://cdn4.telesco.pe/file/vEfvh4RzFEkumMQayhF05w2yBLpblECJfV8hKFs-BgYqqQLkavv_FtNoEVUhx-k_B1JO-5uTgfhw8uT3oUn8t66Q7WjXRSTiuDtGgJH5L-AtmSyWl0b4xX9-f2Frb4mIEhQa8PO-G48Bz6UVNPKmAGOv7xOn5s3WfpqkWtETsCL_o9_qSYJzjKmyj0xLmz3LfvxSExQgp3lvVAXqx7iKplElIINB2EjPLrSqhvribXHNqNbQHPp4fT0MOJo35_Ibmfqi3Dm99tEENjH-TC2KgAh1ONvUXkndpZuZz5YEwVtfgiQ0YzgtXyI6e-9MQ9aS2-FXIuH2xHTvoHfULRbQ6w.jpg\" width=\"800\" />",
     "image": "https://cdn4.telesco.pe/file/vEfvh4RzFEkumMQayhF05w2yBLpblECJfV8hKFs-BgYqqQLkavv_FtNoEVUhx-k_B1JO-5uTgfhw8uT3oUn8t66Q7WjXRSTiuDtGgJH5L-AtmSyWl0b4xX9-f2Frb4mIEhQa8PO-G48Bz6UVNPKmAGOv7xOn5s3WfpqkWtETsCL_o9_qSYJzjKmyj0xLmz3LfvxSExQgp3lvVAXqx7iKplElIINB2EjPLrSqhvribXHNqNbQHPp4fT0MOJo35_Ibmfqi3Dm99tEENjH-TC2KgAh1ONvUXkndpZuZz5YEwVtfgiQ0YzgtXyI6e-9MQ9aS2-FXIuH2xHTvoHfULRbQ6w.jpg"
-  },
-  {
-    "title": "Black Forest Labs выпустила FLUX Video Upscale — апскейлер видео до 4K",
-    "link": "https://habr.com/ru/companies/bothub/news/1073352/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073352",
-    "published": "Sat, 22 Aug 2026 18:09:15 GMT",
-    "timestamp": 1787422155.0,
-    "source": "Хабр",
-    "language": "ru",
-    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/6a6/62c/e56/6a662ce56550048a1845ddc8a34a0851.jpeg\" /><p>Black Forest Labs запустила FLUX Video Upscale — модель для восстановления и увеличения разрешения видео до 4K. Инструмент работает не как обычный покадровый апскейлер: он перегенерирует кадры на новом разрешении, восстанавливая детали и исправляя артефакты, которые становятся заметнее после масштабирования. Лучше всего модель оптимизирована под видео, конечно же, созданные FLUX 3. </p><p>На вход можно подать видео длительностью до 20 секунд и размером до 50 МБ. Поддерживается исходное разрешение от 480p, а коэффициент увеличения составляет от 1,5× до 3×. Максимальный размер выходного кадра — около 14,4 Мп. Аудиодорожка исходного ролика сохраняется. </p><p>Главная особенность FLUX Video Upscale — именно super-resolution через регенерацию, а не простое увеличение существующих пикселей. BFL отдельно отмечает, что модель умеет исправлять размазанные лица и характерные сетчатые артефакты на текстурах вроде воды и травы. </p> <a href=\"https://habr.com/ru/articles/1073352/#habracut\">Читать далее</a>",
-    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/6a6/62c/e56/6a662ce56550048a1845ddc8a34a0851.jpeg\" /><p>Black Forest Labs запустила FLUX Video Upscale — модель для восстановления и увеличения разрешения видео до 4K. Инструмент работает не как обычный покадровый апскейлер: он перегенерирует кадры на новом разрешении, восстанавливая детали и исправляя артефакты, которые становятся заметнее после масштабирования. Лучше всего модель оптимизирована под видео, конечно же, созданные FLUX 3. </p><p>На вход можно подать видео длительностью до 20 секунд и размером до 50 МБ. Поддерживается исходное разрешение от 480p, а коэффициент увеличения составляет от 1,5× до 3×. Максимальный размер выходного кадра — около 14,4 Мп. Аудиодорожка исходного ролика сохраняется. </p><p>Главная особенность FLUX Video Upscale — именно super-resolution через регенерацию, а не простое увеличение существующих пикселей. BFL отдельно отмечает, что модель умеет исправлять размазанные лица и характерные сетчатые артефакты на текстурах вроде воды и травы. </p> <a href=\"https://habr.com/ru/articles/1073352/#habracut\">Читать далее</a>",
-    "image": "https://habrastorage.org/getpro/habr/upload_files/6a6/62c/e56/6a662ce56550048a1845ddc8a34a0851.jpeg"
   },
   {
     "title": "🖼 Топливо вернулось, но есть нюанс.",
@@ -501,8 +545,8 @@
     "timestamp": 1787421024.0,
     "source": "TG: Mash",
     "language": "ru",
-    "description": "<p>Forwarded From <b><a href=\"https://t.me/mashmoyka/26392\">Mash на Мойке</a></b></p><p>Лицом в пол лежат участники леворадикального закрытого музфеста в Ленобласти — силовики устроили рейд, задержали около 100 человек и ищут наркотики.<br /><br />Место проведения организаторы традиционно держали в секрете и сообщили участникам всего за сутки до начала. Лесной массив под Выборгом сейчас оцеплен. По нашей информации, ранее фестиваль назывался \"НОЖ\" (нездоровый образ жизни).<br /><br />Предварительно, поводом для рейда стали песни в поддержку Украины и смены власти в России, а также информация о массовом употреблении наркотиков. Оперативники и кинологи сейчас проверяют палатки, изымают квадрокоптеры (их запускали рядом с приграничной зоной) и осматривают плакаты с украинской символикой возле самодельной сцены.<br /><br />На данный момент задержаны около 100 участников и организаторов — им может грозить несколько уголовных дел.<br /><br /><span class=\"emoji\">😎</span> Телегу замедляют. Спокойствие, всё прекрасно грузится и читается — в нашем канале <a href=\"https://max.ru/mashmoyka\" rel=\"noopener\" target=\"_blank\">MAКС</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/cwEsvNfnddU8BvITLah87cMiYcypG9mw8uunaKtBCAkJle6RHWyh9qtMa9xbE6Q3bv4E7ZJh2CYCSN3m6eg9ye4S8ZbSyG7s2d6yFB-SixMV8jMVohQW_dQUlX7iCyC9yuGqGs4hHlYkrun-InfrXH9IBS4_14h8-ZdYRvAuJS3kDxxvhY-GZBRU21kKG3K5a24LNBjOskaflKqCdQiITi0nB17-MBQLvgnMMlTI4nah9WXZM-Vvedl8Z1AZwhWjvJyL5CSVUpV_Rtbfn__VIq2nB7JIEycL0tT9pnMPqepJ1i7_QSIhIshiBNQ0mmUx6poVKdmgQjj63w5eumWSvw\" src=\"https://cdn4.telesco.pe/file/5646922769.mp4?token=X9KxtCCLU17f8OxwmZ0qTyp-Fu_anF4Nzr5WiO9ziDOsI4cgCcNsfHwn-VkceqGJcPgLj9envAXmxbLuzojbB2tvCTwfzPVh1JbBdO7SdQwBT3SzRFgNAProB5W3RKp0OVSctRFD-S94hTI1c5fksXdEwIveGgQzIu6vkzZpGGFL9N7Z-o0kEw7kEUvbPKNDNEnIJbO6f0MbTyrR0iYPOEq2d75X9VyQO9d5pZGT511K2Mzv1xRJUhCW0Nv7TUqHoSfQ5qHiLfTojVJmjBHjk2rU7fxNr0vpLLPBmbjSjrlg6E8mA2vsPfrDFVOV9tlZuwUe1HKTu8aFHRbDDX0kFj3U3xHS2YGGnaHbvq07D-fpRG4X4BaPBm6AiEoFa5_IKjPxsfUYgUJ7mX4WT61B8NDipnhttZ0hLSK49Nx1PM_OceYfYIWjIBiMlasFrdYYAeEnkzpQXUJMgZ_17NSeKhduDLAAO5EvzHQ90crBcGb0mjoJUEV1qEOpzhp2aDiT0Z8iZe2wLLVSZb3sznU-z7WS11DVRQLutBa5dduatXEd6NbIQRsT0UEPEH478KiEoIXmvScKFqfy7uxyU7r77rGUmcHRwFIOGGKZSUIgx8hR4vxBWJ8Lne_AAa4xG3kJNNfalUMbl5QLDwTInirQ5w5ZKS3d2m3J92CtYimRLkg\" style=\"width: 100%;\"></video><img src=\"https://cdn4.telesco.pe/file/o1Fs8iR0YMPf9RXlENFi735KOKb7HmhGdylSEixTA6D8_cCHkthGMpCq2gNMQMWCz2Efcz6qEY8T9BKVnU95FvTA1XTiqR_MObC_yGgYPg81a6_Fxg6btKoxSbE0UTHjM7jh1AcNGTxzYLRJWcfUdhmDe5SESuEzBn3MAPSbq7-bF4Bo84SZhDUP99jz2vc8jCO78FTBrX5mJF27w6oI2zQvWD81ZGbd0HOQjbUs8nZxnzLJPqxwg6KzEX0b4a0ooZjB-2Z9CrkpF1TzuxX5S9CeN4NyG9zPR7HE6WuZp3QWL_hNUt5Cmp0A_wLw6iPc31ajADGBGdgscFlzJkuD9w.jpg\" />",
-    "summary": "<p>Forwarded From <b><a href=\"https://t.me/mashmoyka/26392\">Mash на Мойке</a></b></p><p>Лицом в пол лежат участники леворадикального закрытого музфеста в Ленобласти — силовики устроили рейд, задержали около 100 человек и ищут наркотики.<br /><br />Место проведения организаторы традиционно держали в секрете и сообщили участникам всего за сутки до начала. Лесной массив под Выборгом сейчас оцеплен. По нашей информации, ранее фестиваль назывался \"НОЖ\" (нездоровый образ жизни).<br /><br />Предварительно, поводом для рейда стали песни в поддержку Украины и смены власти в России, а также информация о массовом употреблении наркотиков. Оперативники и кинологи сейчас проверяют палатки, изымают квадрокоптеры (их запускали рядом с приграничной зоной) и осматривают плакаты с украинской символикой возле самодельной сцены.<br /><br />На данный момент задержаны около 100 участников и организаторов — им может грозить несколько уголовных дел.<br /><br /><span class=\"emoji\">😎</span> Телегу замедляют. Спокойствие, всё прекрасно грузится и читается — в нашем канале <a href=\"https://max.ru/mashmoyka\" rel=\"noopener\" target=\"_blank\">MAКС</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/cwEsvNfnddU8BvITLah87cMiYcypG9mw8uunaKtBCAkJle6RHWyh9qtMa9xbE6Q3bv4E7ZJh2CYCSN3m6eg9ye4S8ZbSyG7s2d6yFB-SixMV8jMVohQW_dQUlX7iCyC9yuGqGs4hHlYkrun-InfrXH9IBS4_14h8-ZdYRvAuJS3kDxxvhY-GZBRU21kKG3K5a24LNBjOskaflKqCdQiITi0nB17-MBQLvgnMMlTI4nah9WXZM-Vvedl8Z1AZwhWjvJyL5CSVUpV_Rtbfn__VIq2nB7JIEycL0tT9pnMPqepJ1i7_QSIhIshiBNQ0mmUx6poVKdmgQjj63w5eumWSvw\" src=\"https://cdn4.telesco.pe/file/5646922769.mp4?token=X9KxtCCLU17f8OxwmZ0qTyp-Fu_anF4Nzr5WiO9ziDOsI4cgCcNsfHwn-VkceqGJcPgLj9envAXmxbLuzojbB2tvCTwfzPVh1JbBdO7SdQwBT3SzRFgNAProB5W3RKp0OVSctRFD-S94hTI1c5fksXdEwIveGgQzIu6vkzZpGGFL9N7Z-o0kEw7kEUvbPKNDNEnIJbO6f0MbTyrR0iYPOEq2d75X9VyQO9d5pZGT511K2Mzv1xRJUhCW0Nv7TUqHoSfQ5qHiLfTojVJmjBHjk2rU7fxNr0vpLLPBmbjSjrlg6E8mA2vsPfrDFVOV9tlZuwUe1HKTu8aFHRbDDX0kFj3U3xHS2YGGnaHbvq07D-fpRG4X4BaPBm6AiEoFa5_IKjPxsfUYgUJ7mX4WT61B8NDipnhttZ0hLSK49Nx1PM_OceYfYIWjIBiMlasFrdYYAeEnkzpQXUJMgZ_17NSeKhduDLAAO5EvzHQ90crBcGb0mjoJUEV1qEOpzhp2aDiT0Z8iZe2wLLVSZb3sznU-z7WS11DVRQLutBa5dduatXEd6NbIQRsT0UEPEH478KiEoIXmvScKFqfy7uxyU7r77rGUmcHRwFIOGGKZSUIgx8hR4vxBWJ8Lne_AAa4xG3kJNNfalUMbl5QLDwTInirQ5w5ZKS3d2m3J92CtYimRLkg\" style=\"width: 100%;\"></video><img src=\"https://cdn4.telesco.pe/file/o1Fs8iR0YMPf9RXlENFi735KOKb7HmhGdylSEixTA6D8_cCHkthGMpCq2gNMQMWCz2Efcz6qEY8T9BKVnU95FvTA1XTiqR_MObC_yGgYPg81a6_Fxg6btKoxSbE0UTHjM7jh1AcNGTxzYLRJWcfUdhmDe5SESuEzBn3MAPSbq7-bF4Bo84SZhDUP99jz2vc8jCO78FTBrX5mJF27w6oI2zQvWD81ZGbd0HOQjbUs8nZxnzLJPqxwg6KzEX0b4a0ooZjB-2Z9CrkpF1TzuxX5S9CeN4NyG9zPR7HE6WuZp3QWL_hNUt5Cmp0A_wLw6iPc31ajADGBGdgscFlzJkuD9w.jpg\" />",
+    "description": "<p>Forwarded From <b><a href=\"https://t.me/mashmoyka/26392\">Mash на Мойке</a></b></p><p>Лицом в пол лежат участники леворадикального закрытого музфеста в Ленобласти — силовики устроили рейд, задержали около 100 человек и ищут наркотики.<br /><br />Место проведения организаторы традиционно держали в секрете и сообщили участникам всего за сутки до начала. Лесной массив под Выборгом сейчас оцеплен. По нашей информации, ранее фестиваль назывался \"НОЖ\" (нездоровый образ жизни).<br /><br />Предварительно, поводом для рейда стали песни в поддержку Украины и смены власти в России, а также информация о массовом употреблении наркотиков. Оперативники и кинологи сейчас проверяют палатки, изымают квадрокоптеры (их запускали рядом с приграничной зоной) и осматривают плакаты с украинской символикой возле самодельной сцены.<br /><br />На данный момент задержаны около 100 участников и организаторов — им может грозить несколько уголовных дел.<br /><br /><span class=\"emoji\">😎</span> Телегу замедляют. Спокойствие, всё прекрасно грузится и читается — в нашем канале <a href=\"https://max.ru/mashmoyka\" rel=\"noopener\" target=\"_blank\">MAКС</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/cwEsvNfnddU8BvITLah87cMiYcypG9mw8uunaKtBCAkJle6RHWyh9qtMa9xbE6Q3bv4E7ZJh2CYCSN3m6eg9ye4S8ZbSyG7s2d6yFB-SixMV8jMVohQW_dQUlX7iCyC9yuGqGs4hHlYkrun-InfrXH9IBS4_14h8-ZdYRvAuJS3kDxxvhY-GZBRU21kKG3K5a24LNBjOskaflKqCdQiITi0nB17-MBQLvgnMMlTI4nah9WXZM-Vvedl8Z1AZwhWjvJyL5CSVUpV_Rtbfn__VIq2nB7JIEycL0tT9pnMPqepJ1i7_QSIhIshiBNQ0mmUx6poVKdmgQjj63w5eumWSvw\" src=\"https://cdn4.telesco.pe/file/5646922769.mp4?token=X9KxtCCLU17f8OxwmZ0qTyp-Fu_anF4Nzr5WiO9ziDOsI4cgCcNsfHwn-VkceqGJcPgLj9envAXmxbLuzojbB2tvCTwfzPVh1JbBdO7SdQwBT3SzRFgNAProB5W3RKp0OVSctRFD-S94hTI1c5fksXdEwIveGgQzIu6vkzZpGGFL9N7Z-o0kEw7kEUvbPKNDNEnIJbO6f0MbTyrR0iYPOEq2d75X9VyQO9d5pZGT511K2Mzv1xRJUhCW0Nv7TUqHoSfQ5qHiLfTojVJmjBHjk2rU7fxNr0vpLLPBmbjSjrlg6E8mA2vsPfrDFVOV9tlZuwUe1HKTu8aFHRbDDX0kFj3U3xHS2YGGnaHbvq07D-fpRG4X4BaPBm6AiEoFa5_IKjPxsfUYgUJ7mX4WT61B8NDipnhttZ0hLSK49Nx1PM_OceYfYIWjIBiMlasFrdYYAeEnkzpQXUJMgZ_17NSeKhduDLAAO5EvzHQ90crBcGb0mjoJUEV1qEOpzhp2aDiT0Z8iZe2wLLVSZb3sznU-z7WS11DVRQLutBa5dduatXEd6NbIQRsT0UEPEH478KiEoIXmvScKFqfy7uxyU7r77rGUmcHRwFIOGGKZSUIgx8hR4vxBWJ8Lne_AAa4xG3kJNNfalUMbl5QLDwTInirQ5w5ZKS3d2m3J92CtYimRLkg\" style=\"width: 100%;\"></video><img height=\"225\" src=\"https://cdn4.telesco.pe/file/o1Fs8iR0YMPf9RXlENFi735KOKb7HmhGdylSEixTA6D8_cCHkthGMpCq2gNMQMWCz2Efcz6qEY8T9BKVnU95FvTA1XTiqR_MObC_yGgYPg81a6_Fxg6btKoxSbE0UTHjM7jh1AcNGTxzYLRJWcfUdhmDe5SESuEzBn3MAPSbq7-bF4Bo84SZhDUP99jz2vc8jCO78FTBrX5mJF27w6oI2zQvWD81ZGbd0HOQjbUs8nZxnzLJPqxwg6KzEX0b4a0ooZjB-2Z9CrkpF1TzuxX5S9CeN4NyG9zPR7HE6WuZp3QWL_hNUt5Cmp0A_wLw6iPc31ajADGBGdgscFlzJkuD9w.jpg\" width=\"226\" />",
+    "summary": "<p>Forwarded From <b><a href=\"https://t.me/mashmoyka/26392\">Mash на Мойке</a></b></p><p>Лицом в пол лежат участники леворадикального закрытого музфеста в Ленобласти — силовики устроили рейд, задержали около 100 человек и ищут наркотики.<br /><br />Место проведения организаторы традиционно держали в секрете и сообщили участникам всего за сутки до начала. Лесной массив под Выборгом сейчас оцеплен. По нашей информации, ранее фестиваль назывался \"НОЖ\" (нездоровый образ жизни).<br /><br />Предварительно, поводом для рейда стали песни в поддержку Украины и смены власти в России, а также информация о массовом употреблении наркотиков. Оперативники и кинологи сейчас проверяют палатки, изымают квадрокоптеры (их запускали рядом с приграничной зоной) и осматривают плакаты с украинской символикой возле самодельной сцены.<br /><br />На данный момент задержаны около 100 участников и организаторов — им может грозить несколько уголовных дел.<br /><br /><span class=\"emoji\">😎</span> Телегу замедляют. Спокойствие, всё прекрасно грузится и читается — в нашем канале <a href=\"https://max.ru/mashmoyka\" rel=\"noopener\" target=\"_blank\">MAКС</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/cwEsvNfnddU8BvITLah87cMiYcypG9mw8uunaKtBCAkJle6RHWyh9qtMa9xbE6Q3bv4E7ZJh2CYCSN3m6eg9ye4S8ZbSyG7s2d6yFB-SixMV8jMVohQW_dQUlX7iCyC9yuGqGs4hHlYkrun-InfrXH9IBS4_14h8-ZdYRvAuJS3kDxxvhY-GZBRU21kKG3K5a24LNBjOskaflKqCdQiITi0nB17-MBQLvgnMMlTI4nah9WXZM-Vvedl8Z1AZwhWjvJyL5CSVUpV_Rtbfn__VIq2nB7JIEycL0tT9pnMPqepJ1i7_QSIhIshiBNQ0mmUx6poVKdmgQjj63w5eumWSvw\" src=\"https://cdn4.telesco.pe/file/5646922769.mp4?token=X9KxtCCLU17f8OxwmZ0qTyp-Fu_anF4Nzr5WiO9ziDOsI4cgCcNsfHwn-VkceqGJcPgLj9envAXmxbLuzojbB2tvCTwfzPVh1JbBdO7SdQwBT3SzRFgNAProB5W3RKp0OVSctRFD-S94hTI1c5fksXdEwIveGgQzIu6vkzZpGGFL9N7Z-o0kEw7kEUvbPKNDNEnIJbO6f0MbTyrR0iYPOEq2d75X9VyQO9d5pZGT511K2Mzv1xRJUhCW0Nv7TUqHoSfQ5qHiLfTojVJmjBHjk2rU7fxNr0vpLLPBmbjSjrlg6E8mA2vsPfrDFVOV9tlZuwUe1HKTu8aFHRbDDX0kFj3U3xHS2YGGnaHbvq07D-fpRG4X4BaPBm6AiEoFa5_IKjPxsfUYgUJ7mX4WT61B8NDipnhttZ0hLSK49Nx1PM_OceYfYIWjIBiMlasFrdYYAeEnkzpQXUJMgZ_17NSeKhduDLAAO5EvzHQ90crBcGb0mjoJUEV1qEOpzhp2aDiT0Z8iZe2wLLVSZb3sznU-z7WS11DVRQLutBa5dduatXEd6NbIQRsT0UEPEH478KiEoIXmvScKFqfy7uxyU7r77rGUmcHRwFIOGGKZSUIgx8hR4vxBWJ8Lne_AAa4xG3kJNNfalUMbl5QLDwTInirQ5w5ZKS3d2m3J92CtYimRLkg\" style=\"width: 100%;\"></video><img height=\"225\" src=\"https://cdn4.telesco.pe/file/o1Fs8iR0YMPf9RXlENFi735KOKb7HmhGdylSEixTA6D8_cCHkthGMpCq2gNMQMWCz2Efcz6qEY8T9BKVnU95FvTA1XTiqR_MObC_yGgYPg81a6_Fxg6btKoxSbE0UTHjM7jh1AcNGTxzYLRJWcfUdhmDe5SESuEzBn3MAPSbq7-bF4Bo84SZhDUP99jz2vc8jCO78FTBrX5mJF27w6oI2zQvWD81ZGbd0HOQjbUs8nZxnzLJPqxwg6KzEX0b4a0ooZjB-2Z9CrkpF1TzuxX5S9CeN4NyG9zPR7HE6WuZp3QWL_hNUt5Cmp0A_wLw6iPc31ajADGBGdgscFlzJkuD9w.jpg\" width=\"226\" />",
     "image": "https://cdn4.telesco.pe/file/o1Fs8iR0YMPf9RXlENFi735KOKb7HmhGdylSEixTA6D8_cCHkthGMpCq2gNMQMWCz2Efcz6qEY8T9BKVnU95FvTA1XTiqR_MObC_yGgYPg81a6_Fxg6btKoxSbE0UTHjM7jh1AcNGTxzYLRJWcfUdhmDe5SESuEzBn3MAPSbq7-bF4Bo84SZhDUP99jz2vc8jCO78FTBrX5mJF27w6oI2zQvWD81ZGbd0HOQjbUs8nZxnzLJPqxwg6KzEX0b4a0ooZjB-2Z9CrkpF1TzuxX5S9CeN4NyG9zPR7HE6WuZp3QWL_hNUt5Cmp0A_wLw6iPc31ajADGBGdgscFlzJkuD9w.jpg"
   },
   {
@@ -517,28 +561,6 @@
     "image": ""
   },
   {
-    "title": "Anthropic встроила Mythos 5 в Claude Security",
-    "link": "https://habr.com/ru/companies/bothub/news/1073346/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073346",
-    "published": "Sat, 22 Aug 2026 17:28:31 GMT",
-    "timestamp": 1787419711.0,
-    "source": "Хабр",
-    "language": "ru",
-    "description": "<p>Anthropic начала использовать Claude Mythos 5 для сканирования кода на уязвимости в Claude Security. Функция уже доступна в публичной бете клиентам Claude Enterprise.</p><p>Администратор включает Claude Security в консоли, после чего пользователь выбирает репозиторий. Система анализирует код и по каждой найденной проблеме показывает категорию CWE, оценку уверенности, уровень серьезности и предлагаемое исправление.</p><p>Прямого доступа к Mythos 5 это не дает. Модель работает в фоне и возвращает только результаты анализа. Для исправления уязвимостей можно открыть Claude Code on the web, но патчи создаются уже доступными организации моделями. Каждый патч должен пройти проверку и получить одобрение человека перед применением. </p><p>Отдельно покупать Mythos 5 не нужно: сканирование тарифицируется как обычный расход токенов в рамках действующего плана. </p> <a href=\"https://habr.com/ru/articles/1073346/#habracut\">Читать далее</a>",
-    "summary": "<p>Anthropic начала использовать Claude Mythos 5 для сканирования кода на уязвимости в Claude Security. Функция уже доступна в публичной бете клиентам Claude Enterprise.</p><p>Администратор включает Claude Security в консоли, после чего пользователь выбирает репозиторий. Система анализирует код и по каждой найденной проблеме показывает категорию CWE, оценку уверенности, уровень серьезности и предлагаемое исправление.</p><p>Прямого доступа к Mythos 5 это не дает. Модель работает в фоне и возвращает только результаты анализа. Для исправления уязвимостей можно открыть Claude Code on the web, но патчи создаются уже доступными организации моделями. Каждый патч должен пройти проверку и получить одобрение человека перед применением. </p><p>Отдельно покупать Mythos 5 не нужно: сканирование тарифицируется как обычный расход токенов в рамках действующего плана. </p> <a href=\"https://habr.com/ru/articles/1073346/#habracut\">Читать далее</a>",
-    "image": ""
-  },
-  {
-    "title": "Похоже, команда NVIDIA добилась ощутимого прогресса в улучшении возможностей уже существующих LLM",
-    "link": "https://habr.com/ru/news/1073344/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073344",
-    "published": "Sat, 22 Aug 2026 17:21:43 GMT",
-    "timestamp": 1787419303.0,
-    "source": "Хабр",
-    "language": "ru",
-    "description": "<p>В блоге компании NVIDA опубликован <a href=\"https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/\" rel=\"noopener noreferrer nofollow\">пост</a> о возможностях разработанной ими обвязки над LLM c названием AVO (Agentic Variation Operators). Судя по всему, изначально она разрабатывалась для улучшения архитектуры GPU самой компании NVIDA (в чем тоже весьма преуспела), но потом ее решили попробовать на решении одной из самых трудных для языковых моделей задач - тесте <a href=\"https://habr.com/ru/news/1015044/\" rel=\"noopener noreferrer nofollow\">ARC-AGI-3</a> специально разработанном таким образом, что бы задачи могли сравнительно легко решаться среднестатистическим человеком, но были труды для языковых моделей. В частности, не менее 20% людей решают все 100% задач с первой попытки.</p><p>До последнего времени результат модели Claude Opus 5, с которой экспериментировали авторы, составлял около 30%, но с подключением AVO он скакнул сразу до 100%. Обсуждаемая обвязка может работать и с другими моделями, в частности авторы экспериментировали с GPT-5.6 Sol. Судя по изложенному в публикации материалу, AVO выступает для самой модели чем-то вроде направляющего ее агента, помогая осуществлять стратегическое планирование, решать проблему зацикливания LLM, менять план поиска решения, если предложенный до этого не работает и т.д. В общем, похоже, найден путь ощутимого улучшения работы уже существующих моделей, позволяющий в полной мере использовать их скрытые до этого возможности. </p> <a href=\"https://habr.com/ru/articles/1073344/#habracut\">Читать далее</a>",
-    "summary": "<p>В блоге компании NVIDA опубликован <a href=\"https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/\" rel=\"noopener noreferrer nofollow\">пост</a> о возможностях разработанной ими обвязки над LLM c названием AVO (Agentic Variation Operators). Судя по всему, изначально она разрабатывалась для улучшения архитектуры GPU самой компании NVIDA (в чем тоже весьма преуспела), но потом ее решили попробовать на решении одной из самых трудных для языковых моделей задач - тесте <a href=\"https://habr.com/ru/news/1015044/\" rel=\"noopener noreferrer nofollow\">ARC-AGI-3</a> специально разработанном таким образом, что бы задачи могли сравнительно легко решаться среднестатистическим человеком, но были труды для языковых моделей. В частности, не менее 20% людей решают все 100% задач с первой попытки.</p><p>До последнего времени результат модели Claude Opus 5, с которой экспериментировали авторы, составлял около 30%, но с подключением AVO он скакнул сразу до 100%. Обсуждаемая обвязка может работать и с другими моделями, в частности авторы экспериментировали с GPT-5.6 Sol. Судя по изложенному в публикации материалу, AVO выступает для самой модели чем-то вроде направляющего ее агента, помогая осуществлять стратегическое планирование, решать проблему зацикливания LLM, менять план поиска решения, если предложенный до этого не работает и т.д. В общем, похоже, найден путь ощутимого улучшения работы уже существующих моделей, позволяющий в полной мере использовать их скрытые до этого возможности. </p> <a href=\"https://habr.com/ru/articles/1073344/#habracut\">Читать далее</a>",
-    "image": ""
-  },
-  {
     "title": "🎬 В Пекине проходит вторая в истории Олимпиада роботов — более 2000 машин из 16 стра...",
     "link": "https://t.me/bazabazon/48458",
     "published": "Sat, 22 Aug 2026 17:15:39 GMT",
@@ -548,17 +570,6 @@
     "description": "<p>В Пекине проходит вторая в истории Олимпиада роботов — более 2000 машин из 16 стран соревнуются в 30 дисциплинах.<br /><br />Роботы играют в футбол, танцуют, занимаются тяжёлой атлетикой и выполняют другие спортивные задания. Гуманоид Honor уже успел пробежать 100 метров за 9,32 секунды — быстрее рекорда Усейна Болта в 9,58.<br /><br />Помимо спорта, роботы будут имитировать работу пожарных, продавцов, заводских сотрудников и домашних помощников. Олимпиада будет проходить с 22 по 26 августа. <br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/bqiZ0l-aLJD4lj1K00e36xWzdYLJ8t9C9may-o5-yNwneuz8T6XtoMTLQl7FCjYYgppPAW5FILwqPZiGGNUKx9SMpYWQOjbH5ZEcr_6fWq7diTFvXpPK6qKJ2DaBsBLp2WgkJASPaPqFdvIQYeEiVHBFkPoKcCNMW2xKviizs5KMJ_K7MYWHlZcQuxuBS6FSyBMDx9GabKjU1Bgp0-UK27izDmGTTO8uOkoCEDxcF3TQtRJLPz2MarE_1RiHYbMlNwgXc-BAKkuymE794hhIEW2FNWr5CEgeviPJ1DaoGDlrJelEAN0NuDGTOwxMNsZbDO07P22KEecKzHoNim9Lgw\" src=\"https://cdn4.telesco.pe/file/3cf0b8c817.mp4?token=b_S2XoTlGgLH3cZyngPmzHq7iwUOdZYD-0qYM4_Alf2U1MZpmhyYsZqPI_IoaFnpwZaKP_XlejV6u5GlLbPOipAziJJonqvlJWbefhO-VRzJIk8JhbMT1HQDTxwkK-4KmZnHVJbA621qzcI0nqG3nfPuyzVDdSjOELUY0qvjGWCsOIo3qwz7_0hec4gfr7IRWBL3aWlCSp1ArkiSZKI2iJagGaq_ZdskvtGqeuI-e4dVJjCujrEwAqA4LFX8X9PXz4r0alPb6vWz5tscP_T5cTmN6sQaYq2dirMbTKZJsUby2tl4s2PuOHn8lZ2fl9Y0wW7O3ndrJ-8wyfRYkd6Lpw\" style=\"width: 100%;\"></video>",
     "summary": "<p>В Пекине проходит вторая в истории Олимпиада роботов — более 2000 машин из 16 стран соревнуются в 30 дисциплинах.<br /><br />Роботы играют в футбол, танцуют, занимаются тяжёлой атлетикой и выполняют другие спортивные задания. Гуманоид Honor уже успел пробежать 100 метров за 9,32 секунды — быстрее рекорда Усейна Болта в 9,58.<br /><br />Помимо спорта, роботы будут имитировать работу пожарных, продавцов, заводских сотрудников и домашних помощников. Олимпиада будет проходить с 22 по 26 августа. <br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/bqiZ0l-aLJD4lj1K00e36xWzdYLJ8t9C9may-o5-yNwneuz8T6XtoMTLQl7FCjYYgppPAW5FILwqPZiGGNUKx9SMpYWQOjbH5ZEcr_6fWq7diTFvXpPK6qKJ2DaBsBLp2WgkJASPaPqFdvIQYeEiVHBFkPoKcCNMW2xKviizs5KMJ_K7MYWHlZcQuxuBS6FSyBMDx9GabKjU1Bgp0-UK27izDmGTTO8uOkoCEDxcF3TQtRJLPz2MarE_1RiHYbMlNwgXc-BAKkuymE794hhIEW2FNWr5CEgeviPJ1DaoGDlrJelEAN0NuDGTOwxMNsZbDO07P22KEecKzHoNim9Lgw\" src=\"https://cdn4.telesco.pe/file/3cf0b8c817.mp4?token=b_S2XoTlGgLH3cZyngPmzHq7iwUOdZYD-0qYM4_Alf2U1MZpmhyYsZqPI_IoaFnpwZaKP_XlejV6u5GlLbPOipAziJJonqvlJWbefhO-VRzJIk8JhbMT1HQDTxwkK-4KmZnHVJbA621qzcI0nqG3nfPuyzVDdSjOELUY0qvjGWCsOIo3qwz7_0hec4gfr7IRWBL3aWlCSp1ArkiSZKI2iJagGaq_ZdskvtGqeuI-e4dVJjCujrEwAqA4LFX8X9PXz4r0alPb6vWz5tscP_T5cTmN6sQaYq2dirMbTKZJsUby2tl4s2PuOHn8lZ2fl9Y0wW7O3ndrJ-8wyfRYkd6Lpw\" style=\"width: 100%;\"></video>",
     "image": ""
-  },
-  {
-    "title": "Просмотр рилсов деактивирует когнитивную систему контроля мозга",
-    "link": "https://habr.com/ru/news/1073334/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073334",
-    "published": "Sat, 22 Aug 2026 17:14:57 GMT",
-    "timestamp": 1787418897.0,
-    "source": "Хабр",
-    "language": "ru",
-    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/f6d/054/4b2/f6d0544b2d3c6fa732fe820fbfbffd4a.jpg\" /><p>Когда люди смотрят короткое видео, оно им нравится, и они досматривают его до&nbsp;конца, две области мозга, участвующие в&nbsp;когнитивном контроле, демонстрируют значительную деактивацию. Это главный вывод нового исследования Университета Чжэцзяна, опубликованного в&nbsp;журнале «NeuroImage» в&nbsp;январе 2026&nbsp;года. Используя функциональную МРТ в&nbsp;сочетании с&nbsp;протонной магнитно‑резонансной спектроскопией (¹H‑MRS), исследовательская группа обследовала 56&nbsp;молодых людей, пока те свободно просматривали короткие видеоролики, находясь внутри МРТ‑сканера. Как&nbsp;дорсальная передняя поясная кора (dACC), так и дорсолатеральная префронтальная кора (dlPFC) демонстрировали снижение активности именно в&nbsp;тех случаях, когда участники смотрели ролики, которые им нравились настолько, что&nbsp;они досматривали их до&nbsp;конца.</p><p>dACC и dlPFC составляют ядро сети когнитивного контроля мозга. dACC участвует в&nbsp;мониторинге конфликтов, принятии решений, основанных на&nbsp;вознаграждении, и оценке усилий; она обычно активируется при&nbsp;выполнении сложных задач, таких как&nbsp;тест Струпа или&nbsp;тест «Go/No‑Go». dlPFC, которая структурно связана с&nbsp;dACC, осуществляет нисходящий контроль, как&nbsp;только dACC сигнализирует о&nbsp;необходимости такого контроля.</p><p>Во&nbsp;время сканирования участники просматривали два шестиминутных блока коротких роликов, отобранных из&nbsp;библиотеки из 160&nbsp;видеороликов, охватывающих пять категорий: действия одного человека, взаимодействия нескольких человек, домашние животные, сцены из&nbsp;игр и природные пейзажи. Участники могли в&nbsp;любой момент нажать кнопку, чтобы перейти к&nbsp;следующему ролику. Исходя из&nbsp;поведения при&nbsp;просмотре, каждое видео классифицировалось как «понравившееся» (просмотренное до&nbsp;конца), «не понравившееся» (пропущенное до&nbsp;достижения середины) или&nbsp;относилось к&nbsp;третьей категории&nbsp;— ролики, пропущенные после середины.</p> <a href=\"https://habr.com/ru/articles/1073334/#habracut\">Читать далее</a>",
-    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/f6d/054/4b2/f6d0544b2d3c6fa732fe820fbfbffd4a.jpg\" /><p>Когда люди смотрят короткое видео, оно им нравится, и они досматривают его до&nbsp;конца, две области мозга, участвующие в&nbsp;когнитивном контроле, демонстрируют значительную деактивацию. Это главный вывод нового исследования Университета Чжэцзяна, опубликованного в&nbsp;журнале «NeuroImage» в&nbsp;январе 2026&nbsp;года. Используя функциональную МРТ в&nbsp;сочетании с&nbsp;протонной магнитно‑резонансной спектроскопией (¹H‑MRS), исследовательская группа обследовала 56&nbsp;молодых людей, пока те свободно просматривали короткие видеоролики, находясь внутри МРТ‑сканера. Как&nbsp;дорсальная передняя поясная кора (dACC), так и дорсолатеральная префронтальная кора (dlPFC) демонстрировали снижение активности именно в&nbsp;тех случаях, когда участники смотрели ролики, которые им нравились настолько, что&nbsp;они досматривали их до&nbsp;конца.</p><p>dACC и dlPFC составляют ядро сети когнитивного контроля мозга. dACC участвует в&nbsp;мониторинге конфликтов, принятии решений, основанных на&nbsp;вознаграждении, и оценке усилий; она обычно активируется при&nbsp;выполнении сложных задач, таких как&nbsp;тест Струпа или&nbsp;тест «Go/No‑Go». dlPFC, которая структурно связана с&nbsp;dACC, осуществляет нисходящий контроль, как&nbsp;только dACC сигнализирует о&nbsp;необходимости такого контроля.</p><p>Во&nbsp;время сканирования участники просматривали два шестиминутных блока коротких роликов, отобранных из&nbsp;библиотеки из 160&nbsp;видеороликов, охватывающих пять категорий: действия одного человека, взаимодействия нескольких человек, домашние животные, сцены из&nbsp;игр и природные пейзажи. Участники могли в&nbsp;любой момент нажать кнопку, чтобы перейти к&nbsp;следующему ролику. Исходя из&nbsp;поведения при&nbsp;просмотре, каждое видео классифицировалось как «понравившееся» (просмотренное до&nbsp;конца), «не понравившееся» (пропущенное до&nbsp;достижения середины) или&nbsp;относилось к&nbsp;третьей категории&nbsp;— ролики, пропущенные после середины.</p> <a href=\"https://habr.com/ru/articles/1073334/#habracut\">Читать далее</a>",
-    "image": "https://habrastorage.org/getpro/habr/upload_files/f6d/054/4b2/f6d0544b2d3c6fa732fe820fbfbffd4a.jpg"
   },
   {
     "title": "🎬 В Обнинске пенсионер словил пи..юлей за модную критику.",
@@ -578,8 +589,8 @@
     "timestamp": 1787414789.0,
     "source": "TG: Mash",
     "language": "ru",
-    "description": "<p>Улан-Удэ прямо сейчас уходит под воду из-за погодного апокалипсиса. Местные сидят без электричества из-за замыкания на подстанциях, машины засасывает в трёхметровые овраги. <br /><br />С гор сошли селевые потоки — грунт смыло вместе с припаркованными авто. С десяток ласточек провалились в промоины, а в посёлке Таёжном одну почти по окна похоронило в песке (на видео). На Мясокомбинате шквал сорвал кусок крыши и снёс угол здания прямо на тротуар.<br /><br />Администрация просит переждать этот погодный ад дома. После того как небеса перестанут топить город, коммунальщики выйдут откачивать воду и разгребать последствия.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/riHOghem0Bf-SXe3QizoFOnOmERUqkBQsvAvHMZGrO3Vade42Jf5hwEsJPSb8IgOzSIxweNNFd7rgujhGGEJHEi6HDxLrRxAGIMAxlUF8OQFxRpk7LJGcBZjWV7a5v5bRD3ub0J2Sqd-5ihjXn8BA2VI_cINgvkx6k5JiYhUW0UdIwX-uye4eoLATMIkhPWyr9t-Xzx7WUXubxxohF_JCK76ZLFZo1tTjU0JYS9c5QJMqgmrDj7T9cr7g3i-KNqwbCKVbBpr_YkRvu26NIKVcw4ALwRQGRTkJfj0maUz6-cOHi3XCg_OSSwDmLQJD7WnphVkonM503lo9HDtgiec1g\" src=\"https://cdn4.telesco.pe/file/21d4b8c716.mp4?token=WrIyIxvO9B4bxfjz8-5eO3NciKfnnmfjdrBEoRDFpUIocbwUVjVzhkKUdOy9B8xJoblcV1cBj4EFR1yrxxWbVwQJxO_l8oM8wIKcgqkL4fTsBKa_08LFekMKHsqpGdhS_p37H1_P2JA-dmtk16Axzto1Rro1-kVt3z9Kokdk_32eqtnRB7i5UjpBg-51G5DPhv91OH7LB9M-esG8mZABamIzG-N22VF0uYMJrR50zDBVPI0pI5kYxnKQuuHRVK0xTRDITRcY1Sw1wRP0W3MpRHQ__TdljV4-ki1zvvZ7dohei0R8uQ2FEJFw3ePqrUzryY6kZ-Yxb7v-Lvr9pAPXNoi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ\" style=\"width: 100%;\"></video>",
-    "summary": "<p>Улан-Удэ прямо сейчас уходит под воду из-за погодного апокалипсиса. Местные сидят без электричества из-за замыкания на подстанциях, машины засасывает в трёхметровые овраги. <br /><br />С гор сошли селевые потоки — грунт смыло вместе с припаркованными авто. С десяток ласточек провалились в промоины, а в посёлке Таёжном одну почти по окна похоронило в песке (на видео). На Мясокомбинате шквал сорвал кусок крыши и снёс угол здания прямо на тротуар.<br /><br />Администрация просит переждать этот погодный ад дома. После того как небеса перестанут топить город, коммунальщики выйдут откачивать воду и разгребать последствия.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/riHOghem0Bf-SXe3QizoFOnOmERUqkBQsvAvHMZGrO3Vade42Jf5hwEsJPSb8IgOzSIxweNNFd7rgujhGGEJHEi6HDxLrRxAGIMAxlUF8OQFxRpk7LJGcBZjWV7a5v5bRD3ub0J2Sqd-5ihjXn8BA2VI_cINgvkx6k5JiYhUW0UdIwX-uye4eoLATMIkhPWyr9t-Xzx7WUXubxxohF_JCK76ZLFZo1tTjU0JYS9c5QJMqgmrDj7T9cr7g3i-KNqwbCKVbBpr_YkRvu26NIKVcw4ALwRQGRTkJfj0maUz6-cOHi3XCg_OSSwDmLQJD7WnphVkonM503lo9HDtgiec1g\" src=\"https://cdn4.telesco.pe/file/21d4b8c716.mp4?token=WrIyIxvO9B4bxfjz8-5eO3NciKfnnmfjdrBEoRDFpUIocbwUVjVzhkKUdOy9B8xJoblcV1cBj4EFR1yrxxWbVwQJxO_l8oM8wIKcgqkL4fTsBKa_08LFekMKHsqpGdhS_p37H1_P2JA-dmtk16Axzto1Rro1-kVt3z9Kokdk_32eqtnRB7i5UjpBg-51G5DPhv91OH7LB9M-esG8mZABamIzG-N22VF0uYMJrR50zDBVPI0pI5kYxnKQuuHRVK0xTRDITRcY1Sw1wRP0W3MpRHQ__TdljV4-ki1zvvZ7dohei0R8uQ2FEJFw3ePqrUzryY6kZ-Yxb7v-Lvr9pAPXNoi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ\" style=\"width: 100%;\"></video>",
+    "description": "<p>Улан-Удэ прямо сейчас уходит под воду из-за погодного апокалипсиса. Местные сидят без электричества из-за замыкания на подстанциях, машины засасывает в трёхметровые овраги. <br /><br />С гор сошли селевые потоки — грунт смыло вместе с припаркованными авто. С десяток ласточек провалились в промоины, а в посёлке Таёжном одну почти по окна похоронило в песке (на видео). На Мясокомбинате шквал сорвал кусок крыши и снёс угол здания прямо на тротуар.<br /><br />Администрация просит переждать этот погодный ад дома. После того как небеса перестанут топить город, коммунальщики выйдут откачивать воду и разгребать последствия.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/riHOghem0Bf-SXe3QizoFOnOmERUqkBQsvAvHMZGrO3Vade42Jf5hwEsJPSb8IgOzSIxweNNFd7rgujhGGEJHEi6HDxLrRxAGIMAxlUF8OQFxRpk7LJGcBZjWV7a5v5bRD3ub0J2Sqd-5ihjXn8BA2VI_cINgvkx6k5JiYhUW0UdIwX-uye4eoLATMIkhPWyr9t-Xzx7WUXubxxohF_JCK76ZLFZo1tTjU0JYS9c5QJMqgmrDj7T9cr7g3i-KNqwbCKVbBpr_YkRvu26NIKVcw4ALwRQGRTkJfj0maUz6-cOHi3XCg_OSSwDmLQJD7WnphVkonM503lo9HDtgiec1g\" src=\"https://cdn4.telesco.pe/file/21d4b8c716.mp4?token=WrIyIxvO9B4bxfjz8-5eO3NciKfnnmfjdrBEoRDFpUIocbwUVjVzhkKUdOy9B8xJoblcV1cBj4EFR1yrxxWbVwQJxO_l8oM8wIKcgqkL4fTsBKa_08LFekMKHsqpGdhS_p37H1_P2JA-dmtk16Axzto1Rro1-kVt3z9Kokdk_32eqtnRB7i5UjpBg-51G5DPhv91OH7LB9M-esG8mZABamIzG-N22VF0uYMJrR50zDBVPI0pI5kYxnKQuuHRVK0xTRDITRcY1Sw1wRP0W3MpRHQ__TdljV4-ki1zvvZ7dohei0R8uQ2FEJFw3ePqrUzryY6kZ-Yxb7v-Lvr9pAPXNoi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Улан-Удэ прямо сейчас уходит под воду из-за погодного апокалипсиса. Местные сидят без электричества из-за замыкания на подстанциях, машины засасывает в трёхметровые овраги. <br /><br />С гор сошли селевые потоки — грунт смыло вместе с припаркованными авто. С десяток ласточек провалились в промоины, а в посёлке Таёжном одну почти по окна похоронило в песке (на видео). На Мясокомбинате шквал сорвал кусок крыши и снёс угол здания прямо на тротуар.<br /><br />Администрация просит переждать этот погодный ад дома. После того как небеса перестанут топить город, коммунальщики выйдут откачивать воду и разгребать последствия.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/riHOghem0Bf-SXe3QizoFOnOmERUqkBQsvAvHMZGrO3Vade42Jf5hwEsJPSb8IgOzSIxweNNFd7rgujhGGEJHEi6HDxLrRxAGIMAxlUF8OQFxRpk7LJGcBZjWV7a5v5bRD3ub0J2Sqd-5ihjXn8BA2VI_cINgvkx6k5JiYhUW0UdIwX-uye4eoLATMIkhPWyr9t-Xzx7WUXubxxohF_JCK76ZLFZo1tTjU0JYS9c5QJMqgmrDj7T9cr7g3i-KNqwbCKVbBpr_YkRvu26NIKVcw4ALwRQGRTkJfj0maUz6-cOHi3XCg_OSSwDmLQJD7WnphVkonM503lo9HDtgiec1g\" src=\"https://cdn4.telesco.pe/file/21d4b8c716.mp4?token=WrIyIxvO9B4bxfjz8-5eO3NciKfnnmfjdrBEoRDFpUIocbwUVjVzhkKUdOy9B8xJoblcV1cBj4EFR1yrxxWbVwQJxO_l8oM8wIKcgqkL4fTsBKa_08LFekMKHsqpGdhS_p37H1_P2JA-dmtk16Axzto1Rro1-kVt3z9Kokdk_32eqtnRB7i5UjpBg-51G5DPhv91OH7LB9M-esG8mZABamIzG-N22VF0uYMJrR50zDBVPI0pI5kYxnKQuuHRVK0xTRDITRcY1Sw1wRP0W3MpRHQ__TdljV4-ki1zvvZ7dohei0R8uQ2FEJFw3ePqrUzryY6kZ-Yxb7v-Lvr9pAPXNoi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ\" style=\"width: 100%;\"></video>",
     "image": ""
   },
   {
@@ -655,8 +666,8 @@
     "timestamp": 1787409138.0,
     "source": "TG: Mash",
     "language": "ru",
-    "description": "<p>На перепись воробьёв в России потратят 13,6 ляма рублей. Вдруг кто не знал — прошлой зимой чирикающих голов насчитали 322 тыщи. <br /><br />Серых бандитов считать будут в минимум 66 регионах — летом 2026-го, зимой и летом 2027 года. Помогать в переписи пернатого населения будут школьники (подсказка, куда сбагрить малых на каникулы) и не только, присоединиться может любой. <br /><br />Задачка не из лёгких: приходить в одни и те же места в разные сезоны и годы и смотреть, куда подевалась пернатая братва. Диплом орнитолога не нужен — вышел во двор, нашёл птах, пересчитал, щёлкнул на телефон и отправил данные.<br /><br />В крупных городах современное благоустройство воробьям, похоже, не зашло. Кусты убирают, щели в домах заделывают, траву скашивают. Вместе с зеленью становится меньше насекомых и червей — а ими взрослые чик-чирыки кормят птенцов.<br /><br />За городом ситуация веселее: зелени много, насекомых больше, мест для гнёзд тоже хватает. Поэтому летяги могут просто переезжать туда.<br /><br />чирик и точка<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img src=\"https://cdn4.telesco.pe/file/hbLRwdx7LyML1f935CSDy_LZxYIS6mjTwj4gGgtu6URGWn7UHP4Spo5FXxFsH1e2RpgGljVYvgj2ZrJ8ThDZJ4qUl0NhKJneOitymDAz7mtDkQV8lj9JSKMBUk2p6iUFUm-RMb50jwQAlPrXBytBIOMmo7s2XTZc8wJyaoTAaECCke6pn9ntXiPjXy0X3eDPff02qulllxRb13OlfORbsYPveLd0Lbsc7asGpCvrW4w-SnHAJOn272g6HgW9xjvm5pbCGWhGao7PcrEW-S_PG7TelseLdZ8xo_nVRbbnW9TaUj5laQJaa8tWNRJNMoRRyuor2fYyv--BSEZBxHI84g.jpg\" />",
-    "summary": "<p>На перепись воробьёв в России потратят 13,6 ляма рублей. Вдруг кто не знал — прошлой зимой чирикающих голов насчитали 322 тыщи. <br /><br />Серых бандитов считать будут в минимум 66 регионах — летом 2026-го, зимой и летом 2027 года. Помогать в переписи пернатого населения будут школьники (подсказка, куда сбагрить малых на каникулы) и не только, присоединиться может любой. <br /><br />Задачка не из лёгких: приходить в одни и те же места в разные сезоны и годы и смотреть, куда подевалась пернатая братва. Диплом орнитолога не нужен — вышел во двор, нашёл птах, пересчитал, щёлкнул на телефон и отправил данные.<br /><br />В крупных городах современное благоустройство воробьям, похоже, не зашло. Кусты убирают, щели в домах заделывают, траву скашивают. Вместе с зеленью становится меньше насекомых и червей — а ими взрослые чик-чирыки кормят птенцов.<br /><br />За городом ситуация веселее: зелени много, насекомых больше, мест для гнёзд тоже хватает. Поэтому летяги могут просто переезжать туда.<br /><br />чирик и точка<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img src=\"https://cdn4.telesco.pe/file/hbLRwdx7LyML1f935CSDy_LZxYIS6mjTwj4gGgtu6URGWn7UHP4Spo5FXxFsH1e2RpgGljVYvgj2ZrJ8ThDZJ4qUl0NhKJneOitymDAz7mtDkQV8lj9JSKMBUk2p6iUFUm-RMb50jwQAlPrXBytBIOMmo7s2XTZc8wJyaoTAaECCke6pn9ntXiPjXy0X3eDPff02qulllxRb13OlfORbsYPveLd0Lbsc7asGpCvrW4w-SnHAJOn272g6HgW9xjvm5pbCGWhGao7PcrEW-S_PG7TelseLdZ8xo_nVRbbnW9TaUj5laQJaa8tWNRJNMoRRyuor2fYyv--BSEZBxHI84g.jpg\" />",
+    "description": "<p>На перепись воробьёв в России потратят 13,6 ляма рублей. Вдруг кто не знал — прошлой зимой чирикающих голов насчитали 322 тыщи. <br /><br />Серых бандитов считать будут в минимум 66 регионах — летом 2026-го, зимой и летом 2027 года. Помогать в переписи пернатого населения будут школьники (подсказка, куда сбагрить малых на каникулы) и не только, присоединиться может любой. <br /><br />Задачка не из лёгких: приходить в одни и те же места в разные сезоны и годы и смотреть, куда подевалась пернатая братва. Диплом орнитолога не нужен — вышел во двор, нашёл птах, пересчитал, щёлкнул на телефон и отправил данные.<br /><br />В крупных городах современное благоустройство воробьям, похоже, не зашло. Кусты убирают, щели в домах заделывают, траву скашивают. Вместе с зеленью становится меньше насекомых и червей — а ими взрослые чик-чирыки кормят птенцов.<br /><br />За городом ситуация веселее: зелени много, насекомых больше, мест для гнёзд тоже хватает. Поэтому летяги могут просто переезжать туда.<br /><br />чирик и точка<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img height=\"540\" src=\"https://cdn4.telesco.pe/file/hbLRwdx7LyML1f935CSDy_LZxYIS6mjTwj4gGgtu6URGWn7UHP4Spo5FXxFsH1e2RpgGljVYvgj2ZrJ8ThDZJ4qUl0NhKJneOitymDAz7mtDkQV8lj9JSKMBUk2p6iUFUm-RMb50jwQAlPrXBytBIOMmo7s2XTZc8wJyaoTAaECCke6pn9ntXiPjXy0X3eDPff02qulllxRb13OlfORbsYPveLd0Lbsc7asGpCvrW4w-SnHAJOn272g6HgW9xjvm5pbCGWhGao7PcrEW-S_PG7TelseLdZ8xo_nVRbbnW9TaUj5laQJaa8tWNRJNMoRRyuor2fYyv--BSEZBxHI84g.jpg\" width=\"540\" />",
+    "summary": "<p>На перепись воробьёв в России потратят 13,6 ляма рублей. Вдруг кто не знал — прошлой зимой чирикающих голов насчитали 322 тыщи. <br /><br />Серых бандитов считать будут в минимум 66 регионах — летом 2026-го, зимой и летом 2027 года. Помогать в переписи пернатого населения будут школьники (подсказка, куда сбагрить малых на каникулы) и не только, присоединиться может любой. <br /><br />Задачка не из лёгких: приходить в одни и те же места в разные сезоны и годы и смотреть, куда подевалась пернатая братва. Диплом орнитолога не нужен — вышел во двор, нашёл птах, пересчитал, щёлкнул на телефон и отправил данные.<br /><br />В крупных городах современное благоустройство воробьям, похоже, не зашло. Кусты убирают, щели в домах заделывают, траву скашивают. Вместе с зеленью становится меньше насекомых и червей — а ими взрослые чик-чирыки кормят птенцов.<br /><br />За городом ситуация веселее: зелени много, насекомых больше, мест для гнёзд тоже хватает. Поэтому летяги могут просто переезжать туда.<br /><br />чирик и точка<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img height=\"540\" src=\"https://cdn4.telesco.pe/file/hbLRwdx7LyML1f935CSDy_LZxYIS6mjTwj4gGgtu6URGWn7UHP4Spo5FXxFsH1e2RpgGljVYvgj2ZrJ8ThDZJ4qUl0NhKJneOitymDAz7mtDkQV8lj9JSKMBUk2p6iUFUm-RMb50jwQAlPrXBytBIOMmo7s2XTZc8wJyaoTAaECCke6pn9ntXiPjXy0X3eDPff02qulllxRb13OlfORbsYPveLd0Lbsc7asGpCvrW4w-SnHAJOn272g6HgW9xjvm5pbCGWhGao7PcrEW-S_PG7TelseLdZ8xo_nVRbbnW9TaUj5laQJaa8tWNRJNMoRRyuor2fYyv--BSEZBxHI84g.jpg\" width=\"540\" />",
     "image": "https://cdn4.telesco.pe/file/hbLRwdx7LyML1f935CSDy_LZxYIS6mjTwj4gGgtu6URGWn7UHP4Spo5FXxFsH1e2RpgGljVYvgj2ZrJ8ThDZJ4qUl0NhKJneOitymDAz7mtDkQV8lj9JSKMBUk2p6iUFUm-RMb50jwQAlPrXBytBIOMmo7s2XTZc8wJyaoTAaECCke6pn9ntXiPjXy0X3eDPff02qulllxRb13OlfORbsYPveLd0Lbsc7asGpCvrW4w-SnHAJOn272g6HgW9xjvm5pbCGWhGao7PcrEW-S_PG7TelseLdZ8xo_nVRbbnW9TaUj5laQJaa8tWNRJNMoRRyuor2fYyv--BSEZBxHI84g.jpg"
   },
   {
@@ -710,8 +721,8 @@
     "timestamp": 1787403608.0,
     "source": "TG: Mash",
     "language": "ru",
-    "description": "<p>Бывшие ученики обвинили в насилии танцора, который ставит для Мота знаменитые номера с платками, — теперь хореографа отменяют.<br /><br />Дмитрий Черкозьянов — основатель команды Red Haze. Он же выступал на шоу \"Танцы\", сейчас работает хореографом в команде рэпера. Один из сокомандников рассказал: однажды он опоздал на тренировку всего на минуту — тогда Черкозьянов толкнул его в грудь, схватил за шиворот, прижал к стене и замахивался кулаком. Позже, как утверждает танцор, ему кричали: \"Съе*аться обратно в деревню\", — и называли тупым. <br /><br />С похожими обвинениями выступила Карина — экс-участница команды хореографа, сейчас работает в команде Егора Крида. По её словам, сначала педагог уделял ей много внимания и давал сольные партии, но позже отношения переросли в личные. Танцовщица утверждает, что ей запрещали уезжать к семье, посещать дни рождения и личные мероприятия, часто прилетали фразы типа \"Тебя давно не пи*дили?\" и обзывали \"больной\". <br /><br />По заявлением артистки, после попытки уйти из команды ей поставили условие: уехать из Москвы и не появляться там минимум полгода. После ухода за ней продолжили следить и спамить звонками. <br /><br />Другие бывшие ученики также рассказали о своём опыте: один поделился, что его выгнали после отказа ехать с педагогом в отель и вступать с ним в интимные отношения. Ещё одни утверждают, что им не возвращали деньги и оскорбляли из-за внешности.<br /><br />Сейчас подопечные выступают против преподавания Черкозьянова и его выступлений на публичных мероприятиях, в том числе концертах Мота.<br /><br />Недавно в сети танцоры массово подняли тему насилия со стороны хореографов. Например, известного преподавателя хип-хопа Диму Кадета обвинили в растлении несовершеннолетних учениц. Также в скандалы попали артисты: Лис-Special Spice, Артём Валеев-Денисов-Artvaden и Андрей Васильев-Maru Nara.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/ggoa2KaDGiKOOQQ85UIq5IDaGSX7OFL3-6VsQT0APEocAAfZW3PMPjr0F3xw6DabNS36m7vbq1maDetDAcI2g8Z2dMi0JaQYw-0WnuCx7t8Bo6qpsH7ImcLqnFXfTGIyDGWAIBoBPV9wTJXWj0QHLoRhmvJ0pLK8FfVog_Wasd6etNETRpIGyylt3wOcDGNkkvjJjqJRfvnxGEVpx06meU_0coQKt7oQE2-EZQ0oBsgZX7uZ31llifOQo_2fZFhrrR3c_P4tOt_mzXgCUn-QcSYiaBskcE80vJAugSVeSDxI6_8DnU-ukWdR-0eFrxfAI3XikesvWCsCO2_kT3NKbA\" src=\"https://cdn4.telesco.pe/file/aa0f6aebdd.mp4?token=kYquiespeOlOXQGUD3OsU5c70ttMFYI3-K7ElwDhh-O6OkT_2VcKZb9gRgQRldPm1xXYtOlJ6D7gfdAVPvYX7XDlsGx6nEEp1QroBPOai17noP7wpmuGR69B1TLIoESdsZ0GeFJwb-qnUnlsZMy4vuRRJ41noiPizLWKyrs3ZMkyIJLxyXkJfuTFTsrwGjUHebT8Y4nsCS3EwR8Trtme6EhU3jgQUS0-mWJk-cbHQ0ADfFFYGGmPVcW7kat9u0HC-UKrpArWPwBsdcVPMCbHKIOZiheHOeGWQ-yOjDoFw3DAmI43WhlcRNZLmBPg24S1F824JsO9r-kHrjGbmgSYDg\" style=\"width: 100%;\"></video><img src=\"https://cdn4.telesco.pe/file/A78VL3i-vXHt3OHCIxCLOH-Y5NZpJT_OtujfGdWu__FvwNikZ1-5YwhQ8sDsxxoQqPvxzIdUKZ8quBinoenvd4_xHnFIgYGR-O2FoZ1i0akRYEzgmd339_hoIH-QYOULCQ9kExwyC1OPNei_bmuxVQhgLThgXXDELb-M6Kk5zyvJcurdDKsc8x3Jn82HKSQaV7nm_1RxI9L3mLyHK9TyMk85Fk-nfFAz3aTA44jRX5YuukxrZ1byMHQEtPCRofPuKgqJIbkwurbHtXk5oGEp6_WmqAH0EI1ocO_ex2NnAG0jMg93R9vzsLIZNjo7hO32-7HPhQ4CrsqAqGk3Bedj9A.jpg\" /><img src=\"https://cdn4.telesco.pe/file/HdKUzZ1Tvv0_zhAIwoV1gC7qn_Yi19kYkbDW7urufhCFlyntbdzNTTIAET7vB-YW1fuIWxG240K9qoaG9X39UQu5sr3fuAm57eYIHQoej4jZMyRnhXdoePsdGtjdIMWrqI6Yo35Hdr68uH_VxnTnThX6hzcR4SjCQad4oWXOBSxGXA404Y8Bk6tBaI0Rp7Mgn6YOEwzMLM1dMlhJ7CBxMOpa_mm1I_H_bSDYzm648onDqCiW-V4gLQ7beTCaDSYWqfMv0e0gsGbimuEZqfK3V-o-okaVJZ-ZNWml0ahni1dPQ9D4RGPXumoihDwRthGFLeSwD5pDgjkDe54grKAAig.jpg\" />",
-    "summary": "<p>Бывшие ученики обвинили в насилии танцора, который ставит для Мота знаменитые номера с платками, — теперь хореографа отменяют.<br /><br />Дмитрий Черкозьянов — основатель команды Red Haze. Он же выступал на шоу \"Танцы\", сейчас работает хореографом в команде рэпера. Один из сокомандников рассказал: однажды он опоздал на тренировку всего на минуту — тогда Черкозьянов толкнул его в грудь, схватил за шиворот, прижал к стене и замахивался кулаком. Позже, как утверждает танцор, ему кричали: \"Съе*аться обратно в деревню\", — и называли тупым. <br /><br />С похожими обвинениями выступила Карина — экс-участница команды хореографа, сейчас работает в команде Егора Крида. По её словам, сначала педагог уделял ей много внимания и давал сольные партии, но позже отношения переросли в личные. Танцовщица утверждает, что ей запрещали уезжать к семье, посещать дни рождения и личные мероприятия, часто прилетали фразы типа \"Тебя давно не пи*дили?\" и обзывали \"больной\". <br /><br />По заявлением артистки, после попытки уйти из команды ей поставили условие: уехать из Москвы и не появляться там минимум полгода. После ухода за ней продолжили следить и спамить звонками. <br /><br />Другие бывшие ученики также рассказали о своём опыте: один поделился, что его выгнали после отказа ехать с педагогом в отель и вступать с ним в интимные отношения. Ещё одни утверждают, что им не возвращали деньги и оскорбляли из-за внешности.<br /><br />Сейчас подопечные выступают против преподавания Черкозьянова и его выступлений на публичных мероприятиях, в том числе концертах Мота.<br /><br />Недавно в сети танцоры массово подняли тему насилия со стороны хореографов. Например, известного преподавателя хип-хопа Диму Кадета обвинили в растлении несовершеннолетних учениц. Также в скандалы попали артисты: Лис-Special Spice, Артём Валеев-Денисов-Artvaden и Андрей Васильев-Maru Nara.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/ggoa2KaDGiKOOQQ85UIq5IDaGSX7OFL3-6VsQT0APEocAAfZW3PMPjr0F3xw6DabNS36m7vbq1maDetDAcI2g8Z2dMi0JaQYw-0WnuCx7t8Bo6qpsH7ImcLqnFXfTGIyDGWAIBoBPV9wTJXWj0QHLoRhmvJ0pLK8FfVog_Wasd6etNETRpIGyylt3wOcDGNkkvjJjqJRfvnxGEVpx06meU_0coQKt7oQE2-EZQ0oBsgZX7uZ31llifOQo_2fZFhrrR3c_P4tOt_mzXgCUn-QcSYiaBskcE80vJAugSVeSDxI6_8DnU-ukWdR-0eFrxfAI3XikesvWCsCO2_kT3NKbA\" src=\"https://cdn4.telesco.pe/file/aa0f6aebdd.mp4?token=kYquiespeOlOXQGUD3OsU5c70ttMFYI3-K7ElwDhh-O6OkT_2VcKZb9gRgQRldPm1xXYtOlJ6D7gfdAVPvYX7XDlsGx6nEEp1QroBPOai17noP7wpmuGR69B1TLIoESdsZ0GeFJwb-qnUnlsZMy4vuRRJ41noiPizLWKyrs3ZMkyIJLxyXkJfuTFTsrwGjUHebT8Y4nsCS3EwR8Trtme6EhU3jgQUS0-mWJk-cbHQ0ADfFFYGGmPVcW7kat9u0HC-UKrpArWPwBsdcVPMCbHKIOZiheHOeGWQ-yOjDoFw3DAmI43WhlcRNZLmBPg24S1F824JsO9r-kHrjGbmgSYDg\" style=\"width: 100%;\"></video><img src=\"https://cdn4.telesco.pe/file/A78VL3i-vXHt3OHCIxCLOH-Y5NZpJT_OtujfGdWu__FvwNikZ1-5YwhQ8sDsxxoQqPvxzIdUKZ8quBinoenvd4_xHnFIgYGR-O2FoZ1i0akRYEzgmd339_hoIH-QYOULCQ9kExwyC1OPNei_bmuxVQhgLThgXXDELb-M6Kk5zyvJcurdDKsc8x3Jn82HKSQaV7nm_1RxI9L3mLyHK9TyMk85Fk-nfFAz3aTA44jRX5YuukxrZ1byMHQEtPCRofPuKgqJIbkwurbHtXk5oGEp6_WmqAH0EI1ocO_ex2NnAG0jMg93R9vzsLIZNjo7hO32-7HPhQ4CrsqAqGk3Bedj9A.jpg\" /><img src=\"https://cdn4.telesco.pe/file/HdKUzZ1Tvv0_zhAIwoV1gC7qn_Yi19kYkbDW7urufhCFlyntbdzNTTIAET7vB-YW1fuIWxG240K9qoaG9X39UQu5sr3fuAm57eYIHQoej4jZMyRnhXdoePsdGtjdIMWrqI6Yo35Hdr68uH_VxnTnThX6hzcR4SjCQad4oWXOBSxGXA404Y8Bk6tBaI0Rp7Mgn6YOEwzMLM1dMlhJ7CBxMOpa_mm1I_H_bSDYzm648onDqCiW-V4gLQ7beTCaDSYWqfMv0e0gsGbimuEZqfK3V-o-okaVJZ-ZNWml0ahni1dPQ9D4RGPXumoihDwRthGFLeSwD5pDgjkDe54grKAAig.jpg\" />",
+    "description": "<p>Бывшие ученики обвинили в насилии танцора, который ставит для Мота знаменитые номера с платками, — теперь хореографа отменяют.<br /><br />Дмитрий Черкозьянов — основатель команды Red Haze. Он же выступал на шоу \"Танцы\", сейчас работает хореографом в команде рэпера. Один из сокомандников рассказал: однажды он опоздал на тренировку всего на минуту — тогда Черкозьянов толкнул его в грудь, схватил за шиворот, прижал к стене и замахивался кулаком. Позже, как утверждает танцор, ему кричали: \"Съе*аться обратно в деревню\", — и называли тупым. <br /><br />С похожими обвинениями выступила Карина — экс-участница команды хореографа, сейчас работает в команде Егора Крида. По её словам, сначала педагог уделял ей много внимания и давал сольные партии, но позже отношения переросли в личные. Танцовщица утверждает, что ей запрещали уезжать к семье, посещать дни рождения и личные мероприятия, часто прилетали фразы типа \"Тебя давно не пи*дили?\" и обзывали \"больной\". <br /><br />По заявлением артистки, после попытки уйти из команды ей поставили условие: уехать из Москвы и не появляться там минимум полгода. После ухода за ней продолжили следить и спамить звонками. <br /><br />Другие бывшие ученики также рассказали о своём опыте: один поделился, что его выгнали после отказа ехать с педагогом в отель и вступать с ним в интимные отношения. Ещё одни утверждают, что им не возвращали деньги и оскорбляли из-за внешности.<br /><br />Сейчас подопечные выступают против преподавания Черкозьянова и его выступлений на публичных мероприятиях, в том числе концертах Мота.<br /><br />Недавно в сети танцоры массово подняли тему насилия со стороны хореографов. Например, известного преподавателя хип-хопа Диму Кадета обвинили в растлении несовершеннолетних учениц. Также в скандалы попали артисты: Лис-Special Spice, Артём Валеев-Денисов-Artvaden и Андрей Васильев-Maru Nara.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/ggoa2KaDGiKOOQQ85UIq5IDaGSX7OFL3-6VsQT0APEocAAfZW3PMPjr0F3xw6DabNS36m7vbq1maDetDAcI2g8Z2dMi0JaQYw-0WnuCx7t8Bo6qpsH7ImcLqnFXfTGIyDGWAIBoBPV9wTJXWj0QHLoRhmvJ0pLK8FfVog_Wasd6etNETRpIGyylt3wOcDGNkkvjJjqJRfvnxGEVpx06meU_0coQKt7oQE2-EZQ0oBsgZX7uZ31llifOQo_2fZFhrrR3c_P4tOt_mzXgCUn-QcSYiaBskcE80vJAugSVeSDxI6_8DnU-ukWdR-0eFrxfAI3XikesvWCsCO2_kT3NKbA\" src=\"https://cdn4.telesco.pe/file/aa0f6aebdd.mp4?token=kYquiespeOlOXQGUD3OsU5c70ttMFYI3-K7ElwDhh-O6OkT_2VcKZb9gRgQRldPm1xXYtOlJ6D7gfdAVPvYX7XDlsGx6nEEp1QroBPOai17noP7wpmuGR69B1TLIoESdsZ0GeFJwb-qnUnlsZMy4vuRRJ41noiPizLWKyrs3ZMkyIJLxyXkJfuTFTsrwGjUHebT8Y4nsCS3EwR8Trtme6EhU3jgQUS0-mWJk-cbHQ0ADfFFYGGmPVcW7kat9u0HC-UKrpArWPwBsdcVPMCbHKIOZiheHOeGWQ-yOjDoFw3DAmI43WhlcRNZLmBPg24S1F824JsO9r-kHrjGbmgSYDg\" style=\"width: 100%;\"></video><img height=\"126\" src=\"https://cdn4.telesco.pe/file/A78VL3i-vXHt3OHCIxCLOH-Y5NZpJT_OtujfGdWu__FvwNikZ1-5YwhQ8sDsxxoQqPvxzIdUKZ8quBinoenvd4_xHnFIgYGR-O2FoZ1i0akRYEzgmd339_hoIH-QYOULCQ9kExwyC1OPNei_bmuxVQhgLThgXXDELb-M6Kk5zyvJcurdDKsc8x3Jn82HKSQaV7nm_1RxI9L3mLyHK9TyMk85Fk-nfFAz3aTA44jRX5YuukxrZ1byMHQEtPCRofPuKgqJIbkwurbHtXk5oGEp6_WmqAH0EI1ocO_ex2NnAG0jMg93R9vzsLIZNjo7hO32-7HPhQ4CrsqAqGk3Bedj9A.jpg\" width=\"225\" /><img height=\"126\" src=\"https://cdn4.telesco.pe/file/HdKUzZ1Tvv0_zhAIwoV1gC7qn_Yi19kYkbDW7urufhCFlyntbdzNTTIAET7vB-YW1fuIWxG240K9qoaG9X39UQu5sr3fuAm57eYIHQoej4jZMyRnhXdoePsdGtjdIMWrqI6Yo35Hdr68uH_VxnTnThX6hzcR4SjCQad4oWXOBSxGXA404Y8Bk6tBaI0Rp7Mgn6YOEwzMLM1dMlhJ7CBxMOpa_mm1I_H_bSDYzm648onDqCiW-V4gLQ7beTCaDSYWqfMv0e0gsGbimuEZqfK3V-o-okaVJZ-ZNWml0ahni1dPQ9D4RGPXumoihDwRthGFLeSwD5pDgjkDe54grKAAig.jpg\" width=\"226\" />",
+    "summary": "<p>Бывшие ученики обвинили в насилии танцора, который ставит для Мота знаменитые номера с платками, — теперь хореографа отменяют.<br /><br />Дмитрий Черкозьянов — основатель команды Red Haze. Он же выступал на шоу \"Танцы\", сейчас работает хореографом в команде рэпера. Один из сокомандников рассказал: однажды он опоздал на тренировку всего на минуту — тогда Черкозьянов толкнул его в грудь, схватил за шиворот, прижал к стене и замахивался кулаком. Позже, как утверждает танцор, ему кричали: \"Съе*аться обратно в деревню\", — и называли тупым. <br /><br />С похожими обвинениями выступила Карина — экс-участница команды хореографа, сейчас работает в команде Егора Крида. По её словам, сначала педагог уделял ей много внимания и давал сольные партии, но позже отношения переросли в личные. Танцовщица утверждает, что ей запрещали уезжать к семье, посещать дни рождения и личные мероприятия, часто прилетали фразы типа \"Тебя давно не пи*дили?\" и обзывали \"больной\". <br /><br />По заявлением артистки, после попытки уйти из команды ей поставили условие: уехать из Москвы и не появляться там минимум полгода. После ухода за ней продолжили следить и спамить звонками. <br /><br />Другие бывшие ученики также рассказали о своём опыте: один поделился, что его выгнали после отказа ехать с педагогом в отель и вступать с ним в интимные отношения. Ещё одни утверждают, что им не возвращали деньги и оскорбляли из-за внешности.<br /><br />Сейчас подопечные выступают против преподавания Черкозьянова и его выступлений на публичных мероприятиях, в том числе концертах Мота.<br /><br />Недавно в сети танцоры массово подняли тему насилия со стороны хореографов. Например, известного преподавателя хип-хопа Диму Кадета обвинили в растлении несовершеннолетних учениц. Также в скандалы попали артисты: Лис-Special Spice, Артём Валеев-Денисов-Artvaden и Андрей Васильев-Maru Nara.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/ggoa2KaDGiKOOQQ85UIq5IDaGSX7OFL3-6VsQT0APEocAAfZW3PMPjr0F3xw6DabNS36m7vbq1maDetDAcI2g8Z2dMi0JaQYw-0WnuCx7t8Bo6qpsH7ImcLqnFXfTGIyDGWAIBoBPV9wTJXWj0QHLoRhmvJ0pLK8FfVog_Wasd6etNETRpIGyylt3wOcDGNkkvjJjqJRfvnxGEVpx06meU_0coQKt7oQE2-EZQ0oBsgZX7uZ31llifOQo_2fZFhrrR3c_P4tOt_mzXgCUn-QcSYiaBskcE80vJAugSVeSDxI6_8DnU-ukWdR-0eFrxfAI3XikesvWCsCO2_kT3NKbA\" src=\"https://cdn4.telesco.pe/file/aa0f6aebdd.mp4?token=kYquiespeOlOXQGUD3OsU5c70ttMFYI3-K7ElwDhh-O6OkT_2VcKZb9gRgQRldPm1xXYtOlJ6D7gfdAVPvYX7XDlsGx6nEEp1QroBPOai17noP7wpmuGR69B1TLIoESdsZ0GeFJwb-qnUnlsZMy4vuRRJ41noiPizLWKyrs3ZMkyIJLxyXkJfuTFTsrwGjUHebT8Y4nsCS3EwR8Trtme6EhU3jgQUS0-mWJk-cbHQ0ADfFFYGGmPVcW7kat9u0HC-UKrpArWPwBsdcVPMCbHKIOZiheHOeGWQ-yOjDoFw3DAmI43WhlcRNZLmBPg24S1F824JsO9r-kHrjGbmgSYDg\" style=\"width: 100%;\"></video><img height=\"126\" src=\"https://cdn4.telesco.pe/file/A78VL3i-vXHt3OHCIxCLOH-Y5NZpJT_OtujfGdWu__FvwNikZ1-5YwhQ8sDsxxoQqPvxzIdUKZ8quBinoenvd4_xHnFIgYGR-O2FoZ1i0akRYEzgmd339_hoIH-QYOULCQ9kExwyC1OPNei_bmuxVQhgLThgXXDELb-M6Kk5zyvJcurdDKsc8x3Jn82HKSQaV7nm_1RxI9L3mLyHK9TyMk85Fk-nfFAz3aTA44jRX5YuukxrZ1byMHQEtPCRofPuKgqJIbkwurbHtXk5oGEp6_WmqAH0EI1ocO_ex2NnAG0jMg93R9vzsLIZNjo7hO32-7HPhQ4CrsqAqGk3Bedj9A.jpg\" width=\"225\" /><img height=\"126\" src=\"https://cdn4.telesco.pe/file/HdKUzZ1Tvv0_zhAIwoV1gC7qn_Yi19kYkbDW7urufhCFlyntbdzNTTIAET7vB-YW1fuIWxG240K9qoaG9X39UQu5sr3fuAm57eYIHQoej4jZMyRnhXdoePsdGtjdIMWrqI6Yo35Hdr68uH_VxnTnThX6hzcR4SjCQad4oWXOBSxGXA404Y8Bk6tBaI0Rp7Mgn6YOEwzMLM1dMlhJ7CBxMOpa_mm1I_H_bSDYzm648onDqCiW-V4gLQ7beTCaDSYWqfMv0e0gsGbimuEZqfK3V-o-okaVJZ-ZNWml0ahni1dPQ9D4RGPXumoihDwRthGFLeSwD5pDgjkDe54grKAAig.jpg\" width=\"226\" />",
     "image": "https://cdn4.telesco.pe/file/A78VL3i-vXHt3OHCIxCLOH-Y5NZpJT_OtujfGdWu__FvwNikZ1-5YwhQ8sDsxxoQqPvxzIdUKZ8quBinoenvd4_xHnFIgYGR-O2FoZ1i0akRYEzgmd339_hoIH-QYOULCQ9kExwyC1OPNei_bmuxVQhgLThgXXDELb-M6Kk5zyvJcurdDKsc8x3Jn82HKSQaV7nm_1RxI9L3mLyHK9TyMk85Fk-nfFAz3aTA44jRX5YuukxrZ1byMHQEtPCRofPuKgqJIbkwurbHtXk5oGEp6_WmqAH0EI1ocO_ex2NnAG0jMg93R9vzsLIZNjo7hO32-7HPhQ4CrsqAqGk3Bedj9A.jpg"
   },
   {
@@ -743,8 +754,8 @@
     "timestamp": 1787400446.0,
     "source": "TG: Mash",
     "language": "ru",
-    "description": "<p>Forwarded From <b><a href=\"https://t.me/mashnasporte/41673\">Mash на спорте</a></b></p><p>Отрыв надколенных связок, предварительно, диагностировали у зрителя силового экстрима в Брянске. Мужчина попросил организаторов дать ему потягать однотонную Lada Granta, дал справки, но вышел без страховки. Итог на видео.<br /><br /><span class=\"emoji\">❗️</span><a href=\"https://max.ru/mashnasporte\" rel=\"noopener\" target=\"_blank\"> Mash на спорте в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/qs6At4bJ2HfiCU7QGikuztOHBKlILMFXyqzUGlh60AUsG6jMQB4q9757tabrRJHAk__qXu0uFdfnChKxsf_djkZhu3OSd1t4tiXk_rx5KSCZKywxq1yT_Z6Lyw9_5XkoDImS68rqB_y4K3_x8rGE3MFycEu-ZHnS-SyCWtIxrusWD74hcH1-zky4IPTUlrS3nt9ryOJhhovEMg-QZVCqLrxZO5ApiRdjV2lqZo3cXi1xsMT9DvP3Vlib1_xt8-oATU_g7LPi7N-8EpPD79e5z_NognfVbjZ3JNhjYTRbak-HvSdLWZ-PIm6QYUWwoWoUOlNk0ucNeMul_Z0C4wEH5w\" src=\"https://cdn4.telesco.pe/file/be1f9c832c.mp4?token=hMdaKtMXw5ElUhpE5Awg_5TnYqYxLFjk_EVpwxinSCwkMnzundtAIP2Jqz-_uubypsc_O9_1m9EkZZEpiitJ9mhj92WVYaCTKd_y3Pso0BqGNj2ss5LYl9jJd6TMXwaywANbHrsVB50fxdCshT3KGqWUfwTpwrgzo7qupckkOEh2Zb_FdcbxnC1Ido2RsMuyQ_GmE4Xda7xIl-DvbVar_59mAGPNkdQBIxN7-o4c_x4Rb6Yd4tmm0pty7qt6QATDyPFhPKWLA2FrYR4Jzqk3Q5SW1uZLH5DBO1cRplHWQAG18pTk7fOb6UO6k6rnP4VhSBGX7C4a2eTboudy3ZHkGQ\" style=\"width: 100%;\"></video>",
-    "summary": "<p>Forwarded From <b><a href=\"https://t.me/mashnasporte/41673\">Mash на спорте</a></b></p><p>Отрыв надколенных связок, предварительно, диагностировали у зрителя силового экстрима в Брянске. Мужчина попросил организаторов дать ему потягать однотонную Lada Granta, дал справки, но вышел без страховки. Итог на видео.<br /><br /><span class=\"emoji\">❗️</span><a href=\"https://max.ru/mashnasporte\" rel=\"noopener\" target=\"_blank\"> Mash на спорте в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/qs6At4bJ2HfiCU7QGikuztOHBKlILMFXyqzUGlh60AUsG6jMQB4q9757tabrRJHAk__qXu0uFdfnChKxsf_djkZhu3OSd1t4tiXk_rx5KSCZKywxq1yT_Z6Lyw9_5XkoDImS68rqB_y4K3_x8rGE3MFycEu-ZHnS-SyCWtIxrusWD74hcH1-zky4IPTUlrS3nt9ryOJhhovEMg-QZVCqLrxZO5ApiRdjV2lqZo3cXi1xsMT9DvP3Vlib1_xt8-oATU_g7LPi7N-8EpPD79e5z_NognfVbjZ3JNhjYTRbak-HvSdLWZ-PIm6QYUWwoWoUOlNk0ucNeMul_Z0C4wEH5w\" src=\"https://cdn4.telesco.pe/file/be1f9c832c.mp4?token=hMdaKtMXw5ElUhpE5Awg_5TnYqYxLFjk_EVpwxinSCwkMnzundtAIP2Jqz-_uubypsc_O9_1m9EkZZEpiitJ9mhj92WVYaCTKd_y3Pso0BqGNj2ss5LYl9jJd6TMXwaywANbHrsVB50fxdCshT3KGqWUfwTpwrgzo7qupckkOEh2Zb_FdcbxnC1Ido2RsMuyQ_GmE4Xda7xIl-DvbVar_59mAGPNkdQBIxN7-o4c_x4Rb6Yd4tmm0pty7qt6QATDyPFhPKWLA2FrYR4Jzqk3Q5SW1uZLH5DBO1cRplHWQAG18pTk7fOb6UO6k6rnP4VhSBGX7C4a2eTboudy3ZHkGQ\" style=\"width: 100%;\"></video>",
+    "description": "<p>Forwarded From <b><a href=\"https://t.me/mashnasporte/41673\">Mash на спорте</a></b></p><p>Отрыв надколенных связок, предварительно, диагностировали у зрителя силового экстрима в Брянске. Мужчина попросил организаторов дать ему потягать однотонную Lada Granta, дал справки, но вышел без страховки. Итог на видео.<br /><br /><span class=\"emoji\">❗️</span><a href=\"https://max.ru/mashnasporte\" rel=\"noopener\" target=\"_blank\"> Mash на спорте в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/qs6At4bJ2HfiCU7QGikuztOHBKlILMFXyqzUGlh60AUsG6jMQB4q9757tabrRJHAk__qXu0uFdfnChKxsf_djkZhu3OSd1t4tiXk_rx5KSCZKywxq1yT_Z6Lyw9_5XkoDImS68rqB_y4K3_x8rGE3MFycEu-ZHnS-SyCWtIxrusWD74hcH1-zky4IPTUlrS3nt9ryOJhhovEMg-QZVCqLrxZO5ApiRdjV2lqZo3cXi1xsMT9DvP3Vlib1_xt8-oATU_g7LPi7N-8EpPD79e5z_NognfVbjZ3JNhjYTRbak-HvSdLWZ-PIm6QYUWwoWoUOlNk0ucNeMul_Z0C4wEH5w\" src=\"https://cdn4.telesco.pe/file/be1f9c832c.mp4?token=hMdaKtMXw5ElUhpE5Awg_5TnYqYxLFjk_EVpwxinSCwkMnzundtAIP2Jqz-_uubypsc_O9_1m9EkZZEpiitJ9mhj92WVYaCTKd_y3Pso0BqGNj2ss5LYl9jJd6TMXwaywANbHrsVB50fxdCshT3KGqWUfwTpwrgzo7qupckkOEh2Zb_FdcbxnC1Ido2RsMuyQ_GmE4Xda7xIl-DvbVar_59mAGPNkdQBIxN7-o4c_x4Rb6Yd4tmm0pty7qt6QATDyPFhPKWLA2FrYR4Jzqk3Q5SW1uZLH5DBO1cRplHWQAG18pTk7fOb6UO6k6rnP4VhSBGX7C4a2eTboudy3ZHkGQ\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Forwarded From <b><a href=\"https://t.me/mashnasporte/41673\">Mash на спорте</a></b></p><p>Отрыв надколенных связок, предварительно, диагностировали у зрителя силового экстрима в Брянске. Мужчина попросил организаторов дать ему потягать однотонную Lada Granta, дал справки, но вышел без страховки. Итог на видео.<br /><br /><span class=\"emoji\">❗️</span><a href=\"https://max.ru/mashnasporte\" rel=\"noopener\" target=\"_blank\"> Mash на спорте в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/qs6At4bJ2HfiCU7QGikuztOHBKlILMFXyqzUGlh60AUsG6jMQB4q9757tabrRJHAk__qXu0uFdfnChKxsf_djkZhu3OSd1t4tiXk_rx5KSCZKywxq1yT_Z6Lyw9_5XkoDImS68rqB_y4K3_x8rGE3MFycEu-ZHnS-SyCWtIxrusWD74hcH1-zky4IPTUlrS3nt9ryOJhhovEMg-QZVCqLrxZO5ApiRdjV2lqZo3cXi1xsMT9DvP3Vlib1_xt8-oATU_g7LPi7N-8EpPD79e5z_NognfVbjZ3JNhjYTRbak-HvSdLWZ-PIm6QYUWwoWoUOlNk0ucNeMul_Z0C4wEH5w\" src=\"https://cdn4.telesco.pe/file/be1f9c832c.mp4?token=hMdaKtMXw5ElUhpE5Awg_5TnYqYxLFjk_EVpwxinSCwkMnzundtAIP2Jqz-_uubypsc_O9_1m9EkZZEpiitJ9mhj92WVYaCTKd_y3Pso0BqGNj2ss5LYl9jJd6TMXwaywANbHrsVB50fxdCshT3KGqWUfwTpwrgzo7qupckkOEh2Zb_FdcbxnC1Ido2RsMuyQ_GmE4Xda7xIl-DvbVar_59mAGPNkdQBIxN7-o4c_x4Rb6Yd4tmm0pty7qt6QATDyPFhPKWLA2FrYR4Jzqk3Q5SW1uZLH5DBO1cRplHWQAG18pTk7fOb6UO6k6rnP4VhSBGX7C4a2eTboudy3ZHkGQ\" style=\"width: 100%;\"></video>",
     "image": ""
   },
   {
@@ -864,9 +875,9 @@
     "timestamp": 1787379061.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Идеальную закуску для спортсменов нашли в магазинах — <b>62 грамма белка на 100 грамм. <br /></b><br />Но есть один нюанс: это сосиски для собак.</div><p></p><img height=\"487\" src=\"https://cdn4.telesco.pe/file/pahfsy6tVHn4fca4aYAnRaRAVICg8Z9-5aTF406I2agFXFZn4ovH85iRLYjCi5jXFaBkYwp8e-d34PKruoywvIJ06K-dy_kcdovVBWIUDGKtC4eE-Hdgsrj1F_Hi2mSlxdVR7xkUHNSEfEkmiDYx3_sXPieo6lm5y3FTQZOBv1jpNVIBNmIVZgQo25xqjv53x6ZcDav4tSkrCOZczdX0y8GS5TGVtcofdrXfpL-v7oOsnA88kn-wjvZLsdAN4ZRNQ71OExRD5hMO3dUHfT9urhX1w1U6gji9L-SrWRtcKku3w5_JhBgwEaXll2CJLmCJkciCHAFCIEWl0tZE2PKgAw.jpg\" width=\"225\" /><img height=\"487\" src=\"https://cdn4.telesco.pe/file/V0YdkXrLJ_LCRzrjPa7qpL0NitRxhDCnv7G2g8Y-1FYMAcsatXtdTBs7ggvmsg52EF1Zo0hZMx0V03OBZPWB0Dp56d6JRx1v59RvD_bzs6x__L4wnctzI4gOuQaZbJ_xndW6ic2VXYBFem_6KduNGlGV1ORSmL9k0u2jYexurcMNMgQXhOPVGA1I90NaZ9ed5xJk95i-L82ocl_3HFY9D6aAC1-x8VVVVLr_E4KUPq9Plld-Sz9do_wwf3LwJ83v7g9HthTN3La7fDoAK9dmQV1PdBJfcusY8JKBG9XYtRct1ZexylDOV_VSB5Zh_tuKKBcgVUVH8k8rB0JcVBN4mg.jpg\" width=\"226\" />",
-    "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Идеальную закуску для спортсменов нашли в магазинах — <b>62 грамма белка на 100 грамм. <br /></b><br />Но есть один нюанс: это сосиски для собак.</div><p></p><img height=\"487\" src=\"https://cdn4.telesco.pe/file/pahfsy6tVHn4fca4aYAnRaRAVICg8Z9-5aTF406I2agFXFZn4ovH85iRLYjCi5jXFaBkYwp8e-d34PKruoywvIJ06K-dy_kcdovVBWIUDGKtC4eE-Hdgsrj1F_Hi2mSlxdVR7xkUHNSEfEkmiDYx3_sXPieo6lm5y3FTQZOBv1jpNVIBNmIVZgQo25xqjv53x6ZcDav4tSkrCOZczdX0y8GS5TGVtcofdrXfpL-v7oOsnA88kn-wjvZLsdAN4ZRNQ71OExRD5hMO3dUHfT9urhX1w1U6gji9L-SrWRtcKku3w5_JhBgwEaXll2CJLmCJkciCHAFCIEWl0tZE2PKgAw.jpg\" width=\"225\" /><img height=\"487\" src=\"https://cdn4.telesco.pe/file/V0YdkXrLJ_LCRzrjPa7qpL0NitRxhDCnv7G2g8Y-1FYMAcsatXtdTBs7ggvmsg52EF1Zo0hZMx0V03OBZPWB0Dp56d6JRx1v59RvD_bzs6x__L4wnctzI4gOuQaZbJ_xndW6ic2VXYBFem_6KduNGlGV1ORSmL9k0u2jYexurcMNMgQXhOPVGA1I90NaZ9ed5xJk95i-L82ocl_3HFY9D6aAC1-x8VVVVLr_E4KUPq9Plld-Sz9do_wwf3LwJ83v7g9HthTN3La7fDoAK9dmQV1PdBJfcusY8JKBG9XYtRct1ZexylDOV_VSB5Zh_tuKKBcgVUVH8k8rB0JcVBN4mg.jpg\" width=\"226\" />",
-    "image": "https://cdn4.telesco.pe/file/pahfsy6tVHn4fca4aYAnRaRAVICg8Z9-5aTF406I2agFXFZn4ovH85iRLYjCi5jXFaBkYwp8e-d34PKruoywvIJ06K-dy_kcdovVBWIUDGKtC4eE-Hdgsrj1F_Hi2mSlxdVR7xkUHNSEfEkmiDYx3_sXPieo6lm5y3FTQZOBv1jpNVIBNmIVZgQo25xqjv53x6ZcDav4tSkrCOZczdX0y8GS5TGVtcofdrXfpL-v7oOsnA88kn-wjvZLsdAN4ZRNQ71OExRD5hMO3dUHfT9urhX1w1U6gji9L-SrWRtcKku3w5_JhBgwEaXll2CJLmCJkciCHAFCIEWl0tZE2PKgAw.jpg"
+    "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Идеальную закуску для спортсменов нашли в магазинах — <b>62 грамма белка на 100 грамм. <br /></b><br />Но есть один нюанс: это сосиски для собак.</div><p></p><img height=\"487\" src=\"https://cdn4.telesco.pe/file/D6YpA1TL07P8k2rvpzcnew-KWS7lr0lGEVXJySaP7js2AvOYPAQxACmEv9WpLeuazlrFMsE7-VphSQi9KzN4dQaVgKqa79yu1uEE-0rgxj7mKgzRxv9iThU3ZwkWcOT6JVgny4xGFYtJm9FA0afqdfGmFREjjAeNDbBGBlrqy5u7JAqtv5icN8Hs5SCWVe45m6CGgDJQbohrt1QkxEc21r8jMsVtqEw_2CFb6eXq7gxzPY1w3lbq-G9kRn_aEYUbukRg_rEd2VKvhozcXsOiuaa2tmmU1gBmqBFacplD2ep_DcdXwgI2ZYyPW8AcFaT3MoT85AXArmrORzlL1ncSvg.jpg\" width=\"225\" /><img height=\"487\" src=\"https://cdn4.telesco.pe/file/RdTvFBezmpWThkLqCvvDzMKSkR6SQLVUq5Eu1PgCzFMNnFQqA0Wu36WtFZILpeSEghN4giC2s01vdwswz5TVI7y7qCEcJ6q1dNN_nuBY5J6L2wd7_6-f7lr2yUT7ljDVF7PHPoEFrYikrZMhYS4HhQcgYub2c-Z1NRG9SwMiNFJypjrB5cml1ISvJBug9Tw46yhNodEfU4stdvip4EtQ3kr4aQ1IQBGuDS_npwJwBMTKoV1Auxs5WmDNd5aGwjnlReRL8tuLdnjcjibdu8PBt-op5HXkOh-gB3dRiVjuLtCy_FTftPDP0EzR6R6ZlLHmkt9A0bRhqC8zrlXsLRy2Nw.jpg\" width=\"226\" />",
+    "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Идеальную закуску для спортсменов нашли в магазинах — <b>62 грамма белка на 100 грамм. <br /></b><br />Но есть один нюанс: это сосиски для собак.</div><p></p><img height=\"487\" src=\"https://cdn4.telesco.pe/file/D6YpA1TL07P8k2rvpzcnew-KWS7lr0lGEVXJySaP7js2AvOYPAQxACmEv9WpLeuazlrFMsE7-VphSQi9KzN4dQaVgKqa79yu1uEE-0rgxj7mKgzRxv9iThU3ZwkWcOT6JVgny4xGFYtJm9FA0afqdfGmFREjjAeNDbBGBlrqy5u7JAqtv5icN8Hs5SCWVe45m6CGgDJQbohrt1QkxEc21r8jMsVtqEw_2CFb6eXq7gxzPY1w3lbq-G9kRn_aEYUbukRg_rEd2VKvhozcXsOiuaa2tmmU1gBmqBFacplD2ep_DcdXwgI2ZYyPW8AcFaT3MoT85AXArmrORzlL1ncSvg.jpg\" width=\"225\" /><img height=\"487\" src=\"https://cdn4.telesco.pe/file/RdTvFBezmpWThkLqCvvDzMKSkR6SQLVUq5Eu1PgCzFMNnFQqA0Wu36WtFZILpeSEghN4giC2s01vdwswz5TVI7y7qCEcJ6q1dNN_nuBY5J6L2wd7_6-f7lr2yUT7ljDVF7PHPoEFrYikrZMhYS4HhQcgYub2c-Z1NRG9SwMiNFJypjrB5cml1ISvJBug9Tw46yhNodEfU4stdvip4EtQ3kr4aQ1IQBGuDS_npwJwBMTKoV1Auxs5WmDNd5aGwjnlReRL8tuLdnjcjibdu8PBt-op5HXkOh-gB3dRiVjuLtCy_FTftPDP0EzR6R6ZlLHmkt9A0bRhqC8zrlXsLRy2Nw.jpg\" width=\"226\" />",
+    "image": "https://cdn4.telesco.pe/file/D6YpA1TL07P8k2rvpzcnew-KWS7lr0lGEVXJySaP7js2AvOYPAQxACmEv9WpLeuazlrFMsE7-VphSQi9KzN4dQaVgKqa79yu1uEE-0rgxj7mKgzRxv9iThU3ZwkWcOT6JVgny4xGFYtJm9FA0afqdfGmFREjjAeNDbBGBlrqy5u7JAqtv5icN8Hs5SCWVe45m6CGgDJQbohrt1QkxEc21r8jMsVtqEw_2CFb6eXq7gxzPY1w3lbq-G9kRn_aEYUbukRg_rEd2VKvhozcXsOiuaa2tmmU1gBmqBFacplD2ep_DcdXwgI2ZYyPW8AcFaT3MoT85AXArmrORzlL1ncSvg.jpg"
   },
   {
     "title": "🖼 Дети поколения альфа и бета будут жить до 100 лет, прогнозирует Минздрав России.",
@@ -1139,8 +1150,8 @@
     "timestamp": 1467349640.0,
     "source": "TG: Лентач",
     "language": "ru",
-    "description": "<img src=\"https://cdn1.telesco.pe/file/A0rs8PTyqjrZCf1BxRjx0IlGok6yVZ4tMIoTOUn_q3mLplM4Zw9DItgUxJ8QefqIgbd2mQPHnpJ6RZmCqYfnCT2zekenwkTZcfPAR1yx3JtIRynYqnBXQU-n74yLwZWVjJpF4u8BFA5TgVElCOOd6w4wcvLNw_XPxDlXLaJwm5ACmErroM9dQmz6tOrBceOtSgfK9LMOl8Xx4Gh_q6Rv4ASohXm7TcxyHs51EdQd7H_Dwu9G_B2nyamlrpZfQUsTUPO9-u3qSMHzifD-2EhFO7Nl0wXOI28MCcoCqw7gjCeSSwQ3pPC3td7etNwWaf-eXDqEHQq1mtPqzo9XqtjpCQ.jpg\" />",
-    "summary": "<img src=\"https://cdn1.telesco.pe/file/A0rs8PTyqjrZCf1BxRjx0IlGok6yVZ4tMIoTOUn_q3mLplM4Zw9DItgUxJ8QefqIgbd2mQPHnpJ6RZmCqYfnCT2zekenwkTZcfPAR1yx3JtIRynYqnBXQU-n74yLwZWVjJpF4u8BFA5TgVElCOOd6w4wcvLNw_XPxDlXLaJwm5ACmErroM9dQmz6tOrBceOtSgfK9LMOl8Xx4Gh_q6Rv4ASohXm7TcxyHs51EdQd7H_Dwu9G_B2nyamlrpZfQUsTUPO9-u3qSMHzifD-2EhFO7Nl0wXOI28MCcoCqw7gjCeSSwQ3pPC3td7etNwWaf-eXDqEHQq1mtPqzo9XqtjpCQ.jpg\" />",
+    "description": "<img height=\"599\" src=\"https://cdn1.telesco.pe/file/A0rs8PTyqjrZCf1BxRjx0IlGok6yVZ4tMIoTOUn_q3mLplM4Zw9DItgUxJ8QefqIgbd2mQPHnpJ6RZmCqYfnCT2zekenwkTZcfPAR1yx3JtIRynYqnBXQU-n74yLwZWVjJpF4u8BFA5TgVElCOOd6w4wcvLNw_XPxDlXLaJwm5ACmErroM9dQmz6tOrBceOtSgfK9LMOl8Xx4Gh_q6Rv4ASohXm7TcxyHs51EdQd7H_Dwu9G_B2nyamlrpZfQUsTUPO9-u3qSMHzifD-2EhFO7Nl0wXOI28MCcoCqw7gjCeSSwQ3pPC3td7etNwWaf-eXDqEHQq1mtPqzo9XqtjpCQ.jpg\" width=\"800\" />",
+    "summary": "<img height=\"599\" src=\"https://cdn1.telesco.pe/file/A0rs8PTyqjrZCf1BxRjx0IlGok6yVZ4tMIoTOUn_q3mLplM4Zw9DItgUxJ8QefqIgbd2mQPHnpJ6RZmCqYfnCT2zekenwkTZcfPAR1yx3JtIRynYqnBXQU-n74yLwZWVjJpF4u8BFA5TgVElCOOd6w4wcvLNw_XPxDlXLaJwm5ACmErroM9dQmz6tOrBceOtSgfK9LMOl8Xx4Gh_q6Rv4ASohXm7TcxyHs51EdQd7H_Dwu9G_B2nyamlrpZfQUsTUPO9-u3qSMHzifD-2EhFO7Nl0wXOI28MCcoCqw7gjCeSSwQ3pPC3td7etNwWaf-eXDqEHQq1mtPqzo9XqtjpCQ.jpg\" width=\"800\" />",
     "image": "https://cdn1.telesco.pe/file/A0rs8PTyqjrZCf1BxRjx0IlGok6yVZ4tMIoTOUn_q3mLplM4Zw9DItgUxJ8QefqIgbd2mQPHnpJ6RZmCqYfnCT2zekenwkTZcfPAR1yx3JtIRynYqnBXQU-n74yLwZWVjJpF4u8BFA5TgVElCOOd6w4wcvLNw_XPxDlXLaJwm5ACmErroM9dQmz6tOrBceOtSgfK9LMOl8Xx4Gh_q6Rv4ASohXm7TcxyHs51EdQd7H_Dwu9G_B2nyamlrpZfQUsTUPO9-u3qSMHzifD-2EhFO7Nl0wXOI28MCcoCqw7gjCeSSwQ3pPC3td7etNwWaf-eXDqEHQq1mtPqzo9XqtjpCQ.jpg"
   },
   {
@@ -1150,8 +1161,8 @@
     "timestamp": 1467349640.0,
     "source": "TG: Лентач",
     "language": "ru",
-    "description": "<img src=\"https://cdn1.telesco.pe/file/va5DMLaE0r9FXnCqwcIdJZiFvEvONFlDtWYnihQH_q5xMVDeID6GdsfYZLbraPplnJSUWawod6E2id_RYsLmRImCEh1ajDd2mITZ7hldms2Qmeu6CN7N5CeLKpsPfXmgbNH0qMhdIYZqaEm157Z5L6P7AUWkYtnqCNVaggFb2aCtRlCL5qIEEVh5UJxro44EWMrJ38xMlQ0p6A_vXcq918h8sXFCerIBax7EPcY56Q-98pwTcADb_WghcuTmp_fM55HZKrmgrz_Rkq5bscpWiYVV3NtD3VbCRMd6oZvOFdLgDjCeNa4DyRMiYtTm73-p6xZNrjkDao2tuuwP9Sv4Bg.jpg\" />",
-    "summary": "<img src=\"https://cdn1.telesco.pe/file/va5DMLaE0r9FXnCqwcIdJZiFvEvONFlDtWYnihQH_q5xMVDeID6GdsfYZLbraPplnJSUWawod6E2id_RYsLmRImCEh1ajDd2mITZ7hldms2Qmeu6CN7N5CeLKpsPfXmgbNH0qMhdIYZqaEm157Z5L6P7AUWkYtnqCNVaggFb2aCtRlCL5qIEEVh5UJxro44EWMrJ38xMlQ0p6A_vXcq918h8sXFCerIBax7EPcY56Q-98pwTcADb_WghcuTmp_fM55HZKrmgrz_Rkq5bscpWiYVV3NtD3VbCRMd6oZvOFdLgDjCeNa4DyRMiYtTm73-p6xZNrjkDao2tuuwP9Sv4Bg.jpg\" />",
+    "description": "<img height=\"516\" src=\"https://cdn1.telesco.pe/file/va5DMLaE0r9FXnCqwcIdJZiFvEvONFlDtWYnihQH_q5xMVDeID6GdsfYZLbraPplnJSUWawod6E2id_RYsLmRImCEh1ajDd2mITZ7hldms2Qmeu6CN7N5CeLKpsPfXmgbNH0qMhdIYZqaEm157Z5L6P7AUWkYtnqCNVaggFb2aCtRlCL5qIEEVh5UJxro44EWMrJ38xMlQ0p6A_vXcq918h8sXFCerIBax7EPcY56Q-98pwTcADb_WghcuTmp_fM55HZKrmgrz_Rkq5bscpWiYVV3NtD3VbCRMd6oZvOFdLgDjCeNa4DyRMiYtTm73-p6xZNrjkDao2tuuwP9Sv4Bg.jpg\" width=\"800\" />",
+    "summary": "<img height=\"516\" src=\"https://cdn1.telesco.pe/file/va5DMLaE0r9FXnCqwcIdJZiFvEvONFlDtWYnihQH_q5xMVDeID6GdsfYZLbraPplnJSUWawod6E2id_RYsLmRImCEh1ajDd2mITZ7hldms2Qmeu6CN7N5CeLKpsPfXmgbNH0qMhdIYZqaEm157Z5L6P7AUWkYtnqCNVaggFb2aCtRlCL5qIEEVh5UJxro44EWMrJ38xMlQ0p6A_vXcq918h8sXFCerIBax7EPcY56Q-98pwTcADb_WghcuTmp_fM55HZKrmgrz_Rkq5bscpWiYVV3NtD3VbCRMd6oZvOFdLgDjCeNa4DyRMiYtTm73-p6xZNrjkDao2tuuwP9Sv4Bg.jpg\" width=\"800\" />",
     "image": "https://cdn1.telesco.pe/file/va5DMLaE0r9FXnCqwcIdJZiFvEvONFlDtWYnihQH_q5xMVDeID6GdsfYZLbraPplnJSUWawod6E2id_RYsLmRImCEh1ajDd2mITZ7hldms2Qmeu6CN7N5CeLKpsPfXmgbNH0qMhdIYZqaEm157Z5L6P7AUWkYtnqCNVaggFb2aCtRlCL5qIEEVh5UJxro44EWMrJ38xMlQ0p6A_vXcq918h8sXFCerIBax7EPcY56Q-98pwTcADb_WghcuTmp_fM55HZKrmgrz_Rkq5bscpWiYVV3NtD3VbCRMd6oZvOFdLgDjCeNa4DyRMiYtTm73-p6xZNrjkDao2tuuwP9Sv4Bg.jpg"
   },
   {
@@ -1172,8 +1183,8 @@
     "timestamp": 1467349263.0,
     "source": "TG: Лентач",
     "language": "ru",
-    "description": "<p>Вкусная еда<br />Об очень вкусной и полезной пище <span class=\"emoji\">😍</span><br /><span class=\"emoji\">👉</span> <a href=\"http://telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw\" rel=\"noopener\" target=\"_blank\">telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw</a> <span class=\"emoji\">👌</span><br />При канале работает приватный чат <span class=\"emoji\">😜</span></p><img src=\"https://cdn4.telesco.pe/file/H2-e_h0F-UYcDNeuiJ6AD9lM0QJmuorGlPpn-CwX4mAT9RLgmIS-B9bBbn0M9_SmmO4eQCVubyQK7Eey6QASAl_pmzfzAc2xmv_VKKyOhjR4Fq3ByBwCtE2WsuJRKRlZAZkdz1LlMpGQe1yc1deuuw2YSzpHiQ9lFaqQmD2hv8ZdmdauPBBnHq2BQ5UwoWuAdt9idSQNEE99CTKD4nDJHI5zuiXq5klvPq1x8qwPyYN1PtqcQGnNFtXVk8frVe_uLEY0MEbpxGPmvClQVohQzhBDQ5UTVKdeLJwQVB8Ee0on6pK5_lXj6IGjtCBdNTJ9w9wBu6tRzU9pClOo2iWJeg.jpg\" />",
-    "summary": "<p>Вкусная еда<br />Об очень вкусной и полезной пище <span class=\"emoji\">😍</span><br /><span class=\"emoji\">👉</span> <a href=\"http://telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw\" rel=\"noopener\" target=\"_blank\">telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw</a> <span class=\"emoji\">👌</span><br />При канале работает приватный чат <span class=\"emoji\">😜</span></p><img src=\"https://cdn4.telesco.pe/file/H2-e_h0F-UYcDNeuiJ6AD9lM0QJmuorGlPpn-CwX4mAT9RLgmIS-B9bBbn0M9_SmmO4eQCVubyQK7Eey6QASAl_pmzfzAc2xmv_VKKyOhjR4Fq3ByBwCtE2WsuJRKRlZAZkdz1LlMpGQe1yc1deuuw2YSzpHiQ9lFaqQmD2hv8ZdmdauPBBnHq2BQ5UwoWuAdt9idSQNEE99CTKD4nDJHI5zuiXq5klvPq1x8qwPyYN1PtqcQGnNFtXVk8frVe_uLEY0MEbpxGPmvClQVohQzhBDQ5UTVKdeLJwQVB8Ee0on6pK5_lXj6IGjtCBdNTJ9w9wBu6tRzU9pClOo2iWJeg.jpg\" />",
+    "description": "<p>Вкусная еда<br />Об очень вкусной и полезной пище <span class=\"emoji\">😍</span><br /><span class=\"emoji\">👉</span> <a href=\"http://telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw\" rel=\"noopener\" target=\"_blank\">telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw</a> <span class=\"emoji\">👌</span><br />При канале работает приватный чат <span class=\"emoji\">😜</span></p><img height=\"533\" src=\"https://cdn4.telesco.pe/file/H2-e_h0F-UYcDNeuiJ6AD9lM0QJmuorGlPpn-CwX4mAT9RLgmIS-B9bBbn0M9_SmmO4eQCVubyQK7Eey6QASAl_pmzfzAc2xmv_VKKyOhjR4Fq3ByBwCtE2WsuJRKRlZAZkdz1LlMpGQe1yc1deuuw2YSzpHiQ9lFaqQmD2hv8ZdmdauPBBnHq2BQ5UwoWuAdt9idSQNEE99CTKD4nDJHI5zuiXq5klvPq1x8qwPyYN1PtqcQGnNFtXVk8frVe_uLEY0MEbpxGPmvClQVohQzhBDQ5UTVKdeLJwQVB8Ee0on6pK5_lXj6IGjtCBdNTJ9w9wBu6tRzU9pClOo2iWJeg.jpg\" width=\"800\" />",
+    "summary": "<p>Вкусная еда<br />Об очень вкусной и полезной пище <span class=\"emoji\">😍</span><br /><span class=\"emoji\">👉</span> <a href=\"http://telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw\" rel=\"noopener\" target=\"_blank\">telegram.me/joinchat/DVoUAT8uH1lKbsVd4_fLPw</a> <span class=\"emoji\">👌</span><br />При канале работает приватный чат <span class=\"emoji\">😜</span></p><img height=\"533\" src=\"https://cdn4.telesco.pe/file/H2-e_h0F-UYcDNeuiJ6AD9lM0QJmuorGlPpn-CwX4mAT9RLgmIS-B9bBbn0M9_SmmO4eQCVubyQK7Eey6QASAl_pmzfzAc2xmv_VKKyOhjR4Fq3ByBwCtE2WsuJRKRlZAZkdz1LlMpGQe1yc1deuuw2YSzpHiQ9lFaqQmD2hv8ZdmdauPBBnHq2BQ5UwoWuAdt9idSQNEE99CTKD4nDJHI5zuiXq5klvPq1x8qwPyYN1PtqcQGnNFtXVk8frVe_uLEY0MEbpxGPmvClQVohQzhBDQ5UTVKdeLJwQVB8Ee0on6pK5_lXj6IGjtCBdNTJ9w9wBu6tRzU9pClOo2iWJeg.jpg\" width=\"800\" />",
     "image": "https://cdn4.telesco.pe/file/H2-e_h0F-UYcDNeuiJ6AD9lM0QJmuorGlPpn-CwX4mAT9RLgmIS-B9bBbn0M9_SmmO4eQCVubyQK7Eey6QASAl_pmzfzAc2xmv_VKKyOhjR4Fq3ByBwCtE2WsuJRKRlZAZkdz1LlMpGQe1yc1deuuw2YSzpHiQ9lFaqQmD2hv8ZdmdauPBBnHq2BQ5UwoWuAdt9idSQNEE99CTKD4nDJHI5zuiXq5klvPq1x8qwPyYN1PtqcQGnNFtXVk8frVe_uLEY0MEbpxGPmvClQVohQzhBDQ5UTVKdeLJwQVB8Ee0on6pK5_lXj6IGjtCBdNTJ9w9wBu6tRzU9pClOo2iWJeg.jpg"
   },
   {
@@ -1183,8 +1194,8 @@
     "timestamp": 1467317635.0,
     "source": "TG: Лентач",
     "language": "ru",
-    "description": "<p><a href=\"http://vk.com/wall-29534144_4609857\" rel=\"noopener\" target=\"_blank\">http://vk.com/wall-29534144_4609857</a></p><img src=\"https://cdn1.telesco.pe/file/LcndeIfWi4SyhpZemeQ9mi9FoM9CMjjL65wxZoQ_-MzqffxIcWZVv3e_n2BJeIM1a7g5pC26W8Yh5y8UtVPCpzlSf_5uy6EMWjclYKXmUy1y6Q61dchC-ypDYxYWv-snnt2Lt0A12OyncxAIfPQ7PydF6knLAVhPD5I3Ngg_AGIU081tB1fAaADfMNBnTLcFquEls_tQqMBMOhx37BI-CWqsTw840gXcWjLtCdAqDKAQcSBkANvxqmXBVool_Dd9U8jndUcUzLHBT0THkpNrv6XMb8K0B2Pkn2jmj2T0YJvq7ocCPtTo7eqscchyUECnHobFjnLq-mR4mu1SvDuqMQ.jpg\" />",
-    "summary": "<p><a href=\"http://vk.com/wall-29534144_4609857\" rel=\"noopener\" target=\"_blank\">http://vk.com/wall-29534144_4609857</a></p><img src=\"https://cdn1.telesco.pe/file/LcndeIfWi4SyhpZemeQ9mi9FoM9CMjjL65wxZoQ_-MzqffxIcWZVv3e_n2BJeIM1a7g5pC26W8Yh5y8UtVPCpzlSf_5uy6EMWjclYKXmUy1y6Q61dchC-ypDYxYWv-snnt2Lt0A12OyncxAIfPQ7PydF6knLAVhPD5I3Ngg_AGIU081tB1fAaADfMNBnTLcFquEls_tQqMBMOhx37BI-CWqsTw840gXcWjLtCdAqDKAQcSBkANvxqmXBVool_Dd9U8jndUcUzLHBT0THkpNrv6XMb8K0B2Pkn2jmj2T0YJvq7ocCPtTo7eqscchyUECnHobFjnLq-mR4mu1SvDuqMQ.jpg\" />",
+    "description": "<p><a href=\"http://vk.com/wall-29534144_4609857\" rel=\"noopener\" target=\"_blank\">http://vk.com/wall-29534144_4609857</a></p><img height=\"525\" src=\"https://cdn1.telesco.pe/file/LcndeIfWi4SyhpZemeQ9mi9FoM9CMjjL65wxZoQ_-MzqffxIcWZVv3e_n2BJeIM1a7g5pC26W8Yh5y8UtVPCpzlSf_5uy6EMWjclYKXmUy1y6Q61dchC-ypDYxYWv-snnt2Lt0A12OyncxAIfPQ7PydF6knLAVhPD5I3Ngg_AGIU081tB1fAaADfMNBnTLcFquEls_tQqMBMOhx37BI-CWqsTw840gXcWjLtCdAqDKAQcSBkANvxqmXBVool_Dd9U8jndUcUzLHBT0THkpNrv6XMb8K0B2Pkn2jmj2T0YJvq7ocCPtTo7eqscchyUECnHobFjnLq-mR4mu1SvDuqMQ.jpg\" width=\"800\" />",
+    "summary": "<p><a href=\"http://vk.com/wall-29534144_4609857\" rel=\"noopener\" target=\"_blank\">http://vk.com/wall-29534144_4609857</a></p><img height=\"525\" src=\"https://cdn1.telesco.pe/file/LcndeIfWi4SyhpZemeQ9mi9FoM9CMjjL65wxZoQ_-MzqffxIcWZVv3e_n2BJeIM1a7g5pC26W8Yh5y8UtVPCpzlSf_5uy6EMWjclYKXmUy1y6Q61dchC-ypDYxYWv-snnt2Lt0A12OyncxAIfPQ7PydF6knLAVhPD5I3Ngg_AGIU081tB1fAaADfMNBnTLcFquEls_tQqMBMOhx37BI-CWqsTw840gXcWjLtCdAqDKAQcSBkANvxqmXBVool_Dd9U8jndUcUzLHBT0THkpNrv6XMb8K0B2Pkn2jmj2T0YJvq7ocCPtTo7eqscchyUECnHobFjnLq-mR4mu1SvDuqMQ.jpg\" width=\"800\" />",
     "image": "https://cdn1.telesco.pe/file/LcndeIfWi4SyhpZemeQ9mi9FoM9CMjjL65wxZoQ_-MzqffxIcWZVv3e_n2BJeIM1a7g5pC26W8Yh5y8UtVPCpzlSf_5uy6EMWjclYKXmUy1y6Q61dchC-ypDYxYWv-snnt2Lt0A12OyncxAIfPQ7PydF6knLAVhPD5I3Ngg_AGIU081tB1fAaADfMNBnTLcFquEls_tQqMBMOhx37BI-CWqsTw840gXcWjLtCdAqDKAQcSBkANvxqmXBVool_Dd9U8jndUcUzLHBT0THkpNrv6XMb8K0B2Pkn2jmj2T0YJvq7ocCPtTo7eqscchyUECnHobFjnLq-mR4mu1SvDuqMQ.jpg"
   },
   {
@@ -1227,8 +1238,8 @@
     "timestamp": 1467313542.0,
     "source": "TG: Лентач",
     "language": "ru",
-    "description": "<img src=\"https://cdn1.telesco.pe/file/RuYPYVyrDtsFlnQCWKPVPST8KQyo8Q0AvXlCa5VGjTh2ttAkwKKaxlJB4TmPiev00czEqfl61YXpaKm9GcHQtYbRXliKvBFBKuz7W9KLNzTAhddqbKNfGsmow3HXF4bp0r35n-ptKIiYxwCvD02kFSsQRyJjqGxkqyRmYHZRsDvXhTOAv8AdQ4H2fo5xGL3_8hkxq43o_tqTvp3iIcJx7FKrOlnrQ4i6h19Xu7wpKMILgWBMBctApQlWHj0ICoAl5Vr5IvuuRinSAG2dyhM4fjvsDNZELkZufDe4zT9rPmdeFUrq9GvxmAuM1EiE1mfS_5_fMJ1aIKmYlFBYGHdlZA.jpg\" />",
-    "summary": "<img src=\"https://cdn1.telesco.pe/file/RuYPYVyrDtsFlnQCWKPVPST8KQyo8Q0AvXlCa5VGjTh2ttAkwKKaxlJB4TmPiev00czEqfl61YXpaKm9GcHQtYbRXliKvBFBKuz7W9KLNzTAhddqbKNfGsmow3HXF4bp0r35n-ptKIiYxwCvD02kFSsQRyJjqGxkqyRmYHZRsDvXhTOAv8AdQ4H2fo5xGL3_8hkxq43o_tqTvp3iIcJx7FKrOlnrQ4i6h19Xu7wpKMILgWBMBctApQlWHj0ICoAl5Vr5IvuuRinSAG2dyhM4fjvsDNZELkZufDe4zT9rPmdeFUrq9GvxmAuM1EiE1mfS_5_fMJ1aIKmYlFBYGHdlZA.jpg\" />",
+    "description": "<img height=\"749\" src=\"https://cdn1.telesco.pe/file/RuYPYVyrDtsFlnQCWKPVPST8KQyo8Q0AvXlCa5VGjTh2ttAkwKKaxlJB4TmPiev00czEqfl61YXpaKm9GcHQtYbRXliKvBFBKuz7W9KLNzTAhddqbKNfGsmow3HXF4bp0r35n-ptKIiYxwCvD02kFSsQRyJjqGxkqyRmYHZRsDvXhTOAv8AdQ4H2fo5xGL3_8hkxq43o_tqTvp3iIcJx7FKrOlnrQ4i6h19Xu7wpKMILgWBMBctApQlWHj0ICoAl5Vr5IvuuRinSAG2dyhM4fjvsDNZELkZufDe4zT9rPmdeFUrq9GvxmAuM1EiE1mfS_5_fMJ1aIKmYlFBYGHdlZA.jpg\" width=\"800\" />",
+    "summary": "<img height=\"749\" src=\"https://cdn1.telesco.pe/file/RuYPYVyrDtsFlnQCWKPVPST8KQyo8Q0AvXlCa5VGjTh2ttAkwKKaxlJB4TmPiev00czEqfl61YXpaKm9GcHQtYbRXliKvBFBKuz7W9KLNzTAhddqbKNfGsmow3HXF4bp0r35n-ptKIiYxwCvD02kFSsQRyJjqGxkqyRmYHZRsDvXhTOAv8AdQ4H2fo5xGL3_8hkxq43o_tqTvp3iIcJx7FKrOlnrQ4i6h19Xu7wpKMILgWBMBctApQlWHj0ICoAl5Vr5IvuuRinSAG2dyhM4fjvsDNZELkZufDe4zT9rPmdeFUrq9GvxmAuM1EiE1mfS_5_fMJ1aIKmYlFBYGHdlZA.jpg\" width=\"800\" />",
     "image": "https://cdn1.telesco.pe/file/RuYPYVyrDtsFlnQCWKPVPST8KQyo8Q0AvXlCa5VGjTh2ttAkwKKaxlJB4TmPiev00czEqfl61YXpaKm9GcHQtYbRXliKvBFBKuz7W9KLNzTAhddqbKNfGsmow3HXF4bp0r35n-ptKIiYxwCvD02kFSsQRyJjqGxkqyRmYHZRsDvXhTOAv8AdQ4H2fo5xGL3_8hkxq43o_tqTvp3iIcJx7FKrOlnrQ4i6h19Xu7wpKMILgWBMBctApQlWHj0ICoAl5Vr5IvuuRinSAG2dyhM4fjvsDNZELkZufDe4zT9rPmdeFUrq9GvxmAuM1EiE1mfS_5_fMJ1aIKmYlFBYGHdlZA.jpg"
   }
 ]
