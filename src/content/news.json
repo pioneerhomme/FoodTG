@@ -1,223 +1,421 @@
 [
   {
-    "title": "Гауфф вышла в финал турнира в Цинциннати",
-    "link": "https://lenta.ru/news/2026/08/23/gauff-vyshla-v-final-turnira-v-tsintsinnati/",
-    "published": "Sun, 23 Aug 2026 17:19:37 +0300",
-    "timestamp": 1787494777.0,
+    "title": "Стали известны подробности о выборах в Казахстане",
+    "link": "https://lenta.ru/news/2026/08/23/stali-izvestny-podrobnosti-o-vyborah-v-kazahstane/",
+    "published": "Sun, 23 Aug 2026 19:22:30 +0300",
+    "timestamp": 1787502150.0,
     "source": "Лента.ру",
     "language": "ru",
     "description": "",
     "summary": "",
-    "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png"
+    "image": "https://icdn.lenta.ru/images/2026/08/23/19/20260823192319042/pic_9a10c7e4e39a56cf1bf97416fdbd9134.jpg"
   },
   {
-    "title": "В аэропорту Краснодара ввели временные ограничения",
-    "link": "https://tass.ru/ekonomika/28037381",
-    "published": "Sun, 23 Aug 2026 17:19:03 +0300",
-    "timestamp": 1787494743.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Об этом сообщили в Росавиации",
-    "summary": "Об этом сообщили в Росавиации",
-    "image": ""
-  },
-  {
-    "title": "Газзаев оценил победу ЦСКА над «Локомотивом»",
-    "link": "https://lenta.ru/news/2026/08/23/gazzaev-otsenil-pobedu-tsska-nad-lokomotivom/",
-    "published": "Sun, 23 Aug 2026 17:17:59 +0300",
-    "timestamp": 1787494679.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png"
-  },
-  {
-    "title": "Дубль Тюкавина принес «Динамо» победу над «Родиной»",
-    "link": "https://www.rbc.ru/sport/16/08/2026/6a81c2a79a794740312bde2f",
-    "published": "Sun, 23 Aug 2026 17:17:31 +0300",
-    "timestamp": 1787494651.0,
+    "title": "В Британии сообщили, что Меган Маркл отказали в роли в «Джентельменах»",
+    "link": "https://www.rbc.ru/rbcfreenews/6a88560d9a7947e09283271b",
+    "published": "Sun, 23 Aug 2026 19:20:25 +0300",
+    "timestamp": 1787502025.0,
     "source": "РБК",
     "language": "ru",
-    "description": "Матч закончился со счетом 3:1",
-    "summary": "Матч закончился со счетом 3:1",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/4/66/347874944371664.jpeg"
+    "description": "Жена принца Гарри Меган Маркл не будет сниматься в сериале Гая Ричи &laquo;Джентельмены&raquo; из-за негативной реакции зрителей, сообщила бывший главный редактор The New Yorker, Tatler и Vanity Fair Тина Браун.",
+    "summary": "Жена принца Гарри Меган Маркл не будет сниматься в сериале Гая Ричи &laquo;Джентельмены&raquo; из-за негативной реакции зрителей, сообщила бывший главный редактор The New Yorker, Tatler и Vanity Fair Тина Браун.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/9/18/347875012810189.jpeg"
   },
   {
-    "title": "\"Динамо\" одержало победу над \"Родиной\" в матче РПЛ",
-    "link": "https://ria.ru/20260823/futbol-2112667072.html",
-    "published": "Sun, 23 Aug 2026 17:17:29 +0300",
-    "timestamp": 1787494649.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Расселл выиграл спринт Гран-при Нидерландов",
-    "link": "https://lenta.ru/news/2026/08/23/rassell-vyigral-sprint-gran-pri-niderlandov/",
-    "published": "Sun, 23 Aug 2026 17:16:58 +0300",
-    "timestamp": 1787494618.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/23/17/20260823171941656/pic_fed02950701ad360a4ba3a652bdd3ba0.jpg"
-  },
-  {
-    "title": "Владелец крымского сафари-парка сорвался на багги со склона в горах Крыма",
-    "link": "https://ria.ru/20260823/chp-2112666916.html",
-    "published": "Sun, 23 Aug 2026 17:16:55 +0300",
-    "timestamp": 1787494615.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/07e9/07/09/2028110124_0:0:3126:1759_650x0_80_0_0_eef6eb9656400390a140bb9169c3e343.jpg"
-  },
-  {
-    "title": "Мигрант избил двух россиян ледорубом",
-    "link": "https://lenta.ru/news/2026/08/23/migrant-izbil-dvuh-rossiyan-ledorubom/",
-    "published": "Sun, 23 Aug 2026 17:15:40 +0300",
-    "timestamp": 1787494540.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/23/17/20260823171101173/pic_b28303e2e45fca7338ab5c4d87641832.jpg"
-  },
-  {
-    "title": "Кеджелча установил новый мировой рекорд в полумарафоне",
-    "link": "https://lenta.ru/news/2026/08/23/kedzhelcha-ustanovil-novyy-mirovoy-rekord-v-polumarafone/",
-    "published": "Sun, 23 Aug 2026 17:15:29 +0300",
-    "timestamp": 1787494529.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/23/17/20260823171744216/pic_98855d310dc14dc5e65fd1d2f97b5504.jpg"
-  },
-  {
-    "title": "В Горловке при ударе дрона у храма пострадали двое священников",
-    "link": "https://tass.ru/proisshestviya/28037379",
-    "published": "Sun, 23 Aug 2026 17:15:20 +0300",
-    "timestamp": 1787494520.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "В момент удара пострадавшие находились у парковки перед храмом",
-    "summary": "В момент удара пострадавшие находились у парковки перед храмом",
-    "image": ""
-  },
-  {
-    "title": "В аэропорту Краснодара ограничили прием и выпуск самолетов",
-    "link": "https://ria.ru/20260823/ogranicheniya-2112666808.html",
-    "published": "Sun, 23 Aug 2026 17:13:30 +0300",
-    "timestamp": 1787494410.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/07e9/09/11/2042450591_0:123:3294:1976_650x0_80_0_0_6f152ba6e30e5105cbc7364578163a14.jpg"
-  },
-  {
-    "title": "В Греции произошли столкновения мигрантов с полицией",
-    "link": "https://ria.ru/20260823/gretsija-2112666639.html",
-    "published": "Sun, 23 Aug 2026 17:11:50 +0300",
-    "timestamp": 1787494310.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/07e5/06/1d/1739010541_0:320:3072:2048_650x0_80_0_0_c37cb09a2da0cb466661766f162e23a8.jpg"
-  },
-  {
-    "title": "Bloomberg рассказал о растущей популярности «загадочной ИИ»",
-    "link": "https://www.rbc.ru/technology_and_media/21/08/2026/6a8806e69a79477a5b8c0b5e",
-    "published": "Sun, 23 Aug 2026 17:11:48 +0300",
-    "timestamp": 1787494308.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Новая бесплатная модель искусственного интеллекта Ox Alpha набирает популярность среди разработчиков, пишет агентство Bloomberg.",
-    "summary": "Новая бесплатная модель искусственного интеллекта Ox Alpha набирает популярность среди разработчиков, пишет агентство Bloomberg.",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/3/37/347874932313373.jpeg"
-  },
-  {
-    "title": "Зеленский заявил о новой договоренности с Финляндией",
-    "link": "https://ria.ru/20260823/ukraina-2112666491.html",
-    "published": "Sun, 23 Aug 2026 17:11:33 +0300",
-    "timestamp": 1787494293.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Китай отложил запуск лунной миссии «Чанъэ-7»",
-    "link": "https://www.kommersant.ru/doc/8906543",
-    "published": "Sun, 23 Aug 2026 17:09:24 +0300",
-    "timestamp": 1787494164.0,
+    "title": "Четыре кандидата будут участвовать в выборах президента Южной Осетии",
+    "link": "https://www.kommersant.ru/doc/8906586",
+    "published": "Sun, 23 Aug 2026 19:18:13 +0300",
+    "timestamp": 1787501893.0,
     "source": "Коммерсантъ",
     "language": "ru",
-    "description": "Запуск китайской беспилотной межпланетной станции «Чанъэ-7», предназначенной для исследования Луны, отложен на неопределенный срок. Космический аппарат не соответствует условиям запуска, считают в Китайском агентстве пилотируемых космических полетов.",
-    "summary": "Запуск китайской беспилотной межпланетной станции «Чанъэ-7», предназначенной для исследования Луны, отложен на неопределенный срок. Космический аппарат не соответствует условиям запуска, считают в Китайском агентстве пилотируемых космических полетов.",
+    "description": "Центральная избирательная комиссия Южной Осетии завершила регистрацию кандидатов на досрочных президентских выборах. В них примут участие четыре человека, включая нынешнего врио главы республики Марата Камболова.",
+    "summary": "Центральная избирательная комиссия Южной Осетии завершила регистрацию кандидатов на досрочных президентских выборах. В них примут участие четыре человека, включая нынешнего врио главы республики Марата Камболова.",
     "image": ""
   },
   {
-    "title": "Дубль Тюкавина помог футболистам \"Динамо\" победить \"Родину\" в матче РПЛ",
-    "link": "https://tass.ru/sport/28037375",
-    "published": "Sun, 23 Aug 2026 17:09:21 +0300",
-    "timestamp": 1787494161.0,
+    "title": "Депутат Рады Фомин: Киев загонит в окопы всех, независимо от пола и возраста",
+    "link": "https://tass.ru/mezhdunarodnaya-panorama/28037483",
+    "published": "Sun, 23 Aug 2026 19:17:47 +0300",
+    "timestamp": 1787501867.0,
     "source": "ТАСС",
     "language": "ru",
-    "description": "Встреча завершилась со счетом 3:1 в пользу бело-голубых",
-    "summary": "Встреча завершилась со счетом 3:1 в пользу бело-голубых",
-    "image": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20260823/9321851.jpg"
-  },
-  {
-    "title": "Экс-солист Enigma Эндрю Дональдс осенью выступит в девяти городах России",
-    "link": "https://tass.ru/kultura/28037369",
-    "published": "Sun, 23 Aug 2026 17:08:28 +0300",
-    "timestamp": 1787494108.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "В частности, артист выступит в Красноярске 6 ноября",
-    "summary": "В частности, артист выступит в Красноярске 6 ноября",
+    "description": "Только \"очень богатые\" украинцы смогут получить шанс на выживание, считает парламентарий",
+    "summary": "Только \"очень богатые\" украинцы смогут получить шанс на выживание, считает парламентарий",
     "image": ""
   },
   {
-    "title": "В Омске четвертый погибший после пожара на стройке был гражданином Узбекистана",
-    "link": "https://tass.ru/obschestvo/28037367",
-    "published": "Sun, 23 Aug 2026 17:08:21 +0300",
-    "timestamp": 1787494101.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Мужчина умер в медучреждении Нижнего Новгорода, куда его доставили спецбортом",
-    "summary": "Мужчина умер в медучреждении Нижнего Новгорода, куда его доставили спецбортом",
-    "image": ""
-  },
-  {
-    "title": "Число сбитых на подлете к Москве беспилотников выросло до 10",
-    "link": "https://www.kommersant.ru/doc/8906546",
-    "published": "Sun, 23 Aug 2026 17:07:44 +0300",
-    "timestamp": 1787494064.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Силы ПВО сбили четыре беспилотника ВСУ, летевших в сторону Москвы. Об этом сообщил в Telegrаm мэр города Сергей Собянин.",
-    "summary": "Силы ПВО сбили четыре беспилотника ВСУ, летевших в сторону Москвы. Об этом сообщил в Telegrаm мэр города Сергей Собянин.",
-    "image": ""
-  },
-  {
-    "title": "В Мурманске подготовятся к отражению пиратских ударов на Севморпути",
-    "link": "https://www.rbc.ru/rbcfreenews/6a80ac559a794701ecb8c5ee",
-    "published": "Sun, 23 Aug 2026 17:07:17 +0300",
-    "timestamp": 1787494037.0,
+    "title": "Китай отложил запуск зонда «Чанъэ-7» с российским детектором пыли",
+    "link": "https://www.rbc.ru/rbcfreenews/6a049df69a794742af28b0c8",
+    "published": "Sun, 23 Aug 2026 19:16:45 +0300",
+    "timestamp": 1787501805.0,
     "source": "РБК",
     "language": "ru",
-    "description": "В конце июля ЕС утвердил механизм, позволяющий продавать груз, изъятый с подсанкционных судов. Тогда же Путин предложил бороться с захватом танкеров «как с пиратами». Чибис заявил, что область готовится к потенциальным атакам",
-    "summary": "В конце июля ЕС утвердил механизм, позволяющий продавать груз, изъятый с подсанкционных судов. Тогда же Путин предложил бороться с захватом танкеров «как с пиратами». Чибис заявил, что область готовится к потенциальным атакам",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/5/13/347874942993135.jpeg"
+    "description": "Китай перенес запуск станции «Чанъэ-7» после проверки готовности лунной миссии. Новую дату старта пока не назвали",
+    "summary": "Китай перенес запуск станции «Чанъэ-7» после проверки готовности лунной миссии. Новую дату старта пока не назвали",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/1/53/347875020479531.jpeg"
+  },
+  {
+    "title": "В США жестко ответили Зеленскому после слов про Путина",
+    "link": "https://lenta.ru/news/2026/08/23/v-ssha-zhestko-otvetili-zelenskomu-posle-slov-pro-putina/",
+    "published": "Sun, 23 Aug 2026 19:14:02 +0300",
+    "timestamp": 1787501642.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/19/20260823190016288/pic_aea129c4ee769537bce3e2a98767ac45.jpg"
+  },
+  {
+    "title": "Al Mayadeen: комитет Меджлиса одобрил статью закона о пошлинах при проходе через Ормуз",
+    "link": "https://tass.ru/ekonomika/28037479",
+    "published": "Sun, 23 Aug 2026 19:13:42 +0300",
+    "timestamp": 1787501622.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Власти еще одного российского региона рассказали об атаке беспилотников ВСУ",
+    "link": "https://lenta.ru/news/2026/08/23/v-kaluzhskoy-oblasti-sbili-shest-bespilotnikov-za-den/",
+    "published": "Sun, 23 Aug 2026 19:12:53 +0300",
+    "timestamp": 1787501573.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/19/20260823191139759/pic_b8680792d76837695001cf37e3d2e85b.jpg"
+  },
+  {
+    "title": "В Сербии российский Ил-76 перебросили на новый очаг пожаров",
+    "link": "https://ria.ru/20260823/samolet-2112679634.html",
+    "published": "Sun, 23 Aug 2026 19:11:44 +0300",
+    "timestamp": 1787501504.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "«Астрал 6: Они уже здесь» стартовал в прокате США слабее прошлой части",
+    "link": "https://dtf.ru/cinema/5256979-astral-6-oni-uzhe-zdes?from=rss",
+    "published": "Sun, 23 Aug 2026 19:10:20 +0300",
+    "timestamp": 1787501420.0,
+    "source": "DTF",
+    "language": "ru",
+    "description": "Новый боевик с Джейсоном Стэйтемом тоже не может похвастаться успехами.\n                                                    <img alt=\"alt\" height=\"730\" src=\"https://leonardo.osnova.io/bca1f327-bd77-5fed-930e-fb7beb9698f5/-/resize/1300/\" width=\"1280\" />",
+    "summary": "Новый боевик с Джейсоном Стэйтемом тоже не может похвастаться успехами.\n                                                    <img alt=\"alt\" height=\"730\" src=\"https://leonardo.osnova.io/bca1f327-bd77-5fed-930e-fb7beb9698f5/-/resize/1300/\" width=\"1280\" />",
+    "image": "https://leonardo.osnova.io/bca1f327-bd77-5fed-930e-fb7beb9698f5/"
+  },
+  {
+    "title": "В Китае создали первую в мире ИИ-систему защиты растений от патогенов",
+    "link": "https://www.rbc.ru/technology_and_media/18/08/2026/6a84772f9a794744ef6ed3c0",
+    "published": "Sun, 23 Aug 2026 19:09:17 +0300",
+    "timestamp": 1787501357.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Разработка позволит создавать рецепторы для распознавания новых вирусов, бактерий и грибков за несколько недель вместо нескольких лет. В испытаниях ученые проверили 391 вариант, около 18% из них вызвали специфический имунный ответ",
+    "summary": "Разработка позволит создавать рецепторы для распознавания новых вирусов, бактерий и грибков за несколько недель вместо нескольких лет. В испытаниях ученые проверили 391 вариант, около 18% из них вызвали специфический имунный ответ",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/1/27/347874912012271.jpeg"
+  },
+  {
+    "title": "Волейболисты сборной России обыграли кубинцев в товарищеском матче",
+    "link": "https://ria.ru/20260823/volejbolisty-2112679481.html",
+    "published": "Sun, 23 Aug 2026 19:08:43 +0300",
+    "timestamp": 1787501323.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/07e5/08/07/1744809572_0:10:3123:1767_650x0_80_0_0_1f41d0abe14bce548b6aadd8c59e6deb.jpg"
+  },
+  {
+    "title": "\"Уфа\" обыграла \"Енисей\" в матче Первой лиги",
+    "link": "https://ria.ru/20260823/ufa-2112679293.html",
+    "published": "Sun, 23 Aug 2026 19:04:09 +0300",
+    "timestamp": 1787501049.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/rsport/62354/86/623548640_0:827:2000:1952_650x0_80_0_0_799e7bd3f008a7d072e76dad4eb33fc9.jpg"
+  },
+  {
+    "title": "Бывшие инженеры SpaceX взялись за воскрешение заброшенного атомного проекта, чтобы питать дата-центры, — эксперты ставят на очередной провал",
+    "link": "https://vc.ru/future/3093103-spacex-inzheneri-vozrozhdayut-zabroshennyi-yadernoi-proiekt-dlya-data-tsentrov?from=rss",
+    "published": "Sun, 23 Aug 2026 19:04:05 +0300",
+    "timestamp": 1787501045.0,
+    "source": "VC.ru",
+    "language": "ru",
+    "description": "Для США это примерно пятый «атомный ренессанс», но обещания прорыва всё никак не сбудутся.\n                                                    <img alt=\"alt\" height=\"400\" src=\"https://leonardo.osnova.io/f984d836-eaf9-5356-b02e-1e0a2b5bc5ca/-/resize/1300/\" width=\"640\" />",
+    "summary": "Для США это примерно пятый «атомный ренессанс», но обещания прорыва всё никак не сбудутся.\n                                                    <img alt=\"alt\" height=\"400\" src=\"https://leonardo.osnova.io/f984d836-eaf9-5356-b02e-1e0a2b5bc5ca/-/resize/1300/\" width=\"640\" />",
+    "image": "https://leonardo.osnova.io/4abd8fa0-0ebf-57db-86f0-600936522b22/"
+  },
+  {
+    "title": "«Динамо» обыграло «Родину» в московском дерби",
+    "link": "https://lenta.ru/news/2026/08/23/dinamo-obygralo-rodinu-v-moskovskom-derbi/",
+    "published": "Sun, 23 Aug 2026 19:04:00 +0300",
+    "timestamp": 1787501040.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/19/20260823190909145/pic_2bef6c08be829dcda4d3fcb10b2b45d6.jpg"
+  },
+  {
+    "title": "Под Волгоградом перезахоронили останки более 900 бойцов Красной Армии",
+    "link": "https://tass.ru/obschestvo/28037471",
+    "published": "Sun, 23 Aug 2026 19:03:33 +0300",
+    "timestamp": 1787501013.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Также участие в церемонии приняли финалисты третьего сезона Всероссийской военно-патриотической игры \"Зарница 2.0\"",
+    "summary": "Также участие в церемонии приняли финалисты третьего сезона Всероссийской военно-патриотической игры \"Зарница 2.0\"",
+    "image": ""
+  },
+  {
+    "title": "🎬 Французский альпинист оказался в эпицентре камнепада на Монблане — но продолж...",
+    "link": "https://t.me/bazabazon/48477",
+    "published": "Sun, 23 Aug 2026 16:03:04 GMT",
+    "timestamp": 1787500984.0,
+    "source": "TG: Baza",
+    "language": "ru",
+    "description": "<p>Французский альпинист оказался в эпицентре камнепада на Монблане — но продолжил снимать происходящее.<br /><br />Лорис Бьянко вместе с напарником проходил участок, который называют «Перевалом смерти», когда с вершины внезапно посыпались тонны камней. Глыбы обрушились прямо на маршрут, по которому шли альпинисты. К счастью, Лорис с товарищем и другими скалолазами успели укрыться и переждать камнепад, не получив травм.<br /><br />Операторы не умирают.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/CC32fJ9dwUG7mrlNv6YsYdNdA1jCP3SlObFLgqQnJT8-i8xi1MnkuTs5ajdpk7EzgXzhudBnl3QEuqOfKgsNGnmMGqYmps3kkzLuVr8L5Y5NwGCwTglwb4F5eiV-T-UtYid6HD5buY62q_0TE2GJZQqIOEoX3Wi-65f_WdXIvhCmNNNh_VnhmUVCXUprBsga4cRel1jRVkiEsBStbpewrlyPGwZLmzKkYYk8mWAq92-pGOCmgsIDP0srvv_dbt7RLgHTKEmuhSjFP4kI-0fgLhEanVZsDl_tkC2tiIfZPNyjNF_ilDV7d6IMq5htNN1LEUJbB5iFFGEFriIIFk4GAA\" src=\"https://cdn4.telesco.pe/file/6a10f452eb.mp4?token=ch0OBW1t6DmWMdgQASwF21TpQrj4Pm7zUYf3lDqUiNekR9WFoyM7IQ79txP6ABYPfo6nKKRgEMnrDnEw5kGsrWSRjBnj06BY5gdDUmz9EKhZ1Tj0kvrFhhtZbaUCgW67XHoFILyzlyAeS4UFeFimBdaZlU9vbYmw3XErTjpuP0LjVpo0roRiYzsxOg3VbmvGbECWGevjQBlltdssfha6TVPJYpU41JKNLjDH0bBIVBh0eimbAbK0cfxFBlUtjfHse5OCW-_azpjstlvce-GIC_A3Z-ZFLpO6D6H9wUEYOKip9aesRDLRlHGiJJfONgZmtnLndJYbj5sc5WXGX8PFjzzoLYYGMqknLXWitR9ENcuYlvuH2_duRcW1gSNrDutwJRiNb4oohoOr2QiJZhWoYyGpijaw_6z9cGAq5qraeb67jIHbQJRGf3qFSIx1nXYKlYBH2IGEFbmyeDQT784STQ5YPI-eEt4U2NpNTzs5qqOhyJVQlX8AwFaoOXyE8JMF1U5N6F2kgYRk9lSL-fG7i4rS94h3rQJ8XKuOf9GXGF6tJT-wZRWgCS1AQJnzDxJQ0sz9GR52DM9Ho7mOsVJxsH0JrprSkZ-jLGCuNWz4izHcr0djjMAgjRxHVogYUkwXcmv5R27x7EdgEMGthHOr_gJwSqXM3BRMKCcD7HrBjy0\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Французский альпинист оказался в эпицентре камнепада на Монблане — но продолжил снимать происходящее.<br /><br />Лорис Бьянко вместе с напарником проходил участок, который называют «Перевалом смерти», когда с вершины внезапно посыпались тонны камней. Глыбы обрушились прямо на маршрут, по которому шли альпинисты. К счастью, Лорис с товарищем и другими скалолазами успели укрыться и переждать камнепад, не получив травм.<br /><br />Операторы не умирают.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/CC32fJ9dwUG7mrlNv6YsYdNdA1jCP3SlObFLgqQnJT8-i8xi1MnkuTs5ajdpk7EzgXzhudBnl3QEuqOfKgsNGnmMGqYmps3kkzLuVr8L5Y5NwGCwTglwb4F5eiV-T-UtYid6HD5buY62q_0TE2GJZQqIOEoX3Wi-65f_WdXIvhCmNNNh_VnhmUVCXUprBsga4cRel1jRVkiEsBStbpewrlyPGwZLmzKkYYk8mWAq92-pGOCmgsIDP0srvv_dbt7RLgHTKEmuhSjFP4kI-0fgLhEanVZsDl_tkC2tiIfZPNyjNF_ilDV7d6IMq5htNN1LEUJbB5iFFGEFriIIFk4GAA\" src=\"https://cdn4.telesco.pe/file/6a10f452eb.mp4?token=ch0OBW1t6DmWMdgQASwF21TpQrj4Pm7zUYf3lDqUiNekR9WFoyM7IQ79txP6ABYPfo6nKKRgEMnrDnEw5kGsrWSRjBnj06BY5gdDUmz9EKhZ1Tj0kvrFhhtZbaUCgW67XHoFILyzlyAeS4UFeFimBdaZlU9vbYmw3XErTjpuP0LjVpo0roRiYzsxOg3VbmvGbECWGevjQBlltdssfha6TVPJYpU41JKNLjDH0bBIVBh0eimbAbK0cfxFBlUtjfHse5OCW-_azpjstlvce-GIC_A3Z-ZFLpO6D6H9wUEYOKip9aesRDLRlHGiJJfONgZmtnLndJYbj5sc5WXGX8PFjzzoLYYGMqknLXWitR9ENcuYlvuH2_duRcW1gSNrDutwJRiNb4oohoOr2QiJZhWoYyGpijaw_6z9cGAq5qraeb67jIHbQJRGf3qFSIx1nXYKlYBH2IGEFbmyeDQT784STQ5YPI-eEt4U2NpNTzs5qqOhyJVQlX8AwFaoOXyE8JMF1U5N6F2kgYRk9lSL-fG7i4rS94h3rQJ8XKuOf9GXGF6tJT-wZRWgCS1AQJnzDxJQ0sz9GR52DM9Ho7mOsVJxsH0JrprSkZ-jLGCuNWz4izHcr0djjMAgjRxHVogYUkwXcmv5R27x7EdgEMGthHOr_gJwSqXM3BRMKCcD7HrBjy0\" style=\"width: 100%;\"></video>",
+    "image": ""
+  },
+  {
+    "title": "В Италии открыли мемориальную доску в память о Дарье Дугиной",
+    "link": "https://www.rbc.ru/rbcfreenews/66301f4e9a79477e3d09f926",
+    "published": "Sun, 23 Aug 2026 19:01:57 +0300",
+    "timestamp": 1787500917.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "В итальянском муниципалитете Вальи-ди-Сотто в провинции Лукка открыли мемориальную доску в память о российской журналистке и философе Дарье Дугиной, сообщает итальянская газета Corriere della Sera.",
+    "summary": "В итальянском муниципалитете Вальи-ди-Сотто в провинции Лукка открыли мемориальную доску в память о российской журналистке и философе Дарье Дугиной, сообщает итальянская газета Corriere della Sera.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/3/28/347556877871283.jpeg"
+  },
+  {
+    "title": "Главные новости за выходные 22–23 августа",
+    "link": "https://www.kommersant.ru/doc/8906551",
+    "published": "Sun, 23 Aug 2026 19:01:11 +0300",
+    "timestamp": 1787500871.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "22 августа прошел предвыборный съезд «Единой России». ЕР утвердила новую редакцию своей «Народной программы».",
+    "summary": "22 августа прошел предвыборный съезд «Единой России». ЕР утвердила новую редакцию своей «Народной программы».",
+    "image": ""
+  },
+  {
+    "title": "Немов: российские гимнасты готовы бороться за медали командного турнира ЧМ",
+    "link": "https://tass.ru/sport/28037473",
+    "published": "Sun, 23 Aug 2026 19:00:41 +0300",
+    "timestamp": 1787500841.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Сборные, занявшие первые три места по итогам командного турнира, получат путевки на Олимпиаду-2028 в США",
+    "summary": "Сборные, занявшие первые три места по итогам командного турнира, получат путевки на Олимпиаду-2028 в США",
+    "image": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20260823/9322031.jpg"
+  },
+  {
+    "title": "Глобальные инвесторы вложили в золотые фонды с начала августа $11 млрд",
+    "link": "https://www.kommersant.ru/doc/8906577",
+    "published": "Sun, 23 Aug 2026 19:00:13 +0300",
+    "timestamp": 1787500813.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Седьмую неделю подряд международные инвесторы наращивают вложения в золото. Об этом свидетельствуют данные Emerging Portfolio Fund Research (EPFR).",
+    "summary": "Седьмую неделю подряд международные инвесторы наращивают вложения в золото. Об этом свидетельствуют данные Emerging Portfolio Fund Research (EPFR).",
+    "image": ""
+  },
+  {
+    "title": "Индия предложила провести Игры БРИКС по традиционным и национальным видам",
+    "link": "https://tass.ru/sport/28037469",
+    "published": "Sun, 23 Aug 2026 18:59:47 +0300",
+    "timestamp": 1787500787.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Соревнования предлагается провести 12-13 октября в Ахмедабаде",
+    "summary": "Соревнования предлагается провести 12-13 октября в Ахмедабаде",
+    "image": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20260823/9322035.jpg"
+  },
+  {
+    "title": "Токаев раскритиковал «обнимающихся мужчин» и напомнил о традициях Казахстана",
+    "link": "https://www.vedomosti.ru/society/news/2026/08/23/1223100-tokaev-raskritikoval-obnimayuschihsya",
+    "published": "Sun, 23 Aug 2026 18:59:35 +0300",
+    "timestamp": 1787500775.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Барко вошел в стартовый состав \"Спартака\" на матч РПЛ с \"Зенитом\"",
+    "link": "https://ria.ru/20260823/barko-2112679034.html",
+    "published": "Sun, 23 Aug 2026 18:59:13 +0300",
+    "timestamp": 1787500753.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/07e8/0b/17/1985381168_0:267:3072:1995_650x0_80_0_0_1295ef3eff3a315895f6c1f46727d090.jpg"
+  },
+  {
+    "title": "Иран объявил об открытии крупного месторождения газа в провинции Фарс",
+    "link": "https://www.vedomosti.ru/business/news/2026/08/23/1223101-iran-ob-otkritii",
+    "published": "Sun, 23 Aug 2026 18:57:11 +0300",
+    "timestamp": 1787500631.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Иран готов ответить на возможную экономическую войну с США, заявил КСИР",
+    "link": "https://ria.ru/20260823/iran-2112678858.html",
+    "published": "Sun, 23 Aug 2026 18:55:45 +0300",
+    "timestamp": 1787500545.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/149974/31/1499743195_0:0:2922:1645_650x0_80_0_0_8ad2968dfd90da83f2ba9e2dd806c840.jpg"
+  },
+  {
+    "title": "Пилот посадила двухмоторный самолет в океан у Флориды. Видео",
+    "link": "https://www.rbc.ru/rbcfreenews/6a87b78d9a7947a043b4be24",
+    "published": "Sun, 23 Aug 2026 18:55:22 +0300",
+    "timestamp": 1787500522.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "23-летняя пилот Фейт Тенкли совершила аварийную посадку двухмоторного самолета в Атлантическом океане у Бока-Ратона во Флориде после технических неисправностей, сообщает Daily Mail.",
+    "summary": "23-летняя пилот Фейт Тенкли совершила аварийную посадку двухмоторного самолета в Атлантическом океане у Бока-Ратона во Флориде после технических неисправностей, сообщает Daily Mail.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/8/08/347875000911088.jpeg"
+  },
+  {
+    "title": "В Пушкинском музее открылась выставка «Алмазная колесница. Буддийское искусство России»",
+    "link": "https://www.kommersant.ru/doc/8906573",
+    "published": "Sun, 23 Aug 2026 18:53:08 +0300",
+    "timestamp": 1787500388.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "В Пушкинском музее проходит выставка «Алмазная колесница. Буддийское искусство России».",
+    "summary": "В Пушкинском музее проходит выставка «Алмазная колесница. Буддийское искусство России».",
+    "image": ""
+  },
+  {
+    "title": "Axios узнал о встрече главы Моссада с министром иностранных дел Сирии",
+    "link": "https://www.kommersant.ru/doc/8906575",
+    "published": "Sun, 23 Aug 2026 18:49:18 +0300",
+    "timestamp": 1787500158.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Глава разведки Израиля (Моссад) Роман Гофман встретился с министром иностранных дел Сирии Асаадом аш-Шайбани. Об этом сообщает Axios со ссылкой на источники.",
+    "summary": "Глава разведки Израиля (Моссад) Роман Гофман встретился с министром иностранных дел Сирии Асаадом аш-Шайбани. Об этом сообщает Axios со ссылкой на источники.",
+    "image": ""
+  },
+  {
+    "title": "Фигурист Гуменник представит программу под Юру Борисова",
+    "link": "https://lenta.ru/news/2026/08/23/figurist-gumennik-predstavit-programmu-pod-yuru-borisova/",
+    "published": "Sun, 23 Aug 2026 18:46:14 +0300",
+    "timestamp": 1787499974.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/18/20260823180250715/pic_a63b5a908d7faab3405030375d7504b1.jpg"
+  },
+  {
+    "title": "Bloomberg предупредил о надвигающемся дефиците качественного кофе",
+    "link": "https://www.vedomosti.ru/business/news/2026/08/23/1223099-bloomberg-predupredil",
+    "published": "Sun, 23 Aug 2026 18:42:26 +0300",
+    "timestamp": 1787499746.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "WSJ: министр армии США Дрисколл покинет пост до конца года",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223097-driskoll-pokinet-post",
+    "published": "Sun, 23 Aug 2026 18:22:42 +0300",
+    "timestamp": 1787498562.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "В Неваде лесной пожар распространился на 42 500 га из-за ветра и жары",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223098-v-nevade-pozhar",
+    "published": "Sun, 23 Aug 2026 18:14:16 +0300",
+    "timestamp": 1787498056.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "🖼 Лимонады с сахаром увеличивают риск рака желудка в 2,5 раза.",
+    "link": "https://t.me/topor/52001",
+    "published": "Sun, 23 Aug 2026 15:11:01 GMT",
+    "timestamp": 1787497861.0,
+    "source": "TG: ТОПОР",
+    "language": "ru",
+    "description": "<p><b>Лимонады с сахаром увеличивают риск рака желудка в 2,5 раза.</b><br /><br />Учёные много лет наблюдали за 112 тысячами человек. У женщин, которые пили хотя бы один сладкий напиток в день, риск оказался примерно в 3 раза выше, у мужчин — в 2 раза.<br /><br />Напитки с искусственными подсластителями таких результатов не показали.</p><img height=\"450\" src=\"https://cdn4.telesco.pe/file/SS2MejhZaDg27Z3WV9f421L2D0Q16J_RrPx2yr9-nESStFSROOdB0yPDp7y_TX1H-QekqZrBgLDv2Om9Qt3hj_TC9fz9HMTMh9NlenfEcm8qPk28lPkWBdFaoZYfw8IOK_AtysTcctJjhlPGEswHdwd6fhXzav-lQRhQolz_6c3_9lUlzO_LEQyNz3UP35-Jav2hu8USc1morjdWE2Fha7_ArrjyAEr1DXe8OzSaE40UfrTFn0X-X5nLU22aifDWwy3XOD3QBn8mhWAZEIriqzKS59xGuXbMIENcdOnopYdBWS46VLopJvFlIIEBIBiYbYKA7igZqyCXytHO7KPX3g.jpg\" width=\"800\" />",
+    "summary": "<p><b>Лимонады с сахаром увеличивают риск рака желудка в 2,5 раза.</b><br /><br />Учёные много лет наблюдали за 112 тысячами человек. У женщин, которые пили хотя бы один сладкий напиток в день, риск оказался примерно в 3 раза выше, у мужчин — в 2 раза.<br /><br />Напитки с искусственными подсластителями таких результатов не показали.</p><img height=\"450\" src=\"https://cdn4.telesco.pe/file/SS2MejhZaDg27Z3WV9f421L2D0Q16J_RrPx2yr9-nESStFSROOdB0yPDp7y_TX1H-QekqZrBgLDv2Om9Qt3hj_TC9fz9HMTMh9NlenfEcm8qPk28lPkWBdFaoZYfw8IOK_AtysTcctJjhlPGEswHdwd6fhXzav-lQRhQolz_6c3_9lUlzO_LEQyNz3UP35-Jav2hu8USc1morjdWE2Fha7_ArrjyAEr1DXe8OzSaE40UfrTFn0X-X5nLU22aifDWwy3XOD3QBn8mhWAZEIriqzKS59xGuXbMIENcdOnopYdBWS46VLopJvFlIIEBIBiYbYKA7igZqyCXytHO7KPX3g.jpg\" width=\"800\" />",
+    "image": "https://cdn4.telesco.pe/file/SS2MejhZaDg27Z3WV9f421L2D0Q16J_RrPx2yr9-nESStFSROOdB0yPDp7y_TX1H-QekqZrBgLDv2Om9Qt3hj_TC9fz9HMTMh9NlenfEcm8qPk28lPkWBdFaoZYfw8IOK_AtysTcctJjhlPGEswHdwd6fhXzav-lQRhQolz_6c3_9lUlzO_LEQyNz3UP35-Jav2hu8USc1morjdWE2Fha7_ArrjyAEr1DXe8OzSaE40UfrTFn0X-X5nLU22aifDWwy3XOD3QBn8mhWAZEIriqzKS59xGuXbMIENcdOnopYdBWS46VLopJvFlIIEBIBiYbYKA7igZqyCXytHO7KPX3g.jpg"
+  },
+  {
+    "title": "🎬 Перестанут ли люди мусорить, если вокруг будет идеально чисто, решила проверит...",
+    "link": "https://t.me/mash/77171",
+    "published": "Sun, 23 Aug 2026 15:00:01 GMT",
+    "timestamp": 1787497201.0,
+    "source": "TG: Mash",
+    "language": "ru",
+    "description": "<p>Перестанут ли люди мусорить, если вокруг будет идеально чисто, решила проверить маркетолог из Ухты. Спойлер: не перестали. Но зато её ролики собирают миллионы просмотров.<br /><br />Анна раньше работала в продажах, но уволилась и вернулась в родной город. Там увидела, что двор её детства утонул в мусоре. Решила взять всё в свои руки.<br /><br />Сначала выходить на улицу было страшно — переживала, что подумают люди. Поэтому уборку начинала в шесть утра. Дворники идею не поняли: мол, мы десять лет убираем, но ничего не помогает — люди всё равно продолжают гадить. Но Анна уверена: секрет в идеальной чистоте. Когда вокруг ни соринки, бросить фантик самому уже как-то неловко.<br /><br />Мама идею не оценила — решила, что дочь немного не в себе, зато интернет поддержал: ролик набрал 10 млн просмотров. Сейчас Анна учится на бариста и продолжает эксперимент — пока что люди мусорят дальше, но девушка сдаваться не собирается.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/rLZFuQZdKqV10eGStAYTcGwSkQP1wxNwV_kKlYX7AWlqZgTTGtew-ZzaVPBwkm7KMqqJWteub4JieVizJwVcC6IqRYChuiyRULONYWLG-KCPuK_IiDYU76Ahfs6W9HMYEkbuwJ01PXtsiB2u8h6i9yF48rrDI0XdlvsH3NM8tu_NXUyqS_yLAl2hAjMEOzunIZ_dEm4HW3jpKPMHiZwtw8D57WL8rvlUo8hklcDX03bPmy2_rdpne0jgXLT8qYqJtC57qLKXtOZTfWbQptvfHjdv5_obZmpMvm6VsTmoj-z0Q251xpiWWCCSwU7fX1okmOOkYIfV6COd1DZ5qZHhIg\" src=\"https://cdn4.telesco.pe/file/e270ddeb89.mp4?token=g4MEWfK8NxCB9BqobBJdAwUCla1WKP31-WsronCa3Aj0isHXbGLrjLHHcm0oVEObdQNwcfLyYEoVF9OrT2sPMDwcA_OR-1PiY54qQo2wzvL-7Tzi_CE7zL8zX9PTL5F8H37QP827BFXcc1nWqSXmnFGyivdjt0APNnwJCbmMUXQNVaZKIXg4Z6K4amhQXBxvOp1R_kfbmBOg48zgu1QsrCyh6VOzXBGzkiwVKm4-XZOWh3mZ_5AclQ4IYaAvKMTjDDBPEQOezPcShWo6a9v_oYSjvOsJxzdZF8c9T4SA3nHK727EcO7vVfPyQ7EVUNdJUIJV95OfSmVgtvDGfnC4Bikcs3Oo00U1fx9KKK_eDo-wJTNiC4mAcOitgVleKVdmnHb3xwep0FzCSCRkLeKtfwd6cnDzyfRIrhZdTLg8JglTHkh62FTPoFQzmTFFYaZJLQCr3pvajd5_S7vehhSSi_4hMiUmKBPBDHMVCTnkMvw1OmdsAFgwFqqm6VHfgpqdI7EWZsweBaIu-4amX5TWK-yElKXC38owFkC6FxCfGy3NkLjmBfbQAkVBr0yQl8bNEkCJvvfG1br60S6yaYteAIuHvdeEm1bag9AswoISzCEw_vrMUyx6syzmdnWwWeyDHfyi9NXfL1MHmtYqA-BGSIC3ulDQmn9RWpEUCSg56Y0\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Перестанут ли люди мусорить, если вокруг будет идеально чисто, решила проверить маркетолог из Ухты. Спойлер: не перестали. Но зато её ролики собирают миллионы просмотров.<br /><br />Анна раньше работала в продажах, но уволилась и вернулась в родной город. Там увидела, что двор её детства утонул в мусоре. Решила взять всё в свои руки.<br /><br />Сначала выходить на улицу было страшно — переживала, что подумают люди. Поэтому уборку начинала в шесть утра. Дворники идею не поняли: мол, мы десять лет убираем, но ничего не помогает — люди всё равно продолжают гадить. Но Анна уверена: секрет в идеальной чистоте. Когда вокруг ни соринки, бросить фантик самому уже как-то неловко.<br /><br />Мама идею не оценила — решила, что дочь немного не в себе, зато интернет поддержал: ролик набрал 10 млн просмотров. Сейчас Анна учится на бариста и продолжает эксперимент — пока что люди мусорят дальше, но девушка сдаваться не собирается.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/rLZFuQZdKqV10eGStAYTcGwSkQP1wxNwV_kKlYX7AWlqZgTTGtew-ZzaVPBwkm7KMqqJWteub4JieVizJwVcC6IqRYChuiyRULONYWLG-KCPuK_IiDYU76Ahfs6W9HMYEkbuwJ01PXtsiB2u8h6i9yF48rrDI0XdlvsH3NM8tu_NXUyqS_yLAl2hAjMEOzunIZ_dEm4HW3jpKPMHiZwtw8D57WL8rvlUo8hklcDX03bPmy2_rdpne0jgXLT8qYqJtC57qLKXtOZTfWbQptvfHjdv5_obZmpMvm6VsTmoj-z0Q251xpiWWCCSwU7fX1okmOOkYIfV6COd1DZ5qZHhIg\" src=\"https://cdn4.telesco.pe/file/e270ddeb89.mp4?token=g4MEWfK8NxCB9BqobBJdAwUCla1WKP31-WsronCa3Aj0isHXbGLrjLHHcm0oVEObdQNwcfLyYEoVF9OrT2sPMDwcA_OR-1PiY54qQo2wzvL-7Tzi_CE7zL8zX9PTL5F8H37QP827BFXcc1nWqSXmnFGyivdjt0APNnwJCbmMUXQNVaZKIXg4Z6K4amhQXBxvOp1R_kfbmBOg48zgu1QsrCyh6VOzXBGzkiwVKm4-XZOWh3mZ_5AclQ4IYaAvKMTjDDBPEQOezPcShWo6a9v_oYSjvOsJxzdZF8c9T4SA3nHK727EcO7vVfPyQ7EVUNdJUIJV95OfSmVgtvDGfnC4Bikcs3Oo00U1fx9KKK_eDo-wJTNiC4mAcOitgVleKVdmnHb3xwep0FzCSCRkLeKtfwd6cnDzyfRIrhZdTLg8JglTHkh62FTPoFQzmTFFYaZJLQCr3pvajd5_S7vehhSSi_4hMiUmKBPBDHMVCTnkMvw1OmdsAFgwFqqm6VHfgpqdI7EWZsweBaIu-4amX5TWK-yElKXC38owFkC6FxCfGy3NkLjmBfbQAkVBr0yQl8bNEkCJvvfG1br60S6yaYteAIuHvdeEm1bag9AswoISzCEw_vrMUyx6syzmdnWwWeyDHfyi9NXfL1MHmtYqA-BGSIC3ulDQmn9RWpEUCSg56Y0\" style=\"width: 100%;\"></video>",
+    "image": ""
+  },
+  {
+    "title": "Nvidia вложит $7 млрд на развитие open-weight конкурента китайским ИИ-моделям",
+    "link": "https://habr.com/ru/companies/bothub/news/1073478/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073478",
+    "published": "Sun, 23 Aug 2026 14:41:36 GMT",
+    "timestamp": 1787496096.0,
+    "source": "Хабр",
+    "language": "ru",
+    "description": "<p>Nvidia заключила с AI-стартапом Poolside соглашение на $6 млрд: компания лицензирует его технологии и забирает в свою команду более 100 сотрудников. Они присоединятся к разработке семейства открытых моделей Nemotron.&nbsp;</p><p>Еще $1 млрд Nvidia инвестирует непосредственно в Poolside при оценке стартапа в $12 млрд до сделки. Основатели Poolside при этом останутся в компании, а сама сделка по лицензированию технологий является отдельной от инвестиции.&nbsp;</p><p>Задача Nvidia — ускорить развитие Nemotron и вывести его на уровень ведущих open-weight моделей. Компания рассчитывает конкурировать не только с китайскими DeepSeek и Kimi K3, но и с закрытыми фронтирными моделями OpenAI и Anthropic.&nbsp;</p><p>Более 100 инженеров Poolside будут работать над крупнейшими и наиболее сложными моделями Nemotron. При этом Nvidia не покупает сам Poolside: руководство стартапа продолжит заниматься собственными исследованиями.&nbsp;</p><p>Для Nvidia это заметный стратегический разворот. Компания остается главным поставщиком ускорителей для AI-лабораторий, но одновременно сама наращивает разработку моделей. Причина — быстрый рост китайских open-weight решений, которые можно скачивать, дообучать и разворачивать самостоятельно.</p><p>В марте Nvidia уже создала Nemotron Coalition с участием Mistral, Thinking Machines Lab и Perplexity, чтобы объединить разработчиков открытых моделей, данные и вычислительные ресурсы. А ранее в августе компания выпустила Nemotron 3.5 Lightning и параллельно работает над значительно более крупной моделью Nemotron.&nbsp;</p><p>Для Poolside сделка тоже решает проблему вычислительных ресурсов: стартап ранее не смог вовремя привлечь $2 млрд на кластер из 40 000 GB300, из-за чего потерял доступ к запланированным мощностям. Теперь Nvidia становится для компании одновременно инвестором, технологическим партнером и источником вычислительной инфраструктуры.&nbsp;</p> <a href=\"https://habr.com/ru/articles/1073478/#habracut\">Читать далее</a>",
+    "summary": "<p>Nvidia заключила с AI-стартапом Poolside соглашение на $6 млрд: компания лицензирует его технологии и забирает в свою команду более 100 сотрудников. Они присоединятся к разработке семейства открытых моделей Nemotron.&nbsp;</p><p>Еще $1 млрд Nvidia инвестирует непосредственно в Poolside при оценке стартапа в $12 млрд до сделки. Основатели Poolside при этом останутся в компании, а сама сделка по лицензированию технологий является отдельной от инвестиции.&nbsp;</p><p>Задача Nvidia — ускорить развитие Nemotron и вывести его на уровень ведущих open-weight моделей. Компания рассчитывает конкурировать не только с китайскими DeepSeek и Kimi K3, но и с закрытыми фронтирными моделями OpenAI и Anthropic.&nbsp;</p><p>Более 100 инженеров Poolside будут работать над крупнейшими и наиболее сложными моделями Nemotron. При этом Nvidia не покупает сам Poolside: руководство стартапа продолжит заниматься собственными исследованиями.&nbsp;</p><p>Для Nvidia это заметный стратегический разворот. Компания остается главным поставщиком ускорителей для AI-лабораторий, но одновременно сама наращивает разработку моделей. Причина — быстрый рост китайских open-weight решений, которые можно скачивать, дообучать и разворачивать самостоятельно.</p><p>В марте Nvidia уже создала Nemotron Coalition с участием Mistral, Thinking Machines Lab и Perplexity, чтобы объединить разработчиков открытых моделей, данные и вычислительные ресурсы. А ранее в августе компания выпустила Nemotron 3.5 Lightning и параллельно работает над значительно более крупной моделью Nemotron.&nbsp;</p><p>Для Poolside сделка тоже решает проблему вычислительных ресурсов: стартап ранее не смог вовремя привлечь $2 млрд на кластер из 40 000 GB300, из-за чего потерял доступ к запланированным мощностям. Теперь Nvidia становится для компании одновременно инвестором, технологическим партнером и источником вычислительной инфраструктуры.&nbsp;</p> <a href=\"https://habr.com/ru/articles/1073478/#habracut\">Читать далее</a>",
+    "image": ""
+  },
+  {
+    "title": "Это мог быть анекдот, но нет",
+    "link": "https://pikabu.ru/story/yeto_mog_byit_anekdot_no_net_14268089",
+    "published": "Sun, 23 Aug 2026 17:37:53 +0300",
+    "timestamp": 1787495873.0,
+    "source": "Пикабу",
+    "language": "ru",
+    "description": "<p><p>У меня сосед разъебался на мото. Остатки мотоцикла продают. А экип бесплатно отдали мне, чтоб к мусорке не нести. Состояние экипа норм, часть вообще дома лежала. Ну я и продал это все с доставкой, почему нет.</p></p><p><p>А теперь посылка едет обратно ко мне, так как покупатель за время доставки тоже разъебался. И ему больше не надо.</p></p><p><p>Ещё целые мотоциклисты есть где-нибудь? Продам шлем и черепаху...</p></p>",
+    "summary": "<p><p>У меня сосед разъебался на мото. Остатки мотоцикла продают. А экип бесплатно отдали мне, чтоб к мусорке не нести. Состояние экипа норм, часть вообще дома лежала. Ну я и продал это все с доставкой, почему нет.</p></p><p><p>А теперь посылка едет обратно ко мне, так как покупатель за время доставки тоже разъебался. И ему больше не надо.</p></p><p><p>Ещё целые мотоциклисты есть где-нибудь? Продам шлем и черепаху...</p></p>",
+    "image": ""
+  },
+  {
+    "title": "🖼 В Уфе жильцам пятиэтажки отключили газ с горячей водой и поставили ультиматум ...",
+    "link": "https://t.me/bazabazon/48476",
+    "published": "Sun, 23 Aug 2026 14:22:23 GMT",
+    "timestamp": 1787494943.0,
+    "source": "TG: Baza",
+    "language": "ru",
+    "description": "<p>В Уфе жильцам пятиэтажки отключили газ с горячей водой и поставили ультиматум — либо они собирают 2 млн рублей на ремонт дымоходов, либо газ не вернут.<br /><br />Собственники рассказали «Базе», что их управляющая компания «Сердце Столицы» передала газовикам акт о неисправностях. После этого 20 августа в доме перекрыли подачу газа и отключили колонки для нагрева воды. А на собрании представитель УК озвучил условие: каждая квартира сдаёт по 25 тысяч рублей, иначе подачу газа не возобновят.<br /><br />Жильцы считают, что компания просто шантажом пытается повесить на них расходы на капремонт. Причём ещё в январе и мае сама УК подтверждала исправность систем, а в феврале вентиляцию проверяли газовики — и никаких проблем не было. Теперь людей лишили даже возможности приготовить еду и помыться. Жильцы уже написали жалобы в прокуратуру, Госжилнадзор и администрацию.<br /><br />Директор УК заявил «Базе», что газ отключили из-за негерметичности дымоходов и риска отравления. Ремонт не входит в содержание жилья — платить должны сами жильцы. На вопрос, почему плиты тоже оставили без газа и как людям готовить еду, в компании ответили: отключить должны были только колонки, а на плиты собирались поставить заглушки, но по факту перекрыли всё — разбираться обещают позже. Пока жильцы будут как-то «выкручиваться» и без газа и горячей воды.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><img src=\"https://cdn4.telesco.pe/file/Hzh6HXy1ZYd0x1zrSjlN1KgTYhO5BiL7dQO-BKINgv80xwPmnaWCdpMwb0G92MZCDNCQJvlY7q8qKy5PPJ0C7DTSVOvNf6qga2rUKUs8gBJRsoX8lJNM5qdIiWIHcP2ni73aMumCoCW6U52p8z1nYuutIdHwzZGzVYtWyBa_ycOYQvhMi20jZozZpgbFuWpMB-8vLRgnWX2GqK8R3QbNogv2fF4mpTabyTpu__6PFMvI2s_TC16pghZJqO-UGCsPUmckpdOxA_E8_HML5PaPKaNwQ7Y1et56BvbaHC9xxzihbdWtHbA6xrUqCD8rjHPaz3hP_LoZAk_M8TIZ-WA4tQ.jpg\" />",
+    "summary": "<p>В Уфе жильцам пятиэтажки отключили газ с горячей водой и поставили ультиматум — либо они собирают 2 млн рублей на ремонт дымоходов, либо газ не вернут.<br /><br />Собственники рассказали «Базе», что их управляющая компания «Сердце Столицы» передала газовикам акт о неисправностях. После этого 20 августа в доме перекрыли подачу газа и отключили колонки для нагрева воды. А на собрании представитель УК озвучил условие: каждая квартира сдаёт по 25 тысяч рублей, иначе подачу газа не возобновят.<br /><br />Жильцы считают, что компания просто шантажом пытается повесить на них расходы на капремонт. Причём ещё в январе и мае сама УК подтверждала исправность систем, а в феврале вентиляцию проверяли газовики — и никаких проблем не было. Теперь людей лишили даже возможности приготовить еду и помыться. Жильцы уже написали жалобы в прокуратуру, Госжилнадзор и администрацию.<br /><br />Директор УК заявил «Базе», что газ отключили из-за негерметичности дымоходов и риска отравления. Ремонт не входит в содержание жилья — платить должны сами жильцы. На вопрос, почему плиты тоже оставили без газа и как людям готовить еду, в компании ответили: отключить должны были только колонки, а на плиты собирались поставить заглушки, но по факту перекрыли всё — разбираться обещают позже. Пока жильцы будут как-то «выкручиваться» и без газа и горячей воды.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><img src=\"https://cdn4.telesco.pe/file/Hzh6HXy1ZYd0x1zrSjlN1KgTYhO5BiL7dQO-BKINgv80xwPmnaWCdpMwb0G92MZCDNCQJvlY7q8qKy5PPJ0C7DTSVOvNf6qga2rUKUs8gBJRsoX8lJNM5qdIiWIHcP2ni73aMumCoCW6U52p8z1nYuutIdHwzZGzVYtWyBa_ycOYQvhMi20jZozZpgbFuWpMB-8vLRgnWX2GqK8R3QbNogv2fF4mpTabyTpu__6PFMvI2s_TC16pghZJqO-UGCsPUmckpdOxA_E8_HML5PaPKaNwQ7Y1et56BvbaHC9xxzihbdWtHbA6xrUqCD8rjHPaz3hP_LoZAk_M8TIZ-WA4tQ.jpg\" />",
+    "image": "https://cdn4.telesco.pe/file/Hzh6HXy1ZYd0x1zrSjlN1KgTYhO5BiL7dQO-BKINgv80xwPmnaWCdpMwb0G92MZCDNCQJvlY7q8qKy5PPJ0C7DTSVOvNf6qga2rUKUs8gBJRsoX8lJNM5qdIiWIHcP2ni73aMumCoCW6U52p8z1nYuutIdHwzZGzVYtWyBa_ycOYQvhMi20jZozZpgbFuWpMB-8vLRgnWX2GqK8R3QbNogv2fF4mpTabyTpu__6PFMvI2s_TC16pghZJqO-UGCsPUmckpdOxA_E8_HML5PaPKaNwQ7Y1et56BvbaHC9xxzihbdWtHbA6xrUqCD8rjHPaz3hP_LoZAk_M8TIZ-WA4tQ.jpg"
   },
   {
     "title": "🖼 AliExpress тайно прослушивает ваши наушники.",
@@ -231,70 +429,15 @@
     "image": "https://cdn4.telesco.pe/file/uQBVUSM1aCPVjCl4QIq4Tp2b2MP3iQyKslcAaPwXj9EN36I0nmed2BNGpw8ZiyZ1-zLtACe2R0zBTEWoXOSKb77Z-l9fIt2B2AIWVGiSC5UeveYsVppzu0Dcp5mV4KRto4KYsV_PrNPlIsGLp4Hq727fWZllgAW1gfFd5XcFyyfjuCvm9uZxlRqGAWzABgxe3ZbWO776zYrDAlEdbc1hEaijxlSmHnYECAYCGaN8MtV0cUc-yPrYRZVFF8CUWxcDU2vrWF1H8Fk0Pv3I3_YtRgf1DUPTPe9yREUawiTR2QMlHSNPxCPZN38414OzkQ9BGRH4Ob6hkbgojTwC1r2wgA.jpg"
   },
   {
-    "title": "Alibaba продаст акции на $10 млрд для инвестиций в ИИ",
-    "link": "https://www.kommersant.ru/doc/8906534",
-    "published": "Sun, 23 Aug 2026 16:57:03 +0300",
-    "timestamp": 1787493423.0,
-    "source": "Коммерсантъ",
+    "title": "Team Spirit выиграла The International 2026",
+    "link": "https://habr.com/ru/news/1073474/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073474",
+    "published": "Sun, 23 Aug 2026 13:56:49 GMT",
+    "timestamp": 1787493409.0,
+    "source": "Хабр",
     "language": "ru",
-    "description": "Китайская компания Alibaba Group Holding Ltd. планирует привлечь около 80 млрд гонконгских долларов ($10,2 млрд) за счет продажи своих акций. Об этом сообщает агентство Bloomberg.",
-    "summary": "Китайская компания Alibaba Group Holding Ltd. планирует привлечь около 80 млрд гонконгских долларов ($10,2 млрд) за счет продажи своих акций. Об этом сообщает агентство Bloomberg.",
-    "image": ""
-  },
-  {
-    "title": "Украина и Финляндия договорились о производстве БПЛА на финской территории",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223087-ukraina-i-finlyandiya-dogovorilis",
-    "published": "Sun, 23 Aug 2026 16:51:40 +0300",
-    "timestamp": 1787493100.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "WSJ: министр армии США Дэн Дрисколл покинет свой пост до конца года или раньше",
-    "link": "https://www.kommersant.ru/doc/8906537",
-    "published": "Sun, 23 Aug 2026 16:49:15 +0300",
-    "timestamp": 1787492955.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Министр армии США Дэниел Дрисколл покидает Пентагон после затяжной аппаратной войны с главой военного ведомства Питом Хегсетом, уверяют американские СМИ. Ожидаемая отставка надолго оставит сухопутные войска США без утвержденного Сенатом руководителя, создавая управленческий вакуум на фоне войны с Ираном.",
-    "summary": "Министр армии США Дэниел Дрисколл покидает Пентагон после затяжной аппаратной войны с главой военного ведомства Питом Хегсетом, уверяют американские СМИ. Ожидаемая отставка надолго оставит сухопутные войска США без утвержденного Сенатом руководителя, создавая управленческий вакуум на фоне войны с Ираном.",
-    "image": ""
-  },
-  {
-    "title": "Силы ПВО уничтожили четыре летевших на Москву БПЛА",
-    "link": "https://www.rbc.ru/rbcfreenews/6a8a83cb9a794771fa21dad6",
-    "published": "Sun, 23 Aug 2026 16:48:49 +0300",
-    "timestamp": 1787492929.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Силы ПВО уничтожили четыре беспилотника, летевших на Москву, сообщил&nbsp;мэр столицы Сергей Собянин.",
-    "summary": "Силы ПВО уничтожили четыре беспилотника, летевших на Москву, сообщил&nbsp;мэр столицы Сергей Собянин.",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/8/62/347874929628628.jpeg"
-  },
-  {
-    "title": "Team Spirit в третий раз выиграла The International по Dota 2",
-    "link": "https://www.kommersant.ru/doc/8906536",
-    "published": "Sun, 23 Aug 2026 16:45:31 +0300",
-    "timestamp": 1787492731.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Российская команда со штаб-квартирой в Белграде Team Spirit стала победителем The International 2026 — главного турнира года по Dota 2. В финале команда со счетом 3:2 по картам обыграла другой российский коллектив, Team Vision.",
-    "summary": "Российская команда со штаб-квартирой в Белграде Team Spirit стала победителем The International 2026 — главного турнира года по Dota 2. В финале команда со счетом 3:2 по картам обыграла другой российский коллектив, Team Vision.",
-    "image": ""
-  },
-  {
-    "title": "Ферстаппен попал в аварию на старте домашней гонки «Формулы-1»",
-    "link": "https://www.rbc.ru/sport/19/08/2026/6a85b0e09a79470d218b7c15",
-    "published": "Sun, 23 Aug 2026 16:44:41 +0300",
-    "timestamp": 1787492681.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Гонщик Red Bull врезался в ограждение на первом круге гонки в Зандворте. Гран-при остановили красными флагами",
-    "summary": "Гонщик Red Bull врезался в ограждение на первом круге гонки в Зандворте. Гран-при остановили красными флагами",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/7/50/347874925375507.jpeg"
+    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/a17/c39/cf0/a17c39cf064e4b42f22b5db00e6aada6.jpeg\" /><p>Команда Team Spirit с тренером Ярославом «Miposhka» Найдёновым <a href=\"https://x.com/TSpirit_Dota2/status/2091519016355442877\" rel=\"noopener noreferrer nofollow\">обыграла</a> PARIVISION в гранд-финале The International 2026 по Dota 2. Поединок за титул закончился со счётом 3:2. Команда вошла в историю, так как стала первой в мире, которая выиграла три чемпионата мира. Ранее ей покорились The International в 2021 и 2023 годах. </p> <a href=\"https://habr.com/ru/articles/1073474/#habracut\">Читать далее</a>",
+    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/a17/c39/cf0/a17c39cf064e4b42f22b5db00e6aada6.jpeg\" /><p>Команда Team Spirit с тренером Ярославом «Miposhka» Найдёновым <a href=\"https://x.com/TSpirit_Dota2/status/2091519016355442877\" rel=\"noopener noreferrer nofollow\">обыграла</a> PARIVISION в гранд-финале The International 2026 по Dota 2. Поединок за титул закончился со счётом 3:2. Команда вошла в историю, так как стала первой в мире, которая выиграла три чемпионата мира. Ранее ей покорились The International в 2021 и 2023 годах. </p> <a href=\"https://habr.com/ru/articles/1073474/#habracut\">Читать далее</a>",
+    "image": "https://habrastorage.org/getpro/habr/upload_files/a17/c39/cf0/a17c39cf064e4b42f22b5db00e6aada6.jpeg"
   },
   {
     "title": "🔁🖼 Российская команда Team Spirit выиграла главный турнир года по Dota 2 — The International.",
@@ -303,8 +446,8 @@
     "timestamp": 1787492292.0,
     "source": "TG: Baza",
     "language": "ru",
-    "description": "<p>Forwarded From <b><a href=\"https://t.me/baza_sport/4632\">Sport Baza</a></b></p><p>Российская команда Team Spirit выиграла главный турнир года по Dota 2 — The International.<br /><br />В финале были обыграны ещё одни представители России — Team Vision. То, что победителем станет именно российская команда, стало понятно уже по итогам четвертьфиналов. Впервые в истории соревнований в лидеры вышли исключительно коллективы, представляющие одну страну. Помимо Team Spirit и Team Vision, в четвёрку сильнейших команд мира пробились Team Yandex и BoomBoys.<br /><br />Призовой фонд турнира по сравнению с прошлым годом вырос примерно на 30 % и достиг 3,3 млн долларов.<br /><br /><span class=\"emoji\">⚽️</span> <i>новости SPORT BAZA в MAX</i>: <a href=\"https://max.ru/baza_sport\" rel=\"noopener\" target=\"_blank\"><i><u>https://max.ru/baza_sport</u></i></a></p><img height=\"393\" src=\"https://cdn4.telesco.pe/file/HpMRKDDj33iN9w86shSW-qyVDPX9gs9yGOqAD1NcSGIJToViZgejYT2qCXs_LEUiOJKS3oea8NigaxN5y7sO-D3Qr8jFcCDRYmOmgQDSTSCwENSVkhWN91KS6fYLgUnemXANpNsoldn8-SQnLO7ZTJ9rzJJ_xTfyhn6mrsHxNmpdWLUDS7sPPnMeWL4aAbDccRtWP3VBuRs3O1QiC9JQooMpR6jrojQKkRNzd5hrgkVcJcmOyy8DyqoebCk8xaQn0crSst4sAGt7LDrIG_yQGWyI4D27qL7XGnx4zecmzzkLX-exgGVy-xA3FNZANXoJNQRLvCPUor5OVi0AjARiIQ.jpg\" width=\"588\" />",
-    "summary": "<p>Forwarded From <b><a href=\"https://t.me/baza_sport/4632\">Sport Baza</a></b></p><p>Российская команда Team Spirit выиграла главный турнир года по Dota 2 — The International.<br /><br />В финале были обыграны ещё одни представители России — Team Vision. То, что победителем станет именно российская команда, стало понятно уже по итогам четвертьфиналов. Впервые в истории соревнований в лидеры вышли исключительно коллективы, представляющие одну страну. Помимо Team Spirit и Team Vision, в четвёрку сильнейших команд мира пробились Team Yandex и BoomBoys.<br /><br />Призовой фонд турнира по сравнению с прошлым годом вырос примерно на 30 % и достиг 3,3 млн долларов.<br /><br /><span class=\"emoji\">⚽️</span> <i>новости SPORT BAZA в MAX</i>: <a href=\"https://max.ru/baza_sport\" rel=\"noopener\" target=\"_blank\"><i><u>https://max.ru/baza_sport</u></i></a></p><img height=\"393\" src=\"https://cdn4.telesco.pe/file/HpMRKDDj33iN9w86shSW-qyVDPX9gs9yGOqAD1NcSGIJToViZgejYT2qCXs_LEUiOJKS3oea8NigaxN5y7sO-D3Qr8jFcCDRYmOmgQDSTSCwENSVkhWN91KS6fYLgUnemXANpNsoldn8-SQnLO7ZTJ9rzJJ_xTfyhn6mrsHxNmpdWLUDS7sPPnMeWL4aAbDccRtWP3VBuRs3O1QiC9JQooMpR6jrojQKkRNzd5hrgkVcJcmOyy8DyqoebCk8xaQn0crSst4sAGt7LDrIG_yQGWyI4D27qL7XGnx4zecmzzkLX-exgGVy-xA3FNZANXoJNQRLvCPUor5OVi0AjARiIQ.jpg\" width=\"588\" />",
+    "description": "<p>Forwarded From <b><a href=\"https://t.me/baza_sport/4632\">Sport Baza</a></b></p><p>Российская команда Team Spirit выиграла главный турнир года по Dota 2 — The International.<br /><br />В финале были обыграны ещё одни представители России — Team Vision. То, что победителем станет именно российская команда, стало понятно уже по итогам четвертьфиналов. Впервые в истории соревнований в лидеры вышли исключительно коллективы, представляющие одну страну. Помимо Team Spirit и Team Vision, в четвёрку сильнейших команд мира пробились Team Yandex и BoomBoys.<br /><br />Призовой фонд турнира по сравнению с прошлым годом вырос примерно на 30 % и достиг 3,3 млн долларов.<br /><br /><span class=\"emoji\">⚽️</span> <i>новости SPORT BAZA в MAX</i>: <a href=\"https://max.ru/baza_sport\" rel=\"noopener\" target=\"_blank\"><i><u>https://max.ru/baza_sport</u></i></a></p><img src=\"https://cdn4.telesco.pe/file/HpMRKDDj33iN9w86shSW-qyVDPX9gs9yGOqAD1NcSGIJToViZgejYT2qCXs_LEUiOJKS3oea8NigaxN5y7sO-D3Qr8jFcCDRYmOmgQDSTSCwENSVkhWN91KS6fYLgUnemXANpNsoldn8-SQnLO7ZTJ9rzJJ_xTfyhn6mrsHxNmpdWLUDS7sPPnMeWL4aAbDccRtWP3VBuRs3O1QiC9JQooMpR6jrojQKkRNzd5hrgkVcJcmOyy8DyqoebCk8xaQn0crSst4sAGt7LDrIG_yQGWyI4D27qL7XGnx4zecmzzkLX-exgGVy-xA3FNZANXoJNQRLvCPUor5OVi0AjARiIQ.jpg\" />",
+    "summary": "<p>Forwarded From <b><a href=\"https://t.me/baza_sport/4632\">Sport Baza</a></b></p><p>Российская команда Team Spirit выиграла главный турнир года по Dota 2 — The International.<br /><br />В финале были обыграны ещё одни представители России — Team Vision. То, что победителем станет именно российская команда, стало понятно уже по итогам четвертьфиналов. Впервые в истории соревнований в лидеры вышли исключительно коллективы, представляющие одну страну. Помимо Team Spirit и Team Vision, в четвёрку сильнейших команд мира пробились Team Yandex и BoomBoys.<br /><br />Призовой фонд турнира по сравнению с прошлым годом вырос примерно на 30 % и достиг 3,3 млн долларов.<br /><br /><span class=\"emoji\">⚽️</span> <i>новости SPORT BAZA в MAX</i>: <a href=\"https://max.ru/baza_sport\" rel=\"noopener\" target=\"_blank\"><i><u>https://max.ru/baza_sport</u></i></a></p><img src=\"https://cdn4.telesco.pe/file/HpMRKDDj33iN9w86shSW-qyVDPX9gs9yGOqAD1NcSGIJToViZgejYT2qCXs_LEUiOJKS3oea8NigaxN5y7sO-D3Qr8jFcCDRYmOmgQDSTSCwENSVkhWN91KS6fYLgUnemXANpNsoldn8-SQnLO7ZTJ9rzJJ_xTfyhn6mrsHxNmpdWLUDS7sPPnMeWL4aAbDccRtWP3VBuRs3O1QiC9JQooMpR6jrojQKkRNzd5hrgkVcJcmOyy8DyqoebCk8xaQn0crSst4sAGt7LDrIG_yQGWyI4D27qL7XGnx4zecmzzkLX-exgGVy-xA3FNZANXoJNQRLvCPUor5OVi0AjARiIQ.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/HpMRKDDj33iN9w86shSW-qyVDPX9gs9yGOqAD1NcSGIJToViZgejYT2qCXs_LEUiOJKS3oea8NigaxN5y7sO-D3Qr8jFcCDRYmOmgQDSTSCwENSVkhWN91KS6fYLgUnemXANpNsoldn8-SQnLO7ZTJ9rzJJ_xTfyhn6mrsHxNmpdWLUDS7sPPnMeWL4aAbDccRtWP3VBuRs3O1QiC9JQooMpR6jrojQKkRNzd5hrgkVcJcmOyy8DyqoebCk8xaQn0crSst4sAGt7LDrIG_yQGWyI4D27qL7XGnx4zecmzzkLX-exgGVy-xA3FNZANXoJNQRLvCPUor5OVi0AjARiIQ.jpg"
   },
   {
@@ -317,50 +460,6 @@
     "description": "<p>Forwarded From <b><a href=\"https://t.me/mashmoneymash/2257\">Mash Money</a></b></p><p>Team Spirit выиграла The International 2026 и забрала главный кусок от $3,2 млн призовых — плюс третий титул в истории. В финале обыграла Team Vision.<br /><br />В этом году на главном турнире впервые в истории в топ-4 остались только российские команды: Team Spirit, Team Vision, BoomBoys и Team Yandex. Титул уже гарантированно уезжал в Россию.<br /><br />Мы уже <a href=\"https://t.me/mashmoneymash/2145\" rel=\"noopener\" target=\"_blank\">писали</a>, как призовой фонд Инта обвалился в 14 раз за пять лет, но даже на этих деньгах Spirit продолжают коллекционировать Aegis. В копилке с прошлых турниров:<br /></p><blockquote><span class=\"emoji\">🟠</span> TI 2021 — $18,2 млн<br /><span class=\"emoji\">🟠</span> TI 2023 — около $1,5 млн<br /><span class=\"emoji\">🟠</span> TI 2026 — ещё порядка $1,3 млн</blockquote><br /><br />Только с главных турниров — больше $20 млн. Кто-то годами гоняется за одним титулом, а эти просто продолжают.<br /><br />Шуршим в <a href=\"https://dzen.ru/mashmoney\" rel=\"noopener\" target=\"_blank\">Дзен</a> | <a href=\"https://t.me/+7UP-kIAXiZ9lOWJi\" rel=\"noopener\" target=\"_blank\">Telegram</a> | <a href=\"https://max.ru/mashmoneymash\" rel=\"noopener\" target=\"_blank\">Max</a><p></p><img height=\"800\" src=\"https://cdn4.telesco.pe/file/UvVwp8na5dNIlRcwPvxkCm4xqCr-6GincA7Np249i9sr5tIwM_WuLh_f-33CtNw1-oupPcinl-er9W77nX5Xgz7koH0fvyAqm4kuI37qpU0ABruY04PhnL_RaJgDBOBKJrVtjnnE9xPuz5EJktEcMSdfkNCr6ERnLRz4pOc6SLGdrrOp-ELcLid6rYr3mrcAFndgv_xHs7E0Ohl3FKq7kFf4Jw_oreIN7wvDLJEY5ymaIoz5kyrq-vEou31ZIKmkQQW00ITHN4Ktr92r75wIz5MdVs2occ9ucV1onqhFxa3thT5Dbvne57t2WWUC90Iqu4GQXWRKEzaLtoV-th6NiQ.jpg\" width=\"800\" />",
     "summary": "<p>Forwarded From <b><a href=\"https://t.me/mashmoneymash/2257\">Mash Money</a></b></p><p>Team Spirit выиграла The International 2026 и забрала главный кусок от $3,2 млн призовых — плюс третий титул в истории. В финале обыграла Team Vision.<br /><br />В этом году на главном турнире впервые в истории в топ-4 остались только российские команды: Team Spirit, Team Vision, BoomBoys и Team Yandex. Титул уже гарантированно уезжал в Россию.<br /><br />Мы уже <a href=\"https://t.me/mashmoneymash/2145\" rel=\"noopener\" target=\"_blank\">писали</a>, как призовой фонд Инта обвалился в 14 раз за пять лет, но даже на этих деньгах Spirit продолжают коллекционировать Aegis. В копилке с прошлых турниров:<br /></p><blockquote><span class=\"emoji\">🟠</span> TI 2021 — $18,2 млн<br /><span class=\"emoji\">🟠</span> TI 2023 — около $1,5 млн<br /><span class=\"emoji\">🟠</span> TI 2026 — ещё порядка $1,3 млн</blockquote><br /><br />Только с главных турниров — больше $20 млн. Кто-то годами гоняется за одним титулом, а эти просто продолжают.<br /><br />Шуршим в <a href=\"https://dzen.ru/mashmoney\" rel=\"noopener\" target=\"_blank\">Дзен</a> | <a href=\"https://t.me/+7UP-kIAXiZ9lOWJi\" rel=\"noopener\" target=\"_blank\">Telegram</a> | <a href=\"https://max.ru/mashmoneymash\" rel=\"noopener\" target=\"_blank\">Max</a><p></p><img height=\"800\" src=\"https://cdn4.telesco.pe/file/UvVwp8na5dNIlRcwPvxkCm4xqCr-6GincA7Np249i9sr5tIwM_WuLh_f-33CtNw1-oupPcinl-er9W77nX5Xgz7koH0fvyAqm4kuI37qpU0ABruY04PhnL_RaJgDBOBKJrVtjnnE9xPuz5EJktEcMSdfkNCr6ERnLRz4pOc6SLGdrrOp-ELcLid6rYr3mrcAFndgv_xHs7E0Ohl3FKq7kFf4Jw_oreIN7wvDLJEY5ymaIoz5kyrq-vEou31ZIKmkQQW00ITHN4Ktr92r75wIz5MdVs2occ9ucV1onqhFxa3thT5Dbvne57t2WWUC90Iqu4GQXWRKEzaLtoV-th6NiQ.jpg\" width=\"800\" />",
     "image": "https://cdn4.telesco.pe/file/UvVwp8na5dNIlRcwPvxkCm4xqCr-6GincA7Np249i9sr5tIwM_WuLh_f-33CtNw1-oupPcinl-er9W77nX5Xgz7koH0fvyAqm4kuI37qpU0ABruY04PhnL_RaJgDBOBKJrVtjnnE9xPuz5EJktEcMSdfkNCr6ERnLRz4pOc6SLGdrrOp-ELcLid6rYr3mrcAFndgv_xHs7E0Ohl3FKq7kFf4Jw_oreIN7wvDLJEY5ymaIoz5kyrq-vEou31ZIKmkQQW00ITHN4Ktr92r75wIz5MdVs2occ9ucV1onqhFxa3thT5Dbvne57t2WWUC90Iqu4GQXWRKEzaLtoV-th6NiQ.jpg"
-  },
-  {
-    "title": "Азербайджан и Узбекистан решили подписать договор о вечной дружбе",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223086-azerbaidzhan-uzbekistan",
-    "published": "Sun, 23 Aug 2026 16:33:14 +0300",
-    "timestamp": 1787491994.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "МИД опроверг сообщения СМИ о планах понизить дипотношения с Великобританией",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223085-mid-oproverg-soobscheniya",
-    "published": "Sun, 23 Aug 2026 16:12:21 +0300",
-    "timestamp": 1787490741.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "ТАСС: визит Кушнера и Уиткоффа в Москву откладывается",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223084-vizit-kushnera-otlozhili",
-    "published": "Sun, 23 Aug 2026 16:06:39 +0300",
-    "timestamp": 1787490399.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "По данным агентства, он вряд ли состоится до конца августа",
-    "summary": "По данным агентства, он вряд ли состоится до конца августа",
-    "image": "https://cdn.vdmsti.ru/image/2026/6j/y8oaw/normal-18dj.jpg"
-  },
-  {
-    "title": "Опрос: большинство немцев прогнозируют отставку Мерца до выборов",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223083-otstavku-mertsa",
-    "published": "Sun, 23 Aug 2026 15:54:05 +0300",
-    "timestamp": 1787489645.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdn.vdmsti.ru/image/2026/6j/y2qwd/normal-185y.png"
   },
   {
     "title": "🎬 Гений засунул в теннисный мяч динамик со стонами и теперь он стонет при каждом ...",
@@ -402,8 +501,8 @@
     "timestamp": 1787487811.0,
     "source": "TG: Baza",
     "language": "ru",
-    "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Жительница Братска улетела в Таиланд, чтобы заработать денег — но перед выходом на работу попала в страшную аварию.<br /><br />По данным «Базы», 39-летняя Алёна улетела в Таиланд на заработки по приглашению турфирмы. Но перед самым началом работы она попала в ДТП и получила тяжёлую травму головы. Её доставили в реанимацию госпиталя Паттайи.<br /><br />Внести депозит за лечение оказалось некому. Алёну решили перевести в государственный госпиталь Бангламунг, но ночью её состояние резко ухудшилось, и транспортировать её уже стало невозможно. Сейчас женщина находится в коме, её зрачки не реагируют на свет.<br /><br />Медики ждут сестру Алёны, которая должна прилететь в Паттайю сегодня вечером. Родственникам предстоит решить вопрос об отключении ИВЛ. Пожилые родители, бывший муж, свекровь и семилетний сын женщины остаются в России.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"342\" src=\"https://cdn4.telesco.pe/file/t-Fk0s8l4jbSCX-Z0_C-8dq9SWQNhEe8x8v3WAzRG0ZrUIKfGog8hy-S3cMobltUD06LlDDBHXfCFqorpIl3ciHV_qXw3HNxQvt7Vx4N8zFXEM3TkUrjUK2N9mQ95LeMoQKjFepGjUib9Xs9dOV0mjxWUymvje-F4H5ekeoIe9BbpAh0eUpdqm0flrR7aLSiwaZo7JGRb3WpO3tR33K2sb0Cgao3ULQEX3EaKgyl0xprVn0WEoZ2TrfMSoVKi2IkMmaSsAjCcwCdJURtNhCAfk50j_zsnVbPh8L4Pg_eLZrkUJf967YoNAGV4tnoYTJqeGceFzDs_1YZz7J4PZIU4w.jpg\" width=\"257\" /><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/NKGWVXdpM_o3gTVRJQLPyLmycKVzcODZg1-vnRxkKw8NDY8DINariHee6tC8e6zV9_rF6Yag5ytwLoMrbmr5_-0axydkpltUMq1kTN1KuDbSwXFwH4haTHWCLVJaOMfd1Pkx56hpC50Wvy3fWotNOnvbDuwHG2w0HBkHoWCuOSmICr-qWzz3jvHoSvHVG-a1iwed6VYbT0_SzJVfNk3unEC-anGOBuVpmtrw0cgo9HDRcxHfX-reWE1TEMcoTq38KbjFEt5f_SO_LjAbpA7iUWw0J4bmNfvbYNsyY5ONNfUWUF7tguvxzdNKMHENcw_67BZyUvePIVSoT97iJ90Yeg\" src=\"https://cdn4.telesco.pe/file/f3234864d4.mp4?token=Bewn71NbWNTw3kdRXoAe6GFfHdHVg1vyA6tI33aNTCakMX97eCfrPJTvkqU-eaw9wiVHET3n5UMhZSmPTaHLukma_OonrSdCzhCJsfUmvg6PLplSj6WzXqhR1nan3zbwfVgh_v_iwTlOsYAEaJyckj4SnO5nrQCVA18BCpwaQjUjhi48VuOfvB67QzJMbDIiZF1tWYg-uhkaemSIEHcFWt0sevXQqmxhEdXY5pPZ1JX9OpkkM6lbwtDjUBSf_mHOcAXYTS0BgIpv2x9LUyUWJ2OE4j_3zKc8ufGIPBhywhrfhOLSkzyYqQbfuBsPAEPSxhAbEgykUg5A6Inqk4EvNg\" style=\"width: 100%;\"></video>",
-    "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Жительница Братска улетела в Таиланд, чтобы заработать денег — но перед выходом на работу попала в страшную аварию.<br /><br />По данным «Базы», 39-летняя Алёна улетела в Таиланд на заработки по приглашению турфирмы. Но перед самым началом работы она попала в ДТП и получила тяжёлую травму головы. Её доставили в реанимацию госпиталя Паттайи.<br /><br />Внести депозит за лечение оказалось некому. Алёну решили перевести в государственный госпиталь Бангламунг, но ночью её состояние резко ухудшилось, и транспортировать её уже стало невозможно. Сейчас женщина находится в коме, её зрачки не реагируют на свет.<br /><br />Медики ждут сестру Алёны, которая должна прилететь в Паттайю сегодня вечером. Родственникам предстоит решить вопрос об отключении ИВЛ. Пожилые родители, бывший муж, свекровь и семилетний сын женщины остаются в России.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"342\" src=\"https://cdn4.telesco.pe/file/t-Fk0s8l4jbSCX-Z0_C-8dq9SWQNhEe8x8v3WAzRG0ZrUIKfGog8hy-S3cMobltUD06LlDDBHXfCFqorpIl3ciHV_qXw3HNxQvt7Vx4N8zFXEM3TkUrjUK2N9mQ95LeMoQKjFepGjUib9Xs9dOV0mjxWUymvje-F4H5ekeoIe9BbpAh0eUpdqm0flrR7aLSiwaZo7JGRb3WpO3tR33K2sb0Cgao3ULQEX3EaKgyl0xprVn0WEoZ2TrfMSoVKi2IkMmaSsAjCcwCdJURtNhCAfk50j_zsnVbPh8L4Pg_eLZrkUJf967YoNAGV4tnoYTJqeGceFzDs_1YZz7J4PZIU4w.jpg\" width=\"257\" /><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/NKGWVXdpM_o3gTVRJQLPyLmycKVzcODZg1-vnRxkKw8NDY8DINariHee6tC8e6zV9_rF6Yag5ytwLoMrbmr5_-0axydkpltUMq1kTN1KuDbSwXFwH4haTHWCLVJaOMfd1Pkx56hpC50Wvy3fWotNOnvbDuwHG2w0HBkHoWCuOSmICr-qWzz3jvHoSvHVG-a1iwed6VYbT0_SzJVfNk3unEC-anGOBuVpmtrw0cgo9HDRcxHfX-reWE1TEMcoTq38KbjFEt5f_SO_LjAbpA7iUWw0J4bmNfvbYNsyY5ONNfUWUF7tguvxzdNKMHENcw_67BZyUvePIVSoT97iJ90Yeg\" src=\"https://cdn4.telesco.pe/file/f3234864d4.mp4?token=Bewn71NbWNTw3kdRXoAe6GFfHdHVg1vyA6tI33aNTCakMX97eCfrPJTvkqU-eaw9wiVHET3n5UMhZSmPTaHLukma_OonrSdCzhCJsfUmvg6PLplSj6WzXqhR1nan3zbwfVgh_v_iwTlOsYAEaJyckj4SnO5nrQCVA18BCpwaQjUjhi48VuOfvB67QzJMbDIiZF1tWYg-uhkaemSIEHcFWt0sevXQqmxhEdXY5pPZ1JX9OpkkM6lbwtDjUBSf_mHOcAXYTS0BgIpv2x9LUyUWJ2OE4j_3zKc8ufGIPBhywhrfhOLSkzyYqQbfuBsPAEPSxhAbEgykUg5A6Inqk4EvNg\" style=\"width: 100%;\"></video>",
+    "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Жительница Братска улетела в Таиланд, чтобы заработать денег — но перед выходом на работу попала в страшную аварию.<br /><br />По данным «Базы», 39-летняя Алёна улетела в Таиланд на заработки по приглашению турфирмы. Но перед самым началом работы она попала в ДТП и получила тяжёлую травму головы. Её доставили в реанимацию госпиталя Паттайи.<br /><br />Внести депозит за лечение оказалось некому. Алёну решили перевести в государственный госпиталь Бангламунг, но ночью её состояние резко ухудшилось, и транспортировать её уже стало невозможно. Сейчас женщина находится в коме, её зрачки не реагируют на свет.<br /><br />Медики ждут сестру Алёны, которая должна прилететь в Паттайю сегодня вечером. Родственникам предстоит решить вопрос об отключении ИВЛ. Пожилые родители, бывший муж, свекровь и семилетний сын женщины остаются в России.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img src=\"https://cdn4.telesco.pe/file/t-Fk0s8l4jbSCX-Z0_C-8dq9SWQNhEe8x8v3WAzRG0ZrUIKfGog8hy-S3cMobltUD06LlDDBHXfCFqorpIl3ciHV_qXw3HNxQvt7Vx4N8zFXEM3TkUrjUK2N9mQ95LeMoQKjFepGjUib9Xs9dOV0mjxWUymvje-F4H5ekeoIe9BbpAh0eUpdqm0flrR7aLSiwaZo7JGRb3WpO3tR33K2sb0Cgao3ULQEX3EaKgyl0xprVn0WEoZ2TrfMSoVKi2IkMmaSsAjCcwCdJURtNhCAfk50j_zsnVbPh8L4Pg_eLZrkUJf967YoNAGV4tnoYTJqeGceFzDs_1YZz7J4PZIU4w.jpg\" /><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/NKGWVXdpM_o3gTVRJQLPyLmycKVzcODZg1-vnRxkKw8NDY8DINariHee6tC8e6zV9_rF6Yag5ytwLoMrbmr5_-0axydkpltUMq1kTN1KuDbSwXFwH4haTHWCLVJaOMfd1Pkx56hpC50Wvy3fWotNOnvbDuwHG2w0HBkHoWCuOSmICr-qWzz3jvHoSvHVG-a1iwed6VYbT0_SzJVfNk3unEC-anGOBuVpmtrw0cgo9HDRcxHfX-reWE1TEMcoTq38KbjFEt5f_SO_LjAbpA7iUWw0J4bmNfvbYNsyY5ONNfUWUF7tguvxzdNKMHENcw_67BZyUvePIVSoT97iJ90Yeg\" src=\"https://cdn4.telesco.pe/file/f3234864d4.mp4?token=Bewn71NbWNTw3kdRXoAe6GFfHdHVg1vyA6tI33aNTCakMX97eCfrPJTvkqU-eaw9wiVHET3n5UMhZSmPTaHLukma_OonrSdCzhCJsfUmvg6PLplSj6WzXqhR1nan3zbwfVgh_v_iwTlOsYAEaJyckj4SnO5nrQCVA18BCpwaQjUjhi48VuOfvB67QzJMbDIiZF1tWYg-uhkaemSIEHcFWt0sevXQqmxhEdXY5pPZ1JX9OpkkM6lbwtDjUBSf_mHOcAXYTS0BgIpv2x9LUyUWJ2OE4j_3zKc8ufGIPBhywhrfhOLSkzyYqQbfuBsPAEPSxhAbEgykUg5A6Inqk4EvNg\" style=\"width: 100%;\"></video>",
+    "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Жительница Братска улетела в Таиланд, чтобы заработать денег — но перед выходом на работу попала в страшную аварию.<br /><br />По данным «Базы», 39-летняя Алёна улетела в Таиланд на заработки по приглашению турфирмы. Но перед самым началом работы она попала в ДТП и получила тяжёлую травму головы. Её доставили в реанимацию госпиталя Паттайи.<br /><br />Внести депозит за лечение оказалось некому. Алёну решили перевести в государственный госпиталь Бангламунг, но ночью её состояние резко ухудшилось, и транспортировать её уже стало невозможно. Сейчас женщина находится в коме, её зрачки не реагируют на свет.<br /><br />Медики ждут сестру Алёны, которая должна прилететь в Паттайю сегодня вечером. Родственникам предстоит решить вопрос об отключении ИВЛ. Пожилые родители, бывший муж, свекровь и семилетний сын женщины остаются в России.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img src=\"https://cdn4.telesco.pe/file/t-Fk0s8l4jbSCX-Z0_C-8dq9SWQNhEe8x8v3WAzRG0ZrUIKfGog8hy-S3cMobltUD06LlDDBHXfCFqorpIl3ciHV_qXw3HNxQvt7Vx4N8zFXEM3TkUrjUK2N9mQ95LeMoQKjFepGjUib9Xs9dOV0mjxWUymvje-F4H5ekeoIe9BbpAh0eUpdqm0flrR7aLSiwaZo7JGRb3WpO3tR33K2sb0Cgao3ULQEX3EaKgyl0xprVn0WEoZ2TrfMSoVKi2IkMmaSsAjCcwCdJURtNhCAfk50j_zsnVbPh8L4Pg_eLZrkUJf967YoNAGV4tnoYTJqeGceFzDs_1YZz7J4PZIU4w.jpg\" /><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/NKGWVXdpM_o3gTVRJQLPyLmycKVzcODZg1-vnRxkKw8NDY8DINariHee6tC8e6zV9_rF6Yag5ytwLoMrbmr5_-0axydkpltUMq1kTN1KuDbSwXFwH4haTHWCLVJaOMfd1Pkx56hpC50Wvy3fWotNOnvbDuwHG2w0HBkHoWCuOSmICr-qWzz3jvHoSvHVG-a1iwed6VYbT0_SzJVfNk3unEC-anGOBuVpmtrw0cgo9HDRcxHfX-reWE1TEMcoTq38KbjFEt5f_SO_LjAbpA7iUWw0J4bmNfvbYNsyY5ONNfUWUF7tguvxzdNKMHENcw_67BZyUvePIVSoT97iJ90Yeg\" src=\"https://cdn4.telesco.pe/file/f3234864d4.mp4?token=Bewn71NbWNTw3kdRXoAe6GFfHdHVg1vyA6tI33aNTCakMX97eCfrPJTvkqU-eaw9wiVHET3n5UMhZSmPTaHLukma_OonrSdCzhCJsfUmvg6PLplSj6WzXqhR1nan3zbwfVgh_v_iwTlOsYAEaJyckj4SnO5nrQCVA18BCpwaQjUjhi48VuOfvB67QzJMbDIiZF1tWYg-uhkaemSIEHcFWt0sevXQqmxhEdXY5pPZ1JX9OpkkM6lbwtDjUBSf_mHOcAXYTS0BgIpv2x9LUyUWJ2OE4j_3zKc8ufGIPBhywhrfhOLSkzyYqQbfuBsPAEPSxhAbEgykUg5A6Inqk4EvNg\" style=\"width: 100%;\"></video>",
     "image": "https://cdn4.telesco.pe/file/t-Fk0s8l4jbSCX-Z0_C-8dq9SWQNhEe8x8v3WAzRG0ZrUIKfGog8hy-S3cMobltUD06LlDDBHXfCFqorpIl3ciHV_qXw3HNxQvt7Vx4N8zFXEM3TkUrjUK2N9mQ95LeMoQKjFepGjUib9Xs9dOV0mjxWUymvje-F4H5ekeoIe9BbpAh0eUpdqm0flrR7aLSiwaZo7JGRb3WpO3tR33K2sb0Cgao3ULQEX3EaKgyl0xprVn0WEoZ2TrfMSoVKi2IkMmaSsAjCcwCdJURtNhCAfk50j_zsnVbPh8L4Pg_eLZrkUJf967YoNAGV4tnoYTJqeGceFzDs_1YZz7J4PZIU4w.jpg"
   },
   {
@@ -479,8 +578,8 @@
     "timestamp": 1787483358.0,
     "source": "TG: Baza",
     "language": "ru",
-    "description": "<div class=\"rsshub-quote\"><blockquote>\n                                    <p><a href=\"https://t.me/bazabazon/48391\"><b>Baza</b>:</a></p>\n                                    \n                                    <p>Попросила обняться и всадила нож в спину — выжившая школьница рассказала о попытке кровавой&nbsp;расправы над сёстрами&nbsp;в Уфе.  В распоряжении «Базы» оказались кадры из квартиры, где произошло нападение на девочек, а также подробности случившегося. По словам 16…</p>\n                                </blockquote></div><p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Накануне <a href=\"https://t.me/bazabazon/48391\" rel=\"noopener\" target=\"_blank\">кровавой расправы</a> над двумя сёстрами школьница из Уфы всю ночь смотрела триллер про сталкера и убийцу «Ты» — данные «Базы».<br /><br />Подросток заранее готовила нападение из-за давнего школьного конфликта с одной из жертв. По нашим данным, перед преступлением она заняла денег у старшей сестры, а оставшуюся до утра ночь провела за просмотром сериала «Ты».<br /><br />«Ты» — психологический триллер Netflix об обаятельном мужчине, который одержимо влюбляется в женщин. Ради отношений он следит за ними, совершает преступления и убивает. Ранее школьница также караулила подъезд своих жертв в<a href=\"https://t.me/bazabazon/48328\" rel=\"noopener\" target=\"_blank\"> маске из другого сериала</a> Netflix — «Игра в кальмара».<br /><br />На следующее утро девочка напала на двух сестёр. Раненых — 9-летнюю и 16-летнюю — экстренно госпитализировали и прооперировали. Сейчас обвиняемая находится в СИЗО. Вскоре её отправят на психолого-психиатрическую экспертизу.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"283\" src=\"https://cdn4.telesco.pe/file/R8CDsSdD5ACHD57RY_cIwAoHWo0wnQ6CHx6EgJGcg0PQSfAQe27W16v6uT0Dw0QYsxPikRcqhCK6Uf_BB1Rf_AwLWsbhX0rgdlvzQA47tn2SFnbkxjc2wEeTPy3ux2q9gCe2cMnCdbB3UAKYRyygn9DxlWbPAKx7yseddz5umTMj2siyqUBtwPO3E_g5j4PfxyU4yp1PYonMX9ObgEPPhgVw20U65pvIJAhTSWvrog75YCQb-VzaALaB2gc3kFRwvohslf5vKvBIC0yIlrUEbsYosUTNMhDvPM-nF8H7DkrxqK5mRvi6PHLo7C0bNvBT5OdfKD0kFj8dB4AS8K_XWw.jpg\" width=\"453\" /><img height=\"149\" src=\"https://cdn4.telesco.pe/file/KTOjq4pV_fwobLPjDDy-nZpDFRanaZ2tc0_ikV3eIImzCSKGVdXpopVvraqqhUeyeqMKPrG6gmAuY5_VqySCVToBpbX4RQqzCWWbYUoPvHpc6LuM4d0TGW06l1BvM23jcZHZ9RtU51pctyDB996Q6WB8J21ezEbSSD-vGyYYn1sZj5QwBGl-O2SCJsFm_RvHQ14cflp1l6gAFCRytkR6mYHntn2I0jYqTMg4XNC3lZ-_DbiGoliqLwL50dPRLIryU6aALASHp3_dH0qdMWe3qg5YqOFQQH_amv78aLnLE52kLpQ-x4mCIRoty26JILA5jhCjCtunbngmMsNWS0ibmA.jpg\" width=\"149\" /><img height=\"149\" src=\"https://cdn4.telesco.pe/file/QUX6eqjUOEW_73W0gRxSZUb6VZXh7pSy_PpjGZTrlG-G6lFNh40Elx5v3tE5nnjT_MMrq4BfnrTdyqZ6ElHmUD7A7l_Xf3HHaya1W9ntFuhmW7dzMClQsKpjIdnY0IU-h2UbCfUpW7oWgqowJuc8clhe1q_j-cV1QI_F7W7-GbzIQC-BNiJriiQMOH_6pWWCnkrFePOhutioNJPiCBG6ZZtVtWAemUrjxlv060n9UkQCbH7Z5myXeq3choTJobhjMH1iNhmeAW12G201of33yWNUeI3iAp9-FMk58qNdAfPE9XPupMWIXTnKrxmXS5NDxyChE_xenybL3lB6gb4cRg.jpg\" width=\"152\" /><img height=\"149\" src=\"https://cdn4.telesco.pe/file/KhZrYQJeWAFdxPxBMrHnftI5le9PBwIbohNiZg2rJetXm2J5LJGs_-Z7aLrqGnsOYiKEVXbsRJ-JLL4URbzsuGzedjxdG2SNjOukapJQwQzDmUw3mCvf4es62A_suz09WuhkBfEjLELAq9p2Kg9V_6hNNTgsuCO-R1n7DipR9Jp3lTKap75ymsnNvN9xbDcOiOh9_3hyaPS-jA672boARaxPjiVSmOeq-q9-ZeDd0P0DNcylCLtp9SxdX7wCRwnrWl9VkeukeenOT152W5FLIHW89zLYDrmuAryBK8rQhPRsylB0lqUyD-2wxTlvs_dT4EWHiVdSaM6vV3eO8LIjBQ.jpg\" width=\"148\" />",
-    "summary": "<div class=\"rsshub-quote\"><blockquote>\n                                    <p><a href=\"https://t.me/bazabazon/48391\"><b>Baza</b>:</a></p>\n                                    \n                                    <p>Попросила обняться и всадила нож в спину — выжившая школьница рассказала о попытке кровавой&nbsp;расправы над сёстрами&nbsp;в Уфе.  В распоряжении «Базы» оказались кадры из квартиры, где произошло нападение на девочек, а также подробности случившегося. По словам 16…</p>\n                                </blockquote></div><p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Накануне <a href=\"https://t.me/bazabazon/48391\" rel=\"noopener\" target=\"_blank\">кровавой расправы</a> над двумя сёстрами школьница из Уфы всю ночь смотрела триллер про сталкера и убийцу «Ты» — данные «Базы».<br /><br />Подросток заранее готовила нападение из-за давнего школьного конфликта с одной из жертв. По нашим данным, перед преступлением она заняла денег у старшей сестры, а оставшуюся до утра ночь провела за просмотром сериала «Ты».<br /><br />«Ты» — психологический триллер Netflix об обаятельном мужчине, который одержимо влюбляется в женщин. Ради отношений он следит за ними, совершает преступления и убивает. Ранее школьница также караулила подъезд своих жертв в<a href=\"https://t.me/bazabazon/48328\" rel=\"noopener\" target=\"_blank\"> маске из другого сериала</a> Netflix — «Игра в кальмара».<br /><br />На следующее утро девочка напала на двух сестёр. Раненых — 9-летнюю и 16-летнюю — экстренно госпитализировали и прооперировали. Сейчас обвиняемая находится в СИЗО. Вскоре её отправят на психолого-психиатрическую экспертизу.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"283\" src=\"https://cdn4.telesco.pe/file/R8CDsSdD5ACHD57RY_cIwAoHWo0wnQ6CHx6EgJGcg0PQSfAQe27W16v6uT0Dw0QYsxPikRcqhCK6Uf_BB1Rf_AwLWsbhX0rgdlvzQA47tn2SFnbkxjc2wEeTPy3ux2q9gCe2cMnCdbB3UAKYRyygn9DxlWbPAKx7yseddz5umTMj2siyqUBtwPO3E_g5j4PfxyU4yp1PYonMX9ObgEPPhgVw20U65pvIJAhTSWvrog75YCQb-VzaALaB2gc3kFRwvohslf5vKvBIC0yIlrUEbsYosUTNMhDvPM-nF8H7DkrxqK5mRvi6PHLo7C0bNvBT5OdfKD0kFj8dB4AS8K_XWw.jpg\" width=\"453\" /><img height=\"149\" src=\"https://cdn4.telesco.pe/file/KTOjq4pV_fwobLPjDDy-nZpDFRanaZ2tc0_ikV3eIImzCSKGVdXpopVvraqqhUeyeqMKPrG6gmAuY5_VqySCVToBpbX4RQqzCWWbYUoPvHpc6LuM4d0TGW06l1BvM23jcZHZ9RtU51pctyDB996Q6WB8J21ezEbSSD-vGyYYn1sZj5QwBGl-O2SCJsFm_RvHQ14cflp1l6gAFCRytkR6mYHntn2I0jYqTMg4XNC3lZ-_DbiGoliqLwL50dPRLIryU6aALASHp3_dH0qdMWe3qg5YqOFQQH_amv78aLnLE52kLpQ-x4mCIRoty26JILA5jhCjCtunbngmMsNWS0ibmA.jpg\" width=\"149\" /><img height=\"149\" src=\"https://cdn4.telesco.pe/file/QUX6eqjUOEW_73W0gRxSZUb6VZXh7pSy_PpjGZTrlG-G6lFNh40Elx5v3tE5nnjT_MMrq4BfnrTdyqZ6ElHmUD7A7l_Xf3HHaya1W9ntFuhmW7dzMClQsKpjIdnY0IU-h2UbCfUpW7oWgqowJuc8clhe1q_j-cV1QI_F7W7-GbzIQC-BNiJriiQMOH_6pWWCnkrFePOhutioNJPiCBG6ZZtVtWAemUrjxlv060n9UkQCbH7Z5myXeq3choTJobhjMH1iNhmeAW12G201of33yWNUeI3iAp9-FMk58qNdAfPE9XPupMWIXTnKrxmXS5NDxyChE_xenybL3lB6gb4cRg.jpg\" width=\"152\" /><img height=\"149\" src=\"https://cdn4.telesco.pe/file/KhZrYQJeWAFdxPxBMrHnftI5le9PBwIbohNiZg2rJetXm2J5LJGs_-Z7aLrqGnsOYiKEVXbsRJ-JLL4URbzsuGzedjxdG2SNjOukapJQwQzDmUw3mCvf4es62A_suz09WuhkBfEjLELAq9p2Kg9V_6hNNTgsuCO-R1n7DipR9Jp3lTKap75ymsnNvN9xbDcOiOh9_3hyaPS-jA672boARaxPjiVSmOeq-q9-ZeDd0P0DNcylCLtp9SxdX7wCRwnrWl9VkeukeenOT152W5FLIHW89zLYDrmuAryBK8rQhPRsylB0lqUyD-2wxTlvs_dT4EWHiVdSaM6vV3eO8LIjBQ.jpg\" width=\"148\" />",
+    "description": "<div class=\"rsshub-quote\"><blockquote>\n                                    <p><a href=\"https://t.me/bazabazon/48391\"><b>Baza</b>:</a></p>\n                                    \n                                    <p>Попросила обняться и всадила нож в спину — выжившая школьница рассказала о попытке кровавой&nbsp;расправы над сёстрами&nbsp;в Уфе.  В распоряжении «Базы» оказались кадры из квартиры, где произошло нападение на девочек, а также подробности случившегося. По словам 16…</p>\n                                </blockquote></div><p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Накануне <a href=\"https://t.me/bazabazon/48391\" rel=\"noopener\" target=\"_blank\">кровавой расправы</a> над двумя сёстрами школьница из Уфы всю ночь смотрела триллер про сталкера и убийцу «Ты» — данные «Базы».<br /><br />Подросток заранее готовила нападение из-за давнего школьного конфликта с одной из жертв. По нашим данным, перед преступлением она заняла денег у старшей сестры, а оставшуюся до утра ночь провела за просмотром сериала «Ты».<br /><br />«Ты» — психологический триллер Netflix об обаятельном мужчине, который одержимо влюбляется в женщин. Ради отношений он следит за ними, совершает преступления и убивает. Ранее школьница также караулила подъезд своих жертв в<a href=\"https://t.me/bazabazon/48328\" rel=\"noopener\" target=\"_blank\"> маске из другого сериала</a> Netflix — «Игра в кальмара».<br /><br />На следующее утро девочка напала на двух сестёр. Раненых — 9-летнюю и 16-летнюю — экстренно госпитализировали и прооперировали. Сейчас обвиняемая находится в СИЗО. Вскоре её отправят на психолого-психиатрическую экспертизу.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img src=\"https://cdn4.telesco.pe/file/R8CDsSdD5ACHD57RY_cIwAoHWo0wnQ6CHx6EgJGcg0PQSfAQe27W16v6uT0Dw0QYsxPikRcqhCK6Uf_BB1Rf_AwLWsbhX0rgdlvzQA47tn2SFnbkxjc2wEeTPy3ux2q9gCe2cMnCdbB3UAKYRyygn9DxlWbPAKx7yseddz5umTMj2siyqUBtwPO3E_g5j4PfxyU4yp1PYonMX9ObgEPPhgVw20U65pvIJAhTSWvrog75YCQb-VzaALaB2gc3kFRwvohslf5vKvBIC0yIlrUEbsYosUTNMhDvPM-nF8H7DkrxqK5mRvi6PHLo7C0bNvBT5OdfKD0kFj8dB4AS8K_XWw.jpg\" /><img src=\"https://cdn4.telesco.pe/file/KTOjq4pV_fwobLPjDDy-nZpDFRanaZ2tc0_ikV3eIImzCSKGVdXpopVvraqqhUeyeqMKPrG6gmAuY5_VqySCVToBpbX4RQqzCWWbYUoPvHpc6LuM4d0TGW06l1BvM23jcZHZ9RtU51pctyDB996Q6WB8J21ezEbSSD-vGyYYn1sZj5QwBGl-O2SCJsFm_RvHQ14cflp1l6gAFCRytkR6mYHntn2I0jYqTMg4XNC3lZ-_DbiGoliqLwL50dPRLIryU6aALASHp3_dH0qdMWe3qg5YqOFQQH_amv78aLnLE52kLpQ-x4mCIRoty26JILA5jhCjCtunbngmMsNWS0ibmA.jpg\" /><img src=\"https://cdn4.telesco.pe/file/QUX6eqjUOEW_73W0gRxSZUb6VZXh7pSy_PpjGZTrlG-G6lFNh40Elx5v3tE5nnjT_MMrq4BfnrTdyqZ6ElHmUD7A7l_Xf3HHaya1W9ntFuhmW7dzMClQsKpjIdnY0IU-h2UbCfUpW7oWgqowJuc8clhe1q_j-cV1QI_F7W7-GbzIQC-BNiJriiQMOH_6pWWCnkrFePOhutioNJPiCBG6ZZtVtWAemUrjxlv060n9UkQCbH7Z5myXeq3choTJobhjMH1iNhmeAW12G201of33yWNUeI3iAp9-FMk58qNdAfPE9XPupMWIXTnKrxmXS5NDxyChE_xenybL3lB6gb4cRg.jpg\" /><img src=\"https://cdn4.telesco.pe/file/KhZrYQJeWAFdxPxBMrHnftI5le9PBwIbohNiZg2rJetXm2J5LJGs_-Z7aLrqGnsOYiKEVXbsRJ-JLL4URbzsuGzedjxdG2SNjOukapJQwQzDmUw3mCvf4es62A_suz09WuhkBfEjLELAq9p2Kg9V_6hNNTgsuCO-R1n7DipR9Jp3lTKap75ymsnNvN9xbDcOiOh9_3hyaPS-jA672boARaxPjiVSmOeq-q9-ZeDd0P0DNcylCLtp9SxdX7wCRwnrWl9VkeukeenOT152W5FLIHW89zLYDrmuAryBK8rQhPRsylB0lqUyD-2wxTlvs_dT4EWHiVdSaM6vV3eO8LIjBQ.jpg\" />",
+    "summary": "<div class=\"rsshub-quote\"><blockquote>\n                                    <p><a href=\"https://t.me/bazabazon/48391\"><b>Baza</b>:</a></p>\n                                    \n                                    <p>Попросила обняться и всадила нож в спину — выжившая школьница рассказала о попытке кровавой&nbsp;расправы над сёстрами&nbsp;в Уфе.  В распоряжении «Базы» оказались кадры из квартиры, где произошло нападение на девочек, а также подробности случившегося. По словам 16…</p>\n                                </blockquote></div><p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Накануне <a href=\"https://t.me/bazabazon/48391\" rel=\"noopener\" target=\"_blank\">кровавой расправы</a> над двумя сёстрами школьница из Уфы всю ночь смотрела триллер про сталкера и убийцу «Ты» — данные «Базы».<br /><br />Подросток заранее готовила нападение из-за давнего школьного конфликта с одной из жертв. По нашим данным, перед преступлением она заняла денег у старшей сестры, а оставшуюся до утра ночь провела за просмотром сериала «Ты».<br /><br />«Ты» — психологический триллер Netflix об обаятельном мужчине, который одержимо влюбляется в женщин. Ради отношений он следит за ними, совершает преступления и убивает. Ранее школьница также караулила подъезд своих жертв в<a href=\"https://t.me/bazabazon/48328\" rel=\"noopener\" target=\"_blank\"> маске из другого сериала</a> Netflix — «Игра в кальмара».<br /><br />На следующее утро девочка напала на двух сестёр. Раненых — 9-летнюю и 16-летнюю — экстренно госпитализировали и прооперировали. Сейчас обвиняемая находится в СИЗО. Вскоре её отправят на психолого-психиатрическую экспертизу.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img src=\"https://cdn4.telesco.pe/file/R8CDsSdD5ACHD57RY_cIwAoHWo0wnQ6CHx6EgJGcg0PQSfAQe27W16v6uT0Dw0QYsxPikRcqhCK6Uf_BB1Rf_AwLWsbhX0rgdlvzQA47tn2SFnbkxjc2wEeTPy3ux2q9gCe2cMnCdbB3UAKYRyygn9DxlWbPAKx7yseddz5umTMj2siyqUBtwPO3E_g5j4PfxyU4yp1PYonMX9ObgEPPhgVw20U65pvIJAhTSWvrog75YCQb-VzaALaB2gc3kFRwvohslf5vKvBIC0yIlrUEbsYosUTNMhDvPM-nF8H7DkrxqK5mRvi6PHLo7C0bNvBT5OdfKD0kFj8dB4AS8K_XWw.jpg\" /><img src=\"https://cdn4.telesco.pe/file/KTOjq4pV_fwobLPjDDy-nZpDFRanaZ2tc0_ikV3eIImzCSKGVdXpopVvraqqhUeyeqMKPrG6gmAuY5_VqySCVToBpbX4RQqzCWWbYUoPvHpc6LuM4d0TGW06l1BvM23jcZHZ9RtU51pctyDB996Q6WB8J21ezEbSSD-vGyYYn1sZj5QwBGl-O2SCJsFm_RvHQ14cflp1l6gAFCRytkR6mYHntn2I0jYqTMg4XNC3lZ-_DbiGoliqLwL50dPRLIryU6aALASHp3_dH0qdMWe3qg5YqOFQQH_amv78aLnLE52kLpQ-x4mCIRoty26JILA5jhCjCtunbngmMsNWS0ibmA.jpg\" /><img src=\"https://cdn4.telesco.pe/file/QUX6eqjUOEW_73W0gRxSZUb6VZXh7pSy_PpjGZTrlG-G6lFNh40Elx5v3tE5nnjT_MMrq4BfnrTdyqZ6ElHmUD7A7l_Xf3HHaya1W9ntFuhmW7dzMClQsKpjIdnY0IU-h2UbCfUpW7oWgqowJuc8clhe1q_j-cV1QI_F7W7-GbzIQC-BNiJriiQMOH_6pWWCnkrFePOhutioNJPiCBG6ZZtVtWAemUrjxlv060n9UkQCbH7Z5myXeq3choTJobhjMH1iNhmeAW12G201of33yWNUeI3iAp9-FMk58qNdAfPE9XPupMWIXTnKrxmXS5NDxyChE_xenybL3lB6gb4cRg.jpg\" /><img src=\"https://cdn4.telesco.pe/file/KhZrYQJeWAFdxPxBMrHnftI5le9PBwIbohNiZg2rJetXm2J5LJGs_-Z7aLrqGnsOYiKEVXbsRJ-JLL4URbzsuGzedjxdG2SNjOukapJQwQzDmUw3mCvf4es62A_suz09WuhkBfEjLELAq9p2Kg9V_6hNNTgsuCO-R1n7DipR9Jp3lTKap75ymsnNvN9xbDcOiOh9_3hyaPS-jA672boARaxPjiVSmOeq-q9-ZeDd0P0DNcylCLtp9SxdX7wCRwnrWl9VkeukeenOT152W5FLIHW89zLYDrmuAryBK8rQhPRsylB0lqUyD-2wxTlvs_dT4EWHiVdSaM6vV3eO8LIjBQ.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/R8CDsSdD5ACHD57RY_cIwAoHWo0wnQ6CHx6EgJGcg0PQSfAQe27W16v6uT0Dw0QYsxPikRcqhCK6Uf_BB1Rf_AwLWsbhX0rgdlvzQA47tn2SFnbkxjc2wEeTPy3ux2q9gCe2cMnCdbB3UAKYRyygn9DxlWbPAKx7yseddz5umTMj2siyqUBtwPO3E_g5j4PfxyU4yp1PYonMX9ObgEPPhgVw20U65pvIJAhTSWvrog75YCQb-VzaALaB2gc3kFRwvohslf5vKvBIC0yIlrUEbsYosUTNMhDvPM-nF8H7DkrxqK5mRvi6PHLo7C0bNvBT5OdfKD0kFj8dB4AS8K_XWw.jpg"
   },
   {
@@ -517,17 +616,6 @@
     "image": "https://habrastorage.org/getpro/habr/upload_files/456/ecc/d16/456eccd16e8a2c45019609d2646349dc.jpg"
   },
   {
-    "title": "Транспортная безопасность",
-    "link": "https://pikabu.ru/story/transportnaya_bezopasnost_14267452",
-    "published": "Sun, 23 Aug 2026 13:16:58 +0300",
-    "timestamp": 1787480218.0,
-    "source": "Пикабу",
-    "language": "ru",
-    "description": "<p><img alt=\"\" src=\"https://cs19.pikabu.ru/s/2026/08/23/13/te5dwqnl.jpg\" /></p>",
-    "summary": "<p><img alt=\"\" src=\"https://cs19.pikabu.ru/s/2026/08/23/13/te5dwqnl.jpg\" /></p>",
-    "image": "https://cs19.pikabu.ru/s/2026/08/23/13/te5dwqnl.jpg"
-  },
-  {
     "title": "🖼 Xiaomi выкатит стиралку для обуви — компания уже изучает идею отдельного гаджета.",
     "link": "https://t.me/topor/51995",
     "published": "Sun, 23 Aug 2026 10:11:07 GMT",
@@ -537,17 +625,6 @@
     "description": "<p><b>Xiaomi выкатит стиралку для обуви</b> — компания уже изучает идею отдельного гаджета. <br /><br />Дизайн и характеристики пока держат в секрете, но на рынке уже есть похожие устройства с вращающимися щётками и мойкой под давлением — китайцы планируют сделать решение лучше.<br /><br />Shut up and TAKE MY MONEY</p><img height=\"537\" src=\"https://cdn4.telesco.pe/file/i2wabUYF8s-xTDldFtt7lfQSsGau2zVnj1WHYBfX9MCs424Yqhmnpt0GXwxbXsFuAAmWBrxH7cp9pCshgZje5G2mbwpI7MeNFyCb-EWv5rBooaaUSxzcH9X3RHNRej29Qwgt_wZxBnEuh-6BX-3GZtQfvQR89-hcjSHbohKLFQPzVxCdVXgjr9QgKHkebcYmtH9a8Up2ZwLfpdgTrbs1IxfsMWi9PXf6AD4Oc9NT26_hGJRAJfxJ8_7nkGQQ48IHOHAJ_XY4OcgRtXGk2JNgRvjdDS5-HLRWJLv-F9UeWhMf_N-0wWSh6utaGT9unL-Dt_sETvFANeTOgzGz6aa1OA.jpg\" width=\"800\" />",
     "summary": "<p><b>Xiaomi выкатит стиралку для обуви</b> — компания уже изучает идею отдельного гаджета. <br /><br />Дизайн и характеристики пока держат в секрете, но на рынке уже есть похожие устройства с вращающимися щётками и мойкой под давлением — китайцы планируют сделать решение лучше.<br /><br />Shut up and TAKE MY MONEY</p><img height=\"537\" src=\"https://cdn4.telesco.pe/file/i2wabUYF8s-xTDldFtt7lfQSsGau2zVnj1WHYBfX9MCs424Yqhmnpt0GXwxbXsFuAAmWBrxH7cp9pCshgZje5G2mbwpI7MeNFyCb-EWv5rBooaaUSxzcH9X3RHNRej29Qwgt_wZxBnEuh-6BX-3GZtQfvQR89-hcjSHbohKLFQPzVxCdVXgjr9QgKHkebcYmtH9a8Up2ZwLfpdgTrbs1IxfsMWi9PXf6AD4Oc9NT26_hGJRAJfxJ8_7nkGQQ48IHOHAJ_XY4OcgRtXGk2JNgRvjdDS5-HLRWJLv-F9UeWhMf_N-0wWSh6utaGT9unL-Dt_sETvFANeTOgzGz6aa1OA.jpg\" width=\"800\" />",
     "image": "https://cdn4.telesco.pe/file/i2wabUYF8s-xTDldFtt7lfQSsGau2zVnj1WHYBfX9MCs424Yqhmnpt0GXwxbXsFuAAmWBrxH7cp9pCshgZje5G2mbwpI7MeNFyCb-EWv5rBooaaUSxzcH9X3RHNRej29Qwgt_wZxBnEuh-6BX-3GZtQfvQR89-hcjSHbohKLFQPzVxCdVXgjr9QgKHkebcYmtH9a8Up2ZwLfpdgTrbs1IxfsMWi9PXf6AD4Oc9NT26_hGJRAJfxJ8_7nkGQQ48IHOHAJ_XY4OcgRtXGk2JNgRvjdDS5-HLRWJLv-F9UeWhMf_N-0wWSh6utaGT9unL-Dt_sETvFANeTOgzGz6aa1OA.jpg"
-  },
-  {
-    "title": "Пользователь MacBook Pro прикрепил резинками к сломанному ноутбуку ещё один в качестве донора экрана",
-    "link": "https://habr.com/ru/news/1073430/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073430",
-    "published": "Sun, 23 Aug 2026 10:04:38 GMT",
-    "timestamp": 1787479478.0,
-    "source": "Хабр",
-    "language": "ru",
-    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/a3d/4c4/4b6/a3d4c44b6cf549a42c0457fee881c9d3.jpg\" /><p>Пользователь Reddit решил не&nbsp;платить $700&nbsp;за&nbsp;ремонт дисплея MacBook Pro M4&nbsp;и <a href=\"https://www.reddit.com/r/techsupportgore/comments/1vukbsz/peak_apple_engineering/\" rel=\"noopener noreferrer nofollow\">прикрепил</a> к&nbsp;ноутбуку без&nbsp;матрицы старый MacBook Pro M1, используя его экран в&nbsp;качестве монитора.</p> <a href=\"https://habr.com/ru/articles/1073430/#habracut\">Читать далее</a>",
-    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/a3d/4c4/4b6/a3d4c44b6cf549a42c0457fee881c9d3.jpg\" /><p>Пользователь Reddit решил не&nbsp;платить $700&nbsp;за&nbsp;ремонт дисплея MacBook Pro M4&nbsp;и <a href=\"https://www.reddit.com/r/techsupportgore/comments/1vukbsz/peak_apple_engineering/\" rel=\"noopener noreferrer nofollow\">прикрепил</a> к&nbsp;ноутбуку без&nbsp;матрицы старый MacBook Pro M1, используя его экран в&nbsp;качестве монитора.</p> <a href=\"https://habr.com/ru/articles/1073430/#habracut\">Читать далее</a>",
-    "image": "https://habrastorage.org/getpro/habr/upload_files/a3d/4c4/4b6/a3d4c44b6cf549a42c0457fee881c9d3.jpg"
   },
   {
     "title": "В Красноярске сотрудница случайно спалила зарплату начальника в общем чате и пот...",
@@ -570,17 +647,6 @@
     "description": "У постановщика есть сценарий, который понравился и Disney.\n                                                    <img alt=\"alt\" height=\"900\" src=\"https://leonardo.osnova.io/e386a531-f15c-589b-aa02-6608921590f3/-/resize/1300/\" width=\"1280\" />",
     "summary": "У постановщика есть сценарий, который понравился и Disney.\n                                                    <img alt=\"alt\" height=\"900\" src=\"https://leonardo.osnova.io/e386a531-f15c-589b-aa02-6608921590f3/-/resize/1300/\" width=\"1280\" />",
     "image": "https://leonardo.osnova.io/e386a531-f15c-589b-aa02-6608921590f3/"
-  },
-  {
-    "title": "Сайт AliExpress от Alibaba тайно прослушивает скриптовые сигналы от наушников для идентификации посетителей",
-    "link": "https://habr.com/ru/news/1073424/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073424",
-    "published": "Sun, 23 Aug 2026 09:31:48 GMT",
-    "timestamp": 1787477508.0,
-    "source": "Хабр",
-    "language": "ru",
-    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/982/a0a/523/982a0a523c49abaca26c05bc334679bb.png\" /><p>Профильный исследователь <a href=\"https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html\" rel=\"noopener noreferrer nofollow\">выяснил</a>, что сайт AliExpress от Alibaba тайно <a href=\"https://www.techjuice.pk/aliexpress-webaudio-fingerprinting-tracking-bluetooth/\" rel=\"noopener noreferrer nofollow\">прослушивает</a> наушники для идентификации посетителей. Два скрипта на сайте <a href=\"https://news.ycombinator.com/item?id=49372583\" rel=\"noopener noreferrer nofollow\">запускают</a> в браузере пилообразный сигнал, анализируют его обработку системой и отправляют звук на выход с нулевой громкостью. Пользователь ничего не слышит, но получившийся отпечаток помогает отличать его устройство от других — вместе с данными Canvas, WebGL, памяти, WebRTC и движений мыши. </p> <a href=\"https://habr.com/ru/articles/1073424/#habracut\">Читать далее</a>",
-    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/982/a0a/523/982a0a523c49abaca26c05bc334679bb.png\" /><p>Профильный исследователь <a href=\"https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html\" rel=\"noopener noreferrer nofollow\">выяснил</a>, что сайт AliExpress от Alibaba тайно <a href=\"https://www.techjuice.pk/aliexpress-webaudio-fingerprinting-tracking-bluetooth/\" rel=\"noopener noreferrer nofollow\">прослушивает</a> наушники для идентификации посетителей. Два скрипта на сайте <a href=\"https://news.ycombinator.com/item?id=49372583\" rel=\"noopener noreferrer nofollow\">запускают</a> в браузере пилообразный сигнал, анализируют его обработку системой и отправляют звук на выход с нулевой громкостью. Пользователь ничего не слышит, но получившийся отпечаток помогает отличать его устройство от других — вместе с данными Canvas, WebGL, памяти, WebRTC и движений мыши. </p> <a href=\"https://habr.com/ru/articles/1073424/#habracut\">Читать далее</a>",
-    "image": "https://habrastorage.org/getpro/habr/upload_files/982/a0a/523/982a0a523c49abaca26c05bc334679bb.png"
   },
   {
     "title": "🎬 Приз за самый адский способ переключения передач в машине уходит BYD Song.",
@@ -622,8 +688,8 @@
     "timestamp": 1787473717.0,
     "source": "TG: Baza",
     "language": "ru",
-    "description": "<p>Гризли ворвался в дом россиян в Калифорнии, пока они спали — служба спасения предупредила, что медведь ещё вернётся. Спойлер: так и произошло.<br /><br />Как стало известно «Базе», один из жильцов проснулся от грохота в доме. Оказалось, что медведь пробрался внутрь и перевернул всю кухню в поисках еды: вскрыл холодильник и ящики с припасами. Когда жильцы вышли проверить, зверя уже не было — он успел сбежать, оставив на кафеле отпечатки лап.<br /><br />После обращения в службу спасения сотрудники предупредили россиян, что медведь ещё вернётся: он уже нашёл место, где можно поживиться. Потому в следующий раз жильцы встретили его уже подготовленными — медведя спугнули специальным шумовым баллончиком.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Hjh93elXcB4M05vFujygx-uS5lDcZwSFV9RsWN53fFyBO6Iv4oQu9K6vnnMZpsj2q544VqqpxHgegVU4GtDJXJLmpHbd3gqUAf1OMBHKj8UPxarsJGSp4IL7RewzwGNUcBayL0vEr8dUWtyHMqRvJWjy_GcaD-t7dN4Vxw_rKBmAg5T1b4QQn4wpK3JD-FrGobH_Qwcai_VwBQnnd2KZCJx9fvPfGW4aHhNnTnTulX4KJ_IYrt_3wrLEXOi-MM_pNqdDG5i9USo-brNB-bM6ehysJFgeuzcu4srH6ipvfnnt-p3CKIFZIVDpI5cmnu-n24b96YRMxWIzqo-PEgBXQA\" src=\"https://cdn4.telesco.pe/file/617557a1a4.mp4?token=WKebn3S94_609SxS4s8TdndF3PjBVtYeu-GAIWHNP4MI6GilQC33-hSiPd4BRCN-KZqgI5i3XCpnuW6XCUkcMkwTsauxs6YBw49y9jiChwA2IMj9ZEAKpIpLd6Bu58wQ4eS2EtSnfYZPqEH5NjjHa16waVEGWJwj9BNZfNnTndZXIV4V-bSXE894I-v98NL5utLQq3hcRa_22lFURENP41l2VKfDJd-VVTgkmsO9MTb7g4b1ItjxJuNpdjzI2FnK4UDeGzeZGErHRtqQFgkGm1G5CbEGPepNlZ_cK_uBmFYn3gTErZho_YTI3qlTpF2tJRry1spVu736559PV3YYs5fXR4G02gItv4fzgCDJLyw2Ex9iIe6x5MK5k8zVV3vsjAnOxyJd-jYcxOx4CBKGek8ultOUfTp_Uncyz3WkXPPpifIhO9cqzc4lfV67VMT7hEIvA78nRC6nUspSQ1KalOPSS9kFVBdXCL3TXLkP7IL530z07RHlvXaujB6GHPdeIOYDBmC-_Tn_nt4Mmk2e_MWwFWFbw65S3gCXNQXzN2anYAZju_r1Nhpx6Zu9lzsYif4sB7lNj2JqOxkSJRv4HGRSfzojv4iGTQFCCb8fao_Qo3f5RDiybFdLfg0OjO1m7I1mKUL1NjMpDaf-up7fNFv9FAa1BAXp-JBN8p9T2Lk\" style=\"width: 100%;\"></video>",
-    "summary": "<p>Гризли ворвался в дом россиян в Калифорнии, пока они спали — служба спасения предупредила, что медведь ещё вернётся. Спойлер: так и произошло.<br /><br />Как стало известно «Базе», один из жильцов проснулся от грохота в доме. Оказалось, что медведь пробрался внутрь и перевернул всю кухню в поисках еды: вскрыл холодильник и ящики с припасами. Когда жильцы вышли проверить, зверя уже не было — он успел сбежать, оставив на кафеле отпечатки лап.<br /><br />После обращения в службу спасения сотрудники предупредили россиян, что медведь ещё вернётся: он уже нашёл место, где можно поживиться. Потому в следующий раз жильцы встретили его уже подготовленными — медведя спугнули специальным шумовым баллончиком.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Hjh93elXcB4M05vFujygx-uS5lDcZwSFV9RsWN53fFyBO6Iv4oQu9K6vnnMZpsj2q544VqqpxHgegVU4GtDJXJLmpHbd3gqUAf1OMBHKj8UPxarsJGSp4IL7RewzwGNUcBayL0vEr8dUWtyHMqRvJWjy_GcaD-t7dN4Vxw_rKBmAg5T1b4QQn4wpK3JD-FrGobH_Qwcai_VwBQnnd2KZCJx9fvPfGW4aHhNnTnTulX4KJ_IYrt_3wrLEXOi-MM_pNqdDG5i9USo-brNB-bM6ehysJFgeuzcu4srH6ipvfnnt-p3CKIFZIVDpI5cmnu-n24b96YRMxWIzqo-PEgBXQA\" src=\"https://cdn4.telesco.pe/file/617557a1a4.mp4?token=WKebn3S94_609SxS4s8TdndF3PjBVtYeu-GAIWHNP4MI6GilQC33-hSiPd4BRCN-KZqgI5i3XCpnuW6XCUkcMkwTsauxs6YBw49y9jiChwA2IMj9ZEAKpIpLd6Bu58wQ4eS2EtSnfYZPqEH5NjjHa16waVEGWJwj9BNZfNnTndZXIV4V-bSXE894I-v98NL5utLQq3hcRa_22lFURENP41l2VKfDJd-VVTgkmsO9MTb7g4b1ItjxJuNpdjzI2FnK4UDeGzeZGErHRtqQFgkGm1G5CbEGPepNlZ_cK_uBmFYn3gTErZho_YTI3qlTpF2tJRry1spVu736559PV3YYs5fXR4G02gItv4fzgCDJLyw2Ex9iIe6x5MK5k8zVV3vsjAnOxyJd-jYcxOx4CBKGek8ultOUfTp_Uncyz3WkXPPpifIhO9cqzc4lfV67VMT7hEIvA78nRC6nUspSQ1KalOPSS9kFVBdXCL3TXLkP7IL530z07RHlvXaujB6GHPdeIOYDBmC-_Tn_nt4Mmk2e_MWwFWFbw65S3gCXNQXzN2anYAZju_r1Nhpx6Zu9lzsYif4sB7lNj2JqOxkSJRv4HGRSfzojv4iGTQFCCb8fao_Qo3f5RDiybFdLfg0OjO1m7I1mKUL1NjMpDaf-up7fNFv9FAa1BAXp-JBN8p9T2Lk\" style=\"width: 100%;\"></video>",
+    "description": "<p>Гризли ворвался в дом россиян в Калифорнии, пока они спали — служба спасения предупредила, что медведь ещё вернётся. Спойлер: так и произошло.<br /><br />Как стало известно «Базе», один из жильцов проснулся от грохота в доме. Оказалось, что медведь пробрался внутрь и перевернул всю кухню в поисках еды: вскрыл холодильник и ящики с припасами. Когда жильцы вышли проверить, зверя уже не было — он успел сбежать, оставив на кафеле отпечатки лап.<br /><br />После обращения в службу спасения сотрудники предупредили россиян, что медведь ещё вернётся: он уже нашёл место, где можно поживиться. Потому в следующий раз жильцы встретили его уже подготовленными — медведя спугнули специальным шумовым баллончиком.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/Hjh93elXcB4M05vFujygx-uS5lDcZwSFV9RsWN53fFyBO6Iv4oQu9K6vnnMZpsj2q544VqqpxHgegVU4GtDJXJLmpHbd3gqUAf1OMBHKj8UPxarsJGSp4IL7RewzwGNUcBayL0vEr8dUWtyHMqRvJWjy_GcaD-t7dN4Vxw_rKBmAg5T1b4QQn4wpK3JD-FrGobH_Qwcai_VwBQnnd2KZCJx9fvPfGW4aHhNnTnTulX4KJ_IYrt_3wrLEXOi-MM_pNqdDG5i9USo-brNB-bM6ehysJFgeuzcu4srH6ipvfnnt-p3CKIFZIVDpI5cmnu-n24b96YRMxWIzqo-PEgBXQA\" src=\"https://cdn4.telesco.pe/file/617557a1a4.mp4?token=WKebn3S94_609SxS4s8TdndF3PjBVtYeu-GAIWHNP4MI6GilQC33-hSiPd4BRCN-KZqgI5i3XCpnuW6XCUkcMkwTsauxs6YBw49y9jiChwA2IMj9ZEAKpIpLd6Bu58wQ4eS2EtSnfYZPqEH5NjjHa16waVEGWJwj9BNZfNnTndZXIV4V-bSXE894I-v98NL5utLQq3hcRa_22lFURENP41l2VKfDJd-VVTgkmsO9MTb7g4b1ItjxJuNpdjzI2FnK4UDeGzeZGErHRtqQFgkGm1G5CbEGPepNlZ_cK_uBmFYn3gTErZho_YTI3qlTpF2tJRry1spVu736559PV3YYs5fXR4G02gItv4fzgCDJLyw2Ex9iIe6x5MK5k8zVV3vsjAnOxyJd-jYcxOx4CBKGek8ultOUfTp_Uncyz3WkXPPpifIhO9cqzc4lfV67VMT7hEIvA78nRC6nUspSQ1KalOPSS9kFVBdXCL3TXLkP7IL530z07RHlvXaujB6GHPdeIOYDBmC-_Tn_nt4Mmk2e_MWwFWFbw65S3gCXNQXzN2anYAZju_r1Nhpx6Zu9lzsYif4sB7lNj2JqOxkSJRv4HGRSfzojv4iGTQFCCb8fao_Qo3f5RDiybFdLfg0OjO1m7I1mKUL1NjMpDaf-up7fNFv9FAa1BAXp-JBN8p9T2Lk\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Гризли ворвался в дом россиян в Калифорнии, пока они спали — служба спасения предупредила, что медведь ещё вернётся. Спойлер: так и произошло.<br /><br />Как стало известно «Базе», один из жильцов проснулся от грохота в доме. Оказалось, что медведь пробрался внутрь и перевернул всю кухню в поисках еды: вскрыл холодильник и ящики с припасами. Когда жильцы вышли проверить, зверя уже не было — он успел сбежать, оставив на кафеле отпечатки лап.<br /><br />После обращения в службу спасения сотрудники предупредили россиян, что медведь ещё вернётся: он уже нашёл место, где можно поживиться. Потому в следующий раз жильцы встретили его уже подготовленными — медведя спугнули специальным шумовым баллончиком.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/Hjh93elXcB4M05vFujygx-uS5lDcZwSFV9RsWN53fFyBO6Iv4oQu9K6vnnMZpsj2q544VqqpxHgegVU4GtDJXJLmpHbd3gqUAf1OMBHKj8UPxarsJGSp4IL7RewzwGNUcBayL0vEr8dUWtyHMqRvJWjy_GcaD-t7dN4Vxw_rKBmAg5T1b4QQn4wpK3JD-FrGobH_Qwcai_VwBQnnd2KZCJx9fvPfGW4aHhNnTnTulX4KJ_IYrt_3wrLEXOi-MM_pNqdDG5i9USo-brNB-bM6ehysJFgeuzcu4srH6ipvfnnt-p3CKIFZIVDpI5cmnu-n24b96YRMxWIzqo-PEgBXQA\" src=\"https://cdn4.telesco.pe/file/617557a1a4.mp4?token=WKebn3S94_609SxS4s8TdndF3PjBVtYeu-GAIWHNP4MI6GilQC33-hSiPd4BRCN-KZqgI5i3XCpnuW6XCUkcMkwTsauxs6YBw49y9jiChwA2IMj9ZEAKpIpLd6Bu58wQ4eS2EtSnfYZPqEH5NjjHa16waVEGWJwj9BNZfNnTndZXIV4V-bSXE894I-v98NL5utLQq3hcRa_22lFURENP41l2VKfDJd-VVTgkmsO9MTb7g4b1ItjxJuNpdjzI2FnK4UDeGzeZGErHRtqQFgkGm1G5CbEGPepNlZ_cK_uBmFYn3gTErZho_YTI3qlTpF2tJRry1spVu736559PV3YYs5fXR4G02gItv4fzgCDJLyw2Ex9iIe6x5MK5k8zVV3vsjAnOxyJd-jYcxOx4CBKGek8ultOUfTp_Uncyz3WkXPPpifIhO9cqzc4lfV67VMT7hEIvA78nRC6nUspSQ1KalOPSS9kFVBdXCL3TXLkP7IL530z07RHlvXaujB6GHPdeIOYDBmC-_Tn_nt4Mmk2e_MWwFWFbw65S3gCXNQXzN2anYAZju_r1Nhpx6Zu9lzsYif4sB7lNj2JqOxkSJRv4HGRSfzojv4iGTQFCCb8fao_Qo3f5RDiybFdLfg0OjO1m7I1mKUL1NjMpDaf-up7fNFv9FAa1BAXp-JBN8p9T2Lk\" style=\"width: 100%;\"></video>",
     "image": ""
   },
   {
@@ -655,8 +721,8 @@
     "timestamp": 1787472580.0,
     "source": "Пикабу",
     "language": "ru",
-    "description": "<p><p>Сегодня утром, 23 августа, не стало 61-летней Надежды Бухаловой. </p></p><p><p>С 11 августа Надежда находилась в коме. После наезда она получила тяжёлые травмы и перенесла две операции. Врачи делали всё возможное, но спасти женщину не удалось.</p></p><p><p>Напомним, 11 августа на 18-м километре трассы Морпорт – Аэропорт водитель «Ниссан Патрол» Ализадэ Самир Эльдар Оглы сбил её на пешеходном переходе, затем посадил в машину и увёз с места аварии, бросив позже на обочине.</p></p><p><p>После удара он начал кричать на неё, утверждая, что она симулирует травмы. Свидетели вызвали медиков, но водитель пообещал сам отвезти женщину в больницу. Вместо этого ализаде бросил её на обочине недалеко от Камчатской краевой больницы, где её позже заметили прохожие и снова вызвали скорую. Следствие считает, что из-за этих действий женщина своевременно не получила медицинскую помощь, что усугубило её состояние.</p></p><p><p>Некоторое время бандит находился на свободе, по странному стечению обстоятельств уголовное дело было возбуждено не сразу .Сейчас преступник арестован на 2 месяца и находится в СИЗО. Расследование уголовного дела продолжается и находится на контроле центрального аппарата СК России.</p></p><p><p><!--noindex--><a href=\"https://kamchatka.aif.ru/\" rel=\"nofollow noopener\" target=\"_blank\">https://kamchatka.aif.ru/</a><!--/noindex--></p></p><p><p><!--noindex--><a href=\"https://www.mk.ru/incident/2026/08/21/sbituyu-na-perekhode-rossiyanku-siloy-uvezli-vmesto-vyzova-skoroy-na-trasse.html?ysclid=mt5ito17n3586016532\" rel=\"nofollow noopener\" target=\"_blank\">https://www.mk.ru/incident/2026/08/21/sbituyu-na-perekhode-r...</a><!--/noindex--></p></p><p><p><!--noindex--><a href=\"https://kam24.ru/news/main/20260822/131570.html?ysclid=mt5iuh8yik865293849\" rel=\"nofollow noopener\" target=\"_blank\">https://kam24.ru/news/main/20260822/131570.html?ysclid=mt5iu...</a><!--/noindex--></p></p><p><img alt=\"\" src=\"https://cs6.pikabu.ru/s/2026/08/23/11/rujrpqft.jpg\" /></p><p><p>Арестованный даёт показания следователю.</p></p>",
-    "summary": "<p><p>Сегодня утром, 23 августа, не стало 61-летней Надежды Бухаловой. </p></p><p><p>С 11 августа Надежда находилась в коме. После наезда она получила тяжёлые травмы и перенесла две операции. Врачи делали всё возможное, но спасти женщину не удалось.</p></p><p><p>Напомним, 11 августа на 18-м километре трассы Морпорт – Аэропорт водитель «Ниссан Патрол» Ализадэ Самир Эльдар Оглы сбил её на пешеходном переходе, затем посадил в машину и увёз с места аварии, бросив позже на обочине.</p></p><p><p>После удара он начал кричать на неё, утверждая, что она симулирует травмы. Свидетели вызвали медиков, но водитель пообещал сам отвезти женщину в больницу. Вместо этого ализаде бросил её на обочине недалеко от Камчатской краевой больницы, где её позже заметили прохожие и снова вызвали скорую. Следствие считает, что из-за этих действий женщина своевременно не получила медицинскую помощь, что усугубило её состояние.</p></p><p><p>Некоторое время бандит находился на свободе, по странному стечению обстоятельств уголовное дело было возбуждено не сразу .Сейчас преступник арестован на 2 месяца и находится в СИЗО. Расследование уголовного дела продолжается и находится на контроле центрального аппарата СК России.</p></p><p><p><!--noindex--><a href=\"https://kamchatka.aif.ru/\" rel=\"nofollow noopener\" target=\"_blank\">https://kamchatka.aif.ru/</a><!--/noindex--></p></p><p><p><!--noindex--><a href=\"https://www.mk.ru/incident/2026/08/21/sbituyu-na-perekhode-rossiyanku-siloy-uvezli-vmesto-vyzova-skoroy-na-trasse.html?ysclid=mt5ito17n3586016532\" rel=\"nofollow noopener\" target=\"_blank\">https://www.mk.ru/incident/2026/08/21/sbituyu-na-perekhode-r...</a><!--/noindex--></p></p><p><p><!--noindex--><a href=\"https://kam24.ru/news/main/20260822/131570.html?ysclid=mt5iuh8yik865293849\" rel=\"nofollow noopener\" target=\"_blank\">https://kam24.ru/news/main/20260822/131570.html?ysclid=mt5iu...</a><!--/noindex--></p></p><p><img alt=\"\" src=\"https://cs6.pikabu.ru/s/2026/08/23/11/rujrpqft.jpg\" /></p><p><p>Арестованный даёт показания следователю.</p></p>",
+    "description": "<p><p>Сегодня утром, 23 августа, не стало 61-летней Надежды Бухаловой.</p></p><p><p>С 11 августа Надежда находилась в коме. После наезда она получила тяжёлые травмы и перенесла две операции. Врачи делали всё возможное, но спасти женщину не удалось.</p></p><p><p>Напомним, 11 августа на 18-м километре трассы Морпорт – Аэропорт водитель «Ниссан Патрол» Ализадэ Самир Эльдар Оглы сбил её на пешеходном переходе, затем посадил в машину и увёз с места аварии, бросив позже на обочине.</p></p><p><p>После удара он начал кричать на неё, утверждая, что она симулирует травмы. Свидетели вызвали медиков, но водитель пообещал сам отвезти женщину в больницу. Вместо этого ализаде бросил её на обочине недалеко от Камчатской краевой больницы, где её позже заметили прохожие и снова вызвали скорую. Следствие считает, что из-за этих действий женщина своевременно не получила медицинскую помощь, что усугубило её состояние.</p></p><p><p>Некоторое время бандит находился на свободе, по странному стечению обстоятельств уголовное дело было возбуждено не сразу .Сейчас преступник арестован на 2 месяца и находится в СИЗО. Расследование уголовного дела продолжается и находится на контроле центрального аппарата СК России.</p></p><p><p><!--noindex--><a href=\"https://kamchatka.aif.ru/\" rel=\"nofollow noopener\" target=\"_blank\">https://kamchatka.aif.ru/</a><!--/noindex--></p></p><p><p><!--noindex--><a href=\"https://www.mk.ru/incident/2026/08/21/sbituyu-na-perekhode-rossiyanku-siloy-uvezli-vmesto-vyzova-skoroy-na-trasse.html?ysclid=mt5ito17n3586016532\" rel=\"nofollow noopener\" target=\"_blank\">https://www.mk.ru/incident/2026/08/21/sbituyu-na-perekhode-r...</a><!--/noindex--></p></p><p><p><!--noindex--><a href=\"https://kam24.ru/news/main/20260822/131570.html?ysclid=mt5iuh8yik865293849\" rel=\"nofollow noopener\" target=\"_blank\">https://kam24.ru/news/main/20260822/131570.html?ysclid=mt5iu...</a><!--/noindex--></p></p><p><img alt=\"\" src=\"https://cs6.pikabu.ru/s/2026/08/23/11/rujrpqft.jpg\" /></p><p><p>Арестованный даёт показания следователю.</p></p><p><p>Обвиняемый был задержан в день происшествия. Ему предъявлено обвинение по статье \"Похищение человека\". Суд избрал меру пресечения в виде заключения под стражу. Мужчина находится в СИЗО. Расследование уголовного дела продолжается и находится на контроле центрального аппарата Следственного комитета России.</p><p><a href=\"https://m-nsk.tsargrad.tv/news/na-kamchatke-skonchalas-61-letnjaja-zhenshhina-sbitaja-i-pohishhennaja-s-mesta-dtp_1834838\" rel=\"nofollow noopener\" target=\"_blank\">https://m-nsk.tsargrad.tv/news/na-kamchatke-skonchalas-61-le...</a></p></p>",
+    "summary": "<p><p>Сегодня утром, 23 августа, не стало 61-летней Надежды Бухаловой.</p></p><p><p>С 11 августа Надежда находилась в коме. После наезда она получила тяжёлые травмы и перенесла две операции. Врачи делали всё возможное, но спасти женщину не удалось.</p></p><p><p>Напомним, 11 августа на 18-м километре трассы Морпорт – Аэропорт водитель «Ниссан Патрол» Ализадэ Самир Эльдар Оглы сбил её на пешеходном переходе, затем посадил в машину и увёз с места аварии, бросив позже на обочине.</p></p><p><p>После удара он начал кричать на неё, утверждая, что она симулирует травмы. Свидетели вызвали медиков, но водитель пообещал сам отвезти женщину в больницу. Вместо этого ализаде бросил её на обочине недалеко от Камчатской краевой больницы, где её позже заметили прохожие и снова вызвали скорую. Следствие считает, что из-за этих действий женщина своевременно не получила медицинскую помощь, что усугубило её состояние.</p></p><p><p>Некоторое время бандит находился на свободе, по странному стечению обстоятельств уголовное дело было возбуждено не сразу .Сейчас преступник арестован на 2 месяца и находится в СИЗО. Расследование уголовного дела продолжается и находится на контроле центрального аппарата СК России.</p></p><p><p><!--noindex--><a href=\"https://kamchatka.aif.ru/\" rel=\"nofollow noopener\" target=\"_blank\">https://kamchatka.aif.ru/</a><!--/noindex--></p></p><p><p><!--noindex--><a href=\"https://www.mk.ru/incident/2026/08/21/sbituyu-na-perekhode-rossiyanku-siloy-uvezli-vmesto-vyzova-skoroy-na-trasse.html?ysclid=mt5ito17n3586016532\" rel=\"nofollow noopener\" target=\"_blank\">https://www.mk.ru/incident/2026/08/21/sbituyu-na-perekhode-r...</a><!--/noindex--></p></p><p><p><!--noindex--><a href=\"https://kam24.ru/news/main/20260822/131570.html?ysclid=mt5iuh8yik865293849\" rel=\"nofollow noopener\" target=\"_blank\">https://kam24.ru/news/main/20260822/131570.html?ysclid=mt5iu...</a><!--/noindex--></p></p><p><img alt=\"\" src=\"https://cs6.pikabu.ru/s/2026/08/23/11/rujrpqft.jpg\" /></p><p><p>Арестованный даёт показания следователю.</p></p><p><p>Обвиняемый был задержан в день происшествия. Ему предъявлено обвинение по статье \"Похищение человека\". Суд избрал меру пресечения в виде заключения под стражу. Мужчина находится в СИЗО. Расследование уголовного дела продолжается и находится на контроле центрального аппарата Следственного комитета России.</p><p><a href=\"https://m-nsk.tsargrad.tv/news/na-kamchatke-skonchalas-61-letnjaja-zhenshhina-sbitaja-i-pohishhennaja-s-mesta-dtp_1834838\" rel=\"nofollow noopener\" target=\"_blank\">https://m-nsk.tsargrad.tv/news/na-kamchatke-skonchalas-61-le...</a></p></p>",
     "image": "https://cs6.pikabu.ru/s/2026/08/23/11/rujrpqft.jpg"
   },
   {
@@ -699,8 +765,8 @@
     "timestamp": 1787468755.0,
     "source": "TG: Baza",
     "language": "ru",
-    "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">В Москве с аукциона продают элитную квартиру президента русско-китайского фонда из-за долга почти в 40 млн рублей.<br /><br />По данным «Базы», в 2017 году Цуй Шань купила двухэтажную квартиру на улице Вавилова в престижном жилом комплексе рядом с китайским посольством в Ломоносовском районе — почти 240 квадратных метров, заняты третий и четвёртый этажи, просторная гостиная, несколько спален, гардеробные и собственная спа-зона.<br /><br />Цуй Шань должна была заплатить за квартиру 53,7 млн рублей, но сразу всю сумму отдавать не стала. С продавцом договорились о рассрочке: деньги нужно было вносить частями до конца 2022 года. Однако покупательница внесла лишь несколько платежей, а затем перестала платить. Продавец ждал несколько лет, надеясь получить свои деньги, но в итоге не выдержал и пошёл в суд.<br /><br />Там договор купли-продажи расторгли, а квартиру решили продать через публичные торги, чтобы вернуть 37,6 млн рублей долга и до 2,9 млн процентами. В марте этого года приставы арестовали жильё и передали его на продажу. Стартовая цена — 75,2 млн рублей. Если покупателя не найдут, стоимость снизят до 63,9 млн.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"200\" src=\"https://cdn4.telesco.pe/file/CmD1hcIWKmv0NJuM3w2ZHujFOTrXTs2m3NoAMzl7CJhhk26DN9wuAffVv9LgYO4eXdrZ01IiZQJfkQggaqXPIMNiaIMN9FVaF4a862tR1E9z_IHLnKlNuR22EFQs6-tp3p56FVZExL0OuqdAN2EnwFJ1igwkn9p6f4iAuopP_v5TnkeP3M41QmH7J4O6rTIn4y_j8PG9Q7eVKplqLh9hhlmGqE0EvOhyKTpkOAC_sWBply-Fu2Fo96-rUBiA655BQt6Hn3j6Jvm-YRuh7IPHy15AvWoH9cDTEaO2stadMxlqsG3EmkGFNKqb86tg12w_P8kz-RhZlqTMAGalWYDuBQ.jpg\" width=\"453\" /><img height=\"200.91\" src=\"https://cdn4.telesco.pe/file/O76iGjj9f10ECZ-iXKaPQq4Km-c-WHFsX_vIf2-V9uRAYIAGr3nsh7vzTzdlKT1AD0JcS1z7SfV1TErr4Ls5DhkhlKRs_fALsr8Ev2m6BN9aTCochgSTnrRLuwXHJv_PstOh-49n90FaLLrKJQsQktCjWVaZjRgYJGMeSlLiNOJG4-rxtrPm0N5pgQKxPRHeM-j4sKEsoY4wXGNI9aJC64H_gR7v7M990IhaDjJkpf7IoT3Jas8rg8mS99pZ0hHNKecujJUBtzo09bVym-7eiCcDU5zJqUVMeQ39vofVEejk5WqtlJJz331Wk5LkSPDlSsBUsMc4CP0uhoE6cFs83g.jpg\" width=\"453\" />",
-    "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">В Москве с аукциона продают элитную квартиру президента русско-китайского фонда из-за долга почти в 40 млн рублей.<br /><br />По данным «Базы», в 2017 году Цуй Шань купила двухэтажную квартиру на улице Вавилова в престижном жилом комплексе рядом с китайским посольством в Ломоносовском районе — почти 240 квадратных метров, заняты третий и четвёртый этажи, просторная гостиная, несколько спален, гардеробные и собственная спа-зона.<br /><br />Цуй Шань должна была заплатить за квартиру 53,7 млн рублей, но сразу всю сумму отдавать не стала. С продавцом договорились о рассрочке: деньги нужно было вносить частями до конца 2022 года. Однако покупательница внесла лишь несколько платежей, а затем перестала платить. Продавец ждал несколько лет, надеясь получить свои деньги, но в итоге не выдержал и пошёл в суд.<br /><br />Там договор купли-продажи расторгли, а квартиру решили продать через публичные торги, чтобы вернуть 37,6 млн рублей долга и до 2,9 млн процентами. В марте этого года приставы арестовали жильё и передали его на продажу. Стартовая цена — 75,2 млн рублей. Если покупателя не найдут, стоимость снизят до 63,9 млн.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"200\" src=\"https://cdn4.telesco.pe/file/CmD1hcIWKmv0NJuM3w2ZHujFOTrXTs2m3NoAMzl7CJhhk26DN9wuAffVv9LgYO4eXdrZ01IiZQJfkQggaqXPIMNiaIMN9FVaF4a862tR1E9z_IHLnKlNuR22EFQs6-tp3p56FVZExL0OuqdAN2EnwFJ1igwkn9p6f4iAuopP_v5TnkeP3M41QmH7J4O6rTIn4y_j8PG9Q7eVKplqLh9hhlmGqE0EvOhyKTpkOAC_sWBply-Fu2Fo96-rUBiA655BQt6Hn3j6Jvm-YRuh7IPHy15AvWoH9cDTEaO2stadMxlqsG3EmkGFNKqb86tg12w_P8kz-RhZlqTMAGalWYDuBQ.jpg\" width=\"453\" /><img height=\"200.91\" src=\"https://cdn4.telesco.pe/file/O76iGjj9f10ECZ-iXKaPQq4Km-c-WHFsX_vIf2-V9uRAYIAGr3nsh7vzTzdlKT1AD0JcS1z7SfV1TErr4Ls5DhkhlKRs_fALsr8Ev2m6BN9aTCochgSTnrRLuwXHJv_PstOh-49n90FaLLrKJQsQktCjWVaZjRgYJGMeSlLiNOJG4-rxtrPm0N5pgQKxPRHeM-j4sKEsoY4wXGNI9aJC64H_gR7v7M990IhaDjJkpf7IoT3Jas8rg8mS99pZ0hHNKecujJUBtzo09bVym-7eiCcDU5zJqUVMeQ39vofVEejk5WqtlJJz331Wk5LkSPDlSsBUsMc4CP0uhoE6cFs83g.jpg\" width=\"453\" />",
+    "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">В Москве с аукциона продают элитную квартиру президента русско-китайского фонда из-за долга почти в 40 млн рублей.<br /><br />По данным «Базы», в 2017 году Цуй Шань купила двухэтажную квартиру на улице Вавилова в престижном жилом комплексе рядом с китайским посольством в Ломоносовском районе — почти 240 квадратных метров, заняты третий и четвёртый этажи, просторная гостиная, несколько спален, гардеробные и собственная спа-зона.<br /><br />Цуй Шань должна была заплатить за квартиру 53,7 млн рублей, но сразу всю сумму отдавать не стала. С продавцом договорились о рассрочке: деньги нужно было вносить частями до конца 2022 года. Однако покупательница внесла лишь несколько платежей, а затем перестала платить. Продавец ждал несколько лет, надеясь получить свои деньги, но в итоге не выдержал и пошёл в суд.<br /><br />Там договор купли-продажи расторгли, а квартиру решили продать через публичные торги, чтобы вернуть 37,6 млн рублей долга и до 2,9 млн процентами. В марте этого года приставы арестовали жильё и передали его на продажу. Стартовая цена — 75,2 млн рублей. Если покупателя не найдут, стоимость снизят до 63,9 млн.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img src=\"https://cdn4.telesco.pe/file/CmD1hcIWKmv0NJuM3w2ZHujFOTrXTs2m3NoAMzl7CJhhk26DN9wuAffVv9LgYO4eXdrZ01IiZQJfkQggaqXPIMNiaIMN9FVaF4a862tR1E9z_IHLnKlNuR22EFQs6-tp3p56FVZExL0OuqdAN2EnwFJ1igwkn9p6f4iAuopP_v5TnkeP3M41QmH7J4O6rTIn4y_j8PG9Q7eVKplqLh9hhlmGqE0EvOhyKTpkOAC_sWBply-Fu2Fo96-rUBiA655BQt6Hn3j6Jvm-YRuh7IPHy15AvWoH9cDTEaO2stadMxlqsG3EmkGFNKqb86tg12w_P8kz-RhZlqTMAGalWYDuBQ.jpg\" /><img src=\"https://cdn4.telesco.pe/file/O76iGjj9f10ECZ-iXKaPQq4Km-c-WHFsX_vIf2-V9uRAYIAGr3nsh7vzTzdlKT1AD0JcS1z7SfV1TErr4Ls5DhkhlKRs_fALsr8Ev2m6BN9aTCochgSTnrRLuwXHJv_PstOh-49n90FaLLrKJQsQktCjWVaZjRgYJGMeSlLiNOJG4-rxtrPm0N5pgQKxPRHeM-j4sKEsoY4wXGNI9aJC64H_gR7v7M990IhaDjJkpf7IoT3Jas8rg8mS99pZ0hHNKecujJUBtzo09bVym-7eiCcDU5zJqUVMeQ39vofVEejk5WqtlJJz331Wk5LkSPDlSsBUsMc4CP0uhoE6cFs83g.jpg\" />",
+    "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">В Москве с аукциона продают элитную квартиру президента русско-китайского фонда из-за долга почти в 40 млн рублей.<br /><br />По данным «Базы», в 2017 году Цуй Шань купила двухэтажную квартиру на улице Вавилова в престижном жилом комплексе рядом с китайским посольством в Ломоносовском районе — почти 240 квадратных метров, заняты третий и четвёртый этажи, просторная гостиная, несколько спален, гардеробные и собственная спа-зона.<br /><br />Цуй Шань должна была заплатить за квартиру 53,7 млн рублей, но сразу всю сумму отдавать не стала. С продавцом договорились о рассрочке: деньги нужно было вносить частями до конца 2022 года. Однако покупательница внесла лишь несколько платежей, а затем перестала платить. Продавец ждал несколько лет, надеясь получить свои деньги, но в итоге не выдержал и пошёл в суд.<br /><br />Там договор купли-продажи расторгли, а квартиру решили продать через публичные торги, чтобы вернуть 37,6 млн рублей долга и до 2,9 млн процентами. В марте этого года приставы арестовали жильё и передали его на продажу. Стартовая цена — 75,2 млн рублей. Если покупателя не найдут, стоимость снизят до 63,9 млн.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img src=\"https://cdn4.telesco.pe/file/CmD1hcIWKmv0NJuM3w2ZHujFOTrXTs2m3NoAMzl7CJhhk26DN9wuAffVv9LgYO4eXdrZ01IiZQJfkQggaqXPIMNiaIMN9FVaF4a862tR1E9z_IHLnKlNuR22EFQs6-tp3p56FVZExL0OuqdAN2EnwFJ1igwkn9p6f4iAuopP_v5TnkeP3M41QmH7J4O6rTIn4y_j8PG9Q7eVKplqLh9hhlmGqE0EvOhyKTpkOAC_sWBply-Fu2Fo96-rUBiA655BQt6Hn3j6Jvm-YRuh7IPHy15AvWoH9cDTEaO2stadMxlqsG3EmkGFNKqb86tg12w_P8kz-RhZlqTMAGalWYDuBQ.jpg\" /><img src=\"https://cdn4.telesco.pe/file/O76iGjj9f10ECZ-iXKaPQq4Km-c-WHFsX_vIf2-V9uRAYIAGr3nsh7vzTzdlKT1AD0JcS1z7SfV1TErr4Ls5DhkhlKRs_fALsr8Ev2m6BN9aTCochgSTnrRLuwXHJv_PstOh-49n90FaLLrKJQsQktCjWVaZjRgYJGMeSlLiNOJG4-rxtrPm0N5pgQKxPRHeM-j4sKEsoY4wXGNI9aJC64H_gR7v7M990IhaDjJkpf7IoT3Jas8rg8mS99pZ0hHNKecujJUBtzo09bVym-7eiCcDU5zJqUVMeQ39vofVEejk5WqtlJJz331Wk5LkSPDlSsBUsMc4CP0uhoE6cFs83g.jpg\" />",
     "image": "https://cdn4.telesco.pe/file/CmD1hcIWKmv0NJuM3w2ZHujFOTrXTs2m3NoAMzl7CJhhk26DN9wuAffVv9LgYO4eXdrZ01IiZQJfkQggaqXPIMNiaIMN9FVaF4a862tR1E9z_IHLnKlNuR22EFQs6-tp3p56FVZExL0OuqdAN2EnwFJ1igwkn9p6f4iAuopP_v5TnkeP3M41QmH7J4O6rTIn4y_j8PG9Q7eVKplqLh9hhlmGqE0EvOhyKTpkOAC_sWBply-Fu2Fo96-rUBiA655BQt6Hn3j6Jvm-YRuh7IPHy15AvWoH9cDTEaO2stadMxlqsG3EmkGFNKqb86tg12w_P8kz-RhZlqTMAGalWYDuBQ.jpg"
   },
   {
@@ -721,8 +787,8 @@
     "timestamp": 1787458937.0,
     "source": "TG: Baza",
     "language": "ru",
-    "description": "<p>Мощные ливни и ураган обрушились сразу на два региона — Иркутскую область и Бурятию. Машины тонут в воде, повалены деревья и затоплены подъезды.<br /><br />В Иркутске непогода бушует с ночи — несколько дорог полностью ушли под воду, машины приходилось вытаскивать очевидцам. Повреждены фасады домов и линии электропередачи, в некоторых районах отключилось электричество. За четыре часа выпало больше половины месячной нормы осадков.<br /><br />Из-за сильных дождей ливневки не справляются с потоком воды — улицы превращаются в реки, вода заходит во дворы и подъезды.<br /><br />В Бурятии из-за стихии произошёл взрыв на подстанции в районе Зеленхоза. Очевидцы сообщили о пожаре, после чего часть района могла остаться без электричества.<br /><br />Коммунальные и экстренные службы работают на местах и устраняют последствия непогоды.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/ENKQXcBTrkPOWxWoWXqTLSGf_MjCkRNgU9EZeLZ9-sw90sM-i31LKU1cXWccb769d7GW8XNx63lp4a9RKUqRTNoVKOfc2715SQFl3RPsTcrsZEil0lFm2tMEYNCw609Yn0Rzkavv1-0MaZJgDlvSrTNr_jxBEnKOyZMNuUgLdmp3YbytTqvLu6h1ZvX-YLNYDZkzGBLjRSNkU13ouyS9I5_OtSiVT_iaktN3StxnUJYWSqH9HAORLpbEIQyBKYQaNkktF9eo86Y3-mUG73XeNcNvOSy9cF-IGhK6d4Fdc20cKF0vEwXX5jP1BMXDvxdJCycZjzTbKx7d2gvF_4yfhA\" src=\"https://cdn4.telesco.pe/file/ad98e2eff3.mp4?token=mafF1ZjpGClLWSCPuDsuo2Jz8uiadv3scGWN-zhdV668LQDg31R-9TKYYFORgItpjlm3itVS2jANiV82TPq2eYG0AYg5QPBDBOjyps1p1FR6ayCnDgHa_lqYJVmD-4ptPTY4Yr53FCwMpxH8p6hDHQnc7H1yNAoEgyiDXR-sdQGvFPUUWGjFrDGqv36AFg3_NcPs_esa6dDS-tHVfjyPPPvIiXzgECylYeoBmyFXKartfm0xiRuKhDm9f2tya_cqZpRUl6GgvkSPFpx0fEPRbmUGsz35b2HJASuZp7pMBg2UjCNINJDtPYC8d_jNSoKRMxtVbhNOIZUqf5RP-4jC7g\" style=\"width: 100%;\"></video>",
-    "summary": "<p>Мощные ливни и ураган обрушились сразу на два региона — Иркутскую область и Бурятию. Машины тонут в воде, повалены деревья и затоплены подъезды.<br /><br />В Иркутске непогода бушует с ночи — несколько дорог полностью ушли под воду, машины приходилось вытаскивать очевидцам. Повреждены фасады домов и линии электропередачи, в некоторых районах отключилось электричество. За четыре часа выпало больше половины месячной нормы осадков.<br /><br />Из-за сильных дождей ливневки не справляются с потоком воды — улицы превращаются в реки, вода заходит во дворы и подъезды.<br /><br />В Бурятии из-за стихии произошёл взрыв на подстанции в районе Зеленхоза. Очевидцы сообщили о пожаре, после чего часть района могла остаться без электричества.<br /><br />Коммунальные и экстренные службы работают на местах и устраняют последствия непогоды.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/ENKQXcBTrkPOWxWoWXqTLSGf_MjCkRNgU9EZeLZ9-sw90sM-i31LKU1cXWccb769d7GW8XNx63lp4a9RKUqRTNoVKOfc2715SQFl3RPsTcrsZEil0lFm2tMEYNCw609Yn0Rzkavv1-0MaZJgDlvSrTNr_jxBEnKOyZMNuUgLdmp3YbytTqvLu6h1ZvX-YLNYDZkzGBLjRSNkU13ouyS9I5_OtSiVT_iaktN3StxnUJYWSqH9HAORLpbEIQyBKYQaNkktF9eo86Y3-mUG73XeNcNvOSy9cF-IGhK6d4Fdc20cKF0vEwXX5jP1BMXDvxdJCycZjzTbKx7d2gvF_4yfhA\" src=\"https://cdn4.telesco.pe/file/ad98e2eff3.mp4?token=mafF1ZjpGClLWSCPuDsuo2Jz8uiadv3scGWN-zhdV668LQDg31R-9TKYYFORgItpjlm3itVS2jANiV82TPq2eYG0AYg5QPBDBOjyps1p1FR6ayCnDgHa_lqYJVmD-4ptPTY4Yr53FCwMpxH8p6hDHQnc7H1yNAoEgyiDXR-sdQGvFPUUWGjFrDGqv36AFg3_NcPs_esa6dDS-tHVfjyPPPvIiXzgECylYeoBmyFXKartfm0xiRuKhDm9f2tya_cqZpRUl6GgvkSPFpx0fEPRbmUGsz35b2HJASuZp7pMBg2UjCNINJDtPYC8d_jNSoKRMxtVbhNOIZUqf5RP-4jC7g\" style=\"width: 100%;\"></video>",
+    "description": "<p>Мощные ливни и ураган обрушились сразу на два региона — Иркутскую область и Бурятию. Машины тонут в воде, повалены деревья и затоплены подъезды.<br /><br />В Иркутске непогода бушует с ночи — несколько дорог полностью ушли под воду, машины приходилось вытаскивать очевидцам. Повреждены фасады домов и линии электропередачи, в некоторых районах отключилось электричество. За четыре часа выпало больше половины месячной нормы осадков.<br /><br />Из-за сильных дождей ливневки не справляются с потоком воды — улицы превращаются в реки, вода заходит во дворы и подъезды.<br /><br />В Бурятии из-за стихии произошёл взрыв на подстанции в районе Зеленхоза. Очевидцы сообщили о пожаре, после чего часть района могла остаться без электричества.<br /><br />Коммунальные и экстренные службы работают на местах и устраняют последствия непогоды.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/ENKQXcBTrkPOWxWoWXqTLSGf_MjCkRNgU9EZeLZ9-sw90sM-i31LKU1cXWccb769d7GW8XNx63lp4a9RKUqRTNoVKOfc2715SQFl3RPsTcrsZEil0lFm2tMEYNCw609Yn0Rzkavv1-0MaZJgDlvSrTNr_jxBEnKOyZMNuUgLdmp3YbytTqvLu6h1ZvX-YLNYDZkzGBLjRSNkU13ouyS9I5_OtSiVT_iaktN3StxnUJYWSqH9HAORLpbEIQyBKYQaNkktF9eo86Y3-mUG73XeNcNvOSy9cF-IGhK6d4Fdc20cKF0vEwXX5jP1BMXDvxdJCycZjzTbKx7d2gvF_4yfhA\" src=\"https://cdn4.telesco.pe/file/ad98e2eff3.mp4?token=mafF1ZjpGClLWSCPuDsuo2Jz8uiadv3scGWN-zhdV668LQDg31R-9TKYYFORgItpjlm3itVS2jANiV82TPq2eYG0AYg5QPBDBOjyps1p1FR6ayCnDgHa_lqYJVmD-4ptPTY4Yr53FCwMpxH8p6hDHQnc7H1yNAoEgyiDXR-sdQGvFPUUWGjFrDGqv36AFg3_NcPs_esa6dDS-tHVfjyPPPvIiXzgECylYeoBmyFXKartfm0xiRuKhDm9f2tya_cqZpRUl6GgvkSPFpx0fEPRbmUGsz35b2HJASuZp7pMBg2UjCNINJDtPYC8d_jNSoKRMxtVbhNOIZUqf5RP-4jC7g\" style=\"width: 100%;\"></video>",
+    "summary": "<p>Мощные ливни и ураган обрушились сразу на два региона — Иркутскую область и Бурятию. Машины тонут в воде, повалены деревья и затоплены подъезды.<br /><br />В Иркутске непогода бушует с ночи — несколько дорог полностью ушли под воду, машины приходилось вытаскивать очевидцам. Повреждены фасады домов и линии электропередачи, в некоторых районах отключилось электричество. За четыре часа выпало больше половины месячной нормы осадков.<br /><br />Из-за сильных дождей ливневки не справляются с потоком воды — улицы превращаются в реки, вода заходит во дворы и подъезды.<br /><br />В Бурятии из-за стихии произошёл взрыв на подстанции в районе Зеленхоза. Очевидцы сообщили о пожаре, после чего часть района могла остаться без электричества.<br /><br />Коммунальные и экстренные службы работают на местах и устраняют последствия непогоды.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"\" poster=\"https://cdn4.telesco.pe/file/ENKQXcBTrkPOWxWoWXqTLSGf_MjCkRNgU9EZeLZ9-sw90sM-i31LKU1cXWccb769d7GW8XNx63lp4a9RKUqRTNoVKOfc2715SQFl3RPsTcrsZEil0lFm2tMEYNCw609Yn0Rzkavv1-0MaZJgDlvSrTNr_jxBEnKOyZMNuUgLdmp3YbytTqvLu6h1ZvX-YLNYDZkzGBLjRSNkU13ouyS9I5_OtSiVT_iaktN3StxnUJYWSqH9HAORLpbEIQyBKYQaNkktF9eo86Y3-mUG73XeNcNvOSy9cF-IGhK6d4Fdc20cKF0vEwXX5jP1BMXDvxdJCycZjzTbKx7d2gvF_4yfhA\" src=\"https://cdn4.telesco.pe/file/ad98e2eff3.mp4?token=mafF1ZjpGClLWSCPuDsuo2Jz8uiadv3scGWN-zhdV668LQDg31R-9TKYYFORgItpjlm3itVS2jANiV82TPq2eYG0AYg5QPBDBOjyps1p1FR6ayCnDgHa_lqYJVmD-4ptPTY4Yr53FCwMpxH8p6hDHQnc7H1yNAoEgyiDXR-sdQGvFPUUWGjFrDGqv36AFg3_NcPs_esa6dDS-tHVfjyPPPvIiXzgECylYeoBmyFXKartfm0xiRuKhDm9f2tya_cqZpRUl6GgvkSPFpx0fEPRbmUGsz35b2HJASuZp7pMBg2UjCNINJDtPYC8d_jNSoKRMxtVbhNOIZUqf5RP-4jC7g\" style=\"width: 100%;\"></video>",
     "image": ""
   },
   {
@@ -735,28 +801,6 @@
     "description": "<p>Пожар охватил 82 тысячи м² логистического центра в петербургском Колпино.<br /><br />За час площадь возгорания выросла с 60 до 82 тысяч м². В половине четвёртого пожару присвоили четвёртый ранг сложности, сейчас огонь тушат на четырёх боевых участках.<br /><br />К ликвидации привлекли 217 человек и 65 единиц техники, в том числе 132 сотрудника МЧС и 42 машины ведомства. К месту продолжают прибывать пожарные машины.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Sg3uhPh4JXCv2UKfL1xsSGhma1b7oSaAiv1-I66ZY2kkj6YUObBIwSSAcf210Hj2SgcY9KZQU5YB2RFfDRk9hxDOEX7xRPTsz2LB4Iyz7V0VsC1H2512o-jpdUvPwO27cwFb5Afsv3Jvt6Q6lH0c740hGysoVpmXj92cwVFubtgqxsZ--Upv0hI0JrI-OYYvsbIW-UNeiOMuyyvmVdIeYlFSiz3WV-ltek-oSgDJMDnMxqiZEJgX2tHXZIriA_SDkrJxFwGR5n1LOl3EWJcRA5pEBOxBq314664xDMpWxbDj4ICQXgypdrjWs9IsV77UHl3Eaa4_FwTVos7c_fU5Kg\" src=\"https://cdn4.telesco.pe/file/addf9ecbef.mp4?token=JHE7ZM0a1257My7HbrtmdpOwyIFRLqFPHLdSAprcrp6B_SBVRUmFY5VM6wxt0mEMahdLHoi5qzdrxbtcidbXdW_YHqg8z2N1gnVz51p3kIX5MdaTcGegSpkhNftWW0Ph7lBoBHS6kvktRQQ2Q8fUYmLP5TawtrUfkJczFGY_XF5ScwvZFFmYgaO6N80ABwTWEGRTVwzcu5BaHvr6wYrwCHjVBqwtouLiQrxLA4zGpNjE3hjj3QDIUvnSQ1fyDdR6MICkMGBStpPyQ3dk-COc2MUOgIKDNYID4bsIB01A6QPYcBPHiRuframsA5xmsVbNNhVNeMC26GlVuolUxnN_mQ\" style=\"width: 100%;\"></video><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg\" /></blockquote>",
     "summary": "<p>Пожар охватил 82 тысячи м² логистического центра в петербургском Колпино.<br /><br />За час площадь возгорания выросла с 60 до 82 тысяч м². В половине четвёртого пожару присвоили четвёртый ранг сложности, сейчас огонь тушат на четырёх боевых участках.<br /><br />К ликвидации привлекли 217 человек и 65 единиц техники, в том числе 132 сотрудника МЧС и 42 машины ведомства. К месту продолжают прибывать пожарные машины.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Sg3uhPh4JXCv2UKfL1xsSGhma1b7oSaAiv1-I66ZY2kkj6YUObBIwSSAcf210Hj2SgcY9KZQU5YB2RFfDRk9hxDOEX7xRPTsz2LB4Iyz7V0VsC1H2512o-jpdUvPwO27cwFb5Afsv3Jvt6Q6lH0c740hGysoVpmXj92cwVFubtgqxsZ--Upv0hI0JrI-OYYvsbIW-UNeiOMuyyvmVdIeYlFSiz3WV-ltek-oSgDJMDnMxqiZEJgX2tHXZIriA_SDkrJxFwGR5n1LOl3EWJcRA5pEBOxBq314664xDMpWxbDj4ICQXgypdrjWs9IsV77UHl3Eaa4_FwTVos7c_fU5Kg\" src=\"https://cdn4.telesco.pe/file/addf9ecbef.mp4?token=JHE7ZM0a1257My7HbrtmdpOwyIFRLqFPHLdSAprcrp6B_SBVRUmFY5VM6wxt0mEMahdLHoi5qzdrxbtcidbXdW_YHqg8z2N1gnVz51p3kIX5MdaTcGegSpkhNftWW0Ph7lBoBHS6kvktRQQ2Q8fUYmLP5TawtrUfkJczFGY_XF5ScwvZFFmYgaO6N80ABwTWEGRTVwzcu5BaHvr6wYrwCHjVBqwtouLiQrxLA4zGpNjE3hjj3QDIUvnSQ1fyDdR6MICkMGBStpPyQ3dk-COc2MUOgIKDNYID4bsIB01A6QPYcBPHiRuframsA5xmsVbNNhVNeMC26GlVuolUxnN_mQ\" style=\"width: 100%;\"></video><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg\" /></blockquote>",
     "image": "https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg"
-  },
-  {
-    "title": "🖼 Мощный пожар в Ленинградской области — площадь возгорания превысила 60 тысяч кв...",
-    "link": "https://t.me/bazabazon/48461",
-    "published": "Sun, 23 Aug 2026 01:26:03 GMT",
-    "timestamp": 1787448363.0,
-    "source": "TG: Baza",
-    "language": "ru",
-    "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Мощный пожар в Ленинградской области — площадь возгорания превысила 60 тысяч квадратных метров.<br /><br />В Колпино загорелся склад на территории Ижорской промзоны. Размер здания — 680 на 120 метров. Очевидцы сообщают о густом чёрном дыме и запахе гари, который чувствуется за несколько километров.<br /><br />Пожару присвоен четвёртый ранг сложности. На месте работают спасатели и авиация, причины возгорания устанавливаются.<br /><br />Ранее по этому адресу находился логистический центр, где хранили и принимали товары.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"301\" src=\"https://cdn4.telesco.pe/file/VFoNONPaor0vAyBVukv8XsDfNXE2C8upn7Irwe1o-RjKvQym4vky3N1zVfPesKT8_iMGU8X7Dn_sW-9WVxQH3QnZGSyC1qWSjJvaog5EVXcPPnK5JErMSZI1C4zDvnfoTCvJIOL3q85oKMT1l05x3keRUeJiqFs79BQDvB_Zvkc__df3d-5OpMbWzbXa3DKNWjjh6YS-UOrcRjfLQZmRimQGGxmP-sbI7JRrNM2NQKmdsLW2Q8jHf2ZW_kTzka_Co9vEOt28A1BrnlIOQLQZ7Z00TVot7tAMchhODhF_xk2pb21fAf7KNjLLjhbzhLtEVafGQ6rPlxBraIdKRCeCWw.jpg\" width=\"226\" /><img height=\"301\" src=\"https://cdn4.telesco.pe/file/gjX4jHCtOacj2XM9DPstMMGgx6z5eQZ9e6yS1NTMuFqs4Qf71k88g2p90eBntz9OIlp_pS9Fi2uLZBr0UwqRfmZuOicluipg_rdG12Q7GJnU9evOSFH36gzwgVJhOwRIpG3hsjPZ3ss80_-u1bmBip5DMLo22X4w2i_xnxASe4WEis4Xi4R_YPKxoLS1LoPQPsry67cKECa-GWm_skE7qsyVX0NaOtrhFJn9OVzR3C8BGsuLFfeg5guJQfyKwB9WqGGds_ad7rO4Gfeaip0K1fc93GMgCC6puPxIGVs8rjHDd-VrvJRRVWwWruP8_ph0anI-WZ8h7wkFTkzToin2OQ.jpg\" width=\"225\" />",
-    "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Мощный пожар в Ленинградской области — площадь возгорания превысила 60 тысяч квадратных метров.<br /><br />В Колпино загорелся склад на территории Ижорской промзоны. Размер здания — 680 на 120 метров. Очевидцы сообщают о густом чёрном дыме и запахе гари, который чувствуется за несколько километров.<br /><br />Пожару присвоен четвёртый ранг сложности. На месте работают спасатели и авиация, причины возгорания устанавливаются.<br /><br />Ранее по этому адресу находился логистический центр, где хранили и принимали товары.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"301\" src=\"https://cdn4.telesco.pe/file/VFoNONPaor0vAyBVukv8XsDfNXE2C8upn7Irwe1o-RjKvQym4vky3N1zVfPesKT8_iMGU8X7Dn_sW-9WVxQH3QnZGSyC1qWSjJvaog5EVXcPPnK5JErMSZI1C4zDvnfoTCvJIOL3q85oKMT1l05x3keRUeJiqFs79BQDvB_Zvkc__df3d-5OpMbWzbXa3DKNWjjh6YS-UOrcRjfLQZmRimQGGxmP-sbI7JRrNM2NQKmdsLW2Q8jHf2ZW_kTzka_Co9vEOt28A1BrnlIOQLQZ7Z00TVot7tAMchhODhF_xk2pb21fAf7KNjLLjhbzhLtEVafGQ6rPlxBraIdKRCeCWw.jpg\" width=\"226\" /><img height=\"301\" src=\"https://cdn4.telesco.pe/file/gjX4jHCtOacj2XM9DPstMMGgx6z5eQZ9e6yS1NTMuFqs4Qf71k88g2p90eBntz9OIlp_pS9Fi2uLZBr0UwqRfmZuOicluipg_rdG12Q7GJnU9evOSFH36gzwgVJhOwRIpG3hsjPZ3ss80_-u1bmBip5DMLo22X4w2i_xnxASe4WEis4Xi4R_YPKxoLS1LoPQPsry67cKECa-GWm_skE7qsyVX0NaOtrhFJn9OVzR3C8BGsuLFfeg5guJQfyKwB9WqGGds_ad7rO4Gfeaip0K1fc93GMgCC6puPxIGVs8rjHDd-VrvJRRVWwWruP8_ph0anI-WZ8h7wkFTkzToin2OQ.jpg\" width=\"225\" />",
-    "image": "https://cdn4.telesco.pe/file/VFoNONPaor0vAyBVukv8XsDfNXE2C8upn7Irwe1o-RjKvQym4vky3N1zVfPesKT8_iMGU8X7Dn_sW-9WVxQH3QnZGSyC1qWSjJvaog5EVXcPPnK5JErMSZI1C4zDvnfoTCvJIOL3q85oKMT1l05x3keRUeJiqFs79BQDvB_Zvkc__df3d-5OpMbWzbXa3DKNWjjh6YS-UOrcRjfLQZmRimQGGxmP-sbI7JRrNM2NQKmdsLW2Q8jHf2ZW_kTzka_Co9vEOt28A1BrnlIOQLQZ7Z00TVot7tAMchhODhF_xk2pb21fAf7KNjLLjhbzhLtEVafGQ6rPlxBraIdKRCeCWw.jpg"
-  },
-  {
-    "title": "🎬 Силовики нагрянули в популярный московский клуб Simach на Тверском бульваре — веч...",
-    "link": "https://t.me/bazabazon/48460",
-    "published": "Sun, 23 Aug 2026 00:48:19 GMT",
-    "timestamp": 1787446099.0,
-    "source": "TG: Baza",
-    "language": "ru",
-    "description": "<p>Силовики нагрянули в популярный московский клуб Simach на Тверском бульваре — вечеринку остановили.<br /><br />Около часа назад к заведению подъехали несколько машин полиции. Сотрудники зашли внутрь, сейчас двери закрыты — посетителей не впускают и не выпускают. У входа также стоит автозак.<br /><br />Предварительно, силовики проверяют гостей на наличие запрещённых веществ. Сегодня в клубе проходила тематическая вечеринка брюнеток и блондинок — проверка началась примерно через два часа после старта тусовки.<br /><br />Причины рейда пока неизвестны.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/ub1d7h40Y6RAXUp5TjvTIcxIc46YieRU-C-I4HK0cyCufTy2P-UnRIHUxYCmlmQtN0qxQHPGC7Hq6UhCSsqG5cyiceMFpHfLyC3b48YCQJggu_j3To4mAvTvZ8-YIsg2rATSzb58zrWP3EcL9iSNiFcfGBkiRXJsae9vsKz0Td5FO9d-VBWgHm9KZGl1ZoKWe-Ck3G6tCeEqBTLZKnRPAt4sSrfC-Re0rk7RdgMSFsqxmjDvXJSnUs7cT7QEUsib3YzuAVJig1yybhW8orMGH9m9XChguDbIjzIcnonLoE9-NciNm3CpZny24FqCoI42dSO_32vJfSEloAg5HjJQ8w\" src=\"https://cdn4.telesco.pe/file/3f5a56d180.mp4?token=WkQ46bir2HSlpik4oGlkGArrEPkF7kHRH01AxHHpkZJwLLAD2ewrDdvRY43WbIIbce7IB0MebHwV9CYpcsnpJHgTnFZ0Y3sSEsrL0f9VWSiCWGGXks3QIivD9SO2vduQYOP3RZKPGahlhOtbREd9SafBfie82UbDrsmAtpcDJphY3uvwnB4oVHRvrtnaVQt7-q7Q5__o-QgC0tt4lMnKYiJupecTdilrutn7ErmmLuyCTn0tY_SuaTGw_g7NBTNxobf4WovDuv1vvMGGP3tP0W9tFW72ymX6PveJqhBq1-ZLqw0WCeJAfhYsXb9Pw_YQ3D3BXGyD2mAdahPrlj1_Uw\" style=\"width: 100%;\"></video>",
-    "summary": "<p>Силовики нагрянули в популярный московский клуб Simach на Тверском бульваре — вечеринку остановили.<br /><br />Около часа назад к заведению подъехали несколько машин полиции. Сотрудники зашли внутрь, сейчас двери закрыты — посетителей не впускают и не выпускают. У входа также стоит автозак.<br /><br />Предварительно, силовики проверяют гостей на наличие запрещённых веществ. Сегодня в клубе проходила тематическая вечеринка брюнеток и блондинок — проверка началась примерно через два часа после старта тусовки.<br /><br />Причины рейда пока неизвестны.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/ub1d7h40Y6RAXUp5TjvTIcxIc46YieRU-C-I4HK0cyCufTy2P-UnRIHUxYCmlmQtN0qxQHPGC7Hq6UhCSsqG5cyiceMFpHfLyC3b48YCQJggu_j3To4mAvTvZ8-YIsg2rATSzb58zrWP3EcL9iSNiFcfGBkiRXJsae9vsKz0Td5FO9d-VBWgHm9KZGl1ZoKWe-Ck3G6tCeEqBTLZKnRPAt4sSrfC-Re0rk7RdgMSFsqxmjDvXJSnUs7cT7QEUsib3YzuAVJig1yybhW8orMGH9m9XChguDbIjzIcnonLoE9-NciNm3CpZny24FqCoI42dSO_32vJfSEloAg5HjJQ8w\" src=\"https://cdn4.telesco.pe/file/3f5a56d180.mp4?token=WkQ46bir2HSlpik4oGlkGArrEPkF7kHRH01AxHHpkZJwLLAD2ewrDdvRY43WbIIbce7IB0MebHwV9CYpcsnpJHgTnFZ0Y3sSEsrL0f9VWSiCWGGXks3QIivD9SO2vduQYOP3RZKPGahlhOtbREd9SafBfie82UbDrsmAtpcDJphY3uvwnB4oVHRvrtnaVQt7-q7Q5__o-QgC0tt4lMnKYiJupecTdilrutn7ErmmLuyCTn0tY_SuaTGw_g7NBTNxobf4WovDuv1vvMGGP3tP0W9tFW72ymX6PveJqhBq1-ZLqw0WCeJAfhYsXb9Pw_YQ3D3BXGyD2mAdahPrlj1_Uw\" style=\"width: 100%;\"></video>",
-    "image": ""
   },
   {
     "title": "🎬 Вечеринку в популярном московском клубе Simach прервали силовики — около половин...",
@@ -820,20 +864,9 @@
     "timestamp": 1787416268.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p><b>В Обнинске пенсионер словил пи..юлей за модную критику.</b><br /><br />Дед докопался до внешнего вида незнакомой девушки. Та долго не церемонилась — взяла сумочку и начала ей бить старика. Потом разнесла стекло в лифте.<br /><br />Её парень всё это время стоял рядом и смотрел. Наверное дома тож получил пи..юлей.</p><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/mjqi9ZrlVRtWOOukGdarDPOBzJuF3TdRA6T-fOTVkzQDIo8wmZqtgSMKE4XcnWnM9XxxaN064wueYuixBJkRJNl8FTPEzhmutv5BPpMJcy8asStlCqTi4kDgKU8hxuTRCyl6GcOUEhMirGfCFkLyUIt2ElpU_9q1UFnaziMmp4GJiJqx5LlM6rCKyWWK2TdUR0W8hmIlDfc5kuwW_1-zhxqyasmUcZ6ksa3SE5LZiPuxHoKoe-KgHMXhEkHQCn7pMhCkQINOxyBOdBWevr5VIsMwKjehaDYqPe8CCVdKfd1olpTY_zKWTky_W19GQ434Dt2eBIrhblu6qdkNoGaOQw\" /></blockquote>",
-    "summary": "<p><b>В Обнинске пенсионер словил пи..юлей за модную критику.</b><br /><br />Дед докопался до внешнего вида незнакомой девушки. Та долго не церемонилась — взяла сумочку и начала ей бить старика. Потом разнесла стекло в лифте.<br /><br />Её парень всё это время стоял рядом и смотрел. Наверное дома тож получил пи..юлей.</p><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/mjqi9ZrlVRtWOOukGdarDPOBzJuF3TdRA6T-fOTVkzQDIo8wmZqtgSMKE4XcnWnM9XxxaN064wueYuixBJkRJNl8FTPEzhmutv5BPpMJcy8asStlCqTi4kDgKU8hxuTRCyl6GcOUEhMirGfCFkLyUIt2ElpU_9q1UFnaziMmp4GJiJqx5LlM6rCKyWWK2TdUR0W8hmIlDfc5kuwW_1-zhxqyasmUcZ6ksa3SE5LZiPuxHoKoe-KgHMXhEkHQCn7pMhCkQINOxyBOdBWevr5VIsMwKjehaDYqPe8CCVdKfd1olpTY_zKWTky_W19GQ434Dt2eBIrhblu6qdkNoGaOQw\" /></blockquote>",
-    "image": "https://cdn4.telesco.pe/file/mjqi9ZrlVRtWOOukGdarDPOBzJuF3TdRA6T-fOTVkzQDIo8wmZqtgSMKE4XcnWnM9XxxaN064wueYuixBJkRJNl8FTPEzhmutv5BPpMJcy8asStlCqTi4kDgKU8hxuTRCyl6GcOUEhMirGfCFkLyUIt2ElpU_9q1UFnaziMmp4GJiJqx5LlM6rCKyWWK2TdUR0W8hmIlDfc5kuwW_1-zhxqyasmUcZ6ksa3SE5LZiPuxHoKoe-KgHMXhEkHQCn7pMhCkQINOxyBOdBWevr5VIsMwKjehaDYqPe8CCVdKfd1olpTY_zKWTky_W19GQ434Dt2eBIrhblu6qdkNoGaOQw"
-  },
-  {
-    "title": "🎬 Улан-Удэ прямо сейчас уходит под воду из-за погодного апокалипсиса. Местные сид...",
-    "link": "https://t.me/mash/77159",
-    "published": "Sat, 22 Aug 2026 16:06:29 GMT",
-    "timestamp": 1787414789.0,
-    "source": "TG: Mash",
-    "language": "ru",
-    "description": "<p>Улан-Удэ прямо сейчас уходит под воду из-за погодного апокалипсиса. Местные сидят без электричества из-за замыкания на подстанциях, машины засасывает в трёхметровые овраги. <br /><br />С гор сошли селевые потоки — грунт смыло вместе с припаркованными авто. С десяток ласточек провалились в промоины, а в посёлке Таёжном одну почти по окна похоронило в песке (на видео). На Мясокомбинате шквал сорвал кусок крыши и снёс угол здания прямо на тротуар.<br /><br />Администрация просит переждать этот погодный ад дома. После того как небеса перестанут топить город, коммунальщики выйдут откачивать воду и разгребать последствия.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/riHOghem0Bf-SXe3QizoFOnOmERUqkBQsvAvHMZGrO3Vade42Jf5hwEsJPSb8IgOzSIxweNNFd7rgujhGGEJHEi6HDxLrRxAGIMAxlUF8OQFxRpk7LJGcBZjWV7a5v5bRD3ub0J2Sqd-5ihjXn8BA2VI_cINgvkx6k5JiYhUW0UdIwX-uye4eoLATMIkhPWyr9t-Xzx7WUXubxxohF_JCK76ZLFZo1tTjU0JYS9c5QJMqgmrDj7T9cr7g3i-KNqwbCKVbBpr_YkRvu26NIKVcw4ALwRQGRTkJfj0maUz6-cOHi3XCg_OSSwDmLQJD7WnphVkonM503lo9HDtgiec1g\" src=\"https://cdn4.telesco.pe/file/21d4b8c716.mp4?token=WrIyIxvO9B4bxfjz8-5eO3NciKfnnmfjdrBEoRDFpUIocbwUVjVzhkKUdOy9B8xJoblcV1cBj4EFR1yrxxWbVwQJxO_l8oM8wIKcgqkL4fTsBKa_08LFekMKHsqpGdhS_p37H1_P2JA-dmtk16Axzto1Rro1-kVt3z9Kokdk_32eqtnRB7i5UjpBg-51G5DPhv91OH7LB9M-esG8mZABamIzG-N22VF0uYMJrR50zDBVPI0pI5kYxnKQuuHRVK0xTRDITRcY1Sw1wRP0W3MpRHQ__TdljV4-ki1zvvZ7dohei0R8uQ2FEJFw3ePqrUzryY6kZ-Yxb7v-Lvr9pAPXNoi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ\" style=\"width: 100%;\"></video>",
-    "summary": "<p>Улан-Удэ прямо сейчас уходит под воду из-за погодного апокалипсиса. Местные сидят без электричества из-за замыкания на подстанциях, машины засасывает в трёхметровые овраги. <br /><br />С гор сошли селевые потоки — грунт смыло вместе с припаркованными авто. С десяток ласточек провалились в промоины, а в посёлке Таёжном одну почти по окна похоронило в песке (на видео). На Мясокомбинате шквал сорвал кусок крыши и снёс угол здания прямо на тротуар.<br /><br />Администрация просит переждать этот погодный ад дома. После того как небеса перестанут топить город, коммунальщики выйдут откачивать воду и разгребать последствия.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/riHOghem0Bf-SXe3QizoFOnOmERUqkBQsvAvHMZGrO3Vade42Jf5hwEsJPSb8IgOzSIxweNNFd7rgujhGGEJHEi6HDxLrRxAGIMAxlUF8OQFxRpk7LJGcBZjWV7a5v5bRD3ub0J2Sqd-5ihjXn8BA2VI_cINgvkx6k5JiYhUW0UdIwX-uye4eoLATMIkhPWyr9t-Xzx7WUXubxxohF_JCK76ZLFZo1tTjU0JYS9c5QJMqgmrDj7T9cr7g3i-KNqwbCKVbBpr_YkRvu26NIKVcw4ALwRQGRTkJfj0maUz6-cOHi3XCg_OSSwDmLQJD7WnphVkonM503lo9HDtgiec1g\" src=\"https://cdn4.telesco.pe/file/21d4b8c716.mp4?token=WrIyIxvO9B4bxfjz8-5eO3NciKfnnmfjdrBEoRDFpUIocbwUVjVzhkKUdOy9B8xJoblcV1cBj4EFR1yrxxWbVwQJxO_l8oM8wIKcgqkL4fTsBKa_08LFekMKHsqpGdhS_p37H1_P2JA-dmtk16Axzto1Rro1-kVt3z9Kokdk_32eqtnRB7i5UjpBg-51G5DPhv91OH7LB9M-esG8mZABamIzG-N22VF0uYMJrR50zDBVPI0pI5kYxnKQuuHRVK0xTRDITRcY1Sw1wRP0W3MpRHQ__TdljV4-ki1zvvZ7dohei0R8uQ2FEJFw3ePqrUzryY6kZ-Yxb7v-Lvr9pAPXNoi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ\" style=\"width: 100%;\"></video>",
-    "image": ""
+    "description": "<p><b>В Обнинске пенсионер словил пи..юлей за модную критику.</b><br /><br />Дед докопался до внешнего вида незнакомой девушки. Та долго не церемонилась — взяла сумочку и начала ей бить старика. Потом разнесла стекло в лифте.<br /><br />Её парень всё это время стоял рядом и смотрел. Наверное дома тож получил пи..юлей.</p><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/pw2sYu40cbd1x9Y1tusCCJoTpS_CxVCf05CQLuCllS0Q4VXviUkl1gVMgNgeX7JsY_eXOd4GvjFNyYUlEbJi5vXwXbw-mJXrrlMsf7GzFC8KS1LETtUwfpBWAxcoAu0lfLeXoXOQuZfKoUxI6D1aysW-SMXdiM6EicgL3V4ogBFv1GEkDB52OEuDtQi6oPdTo-itgU87gHVSNhqe9YNriPeHKxhpCa2Xh-FX9KUEOLDxWXvxVIh5ov-Yw4wAshDRYHfaWmGlDFX_DJX4EJQX2EijdjwiQmexESv6YQdTsvCb2M2IZCBM9X1MBhIdJE3I82jDeH4FxbRgNe5GCyf1zA\" /></blockquote>",
+    "summary": "<p><b>В Обнинске пенсионер словил пи..юлей за модную критику.</b><br /><br />Дед докопался до внешнего вида незнакомой девушки. Та долго не церемонилась — взяла сумочку и начала ей бить старика. Потом разнесла стекло в лифте.<br /><br />Её парень всё это время стоял рядом и смотрел. Наверное дома тож получил пи..юлей.</p><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/pw2sYu40cbd1x9Y1tusCCJoTpS_CxVCf05CQLuCllS0Q4VXviUkl1gVMgNgeX7JsY_eXOd4GvjFNyYUlEbJi5vXwXbw-mJXrrlMsf7GzFC8KS1LETtUwfpBWAxcoAu0lfLeXoXOQuZfKoUxI6D1aysW-SMXdiM6EicgL3V4ogBFv1GEkDB52OEuDtQi6oPdTo-itgU87gHVSNhqe9YNriPeHKxhpCa2Xh-FX9KUEOLDxWXvxVIh5ov-Yw4wAshDRYHfaWmGlDFX_DJX4EJQX2EijdjwiQmexESv6YQdTsvCb2M2IZCBM9X1MBhIdJE3I82jDeH4FxbRgNe5GCyf1zA\" /></blockquote>",
+    "image": "https://cdn4.telesco.pe/file/pw2sYu40cbd1x9Y1tusCCJoTpS_CxVCf05CQLuCllS0Q4VXviUkl1gVMgNgeX7JsY_eXOd4GvjFNyYUlEbJi5vXwXbw-mJXrrlMsf7GzFC8KS1LETtUwfpBWAxcoAu0lfLeXoXOQuZfKoUxI6D1aysW-SMXdiM6EicgL3V4ogBFv1GEkDB52OEuDtQi6oPdTo-itgU87gHVSNhqe9YNriPeHKxhpCa2Xh-FX9KUEOLDxWXvxVIh5ov-Yw4wAshDRYHfaWmGlDFX_DJX4EJQX2EijdjwiQmexESv6YQdTsvCb2M2IZCBM9X1MBhIdJE3I82jDeH4FxbRgNe5GCyf1zA"
   },
   {
     "title": "🎬 В Москве зумеры ограбили школьника ради понтов перед подругой.",
@@ -842,8 +875,8 @@
     "timestamp": 1787411803.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p><b>В Москве зумеры ограбили школьника ради понтов перед подругой. </b><br /><br />Одного из нападавших уже задержали — им оказался 15-летний подросток из Оренбургской области, который приехал в столицу на лето к дедушке.</p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/u6p85_r_dJ5PXwi7plJPksM3aa9L-ImEk1pFmwtr7QGHFn7ALwaSmcRaWqrv_jkgzbNCKQ7lDysLqOlpwBxWSsZrqL07tndGUkSTNFlq6qqrz9sAdpYl5Fyo0kX9gFUWzjAoLWaDSnRonr_VTPB-tWppFHosOkqunJcv1V8xs6lkTBKQE9jvcn7szo6zQbHzs1COB5r88YKwe05V4UYZukXKiEaBXWFzEeK2L6NYfkPKT9jcXB-B8gt6nWSfaiCOFQmMe30_jDoTQ5qDBQk0hxHlESkgsOQe0BwNDe5e7zEtf6OEonhGU9XEFEZiBuvr_QEfW0uFruc43p09G-S8cQ\" src=\"https://cdn4.telesco.pe/file/3682106548.mp4?token=O6gA6hi7bVW22Ijhb8GuwyfuoPoYJPRO0d8TyN1R7kuvtk9TplGgMDsyjz_7LM-kxV2b9hQlf8QSiNpcsQV-cdtfSLKVVpA73ts61uKAeeR-ervBWiA8wCZGB7numFh-41tgZFK5_CL0xZarfSmXyFEXqbmoEQQVCqssMGB3fSO5yEmezAdVCxY8OnZzcCZQFpdgpU-aLxKFnq_m2ZD8ZwlTnd1x2jZ51Y9l3UShfjdVMZhxMqTQXB5xPJWqGpvjWCYLL6w3GCbFKZ7-AR3Tcqwqs-IkVkC5VTT8G58VGBUpMlW6c7fNqSkEBvFpcFLvO707lUFFFmwiHjp7udwydA\" style=\"width: 100%;\"></video>",
-    "summary": "<p><b>В Москве зумеры ограбили школьника ради понтов перед подругой. </b><br /><br />Одного из нападавших уже задержали — им оказался 15-летний подросток из Оренбургской области, который приехал в столицу на лето к дедушке.</p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/u6p85_r_dJ5PXwi7plJPksM3aa9L-ImEk1pFmwtr7QGHFn7ALwaSmcRaWqrv_jkgzbNCKQ7lDysLqOlpwBxWSsZrqL07tndGUkSTNFlq6qqrz9sAdpYl5Fyo0kX9gFUWzjAoLWaDSnRonr_VTPB-tWppFHosOkqunJcv1V8xs6lkTBKQE9jvcn7szo6zQbHzs1COB5r88YKwe05V4UYZukXKiEaBXWFzEeK2L6NYfkPKT9jcXB-B8gt6nWSfaiCOFQmMe30_jDoTQ5qDBQk0hxHlESkgsOQe0BwNDe5e7zEtf6OEonhGU9XEFEZiBuvr_QEfW0uFruc43p09G-S8cQ\" src=\"https://cdn4.telesco.pe/file/3682106548.mp4?token=O6gA6hi7bVW22Ijhb8GuwyfuoPoYJPRO0d8TyN1R7kuvtk9TplGgMDsyjz_7LM-kxV2b9hQlf8QSiNpcsQV-cdtfSLKVVpA73ts61uKAeeR-ervBWiA8wCZGB7numFh-41tgZFK5_CL0xZarfSmXyFEXqbmoEQQVCqssMGB3fSO5yEmezAdVCxY8OnZzcCZQFpdgpU-aLxKFnq_m2ZD8ZwlTnd1x2jZ51Y9l3UShfjdVMZhxMqTQXB5xPJWqGpvjWCYLL6w3GCbFKZ7-AR3Tcqwqs-IkVkC5VTT8G58VGBUpMlW6c7fNqSkEBvFpcFLvO707lUFFFmwiHjp7udwydA\" style=\"width: 100%;\"></video>",
+    "description": "<p><b>В Москве зумеры ограбили школьника ради понтов перед подругой. </b><br /><br />Одного из нападавших уже задержали — им оказался 15-летний подросток из Оренбургской области, который приехал в столицу на лето к дедушке.</p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/tZUjld-TqKn8f6uF0UyM2CcZuwgTYMq4RTAHzhtVZ9nHEwSCCexMzv5JhqDdU6z74TrAOmSEnyWr7C6gN4_fwtb4eUfHoZ7V18aUb5BEFxmXEYdblbrjjpyp0NcxnIUawISy-f9zSG4IwUjKEC8ZvDk9AZjZlWeKMPAGsAzYkHGfSUEBpDajtsGaRIxVdRov1p5aCcGhUv1aX0-8emHCiDjVKJF8n59SPbV34CcN5fOcKKnb-SrZU3qWsa87YMRE5E5SGOlEG3xB_tD5MvBjBM46X9hPMhYtIZJwFVeMxpe2hMaiFMev5sxyzoO-Q-6GcW2wdynUQWPD2ARtGK4aQQ\" src=\"https://cdn4.telesco.pe/file/3682106548.mp4?token=AVqFA9Iw-el1yz2qF5d_HRHS8Y8n5L3_pHNAJGId73sACZX3XPGJp6gF8dR1aCvMxBClqwuLms2wZGhysoo9a-KEG4GZ4KNnRzF1kdMEeYCRzEbq1FzyqpST81s6zqr8aOt4GjpP9qymNbOGvXcFp5I8pFvhe32T0WT89QPgD9kHOL4soylvbHd8QAfGJIJcUdKONYmqAulqFj1PA3l8KpY2rehfUcvxFwpV0ahCz0ZipF8DeaklvtAWqAMDUputPwOiyQ1tng--RZkSL97h8If3hD5mtsniE4pfrA5SI397b6viaAuLRd8w0a9kmpHp5vd-kBA2zUvi0GMUY3Khcw\" style=\"width: 100%;\"></video>",
+    "summary": "<p><b>В Москве зумеры ограбили школьника ради понтов перед подругой. </b><br /><br />Одного из нападавших уже задержали — им оказался 15-летний подросток из Оренбургской области, который приехал в столицу на лето к дедушке.</p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/tZUjld-TqKn8f6uF0UyM2CcZuwgTYMq4RTAHzhtVZ9nHEwSCCexMzv5JhqDdU6z74TrAOmSEnyWr7C6gN4_fwtb4eUfHoZ7V18aUb5BEFxmXEYdblbrjjpyp0NcxnIUawISy-f9zSG4IwUjKEC8ZvDk9AZjZlWeKMPAGsAzYkHGfSUEBpDajtsGaRIxVdRov1p5aCcGhUv1aX0-8emHCiDjVKJF8n59SPbV34CcN5fOcKKnb-SrZU3qWsa87YMRE5E5SGOlEG3xB_tD5MvBjBM46X9hPMhYtIZJwFVeMxpe2hMaiFMev5sxyzoO-Q-6GcW2wdynUQWPD2ARtGK4aQQ\" src=\"https://cdn4.telesco.pe/file/3682106548.mp4?token=AVqFA9Iw-el1yz2qF5d_HRHS8Y8n5L3_pHNAJGId73sACZX3XPGJp6gF8dR1aCvMxBClqwuLms2wZGhysoo9a-KEG4GZ4KNnRzF1kdMEeYCRzEbq1FzyqpST81s6zqr8aOt4GjpP9qymNbOGvXcFp5I8pFvhe32T0WT89QPgD9kHOL4soylvbHd8QAfGJIJcUdKONYmqAulqFj1PA3l8KpY2rehfUcvxFwpV0ahCz0ZipF8DeaklvtAWqAMDUputPwOiyQ1tng--RZkSL97h8If3hD5mtsniE4pfrA5SI397b6viaAuLRd8w0a9kmpHp5vd-kBA2zUvi0GMUY3Khcw\" style=\"width: 100%;\"></video>",
     "image": ""
   },
   {
@@ -856,17 +889,6 @@
     "description": "Её ввёл Госдеп США в январе 2026 года.\n                                                    <img alt=\"alt\" height=\"630\" src=\"https://leonardo.osnova.io/b7a74ea0-87df-5ecc-b8a9-ca3837dea9cd/-/resize/1300/\" width=\"1200\" />",
     "summary": "Её ввёл Госдеп США в январе 2026 года.\n                                                    <img alt=\"alt\" height=\"630\" src=\"https://leonardo.osnova.io/b7a74ea0-87df-5ecc-b8a9-ca3837dea9cd/-/resize/1300/\" width=\"1200\" />",
     "image": "https://leonardo.osnova.io/b7a74ea0-87df-5ecc-b8a9-ca3837dea9cd/"
-  },
-  {
-    "title": "Ранний доступ к бете Call of Duty: Modern Warfare 4 стартовал с «в основном отрицательными» отзывами",
-    "link": "https://dtf.ru/games/5255107-rannij-dostup-k-bete-call-of-duty-modern-warfare-4?from=rss",
-    "published": "Sat, 22 Aug 2026 17:46:10 +0300",
-    "timestamp": 1787409970.0,
-    "source": "DTF",
-    "language": "ru",
-    "description": "В сети тем временем появился геймплей с Switch 2 и прохождение сюжетной миссии.\n                                                    <img alt=\"alt\" height=\"720\" src=\"https://leonardo.osnova.io/74acad8e-8358-5c2a-aa06-0c7e73d8d193/-/resize/1300/\" width=\"1280\" />",
-    "summary": "В сети тем временем появился геймплей с Switch 2 и прохождение сюжетной миссии.\n                                                    <img alt=\"alt\" height=\"720\" src=\"https://leonardo.osnova.io/74acad8e-8358-5c2a-aa06-0c7e73d8d193/-/resize/1300/\" width=\"1280\" />",
-    "image": "https://leonardo.osnova.io/74acad8e-8358-5c2a-aa06-0c7e73d8d193/"
   },
   {
     "title": "🎬 «Не нужна мне твоя банка кофе!»",
@@ -946,17 +968,6 @@
     "image": "https://cdn4.telesco.pe/file/c6-Q9RidP_86qxjSzlK-LqR1WJr7R3nSbiW3edCpAr1cGcOcGrd6jaVvlxLsWL3RFfnnQTyNXw-efoY-Z8aH20If_qt_CmwejHLFWsyUfBoF9adoxGtoujOONtIuOYZAcvIGw9ca-CycebjqoPOC8GW0nNGjoX46HU7f9d3tMRr9879klIbijsM9a8h1Yz0tD4tjmHohowp1FIRxfIw8tgD26JKADU_fTUDwQd6VtmtLDBXhW3BX-7FaWeSDFBKXoljQy8S5zUqQovXamVhngkpAL07ip4cs5B_k240YdlHeKbe90hIPsoolHYwQ3k_cJLIswOr2jupnCSykq2Ot_A.jpg"
   },
   {
-    "title": "Ozon сообщил об атаке беспилотников на склад в Самарской области — товары оттуда сняли с онлайн-витрины",
-    "link": "https://vc.ru/marketplace/3091703-ataka-bespilotnikov-na-sklad-ozon-v-samarskoy-oblasti?from=rss",
-    "published": "Sat, 22 Aug 2026 10:00:51 +0300",
-    "timestamp": 1787382051.0,
-    "source": "VC.ru",
-    "language": "ru",
-    "description": "Размер ущерба пока неизвестен.\n                                                    <img alt=\"alt\" height=\"900\" src=\"https://leonardo.osnova.io/f8325c6a-9333-5aaf-a85b-a81acde618d6/-/resize/1300/\" width=\"1280\" />",
-    "summary": "Размер ущерба пока неизвестен.\n                                                    <img alt=\"alt\" height=\"900\" src=\"https://leonardo.osnova.io/f8325c6a-9333-5aaf-a85b-a81acde618d6/-/resize/1300/\" width=\"1280\" />",
-    "image": "https://leonardo.osnova.io/f8325c6a-9333-5aaf-a85b-a81acde618d6/"
-  },
-  {
     "title": "🖼 Идеальную закуску для спортсменов нашли в магазинах — 62 грамма белка на 100 грам...",
     "link": "https://t.me/topor/51970",
     "published": "Sat, 22 Aug 2026 06:11:01 GMT",
@@ -966,17 +977,6 @@
     "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Идеальную закуску для спортсменов нашли в магазинах — <b>62 грамма белка на 100 грамм. <br /></b><br />Но есть один нюанс: это сосиски для собак.</div><p></p><img height=\"487\" src=\"https://cdn4.telesco.pe/file/D6YpA1TL07P8k2rvpzcnew-KWS7lr0lGEVXJySaP7js2AvOYPAQxACmEv9WpLeuazlrFMsE7-VphSQi9KzN4dQaVgKqa79yu1uEE-0rgxj7mKgzRxv9iThU3ZwkWcOT6JVgny4xGFYtJm9FA0afqdfGmFREjjAeNDbBGBlrqy5u7JAqtv5icN8Hs5SCWVe45m6CGgDJQbohrt1QkxEc21r8jMsVtqEw_2CFb6eXq7gxzPY1w3lbq-G9kRn_aEYUbukRg_rEd2VKvhozcXsOiuaa2tmmU1gBmqBFacplD2ep_DcdXwgI2ZYyPW8AcFaT3MoT85AXArmrORzlL1ncSvg.jpg\" width=\"225\" /><img height=\"487\" src=\"https://cdn4.telesco.pe/file/RdTvFBezmpWThkLqCvvDzMKSkR6SQLVUq5Eu1PgCzFMNnFQqA0Wu36WtFZILpeSEghN4giC2s01vdwswz5TVI7y7qCEcJ6q1dNN_nuBY5J6L2wd7_6-f7lr2yUT7ljDVF7PHPoEFrYikrZMhYS4HhQcgYub2c-Z1NRG9SwMiNFJypjrB5cml1ISvJBug9Tw46yhNodEfU4stdvip4EtQ3kr4aQ1IQBGuDS_npwJwBMTKoV1Auxs5WmDNd5aGwjnlReRL8tuLdnjcjibdu8PBt-op5HXkOh-gB3dRiVjuLtCy_FTftPDP0EzR6R6ZlLHmkt9A0bRhqC8zrlXsLRy2Nw.jpg\" width=\"226\" />",
     "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Идеальную закуску для спортсменов нашли в магазинах — <b>62 грамма белка на 100 грамм. <br /></b><br />Но есть один нюанс: это сосиски для собак.</div><p></p><img height=\"487\" src=\"https://cdn4.telesco.pe/file/D6YpA1TL07P8k2rvpzcnew-KWS7lr0lGEVXJySaP7js2AvOYPAQxACmEv9WpLeuazlrFMsE7-VphSQi9KzN4dQaVgKqa79yu1uEE-0rgxj7mKgzRxv9iThU3ZwkWcOT6JVgny4xGFYtJm9FA0afqdfGmFREjjAeNDbBGBlrqy5u7JAqtv5icN8Hs5SCWVe45m6CGgDJQbohrt1QkxEc21r8jMsVtqEw_2CFb6eXq7gxzPY1w3lbq-G9kRn_aEYUbukRg_rEd2VKvhozcXsOiuaa2tmmU1gBmqBFacplD2ep_DcdXwgI2ZYyPW8AcFaT3MoT85AXArmrORzlL1ncSvg.jpg\" width=\"225\" /><img height=\"487\" src=\"https://cdn4.telesco.pe/file/RdTvFBezmpWThkLqCvvDzMKSkR6SQLVUq5Eu1PgCzFMNnFQqA0Wu36WtFZILpeSEghN4giC2s01vdwswz5TVI7y7qCEcJ6q1dNN_nuBY5J6L2wd7_6-f7lr2yUT7ljDVF7PHPoEFrYikrZMhYS4HhQcgYub2c-Z1NRG9SwMiNFJypjrB5cml1ISvJBug9Tw46yhNodEfU4stdvip4EtQ3kr4aQ1IQBGuDS_npwJwBMTKoV1Auxs5WmDNd5aGwjnlReRL8tuLdnjcjibdu8PBt-op5HXkOh-gB3dRiVjuLtCy_FTftPDP0EzR6R6ZlLHmkt9A0bRhqC8zrlXsLRy2Nw.jpg\" width=\"226\" />",
     "image": "https://cdn4.telesco.pe/file/D6YpA1TL07P8k2rvpzcnew-KWS7lr0lGEVXJySaP7js2AvOYPAQxACmEv9WpLeuazlrFMsE7-VphSQi9KzN4dQaVgKqa79yu1uEE-0rgxj7mKgzRxv9iThU3ZwkWcOT6JVgny4xGFYtJm9FA0afqdfGmFREjjAeNDbBGBlrqy5u7JAqtv5icN8Hs5SCWVe45m6CGgDJQbohrt1QkxEc21r8jMsVtqEw_2CFb6eXq7gxzPY1w3lbq-G9kRn_aEYUbukRg_rEd2VKvhozcXsOiuaa2tmmU1gBmqBFacplD2ep_DcdXwgI2ZYyPW8AcFaT3MoT85AXArmrORzlL1ncSvg.jpg"
-  },
-  {
-    "title": "🖼 Дети поколения альфа и бета будут жить до 100 лет, прогнозирует Минздрав России.",
-    "link": "https://t.me/topor/51968",
-    "published": "Fri, 21 Aug 2026 19:34:09 GMT",
-    "timestamp": 1787340849.0,
-    "source": "TG: ТОПОР",
-    "language": "ru",
-    "description": "<p><b>Дети поколения альфа и бета будут жить до 100 лет</b>, прогнозирует Минздрав России. <br /><br />Это станет возможным благодаря развитию генной инженерии.<br /><br />Миллениалы, что с лицом?</p><img height=\"418\" src=\"https://cdn4.telesco.pe/file/Cvos2eAPRAhtEWcfFWNiUe7KJ9tHW78uwQ1vYrdsJ_0NdeOxJxpBghKDfClJTfwVo8j7WDdQENCoD5ohPo28nQO5EoXK-FimAtELLqZVRlQQdfwTYsYMyGG2zjvtWVfUeKn7flPrnrexrJ5BO1wtUTqvR0LmZrO31mIJ58wbshzdkGDRwjZFiJHuPqIeTSYZk21mjLiZWzbh-5iNv6uJ8XucYe25gpwoYsioqMPmpuqJw9xV5PFJBPdtwta5_rlOVchncEwMiY64EdKHK2CovRAyyEnuuTtdOCV9SaBak1WbvU0CDwz0uoFU0zQn5xei_SDFc6UqQWXV6OuxRBzZFQ.jpg\" width=\"800\" />",
-    "summary": "<p><b>Дети поколения альфа и бета будут жить до 100 лет</b>, прогнозирует Минздрав России. <br /><br />Это станет возможным благодаря развитию генной инженерии.<br /><br />Миллениалы, что с лицом?</p><img height=\"418\" src=\"https://cdn4.telesco.pe/file/Cvos2eAPRAhtEWcfFWNiUe7KJ9tHW78uwQ1vYrdsJ_0NdeOxJxpBghKDfClJTfwVo8j7WDdQENCoD5ohPo28nQO5EoXK-FimAtELLqZVRlQQdfwTYsYMyGG2zjvtWVfUeKn7flPrnrexrJ5BO1wtUTqvR0LmZrO31mIJ58wbshzdkGDRwjZFiJHuPqIeTSYZk21mjLiZWzbh-5iNv6uJ8XucYe25gpwoYsioqMPmpuqJw9xV5PFJBPdtwta5_rlOVchncEwMiY64EdKHK2CovRAyyEnuuTtdOCV9SaBak1WbvU0CDwz0uoFU0zQn5xei_SDFc6UqQWXV6OuxRBzZFQ.jpg\" width=\"800\" />",
-    "image": "https://cdn4.telesco.pe/file/Cvos2eAPRAhtEWcfFWNiUe7KJ9tHW78uwQ1vYrdsJ_0NdeOxJxpBghKDfClJTfwVo8j7WDdQENCoD5ohPo28nQO5EoXK-FimAtELLqZVRlQQdfwTYsYMyGG2zjvtWVfUeKn7flPrnrexrJ5BO1wtUTqvR0LmZrO31mIJ58wbshzdkGDRwjZFiJHuPqIeTSYZk21mjLiZWzbh-5iNv6uJ8XucYe25gpwoYsioqMPmpuqJw9xV5PFJBPdtwta5_rlOVchncEwMiY64EdKHK2CovRAyyEnuuTtdOCV9SaBak1WbvU0CDwz0uoFU0zQn5xei_SDFc6UqQWXV6OuxRBzZFQ.jpg"
   },
   {
     "title": "Саркоидоз у молодой американки проявился потерей зрения и заложенностью носа",
@@ -1051,9 +1051,9 @@
     "timestamp": 1670324999.0,
     "source": "TG: Life Shot",
     "language": "ru",
-    "description": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/doqNt6GRuA64LsfJ3dmZ1UkNdoqZZ15ytRXtudG-kP3ZddzgBmFePOPRt9Tu4zsz1oIcBH9jTmMaKlzRviH4jS34_UgmMRcwRHks4TUCYfBY5bwSWREzpucyAs3j2HWnIdIirgcCjbgxWBpkUyvTF3liARaaLrok6Fmige-3Vkcrhb26S10P3xsgn0JECMmz2cVxm-9c2pu7aWS2UOM7S8L131Ox0gn2D9jQ8a0QM4L-LMk3_tFXiLS4z9_cEceVX7dUM3aaIJPVx9WNAIXzNmE4vt7IYQTyaUWnxmLBHfvQBRffS5JIGT8DZ_p5HyYSmnPl5VBubE-cVHdHSxbm0A.jpg\" /></blockquote>",
-    "summary": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/doqNt6GRuA64LsfJ3dmZ1UkNdoqZZ15ytRXtudG-kP3ZddzgBmFePOPRt9Tu4zsz1oIcBH9jTmMaKlzRviH4jS34_UgmMRcwRHks4TUCYfBY5bwSWREzpucyAs3j2HWnIdIirgcCjbgxWBpkUyvTF3liARaaLrok6Fmige-3Vkcrhb26S10P3xsgn0JECMmz2cVxm-9c2pu7aWS2UOM7S8L131Ox0gn2D9jQ8a0QM4L-LMk3_tFXiLS4z9_cEceVX7dUM3aaIJPVx9WNAIXzNmE4vt7IYQTyaUWnxmLBHfvQBRffS5JIGT8DZ_p5HyYSmnPl5VBubE-cVHdHSxbm0A.jpg\" /></blockquote>",
-    "image": "https://cdn4.telesco.pe/file/doqNt6GRuA64LsfJ3dmZ1UkNdoqZZ15ytRXtudG-kP3ZddzgBmFePOPRt9Tu4zsz1oIcBH9jTmMaKlzRviH4jS34_UgmMRcwRHks4TUCYfBY5bwSWREzpucyAs3j2HWnIdIirgcCjbgxWBpkUyvTF3liARaaLrok6Fmige-3Vkcrhb26S10P3xsgn0JECMmz2cVxm-9c2pu7aWS2UOM7S8L131Ox0gn2D9jQ8a0QM4L-LMk3_tFXiLS4z9_cEceVX7dUM3aaIJPVx9WNAIXzNmE4vt7IYQTyaUWnxmLBHfvQBRffS5JIGT8DZ_p5HyYSmnPl5VBubE-cVHdHSxbm0A.jpg"
+    "description": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/PeAqUG5xAPBNgS_WSPrQrdwpYQI0QYsYvuR5XOKmw-nawmPG9c_7QAOyvxea2a2iUZMmfSrD--rwoTil33Kp0u7vGyx6UxsSOqyNmgWtO23RVhdd7WrWqvM3uxLoWvHgyFlOVAm67Lqt8_SkEAYh-k1AS9JWebES_CeEtOrzCJQIlcAF3YPYiUrbqlb1-Cp-YwUVqTtFQo2fzEz-yea2p_z3SsJrgpjY_RtwEyA2CBqhghUt6Xcn_Tn5cDLhVhk7fK0H7dHTo8ZGgKlkSObHJzdwgMhWKSFrzNblD0rOhTGf2O-bJZys4vAb6EUCJi1e1yCkvHYu4Kx69oMlHcvIqQ.jpg\" /></blockquote>",
+    "summary": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/PeAqUG5xAPBNgS_WSPrQrdwpYQI0QYsYvuR5XOKmw-nawmPG9c_7QAOyvxea2a2iUZMmfSrD--rwoTil33Kp0u7vGyx6UxsSOqyNmgWtO23RVhdd7WrWqvM3uxLoWvHgyFlOVAm67Lqt8_SkEAYh-k1AS9JWebES_CeEtOrzCJQIlcAF3YPYiUrbqlb1-Cp-YwUVqTtFQo2fzEz-yea2p_z3SsJrgpjY_RtwEyA2CBqhghUt6Xcn_Tn5cDLhVhk7fK0H7dHTo8ZGgKlkSObHJzdwgMhWKSFrzNblD0rOhTGf2O-bJZys4vAb6EUCJi1e1yCkvHYu4Kx69oMlHcvIqQ.jpg\" /></blockquote>",
+    "image": "https://cdn4.telesco.pe/file/PeAqUG5xAPBNgS_WSPrQrdwpYQI0QYsYvuR5XOKmw-nawmPG9c_7QAOyvxea2a2iUZMmfSrD--rwoTil33Kp0u7vGyx6UxsSOqyNmgWtO23RVhdd7WrWqvM3uxLoWvHgyFlOVAm67Lqt8_SkEAYh-k1AS9JWebES_CeEtOrzCJQIlcAF3YPYiUrbqlb1-Cp-YwUVqTtFQo2fzEz-yea2p_z3SsJrgpjY_RtwEyA2CBqhghUt6Xcn_Tn5cDLhVhk7fK0H7dHTo8ZGgKlkSObHJzdwgMhWKSFrzNblD0rOhTGf2O-bJZys4vAb6EUCJi1e1yCkvHYu4Kx69oMlHcvIqQ.jpg"
   },
   {
     "title": "🔧 Channel created",
