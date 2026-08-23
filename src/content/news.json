@@ -1,58 +1,388 @@
 [
   {
-    "title": "С вулкана Толбачик на Камчатке вертолетами вывезли 99 человек",
-    "link": "https://tass.ru/obschestvo/28036669",
-    "published": "Sun, 23 Aug 2026 09:40:54 +0300",
-    "timestamp": 1787467254.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Еще 18 ждут последний рейс",
-    "summary": "Еще 18 ждут последний рейс",
-    "image": ""
-  },
-  {
-    "title": "Малком перешел в эмиратскую «Аль-Джазиру»",
-    "link": "https://lenta.ru/news/2026/08/23/malkom-pereshel-v-emiratskuyu-al-dzhaziru/",
-    "published": "Sun, 23 Aug 2026 09:40:39 +0300",
-    "timestamp": 1787467239.0,
-    "source": "Лента.ру",
+    "title": "В ДНР за сутки уничтожили два беспилотника ВСУ",
+    "link": "https://ria.ru/20260823/dnr-2112619029.html",
+    "published": "Sun, 23 Aug 2026 11:26:36 +0300",
+    "timestamp": 1787473596.0,
+    "source": "РИА Новости",
     "language": "ru",
     "description": "",
     "summary": "",
-    "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png"
+    "image": "https://cdnn21.img.ria.ru/images/07e8/01/13/1922284030_0:196:3072:1924_650x0_80_0_0_eebb9549a7ee811a3493849411da8440.jpg"
   },
   {
-    "title": "ВГА: контратаки на харьковском фронте заканчиваются для ВСУ огромными потерями",
-    "link": "https://tass.ru/armiya-i-opk/28036665",
-    "published": "Sun, 23 Aug 2026 09:40:20 +0300",
-    "timestamp": 1787467220.0,
+    "title": "Ахмат Кадыров гордился бы развитием Чечни, считает Мишустин",
+    "link": "https://ria.ru/20260823/kadyrov-2112618408.html",
+    "published": "Sun, 23 Aug 2026 11:23:32 +0300",
+    "timestamp": 1787473412.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/07ea/04/0e/2087013026_0:84:2989:1765_650x0_80_0_0_06dd0571c48e0f4fdd3432637df65efc.jpg"
+  },
+  {
+    "title": "Страны НАТО пытаются заранее \"отмазаться\" от помощи Киеву, заявил Лавров",
+    "link": "https://ria.ru/20260823/lavrov-2112618234.html",
+    "published": "Sun, 23 Aug 2026 11:22:44 +0300",
+    "timestamp": 1787473364.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://cdnn21.img.ria.ru/images/136527/72/1365277238_0:0:2716:1529_650x0_80_0_0_3c3e578682acda4e4b27513a5ebe166c.jpg"
+  },
+  {
+    "title": "Ушаков: если Путин и Трамп будут на саммите АТЭС в Китае, они неизбежно встретятся",
+    "link": "https://tass.ru/politika/28036867",
+    "published": "Sun, 23 Aug 2026 11:21:30 +0300",
+    "timestamp": 1787473290.0,
     "source": "ТАСС",
     "language": "ru",
-    "description": "Они носят локальный характер, уточнил замглавы военно-гражданской администрации Харьковской области по обороне и безопасности Евгений Лисняк",
-    "summary": "Они носят локальный характер, уточнил замглавы военно-гражданской администрации Харьковской области по обороне и безопасности Евгений Лисняк",
+    "description": "",
+    "summary": "",
+    "image": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20260823/9321583.jpg"
+  },
+  {
+    "title": "Памфилова оценила организацию на выборах в парламент Казахстана",
+    "link": "https://ria.ru/20260823/pamfilova-2112618064.html",
+    "published": "Sun, 23 Aug 2026 11:21:23 +0300",
+    "timestamp": 1787473283.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
     "image": ""
   },
   {
-    "title": "Минобороны отчиталось об ударах по объектам в украинском порту Южный",
-    "link": "https://www.kommersant.ru/doc/8906373",
-    "published": "Sun, 23 Aug 2026 09:39:41 +0300",
-    "timestamp": 1787467181.0,
+    "title": "Visa подала заявки на регистрацию в РФ двух товарных знаков",
+    "link": "https://tass.ru/ekonomika/28036861",
+    "published": "Sun, 23 Aug 2026 11:20:39 +0300",
+    "timestamp": 1787473239.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Речь идет о товарных знаках для широкого спектра товаров и услуг, включая фармацевтическую продукцию, медицинские изделия, одежду",
+    "summary": "Речь идет о товарных знаках для широкого спектра товаров и услуг, включая фармацевтическую продукцию, медицинские изделия, одежду",
+    "image": ""
+  },
+  {
+    "title": "Токаев пообещал назвать вице-президента Казахстана в ближайшие 10 дней",
+    "link": "https://www.kommersant.ru/doc/8906400",
+    "published": "Sun, 23 Aug 2026 11:20:20 +0300",
+    "timestamp": 1787473220.0,
     "source": "Коммерсантъ",
     "language": "ru",
-    "description": "Вооруженные силы России нанесли удары по резервуарам с горюче-смазочными материалами и объектам инфраструктуры в порту Южный в Одесской области. Об этом заявили в российском Минобороны.",
-    "summary": "Вооруженные силы России нанесли удары по резервуарам с горюче-смазочными материалами и объектам инфраструктуры в порту Южный в Одесской области. Об этом заявили в российском Минобороны.",
+    "description": "Президент Казахстана Касым-Жомарт Токаев заявил, что имя будущего вице-президента страны станет известно в течение ближайшей недели или 10 дней. Об этом он сообщил после голосования на избирательном участке.",
+    "summary": "Президент Казахстана Касым-Жомарт Токаев заявил, что имя будущего вице-президента страны станет известно в течение ближайшей недели или 10 дней. Об этом он сообщил после голосования на избирательном участке.",
     "image": ""
   },
   {
-    "title": "В МИД рассказали об обеспечении безопасности выборов в Госдуму за границей",
-    "link": "https://lenta.ru/news/2026/08/23/v-mid-rasskazali-ob-obespechenii-bezopasnosti-vyborov-v-gosdumu-za-granitsey/",
-    "published": "Sun, 23 Aug 2026 09:37:57 +0300",
-    "timestamp": 1787467077.0,
+    "title": "Токаев высказался о назначении вице-президента",
+    "link": "https://lenta.ru/news/2026/08/23/tokaev-vyskazalsya-o-naznachenii-vitse-prezidenta/",
+    "published": "Sun, 23 Aug 2026 11:20:03 +0300",
+    "timestamp": 1787473203.0,
     "source": "Лента.ру",
     "language": "ru",
     "description": "",
     "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/23/09/20260823093017906/pic_43b6977102aa27d002b6ab86814004d5.jpg"
+    "image": "https://icdn.lenta.ru/images/2026/08/23/11/20260823111753562/pic_ca25dfc3b2bf9dc02c5a0cec8412a3bb.jpg"
+  },
+  {
+    "title": "Токаев проголосовал на выборах в Казахстане",
+    "link": "https://ria.ru/20260823/tokaev-2112617803.html",
+    "published": "Sun, 23 Aug 2026 11:19:08 +0300",
+    "timestamp": 1787473148.0,
+    "source": "РИА Новости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "В России оценили изменения отношений с Казахстаном после выборов",
+    "link": "https://lenta.ru/news/2026/08/23/v-rossii-otsenili-izmeneniya-otnosheniy-s-kazahstanom-posle-vyborov/",
+    "published": "Sun, 23 Aug 2026 11:18:49 +0300",
+    "timestamp": 1787473129.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/11/20260823111212901/pic_ad099a2b0c431db1b4397beeefca2808.jpg"
+  },
+  {
+    "title": "В Минобороны ФРГ объяснили, почему закупка оружия не работает как IKEA",
+    "link": "https://www.rbc.ru/politics/04/03/2026/69a802449a7947245d9dad3e",
+    "published": "Sun, 23 Aug 2026 11:18:20 +0300",
+    "timestamp": 1787473100.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "В текущем году бундесвер получит новые Leopard, пять самолетов Poseidon и первый F-35, а также беспилотники и боеприпасы. При этом восстановление оборонной промышленности Германии после ее сокращения на две трети потребует времени",
+    "summary": "В текущем году бундесвер получит новые Leopard, пять самолетов Poseidon и первый F-35, а также беспилотники и боеприпасы. При этом восстановление оборонной промышленности Германии после ее сокращения на две трети потребует времени",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/1/97/347874709148971.jpeg"
+  },
+  {
+    "title": "Утечка: Mewgenics выйдет на Xbox 8 сентября",
+    "link": "https://dtf.ru/games/5256328-utechka-mewgenics-vyidet-na-xbox-8-sentyabrya?from=rss",
+    "published": "Sun, 23 Aug 2026 11:16:12 +0300",
+    "timestamp": 1787472972.0,
+    "source": "DTF",
+    "language": "ru",
+    "description": "Вероятно, и на других консолях тоже.\n                                                    <img alt=\"alt\" height=\"900\" src=\"https://leonardo.osnova.io/0a5fc11d-758b-5f8a-87f4-364d81b33437/-/resize/1300/\" width=\"1280\" />",
+    "summary": "Вероятно, и на других консолях тоже.\n                                                    <img alt=\"alt\" height=\"900\" src=\"https://leonardo.osnova.io/0a5fc11d-758b-5f8a-87f4-364d81b33437/-/resize/1300/\" width=\"1280\" />",
+    "image": "https://leonardo.osnova.io/0a5fc11d-758b-5f8a-87f4-364d81b33437/"
+  },
+  {
+    "title": "Мишустин: Ахмат-Хаджи Кадыров сделал все, чтобы Чечня развивалась",
+    "link": "https://tass.ru/politika/28036847",
+    "published": "Sun, 23 Aug 2026 11:10:50 +0300",
+    "timestamp": 1787472650.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Премьер-министр познакомился с бывшим главой Чеченской Республики в начале 2000-х годов",
+    "summary": "Премьер-министр познакомился с бывшим главой Чеченской Республики в начале 2000-х годов",
+    "image": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20241223/7980953.jpg"
+  },
+  {
+    "title": "Times узнала, что принц Гарри с семьей вернутся в Британию не навсегда",
+    "link": "https://www.rbc.ru/society/20/08/2026/6a868f0a9a7947145281d89f",
+    "published": "Sun, 23 Aug 2026 11:08:15 +0300",
+    "timestamp": 1787472495.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Принц Гарри и Меган Маркл с детьми, вероятно, вернутся в Великобританию не навсегда, сообщает газета The Sunday Times со ссылкой на два источника из окружения семьи.",
+    "summary": "Принц Гарри и Меган Маркл с детьми, вероятно, вернутся в Великобританию не навсегда, сообщает газета The Sunday Times со ссылкой на два источника из окружения семьи.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/9/60/347874726037609.jpeg"
+  },
+  {
+    "title": "В Киргизии сообщили, что встреча Путина и Жапарова на полях ШОС еще не согласована",
+    "link": "https://tass.ru/mezhdunarodnaya-panorama/28036837",
+    "published": "Sun, 23 Aug 2026 11:07:27 +0300",
+    "timestamp": 1787472447.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Российский и киргизский лидеры не упускают ни одной возможности пообщаться, отметил пресс-секретарь президента республики Аскат Алагозов",
+    "summary": "Российский и киргизский лидеры не упускают ни одной возможности пообщаться, отметил пресс-секретарь президента республики Аскат Алагозов",
+    "image": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20260709/9211919.jpg"
+  },
+  {
+    "title": "На Сахалине пострадал грудной ребенок после обрушения потолка в жилом доме",
+    "link": "https://tass.ru/proisshestviya/28036855",
+    "published": "Sun, 23 Aug 2026 11:07:09 +0300",
+    "timestamp": 1787472429.0,
+    "source": "ТАСС",
+    "language": "ru",
+    "description": "Прокуратура организовала проверку",
+    "summary": "Прокуратура организовала проверку",
+    "image": ""
+  },
+  {
+    "title": "Российский хоккеист поел пельмени из Кубка Стэнли",
+    "link": "https://lenta.ru/news/2026/08/23/rossiyskiy-hokkeist-poel-pelmeni-iz-kubka-stenli/",
+    "published": "Sun, 23 Aug 2026 11:06:00 +0300",
+    "timestamp": 1787472360.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/11/20260823110253132/pic_7eef7fbdf3299072ca6b0637ece37675.jpeg"
+  },
+  {
+    "title": "ВС РФ поразили в порту Одесской области пять резервуаров с ГСМ",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223054-vs-rf-porazili",
+    "published": "Sun, 23 Aug 2026 11:05:29 +0300",
+    "timestamp": 1787472329.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Токаев проголосовал на выборах депутатов нового парламента Казахстана",
+    "link": "https://www.rbc.ru/rbcfreenews/6a8aa6399a7947f59809ef1e",
+    "published": "Sun, 23 Aug 2026 11:04:49 +0300",
+    "timestamp": 1787472289.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Президент Казахстана Касым-Жомарт Токаев проголосовал на выборах депутатов нового однопалатного парламента (Курултая)&nbsp;на участке во Дворце Независимости в Астане, передает&nbsp;«Казинформ».",
+    "summary": "Президент Казахстана Касым-Жомарт Токаев проголосовал на выборах депутатов нового однопалатного парламента (Курултая)&nbsp;на участке во Дворце Независимости в Астане, передает&nbsp;«Казинформ».",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/4/01/347874720772014.jpeg"
+  },
+  {
+    "title": "Ураган и проливные дожди обрушились на два российских региона",
+    "link": "https://lenta.ru/news/2026/08/23/uragan-i-prolivnye-dozhdi-obrushilis-na-dva-rossiyskih-regiona/",
+    "published": "Sun, 23 Aug 2026 11:04:00 +0300",
+    "timestamp": 1787472240.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/11/20260823110426096/pic_429764947c03590a2b7804f84ee450ab.jpg"
+  },
+  {
+    "title": "Явка на выборах в Курултай Казахстана к 10:00 мск составила 37%",
+    "link": "https://www.kommersant.ru/doc/8906393",
+    "published": "Sun, 23 Aug 2026 11:02:14 +0300",
+    "timestamp": 1787472134.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "На выборах в Курултай (однопалатный парламент) Казахстана по данным на 12:00 по местному времени (10:00 мск) проголосовало 37,05% зарегистрированных избирателей. Об этом сообщил член казахстанской Центральной избирательной комиссии (ЦИК) Ляззат Суиндик на заседании.",
+    "summary": "На выборах в Курултай (однопалатный парламент) Казахстана по данным на 12:00 по местному времени (10:00 мск) проголосовало 37,05% зарегистрированных избирателей. Об этом сообщил член казахстанской Центральной избирательной комиссии (ЦИК) Ляззат Суиндик на заседании.",
+    "image": ""
+  },
+  {
+    "title": "Диаметр самой большой из известных галактик составил невообразимые 1,7 миллиона световых лет",
+    "link": "https://habr.com/ru/news/1073338/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073338",
+    "published": "Sun, 23 Aug 2026 07:56:53 GMT",
+    "timestamp": 1787471813.0,
+    "source": "Хабр",
+    "language": "ru",
+    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/f95/c32/5ad/f95c325add380ba245abc663ac123258.jpg\" /><p>Используя самые глубокие на&nbsp;сегодняшний день наблюдения галактики IC 1101, астрономы провели наиболее точные измерения её физических размеров, определив границу основного звёздного ядра на&nbsp;расстоянии около 260&nbsp;килопарсеков от&nbsp;её центра.</p><p>Таким образом, её диаметр составляет около 1,7&nbsp;миллиона световых лет, что, по&nbsp;мнению группы под&nbsp;руководством астрофизика Карлоса Марреро де ла Роса из&nbsp;испанского Института астрофизики Канарских островов, делает её самой большой из&nbsp;известных на&nbsp;сегодняшний день галактик.</p><p>IC 1101&nbsp;уже давно признали особо крупной галактикой. Однако точно определить её диаметр&nbsp;было довольно сложной задачей, поскольку звёзды на&nbsp;внешних границах её основного тела сливаются с&nbsp;рассеянным звёздным светом, пронизывающим окружающее её скопление&nbsp;— как, если угодно, ноги паука, сливающиеся с&nbsp;нитями его паутины. Таким образом, «край»&nbsp;— это не&nbsp;место, где звёзды внезапно исчезают, а&nbsp;радиус, на&nbsp;котором основное тело галактики перестаёт вести себя как&nbsp;целостная структура.</p><p>В&nbsp;рамках нового исследования астрономы использовали 2,5-метровый телескоп имени Исаака Ньютона на&nbsp;испанской обсерватории Роке‑де‑лос‑Мучачос, чтобы получить самые глубокие снимки IC 1101&nbsp;из&nbsp;имеющихся.</p> <a href=\"https://habr.com/ru/articles/1073338/#habracut\">Читать далее</a>",
+    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/f95/c32/5ad/f95c325add380ba245abc663ac123258.jpg\" /><p>Используя самые глубокие на&nbsp;сегодняшний день наблюдения галактики IC 1101, астрономы провели наиболее точные измерения её физических размеров, определив границу основного звёздного ядра на&nbsp;расстоянии около 260&nbsp;килопарсеков от&nbsp;её центра.</p><p>Таким образом, её диаметр составляет около 1,7&nbsp;миллиона световых лет, что, по&nbsp;мнению группы под&nbsp;руководством астрофизика Карлоса Марреро де ла Роса из&nbsp;испанского Института астрофизики Канарских островов, делает её самой большой из&nbsp;известных на&nbsp;сегодняшний день галактик.</p><p>IC 1101&nbsp;уже давно признали особо крупной галактикой. Однако точно определить её диаметр&nbsp;было довольно сложной задачей, поскольку звёзды на&nbsp;внешних границах её основного тела сливаются с&nbsp;рассеянным звёздным светом, пронизывающим окружающее её скопление&nbsp;— как, если угодно, ноги паука, сливающиеся с&nbsp;нитями его паутины. Таким образом, «край»&nbsp;— это не&nbsp;место, где звёзды внезапно исчезают, а&nbsp;радиус, на&nbsp;котором основное тело галактики перестаёт вести себя как&nbsp;целостная структура.</p><p>В&nbsp;рамках нового исследования астрономы использовали 2,5-метровый телескоп имени Исаака Ньютона на&nbsp;испанской обсерватории Роке‑де‑лос‑Мучачос, чтобы получить самые глубокие снимки IC 1101&nbsp;из&nbsp;имеющихся.</p> <a href=\"https://habr.com/ru/articles/1073338/#habracut\">Читать далее</a>",
+    "image": "https://habrastorage.org/getpro/habr/upload_files/f95/c32/5ad/f95c325add380ba245abc663ac123258.jpg"
+  },
+  {
+    "title": "Работающие родители с детьми получили право на выплаты",
+    "link": "https://www.rbc.ru/rbcfreenews/6a43d85e9a79472fe3bf894d",
+    "published": "Sun, 23 Aug 2026 10:56:30 +0300",
+    "timestamp": 1787471790.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "Работающие родители с двумя и более детьми вправе получить ежегодную семейную налоговую выплату, если среднедушевой доход семьи не превышает 1,5 регионального прожиточного минимума.",
+    "summary": "Работающие родители с двумя и более детьми вправе получить ежегодную семейную налоговую выплату, если среднедушевой доход семьи не превышает 1,5 регионального прожиточного минимума.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/0/49/347874705844490.jpeg"
+  },
+  {
+    "title": "Bloomberg: Трамп в июне провел более 1000 сделок на бирже",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223052-bloomberg-tramp",
+    "published": "Sun, 23 Aug 2026 10:49:21 +0300",
+    "timestamp": 1787471361.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "В России вырос спрос на судоку, кроссворды и книги по тренировке мозга",
+    "link": "https://www.rbc.ru/rbcfreenews/6a8aa2869a79476d8d12f684",
+    "published": "Sun, 23 Aug 2026 10:46:24 +0300",
+    "timestamp": 1787471184.0,
+    "source": "РБК",
+    "language": "ru",
+    "description": "В России растет интерес к интеллектуальному и аналоговому досугу: в первом полугодии 2026 года увеличились продажи судоку, кроссвордов и книг о тренировке мозга, следует из предоставленных РБК данных книжных магазинов, издательств и маркетплейсов.",
+    "summary": "В России растет интерес к интеллектуальному и аналоговому досугу: в первом полугодии 2026 года увеличились продажи судоку, кроссвордов и книг о тренировке мозга, следует из предоставленных РБК данных книжных магазинов, издательств и маркетплейсов.",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/0/55/347874713860550.jpeg"
+  },
+  {
+    "title": "Раскрыты новые детали атаки на Оренбургскую область",
+    "link": "https://lenta.ru/news/2026/08/23/raskryty-novye-detali-ataki-na-logisticheskiy-kompleks-ozon/",
+    "published": "Sun, 23 Aug 2026 10:45:00 +0300",
+    "timestamp": 1787471100.0,
+    "source": "Лента.ру",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": "https://icdn.lenta.ru/images/2026/08/23/10/20260823104903863/pic_8e7e398f7ee7e70fd52f0352dff92e57.jpg"
+  },
+  {
+    "title": "Путин записал обращение по случаю 75-летия со дня рождения Ахмата Кадырова",
+    "link": "https://www.kommersant.ru/doc/8906390",
+    "published": "Sun, 23 Aug 2026 10:39:10 +0300",
+    "timestamp": 1787470750.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Президент Владимир Путин записал обращение по случаю 75-летия со дня рождения бывшего президента Чечни Ахмата Кадырова. Глава государства заявил, что господин Кадыров сделал все, чтобы вернуть мир и спокойствие на чеченскую землю.",
+    "summary": "Президент Владимир Путин записал обращение по случаю 75-летия со дня рождения бывшего президента Чечни Ахмата Кадырова. Глава государства заявил, что господин Кадыров сделал все, чтобы вернуть мир и спокойствие на чеченскую землю.",
+    "image": ""
+  },
+  {
+    "title": "🖼 В Сингапуре запустили сервер на основе человеческих мозгов.",
+    "link": "https://t.me/topor/51991",
+    "published": "Sun, 23 Aug 2026 07:33:01 GMT",
+    "timestamp": 1787470381.0,
+    "source": "TG: ТОПОР",
+    "language": "ru",
+    "description": "<p><b>В Сингапуре запустили сервер на основе человеческих мозгов. </b><br /><br />Учёные собрали 20 биокомпьютеров с 16 млн нейронов, выращенных из стволовых клеток — их получают как из спинного мозга, так и из тканей эмбрионов. <br /><br />Такой биосервер потребляет около 1 кВт против более 100 кВт у классических аналогов, его хотят использовать для развития ИИ, пишет The Straits Times.</p><img height=\"533\" src=\"https://cdn4.telesco.pe/file/EVu8tr3FApaZZuvYMrsVrIrHRSIXIH90hfbtt-u2Yh5-kbc-9ryEtK0uy8jbKi1VRNJeuLvpLGgLT9DCQXXQdfp-la5jdCtV5Po-pp0UzM1h_IMx7KgZCPuJfjfYHMMpBPALe44NWRFNob1Pymfqf1lcz7gwSrz8XnwK4GvCbJZddtjfDaBzQ9c0vbe273oD9oi3tq270EcizavW5ajOra2UKKDhu3pMpklc3xP2nL2rulkxv6gvDspNSLaOjdkSfjIthtBzZYDrNdQ3nca4hoOCLrV8qHTMW9i68Dy_Rl0vODEDsQQx7A9ppjyktzL1GkeuxedCrPiMekKNnlXhHg.jpg\" width=\"800\" />",
+    "summary": "<p><b>В Сингапуре запустили сервер на основе человеческих мозгов. </b><br /><br />Учёные собрали 20 биокомпьютеров с 16 млн нейронов, выращенных из стволовых клеток — их получают как из спинного мозга, так и из тканей эмбрионов. <br /><br />Такой биосервер потребляет около 1 кВт против более 100 кВт у классических аналогов, его хотят использовать для развития ИИ, пишет The Straits Times.</p><img height=\"533\" src=\"https://cdn4.telesco.pe/file/EVu8tr3FApaZZuvYMrsVrIrHRSIXIH90hfbtt-u2Yh5-kbc-9ryEtK0uy8jbKi1VRNJeuLvpLGgLT9DCQXXQdfp-la5jdCtV5Po-pp0UzM1h_IMx7KgZCPuJfjfYHMMpBPALe44NWRFNob1Pymfqf1lcz7gwSrz8XnwK4GvCbJZddtjfDaBzQ9c0vbe273oD9oi3tq270EcizavW5ajOra2UKKDhu3pMpklc3xP2nL2rulkxv6gvDspNSLaOjdkSfjIthtBzZYDrNdQ3nca4hoOCLrV8qHTMW9i68Dy_Rl0vODEDsQQx7A9ppjyktzL1GkeuxedCrPiMekKNnlXhHg.jpg\" width=\"800\" />",
+    "image": "https://cdn4.telesco.pe/file/EVu8tr3FApaZZuvYMrsVrIrHRSIXIH90hfbtt-u2Yh5-kbc-9ryEtK0uy8jbKi1VRNJeuLvpLGgLT9DCQXXQdfp-la5jdCtV5Po-pp0UzM1h_IMx7KgZCPuJfjfYHMMpBPALe44NWRFNob1Pymfqf1lcz7gwSrz8XnwK4GvCbJZddtjfDaBzQ9c0vbe273oD9oi3tq270EcizavW5ajOra2UKKDhu3pMpklc3xP2nL2rulkxv6gvDspNSLaOjdkSfjIthtBzZYDrNdQ3nca4hoOCLrV8qHTMW9i68Dy_Rl0vODEDsQQx7A9ppjyktzL1GkeuxedCrPiMekKNnlXhHg.jpg"
+  },
+  {
+    "title": "Трамп: Канада предъявляет завышенные требования к США",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223051-tramp-kanada-predyavlyaet",
+    "published": "Sun, 23 Aug 2026 10:30:40 +0300",
+    "timestamp": 1787470240.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "Трамп: Канада хочет привилегий американского штата",
+    "link": "https://www.kommersant.ru/doc/8906387",
+    "published": "Sun, 23 Aug 2026 10:30:24 +0300",
+    "timestamp": 1787470224.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "Президент США Дональд Трамп заявил, что Канада пытается получить экономические привилегии, аналогичные тем, что имеют американские штаты, при этом не являясь одним из них. Об этом он написал в социальной сети Truth Social, отметив при этом, что страна многие годы взимала высокие пошлины с американских фермеров.",
+    "summary": "Президент США Дональд Трамп заявил, что Канада пытается получить экономические привилегии, аналогичные тем, что имеют американские штаты, при этом не являясь одним из них. Об этом он написал в социальной сети Truth Social, отметив при этом, что страна многие годы взимала высокие пошлины с американских фермеров.",
+    "image": ""
+  },
+  {
+    "title": "🖼 Лолита потратила 1,1 миллиона рублей на омоложение лица за полгода. В этот ценни...",
+    "link": "https://t.me/mash/77166",
+    "published": "Sun, 23 Aug 2026 07:25:12 GMT",
+    "timestamp": 1787469912.0,
+    "source": "TG: Mash",
+    "language": "ru",
+    "description": "<p>Лолита потратила 1,1 миллиона рублей на омоложение лица за полгода. В этот ценник вошли минимум семь процедур, о которых певица не упоминала в рассказах о диете и правильном питании.<br /><br />По данным Mash, к марту 62-летней Милявской сделали ботулинотерапию всего лица, биоревитализацию, контурную пластику и армирование. Также специалисты занимались регенерацией и восстановлением кожи.<br /><br />В прошлом году артистка рассказывала, что изменилась благодаря ограничениям в еде и правильному рациону. Как в этот рецепт вписалась московская клиника, осталось без ответа: дозвониться до Лолиты нам не удалось.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img height=\"800\" src=\"https://cdn4.telesco.pe/file/KtSBe-s-SBtpcRtMMD7vh7v7OHUkry6-n88pIYEwU5NasxhNqhpKRLDVri0Fn5eyW7md9i9e_LgE5m_dFF0RX6kfzbQZRAe5wf36CkAB44wdtu0ql622L-KRoX97cSM8uORpY6Hvt44qnqt0o6d9nCZPHwbFB4iR8Hi4Mzb6UXcNsNmOid7EvOVqQNkWemkJx7tctDXBCx_gRDXaoRGQa16BUjtj0q0dxo5lqpwPwAMlyOhGL1b04zNda0Q_BtQSinI6nm5yQ-RHraoUJCA3THOY0EQGjw5d9qsnNGf3Tq9mik1lAfdrMv3A5eoFI8i6aWNfCgAIS11qTMgRUk7YLw.jpg\" width=\"800\" />",
+    "summary": "<p>Лолита потратила 1,1 миллиона рублей на омоложение лица за полгода. В этот ценник вошли минимум семь процедур, о которых певица не упоминала в рассказах о диете и правильном питании.<br /><br />По данным Mash, к марту 62-летней Милявской сделали ботулинотерапию всего лица, биоревитализацию, контурную пластику и армирование. Также специалисты занимались регенерацией и восстановлением кожи.<br /><br />В прошлом году артистка рассказывала, что изменилась благодаря ограничениям в еде и правильному рациону. Как в этот рецепт вписалась московская клиника, осталось без ответа: дозвониться до Лолиты нам не удалось.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><img height=\"800\" src=\"https://cdn4.telesco.pe/file/KtSBe-s-SBtpcRtMMD7vh7v7OHUkry6-n88pIYEwU5NasxhNqhpKRLDVri0Fn5eyW7md9i9e_LgE5m_dFF0RX6kfzbQZRAe5wf36CkAB44wdtu0ql622L-KRoX97cSM8uORpY6Hvt44qnqt0o6d9nCZPHwbFB4iR8Hi4Mzb6UXcNsNmOid7EvOVqQNkWemkJx7tctDXBCx_gRDXaoRGQa16BUjtj0q0dxo5lqpwPwAMlyOhGL1b04zNda0Q_BtQSinI6nm5yQ-RHraoUJCA3THOY0EQGjw5d9qsnNGf3Tq9mik1lAfdrMv3A5eoFI8i6aWNfCgAIS11qTMgRUk7YLw.jpg\" width=\"800\" />",
+    "image": "https://cdn4.telesco.pe/file/KtSBe-s-SBtpcRtMMD7vh7v7OHUkry6-n88pIYEwU5NasxhNqhpKRLDVri0Fn5eyW7md9i9e_LgE5m_dFF0RX6kfzbQZRAe5wf36CkAB44wdtu0ql622L-KRoX97cSM8uORpY6Hvt44qnqt0o6d9nCZPHwbFB4iR8Hi4Mzb6UXcNsNmOid7EvOVqQNkWemkJx7tctDXBCx_gRDXaoRGQa16BUjtj0q0dxo5lqpwPwAMlyOhGL1b04zNda0Q_BtQSinI6nm5yQ-RHraoUJCA3THOY0EQGjw5d9qsnNGf3Tq9mik1lAfdrMv3A5eoFI8i6aWNfCgAIS11qTMgRUk7YLw.jpg"
+  },
+  {
+    "title": "Над Брянской областью за сутки сбили почти 100 БПЛА",
+    "link": "https://www.kommersant.ru/doc/8906385",
+    "published": "Sun, 23 Aug 2026 10:24:09 +0300",
+    "timestamp": 1787469849.0,
+    "source": "Коммерсантъ",
+    "language": "ru",
+    "description": "За минувшие сутки над Брянской областью были уничтожены 98 беспилотных летательных аппаратов самолетного типа. Об этом сообщил врио губернатора региона Егор Ковальчук.",
+    "summary": "За минувшие сутки над Брянской областью были уничтожены 98 беспилотных летательных аппаратов самолетного типа. Об этом сообщил врио губернатора региона Егор Ковальчук.",
+    "image": ""
+  },
+  {
+    "title": "Володин: победа на Курской дуге показала мужество многонационального народа",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223050-volodin-pobeda-na-kurskoi",
+    "published": "Sun, 23 Aug 2026 10:08:52 +0300",
+    "timestamp": 1787468932.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "Председатель Госдумы призвал помнить уроки истории",
+    "summary": "Председатель Госдумы призвал помнить уроки истории",
+    "image": "https://cdn.vdmsti.ru/image/2026/6j/ljnfv/normal-rx8.png"
+  },
+  {
+    "title": "🖼 В Москве с аукциона продают элитную квартиру президента русско-китайского фон...",
+    "link": "https://t.me/bazabazon/48464",
+    "published": "Sun, 23 Aug 2026 07:05:55 GMT",
+    "timestamp": 1787468755.0,
+    "source": "TG: Baza",
+    "language": "ru",
+    "description": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">В Москве с аукциона продают элитную квартиру президента русско-китайского фонда из-за долга почти в 40 млн рублей.<br /><br />По данным «Базы», в 2017 году Цуй Шань купила двухэтажную квартиру на улице Вавилова в престижном жилом комплексе рядом с китайским посольством в Ломоносовском районе — почти 240 квадратных метров, заняты третий и четвёртый этажи, просторная гостиная, несколько спален, гардеробные и собственная спа-зона.<br /><br />Цуй Шань должна была заплатить за квартиру 53,7 млн рублей, но сразу всю сумму отдавать не стала. С продавцом договорились о рассрочке: деньги нужно было вносить частями до конца 2022 года. Однако покупательница внесла лишь несколько платежей, а затем перестала платить. Продавец ждал несколько лет, надеясь получить свои деньги, но в итоге не выдержал и пошёл в суд.<br /><br />Там договор купли-продажи расторгли, а квартиру решили продать через публичные торги, чтобы вернуть 37,6 млн рублей долга и до 2,9 млн процентами. В марте этого года приставы арестовали жильё и передали его на продажу. Стартовая цена — 75,2 млн рублей. Если покупателя не найдут, стоимость снизят до 63,9 млн.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"200\" src=\"https://cdn4.telesco.pe/file/CmD1hcIWKmv0NJuM3w2ZHujFOTrXTs2m3NoAMzl7CJhhk26DN9wuAffVv9LgYO4eXdrZ01IiZQJfkQggaqXPIMNiaIMN9FVaF4a862tR1E9z_IHLnKlNuR22EFQs6-tp3p56FVZExL0OuqdAN2EnwFJ1igwkn9p6f4iAuopP_v5TnkeP3M41QmH7J4O6rTIn4y_j8PG9Q7eVKplqLh9hhlmGqE0EvOhyKTpkOAC_sWBply-Fu2Fo96-rUBiA655BQt6Hn3j6Jvm-YRuh7IPHy15AvWoH9cDTEaO2stadMxlqsG3EmkGFNKqb86tg12w_P8kz-RhZlqTMAGalWYDuBQ.jpg\" width=\"453\" /><img height=\"200.91\" src=\"https://cdn4.telesco.pe/file/O76iGjj9f10ECZ-iXKaPQq4Km-c-WHFsX_vIf2-V9uRAYIAGr3nsh7vzTzdlKT1AD0JcS1z7SfV1TErr4Ls5DhkhlKRs_fALsr8Ev2m6BN9aTCochgSTnrRLuwXHJv_PstOh-49n90FaLLrKJQsQktCjWVaZjRgYJGMeSlLiNOJG4-rxtrPm0N5pgQKxPRHeM-j4sKEsoY4wXGNI9aJC64H_gR7v7M990IhaDjJkpf7IoT3Jas8rg8mS99pZ0hHNKecujJUBtzo09bVym-7eiCcDU5zJqUVMeQ39vofVEejk5WqtlJJz331Wk5LkSPDlSsBUsMc4CP0uhoE6cFs83g.jpg\" width=\"453\" />",
+    "summary": "<p></p><div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">В Москве с аукциона продают элитную квартиру президента русско-китайского фонда из-за долга почти в 40 млн рублей.<br /><br />По данным «Базы», в 2017 году Цуй Шань купила двухэтажную квартиру на улице Вавилова в престижном жилом комплексе рядом с китайским посольством в Ломоносовском районе — почти 240 квадратных метров, заняты третий и четвёртый этажи, просторная гостиная, несколько спален, гардеробные и собственная спа-зона.<br /><br />Цуй Шань должна была заплатить за квартиру 53,7 млн рублей, но сразу всю сумму отдавать не стала. С продавцом договорились о рассрочке: деньги нужно было вносить частями до конца 2022 года. Однако покупательница внесла лишь несколько платежей, а затем перестала платить. Продавец ждал несколько лет, надеясь получить свои деньги, но в итоге не выдержал и пошёл в суд.<br /><br />Там договор купли-продажи расторгли, а квартиру решили продать через публичные торги, чтобы вернуть 37,6 млн рублей долга и до 2,9 млн процентами. В марте этого года приставы арестовали жильё и передали его на продажу. Стартовая цена — 75,2 млн рублей. Если покупателя не найдут, стоимость снизят до 63,9 млн.<br /><br /><a href=\"https://t.me/bazabazon\" rel=\"noopener\" target=\"_blank\">BAZA в Telegram</a><br /><a href=\"https://max.ru/baza\" rel=\"noopener\" target=\"_blank\">BAZA в MAX</a></div><p></p><img height=\"200\" src=\"https://cdn4.telesco.pe/file/CmD1hcIWKmv0NJuM3w2ZHujFOTrXTs2m3NoAMzl7CJhhk26DN9wuAffVv9LgYO4eXdrZ01IiZQJfkQggaqXPIMNiaIMN9FVaF4a862tR1E9z_IHLnKlNuR22EFQs6-tp3p56FVZExL0OuqdAN2EnwFJ1igwkn9p6f4iAuopP_v5TnkeP3M41QmH7J4O6rTIn4y_j8PG9Q7eVKplqLh9hhlmGqE0EvOhyKTpkOAC_sWBply-Fu2Fo96-rUBiA655BQt6Hn3j6Jvm-YRuh7IPHy15AvWoH9cDTEaO2stadMxlqsG3EmkGFNKqb86tg12w_P8kz-RhZlqTMAGalWYDuBQ.jpg\" width=\"453\" /><img height=\"200.91\" src=\"https://cdn4.telesco.pe/file/O76iGjj9f10ECZ-iXKaPQq4Km-c-WHFsX_vIf2-V9uRAYIAGr3nsh7vzTzdlKT1AD0JcS1z7SfV1TErr4Ls5DhkhlKRs_fALsr8Ev2m6BN9aTCochgSTnrRLuwXHJv_PstOh-49n90FaLLrKJQsQktCjWVaZjRgYJGMeSlLiNOJG4-rxtrPm0N5pgQKxPRHeM-j4sKEsoY4wXGNI9aJC64H_gR7v7M990IhaDjJkpf7IoT3Jas8rg8mS99pZ0hHNKecujJUBtzo09bVym-7eiCcDU5zJqUVMeQ39vofVEejk5WqtlJJz331Wk5LkSPDlSsBUsMc4CP0uhoE6cFs83g.jpg\" width=\"453\" />",
+    "image": "https://cdn4.telesco.pe/file/CmD1hcIWKmv0NJuM3w2ZHujFOTrXTs2m3NoAMzl7CJhhk26DN9wuAffVv9LgYO4eXdrZ01IiZQJfkQggaqXPIMNiaIMN9FVaF4a862tR1E9z_IHLnKlNuR22EFQs6-tp3p56FVZExL0OuqdAN2EnwFJ1igwkn9p6f4iAuopP_v5TnkeP3M41QmH7J4O6rTIn4y_j8PG9Q7eVKplqLh9hhlmGqE0EvOhyKTpkOAC_sWBply-Fu2Fo96-rUBiA655BQt6Hn3j6Jvm-YRuh7IPHy15AvWoH9cDTEaO2stadMxlqsG3EmkGFNKqb86tg12w_P8kz-RhZlqTMAGalWYDuBQ.jpg"
+  },
+  {
+    "title": "Федоров: нынешняя система управления и коррупция не дадут Украине восстановиться",
+    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223049-fedorov-nineshnyaya-sistema",
+    "published": "Sun, 23 Aug 2026 09:54:40 +0300",
+    "timestamp": 1787468080.0,
+    "source": "Ведомости",
+    "language": "ru",
+    "description": "",
+    "summary": "",
+    "image": ""
   },
   {
     "title": "Линус Торвальдс использовал ИИ для отладки ошибки в драйвере графического процессора Intel",
@@ -64,182 +394,6 @@
     "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/96d/602/1a1/96d6021a1d2afc15119c39d3fb3e8053.JPG\" /><p>Линус Торвальдс <a href=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\" rel=\"noopener noreferrer nofollow\">написал</a> и внёс изменения в&nbsp;драйвер графического ядра Intel Xe. Это произошло после того, как&nbsp;он столкнулся с «адской отладкой», но&nbsp;в&nbsp;итоге ему помог искусственный интеллект.</p> <a href=\"https://habr.com/ru/articles/1073386/#habracut\">Читать далее</a>",
     "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/96d/602/1a1/96d6021a1d2afc15119c39d3fb3e8053.JPG\" /><p>Линус Торвальдс <a href=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\" rel=\"noopener noreferrer nofollow\">написал</a> и внёс изменения в&nbsp;драйвер графического ядра Intel Xe. Это произошло после того, как&nbsp;он столкнулся с «адской отладкой», но&nbsp;в&nbsp;итоге ему помог искусственный интеллект.</p> <a href=\"https://habr.com/ru/articles/1073386/#habracut\">Читать далее</a>",
     "image": "https://habrastorage.org/getpro/habr/upload_files/96d/602/1a1/96d6021a1d2afc15119c39d3fb3e8053.JPG"
-  },
-  {
-    "title": "ЦИК отправил коллегам из более чем 100 стран приглашение на наблюдение за выборами в ГД",
-    "link": "https://tass.ru/politika/28036667",
-    "published": "Sun, 23 Aug 2026 09:37:38 +0300",
-    "timestamp": 1787467058.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "ВСУ атаковали Оренбургскую область. Обломки БПЛА упали на логистический комплекс Ozon, возник пожар",
-    "link": "https://lenta.ru/news/2026/08/23/long-vsu-atakovali-orenburgskuyu-oblast-oblomki-bpla-upali-na-logisticheskiy-kompleks-ozon-voznik-pozhar/",
-    "published": "Sun, 23 Aug 2026 09:36:00 +0300",
-    "timestamp": 1787466960.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/23/08/20260823084933219/pic_d3b05acfc466ee4acf92dd38671a6822.jpg"
-  },
-  {
-    "title": "В Омске умер четвертый пострадавший при пожаре на стройплощадке",
-    "link": "https://ria.ru/20260823/omsk-2112605520.html",
-    "published": "Sun, 23 Aug 2026 09:35:56 +0300",
-    "timestamp": 1787466956.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "В Тамбове и Ярославле сняли ограничения на полеты",
-    "link": "https://ria.ru/20260823/tambov-2112605372.html",
-    "published": "Sun, 23 Aug 2026 09:35:40 +0300",
-    "timestamp": 1787466940.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "В аэропортах Ярославля и Тамбова сняли ограничения",
-    "link": "https://tass.ru/obschestvo/28036661",
-    "published": "Sun, 23 Aug 2026 09:34:56 +0300",
-    "timestamp": 1787466896.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Эту информацию сообщили в пресс-службе Росавиации",
-    "summary": "Эту информацию сообщили в пресс-службе Росавиации",
-    "image": ""
-  },
-  {
-    "title": "Ozon эвакуировал сотни сотрудников после атаки БПЛА",
-    "link": "https://lenta.ru/news/2026/08/23/ozon-evakuiroval-sotni-sotrudnikov-posle-ataki-bpla/",
-    "published": "Sun, 23 Aug 2026 09:34:23 +0300",
-    "timestamp": 1787466863.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/23/08/20260823080303614/pic_5160dc32d0e43679f2178a54d8027d7e.jpg"
-  },
-  {
-    "title": "Bloomberg узнал о совершении в июне Трампом более 1 тыс. сделок на бирже",
-    "link": "https://tass.ru/ekonomika/28036641",
-    "published": "Sun, 23 Aug 2026 09:34:19 +0300",
-    "timestamp": 1787466859.0,
-    "source": "ТАСС",
-    "language": "ru",
-    "description": "Их сумма варьируется от $78,1 млн до $263,1 млн, уточнило агентство",
-    "summary": "Их сумма варьируется от $78,1 млн до $263,1 млн, уточнило агентство",
-    "image": ""
-  },
-  {
-    "title": "Нуньес перешел из \"Аль-Хиляля\" в \"Аль-Дирию\"",
-    "link": "https://ria.ru/20260823/nunesy-2112605207.html",
-    "published": "Sun, 23 Aug 2026 09:34:13 +0300",
-    "timestamp": 1787466853.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Футболист ЦСКА Баринов получил серьезную травму в матче с бывшим клубом",
-    "link": "https://lenta.ru/news/2026/08/23/futbolist-tsska-barinov-poluchil-serieznuyu-travmu-v-matche-s-byvshim-klubom/",
-    "published": "Sun, 23 Aug 2026 09:34:00 +0300",
-    "timestamp": 1787466840.0,
-    "source": "Лента.ру",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://icdn.lenta.ru/images/2026/08/23/09/20260823092534977/pic_e35308cf293d459ae5ed0691f79784b9.jpg"
-  },
-  {
-    "title": "В Москве стартовал Большой фестиваль бега",
-    "link": "https://ria.ru/20260823/moskva-2112605022.html",
-    "published": "Sun, 23 Aug 2026 09:33:42 +0300",
-    "timestamp": 1787466822.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "В Омске задержали подозреваемого по делу о пожаре на стройке",
-    "link": "https://www.rbc.ru/rbcfreenews/6a87e5799a79473e7cfe32d3",
-    "published": "Sun, 23 Aug 2026 09:32:29 +0300",
-    "timestamp": 1787466749.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Следователи задержали одного из подозреваемых по делу о пожаре в ЖК &laquo;Кварталы Драверта&raquo; в Омске&nbsp;&mdash; заместителя гендиректора подрядной организации, сообщил региональный следственный комитет (СК) в «Максе».",
-    "summary": "Следователи задержали одного из подозреваемых по делу о пожаре в ЖК &laquo;Кварталы Драверта&raquo; в Омске&nbsp;&mdash; заместителя гендиректора подрядной организации, сообщил региональный следственный комитет (СК) в «Максе».",
-    "image": ""
-  },
-  {
-    "title": "AP рассказало о «смертоносном наследии» из-за лесных пожаров в Европе",
-    "link": "https://www.rbc.ru/rbcfreenews/6a7daed99a79472d2cf69a4d",
-    "published": "Sun, 23 Aug 2026 09:31:41 +0300",
-    "timestamp": 1787466701.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "Летние пожары в Европе обнажили смертельную угрозу — неразорвавшиеся бомбы и мины времен Первой и Второй мировых войн. Жара провоцирует их взрывы, создавая новые риски для пожарных и местных жителей, пишет AP",
-    "summary": "Летние пожары в Европе обнажили смертельную угрозу — неразорвавшиеся бомбы и мины времен Первой и Второй мировых войн. Жара провоцирует их взрывы, создавая новые риски для пожарных и местных жителей, пишет AP",
-    "image": ""
-  },
-  {
-    "title": "СКР задержал замглавы организации-подрядчика после пожара на стройке в Омске // Задержан подозреваемый по уголовному делу о пожаре на стройке в Омске",
-    "link": "https://www.kommersant.ru/doc/8906371",
-    "published": "Sun, 23 Aug 2026 09:30:26 +0300",
-    "timestamp": 1787466626.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Следователи задержали подозреваемого по уголовному делу о пожаре на стройке в Омске, при котором погибли три человека. Об этом сообщили в управлении СКР по Омской области.",
-    "summary": "Следователи задержали подозреваемого по уголовному делу о пожаре на стройке в Омске, при котором погибли три человека. Об этом сообщили в управлении СКР по Омской области.",
-    "image": ""
-  },
-  {
-    "title": "В Казахстане обнародовали первые данные о явке на выборах",
-    "link": "https://www.rbc.ru/rbcfreenews/6a79a09a9a79471e012151be",
-    "published": "Sun, 23 Aug 2026 09:28:49 +0300",
-    "timestamp": 1787466529.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "В Казахстане к 10 часам (08:00 мск) на выборах депутатов Курултая проголосовали 2&nbsp;264&nbsp;411 человек, или 17,96% избирателей из списков для голосования, сообщила Центральная избирательная комиссия (ЦИК) Казахстана.",
-    "summary": "В Казахстане к 10 часам (08:00 мск) на выборах депутатов Курултая проголосовали 2&nbsp;264&nbsp;411 человек, или 17,96% избирателей из списков для голосования, сообщила Центральная избирательная комиссия (ЦИК) Казахстана.",
-    "image": ""
-  },
-  {
-    "title": "В Катаре ближневосточный конфликт не повлиял на продажу продуктов из России",
-    "link": "https://ria.ru/20260823/katar-2112603951.html",
-    "published": "Sun, 23 Aug 2026 09:28:49 +0300",
-    "timestamp": 1787466529.0,
-    "source": "РИА Новости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": "https://cdnn21.img.ria.ru/images/07e9/02/13/2000261473_0:160:3072:1888_650x0_80_0_0_f977a9f3d9265304054749fbba98ff3d.jpg"
-  },
-  {
-    "title": "Число жертв пожара на стройке в Омске выросло до четырех",
-    "link": "https://www.vedomosti.ru/society/news/2026/08/23/1223047-chislo-zhertv-pozhara",
-    "published": "Sun, 23 Aug 2026 09:19:36 +0300",
-    "timestamp": 1787465976.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
   },
   {
     "title": "🖼 Двух таджиков, пришедших на «Садовод» в женской одежде, депортируют из России.",
@@ -264,37 +418,15 @@
     "image": "https://habrastorage.org/getpro/habr/upload_files/33c/bc8/b2a/33cbc8b2a832d09a98dd407fa566db32.JPG"
   },
   {
-    "title": "Ozon временно приостановил прием поставок на склад в Оренбургской области",
-    "link": "https://www.kommersant.ru/doc/8906369",
-    "published": "Sun, 23 Aug 2026 09:06:14 +0300",
-    "timestamp": 1787465174.0,
-    "source": "Коммерсантъ",
+    "title": "Инфоцыганка и работала всю неделю?@humor_tv404",
+    "link": "https://pikabu.ru/story/infotsyiganka_i_rabotala_vsyu_nedelyuhumor_tv404_14266806",
+    "published": "Sun, 23 Aug 2026 08:55:10 +0300",
+    "timestamp": 1787464510.0,
+    "source": "Пикабу",
     "language": "ru",
-    "description": "Маркетплейс Ozon временно приостановил работу склада в Оренбургской области, получившего повреждения при ударах беспилотников. Об этом сообщили в пресс-службе компании.",
-    "summary": "Маркетплейс Ozon временно приостановил работу склада в Оренбургской области, получившего повреждения при ударах беспилотников. Об этом сообщили в пресс-службе компании.",
-    "image": ""
-  },
-  {
-    "title": "Зачем Токаеву новый курултай и какими будут выборы в него",
-    "link": "https://www.rbc.ru/rbcfreenews/6a7c262d9a794700ecba7776",
-    "published": "Sun, 23 Aug 2026 09:01:43 +0300",
-    "timestamp": 1787464903.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "В Казахстане проходят выборы в новый парламент, курултай, создаваемый в соответствии с новой Конституцией, принятой в марте. Почему важны эти выборы и как они связаны с транзитом президентской власти — в статье РБК",
-    "summary": "В Казахстане проходят выборы в новый парламент, курултай, создаваемый в соответствии с новой Конституцией, принятой в марте. Почему важны эти выборы и как они связаны с транзитом президентской власти — в статье РБК",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/5/89/347873142004895.jpeg"
-  },
-  {
-    "title": "Россияне заинтересовались судоку и «тренировками для мозга»",
-    "link": "https://www.rbc.ru/rbcfreenews/6a762f959a79470c421e8f97",
-    "published": "Sun, 23 Aug 2026 09:00:53 +0300",
-    "timestamp": 1787464853.0,
-    "source": "РБК",
-    "language": "ru",
-    "description": "В России растет спрос на товары для интеллектуального досуга и &laquo;тренировки мозга&raquo;, следует из данных книжных магазинов, издательств и маркетплейсов.",
-    "summary": "В России растет спрос на товары для интеллектуального досуга и &laquo;тренировки мозга&raquo;, следует из данных книжных магазинов, издательств и маркетплейсов.",
-    "image": "https://s0.rbk.ru/v6_top_pics/media/img/3/65/347872394927653.jpeg"
+    "description": "<p><img alt=\"\" src=\"https://cs6.pikabu.ru/s/2026/08/23/08/ktbrom7a.jpg\" /></p><p><p><b>ТГ канал 18+</b> <!--noindex--><a href=\"https://t.me/trash_tv404\" rel=\"nofollow noopener\" target=\"_blank\">https://t.me/trash_tv404</a><!--/noindex--></p></p><p><p><b>МАКС канал</b> <!--noindex--><a href=\"https://max.ru/trash_tv404\" rel=\"nofollow noopener\" target=\"_blank\">https://max.ru/trash_tv404</a><!--/noindex--></p></p><p><p>:3</p></p>",
+    "summary": "<p><img alt=\"\" src=\"https://cs6.pikabu.ru/s/2026/08/23/08/ktbrom7a.jpg\" /></p><p><p><b>ТГ канал 18+</b> <!--noindex--><a href=\"https://t.me/trash_tv404\" rel=\"nofollow noopener\" target=\"_blank\">https://t.me/trash_tv404</a><!--/noindex--></p></p><p><p><b>МАКС канал</b> <!--noindex--><a href=\"https://max.ru/trash_tv404\" rel=\"nofollow noopener\" target=\"_blank\">https://max.ru/trash_tv404</a><!--/noindex--></p></p><p><p>:3</p></p>",
+    "image": "https://cs6.pikabu.ru/s/2026/08/23/08/ktbrom7a.jpg"
   },
   {
     "title": "Проект Python официально начал публиковать документацию на русском языке",
@@ -308,17 +440,6 @@
     "image": "https://habrastorage.org/getpro/habr/upload_files/1c2/5e5/305/1c25e53056142adcb3c9a6b41935f37f.png"
   },
   {
-    "title": "Минобороны отчиталось об уничтожении за ночь 328 беспилотников",
-    "link": "https://www.kommersant.ru/doc/8906364",
-    "published": "Sun, 23 Aug 2026 08:48:11 +0300",
-    "timestamp": 1787464091.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "Средства ПВО России с 20:00 до 8:00 мск уничтожили 328 беспилотников ВСУ над 18 регионами, а также Азовским и Черным морями. Об этом сообщила пресс-служба российского Минобороны.",
-    "summary": "Средства ПВО России с 20:00 до 8:00 мск уничтожили 328 беспилотников ВСУ над 18 регионами, а также Азовским и Черным морями. Об этом сообщила пресс-служба российского Минобороны.",
-    "image": ""
-  },
-  {
     "title": "Студенческая команда ракетостроителей из Университета Ватерлоо побила мировой рекорд",
     "link": "https://habr.com/ru/news/1073378/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073378",
     "published": "Sun, 23 Aug 2026 05:47:43 GMT",
@@ -330,50 +451,6 @@
     "image": "https://habrastorage.org/getpro/habr/upload_files/056/c3a/bd9/056c3abd97d8369730e3b71b3d3d2e31.JPG"
   },
   {
-    "title": "В Японии при землетрясении пострадали почти 40 человек",
-    "link": "https://www.kommersant.ru/doc/8906363",
-    "published": "Sun, 23 Aug 2026 08:43:07 +0300",
-    "timestamp": 1787463787.0,
-    "source": "Коммерсантъ",
-    "language": "ru",
-    "description": "В пяти префектурах японского региона Канто, в том числе Токио, произошло землетрясение магнитудой 5,9. При происшествии 38 человек получили травмы.",
-    "summary": "В пяти префектурах японского региона Канто, в том числе Токио, произошло землетрясение магнитудой 5,9. При происшествии 38 человек получили травмы.",
-    "image": ""
-  },
-  {
-    "title": "Силы ПВО за ночь уничтожили 328 украинских беспилотников",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223045-sili-pvo",
-    "published": "Sun, 23 Aug 2026 08:32:28 +0300",
-    "timestamp": 1787463148.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Внешний долг Украины с 2013 г. вырос в 24 раза",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223044-vneshnii-dolg-ukraini",
-    "published": "Sun, 23 Aug 2026 08:25:10 +0300",
-    "timestamp": 1787462710.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "С 1 сентября вступят в силу новые правила для криптовалюты",
-    "link": "https://www.vedomosti.ru/society/news/2026/08/23/1223043-s-1-sentyabrya-vstupyat",
-    "published": "Sun, 23 Aug 2026 08:20:38 +0300",
-    "timestamp": 1787462438.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
-    "image": ""
-  },
-  {
     "title": "Ответ на пост «Соблюдайте ПДД!»",
     "link": "https://pikabu.ru/story/otvet_na_post_soblyudayte_pdd_14266733",
     "published": "Sun, 23 Aug 2026 08:11:53 +0300",
@@ -382,17 +459,6 @@
     "language": "ru",
     "description": "<p><p>У моей жены сестра примерно так же попала в аварию. </p></p><p><p>Ей тогда лет 17 было. Ехала вдоль дороги по правой стороне на велосипеде. Надо перебраться на другую сторону, впереди замаячил пешеходный перехеход. Эта умничка, не посмотрев по сторонам (пешеходник же, я ж главная!) резко ебанула налево не слезая с велика. Только колеса коснулись полосатого полотна - голова коснулась двери паралельноидущего авто. </p></p><p><p>Воодила как мог избегал столкновения, и в колы тормозил, и левее руля крутанул, но от такого резкого манера все равно не успел среагировать. Замято слегка крыло, колесом велика; нормально так дверь, особенно верхняя часть куда прилетела пустая голова девчонки (сотрясение получила, множество ссадин) </p></p><p><p>Приехали ГАИ, тёща (она же мать), я. </p></p><p><p>Говорю тёще, соглашайся с гаи, которые ей говорили, что девчонка не права. Уже и номерами обменялась с водилой, что б компенсацию за мятости отдать. Вроде все хорошо. На следующий день водила позвонил, говорит около 25тр за всё про всё и забываем друг про друга. Тёща - \"окей\", и бросает трубку. Подумала что дорого. </p></p><p><p>Нашла адвоката. Адвокатша заверила, что дочурка не виновата совсем и можно трясти с водятла такого кругленькую сумму. Тёща поверила и давай судиться. На слова гаи и мои - срать с высокой колокольни. </p></p><p><p>Итог: тёща проиграла, отдала около 90тр на всё про все, адвокатша не выходила больше на связь, дочурка ноет, что справедливость не восторжествовала, водила получил деньги. Конец истории. </p></p>",
     "summary": "<p><p>У моей жены сестра примерно так же попала в аварию. </p></p><p><p>Ей тогда лет 17 было. Ехала вдоль дороги по правой стороне на велосипеде. Надо перебраться на другую сторону, впереди замаячил пешеходный перехеход. Эта умничка, не посмотрев по сторонам (пешеходник же, я ж главная!) резко ебанула налево не слезая с велика. Только колеса коснулись полосатого полотна - голова коснулась двери паралельноидущего авто. </p></p><p><p>Воодила как мог избегал столкновения, и в колы тормозил, и левее руля крутанул, но от такого резкого манера все равно не успел среагировать. Замято слегка крыло, колесом велика; нормально так дверь, особенно верхняя часть куда прилетела пустая голова девчонки (сотрясение получила, множество ссадин) </p></p><p><p>Приехали ГАИ, тёща (она же мать), я. </p></p><p><p>Говорю тёще, соглашайся с гаи, которые ей говорили, что девчонка не права. Уже и номерами обменялась с водилой, что б компенсацию за мятости отдать. Вроде все хорошо. На следующий день водила позвонил, говорит около 25тр за всё про всё и забываем друг про друга. Тёща - \"окей\", и бросает трубку. Подумала что дорого. </p></p><p><p>Нашла адвоката. Адвокатша заверила, что дочурка не виновата совсем и можно трясти с водятла такого кругленькую сумму. Тёща поверила и давай судиться. На слова гаи и мои - срать с высокой колокольни. </p></p><p><p>Итог: тёща проиграла, отдала около 90тр на всё про все, адвокатша не выходила больше на связь, дочурка ноет, что справедливость не восторжествовала, водила получил деньги. Конец истории. </p></p>",
-    "image": ""
-  },
-  {
-    "title": "В Казахстане стартовали первые выборы в однопалатный Курултай",
-    "link": "https://www.vedomosti.ru/politics/news/2026/08/23/1223042-kazahstane-startovali",
-    "published": "Sun, 23 Aug 2026 08:03:05 +0300",
-    "timestamp": 1787461385.0,
-    "source": "Ведомости",
-    "language": "ru",
-    "description": "",
-    "summary": "",
     "image": ""
   },
   {
@@ -418,17 +484,6 @@
     "image": ""
   },
   {
-    "title": "Выпуск обновления Wine 11.16",
-    "link": "https://habr.com/ru/news/1073342/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073342",
-    "published": "Sun, 23 Aug 2026 03:24:55 GMT",
-    "timestamp": 1787455495.0,
-    "source": "Хабр",
-    "language": "ru",
-    "description": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/924/e85/8d4/924e858d4564ecc3cc4ad1f3aef1984e.png\" /><p>21 августа 2026 года <a href=\"https://www.winehq.org/news/2026082101\" rel=\"noopener noreferrer nofollow\">вышла</a> новая экспериментальная версия открытой реализации программного интерфейса Windows Win32&nbsp;API для&nbsp;ОС на базе Linux, macOS и BSD <a href=\"https://www.winehq.org/\" rel=\"noopener noreferrer nofollow\">Wine 11.16</a>. Выпуск Wine 10.0 <a href=\"https://habr.com/ru/news/875506/\" rel=\"noopener noreferrer nofollow\">состоялся</a> в январе 2025 года. Релиз Wine 11.0 <a href=\"https://habr.com/ru/news/985008/\" rel=\"noopener noreferrer nofollow\">случился</a> 13 января 2026 года. Версия Wine 12.0 ожидается в начале следующего года.</p> <a href=\"https://habr.com/ru/articles/1073342/#habracut\">Читать далее</a>",
-    "summary": "<img src=\"https://habrastorage.org/getpro/habr/upload_files/924/e85/8d4/924e858d4564ecc3cc4ad1f3aef1984e.png\" /><p>21 августа 2026 года <a href=\"https://www.winehq.org/news/2026082101\" rel=\"noopener noreferrer nofollow\">вышла</a> новая экспериментальная версия открытой реализации программного интерфейса Windows Win32&nbsp;API для&nbsp;ОС на базе Linux, macOS и BSD <a href=\"https://www.winehq.org/\" rel=\"noopener noreferrer nofollow\">Wine 11.16</a>. Выпуск Wine 10.0 <a href=\"https://habr.com/ru/news/875506/\" rel=\"noopener noreferrer nofollow\">состоялся</a> в январе 2025 года. Релиз Wine 11.0 <a href=\"https://habr.com/ru/news/985008/\" rel=\"noopener noreferrer nofollow\">случился</a> 13 января 2026 года. Версия Wine 12.0 ожидается в начале следующего года.</p> <a href=\"https://habr.com/ru/articles/1073342/#habracut\">Читать далее</a>",
-    "image": "https://habrastorage.org/getpro/habr/upload_files/924/e85/8d4/924e858d4564ecc3cc4ad1f3aef1984e.png"
-  },
-  {
     "title": "Поймут только Х и Миллениалы",
     "link": "https://pikabu.ru/story/poymut_tolko_kh_i_millenialyi_14266594",
     "published": "Sun, 23 Aug 2026 06:11:01 +0300",
@@ -449,17 +504,6 @@
     "description": "<p>Пожар охватил 82 тысячи м² логистического центра в петербургском Колпино.<br /><br />За час площадь возгорания выросла с 60 до 82 тысяч м². В половине четвёртого пожару присвоили четвёртый ранг сложности, сейчас огонь тушат на четырёх боевых участках.<br /><br />К ликвидации привлекли 217 человек и 65 единиц техники, в том числе 132 сотрудника МЧС и 42 машины ведомства. К месту продолжают прибывать пожарные машины.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Sg3uhPh4JXCv2UKfL1xsSGhma1b7oSaAiv1-I66ZY2kkj6YUObBIwSSAcf210Hj2SgcY9KZQU5YB2RFfDRk9hxDOEX7xRPTsz2LB4Iyz7V0VsC1H2512o-jpdUvPwO27cwFb5Afsv3Jvt6Q6lH0c740hGysoVpmXj92cwVFubtgqxsZ--Upv0hI0JrI-OYYvsbIW-UNeiOMuyyvmVdIeYlFSiz3WV-ltek-oSgDJMDnMxqiZEJgX2tHXZIriA_SDkrJxFwGR5n1LOl3EWJcRA5pEBOxBq314664xDMpWxbDj4ICQXgypdrjWs9IsV77UHl3Eaa4_FwTVos7c_fU5Kg\" src=\"https://cdn4.telesco.pe/file/addf9ecbef.mp4?token=JHE7ZM0a1257My7HbrtmdpOwyIFRLqFPHLdSAprcrp6B_SBVRUmFY5VM6wxt0mEMahdLHoi5qzdrxbtcidbXdW_YHqg8z2N1gnVz51p3kIX5MdaTcGegSpkhNftWW0Ph7lBoBHS6kvktRQQ2Q8fUYmLP5TawtrUfkJczFGY_XF5ScwvZFFmYgaO6N80ABwTWEGRTVwzcu5BaHvr6wYrwCHjVBqwtouLiQrxLA4zGpNjE3hjj3QDIUvnSQ1fyDdR6MICkMGBStpPyQ3dk-COc2MUOgIKDNYID4bsIB01A6QPYcBPHiRuframsA5xmsVbNNhVNeMC26GlVuolUxnN_mQ\" style=\"width: 100%;\"></video><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg\" /></blockquote>",
     "summary": "<p>Пожар охватил 82 тысячи м² логистического центра в петербургском Колпино.<br /><br />За час площадь возгорания выросла с 60 до 82 тысяч м². В половине четвёртого пожару присвоили четвёртый ранг сложности, сейчас огонь тушат на четырёх боевых участках.<br /><br />К ликвидации привлекли 217 человек и 65 единиц техники, в том числе 132 сотрудника МЧС и 42 машины ведомства. К месту продолжают прибывать пожарные машины.<br /><br /><span class=\"emoji\">❗</span> <a href=\"https://max.ru/mash\" rel=\"noopener\" target=\"_blank\">Не грузятся фото и видео? Читайте нас в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/Sg3uhPh4JXCv2UKfL1xsSGhma1b7oSaAiv1-I66ZY2kkj6YUObBIwSSAcf210Hj2SgcY9KZQU5YB2RFfDRk9hxDOEX7xRPTsz2LB4Iyz7V0VsC1H2512o-jpdUvPwO27cwFb5Afsv3Jvt6Q6lH0c740hGysoVpmXj92cwVFubtgqxsZ--Upv0hI0JrI-OYYvsbIW-UNeiOMuyyvmVdIeYlFSiz3WV-ltek-oSgDJMDnMxqiZEJgX2tHXZIriA_SDkrJxFwGR5n1LOl3EWJcRA5pEBOxBq314664xDMpWxbDj4ICQXgypdrjWs9IsV77UHl3Eaa4_FwTVos7c_fU5Kg\" src=\"https://cdn4.telesco.pe/file/addf9ecbef.mp4?token=JHE7ZM0a1257My7HbrtmdpOwyIFRLqFPHLdSAprcrp6B_SBVRUmFY5VM6wxt0mEMahdLHoi5qzdrxbtcidbXdW_YHqg8z2N1gnVz51p3kIX5MdaTcGegSpkhNftWW0Ph7lBoBHS6kvktRQQ2Q8fUYmLP5TawtrUfkJczFGY_XF5ScwvZFFmYgaO6N80ABwTWEGRTVwzcu5BaHvr6wYrwCHjVBqwtouLiQrxLA4zGpNjE3hjj3QDIUvnSQ1fyDdR6MICkMGBStpPyQ3dk-COc2MUOgIKDNYID4bsIB01A6QPYcBPHiRuframsA5xmsVbNNhVNeMC26GlVuolUxnN_mQ\" style=\"width: 100%;\"></video><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg\" /></blockquote>",
     "image": "https://cdn4.telesco.pe/file/e-fOOfiq42akSUOiMLGkwn5i8RWSfghhqQ7G1EqOS9H4BwLezYLBWQ0GeuRni6ndh87wN1G5dK1ZhlUya_1OHd2VMvYPX2XSLsN5ZvOOg4xx76NJ4P9TSpKZ1emaPd8MyIpbuTqUe2YzidgOkfEpcg6DiMNZK1FiMW53xInX-6TPrtf05HSiM6FocyJyzsa3xDbexSy_JN4jf_yPc9ekzLvW-tHRWoM18ETshf2fAGv9PV_aYhH8B7437Z3bYShbyD4rDjsRLYe84UGstI0276675bfH1LjbuzfQtYisQrRdcLaMW92GLa4BSMlxagCLhwN-QXAr1XfNkMf3K8odbg"
-  },
-  {
-    "title": "Подогрели интерес",
-    "link": "https://pikabu.ru/story/podogreli_interes_14266545",
-    "published": "Sun, 23 Aug 2026 04:44:33 +0300",
-    "timestamp": 1787449473.0,
-    "source": "Пикабу",
-    "language": "ru",
-    "description": "<p><img alt=\"\" src=\"https://cs17.pikabu.ru/s/2026/08/23/04/2gcew6co.jpg\" /></p>",
-    "summary": "<p><img alt=\"\" src=\"https://cs17.pikabu.ru/s/2026/08/23/04/2gcew6co.jpg\" /></p>",
-    "image": "https://cs17.pikabu.ru/s/2026/08/23/04/2gcew6co.jpg"
   },
   {
     "title": "🖼 Мощный пожар в Ленинградской области — площадь возгорания превысила 60 тысяч кв...",
@@ -726,6 +770,17 @@
     "image": "https://cdn4.telesco.pe/file/A78VL3i-vXHt3OHCIxCLOH-Y5NZpJT_OtujfGdWu__FvwNikZ1-5YwhQ8sDsxxoQqPvxzIdUKZ8quBinoenvd4_xHnFIgYGR-O2FoZ1i0akRYEzgmd339_hoIH-QYOULCQ9kExwyC1OPNei_bmuxVQhgLThgXXDELb-M6Kk5zyvJcurdDKsc8x3Jn82HKSQaV7nm_1RxI9L3mLyHK9TyMk85Fk-nfFAz3aTA44jRX5YuukxrZ1byMHQEtPCRofPuKgqJIbkwurbHtXk5oGEp6_WmqAH0EI1ocO_ex2NnAG0jMg93R9vzsLIZNjo7hO32-7HPhQ4CrsqAqGk3Bedj9A.jpg"
   },
   {
+    "title": "Робот производителя смартфонов Honor «побил» мировой рекорд Усэйна Болта на стометровке",
+    "link": "https://vc.ru/future/3092053-robot-honor-pobil-rekord-usejna-bolta-na-stometrovke?from=rss",
+    "published": "Sat, 22 Aug 2026 15:49:55 +0300",
+    "timestamp": 1787402995.0,
+    "source": "VC.ru",
+    "language": "ru",
+    "description": "Официальным роборекорд, конечно, не считается.\n                                                    <img alt=\"alt\" height=\"900\" src=\"https://leonardo.osnova.io/2a4dea20-79d2-5a27-a457-5f6fcb1dfe06/-/resize/1300/\" width=\"720\" />",
+    "summary": "Официальным роборекорд, конечно, не считается.\n                                                    <img alt=\"alt\" height=\"900\" src=\"https://leonardo.osnova.io/2a4dea20-79d2-5a27-a457-5f6fcb1dfe06/-/resize/1300/\" width=\"720\" />",
+    "image": "https://leonardo.osnova.io/6c08688a-e70e-5a69-843e-97abfa00b964/"
+  },
+  {
     "title": "🖼 От мужиков вообще никакой помощи.",
     "link": "https://t.me/topor/51976",
     "published": "Sat, 22 Aug 2026 12:44:01 GMT",
@@ -735,28 +790,6 @@
     "description": "<p>От мужиков вообще никакой помощи.</p><img height=\"529\" src=\"https://cdn4.telesco.pe/file/kZ5d0V1kmqzEcK3yT7hzZRR2sOAK-zkPPZDrykSPiIGgbrDwlHn2sGd7WGH8k1oiw8aT3K7hnF4wjrKGkC10yW55wcNvbkijQUSE67im5adag7ea4tYfS2gGUrAaiLJBnTpRN9oAx_wSkwBrWKYtX2-PlZbHptOIzvuWQ7fsQvYShVYxIKHu8soM4ZbeHOjk2SSbOKvB5WcKh9KPUQ1K4WcWFSP4aJGcPIQNjCnzOeDKlSNCuz6vIo6AnE531oOe3IG8C1wgXDxDC7MrvEjQEGUn9zodAPTsJG47ReT_CRSrOylekS4SNa7qNX81lPywRjHpI1tnJPnWZdJJSB1u8g.jpg\" width=\"800\" />",
     "summary": "<p>От мужиков вообще никакой помощи.</p><img height=\"529\" src=\"https://cdn4.telesco.pe/file/kZ5d0V1kmqzEcK3yT7hzZRR2sOAK-zkPPZDrykSPiIGgbrDwlHn2sGd7WGH8k1oiw8aT3K7hnF4wjrKGkC10yW55wcNvbkijQUSE67im5adag7ea4tYfS2gGUrAaiLJBnTpRN9oAx_wSkwBrWKYtX2-PlZbHptOIzvuWQ7fsQvYShVYxIKHu8soM4ZbeHOjk2SSbOKvB5WcKh9KPUQ1K4WcWFSP4aJGcPIQNjCnzOeDKlSNCuz6vIo6AnE531oOe3IG8C1wgXDxDC7MrvEjQEGUn9zodAPTsJG47ReT_CRSrOylekS4SNa7qNX81lPywRjHpI1tnJPnWZdJJSB1u8g.jpg\" width=\"800\" />",
     "image": "https://cdn4.telesco.pe/file/kZ5d0V1kmqzEcK3yT7hzZRR2sOAK-zkPPZDrykSPiIGgbrDwlHn2sGd7WGH8k1oiw8aT3K7hnF4wjrKGkC10yW55wcNvbkijQUSE67im5adag7ea4tYfS2gGUrAaiLJBnTpRN9oAx_wSkwBrWKYtX2-PlZbHptOIzvuWQ7fsQvYShVYxIKHu8soM4ZbeHOjk2SSbOKvB5WcKh9KPUQ1K4WcWFSP4aJGcPIQNjCnzOeDKlSNCuz6vIo6AnE531oOe3IG8C1wgXDxDC7MrvEjQEGUn9zodAPTsJG47ReT_CRSrOylekS4SNa7qNX81lPywRjHpI1tnJPnWZdJJSB1u8g.jpg"
-  },
-  {
-    "title": "🔁🎬 Россиянин Сергей Бойцов установил новый мировой рекорд по стратосферному пр...",
-    "link": "https://t.me/bazabazon/48452",
-    "published": "Sat, 22 Aug 2026 12:10:10 GMT",
-    "timestamp": 1787400610.0,
-    "source": "TG: Baza",
-    "language": "ru",
-    "description": "<p>Forwarded From <b><a href=\"https://t.me/baza_sport/4623\">Sport Baza</a></b></p><p>Россиянин Сергей Бойцов установил новый мировой рекорд по стратосферному прыжку с воздушного аэростата.<br /><br />Он поднялся на высоту 11 551 метра над Алтаем, перекрестился и шагнул в пропасть.<br /><br />В 1,5 км от поверхности Бойцов раскрыл парашют и успешно приземлился. Предыдущий рекорд был установлен польскими спортсменами, которые прыгнули с высоты 10 км.<br /><br /><span class=\"emoji\">⚽️</span> <i>новости SPORT BAZA в MAX</i>: <a href=\"https://max.ru/baza_sport\" rel=\"noopener\" target=\"_blank\"><i><u>https://max.ru/baza_sport</u></i></a></p><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/aH2f5xPJLuQIZAUaNBPnjjszyjROBtNpdiutfIjCycs6WgKh39eKxdmgIhsYxB-3fAV5ihIxyV4bPwAMvj858Fq0TCKH9kqm2XJpznnxoXnWA-sVrqcvywS-_8UsXGZ6pAfWBBfYLomH5hwYZz9t3mhl8gytsZI6wpDPk08T4AeCdFLrjns1n-XKXfHlLkQGMKETXO-Qt16vxdwVKdNjqif3DTRP9hL02xBouZJuBC2_IDVK8XYpsnYaPjqldgRHrjD3XXFuOX2L8d2oVEvQh8O0U16DiI0rBYzTSRa_9x-2dm-D4OqBV4ZHGIOsnuavoZGwNmrLbQA0lSUGywp_ew\" /></blockquote>",
-    "summary": "<p>Forwarded From <b><a href=\"https://t.me/baza_sport/4623\">Sport Baza</a></b></p><p>Россиянин Сергей Бойцов установил новый мировой рекорд по стратосферному прыжку с воздушного аэростата.<br /><br />Он поднялся на высоту 11 551 метра над Алтаем, перекрестился и шагнул в пропасть.<br /><br />В 1,5 км от поверхности Бойцов раскрыл парашют и успешно приземлился. Предыдущий рекорд был установлен польскими спортсменами, которые прыгнули с высоты 10 км.<br /><br /><span class=\"emoji\">⚽️</span> <i>новости SPORT BAZA в MAX</i>: <a href=\"https://max.ru/baza_sport\" rel=\"noopener\" target=\"_blank\"><i><u>https://max.ru/baza_sport</u></i></a></p><blockquote><b>Video is too big</b><br /><img src=\"https://cdn4.telesco.pe/file/aH2f5xPJLuQIZAUaNBPnjjszyjROBtNpdiutfIjCycs6WgKh39eKxdmgIhsYxB-3fAV5ihIxyV4bPwAMvj858Fq0TCKH9kqm2XJpznnxoXnWA-sVrqcvywS-_8UsXGZ6pAfWBBfYLomH5hwYZz9t3mhl8gytsZI6wpDPk08T4AeCdFLrjns1n-XKXfHlLkQGMKETXO-Qt16vxdwVKdNjqif3DTRP9hL02xBouZJuBC2_IDVK8XYpsnYaPjqldgRHrjD3XXFuOX2L8d2oVEvQh8O0U16DiI0rBYzTSRa_9x-2dm-D4OqBV4ZHGIOsnuavoZGwNmrLbQA0lSUGywp_ew\" /></blockquote>",
-    "image": "https://cdn4.telesco.pe/file/aH2f5xPJLuQIZAUaNBPnjjszyjROBtNpdiutfIjCycs6WgKh39eKxdmgIhsYxB-3fAV5ihIxyV4bPwAMvj858Fq0TCKH9kqm2XJpznnxoXnWA-sVrqcvywS-_8UsXGZ6pAfWBBfYLomH5hwYZz9t3mhl8gytsZI6wpDPk08T4AeCdFLrjns1n-XKXfHlLkQGMKETXO-Qt16vxdwVKdNjqif3DTRP9hL02xBouZJuBC2_IDVK8XYpsnYaPjqldgRHrjD3XXFuOX2L8d2oVEvQh8O0U16DiI0rBYzTSRa_9x-2dm-D4OqBV4ZHGIOsnuavoZGwNmrLbQA0lSUGywp_ew"
-  },
-  {
-    "title": "🔁🎬 Отрыв надколенных связок, предварительно, диагностировали у зрителя силовог...",
-    "link": "https://t.me/mash/77152",
-    "published": "Sat, 22 Aug 2026 12:07:26 GMT",
-    "timestamp": 1787400446.0,
-    "source": "TG: Mash",
-    "language": "ru",
-    "description": "<p>Forwarded From <b><a href=\"https://t.me/mashnasporte/41673\">Mash на спорте</a></b></p><p>Отрыв надколенных связок, предварительно, диагностировали у зрителя силового экстрима в Брянске. Мужчина попросил организаторов дать ему потягать однотонную Lada Granta, дал справки, но вышел без страховки. Итог на видео.<br /><br /><span class=\"emoji\">❗️</span><a href=\"https://max.ru/mashnasporte\" rel=\"noopener\" target=\"_blank\"> Mash на спорте в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/qs6At4bJ2HfiCU7QGikuztOHBKlILMFXyqzUGlh60AUsG6jMQB4q9757tabrRJHAk__qXu0uFdfnChKxsf_djkZhu3OSd1t4tiXk_rx5KSCZKywxq1yT_Z6Lyw9_5XkoDImS68rqB_y4K3_x8rGE3MFycEu-ZHnS-SyCWtIxrusWD74hcH1-zky4IPTUlrS3nt9ryOJhhovEMg-QZVCqLrxZO5ApiRdjV2lqZo3cXi1xsMT9DvP3Vlib1_xt8-oATU_g7LPi7N-8EpPD79e5z_NognfVbjZ3JNhjYTRbak-HvSdLWZ-PIm6QYUWwoWoUOlNk0ucNeMul_Z0C4wEH5w\" src=\"https://cdn4.telesco.pe/file/be1f9c832c.mp4?token=hMdaKtMXw5ElUhpE5Awg_5TnYqYxLFjk_EVpwxinSCwkMnzundtAIP2Jqz-_uubypsc_O9_1m9EkZZEpiitJ9mhj92WVYaCTKd_y3Pso0BqGNj2ss5LYl9jJd6TMXwaywANbHrsVB50fxdCshT3KGqWUfwTpwrgzo7qupckkOEh2Zb_FdcbxnC1Ido2RsMuyQ_GmE4Xda7xIl-DvbVar_59mAGPNkdQBIxN7-o4c_x4Rb6Yd4tmm0pty7qt6QATDyPFhPKWLA2FrYR4Jzqk3Q5SW1uZLH5DBO1cRplHWQAG18pTk7fOb6UO6k6rnP4VhSBGX7C4a2eTboudy3ZHkGQ\" style=\"width: 100%;\"></video>",
-    "summary": "<p>Forwarded From <b><a href=\"https://t.me/mashnasporte/41673\">Mash на спорте</a></b></p><p>Отрыв надколенных связок, предварительно, диагностировали у зрителя силового экстрима в Брянске. Мужчина попросил организаторов дать ему потягать однотонную Lada Granta, дал справки, но вышел без страховки. Итог на видео.<br /><br /><span class=\"emoji\">❗️</span><a href=\"https://max.ru/mashnasporte\" rel=\"noopener\" target=\"_blank\"> Mash на спорте в MAX</a></p><video controls=\"controls\" poster=\"https://cdn4.telesco.pe/file/qs6At4bJ2HfiCU7QGikuztOHBKlILMFXyqzUGlh60AUsG6jMQB4q9757tabrRJHAk__qXu0uFdfnChKxsf_djkZhu3OSd1t4tiXk_rx5KSCZKywxq1yT_Z6Lyw9_5XkoDImS68rqB_y4K3_x8rGE3MFycEu-ZHnS-SyCWtIxrusWD74hcH1-zky4IPTUlrS3nt9ryOJhhovEMg-QZVCqLrxZO5ApiRdjV2lqZo3cXi1xsMT9DvP3Vlib1_xt8-oATU_g7LPi7N-8EpPD79e5z_NognfVbjZ3JNhjYTRbak-HvSdLWZ-PIm6QYUWwoWoUOlNk0ucNeMul_Z0C4wEH5w\" src=\"https://cdn4.telesco.pe/file/be1f9c832c.mp4?token=hMdaKtMXw5ElUhpE5Awg_5TnYqYxLFjk_EVpwxinSCwkMnzundtAIP2Jqz-_uubypsc_O9_1m9EkZZEpiitJ9mhj92WVYaCTKd_y3Pso0BqGNj2ss5LYl9jJd6TMXwaywANbHrsVB50fxdCshT3KGqWUfwTpwrgzo7qupckkOEh2Zb_FdcbxnC1Ido2RsMuyQ_GmE4Xda7xIl-DvbVar_59mAGPNkdQBIxN7-o4c_x4Rb6Yd4tmm0pty7qt6QATDyPFhPKWLA2FrYR4Jzqk3Q5SW1uZLH5DBO1cRplHWQAG18pTk7fOb6UO6k6rnP4VhSBGX7C4a2eTboudy3ZHkGQ\" style=\"width: 100%;\"></video>",
-    "image": ""
   },
   {
     "title": "Хакеры опубликовали очередные геймплейные клипы GTA VI — с показом стрип-клуба и новой катсценой",
@@ -814,17 +847,6 @@
     "image": "https://cdn4.telesco.pe/file/pDW1Xd8QE0doVqFliYUSTwzuTEL9r_ajF-wgbX7teVyDoq3lDG25MiidhnwgyuX_6mJTPPqf6BhZqN6qmpzpeVtlKhhgG9VSt4mkAjFwqcypHCHI03_MwsEmXB7ht8kM2g39r_XGi6PJafRX6ctYL1zc8lLoBrVJTZjUSY4lOXLAJf4BcpGtiR6k2kEIrOSMMFmCAbo0OXwZEhCQXfxOl70FztucUG8OHApS7EhJsxGp2-of02iIQznSVGmOlK_QZYlVGKsJMtIRJV6-vbemUTTyOOwIrG-eeoUXye8cqH1sqBryyD_y_R5uXJBD0IDQKihGTX5WstLSyxWuIT7hcg.jpg"
   },
   {
-    "title": "Кампания на Kickstarter, документалка и поддержка Kiln: Тим Шейфер о будущем Double Fine",
-    "link": "https://dtf.ru/gameindustry/5254592-tim-sheyfer-o-budushchem-double-fine-i-kampanii-na-kickstarter?from=rss",
-    "published": "Sat, 22 Aug 2026 13:00:24 +0300",
-    "timestamp": 1787392824.0,
-    "source": "DTF",
-    "language": "ru",
-    "description": "Студия получила права на все игры, выпущенные под издательством Xbox.\n                                                    <img alt=\"alt\" height=\"720\" src=\"https://leonardo.osnova.io/1d6cee38-e5fa-585c-81f1-2e3e48a91e8e/-/resize/1300/\" width=\"1280\" />",
-    "summary": "Студия получила права на все игры, выпущенные под издательством Xbox.\n                                                    <img alt=\"alt\" height=\"720\" src=\"https://leonardo.osnova.io/1d6cee38-e5fa-585c-81f1-2e3e48a91e8e/-/resize/1300/\" width=\"1280\" />",
-    "image": "https://leonardo.osnova.io/1d6cee38-e5fa-585c-81f1-2e3e48a91e8e/"
-  },
-  {
     "title": "🖼 Средняя социальная пенсия в России выросла на 1 тысячу рублей за год, следует из...",
     "link": "https://t.me/topor/51973",
     "published": "Sat, 22 Aug 2026 09:01:01 GMT",
@@ -853,9 +875,9 @@
     "timestamp": 1787384616.0,
     "source": "TG: ТОПОР",
     "language": "ru",
-    "description": "<p><b>Приют для свиней на Гавайях ищет тех, кто хочет жить там бесплатно за 3 часа работы в день со свинками.</b> <br /><br />За это дают бесплатное жильё в отдельной каюте, Wi-Fi и все удобства.<br /><br />Срочно летим на Гавайи.</p><img height=\"607\" src=\"https://cdn4.telesco.pe/file/FeuoFdHy38KhEm0tgsPlk9YwTqcYHbbNgCvVcZ1a4vVtFBgeaLcFS4r4BwmPbEBrt7-FGGEfhdVHKSI3by8pKgHBSb2NNrZopPSKuDksCvz3RryOj-qVc_UQ_VoIZb6d20ozcHtBe9JzzyuuUDdepfMlyeEAaOuecWMkfwfVqZc-g6QWqoq5OderoK9CE-SEeWYHvhiS_KHVP0PIz7x0irGCacTjls0umMZOJUjguruYxqjYLmxCEaGblel2n12EHHSwLP0F-eq6-becUCfsp6tG0D__wRviMBftmqZ1YIKdBFqrmamIliyRSzPQDlz_y8r87orOyQ64WWi6iKcvQA.jpg\" width=\"800\" />",
-    "summary": "<p><b>Приют для свиней на Гавайях ищет тех, кто хочет жить там бесплатно за 3 часа работы в день со свинками.</b> <br /><br />За это дают бесплатное жильё в отдельной каюте, Wi-Fi и все удобства.<br /><br />Срочно летим на Гавайи.</p><img height=\"607\" src=\"https://cdn4.telesco.pe/file/FeuoFdHy38KhEm0tgsPlk9YwTqcYHbbNgCvVcZ1a4vVtFBgeaLcFS4r4BwmPbEBrt7-FGGEfhdVHKSI3by8pKgHBSb2NNrZopPSKuDksCvz3RryOj-qVc_UQ_VoIZb6d20ozcHtBe9JzzyuuUDdepfMlyeEAaOuecWMkfwfVqZc-g6QWqoq5OderoK9CE-SEeWYHvhiS_KHVP0PIz7x0irGCacTjls0umMZOJUjguruYxqjYLmxCEaGblel2n12EHHSwLP0F-eq6-becUCfsp6tG0D__wRviMBftmqZ1YIKdBFqrmamIliyRSzPQDlz_y8r87orOyQ64WWi6iKcvQA.jpg\" width=\"800\" />",
-    "image": "https://cdn4.telesco.pe/file/FeuoFdHy38KhEm0tgsPlk9YwTqcYHbbNgCvVcZ1a4vVtFBgeaLcFS4r4BwmPbEBrt7-FGGEfhdVHKSI3by8pKgHBSb2NNrZopPSKuDksCvz3RryOj-qVc_UQ_VoIZb6d20ozcHtBe9JzzyuuUDdepfMlyeEAaOuecWMkfwfVqZc-g6QWqoq5OderoK9CE-SEeWYHvhiS_KHVP0PIz7x0irGCacTjls0umMZOJUjguruYxqjYLmxCEaGblel2n12EHHSwLP0F-eq6-becUCfsp6tG0D__wRviMBftmqZ1YIKdBFqrmamIliyRSzPQDlz_y8r87orOyQ64WWi6iKcvQA.jpg"
+    "description": "<p><b>Приют для свиней на Гавайях ищет тех, кто хочет жить там бесплатно за 3 часа работы в день со свинками.</b> <br /><br />За это дают бесплатное жильё в отдельной каюте, Wi-Fi и все удобства.<br /><br />Срочно летим на Гавайи.</p><img height=\"607\" src=\"https://cdn4.telesco.pe/file/c6-Q9RidP_86qxjSzlK-LqR1WJr7R3nSbiW3edCpAr1cGcOcGrd6jaVvlxLsWL3RFfnnQTyNXw-efoY-Z8aH20If_qt_CmwejHLFWsyUfBoF9adoxGtoujOONtIuOYZAcvIGw9ca-CycebjqoPOC8GW0nNGjoX46HU7f9d3tMRr9879klIbijsM9a8h1Yz0tD4tjmHohowp1FIRxfIw8tgD26JKADU_fTUDwQd6VtmtLDBXhW3BX-7FaWeSDFBKXoljQy8S5zUqQovXamVhngkpAL07ip4cs5B_k240YdlHeKbe90hIPsoolHYwQ3k_cJLIswOr2jupnCSykq2Ot_A.jpg\" width=\"800\" />",
+    "summary": "<p><b>Приют для свиней на Гавайях ищет тех, кто хочет жить там бесплатно за 3 часа работы в день со свинками.</b> <br /><br />За это дают бесплатное жильё в отдельной каюте, Wi-Fi и все удобства.<br /><br />Срочно летим на Гавайи.</p><img height=\"607\" src=\"https://cdn4.telesco.pe/file/c6-Q9RidP_86qxjSzlK-LqR1WJr7R3nSbiW3edCpAr1cGcOcGrd6jaVvlxLsWL3RFfnnQTyNXw-efoY-Z8aH20If_qt_CmwejHLFWsyUfBoF9adoxGtoujOONtIuOYZAcvIGw9ca-CycebjqoPOC8GW0nNGjoX46HU7f9d3tMRr9879klIbijsM9a8h1Yz0tD4tjmHohowp1FIRxfIw8tgD26JKADU_fTUDwQd6VtmtLDBXhW3BX-7FaWeSDFBKXoljQy8S5zUqQovXamVhngkpAL07ip4cs5B_k240YdlHeKbe90hIPsoolHYwQ3k_cJLIswOr2jupnCSykq2Ot_A.jpg\" width=\"800\" />",
+    "image": "https://cdn4.telesco.pe/file/c6-Q9RidP_86qxjSzlK-LqR1WJr7R3nSbiW3edCpAr1cGcOcGrd6jaVvlxLsWL3RFfnnQTyNXw-efoY-Z8aH20If_qt_CmwejHLFWsyUfBoF9adoxGtoujOONtIuOYZAcvIGw9ca-CycebjqoPOC8GW0nNGjoX46HU7f9d3tMRr9879klIbijsM9a8h1Yz0tD4tjmHohowp1FIRxfIw8tgD26JKADU_fTUDwQd6VtmtLDBXhW3BX-7FaWeSDFBKXoljQy8S5zUqQovXamVhngkpAL07ip4cs5B_k240YdlHeKbe90hIPsoolHYwQ3k_cJLIswOr2jupnCSykq2Ot_A.jpg"
   },
   {
     "title": "Ozon сообщил об атаке беспилотников на склад в Самарской области — товары оттуда сняли с онлайн-витрины",
@@ -968,17 +990,6 @@
     "image": "https://minio.nplus1.ru/app-images/1131326/conversions/6a885d5bf2506_cover-share.png"
   },
   {
-    "title": "Huawei представила смартфон с широким дисплеем Pura X View — первое подобное устройство на рынке",
-    "link": "https://vc.ru/tech/3090649-huawei-pura-x-view-pervyj-smartfon-s-shirokim-displeem?from=rss",
-    "published": "Fri, 21 Aug 2026 15:33:46 +0300",
-    "timestamp": 1787315626.0,
-    "source": "VC.ru",
-    "language": "ru",
-    "description": "Цена пока неизвестна.\n                                                    <img alt=\"alt\" height=\"900\" src=\"https://leonardo.osnova.io/44aa606e-c167-5ff4-9148-b30d250f94d0/-/resize/1300/\" width=\"1280\" />",
-    "summary": "Цена пока неизвестна.\n                                                    <img alt=\"alt\" height=\"900\" src=\"https://leonardo.osnova.io/44aa606e-c167-5ff4-9148-b30d250f94d0/-/resize/1300/\" width=\"1280\" />",
-    "image": "https://leonardo.osnova.io/44aa606e-c167-5ff4-9148-b30d250f94d0/"
-  },
-  {
     "title": "«Купола, дворцы, ДК. История и смыслы архитектуры России»",
     "link": "https://nplus1.ru/blog/2026/08/21/domes-palaces-cultural%20centers",
     "published": "Fri, 21 Aug 2026 13:25:00 +0300",
@@ -1018,9 +1029,9 @@
     "timestamp": 1670324999.0,
     "source": "TG: Life Shot",
     "language": "ru",
-    "description": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/FUSKuiswvdbo66LKOcK5MgApr8DTZy2mNszPVcNLIhnelYWKxmplqf8ugw1bMhZGeicKS2W6MGxuSkzAVkns84YULznd9ZH8Opvs34qK96T-tn6109izp1-8dsxsE1P65OucN94OH8CHAKB6uZvTVPpI2SDIWFGKRueIji3Ebh78x8QfizTggI98tsFg_mx5M9tkfolYDkyKv4mfMZujyGhMlJI7V9vClsrVuaC_wclz1kFmjhMFHxUff6T_p0RI15tT02EQAOnEo1vcAwkXBZelRYJlecYKmOgg0JloFO95UGJhUGhdzyoD4WFwh9I5YihOgpw2Uv-a-ztM_JZ2dw.jpg\" /></blockquote>",
-    "summary": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/FUSKuiswvdbo66LKOcK5MgApr8DTZy2mNszPVcNLIhnelYWKxmplqf8ugw1bMhZGeicKS2W6MGxuSkzAVkns84YULznd9ZH8Opvs34qK96T-tn6109izp1-8dsxsE1P65OucN94OH8CHAKB6uZvTVPpI2SDIWFGKRueIji3Ebh78x8QfizTggI98tsFg_mx5M9tkfolYDkyKv4mfMZujyGhMlJI7V9vClsrVuaC_wclz1kFmjhMFHxUff6T_p0RI15tT02EQAOnEo1vcAwkXBZelRYJlecYKmOgg0JloFO95UGJhUGhdzyoD4WFwh9I5YihOgpw2Uv-a-ztM_JZ2dw.jpg\" /></blockquote>",
-    "image": "https://cdn4.telesco.pe/file/FUSKuiswvdbo66LKOcK5MgApr8DTZy2mNszPVcNLIhnelYWKxmplqf8ugw1bMhZGeicKS2W6MGxuSkzAVkns84YULznd9ZH8Opvs34qK96T-tn6109izp1-8dsxsE1P65OucN94OH8CHAKB6uZvTVPpI2SDIWFGKRueIji3Ebh78x8QfizTggI98tsFg_mx5M9tkfolYDkyKv4mfMZujyGhMlJI7V9vClsrVuaC_wclz1kFmjhMFHxUff6T_p0RI15tT02EQAOnEo1vcAwkXBZelRYJlecYKmOgg0JloFO95UGJhUGhdzyoD4WFwh9I5YihOgpw2Uv-a-ztM_JZ2dw.jpg"
+    "description": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/nFUuC5bsdYRtswK9yO5ThH2XxcO93jyF9XhOx8o2rVQaz95sxc3pOj-s4LZeygDXKFHeols0Ky8ZTIxT6gwXYVYQKmQ32QRywG7XXuoqV9ulc9Ibnkmo0MqtSHH7hjdqDLcxNJz63y8BpNi5XRG5zGIVY4P9N_N1AorhWUSY21Du28wDX4ZPPmc8pPI08s940CppsPy6m9SSBb5c1S0-to6EMB6CClkZfZCNp8JuxOAyT_y3HB-TnZHvkpYsKHoyCr_HIf_tD38QAJuRTmqGvqImLlbqwmy-cE95qfwbvqk8RI0-Nj8z2bQ1GsYm2baoVcOH8J4H4radmbCIMZYOVA.jpg\" /></blockquote>",
+    "summary": "<p>Lifeshot username ready to sell on <a href=\"http://fragment.com/\" rel=\"noopener\" target=\"_blank\">fragment.com</a><br /><br /><a href=\"https://fragment.com/username/lifeshot\" rel=\"noopener\" target=\"_blank\">https://fragment.com/username/lifeshot</a></p><blockquote><b>Fragment Auctions</b><br /><b><a href=\"https://fragment.com/username/lifeshot\">Buy @lifeshot</a></b><br /><p>Get the username @lifeshot on Telegram and secure your ownership on the blockchain.</p><img src=\"https://cdn4.telesco.pe/file/nFUuC5bsdYRtswK9yO5ThH2XxcO93jyF9XhOx8o2rVQaz95sxc3pOj-s4LZeygDXKFHeols0Ky8ZTIxT6gwXYVYQKmQ32QRywG7XXuoqV9ulc9Ibnkmo0MqtSHH7hjdqDLcxNJz63y8BpNi5XRG5zGIVY4P9N_N1AorhWUSY21Du28wDX4ZPPmc8pPI08s940CppsPy6m9SSBb5c1S0-to6EMB6CClkZfZCNp8JuxOAyT_y3HB-TnZHvkpYsKHoyCr_HIf_tD38QAJuRTmqGvqImLlbqwmy-cE95qfwbvqk8RI0-Nj8z2bQ1GsYm2baoVcOH8J4H4radmbCIMZYOVA.jpg\" /></blockquote>",
+    "image": "https://cdn4.telesco.pe/file/nFUuC5bsdYRtswK9yO5ThH2XxcO93jyF9XhOx8o2rVQaz95sxc3pOj-s4LZeygDXKFHeols0Ky8ZTIxT6gwXYVYQKmQ32QRywG7XXuoqV9ulc9Ibnkmo0MqtSHH7hjdqDLcxNJz63y8BpNi5XRG5zGIVY4P9N_N1AorhWUSY21Du28wDX4ZPPmc8pPI08s940CppsPy6m9SSBb5c1S0-to6EMB6CClkZfZCNp8JuxOAyT_y3HB-TnZHvkpYsKHoyCr_HIf_tD38QAJuRTmqGvqImLlbqwmy-cE95qfwbvqk8RI0-Nj8z2bQ1GsYm2baoVcOH8J4H4radmbCIMZYOVA.jpg"
   },
   {
     "title": "🔧 Channel created",
