@@ -1,1 +1,141 @@
-[]
+[
+  {
+    "name": "Холодный чай с мятой и соком",
+    "appetizing": "Холодный чай с мятой и соком",
+    "ingredients": [
+      "Сахар — 200 г",
+      "Вода — 2 л",
+      "Чёрный чай в пакетиках — 4 штуки",
+      "Апельсиновый сок — 250 мл",
+      "Лимонный сок — 80–90 мл"
+    ],
+    "steps": [
+      "1․ Всыпьте в кастрюльку сахар и залейте 250 мл воды. Помешивая, доведите до кипения и варите 5 минут.",
+      "2․ Снимите сироп с огня. Добавьте чай и крупно нарубленную мяту. Перемешайте и оставьте на 10 минут.",
+      "3․ Процедите сироп, удалите пакетики и зелень. Смешайте сироп с оставшейся холодной водой и цитрусовым соком.",
+      "4․ Напиток можно подать со льдом, свежей мятой и кусочками фруктов."
+    ],
+    "time_minutes": 5,
+    "kjbu": {},
+    "tags": [
+      "рецепт"
+    ],
+    "stock_query": "homemade dish",
+    "image": "https://cdn4.telesco.pe/file/gc_x1KZAK_uJjMP6RmClTQxCdMoMgBaFpyN8P2YCw0YChSpZSZLk1Sqs4Jo1iDi2IYBl_v_P8m0aTL8v-5gMNloRU2UcSaTOLXSNKlyfh8ck6ULPAYES3_C0OFr4BvKVjoN8dYIsBYEuKLSWkHV4GN1676z8qadjdR4j5nesURLCVYwXc6cgPbXAKZbQ0LGmdifknZFm-YSItOQNY9stJCUSZhmANP250FDq87rUjYCOVvyge8niymz-EZkfDLvW3JHKPAz9KG8vwA6eoKffEaKXeWiVJ8-8kdKzhrmFeWCt_CDoWdLkx0fWXgh7QXC6tmwEPYGmG6qjRtSpfSPj9Q.jpg",
+    "time": "2026-08-26T09:50:02.988637"
+  },
+  {
+    "name": "Сегодня натрём яблоки и нажарим сладких драников... Румяных! Ароматных!",
+    "appetizing": "Сегодня натрём яблоки и нажарим сладких драников... Румяных! Ароматных!",
+    "ingredients": [
+      "Яблоко - 400 г",
+      "Яйцо куриное - 1 шт.",
+      "Крупа манная - 2 ст.л.",
+      "Мука пшеничная - 2 ст.л.",
+      "Сахар - 20 г",
+      "Корица молотая - 0,5 ч.л.",
+      "Соль - 1 щепотка",
+      "112 кКал на 100 г"
+    ],
+    "steps": [
+      "Яблоки очищаем от кожуры и сердцевины, натираем крупно и слегка отжимаем сок.",
+      "Перекладываем стружку в миску, добавляем яйцо, муку и манку, перемешиваем и даем постоять 5-10 минут, чтобы манка забрала часть сока.",
+      "Затем всыпаем сахар, соль и корицу, снова перемешиваем.",
+      "Сразу жарим небольшие тонкие драники на разогретой сковороде с растительным маслом под крышкой, на среднем огне, до румяной корочки с двух сторон. Готовые драники промакиваем бумажной салфеткой и подаем теплыми или холодными.",
+      "Полный рецепт с пошаговыми фото:",
+      "Приятного аппетита!",
+      "Спасибо за и репосты"
+    ],
+    "time_minutes": 10,
+    "kjbu": {},
+    "tags": [
+      "десерт"
+    ],
+    "stock_query": "apple",
+    "image": "https://cdn4.telesco.pe/file/b9hPbgAbZIdmHcb5QnrblH6cFAVEMgL7mFMashx0N2JGnpFNKl_yeJqypC1oLTU_vlpy6hwmfts28Cfa7ZI__3RYCHGyJhaDTqhaM_JVtYPl4UMQEpCIsV95tKzSkcWim461B1h8pSL0fipTEl_5Mju3aWpEZHkP4-e6V5iyrqYMHUMKbgWUi8RHowK_UGiSflukAv7LOALkJnEwfV4kSlvn6h-MaR_NhVBl1v9Es18y0NfUVQtD8326rXDxiNggd3prwMx0tdsEpNlBS9WmOAnEM7gqtEucBf2GgRbGJKri3eYJff9kLSNfKHaHEY6B4HTfl5hGqLY546I3sl6ikA.jpg",
+    "time": "2026-08-26T09:50:01.031741"
+  },
+  {
+    "name": "Легкий салат из тыквы",
+    "appetizing": "Легкий салат из тыквы",
+    "ingredients": [
+      "Тыква - 600 г",
+      "Яблоко - 4-5 шт.",
+      "Лимон - 1 шт.",
+      "Мед - 1 ст. л.",
+      "Орехи грецкие молотые - 3 ст. л.",
+      "Морковь - 1-2 шт.",
+      "Зелень - по вкусу"
+    ],
+    "steps": [
+      "Грецкие орехи почистить.",
+      "Тыкву и морковь очистить и помыть.",
+      "Морковь нарезать соломкой. А тыкву натереть на крупной терке.",
+      "Лимонный сок отжать в отдельную емкость.",
+      "С лимона срезать цедру и нашинковать ее соломкой.",
+      "Яблоки очистить и нарезать соломкой.",
+      "Лимонный сок добавить к меду и хорошо перемешать.",
+      "Орехи раздавить качалкой на разделочной доске."
+    ],
+    "time_minutes": 0,
+    "kjbu": {},
+    "tags": [
+      "салат"
+    ],
+    "stock_query": "salad",
+    "image": "https://cdn4.telesco.pe/file/Xceqn88krzIizoIiuH7LwcQkNx2GqfjwGW3SEWyuIN9LM4X1B3O_C0RZUfPp0M1Bi3YfsEvSVA_BkVSIWRTPmp-ZvmfZ4XnwGuazVsFS2-EQjXNSHerT7huwwqAdfZvEVlz7NWDX2dg9ePSulX5r7TZIieC7l_cshQ1H8docokwkpipe-ruTPlAopEuYRj5fhLYveyFKUmQAMPGLeP1Ul6xq4sZdkQd9pTp4nX-T0kWFMZlwvA5x8cvd1Dwz7rD2QXdfGEE6_yl9XtNRRZkunZ7C08BWepIGDxpvhgvpcyHU-PNkCXHexiehW_7U-QM5SnFQ3ssmy2iFFGWyDbgJQQ.jpg",
+    "time": "2026-08-26T09:49:58.941055"
+  },
+  {
+    "name": "Глазированные крылышки",
+    "appetizing": "Глазированные крылышки",
+    "ingredients": [
+      "Крылья - 900 г.",
+      "Паприка - 1 ст.л.",
+      "Мед - 1 ст.л.",
+      "Чеснок - 1 зубчик",
+      "Соевый соус - 150-200 мл."
+    ],
+    "steps": [
+      "У крылышек отрезаем самый маленький фаланг.",
+      "Приправляем паприкой, медом, чесноком, соевым соусом, перемешиваем и маринуем 1 час.",
+      "Выкладываем на противень и выпекаем 40 минут при 160 гр., переворачиваем и отправляем в духовку на 15 минут."
+    ],
+    "time_minutes": 40,
+    "kjbu": {},
+    "tags": [
+      "заготовки"
+    ],
+    "stock_query": "homemade dish",
+    "image": "https://cdn4.telesco.pe/file/EHPwt4mxkDAMHq6HPzXsvYUlgHMbrQIgj6B7ZBMhwes1JoqEXWhDa_EYbQFT1VgMgCLDf-Zg0w_c6X8md-u53mjLpZCluIsn88Gd5cNBzarLZyyEHa9FN-shrlLKjO0kKis1V62GOlzTbHsBWZ1aiQFDptcQ3VdjBPGUwFo63JoSIHTOrYxrV-eCeZaXlakPLxATfwMYjcf0aatJoSgWvJTg4ZCsbd88WsAv0zu7iis0B6Thecw8QUjMRJrlPi4L54xZYIs918hKIjwjVZfQoR-j7uqsn30vK0pyTXdQYdWOPYgS9l6i7mxEZlOgY48t6hLtLo0LwT9OwnhIuT7fWw.jpg",
+    "time": "2026-08-26T09:49:57.241264"
+  },
+  {
+    "name": "Творожная запеканка",
+    "appetizing": "- Творог 5% брикет - 380 г.",
+    "ingredients": [
+      "Творог 5% брикет - 380 г.",
+      "Яйцо - 3 шт.",
+      "Молоко - 100 мл.",
+      "Рисовая мука - 2 ст. л.",
+      "Разрыхлитель - 1/2 ч. л.",
+      "Подсластитель (сахар) по вкусу."
+    ],
+    "steps": [
+      "Отделить белки от желтков.",
+      "В миске смешать творог, яйца, муку, подсластитель (сахар) и разрыхлитель.",
+      "Взбить белки до пиков венчиком или миксером.",
+      "Ввести аккуратно белки в творожную массу и перемешать.",
+      "Перелить тесто в форму для запекания, чем меньше диаметр, тем она будет выше.",
+      "Запекать в разогретой до 180 гр. духовке 45 минут."
+    ],
+    "time_minutes": 45,
+    "kjbu": {},
+    "tags": [
+      "рецепт"
+    ],
+    "stock_query": "casserole",
+    "image": "https://cdn4.telesco.pe/file/m6s7W3fB67PVFUaMBpPrlYYpKa4FoJGjiX9y7cWcvUPqIq5PA0ii0o9Rsk2-nYkCzSz34HuhbZutmMvRVSz-rosHJU8APiETwpPO_a14cGjN1TWRBOYrMIF9D2PnY98oMJUAw2ZZ5uXoC7BAi3DH77KAVsemzynPlamYiVieKs-PgF7Cq_E4qGVig2vXZH-3BkpBgZxPkkeruMS2GR-yuyW0uXjBaEWbc8IP289DP2M1X9xhFY-TDTECSn82aR303m7yIlVwUc8gLakXkXC6syWLeDVh38uQNaHtDVoNFsklex1eSS5QEFxcIaPQvdzPIwLqt_gzor2-hPu0gwu1aw.jpg",
+    "time": "2026-08-26T09:49:55.076511"
+  }
+]
