@@ -17,9 +17,13 @@ MSK = timezone(timedelta(hours=3))
 AI_OK = bool(QWEN_KEY or GROQ_KEY)
 
 JUNK = ['приятного аппетита', 'смотр', 'ссылк', 'каталог', 'наш канал', 'подпис',
-        '***', 'макс', 'ozon', 'wildberries', 'реклама', 'комментариях', 'спасибо']
+        '***', 'макс', 'ozon', 'wildberries', 'реклама', 'комментариях', 'спасибо',
+        'полный рецепт', 'пошаговыми фото']
 
-# ---------- Чистка ----------
+# Только простые продукты из любого магазина
+EXOTIC = ['кокос', 'авокадо', 'киноа', 'кускус', 'тофу', 'миди', 'устриц', 'трюфел',
+          'гребешок', 'лангуст', 'анчоус', 'каперс', 'артшо', 'манго', 'папайя',
+          'личжи', 'пармезан', 'дорблю', 'хумус', 'тахини', 'матча', 'фисташк']
 
 def strip_all_html(text):
     if not text:
@@ -40,7 +44,7 @@ def strip_all_html(text):
     t = H.unescape(t)
     t = re.sub(r'[ \t]+\n', '\n', t)
     t = re.sub(r'\n{3,}', '\n\n', t)
-    return '\n'.join(l.strip() for l in t.split('\n') if l.strip() and ' ' not in l[:1] or len(l) > 1)
+    return '\n'.join(l.strip() for l in t.split('\n') if l.strip())
 
 def clean_title(title):
     if not title:
@@ -64,7 +68,10 @@ def clean_lines(block, min_len):
             out.append(line)
     return out
 
-# ---------- Фильтр ----------
+def similar(a, b):
+    a = re.sub(r'[^a-zа-яё0-9]', '', a.lower())[:25]
+    b = re.sub(r'[^a-zа-яё0-9]', '', b.lower())[:25]
+    return bool(a and b and (a in b or b in a or a[:12] == b[:12]))
 
 def should_skip(text):
     low = text.lower()
@@ -72,13 +79,13 @@ def should_skip(text):
         return "слишком коротко"
     if any(m in low for m in ['реклама', 'промокод', 'розыгрыш', 'подпишись', 'ozon.ru', 'wildberries']):
         return "реклама"
+    if any(e in low for e in EXOTIC):
+        return "экзотика"
     if not any(k in low for k in ['ингредиент', 'ингридиент', 'продукт', 'приготовлен',
                                   'рецепт', 'смешать', 'добавить', 'жарить', 'варить',
                                   'тушить', 'запекать', 'грамм', 'ст.л', 'ч.л', 'минут']):
         return "нет рецепта"
     return ""
-
-# ---------- Теги и разбор ----------
 
 FOOD_EN = {'куриц': 'chicken', 'мяс': 'meat', 'рыб': 'fish', 'салат': 'salad',
            'суп': 'soup', 'пирог': 'pie', 'торт': 'cake', 'блин': 'pancakes',
@@ -90,23 +97,25 @@ FOOD_EN = {'куриц': 'chicken', 'мяс': 'meat', 'рыб': 'fish', 'сал�
            'кекс': 'muffins', 'лимонад': 'lemonade', 'напиток': 'drink',
            'каш': 'porridge', 'омлет': 'omelet', 'сырник': 'syrniki'}
 
-def guess_tags(text):
-    rules = {'завтрак': ['завтрак', 'омлет', 'каш', 'сырник', 'олад', 'творог', 'блин', 'запеканк', 'чай', 'лимонад', 'напиток'],
-             'обед': ['обед', 'суп', 'борщ', 'гарнир', 'плов', 'макарон', 'рис', 'гречк', 'котлет', 'мяс', 'рыб', 'куриц'],
-             'ужин': ['ужин', 'мясо', 'куриц', 'рыб', 'котлет', 'гарнир', 'салат', 'запеканк'],
-             'десерт': ['десерт', 'торт', 'кекс', 'сладк', 'морожен', 'пирог', 'печень', 'булоч'],
-             'салат': ['салат'], 'суп': ['суп', 'борщ'],
-             'выпечка': ['выпеч', 'пирог', 'булоч', 'хлеб'],
-             'заготовки': ['заготов', 'на зиму', 'марин', 'солень', 'варень'],
-             'пп': ['пп ', 'диет', 'калор', 'стройн']}
-    tags = [t for t, kws in rules.items() if any(k in text for k in kws)]
-    return tags[:3] or ['рецепт']
+def meal_tags(text):
+    """Только 4 тематики: завтрак/обед/ужин/десерт"""
+    low = text.lower()
+    tags = []
+    if any(k in low for k in ['завтрак', 'омлет', 'каш', 'сырник', 'олад', 'блин', 'творог', 'чай', 'лимонад']):
+        tags.append('завтрак')
+    if any(k in low for k in ['обед', 'суп', 'борщ', 'плов', 'макарон', 'гречк']):
+        tags.append('обед')
+    if any(k in low for k in ['ужин', 'мяс', 'куриц', 'рыб', 'котлет', 'гарнир', 'салат', 'запеканк']):
+        tags.append('ужин')
+    if any(k in low for k in ['десерт', 'торт', 'кекс', 'сладк', 'морожен', 'пирог', 'печень', 'булоч']):
+        tags.append('десерт')
+    return tags
 
 def parse_recipe(title, text):
     ing_m = re.search(r'(?:ингредиент\w*|ингридиент\w*|продукты|что понадобится|нам понадобится)[^\n]{0,30}:\s*(.*?)(?=(?:приготовлен\w*|способ|как готовим|как приготовить|\Z))', text, re.S | re.I)
     step_m = re.search(r'(?:приготовлен\w*|способ|как готовим|как приготовить)[^\n]{0,30}:\s*(.*)', text, re.S | re.I)
     
-    ingredients = clean_lines(ing_m.group(1) if ing_m else '', 4)[:12]
+    ingredients = clean_lines(ing_m.group(1) if ing_m else '', 4)[:10]
     steps = clean_lines(step_m.group(1) if step_m else '', 15)[:8]
     
     time_m = re.search(r'(\d{1,3})\s*мин', text, re.I)
@@ -115,9 +124,18 @@ def parse_recipe(title, text):
     
     lines = [l for l in text.split('\n') if len(l) > 20 and 'ингредиент' not in l.lower()]
     
+    # Аппетитное описание — первая строка, НЕ повторяющая заголовок
+    app = ''
+    for l in lines:
+        if len(l) > 25 and not similar(l, title):
+            app = l[:200]
+            break
+    if not app and ingredients:
+        app = 'Простые продукты из любого магазина: ' + ', '.join(i.split(' - ')[0].split(' — ')[0].lower() for i in ingredients[:4]) + '.'
+    
     return {
         'name': short_name(title),
-        'appetizing': lines[0][:200] if lines else short_name(title),
+        'appetizing': app,
         'ingredients': ingredients,
         'steps': steps,
         'time_minutes': int(time_m.group(1)) if time_m else 0,
@@ -126,11 +144,9 @@ def parse_recipe(title, text):
                  'fats': float(bj_u.group(2).replace(',', '.')),
                  'carbs': float(bj_u.group(3).replace(',', '.')),
                  'estimated': False} if (kcal_m and bj_u) else {},
-        'tags': guess_tags(text.lower()),
+        'tags': meal_tags(text),
         'stock_query': ' '.join([en for ru, en in FOOD_EN.items() if ru in title.lower()][:2]) or 'homemade dish',
     }
-
-# ---------- AI (Groq → Qwen → автономно) ----------
 
 def ai_recipe(title, text):
     global AI_OK
@@ -147,12 +163,13 @@ def ai_recipe(title, text):
             r = OpenAI(api_key=key, base_url=base).chat.completions.create(
                 model=model,
                 messages=[{"role": "user", "content":
-                    f'Верни ТОЛЬКО JSON: {{"name":"2-5 слов","appetizing":"1 предложение","ingredients":["..."],"steps":["..."],"time_minutes":0,"kjbu":{{"kcal":0,"proteins":0,"fats":0,"carbs":0,"estimated":true}},"tags":["макс 3 из: завтрак,обед,ужин,десерт,пп"]}}. '
-                    f'Возьми из поста. КБЖУ из поста или рассчитай (estimated:true). Без эмодзи.\n\nПост: {text[:2500]}'}],
+                    f'Верни ТОЛЬКО JSON: {{"name":"2-5 слов","appetizing":"1 предложение, НЕ повторяющее название","ingredients":["..."],"steps":["..."],"time_minutes":0,"kjbu":{{"kcal":0,"proteins":0,"fats":0,"carbs":0,"estimated":true}},"tags":["только из: завтрак,обед,ужин,десерт; макс 2"]}}. '
+                    f'Возьми из поста. КБЖУ из поста или рассчитай (estimated:true). Без эмодзи и экзотики.\n\nПост: {text[:2500]}'}],
                 max_tokens=1200, temperature=0.3,
                 response_format={"type": "json_object"})
             data = json.loads(re.sub(r'^```json\s*|\s*```$', '', r.choices[0].message.content.strip()))
             if data.get('name') and (data.get('ingredients') or data.get('steps')):
+                data['tags'] = [t for t in data.get('tags', []) if t in ['завтрак', 'обед', 'ужин', 'десерт']]
                 data['stock_query'] = ' '.join([en for ru, en in FOOD_EN.items() if ru in data['name'].lower()][:2]) or 'homemade dish'
                 return data
         except Exception as e:
@@ -160,8 +177,6 @@ def ai_recipe(title, text):
                 print(f"  ⚠️ {name}: квота исчерпана")
                 continue
     return None
-
-# ---------- Сток ----------
 
 def get_stock(query):
     if not PEXELS_KEY:
@@ -174,15 +189,13 @@ def get_stock(query):
     except Exception:
         return ""
 
-# ---------- Публикация ----------
-
 def format_post(d):
     ing = '\n'.join(f"• {H.escape(i)}" for i in d['ingredients']) or '• см. источник'
     stp = '\n'.join(f"{i+1}. {H.escape(s)}" for i, s in enumerate(d['steps'])) or '1. См. источник'
     k = d.get('kjbu', {})
     kjbu = f"🔥 <b>КБЖУ:</b> {'≈' if k.get('estimated') else ''}{k.get('kcal', 0)} ккал • Б{k.get('proteins', 0)} Ж{k.get('fats', 0)} У{k.get('carbs', 0)}" if k else ""
     time_l = f"⏱ <b>Время:</b> {d['time_minutes']} мин" if d.get('time_minutes') else ""
-    tags = ' '.join('#' + t for t in d['tags']) + ' #рецепт'
+    tags = ' '.join('#' + t for t in d['tags'])
     return f"""🍲 <b>{H.escape(d['name'])}</b>
 
 <i>{H.escape(d['appetizing'])}</i>
@@ -237,7 +250,6 @@ def load_json(path, default):
 def main():
     print("🍳 Публикуем рецепты...")
     
-    # Слот: 7:00 завтрак, 13:00 обед, 19:00 ужин (МСК) — по 2 поста
     hour = datetime.now(MSK).hour
     slot = {7: 'завтрак', 13: 'обед', 19: 'ужин'}.get(hour)
     if slot is None and EVENT_NAME != 'schedule':
@@ -263,8 +275,12 @@ def main():
         if reason:
             continue
         d = ai_recipe(title, text) or parse_recipe(title, text)
-        if not d.get('ingredients') and not d.get('steps'):
+        if not d.get('ingredients') or len(d['ingredients']) < 3:
             continue
+        if not d.get('steps'):
+            continue
+        if not d.get('tags'):
+            d['tags'] = [slot]
         image, video = a.get('image', ''), a.get('video', '')
         if not image and not video:
             image = get_stock(d['stock_query'])
@@ -273,7 +289,7 @@ def main():
         print(f"  ✅ {d['name'][:40]} → {score} (инг:{len(d['ingredients'])} шаг:{len(d['steps'])})")
     
     prepared.sort(key=lambda x: x[0], reverse=True)
-    to_publish = prepared[:2]  # 2 поста на слот = 6 в день
+    to_publish = prepared[:2]
     
     if not to_publish:
         print("✅ Нет подходящих рецептов для этого слота")
@@ -287,7 +303,7 @@ def main():
         msg = format_post(d)
         ok = video and send('video', msg, video)
         if not ok and image:
-            ok = send('photo', msg, image)
+            ok = send_photo_safe(msg, image)
         if not ok:
             ok = send('message', msg, '')
         if ok:
@@ -303,6 +319,9 @@ def main():
     with open('src/content/site_feed.json', 'w', encoding='utf-8') as f:
         json.dump(site_feed[:60], f, ensure_ascii=False, indent=2)
     print(f"\n✅ Опубликовано: {ok_count} | Лента сайта: {len(site_feed[:60])}")
+
+def send_photo_safe(message, image_url):
+    return send('photo', message, image_url)
 
 if __name__ == "__main__":
     main()
