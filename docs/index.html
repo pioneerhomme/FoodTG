@@ -13,20 +13,18 @@
     .ch h1 { font-size: 1.15em; }
     .ch .sub { color: #7d8b99; font-size: .85em; margin: 2px 0 8px; }
     .btn { display: inline-block; background: #5288c1; color: #fff; text-decoration: none; font-size: .85em; font-weight: 600; padding: 7px 16px; border-radius: 6px; }
-    .btn:hover { background: #4279b2; }
     .ch .user { color: #7d8b99; font-size: .82em; margin-left: 8px; }
     .tags { background: #fff; border-radius: 10px; padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
     .tg-btn { border: none; background: #e7ebf0; color: #5288c1; font-size: .8em; font-weight: 600; padding: 5px 12px; border-radius: 14px; cursor: pointer; }
     .tg-btn.active { background: #5288c1; color: #fff; }
     .post { background: #fff; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; }
-    .post h3 { font-size: 1.05em; margin-bottom: 6px; }
+    .post h3 { font-size: 1.05em; margin: 10px 0 6px; }
     .app { color: #555; font-style: italic; font-size: .92em; line-height: 1.45; margin-bottom: 10px; }
     .post h4 { font-size: .9em; margin: 10px 0 4px; color: #333; }
     .post ul, .post ol { padding-left: 20px; font-size: .9em; line-height: 1.5; color: #222; }
-    .post img { width: 100%; border-radius: 8px; margin-top: 12px; max-height: 420px; object-fit: cover; }
+    .post img { width: 100%; border-radius: 8px; max-height: 420px; object-fit: cover; }
     .foot { margin-top: 10px; color: #7d8b99; font-size: .8em; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
     .kjbu { color: #e05c2a; font-weight: 700; }
-    .ptags { color: #5288c1; font-size: .85em; font-weight: 600; }
     .ptags button { border: none; background: none; color: #5288c1; font-size: .85em; font-weight: 600; cursor: pointer; padding: 0 2px; }
     .empty { text-align: center; color: #7d8b99; padding: 50px 0; }
 </style>
@@ -47,11 +45,13 @@
 </div>
 <script>
 let POSTS = [], TAG = '';
-
+function imgTag(url) {
+    return `<img src="${url}" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.dataset.p){this.dataset.p=1;this.src='https://images.weserv.nl/?url='+encodeURIComponent(this.src);}else{this.remove();}">`;
+}
 function postHTML(p) {
-    const img = p.image ? `<img src="${p.image}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : '';
+    const img = p.image ? imgTag(p.image) : '';
     const ing = (p.ingredients||[]).length ? `<h4>🥄 Ингредиенты</h4><ul>${p.ingredients.map(i=>`<li>${i}</li>`).join('')}</ul>` : '';
-    const stp = (p.steps||[]).length ? `<h4>👩‍ Приготовление</h4><ol>${stp_nums(p.steps)}</ol>` : '';
+    const stp = (p.steps||[]).length ? `<h4>👩‍ Приготовление</h4><ol>${p.steps.map((s,i)=>`<li>${i+1}. ${s}</li>`).join('')}</ol>` : '';
     const k = p.kjbu||{};
     const kjbu = k.kcal ? `<span class="kjbu">🔥 ${k.estimated?'≈':''}${k.kcal} ккал • Б${k.proteins} Ж${k.fats} У${k.carbs}</span>` : '';
     const tm = p.time_minutes ? `<span>⏱ ${p.time_minutes} мин</span>` : '';
@@ -65,8 +65,6 @@ function postHTML(p) {
         <div class="foot"><span class="ptags">${tg}</span></div>
     </article>`;
 }
-function stp_nums(steps){ return steps.map(s=>`<li>${s}</li>`).join(''); }
-
 function render() {
     const list = TAG ? POSTS.filter(p=>(p.tags||[]).includes(TAG)) : POSTS;
     document.getElementById('feed').innerHTML =
@@ -74,10 +72,9 @@ function render() {
 }
 function setTag(t) { TAG = (TAG === t) ? '' : t; drawTags(); render(); }
 function drawTags() {
-    const order = ['завтрак','обед','ужин','десерт'];
     const c = {};
     POSTS.forEach(p=>(p.tags||[]).forEach(t=>c[t]=(c[t]||0)+1));
-    const tags = order.filter(t=>c[t]);
+    const tags = ['завтрак','обед','ужин','десерт'].filter(t=>c[t]);
     document.getElementById('tags').innerHTML =
         `<button class="tg-btn ${TAG?'':'active'}" onclick="setTag('')">Все</button>` +
         tags.map(t=>`<button class="tg-btn ${TAG===t?'active':''}" onclick="setTag('${t}')">#${t} ${c[t]}</button>`).join('');
