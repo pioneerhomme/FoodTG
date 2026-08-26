@@ -1,5 +1,53 @@
 [
   {
+    "name": "Яблочный пунш",
+    "appetizing": "Простые продукты из любого магазина: яблочный сок, апельсиновый сок, лимонный сок, мёд.",
+    "ingredients": [
+      "Яблочный сок — 660 мл",
+      "Апельсиновый сок — 300 мл",
+      "Лимонный сок — 1 ст. ложка",
+      "Мёд — 2 ст. ложки",
+      "Молотая корица — 2 ч. ложки"
+    ],
+    "steps": [
+      "Влейте в кастрюлю яблочный и апельсиновый сок. Подогрейте на плите, но не доводите до кипения.",
+      "Снимите с огня. Добавьте лимонный сок, мёд и корицу и перемешайте. Подавайте пунш горячим."
+    ],
+    "time_minutes": 0,
+    "kjbu": {},
+    "tags": [
+      "обед"
+    ],
+    "stock_query": "homemade dish",
+    "image": "https://cdn4.telesco.pe/file/A07kIvtKMZhrfraHMsT204cVyzKd3G9EsmAw_a3sRW58bq7GQKIbfHicDy0XIBiJ3qvyRlvXh_Xz-8o62Dl2nf50o_1lwoTGXEWBNs07pHZYKWuDDc_pcsGqi203STKl1umQZ_rt-KBGSaX9Joi3KHViPuPemYwjrWcnH9-FWmTTPNywq3P5zumdzOj7njW3OipfSplYOW7Kx1jFArUBp8BVvKpuZRi8y8aXx1Gux-5Q1WtD3wD72MUD6vjq5cnjush2lMldwPX2tnJqcdOQzXfIae50AVPIvX4VjudAWCML_PlqwYsQ0DLTIaEbBjDKrXQatUKafLW64UindalbkQ.jpg",
+    "time": "2026-08-26T12:09:15.004569"
+  },
+  {
+    "name": "Картошка-гармошка с сыром",
+    "appetizing": "Простые продукты из любого магазина: картофель, сыр, сливочное масло, чесночный порошок.",
+    "ingredients": [
+      "Картофель - 5 шт.",
+      "Сыр - 150 г.",
+      "Сливочное масло - 50 г.",
+      "Чесночный порошок - 2 ч. л.",
+      "Соль, перец, прованские травы - по вкусу"
+    ],
+    "steps": [
+      "Поместить клубни картофеля между двумя столовыми ложками или деревянными палочками и сделайте глубокие надрезы через каждые 0.3 сантиметра.",
+      "Натереть клубни картофеля специями и солью. Сыр нарезать тонкими пластинками, выложить в разрезы.",
+      "Растительным маслом смазать форму для запекания, выложить картофель. Сверху на каждый клубень положить по несколько кусочков сливочного масла.",
+      "Накрыть форму для запекания фольгой и отправить в разогретую до 180 С духовку до готовности, примерно на 40-60 минут, зависит от размера картофеля."
+    ],
+    "time_minutes": 60,
+    "kjbu": {},
+    "tags": [
+      "обед"
+    ],
+    "stock_query": "cheese",
+    "image": "https://cdn4.telesco.pe/file/nCXIaYT-nxKIFG8nkP1xQsene9dinX-djvaz9EA3AiMMUYPLvfeOSDZvVKIjfMQgp4owtfyxwU7Z7wuccqBx-fYxBUyz_hWYimT1vFFZJyrv8bjsGtNoL7E4ZAoBPl1dYJ3zfkGa-m174RlYarYCvSABGm7Tbgoxx2-wRhkPclWolm8xfkoqh8ENXwFv7dWmn7qvwQVjXgQsXT-UJULzLPf6HsrobT8-cgvz6fWuSAuq6yZ1-QcWIn5fx4ekJvq9i2eX61NjSXJe_NFGnX4dBCH0wM4p4MiYZ1JO3WzBm3hzKgwJOt4yXusVemxPZU1pz-JQhv-UVRmYqhW-phLFRQ.jpg",
+    "time": "2026-08-26T12:09:13.031087"
+  },
+  {
     "name": "Простой рыбный суп с овощами в мультиварке",
     "appetizing": "Простой рыбный суп с овощами в мультиварке",
     "ingredients": [
