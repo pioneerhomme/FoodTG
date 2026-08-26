@@ -46,10 +46,12 @@
 <script>
 let POSTS = [], TAG = '';
 function imgTag(url) {
+    if (!url) return '';
+    if (!url.startsWith('http')) return `<img src="${url}" loading="lazy">`;
     return `<img src="${url}" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.dataset.p){this.dataset.p=1;this.src='https://images.weserv.nl/?url='+encodeURIComponent(this.src);}else{this.remove();}">`;
 }
 function postHTML(p) {
-    const img = p.image ? imgTag(p.image) : '';
+    const img = imgTag(p.image);
     const ing = (p.ingredients||[]).length ? `<h4>🥄 Ингредиенты</h4><ul>${p.ingredients.map(i=>`<li>${i}</li>`).join('')}</ul>` : '';
     const stp = (p.steps||[]).length ? `<h4>👩‍ Приготовление</h4><ol>${p.steps.map((s,i)=>`<li>${i+1}. ${s}</li>`).join('')}</ol>` : '';
     const k = p.kjbu||{};

@@ -1,4 +1,4 @@
-import json, os, re, html as H, requests
+import json, os, re, html as H, requests, hashlib
 from datetime import datetime, timezone, timedelta
 
 TG_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
@@ -18,7 +18,6 @@ EXOTIC = ['кокос', 'авокадо', 'киноа', 'кускус', 'тоф�
           'гребешок', 'лангуст', 'анчоус', 'каперс', 'артшо', 'манго', 'папайя',
           'личжи', 'пармезан', 'дорблю', 'хумус', 'тахини', 'матча', 'фисташк']
 
-# ---------- База продуктов: (ккал, Б, Ж, У) на 100 г ----------
 NUTR = {
     'сливочн': (750, 1, 82, 1), 'масло': (900, 0, 100, 0), 'сметан': (200, 3, 20, 3),
     'сливк': (300, 3, 30, 4), 'кефир': (40, 3, 2, 4), 'молок': (54, 3, 3, 5),
@@ -57,28 +56,22 @@ def parse_weight(line):
     return 0
 
 def calc_kjbu(ingredients):
-    """Считает КБЖУ блюда по ингредиентам (на 100 г)"""
     tw = tk = tp = tf = tc = 0.0
     for line in ingredients:
         w = parse_weight(line)
-        if not w:
-            continue
+        if not w: continue
         low = line.lower()
         entry = next((NUTR[k] for k in sorted(NUTR, key=len, reverse=True) if k in low), None)
-        if not entry:
-            continue
+        if not entry: continue
         tw += w
         tk += w * entry[0] / 100
         tp += w * entry[1] / 100
         tf += w * entry[2] / 100
         tc += w * entry[3] / 100
-    if tw < 100:
-        return {}
+    if tw < 100: return {}
     return {'kcal': round(tk / tw * 100), 'proteins': round(tp / tw * 100, 1),
             'fats': round(tf / tw * 100, 1), 'carbs': round(tc / tw * 100, 1),
             'estimated': True}
-
-# ---------- Чистка ----------
 
 def strip_all_html(text):
     if not text: return ""
@@ -103,7 +96,7 @@ def strip_all_html(text):
 def clean_title(title):
     if not title: return ""
     t = re.sub(r'[\U0001F300-\U0001FAFF\U00002600-\U000027BF\u20e3\ufe0f]+', '', title)
-    return re.sub(r'^[🔁🎬]+\s*', '', t).strip(' .«»"')
+    return re.sub(r'^[🔁]+\s*', '', t).strip(' .«»"')
 
 def short_name(title):
     t = clean_title(title)
@@ -113,7 +106,8 @@ def short_name(title):
 def clean_lines(block, min_len):
     out = []
     for line in (block or '').split('\n'):
-        line = re.sub(r'^\d+[\u20e3\u2024.)\s]+', '', line).strip('•-–—*· ')
+        line = line.strip('•-–—*· \t')
+        line = re.sub(r'^\d+\s*[\u20e3\u2024.)\-—]?\s*', '', line).strip()
         low = line.lower()
         if len(line) >= min_len and not any(j in low for j in JUNK) \
            and not re.match(r'^[бжу]\s*[:/]', low):
@@ -154,37 +148,38 @@ def meal_tags(text):
     if any(k in low for k in ['десерт', 'торт', 'кекс', 'сладк', 'морожен', 'пирог', 'печень', 'булоч']): tags.append('десерт')
     return tags
 
-# ---------- Вкусное описание ----------
-
-def tasty_desc(title, text, ingredients):
-    # 1) живая строка из поста, если она не дублирует заголовок
+def tasty_desc(title, text, ingredients, steps):
+    # живая строка из поста — но НЕ из шагов и НЕ похожая на заголовок
     for l in text.split('\n'):
         l = l.strip()
-        if len(l) > 25 and not similar(l, title) and not looks_like_ingredient(l) \
-           and not any(j in l.lower() for j in JUNK):
-            return l[:200]
-    # 2) аппетитный шаблон из реальных продуктов
+        if len(l) < 26 or similar(l, title) or looks_like_ingredient(l):
+            continue
+        if any(j in l.lower() for j in JUNK):
+            continue
+        if any(similar(l, s) for s in steps):
+            continue
+        return l[:200]
+    # грамматически безопасный шаблон: перечисление в именительном падеже
     names = []
     for i in ingredients[:3]:
         n = re.split(r'\s*[-—]\s*', i)[0].strip().lower()
         if n and len(n) < 30:
             names.append(n)
-    a = names[0] if names else 'это блюдо'
-    b = names[1] if len(names) > 1 else 'ароматные специи'
+    if not names:
+        return 'Домашнее блюдо, которое получается с первого раза'
+    last = names[-1]
+    mid = ', '.join(names[:-1]) if len(names) > 1 else ''
+    ing_str = f'{mid} и {last}' if mid else last
     low = (title + ' ' + ' '.join(names)).lower()
     if any(k in low for k in ['чай', 'лимонад', 'пунш', 'напиток', 'сок', 'квас']):
-        s = f'Смешайте {a} и {b} — освежающий напиток, который уходит быстрее, чем готовится'
-    elif any(k in low for k in ['торт', 'пирог', 'кекс', 'запеканк', 'булоч', 'печень', 'десерт']):
-        s = f'{a.capitalize()} с {b} — румяные, ароматные, и чай исчезает со стола мгновенно'
-    elif any(k in low for k in ['суп', 'борщ']):
-        s = f'{a.capitalize()} с {b} — наваристый суп, за которым семья собирается сама'
-    elif 'салат' in low:
-        s = f'{a.capitalize()} с {b} — хрустящая лёгкость, которую хочется повторить'
-    else:
-        s = f'{a.capitalize()} с {b} — румяно, сочно и без лишних хлопот: тарелки пустеют раньше, чем остынет'
-    return s
-
-# ---------- Разбор ----------
+        return f'В стакане: {ing_str} — освежает лучше любой газировки'
+    if any(k in low for k in ['торт', 'пирог', 'кекс', 'запеканк', 'булоч', 'печень', 'десерт']):
+        return f'В духовке: {ing_str} — румяно, ароматно, и чай исчезает со стола мгновенно'
+    if any(k in low for k in ['суп', 'борщ']):
+        return f'В кастрюле: {ing_str} — наваристый суп, за которым семья собирается сама'
+    if 'салат' in low:
+        return f'В миске: {ing_str} — хрустящая лёгкость, которую хочется повторить'
+    return f'На сковороде: {ing_str} — румяно, сочно, и тарелки пустеют раньше, чем остынет'
 
 def parse_recipe(title, text):
     ing_m = re.search(r'(?:ингредиент\w*|ингридиент\w*|продукты|что понадобится|нам понадобится)[^\n]{0,30}:\s*(.*?)(?=(?:приготовлен\w*|способ|как готовим|как приготовить|\Z))', text, re.S | re.I)
@@ -197,7 +192,7 @@ def parse_recipe(title, text):
     kjbu = {'kcal': int(kcal_m.group(1)), 'proteins': float(bj_u.group(1).replace(',', '.')),
             'fats': float(bj_u.group(2).replace(',', '.')), 'carbs': float(bj_u.group(3).replace(',', '.')),
             'estimated': False} if (kcal_m and bj_u) else calc_kjbu(ingredients)
-    return {'name': short_name(title), 'appetizing': tasty_desc(title, text, ingredients),
+    return {'name': short_name(title), 'appetizing': tasty_desc(title, text, ingredients, steps),
             'ingredients': ingredients, 'steps': steps,
             'time_minutes': int(time_m.group(1)) if time_m else 0, 'kjbu': kjbu,
             'tags': meal_tags(text),
@@ -210,7 +205,7 @@ def ai_recipe(title, text):
     if GROQ_KEY: clients.append(('groq', GROQ_KEY, 'https://api.groq.com/openai/v1', 'llama-3.3-70b-versatile'))
     if QWEN_KEY: clients.append(('qwen', QWEN_KEY, 'https://dashscope-intl.aliyuncs.com/compatible-mode/v1', 'qwen-plus'))
     prompt = ('Верни ТОЛЬКО JSON: {"name":"2-5 слов","appetizing":"1 аппетитное предложение, '
-              'НЕ повторяющее название","ingredients":["..."],"steps":["..."],'
+              'НЕ повторяющее название и НЕ из шагов","ingredients":["..."],"steps":["..."],'
               '"time_minutes":0,"kjbu":{"kcal":0,"proteins":0,"fats":0,"carbs":0,'
               '"estimated":true},"tags":["только из: завтрак,обед,ужин,десерт; макс 2"]}. '
               'Возьми из поста. КБЖУ из поста или рассчитай (estimated:true). Без эмодзи.\n\nПост: '
@@ -241,7 +236,25 @@ def get_stock(query):
         return r.get('photos', [{}])[0].get('src', {}).get('large', '')
     except Exception: return ""
 
-# ---------- Публикация ----------
+def save_image_local(url):
+    """Скачивает картинку в docs/img — сайт отдаёт её сам, без внешних CDN"""
+    if not url or not url.startswith('http'):
+        return ""
+    try:
+        r = requests.get(url, timeout=30)
+        if r.status_code != 200 or len(r.content) > 1500000:
+            return ""
+        if b'<html' in r.content[:200].lower():
+            return ""
+        os.makedirs('docs/img', exist_ok=True)
+        fname = hashlib.md5(url.encode()).hexdigest() + '.jpg'
+        path = os.path.join('docs/img', fname)
+        if not os.path.exists(path):
+            with open(path, 'wb') as f:
+                f.write(r.content)
+        return 'img/' + fname
+    except Exception:
+        return ""
 
 def format_post(d):
     ing = '\n'.join(f"• {H.escape(i)}" for i in d['ingredients']) or '• см. источник'
@@ -312,8 +325,7 @@ def main():
         if should_skip(text): continue
         d = ai_recipe(title, text) or parse_recipe(title, text)
         if not d.get('ingredients') or len(d['ingredients']) < 3 or not d.get('steps'): continue
-        if not d.get('kjbu'):
-            d['kjbu'] = calc_kjbu(d['ingredients'])
+        if not d.get('kjbu'): d['kjbu'] = calc_kjbu(d['ingredients'])
         if not d.get('tags'): d['tags'] = [slot]
         image, video = a.get('image', ''), a.get('video', '')
         if not image and not video: image = get_stock(d['stock_query'])
@@ -336,7 +348,8 @@ def main():
         if not ok: ok = send('message', msg, '')
         if ok:
             published.add(item['a']['link'])
-            site_feed.insert(0, {**d, 'image': image, 'time': datetime.now().isoformat()})
+            site_image = save_image_local(image) or image
+            site_feed.insert(0, {**d, 'image': site_image, 'time': datetime.now().isoformat()})
             ok_count += 1
             print("  ✅ Опубликовано")
         else: print("  ❌ Ошибка отправки")
