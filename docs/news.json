@@ -1,5 +1,64 @@
 [
   {
+    "name": "Простой рыбный суп с овощами в мультиварке",
+    "appetizing": "Простой рыбный суп с овощами в мультиварке",
+    "ingredients": [
+      "Картофель — 2–3 штуки",
+      "Рыбное филе — 350–400 г",
+      "Морковь — 2–3 штуки",
+      "Сладкий перец — 1 штука",
+      "Репчатый лук — 1 штука",
+      "Соль — 1 ч. ложка",
+      "Смесь перцев горошком — по вкусу",
+      "Лавровый лист — 1 штука",
+      "Вода — 1 л",
+      "Зелень — по вкусу"
+    ],
+    "steps": [
+      "1․ Картошку, рыбу, морковь и перец нарежьте средними кусочками, лук — мелкими. Для супа можно взять филе белой или красной рыбы.",
+      "2․ Сложите всё в чашу мультиварки. Добавьте соль, перец, лаврушку. Залейте водой комнатной температуры до отметки.",
+      "3․ Закройте крышку и установите режим для варки супа на 20 минут. Перед подачей посыпьте рубленой зеленью."
+    ],
+    "time_minutes": 20,
+    "kjbu": {},
+    "tags": [
+      "обед",
+      "ужин",
+      "десерт"
+    ],
+    "stock_query": "fish soup",
+    "image": "https://cdn4.telesco.pe/file/BvQabq1BD7Qig9pz7I7W21qenQPWXP8iFmqmPPAZrafu6sFIr8XmtBQsRFAj3HFvjxE1Uq5K89XHjWdUlV6A2c3v5rqAqvYeJJp3IUWNv2ZKXzeTYYMVrQJ0YtYxM4NojJ-Yof_RW1TMfFuLxaVCnopkxL40HlgqW8m55SHEAwAOzrJmhb9nrVDqyZbQw3krWOy0VINzdZkcvJD1HI3zRADKtx21ZrHAQ_rCmtxeWR_YlnjkhEP3jKSp8lbdt_KXfA1_Pl-I0q8PK9T_bArvUtV1iQElXOFDJ4X0YnvcPbh9ZPytWJnbIC3HJ5M-IygaOrzBsOGoF2gRFm7dJJv9cQ.jpg",
+    "time": "2026-08-26T10:34:08.978599"
+  },
+  {
+    "name": "Картофельный гратен с горбушей",
+    "appetizing": "Картофельный гратен с горбушей",
+    "ingredients": [
+      "Филе горбуши - 400 г.",
+      "Картофель - 700 г.",
+      "Сыр - 200 г.",
+      "Молоко - 120 мл.",
+      "Сливки 33% - 350 мл.",
+      "Раст. масло - 1 ст. л.",
+      "Соль, перец - по вкусу"
+    ],
+    "steps": [
+      "Рыбу нарежьте небольшими кусочками, картофель — тонкими кружочками. Сыр натрите на крупной тёрке.",
+      "Тёплое молоко и сливки смешайте с солью.",
+      "Форму смажьте растительным маслом. Выложите в неё треть картофеля, затем половину. Полейте молочной смесью и посыпьте сыром. Повторите слои ещё раз. Покройте картофелем, добавьте сливки с молоком и сыр.",
+      "Запекайте примерно 50–60 минут при 180 °С до мягкости овощей."
+    ],
+    "time_minutes": 60,
+    "kjbu": {},
+    "tags": [
+      "обед",
+      "ужин"
+    ],
+    "stock_query": "potatoes",
+    "image": "https://cdn4.telesco.pe/file/T0odoIfl_kTBX0hhD4iyD7m1teyhI3sBUJ3_8yCJWLic1PVGSLI9qdUtGG-cMfGzyaR_Mp7n7pDE8eFMqoNZh35KGzsjo7pWCpImM4Q6a0u9LSGIuHe96vz83Bx_VvFMqfuAkTLW77RcH8Q49laN_H8CVhVBMgJ0d7ZBz414ZF19RB42AfKzCgNO3z6u6bPV31rk0E0wbf-YwmMpEiLamwJXqdi35sa2RL7gPrmA6dyD4l5gKqx-09BlPkgPdVQb2XRzR1XJtByTS6-0nu5IIbQF6QtFzRWsy40UV-eQz7meOnHqTtbmtduH_ShKjp0IveDVqjRcjfgN0tktJPDFdw.jpg",
+    "time": "2026-08-26T10:34:06.012912"
+  },
+  {
     "name": "Отварной рис с кокосовым молоком",
     "appetizing": "Отварной рис с кокосовым молоком",
     "ingredients": [
