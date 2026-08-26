@@ -39,23 +39,16 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
         QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        EVENT_NAME: ${{ github.event_name }}
       run: python scripts/publish_to_telegram.py
     
-    - name: Copy feed for site (every 2 hours)
+    - name: Copy feed for site
       run: |
-        HOUR=$(date -u +%H)
-        case "$HOUR" in
-          00|02|04|06|08|10|12|14|16|18|20|22) EVEN=1 ;;
-          *) EVEN=0 ;;
-        esac
-        if [ "$EVEN" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-          if [ -f src/content/site_feed.json ]; then
-            cp src/content/site_feed.json docs/news.json
-            echo "🌐 Site feed updated"
-          fi
-        else
-          echo "⏭️ Site update skipped this hour"
+        if [ -f src/content/site_feed.json ]; then
+          cp src/content/site_feed.json docs/news.json
+          echo "🌐 Site feed updated"
         fi
     
     - name: Commit and push changes

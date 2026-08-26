@@ -76,7 +76,7 @@
 let POSTS = [], TAG = '';
 
 function postHTML(p) {
-    const img = p.image ? `<img src="${p.image}" loading="lazy" onerror="this.remove()">` : '';
+    const img = p.image ? `<img src="${p.image}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : '';
     const ing = (p.ingredients||[]).length ? `<h4>🥄 Ингредиенты</h4><ul>${p.ingredients.map(i=>`<li>${i}</li>`).join('')}</ul>` : '';
     const stp = (p.steps||[]).length ? `<h4>👩‍ Приготовление</h4><ol>${p.steps.map(s=>`<li>${s}</li>`).join('')}</ol>` : '';
     const k = p.kjbu||{};
