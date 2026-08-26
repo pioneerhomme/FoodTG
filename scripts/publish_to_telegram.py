@@ -3,7 +3,7 @@ import requests
 import os
 import re
 import html as html_lib
-from bs4 import BeautifulSoup
+from datetime import datetime
 
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID', '')
@@ -19,7 +19,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 }
 
-# Маркеры рекламы и "не рецептов"
 SKIP_MARKERS = [
     'подпишись', 'подписывайся', 'наш канал', 'реклама', 'партнер', 'партнёр',
     'промокод', 'розыгрыш', 'приватный чат', 't.me/', 'vk.com/', 'youtube.com/',
@@ -62,16 +61,13 @@ def should_skip(article):
     text = remove_links(html_to_paragraphs(description))
     combined = (title + ' ' + text).lower()
     
-    # Реклама и не-рецепты
     for marker in SKIP_MARKERS:
         if marker in combined:
             return True, "маркер пропуска"
     
-    # Слишком короткий текст — скорее всего просто фото или видео
     if len(text) < 150:
         return True, "слишком коротко"
     
-    # Должны быть ключевые слова рецепта
     recipe_keywords = ['ингредиент', 'приготовлен', 'рецепт', 'смешать', 'добавить', 
                        'жарить', 'варить', 'тушить', 'запекать', 'нарезать', 
                        'грамм', 'ст.л', 'ч.л', 'минут']
@@ -145,7 +141,6 @@ JSON:"""
             response_format={"type": "json_object"}
         )
         content = response.choices[0].message.content.strip()
-        # Очистка от возможных markdown-обёрток
         content = re.sub(r'^```json\s*', '', content)
         content = re.sub(r'\s*```$', '', content)
         data = json.loads(content)
@@ -197,15 +192,12 @@ def format_recipe_post(recipe_data, image, video):
     kjbu = recipe_data.get('kjbu', {})
     tags = recipe_data.get('tags', [])
     
-    # Ингредиенты
     ing_lines = [f"• {html_lib.escape(ing)}" for ing in ingredients[:12]]
     ingredients_block = '\n'.join(ing_lines) if ing_lines else ''
     
-    # Шаги — нумеруем
     steps_lines = [f"{i+1}. {html_lib.escape(s)}" for i, s in enumerate(steps[:8])]
     steps_block = '\n'.join(steps_lines) if steps_lines else ''
     
-    # КБЖУ
     kcal = kjbu.get('kcal', 0)
     p = kjbu.get('proteins', 0)
     f = kjbu.get('fats', 0)
@@ -213,12 +205,10 @@ def format_recipe_post(recipe_data, image, video):
     est = '≈' if kjbu.get('estimated', False) else ''
     kjbu_line = f"🔥 <b>КБЖУ на 100 г:</b> {est}{kcal} ккал • Б: {p} • Ж: {f} • У: {c}"
     
-    # Хэштеги
     base_tags = tags[:3] if tags else ['рецепт', 'ужин', 'вкусно']
     hashtags = ' '.join('#' + t.replace(' ', '').lower() for t in base_tags)
     hashtags += ' #рецепт'
     
-    # Время
     time_line = f"⏱ <b>Время:</b> {time_min} мин"
     if servings:
         time_line += f" • {servings}"
@@ -317,20 +307,16 @@ def score_recipe(article, recipe_data):
     score = 5
     source = article.get('source', '').lower()
     
-    # Каналы с КБЖУ — приоритет
     if 'простые рецепты' in source or 'аймкук' in source:
         score += 3
     
-    # Большие каналы — приоритет
     if 'кухня наизнанку' in source:
         score += 2
     
-    # Если в данных есть КБЖУ из источника (не расчётное)
     kjbu = recipe_data.get('kjbu', {}) if recipe_data else {}
     if not kjbu.get('estimated', True) and kjbu.get('kcal'):
         score += 2
     
-    # Свежесть
     score += min(2, article.get('timestamp', 0) / (24 * 3600))
     
     return score
@@ -349,6 +335,21 @@ def save_published(published):
     f = 'src/content/published.json'
     with open(f, 'w', encoding='utf-8') as fh:
         json.dump(list(published), fh, ensure_ascii=False, indent=2)
+
+def load_site_feed():
+    f = 'src/content/site_feed.json'
+    if os.path.exists(f):
+        try:
+            with open(f, 'r', encoding='utf-8') as fh:
+                return json.load(fh)
+        except Exception:
+            return []
+    return []
+
+def save_site_feed(feed):
+    f = 'src/content/site_feed.json'
+    with open(f, 'w', encoding='utf-8') as fh:
+        json.dump(feed, fh, ensure_ascii=False, indent=2)
 
 def main():
     print("🍳 Начинаем публикацию рецептов...")
@@ -370,7 +371,6 @@ def main():
     new_articles = [a for a in articles if a['link'] not in published]
     print(f"🆕 Новых рецептов: {len(new_articles)}")
     
-    # Фильтр
     clean_articles = []
     for a in new_articles:
         skip, reason = should_skip(a)
@@ -380,7 +380,6 @@ def main():
             clean_articles.append(a)
     print(f"✅ После фильтра: {len(clean_articles)} рецептов")
     
-    # Обрабатываем первые 15, отбираем топ-5 по оценке
     candidates = clean_articles[:15]
     prepared = []
     for a in candidates:
@@ -396,7 +395,6 @@ def main():
         
         score = score_recipe(a, recipe_data)
         
-        # Медиа: берём из поста, иначе — сток
         image = a.get('image', '')
         video = a.get('video', '')
         if not image and not video:
@@ -413,7 +411,6 @@ def main():
         })
         print(f"  ✅ {recipe_data.get('name')} → score {score}")
     
-    # Сортируем по оценке, берём топ
     prepared.sort(key=lambda x: x['score'], reverse=True)
     to_publish = prepared[:POSTS_PER_RUN]
     
@@ -421,6 +418,7 @@ def main():
         print("✅ Нет новых рецептов для публикации")
         return
     
+    site_feed = load_site_feed()
     success_count = 0
     for i, item in enumerate(to_publish, 1):
         article = item['article']
@@ -444,12 +442,28 @@ def main():
         if ok:
             published.add(article['link'])
             success_count += 1
+            # Сохраняем для сайта
+            site_feed.insert(0, {
+                "name": html_lib.escape(recipe_data.get('name', '')),
+                "appetizing": html_lib.escape(recipe_data.get('appetizing', '')),
+                "ingredients": [html_lib.escape(i) for i in recipe_data.get('ingredients', [])],
+                "steps": [html_lib.escape(s) for s in recipe_data.get('steps', [])],
+                "time_minutes": recipe_data.get('time_minutes', 0),
+                "servings": recipe_data.get('servings', ''),
+                "kjbu": recipe_data.get('kjbu', {}),
+                "tags": [t.replace(' ', '').lower() for t in recipe_data.get('tags', [])],
+                "image": image or "",
+                "time": datetime.now().isoformat()
+            })
             print(f"  ✅ Опубликовано")
         else:
             print(f"  ❌ Не удалось опубликовать")
     
+    site_feed = site_feed[:60]
+    save_site_feed(site_feed)
     save_published(published)
     print(f"\n✅ Успешно опубликовано: {success_count}")
+    print(f"🌐 Лента сайта: {len(site_feed)} рецептов")
 
 if __name__ == "__main__":
     main()

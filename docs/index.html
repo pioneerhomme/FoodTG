@@ -3,168 +3,218 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IGNIS — горячие новости</title>
+<title>Ignis — простые и вкусные рецепты</title>
 <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        background: #f6f7f9;
+        background: #eef2f5;
         color: #14141a;
-        min-height: 100vh;
     }
-    header {
+    .wrap { max-width: 720px; margin: 0 auto; padding: 24px 14px 60px; }
+    /* Карточка канала — как на tlgrm.ru */
+    .channel-card {
         background: #fff;
-        border-bottom: 1px solid #e8ebf0;
-        padding: 14px 24px;
+        border-radius: 12px;
+        padding: 22px;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: sticky;
-        top: 0;
-        z-index: 20;
+        gap: 18px;
+        align-items: flex-start;
+        box-shadow: 0 1px 3px rgba(0,0,0,.08);
+        margin-bottom: 16px;
     }
-    .logo { font-size: 1.4em; font-weight: 900; letter-spacing: 1px; }
-    .logo em { font-style: normal; color: #ff4d00; }
+    .avatar {
+        width: 96px; height: 96px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #ff9a3d, #ff4d00);
+        display: flex; align-items: center; justify-content: center;
+        font-size: 46px;
+        flex-shrink: 0;
+    }
+    .ch-info { flex: 1; min-width: 0; }
+    .ch-info h1 { font-size: 1.5em; margin-bottom: 4px; }
+    .ch-cat { color: #2AABEE; font-size: .85em; font-weight: 600; margin-bottom: 8px; }
+    .ch-desc { color: #5c6675; font-size: .95em; line-height: 1.45; margin-bottom: 12px; }
+    .ch-stats { display: flex; gap: 22px; margin-bottom: 14px; }
+    .stat b { display: block; font-size: 1.2em; }
+    .stat span { color: #8a93a3; font-size: .8em; }
     .subscribe {
-        background: #ff4d00;
+        display: inline-block;
+        background: #2AABEE;
         color: #fff;
         text-decoration: none;
         font-weight: 700;
-        font-size: 0.92em;
-        padding: 10px 22px;
-        border-radius: 24px;
-        box-shadow: 0 4px 14px rgba(255,77,0,.3);
-        transition: transform .15s;
+        padding: 10px 26px;
+        border-radius: 8px;
+        transition: background .15s;
     }
-    .subscribe:hover { transform: scale(1.05); }
-    main { max-width: 860px; margin: 0 auto; padding: 36px 18px 60px; }
-    h1 { font-size: 1.6em; font-weight: 800; margin-bottom: 24px; }
-    .card {
-        display: flex;
-        gap: 22px;
+    .subscribe:hover { background: #1e96d4; }
+    .ch-user { color: #8a93a3; font-size: .85em; margin-left: 12px; }
+    /* Панель тегов */
+    .tags-bar {
         background: #fff;
-        border: 1px solid #e8ebf0;
-        border-radius: 16px;
-        padding: 22px;
+        border-radius: 12px;
+        padding: 12px 14px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        box-shadow: 0 1px 3px rgba(0,0,0,.08);
         margin-bottom: 16px;
-        box-shadow: 0 1px 3px rgba(20,20,30,.05);
-        transition: box-shadow .2s, transform .2s;
     }
-    .card:hover {
-        box-shadow: 0 8px 24px rgba(20,20,30,.09);
-        transform: translateY(-2px);
+    .tag-btn {
+        border: 1px solid #dfe5ec;
+        background: #f6f8fa;
+        color: #40507a;
+        font-size: .82em;
+        font-weight: 600;
+        padding: 6px 14px;
+        border-radius: 16px;
+        cursor: pointer;
+        transition: all .15s;
     }
-    .content { flex: 1; display: flex; flex-direction: column; min-width: 0; }
-    .meta { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; }
-    .chip {
-        font-size: 0.76em;
-        font-weight: 700;
-        padding: 4px 12px;
+    .tag-btn:hover { border-color: #2AABEE; color: #2AABEE; }
+    .tag-btn.active { background: #2AABEE; border-color: #2AABEE; color: #fff; }
+    /* Посты — как карточки tlgrm */
+    .post {
+        background: #fff;
         border-radius: 12px;
+        padding: 18px;
+        box-shadow: 0 1px 3px rgba(0,0,0,.08);
+        margin-bottom: 14px;
     }
-    .time { color: #9aa3b2; font-size: 0.8em; }
-    .card h3 {
-        font-size: 1.25em;
-        font-weight: 800;
-        line-height: 1.35;
-        margin-bottom: 8px;
-    }
-    .card p {
-        color: #5c6675;
-        line-height: 1.6;
-        font-size: 0.97em;
-    }
-    .thumb {
-        width: 280px;
-        height: 190px;
+    .post img {
+        width: 100%;
+        max-height: 420px;
         object-fit: cover;
-        border-radius: 12px;
-        flex-shrink: 0;
+        border-radius: 8px;
+        margin-bottom: 14px;
     }
-    .card.featured { padding: 28px; }
-    .card.featured h3 { font-size: 1.7em; }
-    .card.featured p { font-size: 1.05em; }
-    .card.featured .thumb { width: 380px; height: 260px; }
-    .loading, .empty {
-        text-align: center;
+    .post h3 { font-size: 1.2em; margin-bottom: 6px; }
+    .appetizing { color: #5c6675; font-style: italic; line-height: 1.5; margin-bottom: 12px; }
+    .post h4 { font-size: .95em; margin: 12px 0 6px; }
+    .post ul, .post ol { padding-left: 22px; color: #333c4d; line-height: 1.55; font-size: .93em; }
+    .post li { margin-bottom: 3px; }
+    .meta {
+        margin-top: 14px;
+        padding-top: 12px;
+        border-top: 1px solid #eef2f5;
         color: #8a93a3;
-        padding: 80px 0;
-        font-size: 1.1em;
+        font-size: .85em;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 16px;
+        align-items: center;
     }
-    footer { text-align: center; color: #9aa3b2; font-size: 0.85em; padding: 24px; }
-    @media (max-width: 700px) {
-        .card { flex-direction: column-reverse; }
-        .thumb, .card.featured .thumb { width: 100%; height: 210px; }
-        .card.featured h3 { font-size: 1.35em; }
-        h1 { font-size: 1.3em; }
+    .meta .kjbu { color: #ff4d00; font-weight: 700; }
+    .post-tags { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; }
+    .post-tag {
+        color: #2AABEE;
+        font-size: .82em;
+        font-weight: 600;
+        cursor: pointer;
+        background: none; border: none;
+    }
+    .post-tag:hover { text-decoration: underline; }
+    .loading, .empty { text-align: center; color: #8a93a3; padding: 60px 0; }
+    @media (max-width: 560px) {
+        .channel-card { flex-direction: column; align-items: center; text-align: center; }
+        .ch-stats { justify-content: center; }
+        .post-tags { margin-left: 0; }
     }
 </style>
 </head>
 <body>
-<header>
-    <div class="logo">🔥 IG<em>NIS</em></div>
-    <a class="subscribe" href="https://t.me/ignisnovosti" target="_blank">🔔 Подписаться</a>
-</header>
-<main>
-    <h1>Для тех, кто хочет знать первым</h1>
-    <div id="feed"><div class="loading">Загрузка новостей...</div></div>
-</main>
-<footer>IGNIS • свежие новости каждый день</footer>
-<script>
-const CAT_COLORS = {
-    'технологии': '#2563eb',
-    'экономика': '#059669',
-    'происшествия': '#dc2626',
-    'политика': '#7c3aed',
-    'общество': '#ea580c',
-    'наука': '#0891b2',
-    'спорт': '#16a34a',
-    'шоубиз': '#db2777',
-    'вмире': '#4f46e5',
-};
-
-function chipStyle(tag) {
-    const c = CAT_COLORS[tag.replace('#', '')] || '#64748b';
-    return `background:${c}1a;color:${c}`;
-}
-
-function cardHTML(p, featured) {
-    const img = p.image ? `<img class="thumb" src="${p.image}" alt="" loading="lazy" onerror="this.remove()">` : '';
-    const tag = (p.hashtags || '').split(' ')[0] || '#новости';
-    const time = p.time ? new Date(p.time).toLocaleString('ru-RU', {day:'numeric', month:'long', hour:'2-digit', minute:'2-digit'}) : '';
-    return `
-    <article class="card${featured ? ' featured' : ''}">
-        <div class="content">
-            <div class="meta">
-                <span class="chip" style="${chipStyle(tag)}">${tag}</span>
-                <span class="time">${time}</span>
+<div class="wrap">
+    <div class="channel-card">
+        <div class="avatar">🍲</div>
+        <div class="ch-info">
+            <h1>Ignis</h1>
+            <div class="ch-cat">Еда и напитки</div>
+            <div class="ch-desc">Простые и вкусные рецепты из продуктов, которые есть в любом магазине. Калорийность, время готовки и пошаговые инструкции — всё по делу.</div>
+            <div class="ch-stats">
+                <div class="stat"><b id="count">—</b><span>рецептов</span></div>
+                <div class="stat"><b>каждые 2 ч</b><span>обновление</span></div>
             </div>
-            <h3>${p.title}</h3>
-            <p>${p.text}</p>
+            <a class="subscribe" href="https://t.me/ignisnovosti" target="_blank">🔔 Подписаться</a>
+            <span class="ch-user">@ignisnovosti</span>
         </div>
+    </div>
+    <div class="tags-bar" id="tagsBar"></div>
+    <div id="feed"><div class="loading">Загрузка рецептов...</div></div>
+</div>
+<script>
+let ALL_POSTS = [];
+let ACTIVE_TAG = '';
+
+function postHTML(p) {
+    const img = p.image ? `<img src="${p.image}" alt="" loading="lazy" onerror="this.remove()">` : '';
+    const ing = (p.ingredients || []).length
+        ? `<h4>🥄 Ингредиенты</h4><ul>${p.ingredients.map(i => `<li>${i}</li>`).join('')}</ul>` : '';
+    const steps = (p.steps || []).length
+        ? `<h4>👩‍ Приготовление</h4><ol>${p.steps.map(s => `<li>${s}</li>`).join('')}</ol>` : '';
+    const k = p.kjbu || {};
+    const est = k.estimated ? '≈' : '';
+    const kjbu = k.kcal ? `<span class="kjbu">🔥 ${est}${k.kcal} ккал</span> <span>Б ${k.proteins} • Ж ${k.fats} • У ${k.carbs}</span>` : '';
+    const time = p.time_minutes ? `<span>⏱ ${p.time_minutes} мин</span>` : '';
+    const date = p.time ? new Date(p.time).toLocaleString('ru-RU', {day:'numeric', month:'long', hour:'2-digit', minute:'2-digit'}) : '';
+    const tags = (p.tags || []).map(t =>
+        `<button class="post-tag" onclick="setTag('${t}')">#${t}</button>`).join('');
+    return `
+    <article class="post">
         ${img}
+        <h3>${p.name}</h3>
+        <div class="appetizing">${p.appetizing}</div>
+        ${ing}
+        ${steps}
+        <div class="meta">
+            ${time}${kjbu}
+            <span>${date}</span>
+            <span class="post-tags">${tags}</span>
+        </div>
     </article>`;
 }
 
-async function loadFeed() {
+function render() {
     const feed = document.getElementById('feed');
+    const posts = ACTIVE_TAG
+        ? ALL_POSTS.filter(p => (p.tags || []).includes(ACTIVE_TAG))
+        : ALL_POSTS;
+    feed.innerHTML = posts.length
+        ? posts.map(postHTML).join('')
+        : '<div class="empty">По этому тегу пока пусто 🙂</div>';
+}
+
+function setTag(tag) {
+    ACTIVE_TAG = (ACTIVE_TAG === tag) ? '' : tag;
+    document.querySelectorAll('.tag-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.tag === ACTIVE_TAG));
+    render();
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+async function loadFeed() {
     try {
         const resp = await fetch('news.json?ts=' + Date.now());
         if (!resp.ok) throw new Error();
-        const posts = await resp.json();
-        if (!posts.length) {
-            feed.innerHTML = '<div class="empty">Новости уже в пути — загляните через пару минут</div>';
-            return;
-        }
-        feed.innerHTML =
-            cardHTML(posts[0], true) +
-            posts.slice(1, 15).map(p => cardHTML(p, false)).join('');
+        ALL_POSTS = await resp.json();
+        document.getElementById('count').textContent = ALL_POSTS.length;
+        
+        // Собираем все теги с счётчиками
+        const counter = {};
+        ALL_POSTS.forEach(p => (p.tags || []).forEach(t => counter[t] = (counter[t] || 0) + 1));
+        const tags = Object.keys(counter).sort((a,b) => counter[b] - counter[a]).slice(0, 12);
+        document.getElementById('tagsBar').innerHTML =
+            `<button class="tag-btn ${ACTIVE_TAG ? '' : 'active'}" data-tag="" onclick="setTag('')">Все</button>` +
+            tags.map(t => `<button class="tag-btn ${ACTIVE_TAG === t ? 'active' : ''}" data-tag="${t}" onclick="setTag('${t}')">#${t} · ${counter[t]}</button>`).join('');
+        
+        render();
     } catch (e) {
-        feed.innerHTML = '<div class="empty">Лента ещё наполняется. Загляните чуть позже 🙂</div>';
+        document.getElementById('feed').innerHTML =
+            '<div class="empty">Лента ещё наполняется. Загляните чуть позже 🙂</div>';
     }
 }
 loadFeed();
-setInterval(loadFeed, 120 * 60 * 1000);
+setInterval(loadFeed, 30 * 60 * 1000);
 </script>
 </body>
 </html>

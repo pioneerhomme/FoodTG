@@ -26,12 +26,12 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install feedparser requests deep-translator trafilatura beautifulsoup4 lxml openai
+        pip install feedparser requests beautifulsoup4 lxml openai
     
-    - name: Collect news
+    - name: Collect recipes
       run: python scripts/collect_news.py
     
-    - name: Translate news
+    - name: Prepare recipes
       run: python scripts/translate_news.py
     
     - name: Publish to Telegram
@@ -42,10 +42,26 @@ jobs:
         PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       run: python scripts/publish_to_telegram.py
     
+    - name: Copy feed for site (every 2 hours)
+      run: |
+        HOUR=$(date -u +%H)
+        case "$HOUR" in
+          00|02|04|06|08|10|12|14|16|18|20|22) EVEN=1 ;;
+          *) EVEN=0 ;;
+        esac
+        if [ "$EVEN" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ -f src/content/site_feed.json ]; then
+            cp src/content/site_feed.json docs/news.json
+            echo "🌐 Site feed updated"
+          fi
+        else
+          echo "⏭️ Site update skipped this hour"
+        fi
+    
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add src/content/
-        git diff --staged --quiet || git commit -m "Update news [skip ci]"
+        git add src/content/ docs/news.json
+        git diff --staged --quiet || git commit -m "Update recipes [skip ci]"
         git push
