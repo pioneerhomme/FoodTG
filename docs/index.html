@@ -53,7 +53,7 @@ function imgTag(url) {
 function postHTML(p) {
     const img = imgTag(p.image);
     const ing = (p.ingredients||[]).length ? `<h4>🥄 Ингредиенты</h4><ul>${p.ingredients.map(i=>`<li>${i}</li>`).join('')}</ul>` : '';
-    const stp = (p.steps||[]).length ? `<h4>👩‍ Приготовление</h4><ol>${p.steps.map((s,i)=>`<li>${i+1}. ${s}</li>`).join('')}</ol>` : '';
+    const stp = (p.steps||[]).length ? `<h4>👩‍ Приготовление</h4><ol>${p.steps.map((s,i)=>`<li>${i+1}. ${s.replace(/^\d+\W{0,2}/,'').trim()}</li>`).join('')}</ol>` : '';
     const k = p.kjbu||{};
     const kjbu = k.kcal ? `<span class="kjbu">🔥 ${k.estimated?'≈':''}${k.kcal} ккал • Б${k.proteins} Ж${k.fats} У${k.carbs}</span>` : '';
     const tm = p.time_minutes ? `<span>⏱ ${p.time_minutes} мин</span>` : '';

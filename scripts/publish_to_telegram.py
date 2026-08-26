@@ -258,7 +258,7 @@ def save_image_local(url):
 
 def format_post(d):
     ing = '\n'.join(f"• {H.escape(i)}" for i in d['ingredients']) or '• см. источник'
-    stp = '\n'.join(f"{i+1}. {H.escape(s)}" for i, s in enumerate(d['steps'])) or '1. См. источник'
+    stp = '\n'.join(f"{i+1}. {H.escape(s)}" for i, s in enumerate([re.sub(r'^\d+\W{0,2}', '', x).strip() for x in d['steps']])) or '1. См. источник'
     k = d.get('kjbu', {})
     kjbu = f"🔥 <b>КБЖУ:</b> {'≈' if k.get('estimated') else ''}{k.get('kcal', 0)} ккал • Б{k.get('proteins', 0)} Ж{k.get('fats', 0)} У{k.get('carbs', 0)}" if k else ""
     time_l = f"⏱ <b>Время:</b> {d['time_minutes']} мин" if d.get('time_minutes') else ""
