@@ -1,5 +1,65 @@
 [
   {
+    "name": "Простой салат с яйцами и зелёным луком",
+    "appetizing": "В миске: яйцо, зеленый лук и майонез — хрустящая лёгкость, которую хочется повторить",
+    "ingredients": [
+      "Яйцо - 4-5 шт.",
+      "Зеленый лук - 1/2 пучка",
+      "Майонез - 100 г.",
+      "Соль, перец - по вкусу"
+    ],
+    "steps": [
+      "Отварите яйца вкрутую, остудите и почистите.",
+      "Нарежьте яйца небольшими кубиками.",
+      "Мелко порубите лук.",
+      "Добавьте к ингредиентам майонез и соль и перемешайте."
+    ],
+    "time_minutes": 0,
+    "kjbu": {
+      "kcal": 155,
+      "proteins": 13.0,
+      "fats": 11.0,
+      "carbs": 1.0,
+      "estimated": true
+    },
+    "tags": [
+      "ужин"
+    ],
+    "stock_query": "salad",
+    "image": "img/da71a74cfdd8d95173ff51894244ae35.jpg",
+    "time": "2026-08-28T04:03:33.345792"
+  },
+  {
+    "name": "Лимонад из киви",
+    "appetizing": "В стакане: киви, сахар и лимонный сок — освежает лучше любой газировки",
+    "ingredients": [
+      "Киви - 6 шт.",
+      "Сахар - 150 г.",
+      "Лимонный сок - 500 мл.",
+      "Вода без газа - 250 мл.",
+      "Вода газ. - 1 л."
+    ],
+    "steps": [
+      "Очистите киви и нарежьте кусочками. Пюрируйте их вместе с сахаром в блендере.",
+      "Смешайте с лимонный соком и обычной водой. Охладите в холодильнике.",
+      "При подаче наполните бокал фруктовым пюре наполовину. Наполните доверху газировкой. Украсьте киви."
+    ],
+    "time_minutes": 0,
+    "kjbu": {
+      "kcal": 83,
+      "proteins": 0.6,
+      "fats": 0.0,
+      "carbs": 21.7,
+      "estimated": true
+    },
+    "tags": [
+      "завтрак"
+    ],
+    "stock_query": "lemonade",
+    "image": "https://cdn4.telesco.pe/file/PBwHIFyLegyhVyhJC7FmtMG38XzhgUdL6Zw99DUmDNPW75F5zTVYuyUsSwdHwd1bNgiPNUJg1XEklpxy47RWpoTOwKLP7Z22e0t1iv687I5EkBDy68h63jLdp395ffgmxG6jNTCfr0BBoLmLoG5RxWS6oY4FO2mML-ou3GbqTWDwMdajQ5480a3arWD7RXBfg-q2NhttHJUPNv1mTmuDr9OaTpBUBEVVUoSNCQ0JTI3O0TuPlBlnO2rXaKj7wNPeeeXw-PuiN3av53T5b4mCvCGcCzXLjMqW4Lw5q27eKNU4Hf5Jz2HRoXKvEN3-lvfaoxaNz79Spg_-tJ8IMQBYHQ.jpg",
+    "time": "2026-08-28T04:03:30.837985"
+  },
+  {
     "name": "Свинина с картошкой и грибами в духовке",
     "appetizing": "На сковороде: свинина, шампиньоны и картофель — румяно, сочно, и тарелки пустеют раньше, чем остынет",
     "ingredients": [
